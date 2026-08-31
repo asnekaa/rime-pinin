@@ -48,8 +48,8 @@ global_ascii: false                        # 切换为 ascii 模式时，是否�
 # [style]
 # 字体；候选项、候选窗口的行为、布局及样式
 style:
-  color_scheme: mint_light_blue      # 默认配色方案
-  color_scheme_dark: purity_of_form_custom                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
+  color_scheme: mspy_light      # 默认配色方案
+  color_scheme_dark: mspy_dark                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
 
   # 全局字体
   # 格式：字体1:起始码位:结束码位:字重:字形,字体2……，字体会依次 fallback
@@ -152,6 +152,36 @@ preset_color_schemes:
     # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
     # nextpage_color: 0x000000               # 下一页
     # prevpage_color: 0x000000               # 上一页
+
+  mspy_light:
+    name: "微软拼音浅色／mspy_light"
+    author: ASneka
+    color_format: rgba
+    # hilited_mark_color: 0x0067C0
+    hilited_label_color: 0xcac9c8
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0xFFFFFF
+    label_color: 0x4C566A
+    candidate_text_color: 0x2E3440
+    comment_text_color: 0x2E3440
+    hilited_candidate_back_color: 0x0067C0
+    back_color: 0xF9F9F9
+    border_color: 0xF0F0F0
+
+  mspy_dark:
+    name: "微软拼音深色／mspy_dark"
+    author: ASneka
+    color_format: rgba
+    # hilited_mark_color: 0x4CC2FF
+    hilited_label_color: 0x4C4C4C
+    hilited_candidate_text_color: 0x000000
+    hilited_comment_text_color: 0x000000
+    label_color: 0xBBBBBB
+    candidate_text_color: 0xEEEEEE
+    comment_text_color: 0xEEEEEE
+    hilited_candidate_back_color: 0x4CC2FF
+    back_color: 0x2C2C2C
+    border_color: 0x383838
 
   # 修改自鼠须管配色方案
   purity_of_form_custom:
