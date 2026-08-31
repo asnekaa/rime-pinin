@@ -39,6 +39,7 @@
 是	s	1
 是不是	sbs	1
 写	xie	1
+现在	xz	1
 有没有	ymy	1
 一样	yy	1
 怎么	zm	2
