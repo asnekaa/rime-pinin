@@ -30,6 +30,7 @@
 搞  gao 1
 搞的	gd	2
 好吧	hb	1
+好的    hd  1
 加	jia	1
 可是	ks	1
 了	l	1
