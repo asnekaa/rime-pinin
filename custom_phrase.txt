@@ -32,6 +32,7 @@
 搞的	gd	2
 好吧	hb	1
 好的    hd  1
+好家伙	hjh	1
 加	jia	1
 可是	ks	1
 了	l	1
@@ -39,12 +40,16 @@
 然后	rh	1
 是	s	1
 是不是	sbs	1
+时候	shh	1
+图	tu	1
 写	xie	1
 现在	xz	1
 有没有	ymy	1
+用	yo	1
 一样	yy	1
 怎么	zm	2
 这么	zm	1
+这么强	zmq	1
 怎样	zy	2
 这样	zy	1
 真正	zz	2
@@ -55,6 +60,7 @@ GitHub	gh	1
 level	lv	1
 Windows	win	1
 
+汪壮壮	wzz	1
 esnakesnake@gmail.com	email	3
 asneka@qq.com	email	2
 1256668096@qq.com	email	1
