@@ -22,12 +22,12 @@ patch:
 
   emoji: null
 
-  # 拼写设定
-  speller/algebra/@before 0: "derive/^([jqx])i(a|e|an|ang|ao|ai|en|eng|ong|ing|ian|iang|iao|ie|in|iong|ou|ui|un|uan|ue)$/$1$2/"
-
   custom_phrase:
     dictionary: ""
-    user_dict: custom_phrase/rime_ice
+    user_dict: custom_phrase/rime-ice
     db_class: stabledb
     enable_completion: false
     enable_sentence: false
+
+  # 拼写设定
+  speller/algebra/@before 0: "derive/^([jqx])i(a|e|an|ang|ao|ai|en|eng|ong|ing|ian|iang|iao|ie|in|iong|ou|ui|un|uan|ue)$/$1$2/"
