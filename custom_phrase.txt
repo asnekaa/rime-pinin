@@ -16,15 +16,10 @@
 #
 # 此行之后不能写注释
 
-一	i	4
-以	i	3
-已	i	2
-一个	ig	1
-有	u	2
-又	u	1
-
 吧	b	1
 被  be  1
+不过	bg	1
+不去	bq	1
 别人	br	1
 当然	dr	1
 反正	fz	1
@@ -33,16 +28,32 @@
 好吧	hb	1
 好的    hd  1
 好家伙	hjh	1
+好像	hx	1
+一	i	3
+以	i	2
+已	i	1
+一个	ig	1
+以为    iw  1
+就	j	1
+就是	js	1
+加	ja	1
 可是	ks	1
 了	l	1
 蓝白碗	lbw	1
+没有	mu	1
+没用	my	1
 然后	rh	1
 是	s	1
 是不是	sbs	1
 时候	sh	1
-天天    tt  1
+什么时候	smsh	1
+所有	su	1
+所以	sy	1
+天天    tt	1
+有	u	2
+又	u	1
+有没有	umu	1
 现在	xz	1
-有没有	ymy	1
 用	yo	1
 一样	yy	1
 怎么	zm	2
@@ -59,7 +70,6 @@
 词首	cishou	1
 促音	cuyin	1
 搞  gao 1
-加	jia	1
 图	tu	1
 写	xie	1
 音	yin	1
@@ -68,6 +78,9 @@ Geometry Dash	gd	1
 GitHub	gh	1
 level	lv	1
 Windows	win	1
+
+ASneka	AS	1
+ESnake	ES	1
 
 汪壮壮	wzz	1
 esnakesnake@gmail.com	email	3
