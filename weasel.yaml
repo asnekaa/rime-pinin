@@ -48,14 +48,14 @@ global_ascii: false                        # 切换为 ascii 模式时，是否�
 # [style]
 # 字体；候选项、候选窗口的行为、布局及样式
 style:
-  color_scheme: mspy_light      # 默认配色方案
-  color_scheme_dark: mspy_dark                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
+  color_scheme: purity_of_form_custom      # 默认配色方案
+  # color_scheme_dark: nord                # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
 
   # 全局字体
   # 格式：字体1:起始码位:结束码位:字重:字形,字体2……，字体会依次 fallback
   # 详细设定请参考 <https://github.com/rime/weasel/wiki/字體設定>
-  font_face: "LXGW WenKai, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:30:39, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Segoe UI, Microsoft YaHei, DengXian, Segoe UI Emoji, Noto Color Emoji, Segoe UI Symbol"
-  label_font_face: "LXGW WenKai"       # 标签字体
+  font_face: "Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:30:39, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Segoe UI, Microsoft YaHei, DengXian, Segoe UI Emoji, Noto Color Emoji, Segoe UI Symbol"
+  label_font_face: "Microsoft YaHei"       # 标签字体
   comment_font_face: "Microsoft YaHei"     # 注释字体
   font_point: 14                           # 全局字体字号
   label_font_point: 14                     # 标签字体字号，不设定 fallback 到 font_point
@@ -153,36 +153,6 @@ preset_color_schemes:
     # nextpage_color: 0x000000               # 下一页
     # prevpage_color: 0x000000               # 上一页
 
-  mspy_light:
-    name: "微软拼音浅色／mspy_light"
-    author: ASneka
-    color_format: rgba
-    # hilited_mark_color: 0x0067C0
-    hilited_label_color: 0xcac9c8
-    hilited_candidate_text_color: 0xFFFFFF
-    hilited_comment_text_color: 0xFFFFFF
-    label_color: 0x4C566A
-    candidate_text_color: 0x2E3440
-    comment_text_color: 0x2E3440
-    hilited_candidate_back_color: 0x0067C0
-    back_color: 0xF9F9F9
-    border_color: 0xF0F0F0
-
-  mspy_dark:
-    name: "微软拼音深色／mspy_dark"
-    author: ASneka
-    color_format: rgba
-    # hilited_mark_color: 0x4CC2FF
-    hilited_label_color: 0x4C4C4C
-    hilited_candidate_text_color: 0x000000
-    hilited_comment_text_color: 0x000000
-    label_color: 0xBBBBBB
-    candidate_text_color: 0xEEEEEE
-    comment_text_color: 0xEEEEEE
-    hilited_candidate_back_color: 0x4CC2FF
-    back_color: 0x2C2C2C
-    border_color: 0x383838
-
   # 修改自鼠须管配色方案
   purity_of_form_custom:
     name: "純粹的形式／Purity of Form Custom"
@@ -200,70 +170,6 @@ preset_color_schemes:
     hilited_candidate_border_color: 0xE3E3E3
     hilited_candidate_label_color: 0x4C4C4C
     hilited_candidate_text_color: 0x000000
-
-  # 薄荷拼音的配色方案
-  mint_light_blue:
-    name: "蓝水鸭／Mint Light Blue"
-    author: Mintimate <"Mintimate's Blog">
-    # 拼音串
-    text_color: 0x6495ed 
-    # 背景
-    back_color: 0xefefef 
-    # 预选栏编号颜色
-    label_color: 0xcac9c8 
-    # 边框
-    border_color: 0xefefef 
-    shadow_color: 0xb4000000
-    # 注解文字
-    comment_text_color: 0xcac9c8 
-    # 非第一候选项
-    candidate_text_color: 0x424242 
-    # 拼音串高亮
-    hilited_text_color: 0xed9564 
-    # 拼音串高亮背景
-    hilited_back_color: 0xefefef 
-    # 第一候选项背景
-    hilited_candidate_back_color: 0xed9564 
-    # 第一候选项
-    hilited_candidate_text_color: 0xefefef
-    # 第一候选项编号颜色
-    hilited_candidate_label_color: 0xcac9c8
-    # 第一候选项编号颜色
-    hilited_label_color: 0xcac9c8
-    # 注解文字高亮
-    hilited_comment_text_color: 0xefefef 
-    
-
-  mint_dark_blue:
-    name: "黑水鸭／Mint Dark Blue"
-    author: Mintimate <"Mintimate's Blog">
-    # 拼音串
-    text_color: 0x6495ed 
-    # 背景
-    back_color: 0x424242 
-    # 预选栏编号颜色
-    label_color: 0xefefef 
-    # 边框
-    border_color: 0x424242 
-    shadow_color: 0xb4000000
-    # 注解文字
-    comment_text_color: 0xefefef 
-    # 非第一候选项
-    candidate_text_color: 0xefefef
-    # 拼音串高亮
-    hilited_text_color: 0xc6c01a 
-    # 拼音串高亮背景
-    hilited_back_color: 0x424242
-    # 第一候选项背景 
-    hilited_candidate_back_color: 0xc6c01a 
-    # 第一候选项
-    hilited_candidate_text_color: 0xefefef
-    # 第一候选项编号颜色
-    hilited_candidate_label_color: 0xffffff
-    # 第一候选项编号颜色
-    hilited_label_color: 0xffffff
-    # 注解文字高亮
-    hilited_comment_text_color: 0xffffff
 
   # 以下为 weasel 自带的配色方案
   # source: <https://github.com/rime/weasel/blob/master/output/data/weasel.yaml>

@@ -3,17 +3,27 @@
 
 
 # 要比共享目录的同名文件的 config_version 大才可以生效
-config_version: '1'
+config_version: '2026-02-06'
 
 
 # 方案列表
 schema_list:
-  - schema: rime_ice
+  # 可以直接删除或注释不需要的方案，对应的 *.schema.yaml 方案文件也可以直接删除
+  # 除了 t9，它依赖于 rime_ice，用九宫格别删 rime_ice.schema.yaml
+  - schema: rime_ice               # 雾凇拼音（全拼）
+  - schema: t9                     # 中文九键（仓输入法 & 元书输入法）
+  - schema: double_pinyin          # 自然码双拼
+  - schema: double_pinyin_abc      # 智能 ABC 双拼
+  - schema: double_pinyin_mspy     # 微软双拼
+  - schema: double_pinyin_sogou    # 搜狗双拼
+  - schema: double_pinyin_flypy    # 小鹤双拼
+  - schema: double_pinyin_ziguang  # 紫光双拼
+  - schema: double_pinyin_jiajia   # 拼音加加双拼
 
 
 # 菜单
 menu:
-  page_size: 10  # 候选词个数
+  page_size: 5  # 候选词个数
   # alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⑩ ]  # 修改候选项标签
   # alternative_select_keys: ASDFGHJKL  # 如编码字符占用数字键，则需另设选字键（注意在雾凇中，大写字母也作为编码了）
 
@@ -33,9 +43,10 @@ switcher:
   save_options:
     - ascii_punct
     - traditionalization
+    - emoji
     - full_shape
     - search_single_char
-  fold_options: false            # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
+  fold_options: true            # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
   abbreviate_options: true      # 折叠时是否缩写选项
   option_list_separator: ' / '  # 折叠时的选项分隔符
 
@@ -112,27 +123,27 @@ punctuator:
   digit_separators: ",.:"  # 在此处指定的字符，在数字后被输入，若再次输入数字，则连同数字直接上屏；若双击，则恢复映射。 # librime >= 1.13.0
   # digit_separator_action: commit  # 关闭上述行为 librime >= 1.13.1
   full_shape:
-    ' ' : 　
-    ',' : ，
-    '.' : 。
+    ' ' : { commit: '　' }
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
     '<' : [ 《, 〈, «, ‹ ]
     '>' : [ 》, 〉, », › ]
     '/' : [ ／, ÷ ]
-    '?' : ？
-    ';' : ；
-    ':' : ：
+    '?' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
     '''' : { pair: [ '‘', '’' ] }
     '"' : { pair: [ '“', '”' ] }
     '\' : [ 、, ＼ ]
     '|' : [ ·, ｜, '§', '¦' ]
     '`' : ｀
     '~' : ～
-    '!' : ！
+    '!' : { commit: ！ }
     '@' : [ ＠, ☯ ]
     '#' : [ ＃, ⌘ ]
     '%' : [ ％, '°', '℃' ]
     '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
-    '^' : ……
+    '^' : { commit: …… }
     '&' : ＆
     '*' : [ ＊, ·, ・, ×, ※, ❂ ]
     '(' : （
@@ -199,8 +210,8 @@ key_binder:
 
   bindings:
     # Tab / Shift+Tab 切换光标至下/上一个拼音
-    - { when: composing, accept: Shift+Tab, send: Up }
-    - { when: composing, accept: Tab, send: Down }
+    - { when: composing, accept: Shift+Tab, send: Shift+Left }
+    - { when: composing, accept: Tab, send: Shift+Right }
     # Tab / Shift+Tab 翻页
     # - { when: has_menu, accept: Shift+Tab, send: Page_Up }
     # - { when: has_menu, accept: Tab, send: Page_Down }
