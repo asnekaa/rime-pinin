@@ -24,25 +24,23 @@
 又	u	1
 
 吧	b	1
-把	ba	1
+被  be  1
 别人	br	1
 当然	dr	1
 反正	fz	1
-搞  gao 1
 搞的	gd	2
+感觉	gj	1
 好吧	hb	1
 好的    hd  1
 好家伙	hjh	1
-加	jia	1
 可是	ks	1
 了	l	1
 蓝白碗	lbw	1
 然后	rh	1
 是	s	1
 是不是	sbs	1
-时候	shh	1
-图	tu	1
-写	xie	1
+时候	sh	1
+天天    tt  1
 现在	xz	1
 有没有	ymy	1
 用	yo	1
@@ -50,10 +48,21 @@
 怎么	zm	2
 这么	zm	1
 这么强	zmq	1
+这些	zx	1
 怎样	zy	2
 这样	zy	1
 真正	zz	2
 这种	zz	1
+
+把	ba	1
+彳亍    chichu  1
+词首	cishou	1
+促音	cuyin	1
+搞  gao 1
+加	jia	1
+图	tu	1
+写	xie	1
+音	yin	1
 
 Geometry Dash	gd	1
 GitHub	gh	1
