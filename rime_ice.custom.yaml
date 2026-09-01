@@ -30,3 +30,6 @@ patch:
     - express_editor
 
   emoji: null
+
+  # 拼写设定
+  speller/algebra/@before 0: "derive/^([jqx])i(a|e|an|ang|ao|ai|en|eng|ong|ing|ian|iang|iao|ie|in|iong|ou|ui|un|uan|ue)$/$1$2/"
