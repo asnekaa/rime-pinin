@@ -2,6 +2,7 @@ patch:
   # 方案列表
   schema_list:
     - schema: rime_ice
+    - schema: kagiroi
 
   menu/page_size: 10 # 候选词个数
 
@@ -11,7 +12,13 @@ patch:
     - traditionalization
     - full_shape
     - search_single_char
-  switcher/fold_options: false # 呼出时是否折叠
+    # カギロイ多出来的方案选单
+    - simplification
+    - extended_charset
+    - zh_hant
+    - zh_hans
+    - zh_hant_tw
+  # switcher/fold_options: false # 呼出时是否折叠
 
   # 快捷键patch:
   key_binder/bindings/@0/send: Up

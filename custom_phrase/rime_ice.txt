@@ -1,0 +1,110 @@
+# Rime table
+# coding: utf-8
+#@/db_name	custom_phrase.txt
+#@/db_type	tabledb
+#
+# 自定义短语
+# 可为方案增加一些要置顶的词汇及短语，例如邮箱、手机号、常用短语等等。编码可以随便起，不限于拼音。
+#
+# 适用于全拼。双拼默认为 custom_phrase_double.txt 需要手动创建，并更改上面的 db_name 为 custom_phrase_double.txt
+#
+# 以 Tab 分割：词汇<Tab>编码<Tab>权重
+#
+# 这个文件内的字词会占据最高权重（即排在候选项的最前面，因为指定了高权重 custom_phrase/initial_quality: 99）。
+# 但不与其他翻译器互相造词，如果使用了完整编码，那么这个字或词将无法参与造词，即自造词无法被记住。
+# 所以只建议固定非完整拼音的编码，如果需求是置顶指定拼音的候选项，请参考方案中的 pin_cand_filter。
+#
+# 此行之后不能写注释
+
+吧	b	1
+把	ba	1
+不对	bd	1
+被	be	1
+不过	bg	1
+不去	bq	1
+别人	br	1
+行	cc	1
+彳亍	chichu	1
+词首	cishou	1
+促音	cuyin	1
+当然	dr	1
+方法	ff	1
+反正	fz	1
+搞	gao	1
+搞的	gd	2
+感觉	gj	1
+果然	gr	1
+会	h	1
+好吧	hb	1
+好的    hd	1
+好家伙	hjh	1
+好像	hx	1
+一	i	3
+以	i	2
+已	i	1
+一个	ig	1
+以为    iw	1
+就	j	1
+就是	js	1
+肯定	kd	1
+空格    kg	1
+可是	ks	1
+了	l	1
+蓝白碗	lbw	1
+裂开了	lkl	1
+没有	mu	1
+没用	my	1
+能	n	1
+那	na	2
+哪	na	1
+然后	rh	1
+是	s	2
+时	s	1
+是不是	sbs	1
+时候	sh	1
+算了	sl	1
+什么时候	smsh	1
+所有	su	1
+所以	sy	1
+甚至	sz	1
+同时	ts	1
+天天    tt	1
+图	tu	1
+有	u	2
+又	u	1
+有没有	umu	1
+想	x	2
+像	x	1
+写	xe	1
+现在	xz	1
+音	yin	1
+原来	yl	1
+用	yo	1
+一样	yy	1
+在	z	2
+再	z	1
+这个	zg	1
+只有	zhiu	1
+直接	zj	1
+怎么	zm	2
+这么	zm	1
+这么强	zmq	1
+这些	zx	1
+怎样	zy	2
+这样	zy	1
+只用	zyo	1
+真正	zz	2
+这种	zz	1
+
+Geometry Dash	gd	1
+GitHub	gh	1
+level	lv	1
+Windows	win	1
+
+ASneka	AS	1
+ESnake	ES	1
+
+汪壮壮	wzz	1
+esnakesnake@gmail.com	email	3
+asneka@qq.com	email	2
+1256668096@qq.com	email	1

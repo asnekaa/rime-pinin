@@ -1,0 +1,18 @@
+patch:
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [あ, 英字]
+    - options: [hiragana, katakana, hw_katakana]
+      reset: 0
+      states: [ひらがな, カタカナ, ｶﾀｶﾅ]
+    - name: full_shape
+      states: ["", ""]
+    - name: ascii_punct
+      states: [。，, ．，]
+
+  engine/processors/@next: lua_processor@*auto_fullshape
+
+  emoji: null
+
+  custom_phrase/user_dict: custom_phrase/kagiroi

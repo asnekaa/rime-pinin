@@ -249,7 +249,7 @@ key_binder:
     # - { when: always, toggle: full_shape, accept: Control+Shift+5 }             # 切换全半角
     # - { when: always, toggle: full_shape, accept: Control+Shift+percent }       # 切换全半角
 
-    # emacs_editing:
+    # emacs_editing:　
     # - { when: composing, accept: Control+p, send: Up }
     # - { when: composing, accept: Control+n, send: Down }
     # - { when: composing, accept: Control+b, send: Left }

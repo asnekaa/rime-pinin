@@ -12,7 +12,6 @@
 /kagiroi.yaml
 /kagiroi_ansikana.dict.yaml
 /kagiroi_ansikana.schema.yaml
-/kagiroi_custom_phrases.txt
 /kagiroi_kanji.dict.yaml
 /kagiroi_kanji.schema.yaml
 /kagiroi_kaomoji.dict.yaml
