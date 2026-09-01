@@ -24,4 +24,3 @@
 /kagiroi_szromaji.dict.yaml
 /kagiroi_szromaji.schema.yaml
 /key_bindings.yaml
-/punctuation.yaml
