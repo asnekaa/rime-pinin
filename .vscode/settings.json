@@ -1,0 +1,9 @@
+{
+  "[plaintext]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 8
+  },
+  "files.associations": {
+    "*.txt": "plaintext"
+  }
+}
