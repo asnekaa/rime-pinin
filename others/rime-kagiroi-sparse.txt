@@ -23,4 +23,3 @@
 /kagiroi_symbols.dict.yaml
 /kagiroi_szromaji.dict.yaml
 /kagiroi_szromaji.schema.yaml
-/key_bindings.yaml
