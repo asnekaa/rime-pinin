@@ -1,0 +1,15 @@
+/cn_dicts/
+/en_dicts/
+/lua/
+!/lua/t9_preedit.lua
+/opencc/others.txt
+/default.yaml
+/melt_eng.dict.yaml
+/melt_eng.schema.yaml
+/radical_pinyin.dict.yaml
+/radical_pinyin.schema.yaml
+/rime_ice.dict.yaml
+/rime_ice.schema.yaml
+/symbols_caps_v.yaml
+/symbols_v.yaml
+/weasel.yaml
