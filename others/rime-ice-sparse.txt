@@ -1,5 +1,7 @@
 /cn_dicts/
-/en_dicts/
+/en_dicts/cn_en.txt
+/en_dicts/en_ext.dict.yaml
+/en_dicts/en.dict.yaml
 /lua/
 !/lua/t9_preedit.lua
 /opencc/others.txt
