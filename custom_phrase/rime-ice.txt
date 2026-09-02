@@ -1,6 +1,6 @@
 # Rime table
 # coding: utf-8
-#@/db_name	custom_phrase.txt
+#@/db_name	rime-ice.txt
 #@/db_type	tabledb
 #
 # 自定义短语
@@ -45,6 +45,7 @@
 一个	ig	1
 以为    iw	1
 就	j	1
+觉得	jd	1
 就是	js	1
 肯定	kd	1
 空格    kg	1

@@ -1,6 +1,6 @@
 # Rime table
 # coding: utf-8
-#@db/db_name	kagiroi_custom_phrases
+#@db/db_name	kagiroi
 #@db/db_type	tabledb
 
 # Add your own words here, format:
