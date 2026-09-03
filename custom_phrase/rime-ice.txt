@@ -28,6 +28,7 @@
 词首	cishou
 促音	cuyin
 当然	dr
+电子蛇	dzs
 方法	ff
 反正	fz
 搞	gao	
