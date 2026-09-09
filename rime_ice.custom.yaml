@@ -16,9 +16,19 @@ patch:
       states: [正常, 单字]
       abbrev: [词, 单]
 
-  emoji: null
+  # 主翻译器，拼音
+  # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
+  translator/preedit_format:
+    - xform/([jqxy])[uv]/$1ü/ # 显示为 jü qü xü yü
+    - xform/([nl])v/$1ü/ # 显示为 nü lü
+    - xform/([nl])[uv]e/$1üe/ # 显示为 nüe lüe
+    - xform/(?<=[A-Z])\s(?=[A-Z])// # 消除大写字母之间的空格
 
+  # 自定义短语：custom_phrase/rime-ice.txt
   custom_phrase/user_dict: custom_phrase/rime-ice
+
+  # Emoji
+  emoji: null
 
   # 拼写设定
   speller/algebra/@before 0: "derive/^([jqx])i(a|e|an|ang|ao|ai|en|eng|ong|ing|ian|iang|iao|ie|in|iong|ou|ui|un|uan|ue)$/$1$2/"
