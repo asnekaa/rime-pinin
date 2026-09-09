@@ -20,14 +20,22 @@
 把	ba
 不对	bd
 被	be
+呗	bei
 不过	bg
+比如	bir
 不去	bq
 别人	br
-行	cc
+不是	bs
+不一样	byy
+不知道	bzd
+行	cc	2
+彳亍	cc	1
 彳亍	chichu
 词首	cishou
 促音	cuyin
+的	d
 当然	dr
+但是	ds
 电子蛇	dzs
 方法	ff
 反正	fz
@@ -35,31 +43,46 @@
 搞的	gd	1
 感觉	gj
 果然	gr
-会	h
+好	hao
 好吧	hb
-好的    hd
+好的	hd	1
+豪德	hd
 好好	hh
+好好好	hhh
 好家伙	hjh
+会	hui
+好想	hx	1
 好像	hx
-一	i	2
-以	i	1
-已	i
+一	i	1
+以	i
 一个	ig
+以后	ih
+音	in
+以前	iq	1
+一千	iq
+一下	ixa
+一些	ixe
 以为    iw
 就	j
+加	ja
 觉得	jd
 就是	js
+继续	jx
 肯定	kd
 空格    kg
+可以	ki
 可是	ks
 了	l
 蓝白碗	lbw
 裂开了	lkl
+离谱	lp
 没有	mu
 没用	my
+没用	myo
 能	n
 那	na	1
 哪	na
+去	q
 然后	rh
 是	s	1
 时	s
@@ -67,26 +90,33 @@
 时候	sh
 算了	sl
 什么时候	smsh
+什么意思	smys
 视频	sp
 所有	su
 所以	sy
 甚至	sz
 突然	tr
 同时	ts
-天天    tt
+天天	tt
 图	tu
 有	u	1
 又	u
+有点	ud
 有一次	uic
 有没有	umu
+有些	uxe
+游戏	uxi
+我	w
 想	x	1
 像	x
 写	xe
 现在	xz
+呀	ya
+要不然	ybr
 音	yin
 原来	yl
 用	yo
-原曲	yuanqu
+因为	yw
 一样	yy
 在	z	1
 再	z
@@ -96,12 +126,20 @@
 怎么	zm	1
 这么	zm
 这么强	zmq
+中文	zw
 这些	zx
 怎样	zy	1
 这样	zy
 只用	zyo
 真正	zz	1
 这种	zz
+
+混音	hunyin
+音色	inse
+音头	intou
+音头	it
+音头	yintou
+原曲	yuanqu
 
 Geometry Dash	gd
 GitHub	gh
