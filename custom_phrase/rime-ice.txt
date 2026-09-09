@@ -16,6 +16,7 @@
 #
 # 此行之后不能写注释
 
+啊这	az
 吧	b
 把	ba
 不对	bd
@@ -37,6 +38,7 @@
 当然	dr
 但是	ds
 电子蛇	dzs
+而已	ery
 方法	ff
 反正	fz
 搞	gao	
@@ -64,7 +66,8 @@
 一些	ixe
 以为    iw
 就	j
-加	ja
+经常	jc
+加	jia
 觉得	jd
 就是	js
 继续	jx
@@ -90,6 +93,7 @@
 是不是	sbs
 时候	sh
 算了	sl
+什么	sm
 什么时候	smsh
 什么意思	smys
 视频	sp
@@ -108,12 +112,14 @@
 有些	uxe
 游戏	uxi
 我	w
+玩	wan
 想	x	1
 像	x
-写	xe
+写	xie
 现在	xz
 呀	ya
 要不然	ybr
+也	ye
 音	yin
 原来	yl
 用	yo
