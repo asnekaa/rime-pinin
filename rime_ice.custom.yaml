@@ -11,14 +11,10 @@ patch:
     - name: traditionalization
       states: [简, 繁]
     - name: full_shape
-      states: ["", ""]
-      reset: 1
+      states: [半角, 全角]
     - name: search_single_char # search.lua 的功能开关，辅码查词时是否单字优先
       states: [正常, 单字]
       abbrev: [词, 单]
-
-  # 输入引擎
-  engine/processors/@next: lua_processor@*auto_fullshape
 
   emoji: null
 

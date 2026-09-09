@@ -7,11 +7,9 @@ patch:
       reset: 0
       states: [ひらがな, カタカナ, ｶﾀｶﾅ]
     - name: full_shape
-      states: ["", ""]
+      states: [半角, 全角]
     - name: ascii_punct
       states: [。，, ．，]
-
-  engine/processors/@next: lua_processor@*auto_fullshape
 
   emoji: null
 
