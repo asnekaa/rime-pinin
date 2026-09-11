@@ -98,5 +98,6 @@ patch:
     - erase/^m$/
     - erase/^n$/
     - erase/^ng$/
-    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([a-ik-pr-wyz]).+$/$1/
+    - abbrev/^([jxq])[^iy].+$/$1/
     - abbrev/^([jqx][iy]).+$/$1/
