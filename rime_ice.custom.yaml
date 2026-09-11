@@ -64,7 +64,9 @@ patch:
     - xform/^([jqxy])i$/$1ii/
     - xform/^([jqx])y$/$1yy/
 
-    # 补充 o/uo/eng 的编码变体
+    # 补充编码变体
+    - derive/^er$/a/
+    - derive/^er$/ar/
     - derive/^([bpmf])o$/$1uo/
     - derive/uo$/o/
     - derive/^([bpmf])eng$/$1ung/
@@ -98,6 +100,7 @@ patch:
     - erase/^m$/
     - erase/^n$/
     - erase/^ng$/
-    - abbrev/^([a-ik-pr-wyz]).+$/$1/
+    - abbrev/^([b-ik-pr-wyz]).+$/$1/
+    - abbrev/^(a)[^io].+$/$1/
     - abbrev/^([jxq])[^iy].+$/$1/
     - abbrev/^([jqx][iy]).+$/$1/
