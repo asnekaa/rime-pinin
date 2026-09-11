@@ -54,7 +54,7 @@ patch:
 
     # 去除隔音字母 y/w，并将 ü 转为 y
     - xform/^y([^ü])/i$1/
-    - xform/^wen/wn/
+    - xform/^wen$/wn/
     - xform/^w/u/
     - xform/^yü$/üü/
     - xform/^yü/ü/
@@ -92,15 +92,15 @@ patch:
     # 压缩 an/ang/en/eng
     - xform/an$/w/
     - xform/ang$/v/
-    - xform/en$/n/
-    - xform/eng$/g/
+    - xform/^(.+)en$/$1n/
+    - xform/^(.+)eng$/$1g/
 
     # 超级简拼
-    - erase/^hm$/
-    - erase/^m$/
-    - erase/^n$/
-    - erase/^ng$/
     - abbrev/^([b-ik-pr-wyz]).+$/$1/
-    - abbrev/^(a)[^io].+$/$1/
+    - abbrev/^a[^io].+$/a/
+    - abbrev/^en$/n/
+    - abbrev/^eng$/g/
+    - erase/^en$/
+    - erase/^eng$/
     - abbrev/^([jxq])[^iy].+$/$1/
     - abbrev/^([jqx][iy]).+$/$1/
