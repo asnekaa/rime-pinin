@@ -36,16 +36,16 @@ patch:
 
   # 拼写设定
   speller/algebra/:
-    # y 起始音节去除 i
-    - xform/^yin$/yn/
-    - xform/^ying$/yng/
-
     # 展开缩写韵母
     - xform/iu$/iou/
     - xform/ui$/uei/
     - xform/^yong$/yüng/
     - xform/iong$/üng/
     - xform/ong$/ung/
+
+    # y 起始音节去除 i
+    - xform/^yin$/yn/
+    - xform/^ying$/yng/
 
     # 统一 ü 的编码
     - xform/^([jqxy])[uv]/$1ü/
