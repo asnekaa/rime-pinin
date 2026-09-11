@@ -77,8 +77,8 @@ patch:
     - xform/^ch/q/
     - xform/^sh/x/
 
-    # 空韵采用声母双写编码
-    - xform/^([jqxzcsr])i$/$1$1/
+    # 空韵
+    - xform/^([jqxzcsr])i$/$1h/
 
     # 压缩复合韵母
     - xform/iao$/io/
@@ -97,7 +97,6 @@ patch:
 
     # 超级简拼
     - abbrev/^([b-ik-pr-wyz]).+$/$1/
-    - abbrev/^a[^io].+$/a/
     - abbrev/^en$/n/
     - abbrev/^eng$/g/
     - erase/^en$/
