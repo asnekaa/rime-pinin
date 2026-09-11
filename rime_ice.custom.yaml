@@ -16,12 +16,16 @@ patch:
       states: [正常, 单字]
       abbrev: [词, 单]
 
+  # Lua 配置: 置顶候选项
+  # 注释太长了，请参考 pin_cand_filter.lua 开头的说明书。
+  # pin_cand_filter.lua 末尾有常见编码可供直接复制参考
+  pin_cand_filter:
+    # 格式：编码<Tab>字词1<Space>字词2……
+    null
+
   # 主翻译器，拼音
   # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
   translator/preedit_format:
-    - xform/([jqxy])[uv]/$1ü/ # 显示为 jü qü xü yü
-    - xform/([nl])v/$1ü/ # 显示为 nü lü
-    - xform/([nl])[uv]e/$1üe/ # 显示为 nüe lüe
     - xform/(?<=[A-Z])\s(?=[A-Z])// # 消除大写字母之间的空格
 
   # 自定义短语：custom_phrase/rime-ice.txt
@@ -31,4 +35,68 @@ patch:
   emoji: null
 
   # 拼写设定
-  speller/algebra/@before 0: "derive/^([jqx])i(a|e|an|ang|ao|ai|en|eng|ong|ing|ian|iang|iao|ie|in|iong|ou|ui|un|uan|ue)$/$1$2/"
+  speller/algebra/:
+    # y 起始音节去除 i
+    - xform/^yin$/yn/
+    - xform/^ying$/yng/
+
+    # 展开缩写韵母
+    - xform/iu$/iou/
+    - xform/ui$/uei/
+    - xform/^yong$/yüng/
+    - xform/iong$/üng/
+    - xform/ong$/ung/
+
+    # 统一 ü 的编码
+    - xform/^([jqxy])[uv]/$1ü/
+    - xform/^([nl])v$/$1ü/
+    - xform/^([nl])[uv]e$/$1üe/
+
+    # 去除隔音字母 y/w，并将 ü 转为 y
+    - xform/^y([^ü])/i$1/
+    - xform/^wen/wn/
+    - xform/^w/u/
+    - xform/^yü$/üü/
+    - xform/^yü/ü/
+    - xform/ü/y/
+
+    # j/q/x/y 后的 i/y 独立编码
+    - xform/^([jqxy])i$/$1ii/
+    - xform/^([jqx])y$/$1yy/
+
+    # 补充 o/uo/eng 的编码变体
+    - derive/^([bpmf])o$/$1uo/
+    - derive/uo$/o/
+    - derive/^([bpmf])eng$/$1ung/
+    - derive/^([dtnlgkhzcsr]|zh|ch|sh)eng$/$1en/
+
+    # 翘舌声母重新编码
+    - xform/^zh/j/
+    - xform/^ch/q/
+    - xform/^sh/x/
+
+    # 空韵采用声母双写编码
+    - xform/^([jqxzcsr])i$/$1$1/
+
+    # 压缩复合韵母
+    - xform/iao$/io/
+    - xform/iou$/iu/
+    - xform/ing$/ig/
+    - xform/uai$/ui/
+    - xform/uei$/ue/
+    - xform/ung$/ug/
+    - xform/yng$/yg/
+
+    # 压缩 an/ang/en/eng
+    - xform/an$/w/
+    - xform/ang$/v/
+    - xform/en$/n/
+    - xform/eng$/g/
+
+    # 超级简拼
+    - erase/^hm$/
+    - erase/^m$/
+    - erase/^n$/
+    - erase/^ng$/
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([jqx][iy]).+$/$1/
