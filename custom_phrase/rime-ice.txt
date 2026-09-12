@@ -119,6 +119,7 @@
 玩	uw
 文件	uj
 文件夹	ujj
+为什么	uxm
 是	x	1
 时	x
 是不是	xbx
