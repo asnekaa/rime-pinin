@@ -96,6 +96,7 @@
 蓝白碗	lbu
 裂开了	lkl
 离谱	lp
+吗	m
 没有	miu
 没用	my
 嗯	n
@@ -116,6 +117,8 @@
 图	tu
 同时	tx
 玩	uw
+文件	uj
+文件夹	ujj
 是	x	1
 时	x
 是不是	xbx
@@ -141,7 +144,7 @@
 音色	inse
 音头	intou
 音头	it
-原曲	ywqy
+原曲	ywqyy
 
 Geometry Dash	gd
 GitHub	gh
