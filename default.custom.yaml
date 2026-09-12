@@ -18,7 +18,7 @@ patch:
     - zh_hant
     - zh_hans
     - zh_hant_tw
-  # switcher/fold_options: false # 呼出时是否折叠
+  switcher/fold_options: false # 呼出时是否折叠
 
   # 快捷键patch:
   key_binder/bindings/@0/send: Up
