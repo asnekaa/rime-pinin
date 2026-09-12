@@ -139,6 +139,7 @@
 在	z	1
 再	z
 怎么	zm
+怎么回事	zmhx
 怎样	zi
 
 混音	hunin
