@@ -26,6 +26,8 @@ patch:
     datezh: datezh
     dateen: dateen
 
+  lunar: lunar
+
   # Lua 配置: 置顶候选项
   # 注释太长了，请参考 pin_cand_filter.lua 开头的说明书。
   # pin_cand_filter.lua 末尾有常见编码可供直接复制参考
@@ -66,7 +68,7 @@ patch:
     - xform/^y([^ü])/i$1/
     - xform/^wen$/wn/
     - xform/^w/u/
-    - xform/^yü$/üü/
+    - xform/^yü$/yüü/
     - xform/^yü/ü/
     - xform/ü/y/
 
