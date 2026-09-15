@@ -91,7 +91,7 @@ patch:
 
     # 转换为实际发音形式
     - derive/^er$/ar/
-    - derive/uo$/o/
+    - xform/uo$/o/
     - xform/^([bpmf])eng$/$1ueng/
     - xform/^([dtnlgkhjqxzcsr])eng$/$1en/
     - xform/ieng$/ien/
