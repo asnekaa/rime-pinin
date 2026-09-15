@@ -47,71 +47,70 @@ patch:
   emoji: null
 
   # 拼写设定
-  speller/algebra/:
-    # 展开缩写韵母
-    - xform/iu$/iou/
-    - xform/ui$/uei/
-    - xform/^yong$/yüng/
-    - xform/iong$/üng/
-    - xform/ong$/ung/
-
+  speller/alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`1234567890
+  speller/algebra:
     # y 起始音节去除 i
+    - xform/^yi$/y/
     - xform/^yin$/yn/
     - xform/^ying$/yng/
 
-    # 统一 ü 的编码
+    # w 起始音节去除 u
+    - xform/^wu$/w/
+
+    # 统一 ü 编码
     - xform/^([jqxy])[uv]/$1ü/
     - xform/^([nl])v$/$1ü/
     - xform/^([nl])[uv]e$/$1üe/
 
+    # 改为正确介母
+    - xform/^yong$/yüng/
+    - xform/iong$/üng/
+    - xform/ong$/ung/
+    - xform/^yo$/yüo/
+
     # 去除隔音字母 y/w，并将 ü 转为 y
+    - xform/^y$/i/
     - xform/^y([^ü])/i$1/
-    - xform/^wen$/wn/
     - xform/^w/u/
-    - xform/^yü$/yüü/
     - xform/^yü/ü/
     - xform/ü/y/
 
-    # j/q/x/y 后的 i/y 独立编码
-    - xform/^([jqxy])i$/$1ii/
-    - xform/^([jqx])y$/$1yy/
+    # 展开缩写韵母
+    - xform/iu$/iou/
+    - xform/ui$/uei/
+    - xform/([iuy])n$/$1en/
+    - xform/([iuy])ng$/$1eng/
 
-    # 补充编码变体
-    - derive/^er$/a/
-    - derive/^er$/ar/
-    - derive/^([bpmf])o$/$1uo/
-    - derive/uo$/o/
-    - derive/^([bpmf])eng$/$1ung/
-    - derive/^([dtnlgkhzcsr]|zh|ch|sh)eng$/$1en/
+    # 空韵编码
+    - xform/^([zcsr]|zh|ch|sh)i$/$1h/
 
     # 翘舌声母重新编码
-    - xform/^zh/j/
-    - xform/^ch/q/
-    - xform/^sh/x/
+    - xform/^zh(.+)/j$1/
+    - xform/^ch(.+)/q$1/
+    - xform/^sh(.+)/x$1/
 
-    # 空韵
-    - xform/^([jqxzcsr])i$/$1h/
+    # 转换为实际发音形式
+    - derive/^er$/ar/
+    - derive/uo$/o/
+    - xform/^([bpmf])eng$/$1ueng/
+    - xform/^([dtnlgkhjqxzcsr])eng$/$1en/
+    - xform/ieng$/ien/
 
     # 压缩复合韵母
     - xform/iao$/io/
     - xform/iou$/iu/
-    - xform/ing$/ig/
     - xform/uai$/ui/
     - xform/uei$/ue/
-    - xform/ung$/ug/
-    - xform/yng$/yg/
 
-    # 压缩 an/ang/en/eng
+    # 压缩鼻音韵母
     - xform/an$/w/
     - xform/ang$/v/
     - xform/^(.+)en$/$1n/
     - xform/^(.+)eng$/$1g/
 
     # 超级简拼
-    - abbrev/^([b-ik-pr-wyz]).+$/$1/
+    - abbrev/^([b-hj-tvwxz]).+$/$1/
     - abbrev/^en$/n/
     - abbrev/^eng$/g/
     - erase/^en$/
     - erase/^eng$/
-    - abbrev/^([jxq])[^iy].+$/$1/
-    - abbrev/^([jqx][iy]).+$/$1/
