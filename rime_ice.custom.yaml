@@ -36,6 +36,8 @@ patch:
     null
 
   # 主翻译器，拼音
+  # 挂载词库 pinin.dict.yaml
+  translator/dictionary: pinin
   # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
   translator/preedit_format:
     - xform/(?<=[A-Z])\s(?=[A-Z])// # 消除大写字母之间的空格
@@ -49,6 +51,14 @@ patch:
   # 拼写设定
   speller/alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`1234567890
   speller/algebra:
+    # 一个音节最多由三部分构成：声母 + 介母 + 韵母
+    # 声母：b p m f d t n l g k h j q x z c s r
+    # 介母：iuy
+    # 韵母：
+    #  单元音：a o e
+    #  双元音：ai ao ei ou
+    #  鼻音：w v n g
+
     # y 起始音节去除 i
     - xform/^yi$/y/
     - xform/^yin$/yn/
@@ -62,7 +72,7 @@ patch:
     - xform/^([nl])v$/$1ü/
     - xform/^([nl])[uv]e$/$1üe/
 
-    # 改为正确介母
+    # 修正介母
     - xform/^yong$/yüng/
     - xform/iong$/üng/
     - xform/ong$/ung/
@@ -78,38 +88,38 @@ patch:
     # 展开缩写韵母
     - xform/iu$/iou/
     - xform/ui$/uei/
-    - xform/([iuy])n$/$1en/
-    - xform/([iuy])ng$/$1eng/
 
-    # 空韵编码
-    - xform/^([zcsr]|zh|ch|sh)i$/$1h/
+    # 修改鼻音编码
+    - xform/an$/w/
+    - xform/ang$/v/
+    - xform/^(.+)en$/$1n/
+    - xform/^(.+)eng$/$1ng/
+    - xform/^(.+)ng$/$1g/
+
+    # 空韵重新编码
+    - xform/^([zcsr]|zh|ch|sh)i$/$1/
 
     # 翘舌声母重新编码
-    - xform/^zh(.+)/j$1/
-    - xform/^ch(.+)/q$1/
-    - xform/^sh(.+)/x$1/
+    - xform/^zh/j/
+    - xform/^ch/q/
+    - xform/^sh/x/
 
-    # 转换为实际发音形式
+    # 补充额外编码
     - derive/^er$/ar/
     - xform/uo$/o/
-    - xform/^([bpmf])eng$/$1ueng/
-    - xform/^([dtnlgkhjqxzcsr])eng$/$1en/
-    - xform/ieng$/ien/
+    - derive/o$/uo/
+    - derive/^([bpmf])g$/$1ug/
+    - derive/^([dtnlgkhjqxzcsr])g$/$1n/
+    - derive/ig$/in/
 
-    # 压缩复合韵母
+    # 压缩 介母+双元音韵母 组合
     - xform/iao$/io/
     - xform/iou$/iu/
     - xform/uai$/ui/
     - xform/uei$/ue/
 
-    # 压缩鼻音韵母
-    - xform/an$/w/
-    - xform/ang$/v/
-    - xform/^(.+)en$/$1n/
-    - xform/^(.+)eng$/$1g/
-
     # 超级简拼
-    - abbrev/^([b-hj-tvwxz]).+$/$1/
+    - abbrev/^([a-z]).+$/$1/
     - abbrev/^en$/n/
     - abbrev/^eng$/g/
     - erase/^en$/

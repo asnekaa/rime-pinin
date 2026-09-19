@@ -6,8 +6,6 @@
 # 自定义短语
 # 可为方案增加一些要置顶的词汇及短语，例如邮箱、手机号、常用短语等等。编码可以随便起，不限于拼音。
 #
-# 适用于全拼。双拼默认为 custom_phrase_double.txt 需要手动创建，并更改上面的 db_name 为 custom_phrase_double.txt
-#
 # 以 Tab 分割：词汇<Tab>编码<Tab>权重
 #
 # 这个文件内的字词会占据最高权重（即排在候选项的最前面，因为指定了高权重 custom_phrase/initial_quality: 99）。
@@ -16,144 +14,302 @@
 #
 # 此行之后不能写注释
 
-而	a
-而已	ai
-啊这	aj
-而且	aq
+啊	a
+呃	e
+欸	ei
+噢	ao
+哦	ou
+昂	v
+呀	ia
+哇	ua
 吧	b
-把	ba
-不对	bd
-被	be
 呗	bei
+吗	m
+嘛	ma
+嗯	n
+呢	ne
+啦	la
+哈	ha
+哼	hg
+
+我	o
+按	w
+也	ie
+要	io
+有	iu
+音	in
+玩	uw
+用	yg
+把	ba
+被	be
+帮	bv
+编	biw
+不	bu
+没	mei
+多	do
+的	d
+都	dou
+点	diw
+他	ta	2
+她	ta	1
+它	ta
+太	tai
+图	tu
+那	na	1
+哪	na
+那	nei	1
+哪	nei
+能	nn
+你	ni
+了	l
+来	lai
+改	gai
+给	g
+给	gei
+搞	gao
+刚	gv
+跟	gn
+更	gg
+看	kw
+和	he
+好	h
+好	hao	1
+坏	hui
+会	hue
+加	jia
+就	j	1
+去	qy
+下	xia
+写	xie
+先	xiw
+想	xi	1
+像	xi
+只	j
+这	je
+这	jei
+是	x	1
+时	x
+说	xo
+上	xv
+字	z
+在	zai	1
+再	zai
+总	zug
+才	cai
+色	se
+让	rv
+
+而已	ari
+而且	arq
+不对	bd
+本来	bl
 不过	bg
 不一样	bii
+比如	bir
+比如	biru
+不就	bj
 不知道	bjd
+不能	bn
 不去	bq
 别人	br
 不是	bx
-词首	ccxou
+不用	by
+词首	cxou
 促音	cuin
-的	d
 都是	doux
+到底	dd
 当然	dr
 但是	dx
-电子蛇	dzx
+短语	duwy
+东西	dxi
+而已	eri
+而且	erq
+额外	eui
 方法	ff
 反正	fj
-搞	gao
+发现	fx
+根本	gb
 搞的	gd	1
 感觉	gj
 果然	gr
-好	hao
+规则	gueze
+干什么	gxm
+关于	gy
+还要	haii
+还是	haix
+还在	haiz
 好吧	hb
 好的	hd	1
-豪德	hd
-好好	hh
-好好好	hhh
-好家伙	hjh
-会	hue
-还是	hx
+后面	hm
+好听	ht	1
 好想	hxi	1
 好像	hxi
-呀	ia
 要不然	ibr
-也	ie
+一定	idin
 一个	ig
+以后	ih
 一样	ii
 有一次	iic
-以后	iih
-以前	iiq
-以为	iiu
+已经	ij
 有没有	imi
-音	in
 因为	inu
-一千	iq
-有	iu	1
-又	iu
+以前	iq
 有点	iud
+以为	iue
 一下	ixia
 一些	ixie
-就	j
+基本上	jbx
 觉得	jd
 这个	jg
-只	jh
+就好了	jhl
 这样	ji
-加	jia
+家伙	jiaho
+记得	jide
+结合	jiehe
+介音	jiein
+介母	jiemu
+只要	jio
 只有	jiu
-直接	jj	1
 真正	jj
+直接	jji
 这么	jm
-这么强	jmq
 经常	jq
+居然	jr	1
+竟然	jr
 中文	ju
-就是	jx
+注意	jui
+主人	jurn
+就是	jx	1
+只是	jx
 只用	jy
+正在	jz
+可爱	keai
 肯定	kd
-空格    kg
+空格	kg
 可以	ki
+看看	kk	1
+空韵	kugyn
 可是	kx
-了	l
-蓝白碗	lbu
-裂开了	lkl
+裸体	loti
 离谱	lp
-吗	m
+聊天	lt
 没有	miu
+没什么	mxm
 没用	my
-嗯	n
-那	na	1
-哪	na
-我	o
-去	q
-超级简拼	qjjp
+能够	ng
+你好	nh
+那里	nl	1
+哪里	nl
+那么	nm	1
+你们	nm
+我的	od
+我们	om
+起来	qil
 前面	qm
-行	qq	1
-彳亍	qq
-彳亍	qhqu
+出来	qul
+其实	qx
+重新	qxin
+如果	rg
 然后	rh
+任何	rnhe
+如何	ruhe
+如下	ruxia
 所以	si
 所有	siu
-突然	tr
+他们	tm	2
+她们	tm	1
+它们	tm
+突然	tr	1
 天天	tt
-图	tu
 同时	tx
-玩	uw
 文件	uj
 文件夹	ujj
+完全	uq
 为什么	uxm
-是	x	1
-时	x
-是不是	xbx
+按照	wj
+是不是	xbx	1
+行不行	xbx
 时候	xh
-想	xi	1
-像	xi
-写	xie
 甚至	xj
 算了	xl
-什么	xm
+实在	xzai
+什么	xm	1
+下面	xm
 什么意思	xmis
 什么时候	xmxh
+声母	xnmu
 视频	xp
+事情	xq
+系统	xt
+睡觉	xuejio
+显示	xx
+使用	xyg
 现在	xz
-用	y
+用不了	ybl
 原来	yl
-在	z	1
-再	z
+越来越	yly
+韵母	ynmu
+再见	zaijiw
+自定义	zdi
+自己	zj
 怎么	zm
+怎么办	zmb
 怎么回事	zmhx
+怎么样	zmi
 怎样	zi
+总是	zx
 
+Alice in Cradle	aic
+Discord	dc
+Geometry Dash	gd
+GitHub	gh
+Windows	win
+
+低切	diqie
+低通	ditug
+高切	gaoqie
+高通	gaotug
 混音	hunin
 音色	inse
 音头	intou
-音头	it
-原曲	ywqyy
+锯齿波	jqb
+正弦波	jxb
+预制	yj
+原曲	ywqy
+原乡鼓	yxg
+Ableton Live	live
+FL Studio	fl
+Trance	tr
 
-Geometry Dash	gd
-GitHub	gh
-level	lv
-Windows	win
+啊这	aj
+怪怪的	ggd
+豪	hao
+好欸	haoei
+豪德	hd
+好怪哦	hgo
+好好	hh
+好好好	hhh
+好家伙	hjh
+豪听	ht
+就离谱	jlp
+这么强	jmq
+剧然	jr	2
+康康	kk
+蓝白碗	lbu
+裂开了	lkl
+萝莉控	llk
+慕名而来	mmal
+慕名前来	mmql
+行	qq	1
+彳亍	qq
+彳亍	qqu
 
+到此一游	dcii
+超级简拼	qjjp
+
+电子蛇	dzx
 汪壮壮	wjj
+164325ESnake_	ps
 esnakesnake@gmail.com	email	2
 asneka@qq.com	email	1
 1256668096@qq.com	email
