@@ -257,6 +257,7 @@
 怎么回事	zmhx
 怎么样	zmi
 怎样	zi
+子文件夹	zujj
 总是	zx
 
 Alice in Cradle	aic
