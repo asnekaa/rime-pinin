@@ -10,6 +10,10 @@ $subs = @(
     @{
         Name = "rime-kagiroi"
         List = "rime-kagiroi-sparse.txt"
+    },
+    @{
+        Name = "RIME-LMDG"
+        List = "RIME-LMDG-sparse.txt"
     }
 )
 

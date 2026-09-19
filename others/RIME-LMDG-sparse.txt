@@ -1,0 +1,2 @@
+/dicts/jichu.dict.yaml
+/dicts/zi.dict.yaml
