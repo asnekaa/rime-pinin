@@ -4,3 +4,6 @@
 [submodule "rime-kagiroi"]
 	path = rime-kagiroi
 	url = https://github.com/rimeinn/rime-kagiroi.git
+[submodule "RIME-LMDG"]
+	path = RIME-LMDG
+	url = https://github.com/amzxyz/RIME-LMDG.git
