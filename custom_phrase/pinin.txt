@@ -1,6 +1,6 @@
 # Rime table
 # coding: utf-8
-#@/db_name	rime-ice.txt
+#@/db_name	pinin.txt
 #@/db_type	tabledb
 #
 # 自定义短语
@@ -60,6 +60,7 @@
 那	n＼
 能	nn
 你	ni
+娘	niv
 了	l
 来	l／
 个	ge
@@ -254,12 +255,13 @@
 全面	qywmiw
 全角	qywjio
 系统	xt
-下面	xm・
+喜欢	xihuw
+下面	xiam
 显示	xx
 现在	xz
 想到	xd
 行不行	xbx／
-直接	jji
+直接	jj
 只要	j｜io
 只有	j｜iu
 只用	j｜y
@@ -269,7 +271,8 @@
 这样	ji
 这么	jm
 这个	jg
-真正	jj
+真的	jnd
+真正	jnjn
 正在	jz
 主文件夹	jujj
 主副	jufu
@@ -286,6 +289,7 @@
 是不是	xbx
 视频	xp
 事情	xq
+上面	xvm
 甚至	xj
 什么	xm
 什么意思	xmis
