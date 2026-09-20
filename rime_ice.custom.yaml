@@ -16,6 +16,9 @@ patch:
       states: [正常, 单字]
       abbrev: [词, 单]
 
+  # 输入引擎
+  engine/processors/@before 0: lua_processor@*tone_symbol
+
   # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
   date_translator:
     date: date
@@ -49,78 +52,77 @@ patch:
   emoji: null
 
   # 拼写设定
-  speller/alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`1234567890
+  speller/alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`1234567890－／｜＼・＿￣
   speller/algebra:
     # 一个音节最多由三部分构成：声母 + 介母 + 韵母
     # 声母：b p m f d t n l g k h j q x z c s r
     # 介母：iuy
     # 韵母：
-    #  单元音：a o e
-    #  双元音：ai ao ei ou
-    #  鼻音：w v n g
+    #  单韵母：a o e
+    #  复韵母：ai ei ao ou
+    #  鼻韵母：w v n g
 
-    # y 起始音节去除 i
-    - xform/^yi$/y/
-    - xform/^yin$/yn/
-    - xform/^ying$/yng/
+    # # y 起始音节去除 i
+    # - xform/^yi$/y/
+    # - xform/^yin$/yn/
+    # - xform/^ying$/yng/
 
-    # w 起始音节去除 u
-    - xform/^wu$/w/
+    # # w 起始音节去除 u
+    # - xform/^wu$/w/
 
-    # 统一 ü 编码
-    - xform/^([jqxy])[uv]/$1ü/
-    - xform/^([nl])v$/$1ü/
-    - xform/^([nl])[uv]e$/$1üe/
+    # # 统一 ü 编码
+    # - xform/^([jqxy])[uv]/$1ü/
+    # - xform/^([nl])v$/$1ü/
+    # - xform/^([nl])[uv]e$/$1üe/
 
-    # 修正介母
-    - xform/^yong$/yüng/
-    - xform/iong$/üng/
-    - xform/ong$/ung/
-    - xform/^yo$/yüo/
+    # # 修正介母
+    # - xform/^yong$/yüng/
+    # - xform/iong$/üng/
+    # - xform/ong$/ung/
+    # - xform/^yo$/yüo/
 
-    # 去除隔音字母 y/w，并将 ü 转为 y
-    - xform/^y$/i/
-    - xform/^y([^ü])/i$1/
-    - xform/^w/u/
-    - xform/^yü/ü/
-    - xform/ü/y/
+    # # 去除隔音字母 y/w，并将 ü 转为 y
+    # - xform/^y$/i/
+    # - xform/^y([^ü])/i$1/
+    # - xform/^w/u/
+    # - xform/^yü/ü/
+    # - xform/ü/y/
 
-    # 展开缩写韵母
-    - xform/iu$/iou/
-    - xform/ui$/uei/
+    # # 展开缩写韵母
+    # - xform/iu$/iou/
+    # - xform/ui$/uei/
 
-    # 修改鼻音编码
-    - xform/an$/w/
-    - xform/ang$/v/
-    - xform/^(.+)en$/$1n/
-    - xform/^(.+)eng$/$1ng/
-    - xform/^(.+)ng$/$1g/
+    # # 修改单韵母编码
+    # - xform/an$/w/
+    # - xform/ang$/v/
+    # - xform/^(.+)en$/$1n/
+    # - xform/^(.+)eng$/$1ng/
+    # - xform/^(.+)ng$/$1g/
 
-    # 空韵重新编码
-    - xform/^([zcsr]|zh|ch|sh)i$/$1/
+    # # 空韵重新编码
+    # - xform/^([zcsr]|zh|ch|sh)i$/$1/
 
-    # 翘舌声母重新编码
-    - xform/^zh/j/
-    - xform/^ch/q/
-    - xform/^sh/x/
+    # # 翘舌声母重新编码
+    # - xform/^zh/j/
+    # - xform/^ch/q/
+    # - xform/^sh/x/
+
+    # # 压缩介韵
+    # - xform/uo$/o/
+    # - xform/uai$/ui/
+    # - xform/uei$/ue/
+    # - xform/iao$/io/
+    # - xform/iou$/iu/
+
+    - xlit/①②③④⑤/－／｜＼・/
 
     # 补充额外编码
     - derive/^er$/ar/
-    - xform/uo$/o/
     - derive/o$/uo/
     - derive/^([bpmf])g$/$1ug/
     - derive/^([dtnlgkhjqxzcsr])g$/$1n/
     - derive/ig$/in/
 
-    # 压缩 介母+双元音韵母 组合
-    - xform/iao$/io/
-    - xform/iou$/iu/
-    - xform/uai$/ui/
-    - xform/uei$/ue/
-
     # 超级简拼
     - abbrev/^([a-z]).+$/$1/
-    - abbrev/^en$/n/
-    - abbrev/^eng$/g/
-    - erase/^en$/
-    - erase/^eng$/
+    - abbrev/^([a-z]).+(－|／|｜|＼|・)$/$1$2/

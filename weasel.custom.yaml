@@ -6,7 +6,7 @@ patch:
 
   # 全局字体
   style/font_face: "LXGW WenKai, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:30:39, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Segoe UI, Microsoft YaHei, DengXian, Segoe UI Emoji, Noto Color Emoji, Segoe UI Symbol"
-  style/label_font_face: "LXGW WenKai" # 标签字体
+  style/label_format: "" # 标签字符：例如 %s. 效果为 1. 2. 3. ....
 
   # [preset_color_schemes]
   # 配色设定
