@@ -244,1239 +244,1189 @@
 
 ## 附录：完整音节表
 
-> 表格按原表结构，使用合并单元格。  
-> 声母列合并其下的 `/ i u y` 四行。
-
-<style>
-.pinin-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 13px;
-  text-align: center;
-  margin: 14px 0;
-}
-.pinin-table th,
-.pinin-table td {
-  border: 1px solid #d8dee4;
-  padding: 5px 7px;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-.pinin-table thead th {
-  background: #eef5ff;
-  color: #1f2328;
-  font-weight: 700;
-}
-.pinin-table tbody td {
-  background: #ffffff;
-}
-.pinin-table tbody tr:hover td {
-  background: #f2f8ff;
-}
-</style>
-
-<table class="pinin-table">
+<table>
 <thead>
 <tr>
-<th rowspan="2">声母</th>
-<th rowspan="2">介母</th>
-<th rowspan="2">韵母</th>
-<th colspan="3">单韵母</th>
-<th colspan="4">复韵母</th>
-<th colspan="4">鼻韵母</th>
+  <th rowspan="2" align="center">声母</th>
+  <th rowspan="2" align="center">介母</th>
+  <th rowspan="2" align="center">韵母</th>
+  <th colspan="3" align="center">单韵母</th>
+  <th colspan="4" align="center">复韵母</th>
+  <th colspan="4" align="center">鼻韵母</th>
 </tr>
 <tr>
-<th>a</th>
-<th>o</th>
-<th>e</th>
-<th>ai</th>
-<th>ei</th>
-<th>ao</th>
-<th>ou</th>
-<th>w</th>
-<th>v</th>
-<th>n</th>
-<th>g</th>
+  <th align="center">a</th>
+  <th align="center">o</th>
+  <th align="center">e</th>
+  <th align="center">ai</th>
+  <th align="center">ei</th>
+  <th align="center">ao</th>
+  <th align="center">ou</th>
+  <th align="center">w</th>
+  <th align="center">v</th>
+  <th align="center">n</th>
+  <th align="center">g</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowspan="4">/</td>
-<td>/</td>
-<td>ar/er</td>
-<td>a</td>
-<td>o</td>
-<td>e</td>
-<td>ai</td>
-<td>ei</td>
-<td>ao</td>
-<td>ou</td>
-<td>w</td>
-<td>v</td>
-<td>n</td>
-<td>g</td>
-</tr>
-<tr>
-<td>i</td>
-<td>i</td>
-<td>ia</td>
-<td></td>
-<td>ie</td>
-<td></td>
-<td></td>
-<td>io</td>
-<td>iu</td>
-<td>iw</td>
-<td>iv</td>
-<td>in</td>
-<td>ig</td>
-</tr>
-<tr>
-<td>u</td>
-<td>u</td>
-<td>ua</td>
-<td>uo</td>
-<td></td>
-<td>ui</td>
-<td>ue</td>
-<td></td>
-<td></td>
-<td>uw</td>
-<td>uv</td>
-<td>un</td>
-<td>ug</td>
-</tr>
-<tr>
-<td>y</td>
-<td>y</td>
-<td></td>
-<td></td>
-<td>ye</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>yw</td>
-<td></td>
-<td>yn</td>
-<td>yg</td>
-</tr>
-
-<tr>
-<td rowspan="4">b</td>
-<td>/</td>
-<td></td>
-<td>ba</td>
-<td>bo</td>
-<td></td>
-<td>bai</td>
-<td>bei</td>
-<td>bao</td>
-<td></td>
-<td>bw</td>
-<td>bv</td>
-<td>bn</td>
-<td>bg</td>
-</tr>
-<tr>
-<td>i</td>
-<td>bi</td>
-<td></td>
-<td></td>
-<td>bie</td>
-<td></td>
-<td></td>
-<td>bio</td>
-<td></td>
-<td>biw</td>
-<td>biv</td>
-<td>bin</td>
-<td>big</td>
-</tr>
-<tr>
-<td>u</td>
-<td>bu</td>
-<td></td>
-<td>buo</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>bug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">p</td>
-<td>/</td>
-<td></td>
-<td>pa</td>
-<td>po</td>
-<td></td>
-<td>pai</td>
-<td>pei</td>
-<td>pao</td>
-<td></td>
-<td>pw</td>
-<td>pv</td>
-<td>pn</td>
-<td>pg</td>
-</tr>
-<tr>
-<td>i</td>
-<td>pi</td>
-<td></td>
-<td></td>
-<td>pie</td>
-<td></td>
-<td></td>
-<td>pio</td>
-<td></td>
-<td>piw</td>
-<td></td>
-<td>pin</td>
-<td>pig</td>
-</tr>
-<tr>
-<td>u</td>
-<td>pu</td>
-<td></td>
-<td>puo</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>pug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">m</td>
-<td>/</td>
-<td></td>
-<td>ma</td>
-<td>mo</td>
-<td></td>
-<td>mai</td>
-<td>mei</td>
-<td>mao</td>
-<td>mou</td>
-<td>mw</td>
-<td>mv</td>
-<td>mn</td>
-<td>mg</td>
-</tr>
-<tr>
-<td>i</td>
-<td>mi</td>
-<td></td>
-<td></td>
-<td>mie</td>
-<td></td>
-<td></td>
-<td>mio</td>
-<td></td>
-<td>miw</td>
-<td></td>
-<td>min</td>
-<td>mig</td>
-</tr>
-<tr>
-<td>u</td>
-<td>mu</td>
-<td></td>
-<td>muo</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>mug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">f</td>
-<td>/</td>
-<td></td>
-<td>fa</td>
-<td>fo</td>
-<td></td>
-<td></td>
-<td>fei</td>
-<td></td>
-<td>fou</td>
-<td>fw</td>
-<td>fv</td>
-<td>fn</td>
-<td>fg</td>
-</tr>
-<tr>
-<td>i</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>fio</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>u</td>
-<td>fu</td>
-<td></td>
-<td>fuo</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>fug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">d</td>
-<td>/</td>
-<td></td>
-<td>da</td>
-<td></td>
-<td>de</td>
-<td>dai</td>
-<td>dei</td>
-<td>dao</td>
-<td>dou</td>
-<td>dw</td>
-<td>dv</td>
-<td>dn</td>
-<td>dg</td>
-</tr>
-<tr>
-<td>i</td>
-<td>di</td>
-<td>dia</td>
-<td></td>
-<td>die</td>
-<td></td>
-<td></td>
-<td>dio</td>
-<td>diu</td>
-<td>diw</td>
-<td></td>
-<td></td>
-<td>dig</td>
-</tr>
-<tr>
-<td>u</td>
-<td>du</td>
-<td></td>
-<td>duo</td>
-<td></td>
-<td></td>
-<td>due</td>
-<td></td>
-<td></td>
-<td>duw</td>
-<td></td>
-<td>dun</td>
-<td>dug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">t</td>
-<td>/</td>
-<td></td>
-<td>ta</td>
-<td></td>
-<td>te</td>
-<td>tai</td>
-<td>tei</td>
-<td>tao</td>
-<td>tou</td>
-<td>tw</td>
-<td>tv</td>
-<td></td>
-<td>tg</td>
-</tr>
-<tr>
-<td>i</td>
-<td>ti</td>
-<td></td>
-<td></td>
-<td>tie</td>
-<td></td>
-<td></td>
-<td>tio</td>
-<td></td>
-<td>tiw</td>
-<td></td>
-<td></td>
-<td>tig</td>
-</tr>
-<tr>
-<td>u</td>
-<td>tu</td>
-<td></td>
-<td>tuo</td>
-<td></td>
-<td></td>
-<td>tue</td>
-<td></td>
-<td></td>
-<td>tuw</td>
-<td></td>
-<td>tun</td>
-<td>tug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">n</td>
-<td>/</td>
-<td></td>
-<td>na</td>
-<td></td>
-<td>ne</td>
-<td>nai</td>
-<td>nei</td>
-<td>nao</td>
-<td>nou</td>
-<td>nw</td>
-<td>nv</td>
-<td>nn</td>
-<td>ng</td>
-</tr>
-<tr>
-<td>i</td>
-<td>ni</td>
-<td></td>
-<td></td>
-<td>nie</td>
-<td></td>
-<td></td>
-<td>nio</td>
-<td>niu</td>
-<td>niw</td>
-<td>niv</td>
-<td>nin</td>
-<td>nig</td>
-</tr>
-<tr>
-<td>u</td>
-<td>nu</td>
-<td></td>
-<td>nuo</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>nuw</td>
-<td></td>
-<td></td>
-<td>nug</td>
-</tr>
-<tr>
-<td>y</td>
-<td>ny</td>
-<td></td>
-<td></td>
-<td>nye</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">l</td>
-<td>/</td>
-<td></td>
-<td>la</td>
-<td></td>
-<td>le</td>
-<td>lai</td>
-<td>lei</td>
-<td>lao</td>
-<td>lou</td>
-<td>lan</td>
-<td>lv</td>
-<td></td>
-<td>lg</td>
-</tr>
-<tr>
-<td>i</td>
-<td>li</td>
-<td></td>
-<td></td>
-<td>lie</td>
-<td></td>
-<td></td>
-<td>lio</td>
-<td>liu</td>
-<td>liw</td>
-<td>liv</td>
-<td>ln</td>
-<td>lig</td>
-</tr>
-<tr>
-<td>u</td>
-<td>lu</td>
-<td></td>
-<td>luo</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>luw</td>
-<td></td>
-<td>lun</td>
-<td>lug</td>
-</tr>
-<tr>
-<td>y</td>
-<td>ly</td>
-<td></td>
-<td></td>
-<td>lye</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">g</td>
-<td>/</td>
-<td></td>
-<td>ga</td>
-<td>go</td>
-<td>ge</td>
-<td>gai</td>
-<td>gei</td>
-<td>gao</td>
-<td>gou</td>
-<td>gw</td>
-<td>gv</td>
-<td>gn</td>
-<td>gg</td>
-</tr>
-<tr>
-<td>i</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>u</td>
-<td>gu</td>
-<td>gua</td>
-<td>guo</td>
-<td></td>
-<td>gui</td>
-<td>gue</td>
-<td></td>
-<td></td>
-<td>guw</td>
-<td>guv</td>
-<td>gun</td>
-<td>gug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">k</td>
-<td>/</td>
-<td></td>
-<td>ka</td>
-<td>ko</td>
-<td>ke</td>
-<td>kai</td>
-<td>kei</td>
-<td>kao</td>
-<td>kou</td>
-<td>kw</td>
-<td>kv</td>
-<td>kn</td>
-<td>kg</td>
-</tr>
-<tr>
-<td>i</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>u</td>
-<td>ku</td>
-<td>kua</td>
-<td>kuo</td>
-<td></td>
-<td>kui</td>
-<td>kue</td>
-<td></td>
-<td></td>
-<td>kuw</td>
-<td>kuv</td>
-<td>kun</td>
-<td>kug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">h</td>
-<td>/</td>
-<td></td>
-<td>ha</td>
-<td>ho</td>
-<td>he</td>
-<td>hai</td>
-<td>hei</td>
-<td>hao</td>
-<td>hou</td>
-<td>hw</td>
-<td>hv</td>
-<td>hn</td>
-<td>hg</td>
-</tr>
-<tr>
-<td>i</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>u</td>
-<td>hu</td>
-<td>hua</td>
-<td>huo</td>
-<td></td>
-<td>hui</td>
-<td>hue</td>
-<td></td>
-<td></td>
-<td>huw</td>
-<td>huv</td>
-<td>hun</td>
-<td>hug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">j</td>
-<td>/</td>
-<td>j</td>
-<td>ja</td>
-<td>jo</td>
-<td>je</td>
-<td>jai</td>
-<td>jei</td>
-<td>jao</td>
-<td>jou</td>
-<td>jw</td>
-<td>jv</td>
-<td>jn</td>
-<td>jg</td>
-</tr>
-<tr>
-<td>i</td>
-<td>ji</td>
-<td>jia</td>
-<td></td>
-<td>jie</td>
-<td></td>
-<td></td>
-<td>jio</td>
-<td>jiu</td>
-<td>jiw</td>
-<td>jiv</td>
-<td>jin</td>
-<td>jig</td>
-</tr>
-<tr>
-<td>u</td>
-<td>ju</td>
-<td></td>
-<td>juo</td>
-<td></td>
-<td>jui</td>
-<td>jue</td>
-<td></td>
-<td></td>
-<td>juw</td>
-<td>juv</td>
-<td>jun</td>
-<td>jug</td>
-</tr>
-<tr>
-<td>y</td>
-<td>jy</td>
-<td></td>
-<td></td>
-<td>jye</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>jyw</td>
-<td></td>
-<td>jyn</td>
-<td>jyg</td>
-</tr>
-
-<tr>
-<td rowspan="4">q</td>
-<td>/</td>
-<td>q</td>
-<td>qa</td>
-<td>qo</td>
-<td>qe</td>
-<td>qai</td>
-<td></td>
-<td>qao</td>
-<td>qou</td>
-<td>qw</td>
-<td>qv</td>
-<td>qn</td>
-<td>qg</td>
-</tr>
-<tr>
-<td>i</td>
-<td>qi</td>
-<td>qia</td>
-<td></td>
-<td>qie</td>
-<td></td>
-<td></td>
-<td>qio</td>
-<td>qiu</td>
-<td>qiw</td>
-<td>qiv</td>
-<td>qin</td>
-<td>qig</td>
-</tr>
-<tr>
-<td>u</td>
-<td>qu</td>
-<td></td>
-<td>quo</td>
-<td></td>
-<td>qui</td>
-<td>que</td>
-<td></td>
-<td></td>
-<td>quw</td>
-<td>quv</td>
-<td>qun</td>
-<td>qug</td>
-</tr>
-<tr>
-<td>y</td>
-<td>qy</td>
-<td></td>
-<td></td>
-<td>qye</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>qyw</td>
-<td></td>
-<td>qyn</td>
-<td>qyg</td>
-</tr>
-
-<tr>
-<td rowspan="4">x</td>
-<td>/</td>
-<td>x</td>
-<td>xa</td>
-<td>xo</td>
-<td>xe</td>
-<td>xai</td>
-<td>xei</td>
-<td>xao</td>
-<td>xou</td>
-<td>xw</td>
-<td>xv</td>
-<td>xn</td>
-<td>xg</td>
-</tr>
-<tr>
-<td>i</td>
-<td>xi</td>
-<td>xia</td>
-<td></td>
-<td>xie</td>
-<td></td>
-<td></td>
-<td>xio</td>
-<td>xiu</td>
-<td>xiw</td>
-<td>xiv</td>
-<td>xin</td>
-<td>xig</td>
-</tr>
-<tr>
-<td>u</td>
-<td>xu</td>
-<td></td>
-<td>xuo</td>
-<td></td>
-<td>xui</td>
-<td>xue</td>
-<td></td>
-<td></td>
-<td>xuw</td>
-<td>xuv</td>
-<td>xun</td>
-<td></td>
-</tr>
-<tr>
-<td>y</td>
-<td>xy</td>
-<td></td>
-<td></td>
-<td>xye</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>xyw</td>
-<td></td>
-<td>xyn</td>
-<td>xyg</td>
-</tr>
-
-<tr>
-<td rowspan="4">z</td>
-<td>/</td>
-<td>z</td>
-<td>za</td>
-<td>zo</td>
-<td>ze</td>
-<td>zai</td>
-<td>zei</td>
-<td>zao</td>
-<td>zou</td>
-<td>zw</td>
-<td>zv</td>
-<td>zn</td>
-<td>zg</td>
-</tr>
-<tr>
-<td>i</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>u</td>
-<td>zu</td>
-<td></td>
-<td>zuo</td>
-<td></td>
-<td></td>
-<td>zue</td>
-<td></td>
-<td></td>
-<td>zuw</td>
-<td></td>
-<td>zun</td>
-<td>zug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">c</td>
-<td>/</td>
-<td>c</td>
-<td>ca</td>
-<td>co</td>
-<td>ce</td>
-<td>cai</td>
-<td>cei</td>
-<td>cao</td>
-<td>cou</td>
-<td>cw</td>
-<td>zv</td>
-<td>cn</td>
-<td>cg</td>
-</tr>
-<tr>
-<td>i</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>u</td>
-<td>cu</td>
-<td></td>
-<td>cuo</td>
-<td></td>
-<td></td>
-<td>cue</td>
-<td></td>
-<td></td>
-<td>cuw</td>
-<td></td>
-<td>cun</td>
-<td>cug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">s</td>
-<td>/</td>
-<td>s</td>
-<td>sa</td>
-<td>so</td>
-<td>se</td>
-<td>sai</td>
-<td></td>
-<td>sao</td>
-<td>sou</td>
-<td>sw</td>
-<td>sv</td>
-<td>sn</td>
-<td>sg</td>
-</tr>
-<tr>
-<td>i</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>u</td>
-<td>su</td>
-<td></td>
-<td>suo</td>
-<td></td>
-<td></td>
-<td>sue</td>
-<td></td>
-<td></td>
-<td>suw</td>
-<td></td>
-<td>sun</td>
-<td>sug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-
-<tr>
-<td rowspan="4">r</td>
-<td>/</td>
-<td>r</td>
-<td></td>
-<td>ro</td>
-<td>re</td>
-<td></td>
-<td></td>
-<td>rao</td>
-<td>rou</td>
-<td>rw</td>
-<td>rv</td>
-<td>rn</td>
-<td>rg</td>
-</tr>
-<tr>
-<td>i</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>u</td>
-<td>ru</td>
-<td></td>
-<td>ruo</td>
-<td></td>
-<td></td>
-<td>rue</td>
-<td></td>
-<td></td>
-<td>ruw</td>
-<td></td>
-<td>run</td>
-<td>rug</td>
-</tr>
-<tr>
-<td>y</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+  <td rowspan="4" align="center">/</td>
+  <td align="center">/</td>
+  <td align="center">ar/er</td>
+  <td align="center">a</td>
+  <td align="center">o</td>
+  <td align="center">e</td>
+  <td align="center">ai</td>
+  <td align="center">ei</td>
+  <td align="center">ao</td>
+  <td align="center">ou</td>
+  <td align="center">w</td>
+  <td align="center">v</td>
+  <td align="center">n</td>
+  <td align="center">g</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center">i</td>
+  <td align="center">ia</td>
+  <td align="center"></td>
+  <td align="center">ie</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">io</td>
+  <td align="center">iu</td>
+  <td align="center">iw</td>
+  <td align="center">iv</td>
+  <td align="center">in</td>
+  <td align="center">ig</td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">u</td>
+  <td align="center">ua</td>
+  <td align="center">uo</td>
+  <td align="center"></td>
+  <td align="center">ui</td>
+  <td align="center">ue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">uw</td>
+  <td align="center">uv</td>
+  <td align="center">un</td>
+  <td align="center">ug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">ye</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">yw</td>
+  <td align="center"></td>
+  <td align="center">yn</td>
+  <td align="center">yg</td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">b</td>
+  <td align="center">/</td>
+  <td align="center"></td>
+  <td align="center">ba</td>
+  <td align="center">bo</td>
+  <td align="center"></td>
+  <td align="center">bai</td>
+  <td align="center">bei</td>
+  <td align="center">bao</td>
+  <td align="center"></td>
+  <td align="center">bw</td>
+  <td align="center">bv</td>
+  <td align="center">bn</td>
+  <td align="center">bg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center">bi</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">bie</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">bio</td>
+  <td align="center"></td>
+  <td align="center">biw</td>
+  <td align="center">biv</td>
+  <td align="center">bin</td>
+  <td align="center">big</td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">bu</td>
+  <td align="center"></td>
+  <td align="center">buo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">bug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">p</td>
+  <td align="center">/</td>
+  <td align="center"></td>
+  <td align="center">pa</td>
+  <td align="center">po</td>
+  <td align="center"></td>
+  <td align="center">pai</td>
+  <td align="center">pei</td>
+  <td align="center">pao</td>
+  <td align="center"></td>
+  <td align="center">pw</td>
+  <td align="center">pv</td>
+  <td align="center">pn</td>
+  <td align="center">pg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center">pi</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">pie</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">pio</td>
+  <td align="center"></td>
+  <td align="center">piw</td>
+  <td align="center"></td>
+  <td align="center">pin</td>
+  <td align="center">pig</td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">pu</td>
+  <td align="center"></td>
+  <td align="center">puo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">pug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">m</td>
+  <td align="center">/</td>
+  <td align="center"></td>
+  <td align="center">ma</td>
+  <td align="center">mo</td>
+  <td align="center"></td>
+  <td align="center">mai</td>
+  <td align="center">mei</td>
+  <td align="center">mao</td>
+  <td align="center">mou</td>
+  <td align="center">mw</td>
+  <td align="center">mv</td>
+  <td align="center">mn</td>
+  <td align="center">mg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center">mi</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">mie</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">mio</td>
+  <td align="center"></td>
+  <td align="center">miw</td>
+  <td align="center"></td>
+  <td align="center">min</td>
+  <td align="center">mig</td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">mu</td>
+  <td align="center"></td>
+  <td align="center">muo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">mug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">f</td>
+  <td align="center">/</td>
+  <td align="center"></td>
+  <td align="center">fa</td>
+  <td align="center">fo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">fei</td>
+  <td align="center"></td>
+  <td align="center">fou</td>
+  <td align="center">fw</td>
+  <td align="center">fv</td>
+  <td align="center">fn</td>
+  <td align="center">fg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">fio</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">fu</td>
+  <td align="center"></td>
+  <td align="center">fuo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">fug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">d</td>
+  <td align="center">/</td>
+  <td align="center"></td>
+  <td align="center">da</td>
+  <td align="center"></td>
+  <td align="center">de</td>
+  <td align="center">dai</td>
+  <td align="center">dei</td>
+  <td align="center">dao</td>
+  <td align="center">dou</td>
+  <td align="center">dw</td>
+  <td align="center">dv</td>
+  <td align="center">dn</td>
+  <td align="center">dg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center">di</td>
+  <td align="center">dia</td>
+  <td align="center"></td>
+  <td align="center">die</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">dio</td>
+  <td align="center">diu</td>
+  <td align="center">diw</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">dig</td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">du</td>
+  <td align="center"></td>
+  <td align="center">duo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">due</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">duw</td>
+  <td align="center"></td>
+  <td align="center">dun</td>
+  <td align="center">dug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">t</td>
+  <td align="center">/</td>
+  <td align="center"></td>
+  <td align="center">ta</td>
+  <td align="center"></td>
+  <td align="center">te</td>
+  <td align="center">tai</td>
+  <td align="center">tei</td>
+  <td align="center">tao</td>
+  <td align="center">tou</td>
+  <td align="center">tw</td>
+  <td align="center">tv</td>
+  <td align="center"></td>
+  <td align="center">tg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center">ti</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">tie</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">tio</td>
+  <td align="center"></td>
+  <td align="center">tiw</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">tig</td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">tu</td>
+  <td align="center"></td>
+  <td align="center">tuo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">tue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">tuw</td>
+  <td align="center"></td>
+  <td align="center">tun</td>
+  <td align="center">tug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">n</td>
+  <td align="center">/</td>
+  <td align="center"></td>
+  <td align="center">na</td>
+  <td align="center"></td>
+  <td align="center">ne</td>
+  <td align="center">nai</td>
+  <td align="center">nei</td>
+  <td align="center">nao</td>
+  <td align="center">nou</td>
+  <td align="center">nw</td>
+  <td align="center">nv</td>
+  <td align="center">nn</td>
+  <td align="center">ng</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center">ni</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">nie</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">nio</td>
+  <td align="center">niu</td>
+  <td align="center">niw</td>
+  <td align="center">niv</td>
+  <td align="center">nin</td>
+  <td align="center">nig</td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">nu</td>
+  <td align="center"></td>
+  <td align="center">nuo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">nuw</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">nug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center">ny</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">nye</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">l</td>
+  <td align="center">/</td>
+  <td align="center"></td>
+  <td align="center">la</td>
+  <td align="center"></td>
+  <td align="center">le</td>
+  <td align="center">lai</td>
+  <td align="center">lei</td>
+  <td align="center">lao</td>
+  <td align="center">lou</td>
+  <td align="center">lan</td>
+  <td align="center">lv</td>
+  <td align="center"></td>
+  <td align="center">lg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center">li</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">lie</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">lio</td>
+  <td align="center">liu</td>
+  <td align="center">liw</td>
+  <td align="center">liv</td>
+  <td align="center">ln</td>
+  <td align="center">lig</td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">lu</td>
+  <td align="center"></td>
+  <td align="center">luo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">luw</td>
+  <td align="center"></td>
+  <td align="center">lun</td>
+  <td align="center">lug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center">ly</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">lye</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">g</td>
+  <td align="center">/</td>
+  <td align="center"></td>
+  <td align="center">ga</td>
+  <td align="center">go</td>
+  <td align="center">ge</td>
+  <td align="center">gai</td>
+  <td align="center">gei</td>
+  <td align="center">gao</td>
+  <td align="center">gou</td>
+  <td align="center">gw</td>
+  <td align="center">gv</td>
+  <td align="center">gn</td>
+  <td align="center">gg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">gu</td>
+  <td align="center">gua</td>
+  <td align="center">guo</td>
+  <td align="center"></td>
+  <td align="center">gui</td>
+  <td align="center">gue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">guw</td>
+  <td align="center">guv</td>
+  <td align="center">gun</td>
+  <td align="center">gug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">k</td>
+  <td align="center">/</td>
+  <td align="center"></td>
+  <td align="center">ka</td>
+  <td align="center">ko</td>
+  <td align="center">ke</td>
+  <td align="center">kai</td>
+  <td align="center">kei</td>
+  <td align="center">kao</td>
+  <td align="center">kou</td>
+  <td align="center">kw</td>
+  <td align="center">kv</td>
+  <td align="center">kn</td>
+  <td align="center">kg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">ku</td>
+  <td align="center">kua</td>
+  <td align="center">kuo</td>
+  <td align="center"></td>
+  <td align="center">kui</td>
+  <td align="center">kue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">kuw</td>
+  <td align="center">kuv</td>
+  <td align="center">kun</td>
+  <td align="center">kug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">h</td>
+  <td align="center">/</td>
+  <td align="center"></td>
+  <td align="center">ha</td>
+  <td align="center">ho</td>
+  <td align="center">he</td>
+  <td align="center">hai</td>
+  <td align="center">hei</td>
+  <td align="center">hao</td>
+  <td align="center">hou</td>
+  <td align="center">hw</td>
+  <td align="center">hv</td>
+  <td align="center">hn</td>
+  <td align="center">hg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">hu</td>
+  <td align="center">hua</td>
+  <td align="center">huo</td>
+  <td align="center"></td>
+  <td align="center">hui</td>
+  <td align="center">hue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">huw</td>
+  <td align="center">huv</td>
+  <td align="center">hun</td>
+  <td align="center">hug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">j</td>
+  <td align="center">/</td>
+  <td align="center">j</td>
+  <td align="center">ja</td>
+  <td align="center">jo</td>
+  <td align="center">je</td>
+  <td align="center">jai</td>
+  <td align="center">jei</td>
+  <td align="center">jao</td>
+  <td align="center">jou</td>
+  <td align="center">jw</td>
+  <td align="center">jv</td>
+  <td align="center">jn</td>
+  <td align="center">jg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center">ji</td>
+  <td align="center">jia</td>
+  <td align="center"></td>
+  <td align="center">jie</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">jio</td>
+  <td align="center">jiu</td>
+  <td align="center">jiw</td>
+  <td align="center">jiv</td>
+  <td align="center">jin</td>
+  <td align="center">jig</td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">ju</td>
+  <td align="center"></td>
+  <td align="center">juo</td>
+  <td align="center"></td>
+  <td align="center">jui</td>
+  <td align="center">jue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">juw</td>
+  <td align="center">juv</td>
+  <td align="center">jun</td>
+  <td align="center">jug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center">jy</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">jye</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">jyw</td>
+  <td align="center"></td>
+  <td align="center">jyn</td>
+  <td align="center">jyg</td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">q</td>
+  <td align="center">/</td>
+  <td align="center">q</td>
+  <td align="center">qa</td>
+  <td align="center">qo</td>
+  <td align="center">qe</td>
+  <td align="center">qai</td>
+  <td align="center"></td>
+  <td align="center">qao</td>
+  <td align="center">qou</td>
+  <td align="center">qw</td>
+  <td align="center">qv</td>
+  <td align="center">qn</td>
+  <td align="center">qg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center">qi</td>
+  <td align="center">qia</td>
+  <td align="center"></td>
+  <td align="center">qie</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">qio</td>
+  <td align="center">qiu</td>
+  <td align="center">qiw</td>
+  <td align="center">qiv</td>
+  <td align="center">qin</td>
+  <td align="center">qig</td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">qu</td>
+  <td align="center"></td>
+  <td align="center">quo</td>
+  <td align="center"></td>
+  <td align="center">qui</td>
+  <td align="center">que</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">quw</td>
+  <td align="center">quv</td>
+  <td align="center">qun</td>
+  <td align="center">qug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center">qy</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">qye</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">qyw</td>
+  <td align="center"></td>
+  <td align="center">qyn</td>
+  <td align="center">qyg</td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">x</td>
+  <td align="center">/</td>
+  <td align="center">x</td>
+  <td align="center">xa</td>
+  <td align="center">xo</td>
+  <td align="center">xe</td>
+  <td align="center">xai</td>
+  <td align="center">xei</td>
+  <td align="center">xao</td>
+  <td align="center">xou</td>
+  <td align="center">xw</td>
+  <td align="center">xv</td>
+  <td align="center">xn</td>
+  <td align="center">xg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center">xi</td>
+  <td align="center">xia</td>
+  <td align="center"></td>
+  <td align="center">xie</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">xio</td>
+  <td align="center">xiu</td>
+  <td align="center">xiw</td>
+  <td align="center">xiv</td>
+  <td align="center">xin</td>
+  <td align="center">xig</td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">xu</td>
+  <td align="center"></td>
+  <td align="center">xuo</td>
+  <td align="center"></td>
+  <td align="center">xui</td>
+  <td align="center">xue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">xuw</td>
+  <td align="center">xuv</td>
+  <td align="center">xun</td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center">xy</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">xye</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">xyw</td>
+  <td align="center"></td>
+  <td align="center">xyn</td>
+  <td align="center">xyg</td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">z</td>
+  <td align="center">/</td>
+  <td align="center">z</td>
+  <td align="center">za</td>
+  <td align="center">zo</td>
+  <td align="center">ze</td>
+  <td align="center">zai</td>
+  <td align="center">zei</td>
+  <td align="center">zao</td>
+  <td align="center">zou</td>
+  <td align="center">zw</td>
+  <td align="center">zv</td>
+  <td align="center">zn</td>
+  <td align="center">zg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">zu</td>
+  <td align="center"></td>
+  <td align="center">zuo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">zue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">zuw</td>
+  <td align="center"></td>
+  <td align="center">zun</td>
+  <td align="center">zug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">c</td>
+  <td align="center">/</td>
+  <td align="center">c</td>
+  <td align="center">ca</td>
+  <td align="center">co</td>
+  <td align="center">ce</td>
+  <td align="center">cai</td>
+  <td align="center">cei</td>
+  <td align="center">cao</td>
+  <td align="center">cou</td>
+  <td align="center">cw</td>
+  <td align="center">zv</td>
+  <td align="center">cn</td>
+  <td align="center">cg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">cu</td>
+  <td align="center"></td>
+  <td align="center">cuo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">cue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">cuw</td>
+  <td align="center"></td>
+  <td align="center">cun</td>
+  <td align="center">cug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">s</td>
+  <td align="center">/</td>
+  <td align="center">s</td>
+  <td align="center">sa</td>
+  <td align="center">so</td>
+  <td align="center">se</td>
+  <td align="center">sai</td>
+  <td align="center"></td>
+  <td align="center">sao</td>
+  <td align="center">sou</td>
+  <td align="center">sw</td>
+  <td align="center">sv</td>
+  <td align="center">sn</td>
+  <td align="center">sg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">su</td>
+  <td align="center"></td>
+  <td align="center">suo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">sue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">suw</td>
+  <td align="center"></td>
+  <td align="center">sun</td>
+  <td align="center">sug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">r</td>
+  <td align="center">/</td>
+  <td align="center">r</td>
+  <td align="center"></td>
+  <td align="center">ro</td>
+  <td align="center">re</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">rao</td>
+  <td align="center">rou</td>
+  <td align="center">rw</td>
+  <td align="center">rv</td>
+  <td align="center">rn</td>
+  <td align="center">rg</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">ru</td>
+  <td align="center"></td>
+  <td align="center">ruo</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">rue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">ruw</td>
+  <td align="center"></td>
+  <td align="center">run</td>
+  <td align="center">rug</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
 </tr>
 </tbody>
 </table>
