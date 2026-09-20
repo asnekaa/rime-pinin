@@ -84,11 +84,12 @@
 先	xiw
 想	x｜
 像	x＼
+行	x／
 只	j｜
 这	je
 这	jei
-是	x
-时	x／
+是	x	1
+时	x
 说	xo
 上	xv
 字	z
@@ -354,9 +355,8 @@ Trance	tr
 好家伙	hjh
 就离谱	jlp
 剧然	jr	2
+强强	qq
 这么强	jmq
-行	qq	1
-彳亍	qq
 彳亍	qqu
 
 到此一游	dcii
