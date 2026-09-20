@@ -192,9 +192,12 @@
 突然	tr	1
 通过	tg
 同时	tx
+那么	nm	1
 哪里	n｜l
 那里	n＼l
-那么	nm	1
+哪些	n｜x
+那些	n＼x
+内容	nr
 能不能	nbn
 能够	ng
 你们	nm
@@ -236,6 +239,7 @@
 脚本	jb
 就好了	jhl
 就是	jx
+就行	jx／
 简洁	jiwjie／
 简介	jiwjie＼
 间接	jiwjie－

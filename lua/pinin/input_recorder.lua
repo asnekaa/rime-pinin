@@ -1,7 +1,10 @@
 local HISTORY_DIR = rime_api.get_user_data_dir() .. "/input_history"
 
-local current_minute
-local current_text = ""
+local minute
+local buffer = {}
+local buffer_size = 0
+local file
+local date
 
 local function make_dir()
     if package.config:sub(1, 1) == "\\" then
@@ -11,56 +14,74 @@ local function make_dir()
     end
 end
 
-local function flush()
-    if not current_minute or current_text == "" then
-        return
+local function open_file(current_date)
+    if file then
+        file:close()
     end
 
-    local date = current_minute:sub(1, 10)
-    local time = current_minute:sub(12)
-
-    local file = io.open(
-        HISTORY_DIR .. "/" .. date .. ".txt",
-        "a"
-    )
-
-    if not file then
-        return
-    end
-
-    file:write("[", time, "] ", current_text, "\n")
-    file:close()
-
-    current_text = ""
+    date = current_date
+    file = io.open(HISTORY_DIR .. "/" .. date .. ".txt", "a")
 end
 
-local function record(text)
+local function flush()
+    if not minute or buffer_size == 0 then
+        return
+    end
+
+    local timestamp = minute
+    local current_date = os.date("%Y-%m-%d", timestamp)
+
+    if not file or date ~= current_date then
+        open_file(current_date)
+    end
+
+    if file then
+        file:write(
+            "[",
+            os.date("%H:%M", timestamp),
+            "] ",
+            table.concat(buffer, "", 1, buffer_size),
+            "\n"
+        )
+        file:flush()
+    end
+
+    buffer = {}
+    buffer_size = 0
+end
+
+local function append(text)
     if not text or text == "" then
         return
     end
 
-    text = text:gsub("[\r\n]+", "\\n")
+    local now = os.time()
+    local current_minute = now - now % 60
 
-    local minute = os.date("%Y-%m-%d %H:%M")
-
-    if current_minute ~= minute then
+    if minute ~= current_minute then
         flush()
-        current_minute = minute
+        minute = current_minute
     end
 
-    current_text = current_text .. text
+    buffer_size = buffer_size + 1
+    buffer[buffer_size] = text:gsub("[\r\n]+", "\\n")
 end
 
 local function init(env)
     make_dir()
 
     env.engine.context.commit_notifier:connect(function(context)
-        record(context:get_commit_text())
+        append(context:get_commit_text())
     end)
 end
 
 local function fini()
     flush()
+
+    if file then
+        file:close()
+        file = nil
+    end
 end
 
 local function processor()
