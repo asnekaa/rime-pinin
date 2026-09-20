@@ -62,6 +62,7 @@
 你	ni
 了	l
 来	l／
+个	ge
 改	gai
 给	g
 给	gei
@@ -116,6 +117,7 @@
 一定	idin
 一个	ig
 一个	ig
+一行	ihv
 一下	ix＼
 一些	ix－
 以为	iue
@@ -145,6 +147,7 @@
 比如	biru
 别人	br
 编码	biwma
+补丁	budin
 不一样	bii
 不应该	bing
 不用	by
@@ -155,6 +158,7 @@
 不去	bq
 不想	bx｜
 不像	bx＼
+不行	bx／
 不知道	bjd
 不是	bx
 默认	mr
@@ -172,6 +176,7 @@
 分别	fnb
 复制	fuj
 风格	fg
+打字	daz
 代码	daim
 代码	daima
 到底	dd
@@ -211,7 +216,7 @@
 肯定	kd
 空韵	kugyn
 空格	kg
-还要	h／i
+还要	h／io
 还有	h／iu
 还是	h／x
 还在	h／z
@@ -254,6 +259,7 @@
 只要	j｜io
 只有	j｜iu
 只用	j｜y
+只能	j｜n
 只会	j｜h
 只是	j｜x
 这样	ji
@@ -265,7 +271,9 @@
 主副	jufu
 主人	jurn
 注意	jui
+注释	jux
 中文	ju
+插入	qaru
 出来	qul
 重新	qx
 时候	xh
@@ -301,6 +309,7 @@
 所有	siu
 虽然	sr
 算了	sl
+日志	rj
 然后	rh
 任意	rni
 任何	rnhe
