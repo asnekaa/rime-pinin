@@ -9,17 +9,21 @@
 ## 一、基本元素（按顺序）
 
 ### 声母（21个）
+
 `b p m f d t n l g k h j q x z c s r`
 
 ### 介母（3个）
+
 `i u y`
 
 ### 韵母
+
 - **单韵母**：`a o e`
 - **复韵母**：`ai ei ao ou`
 - **鼻韵母**：`w v n g`
 
 ### 特殊音节
+
 - `ar` / `er`  
   不能与声母、介母组合，单独使用。
 
@@ -27,8 +31,8 @@
 
 ## 二、声调符号
 
-| 声调 | 符号 | 示例 |
-|---|---|---|
+| 声调 | 符号 | 示例          |
+| ---- | ---- | ------------- |
 | 一声 | `－` | `mā` → `ma－` |
 | 二声 | `／` | `má` → `ma／` |
 | 三声 | `｜` | `mǎ` → `ma｜` |
@@ -50,26 +54,26 @@
 
 ## 四、声母改写
 
-| 标准声母 | 输入码 |
-|---|---|
-| `b p m f d t n l g k h` | 不变 |
-| `j q x` | 不变 |
-| `zh` | `j` |
-| `ch` | `q` |
-| `sh` | `x` |
-| `z c s r` | 不变 |
+| 标准声母                | 输入码 |
+| ----------------------- | ------ |
+| `b p m f d t n l g k h` | 不变   |
+| `j q x`                 | 不变   |
+| `zh`                    | `j`    |
+| `ch`                    | `q`    |
+| `sh`                    | `x`    |
+| `z c s r`               | 不变   |
 
 空韵：
 
-| 标准 | 输入 |
-|---|---|
-| `zhi` | `j` |
-| `chi` | `q` |
-| `shi` | `x` |
-| `zi` | `z` |
-| `ci` | `c` |
-| `si` | `s` |
-| `ri` | `r` |
+| 标准  | 输入 |
+| ----- | ---- |
+| `zhi` | `j`  |
+| `chi` | `q`  |
+| `shi` | `x`  |
+| `zi`  | `z`  |
+| `ci`  | `c`  |
+| `si`  | `s`  |
+| `ri`  | `r`  |
 
 ---
 
@@ -80,94 +84,94 @@
 
 ### 1. 介母 `i` 的组合
 
-| 标准 | 组合 | 输入码 |
-|---|---|---|
-| `ia` | `i + a` | `ia` |
-| `ie` | `i + e` | `ie` |
-| `iao` | `i + ao` | `io` |
-| `iu` | `i + ou` | `iu` |
-| `ian` | `i + an` → `i + w` | `iw` |
-| `iang` | `i + ang` → `i + v` | `iv` |
-| `in` | `i + n` | `in` |
-| `ing` | `i + ng` → `i + g` | `ig`（额外编码 `in`） |
+| 标准   | 组合                | 输入码                |
+| ------ | ------------------- | --------------------- |
+| `ia`   | `i + a`             | `ia`                  |
+| `ie`   | `i + e`             | `ie`                  |
+| `iao`  | `i + ao`            | `io`                  |
+| `iu`   | `i + ou`            | `iu`                  |
+| `ian`  | `i + an` → `i + w`  | `iw`                  |
+| `iang` | `i + ang` → `i + v` | `iv`                  |
+| `in`   | `i + n`             | `in`                  |
+| `ing`  | `i + ng` → `i + g`  | `ig`（额外编码 `in`） |
 
 > 注意：`iong` 的介母是 `y`，不在此处，见介母 `y` 的组合。
 
 ### 2. 介母 `u` 的组合
 
-| 标准 | 组合 | 输入码 |
-|---|---|---|
-| `ua` | `u + a` | `ua` |
-| `uo` | `u + o` | `o`（额外编码 `uo`） |
-| `uai` | `u + ai` | `ui` |
-| `ui` | `u + ei` | `ue` |
-| `uan` | `u + an` → `u + w` | `uw` |
-| `uang` | `u + ang` → `u + v` | `uv` |
-| `ueng` | `u + eng` → `u + g` | `ug` |
-| `un` | `u + en` → `u + n` | `un` |
-| `ong` | `u + g` | `ug` |
+| 标准   | 组合                | 输入码               |
+| ------ | ------------------- | -------------------- |
+| `ua`   | `u + a`             | `ua`                 |
+| `uo`   | `u + o`             | `o`（额外编码 `uo`） |
+| `uai`  | `u + ai`            | `ui`                 |
+| `ui`   | `u + ei`            | `ue`                 |
+| `uan`  | `u + an` → `u + w`  | `uw`                 |
+| `uang` | `u + ang` → `u + v` | `uv`                 |
+| `ueng` | `u + eng` → `u + g` | `ug`                 |
+| `un`   | `u + en` → `u + n`  | `un`                 |
+| `ong`  | `u + g`             | `ug`                 |
 
 ### 3. 介母 `y` 的组合（`ü` 最终写作 `y`）
 
-| 标准 | 输入码 |
-|---|---|
-| `ü` | `y` |
-| `üe` | `ye` |
-| `üan` | `yw` |
-| `ün` | `yn` |
-| `iong` | `yg` |
-| `yong` | `yg` |
+| 标准                | 输入码                                                                           |
+| ------------------- | -------------------------------------------------------------------------------- |
+| `ü`                 | `y`                                                                              |
+| `üe`                | `ye`                                                                             |
+| `üan`               | `yw`                                                                             |
+| `ün`                | `yn`                                                                             |
+| `iong`              | `yg`                                                                             |
+| `yong`              | `yg`                                                                             |
 | `ü` 与 `j/q/x` 组合 | `j/q/x + y`，如 `ju → jy`、`jue → jye`、`juan → jyw`、`jun → jyn`、`jiong → jyg` |
 
 ### 4. 鼻韵母改写
 
-| 标准 | 输入码 |
-|---|---|
-| `an` | `w` |
-| `ang` | `v` |
-| `en` | `n` |
-| `eng` | `g` |
+| 标准  | 输入码 |
+| ----- | ------ |
+| `an`  | `w`    |
+| `ang` | `v`    |
+| `en`  | `n`    |
+| `eng` | `g`    |
 
 ### 5. 复韵母简写
 
-| 标准 | 输入码 |
-|---|---|
-| `uo` | `o`（额外 `uo`） |
-| `uai` | `ui` |
-| `ui` | `ue` |
-| `iao` | `io` |
-| `iu` | `iu` |
+| 标准  | 输入码           |
+| ----- | ---------------- |
+| `uo`  | `o`（额外 `uo`） |
+| `uai` | `ui`             |
+| `ui`  | `ue`             |
+| `iao` | `io`             |
+| `iu`  | `iu`             |
 
 ---
 
 ## 六、整体认读 / 零声母
 
-| 标准 | 输入 |
-|---|---|
-| `yi` | `i` |
-| `yin` | `in` |
+| 标准   | 输入                  |
+| ------ | --------------------- |
+| `yi`   | `i`                   |
+| `yin`  | `in`                  |
 | `ying` | `ig`（额外编码 `in`） |
-| `wu` | `u` |
-| `yu` | `y` |
-| `yue` | `ye` |
-| `yuan` | `yw` |
-| `yun` | `yn` |
-| `yong` | `yg` |
-| `yo` | `yo` |
-| `you` | `iu` |
-| `ya` | `ia` |
-| `yan` | `iw` |
-| `yang` | `iv` |
-| `yao` | `io` |
-| `ye` | `ie` |
-| `wa` | `ua` |
-| `wai` | `ui` |
-| `wan` | `uw` |
-| `wang` | `uv` |
-| `wei` | `ue` |
-| `wen` | `un` |
-| `weng` | `ug` |
-| `wo` | `o` |
+| `wu`   | `u`                   |
+| `yu`   | `y`                   |
+| `yue`  | `ye`                  |
+| `yuan` | `yw`                  |
+| `yun`  | `yn`                  |
+| `yong` | `yg`                  |
+| `yo`   | `yo`                  |
+| `you`  | `iu`                  |
+| `ya`   | `ia`                  |
+| `yan`  | `iw`                  |
+| `yang` | `iv`                  |
+| `yao`  | `io`                  |
+| `ye`   | `ie`                  |
+| `wa`   | `ua`                  |
+| `wai`  | `ui`                  |
+| `wan`  | `uw`                  |
+| `wang` | `uv`                  |
+| `wei`  | `ue`                  |
+| `wen`  | `un`                  |
+| `weng` | `ug`                  |
+| `wo`   | `o`                   |
 
 ---
 
@@ -197,31 +201,31 @@
 ## 九、示例
 
 | 标准拼音 | 自创编码 |
-|---|---|
-| `zhōng` | `jug－` |
-| `zhuàng` | `juv＼` |
-| `xióng` | `xyg／` |
-| `yīng` | `ig－` |
-| `yǒng` | `yg｜` |
-| `juǎn` | `jyw｜` |
-| `jūn` | `jyn－` |
-| `guì` | `gue＼` |
-| `liú` | `liu／` |
-| `duō` | `do－` |
-| `diǎn` | `diw｜` |
-| `dàng` | `dv＼` |
-| `děng` | `dg｜` |
-| `dōng` | `dug－` |
-| `mā` | `ma－` |
-| `má` | `ma／` |
-| `mǎ` | `ma｜` |
-| `mà` | `ma＼` |
-| `字` | `z` |
-| `在` | `z＿` |
-| `再` | `z￣` |
-| `他` | `t` |
-| `她` | `t＿` |
-| `它` | `t￣` |
+| -------- | -------- |
+| `zhōng`  | `jug－`  |
+| `zhuàng` | `juv＼`  |
+| `xióng`  | `xyg／`  |
+| `yīng`   | `ig－`   |
+| `yǒng`   | `yg｜`   |
+| `juǎn`   | `jyw｜`  |
+| `jūn`    | `jyn－`  |
+| `guì`    | `gue＼`  |
+| `liú`    | `liu／`  |
+| `duō`    | `do－`   |
+| `diǎn`   | `diw｜`  |
+| `dàng`   | `dv＼`   |
+| `děng`   | `dg｜`   |
+| `dōng`   | `dug－`  |
+| `mā`     | `ma－`   |
+| `má`     | `ma／`   |
+| `mǎ`     | `ma｜`   |
+| `mà`     | `ma＼`   |
+| `字`     | `z`      |
+| `在`     | `z＿`    |
+| `再`     | `z￣`    |
+| `他`     | `t`      |
+| `她`     | `t＿`    |
+| `它`     | `t￣`    |
 
 ---
 
@@ -243,7 +247,36 @@
 > 表格按原表结构，使用合并单元格。  
 > 声母列合并其下的 `/ i u y` 四行。
 
-<table>
+<style>
+.pinin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin: 14px 0;
+}
+.pinin-table th,
+.pinin-table td {
+  border: 1px solid #d8dee4;
+  padding: 5px 7px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.pinin-table thead th {
+  background: #eef5ff;
+  color: #1f2328;
+  font-weight: 700;
+}
+.pinin-table tbody td {
+  background: #ffffff;
+}
+.pinin-table tbody tr:hover td {
+  background: #f2f8ff;
+}
+</style>
+
+<table class="pinin-table">
 <thead>
 <tr>
 <th rowspan="2">声母</th>
