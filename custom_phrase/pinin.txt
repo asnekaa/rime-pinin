@@ -111,6 +111,7 @@
 我的	od
 我们	om
 额外	eui
+安卓	wjo
 按照	wj
 一样	ii
 一般	ib
@@ -136,6 +137,7 @@
 完美	uwm
 完美	uwmei
 完全	uq
+忘记	uvji
 文件	uj
 文件夹	ujj
 问题	ut
@@ -244,6 +246,7 @@
 简洁	jiwjie／
 简介	jiwjie＼
 间接	jiwjie－
+键盘	jiwpw
 经常	jq
 竟然	jr
 居然	jr	1

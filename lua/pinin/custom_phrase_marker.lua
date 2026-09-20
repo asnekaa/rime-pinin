@@ -1,5 +1,5 @@
 local MARK = "～"
-local CUSTOM_PHRASE_FILE = rime_api.get_user_data_dir() .. "/custom_phrase/rime-ice.txt"
+local CUSTOM_PHRASE_FILE = rime_api.get_user_data_dir() .. "/custom_phrase/pinin.txt"
 
 local custom_entries = {}
 
