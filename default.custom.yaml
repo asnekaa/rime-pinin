@@ -1,8 +1,8 @@
 patch:
   # 方案列表
   schema_list:
-    - schema: rime_ice
-    - schema: kagiroi
+    - schema: pinin
+    # - schema: kagiroi
 
   menu/page_size: 2 # 候选词个数
 
@@ -25,6 +25,15 @@ patch:
     - zh_hans
     - zh_hant_tw
   switcher/fold_options: true # 呼出时是否折叠
+
+  # 标点符号
+  # 设置为一个映射，就自动上屏；设置为多个映射，如 '/' : [ '/', ÷ ] 则进行复选。
+  #   full_shape: 全角没改，使用预设值
+  #   half_shape: 标点符号全部直接上屏，和 macOS 自带输入法的区别是
+  #              '|' 是半角的，
+  #              '~' 是半角的。
+  punctuator/digit_separators: ",:"  # 在此处指定的字符，在数字后被输入，若再次输入数字，则连同数字直接上屏；若双击，则恢复映射。 # librime >= 1.13.0
+  punctuator/half_shape/.: null
 
   # 快捷键patch:
   key_binder/bindings/@0/send: Up

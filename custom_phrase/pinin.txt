@@ -51,6 +51,7 @@
 多	do
 的	d
 都	d－
+对	due
 他	t
 她	t＿
 它	t￣
@@ -63,6 +64,7 @@
 娘	niv
 了	l
 来	l／
+咯	l・
 个	ge
 改	gai
 给	g
@@ -90,6 +92,7 @@
 只	j｜
 这	je
 这	jei
+着	j・
 是	x	1
 时	x
 说	xo
@@ -126,7 +129,9 @@
 以后	ih
 以前	iq
 已经	ij
+要不要	ibi
 要不然	ibr
+要么	iom
 有点	iud
 有一次	iic
 有没有	imi
@@ -164,6 +169,7 @@
 不行	bx／
 不知道	bjd
 不是	bx
+配置	peij
 默认	mr
 没有	miu
 没用	my
@@ -198,6 +204,8 @@
 那么	nm	1
 哪里	n｜l
 那里	n＼l
+哪个	n｜g
+那个	n＼g
 哪些	n｜x
 那些	n＼x
 内容	nr
@@ -208,7 +216,9 @@
 裸体	loti
 离谱	lp
 聊天	lt
+两个	lg
 果然	gr
+改成	gq
 搞的	gd	1
 感觉	gj
 干什么	gxm
@@ -249,6 +259,7 @@
 键盘	jiwpw
 经常	jq
 竟然	jr
+回关	hueguw
 居然	jr	1
 觉得	jd
 其他	qt
@@ -264,6 +275,7 @@
 现在	xz
 想到	xd
 行不行	xbx／
+需要	xyio
 直接	jj
 只要	j｜io
 只有	j｜iu
@@ -276,7 +288,9 @@
 这个	jg
 真的	jnd
 真正	jnjn
+正常	jnq
 正在	jz
+正在	jnz
 主文件夹	jujj
 主副	jufu
 主人	jurn
@@ -382,8 +396,10 @@ Trance	tr
 到此一游	dcii
 超级简拼	qjjp
 
-电子蛇	dzx
 汪壮壮	wjj
+电子蛇	dzx
+ASneka	as
+ESnake	es
 164325ESnake_	ps
 esnakesnake@gmail.com	email	2
 asneka@qq.com	email	1

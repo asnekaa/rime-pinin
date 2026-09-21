@@ -1,6 +1,5 @@
 build/
 trash/
-input_history/
 *.userdb/
 installation.yaml
 user.yaml
