@@ -57,11 +57,11 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 
 | 声调 | 符号   | 示例                |
 | ---- | ------ | ------------------- |
-| 一声 | `－` | `mā` → `ma－` |
-| 二声 | `／` | `má` → `ma／` |
-| 三声 | `｜` | `mǎ` → `ma｜` |
-| 四声 | `＼` | `mà` → `ma＼` |
-| 轻声 | `・` | `ma` → `ma・`  |
+| 一声 | `-` | `mā` → `ma-` |
+| 二声 | `/` | `má` → `ma/` |
+| 三声 | `\|` | `mǎ` → `ma\|` |
+| 四声 | `\` | `mà` → `ma\` |
+| 轻声 | `·` | `ma` → `ma·`  |
 
 声调符号加在压缩后的编码末尾。
 
@@ -69,10 +69,10 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 
 ## 三、变种符号（仅用于自定义短语）
 
-- `＿` 和 `￣` 表示同一编码的不同变种。
+- `_` 和 `‾` 表示同一编码的不同变种。
 - 例：
-  - `z` = 字，`z＿` = 在，`z￣` = 再
-  - `t` = 他，`t＿` = 她，`t￣` = 它
+  - `z` = 字，`z_` = 在，`z‾` = 再
+  - `t` = 他，`t_` = 她，`t‾` = 它
 
 ---
 
@@ -211,7 +211,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 
 - 取音节首字母作为简拼。
 - 带声调时，取 **首字母 + 声调符号**。
-- 例：`juv＼` → 简拼 `j＼`
+- 例：`juv\` → 简拼 `j\`
 
 ---
 
@@ -219,20 +219,20 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 
 | 标准拼音    | 自创编码  |
 | ----------- | --------- |
-| `zhōng`  | `jug－` |
-| `zhuàng` | `juv＼` |
-| `xióng`  | `xyg／` |
-| `yīng`   | `ig－`  |
-| `yǒng`   | `yg｜`  |
-| `juǎn`   | `jyw｜` |
-| `jūn`    | `jyn－` |
-| `guì`    | `gue＼` |
-| `liú`    | `liu／` |
-| `duō`    | `do－`  |
-| `diǎn`   | `diw｜` |
-| `dàng`   | `dv＼`  |
-| `děng`   | `dg｜`  |
-| `dōng`   | `dug－` |
+| `zhōng`  | `jug-` |
+| `zhuàng` | `juv\` |
+| `xióng`  | `xyg/` |
+| `yīng`   | `ig-`  |
+| `yǒng`   | `yg\|`  |
+| `juǎn`   | `jyw\|` |
+| `jūn`    | `jyn-` |
+| `guì`    | `gue\` |
+| `liú`    | `liu/` |
+| `duō`    | `do-`  |
+| `diǎn`   | `diw\|` |
+| `dàng`   | `dv\`  |
+| `děng`   | `dg\|`  |
+| `dōng`   | `dug-` |
 
 ---
 
@@ -242,7 +242,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 2. 声介韵可任意组合，但需符合实际拼音。
 3. `ar/er` 是特殊音节，不能与其他组合。
 4. 声调符号写在编码末尾。
-5. `＿` 和 `￣` 仅用于自定义短语，表示同一编码的不同变种。
+5. `_` 和 `‾` 仅用于自定义短语，表示同一编码的不同变种。
 6. `o` 的发音就是 `uo`，以 `o` 为主，`uo` 作为额外输入。
 7. `g` 在 `b p m f` 后音变成 `ug`，在其余声母后音变成 `n`；`ig` 音变成 `in`，因此它们有不止一种编码。
 8. `iong` 的介母是 `y`，不属于介母 `i`。
