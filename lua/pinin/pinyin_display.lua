@@ -1,4 +1,4 @@
-local MARK = "～"
+local MARK = "~"
 
 local function rewrite_pinyin(pinyin)
     pinyin = pinyin:gsub("ie", "iê")

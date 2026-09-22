@@ -2,7 +2,7 @@ patch:
   # 方案列表
   schema_list:
     - schema: pinin
-    # - schema: kagiroi
+    - schema: kagiroi
 
   menu/page_size: 2 # 候选词个数
 

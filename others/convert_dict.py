@@ -45,7 +45,7 @@ TONE_MAP = {
     'ń': ('n', 2), 'ň': ('n', 3), 'ǹ': ('n', 4)
 }
 
-TONE_MARKS = ['①', '②', '③', '④', '⑤']
+TONE_MARKS = ['-', '/', '|', '\\', '·']
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 RIME_ROOT = SCRIPT_DIR.parent
