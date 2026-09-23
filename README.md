@@ -776,7 +776,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">lei</td>
   <td align="center">lao</td>
   <td align="center">lou</td>
-  <td align="center">lan</td>
+  <td align="center">lw</td>
   <td align="center">lv</td>
   <td align="center"></td>
   <td align="center">lg</td>
