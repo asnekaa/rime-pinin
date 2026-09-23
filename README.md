@@ -587,7 +587,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">/</td>
   <td align="center"></td>
   <td align="center">da</td>
-  <td align="center"></td>
+  <td align="center">do</td>
   <td align="center">de</td>
   <td align="center">dai</td>
   <td align="center">dei</td>
@@ -648,7 +648,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">/</td>
   <td align="center"></td>
   <td align="center">ta</td>
-  <td align="center"></td>
+  <td align="center">to</td>
   <td align="center">te</td>
   <td align="center">tai</td>
   <td align="center">tei</td>
@@ -709,7 +709,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">/</td>
   <td align="center"></td>
   <td align="center">na</td>
-  <td align="center"></td>
+  <td align="center">no</td>
   <td align="center">ne</td>
   <td align="center">nai</td>
   <td align="center">nei</td>
@@ -770,7 +770,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">/</td>
   <td align="center"></td>
   <td align="center">la</td>
-  <td align="center"></td>
+  <td align="center">lo</td>
   <td align="center">le</td>
   <td align="center">lai</td>
   <td align="center">lei</td>
