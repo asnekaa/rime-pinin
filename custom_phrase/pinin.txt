@@ -50,7 +50,9 @@
 没	mei
 多	do
 的	d
+得	dei
 都	d-
+都	dou
 点	diw
 对	due
 他	t
@@ -78,6 +80,7 @@
 看	kw
 和	he
 还	h/
+还	hai
 好	h
 好	hao	1
 坏	hui
@@ -125,12 +128,13 @@
 一个	ig
 一个	ig
 一行	ihv
-一下	ix\
-一些	ix-
+一下	ixia
+一些	ixie
 以为	iue
 以后	ih
 以前	iq
 已经	ij
+也行	iex/
 要不要	ibi
 要不然	ibr
 要么	iom
@@ -152,14 +156,16 @@
 原来	yl
 韵母	ynmu
 用不了	ybl
+半角	bwjio
 本来	bl
+必要	biio
 比如	bir
 比如	biru
 别人	br
 编码	biwma
 补丁	budin
 不一样	bii
-不应该	bing
+不应该	big
 不用	by
 不对	bd
 不能	bn
@@ -186,6 +192,7 @@
 方法	ff
 分别	fnb
 复制	fuj
+复杂	fuza
 风格	fg
 打字	daz
 代码	daim
@@ -230,6 +237,8 @@
 关于	gy
 可爱	keai
 可以	ki
+可用	keyg
+可恶	keu
 可是	kx
 看看	kk	1
 肯定	kd
@@ -245,6 +254,7 @@
 好想	hx|
 好像	hx\
 后面	hm
+回车	hueqe
 会不会	hbh
 基本上	jbx
 记得	jide
@@ -255,6 +265,8 @@
 脚本	jb
 就好了	jhl
 就是	jx
+就想	jx|
+就像	jx\
 就行	jx/
 简洁	jiwjie/
 简介	jiwjie\
@@ -266,8 +278,8 @@
 居然	jr	1
 觉得	jd
 其他	qt
-起来	qil
 其实	qix
+起来	qil
 前面	qm
 全面	qywmiw
 全角	qywjio
@@ -291,6 +303,8 @@
 这个	jg
 真的	jnd
 真正	jnjn
+整个	jng
+整个	jnge
 正常	jnq
 正在	jz
 正在	jnz
@@ -305,7 +319,7 @@
 出来	qul
 重新	qx
 时候	xh
-实在	xz\
+实在	xz_
 使用	xyg
 是不是	xbx
 视频	xp
@@ -334,6 +348,7 @@
 总是	zx
 词首	cxou
 才是	caix
+操作	caozo
 促音	cuin
 所以	si
 所有	siu

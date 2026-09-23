@@ -256,12 +256,13 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 <tr>
   <th rowspan="2" align="center">声母</th>
   <th rowspan="2" align="center">介母</th>
-  <th rowspan="2" align="center">韵母</th>
+  <th align="center">韵母</th>
   <th colspan="3" align="center">单韵母</th>
   <th colspan="4" align="center">复韵母</th>
   <th colspan="4" align="center">鼻韵母</th>
 </tr>
 <tr>
+  <th align="center">/</th>
   <th align="center">a</th>
   <th align="center">o</th>
   <th align="center">e</th>
