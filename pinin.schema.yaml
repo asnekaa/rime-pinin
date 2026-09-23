@@ -360,9 +360,9 @@ speller:
     # 补充额外编码
     - derive/^er$/ar/
     - derive/o$/uo/
-    - derive/^([bpmf])g$/$1ug/
-    - derive/^([dtnlgkhjqxzcsr])g$/$1n/
-    - derive/ig$/in/
+    - derive/^([bpmf])g/$1ug/
+    - derive/^([dtnlgkhjqxzcsr])g/$1n/
+    - derive/ig/in/
 
     # 超级简拼
     - abbrev/^([a-z]).+$/$1/

@@ -134,6 +134,7 @@
 以后	ih
 以前	iq
 已经	ij
+意思	is
 也行	iex/
 要不要	ibi
 要不然	ibr
@@ -239,6 +240,7 @@
 可以	ki
 可用	keyg
 可恶	keu
+可能	kn
 可是	kx
 看看	kk	1
 肯定	kd
