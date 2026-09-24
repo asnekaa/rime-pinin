@@ -418,11 +418,9 @@ Trance	tr
 到此一游	dcii
 超级简拼	qjjp
 
-汪壮壮	wjj
 电子蛇	dzx
 ASneka	as
 ESnake	es
-164325ESnake_	ps
 esnakesnake@gmail.com	email	2
 asneka@qq.com	email	1
 1256668096@qq.com	email
