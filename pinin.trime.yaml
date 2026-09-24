@@ -919,7 +919,7 @@ preset_keys:
 
 key_width:
   1: &key1_width 10
-  2: &key2_width 11.12
+  2: &key2_width 10
   3: &key3_width 10
   4: &key4_width 10
 
@@ -1024,7 +1024,6 @@ preset_keyboards:
           width: *key1_width,
         }
       # 第二行
-      # - { width: 5, key_back_color: bh2, key_text_color: th2 }
       - {
           click: q,
           long_click: "`",
@@ -1116,7 +1115,7 @@ preset_keyboards:
           width: *key2_width,
         }
       # 第三行
-      # - { width: 5, key_back_color: bh2, key_text_color: th2 }
+      - { width: 5, key_back_color: bh2, key_text_color: th2 }
       - {
           click: a,
           long_click: "⇥",
