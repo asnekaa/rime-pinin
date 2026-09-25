@@ -704,7 +704,7 @@ tool_bar:
 
   hide_button: &hide_button
     foreground:
-      style: "∇"
+      style: "ic@triangle-small-down"
       normal: candidate_text_color
     action: Hide
 
@@ -935,15 +935,15 @@ key_width:
   2: &key2_width 10
   3: &key3_width 11.12
   4: &key4_width 10
-  5: &key5_width 10
-  6: &enter_width 20
-  7: &space_width 40
+  5: &key5_width 11
+  6: &enter_width 22
+  7: &space_width 36
 
 # 键盘布局
 preset_keyboards:
   default:
     author: "ASneka"
-    name: 36键
+    name: Pinin
     width: 10
     height: 48
     ascii_mode: 0
