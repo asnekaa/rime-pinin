@@ -931,19 +931,23 @@ preset_keys:
   ẑ: { label: ẑ, preview: ẑ, send: "1" }
   ĉ: { label: ĉ, preview: ĉ, send: "2" }
   ŝ: { label: ŝ, preview: ŝ, send: "3" }
-  -: { label: "-", preview: "-", send: "4" }
-  ñ: { label: ñ, preview: ŋ, send: "4" }
-  ŋ: { label: ŋ, preview: ñ, send: "5" }
+  ñ: { label: ñ, preview: ŋ, send: "9" }
+  ŋ: { label: ŋ, preview: ñ, send: "0" }
+  Tone_1: { label: "-", preview: "-", send: "4" }
+  Tone_2: { label: "/", preview: "/", send: "5" }
+  Tone_3: { label: "|", preview: "|", send: "6" }
+  Tone_4: { label: "\\", preview: "\\", send: "7" }
+  Variant: { label: "_", preview: "_", send: "8" }
   Commit_1: { label: "1", preview: "1", commit: "1" }
-  Commit_2: { commit: "2" }
-  Commit_3: { commit: "3" }
-  Commit_4: { commit: "4" }
-  Commit_5: { commit: "5" }
-  Commit_6: { commit: "6" }
-  Commit_7: { commit: "7" }
-  Commit_8: { commit: "8" }
-  Commit_9: { commit: "9" }
-  Commit_0: { commit: "0" }
+  Commit_2: { label: "2", preview: "2", commit: "2" }
+  Commit_3: { label: "3", preview: "3", commit: "3" }
+  Commit_4: { label: "4", preview: "4", commit: "4" }
+  Commit_5: { label: "5", preview: "5", commit: "5" }
+  Commit_6: { label: "6", preview: "6", commit: "6" }
+  Commit_7: { label: "7", preview: "7", commit: "7" }
+  Commit_8: { label: "8", preview: "8", commit: "8" }
+  Commit_9: { label: "9", preview: "9", commit: "9" }
+  Commit_0: { label: "0", preview: "0", commit: "0" }
 
 key_width:
   1: &key1_width 10
@@ -975,7 +979,6 @@ preset_keyboards:
         }
       - {
           click: ĉ,
-          label_symbol: "2",
           long_click: Commit_2,
           swipe_up: Commit_2,
           swipe_down: Commit_2,
@@ -985,7 +988,6 @@ preset_keyboards:
         }
       - {
           click: ŝ,
-          label_symbol: "3",
           long_click: Commit_3,
           swipe_up: Commit_3,
           swipe_down: Commit_3,
@@ -994,63 +996,52 @@ preset_keyboards:
           width: *key1_width,
         }
       - {
-          click: "4",
-          label: "-",
-          label_symbol: "4",
-          long_click: "Commit_4",
-          swipe_up: "Commit_4",
-          swipe_down: "Commit_4",
+          click: Tone_1,
+          long_click: Commit_4,
+          swipe_up: Commit_4",
+          swipe_down: Commit_4,
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
-          click: "5",
-          label: "/",
-          label_symbol: "5",
-          long_click: "Commit_5",
-          swipe_up: "Commit_5",
-          swipe_down: "Commit_5",
+          click: Tone_2,
+          long_click: Commit_5,
+          swipe_up: Commit_5,
+          swipe_down: Commit_5,
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
-          click: "6",
-          label: "|",
-          label_symbol: "6",
-          long_click: "Commit_6",
-          swipe_up: "Commit_6",
-          swipe_down: "Commit_6",
+          click: Tone_3,
+          long_click: Commit_6,
+          swipe_up: Commit_6,
+          swipe_down: Commit_6,
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
-          click: "7",
-          label: "\\",
-          label_symbol: "7",
-          long_click: "Commit_7",
-          swipe_up: "Commit_7",
-          swipe_down: "Commit_7",
+          click: Tone_4,
+          long_click: Commit_7,
+          swipe_up: Commit_7,
+          swipe_down: Commit_7,
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
-          click: "8",
-          label: "_",
-          label_symbol: "8",
-          long_click: "Commit_8",
-          swipe_up: "Commit_8",
-          swipe_down: "Commit_8",
+          click: Variant,
+          long_click: Commit_8,
+          swipe_up: Commit_8,
+          swipe_down: Commit_8,
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
           click: ñ,
-          label_symbol: "9",
           long_click: Commit_9,
           swipe_up: Commit_9,
           swipe_down: Commit_9,
@@ -1060,7 +1051,6 @@ preset_keyboards:
         }
       - {
           click: ŋ,
-          label_symbol: "0",
           long_click: Commit_0,
           swipe_up: Commit_0,
           swipe_down: Commit_0,
