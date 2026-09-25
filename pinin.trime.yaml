@@ -946,6 +946,7 @@ preset_keyboards:
       - {
           click: "1",
           label: "ẑ",
+          label_symbol: "1",
           long_click: "Commit_1",
           swipe_up: "Commit_1",
           swipe_down: "Commit_1",
@@ -955,6 +956,8 @@ preset_keyboards:
         }
       - {
           click: "2",
+          label: "ĉ",
+          label_symbol: "2",
           long_click: "Commit_2",
           swipe_up: "Commit_2",
           swipe_down: "Commit_2",
@@ -964,6 +967,8 @@ preset_keyboards:
         }
       - {
           click: "3",
+          label: "ŝ",
+          label_symbol: "3",
           long_click: "Commit_3",
           swipe_up: "Commit_3",
           swipe_down: "Commit_3",
@@ -973,6 +978,8 @@ preset_keyboards:
         }
       - {
           click: "4",
+          label: "-",
+          label_symbol: "4",
           long_click: "Commit_4",
           swipe_up: "Commit_4",
           swipe_down: "Commit_4",
@@ -982,6 +989,8 @@ preset_keyboards:
         }
       - {
           click: "5",
+          label: "/",
+          label_symbol: "5",
           long_click: "Commit_5",
           swipe_up: "Commit_5",
           swipe_down: "Commit_5",
@@ -991,6 +1000,8 @@ preset_keyboards:
         }
       - {
           click: "6",
+          label: "|",
+          label_symbol: "6",
           long_click: "Commit_6",
           swipe_up: "Commit_6",
           swipe_down: "Commit_6",
@@ -1000,6 +1011,8 @@ preset_keyboards:
         }
       - {
           click: "7",
+          label: "\\",
+          label_symbol: "7",
           long_click: "Commit_7",
           swipe_up: "Commit_7",
           swipe_down: "Commit_7",
@@ -1009,6 +1022,8 @@ preset_keyboards:
         }
       - {
           click: "8",
+          label: "_",
+          label_symbol: "8",
           long_click: "Commit_8",
           swipe_up: "Commit_8",
           swipe_down: "Commit_8",
@@ -1018,6 +1033,8 @@ preset_keyboards:
         }
       - {
           click: "9",
+          label: "ñ",
+          label_symbol: "9",
           long_click: "Commit_9",
           swipe_up: "Commit_9",
           swipe_down: "Commit_9",
@@ -1027,6 +1044,8 @@ preset_keyboards:
         }
       - {
           click: "0",
+          label: "ŋ",
+          label_symbol: "0",
           long_click: "Commit_0",
           swipe_up: "Commit_0",
           swipe_down: "Commit_0",
