@@ -759,9 +759,16 @@ preset_keys:
   BackSpace: { label: "⌫", preview: "⇦", repeatable: true, send: BackSpace }
   BackSpace_word: { label: ⇦, send: Control+BackSpace }
   space:
-    { repeatable: false, slide_cursor: true, functional: false, send: space }
+    {
+      label: "␣",
+      preview: "",
+      repeatable: false,
+      slide_cursor: true,
+      functional: false,
+      send: space,
+    }
   space1: { label: 空格, repeatable: false, functional: false, send: space }
-  Tab: { label: ↹, send: Tab }
+  Tab: { label: ↹, preview: ↹, send: Tab }
   Escape: { label: Esc, send: Escape }
   Home: { label: 行首, send: Home }
   Insert: { label: 插入, send: Insert }
@@ -921,7 +928,7 @@ preset_keys:
       option: "UPDATE_CONFIG",
     } #更新配置文件
   RepeatCommit: { label: 重复, command: commit, option: "%1$s" } #重复输入刚上屏的内容
-  ẑ: { lebel: ẑ, preview: ẑ, send: "1" }
+  ẑ: { lebel: "ẑ", preview: ẑ, send: "1" }
   Commit_1: { commit: "1" }
   Commit_2: { commit: "2" }
   Commit_3: { commit: "3" }
@@ -1344,7 +1351,6 @@ preset_keyboards:
         }
       - {
           click: space,
-          label: "␣",
           long_click: Tab,
           swipe_up: Up,
           swipe_down: Down,
