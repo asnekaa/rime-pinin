@@ -935,8 +935,9 @@ key_width:
   2: &key2_width 10
   3: &key3_width 11.12
   4: &key4_width 10
-  5: &key5_width 20
-  6: &space_width 40
+  5: &key5_width 10
+  6: &enter_width 20
+  7: &space_width 40
 
 # 键盘布局
 preset_keyboards:
@@ -963,7 +964,7 @@ preset_keyboards:
           click: "2",
           label: "ĉ",
           label_symbol: "2",
-          long_click: "Ĉ",
+          long_click: "Commit_2",
           swipe_up: "Commit_2",
           swipe_down: "Commit_2",
           key_back_color: bh1,
@@ -974,7 +975,7 @@ preset_keyboards:
           click: "3",
           label: "ŝ",
           label_symbol: "3",
-          long_click: "Ŝ",
+          long_click: "Commit_3",
           swipe_up: "Commit_3",
           swipe_down: "Commit_3",
           key_back_color: bh1,
@@ -1040,7 +1041,7 @@ preset_keyboards:
           click: "9",
           label: "ñ",
           label_symbol: "9",
-          long_click: "Ñ",
+          long_click: "Commit_9",
           swipe_up: "Commit_9",
           swipe_down: "Commit_9",
           key_back_color: bh1,
@@ -1051,7 +1052,1251 @@ preset_keyboards:
           click: "0",
           label: "ŋ",
           label_symbol: "0",
-          long_click: "Ŋ",
+          long_click: "Commit_0",
+          swipe_up: "Commit_0",
+          swipe_down: "Commit_0",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      # 第二行
+      - {
+          click: q,
+          long_click: "!",
+          swipe_up: "!",
+          swipe_down: "!",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: w,
+          long_click: "@",
+          swipe_up: "@",
+          swipe_down: "@",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: e,
+          long_click: "#",
+          swipe_up: "#",
+          swipe_down: "#",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: r,
+          long_click: "$",
+          swipe_up: "$",
+          swipe_down: "$",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: t,
+          long_click: "%",
+          swipe_up: "%",
+          swipe_down: "%",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: y,
+          long_click: "^",
+          swipe_up: "^",
+          swipe_down: "^",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: u,
+          long_click: "&",
+          swipe_up: "&",
+          swipe_down: "&",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: i,
+          long_click: "*",
+          swipe_up: "*",
+          swipe_down: "*",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: o,
+          long_click: "(",
+          swipe_up: "(",
+          swipe_down: "(",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: p,
+          long_click: ")",
+          swipe_up: ")",
+          swipe_down: ")",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      # 第三行
+      - {
+          click: a,
+          long_click: "`",
+          swipe_up: "`",
+          swipe_down: "`",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: s,
+          long_click: "~",
+          swipe_up: "~",
+          swipe_down: "~",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: d,
+          long_click: "=",
+          swipe_up: "=",
+          swipe_down: "=",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: f,
+          long_click: "+",
+          swipe_up: "+",
+          swipe_down: "+",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: g,
+          long_click: "【】{Left}",
+          swipe_up: "【",
+          swipe_down: "】",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: h,
+          long_click: "「」{Left}",
+          swipe_up: "「",
+          swipe_down: "」",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: j,
+          long_click: ";",
+          swipe_up: ";",
+          swipe_down: ";",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: k,
+          long_click: ":",
+          swipe_up: ":",
+          swipe_down: ":",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: l,
+          long_click: '"',
+          swipe_up: '"',
+          swipe_down: '"',
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key3_width,
+        }
+      # 第四行
+      - {
+          click: Shift_once,
+          long_click: Shift_caps,
+          double_click: Shift_caps,
+          swipe_up: "'",
+          swipe_down: "'",
+          label_symbol: "'",
+          width: 15,
+          hilited_key_back_color: benter,
+          key_back_color: bbs,
+          key_text_color: tbs,
+        }
+      - {
+          click: z,
+          long_click: "select_all",
+          swipe_up: "select_all",
+          swipe_down: "select_all",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: x,
+          long_click: cut,
+          swipe_up: "cut",
+          swipe_down: "cut",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: c,
+          long_click: copy,
+          swipe_up: "copy",
+          swipe_down: "copy",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: v,
+          long_click: paste,
+          swipe_up: "paste",
+          swipe_down: paste,
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: b,
+          long_click: "<",
+          swipe_up: "<",
+          swipe_down: "<",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: n,
+          long_click: ">",
+          swipe_up: ">",
+          swipe_down: ">",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: m,
+          long_click: "?",
+          swipe_up: "?",
+          swipe_down: "?",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: BackSpace,
+          long_click: "BackSpace",
+          swipe_left: BackSpace_word,
+          swipe_up: Delete,
+          swipe_down: Delete,
+          width: 15,
+          key_back_color: bbs,
+          key_text_color: tbs,
+        }
+      # 第五行
+      - {
+          click: Keyboard_number,
+          long_click: Menu,
+          key_back_color: bgn,
+          key_text_color: tgn,
+          width: *key5_width,
+        }
+      - {
+          click: Keyboard_switch,
+          long_click: Menu,
+          key_back_color: bgn,
+          key_text_color: tgn,
+          width: *key5_width,
+        }
+      - {
+          click: ",",
+          label: "，",
+          long_click: "<>{Left}",
+          key_back_color: bh4,
+          key_text_color: th4,
+        }
+      - {
+          click: space,
+          long_click: Mode_switch,
+          swipe_left: "Left",
+          swipe_right: "Right",
+          swipe_up: Schema_switchcn,
+          key_back_color: bkg,
+          key_text_color: tkg,
+          width: *space_width,
+        }
+      - {
+          click: ".",
+          label: "。",
+          long_click: clipboard_window,
+          key_back_color: bh4,
+          key_text_color: th4,
+        }
+      - {
+          click: Return,
+          composing: Return1,
+          swipe_up: Escape,
+          key_back_color: benter,
+          key_text_color: tenter,
+          width: *enter_width,
+        }
+
+  shift:
+    author: "ASneka"
+    name: shift
+    width: 10
+    height: 48
+    ascii_mode: 0
+    keys:
+      # 第一行
+      - {
+          click: "Ẑ",
+          label_symbol: "1",
+          long_click: "Commit_1",
+          swipe_up: "Commit_1",
+          swipe_down: "Commit_1",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "Ĉ",
+          label_symbol: "2",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "Ŝ",
+          label_symbol: "3",
+          long_click: "Commit_3",
+          swipe_up: "Commit_3",
+          swipe_down: "Commit_3",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "4",
+          label: "－",
+          label_symbol: "4",
+          long_click: "Commit_4",
+          swipe_up: "Commit_4",
+          swipe_down: "Commit_4",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "5",
+          label: "／",
+          label_symbol: "5",
+          long_click: "Commit_5",
+          swipe_up: "Commit_5",
+          swipe_down: "Commit_5",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "6",
+          label: "｜",
+          label_symbol: "6",
+          long_click: "Commit_6",
+          swipe_up: "Commit_6",
+          swipe_down: "Commit_6",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "7",
+          label: "＼",
+          label_symbol: "7",
+          long_click: "Commit_7",
+          swipe_up: "Commit_7",
+          swipe_down: "Commit_7",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "8",
+          label: "＿",
+          label_symbol: "8",
+          long_click: "Commit_8",
+          swipe_up: "Commit_8",
+          swipe_down: "Commit_8",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "Ñ",
+          label_symbol: "9",
+          long_click: "Commit_9",
+          swipe_up: "Commit_9",
+          swipe_down: "Commit_9",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "Ŋ",
+          label_symbol: "0",
+          long_click: "Commit_0",
+          swipe_up: "Commit_0",
+          swipe_down: "Commit_0",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      # 第二行
+      - {
+          click: Q,
+          long_click: "!",
+          swipe_up: "!",
+          swipe_down: "!",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: W,
+          long_click: "@",
+          swipe_up: "@",
+          swipe_down: "@",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: E,
+          long_click: "#",
+          swipe_up: "#",
+          swipe_down: "#",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: R,
+          long_click: "$",
+          swipe_up: "$",
+          swipe_down: "$",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: T,
+          long_click: "%",
+          swipe_up: "%",
+          swipe_down: "%",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: Y,
+          long_click: "^",
+          swipe_up: "^",
+          swipe_down: "^",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: U,
+          long_click: "&",
+          swipe_up: "&",
+          swipe_down: "&",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: I,
+          long_click: "*",
+          swipe_up: "*",
+          swipe_down: "*",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: O,
+          long_click: "(",
+          swipe_up: "(",
+          swipe_down: "(",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: P,
+          long_click: ")",
+          swipe_up: ")",
+          swipe_down: ")",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      # 第三行
+      - {
+          click: A,
+          long_click: "`",
+          swipe_up: "`",
+          swipe_down: "`",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: S,
+          long_click: "~",
+          swipe_up: "~",
+          swipe_down: "~",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: D,
+          long_click: "=",
+          swipe_up: "=",
+          swipe_down: "=",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: F,
+          long_click: "+",
+          swipe_up: "+",
+          swipe_down: "+",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: G,
+          long_click: "【】{Left}",
+          swipe_up: "【",
+          swipe_down: "】",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: H,
+          long_click: "「」{Left}",
+          swipe_up: "「",
+          swipe_down: "」",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: J,
+          long_click: ";",
+          swipe_up: ";",
+          swipe_down: ";",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: K,
+          long_click: ":",
+          swipe_up: ":",
+          swipe_down: ":",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: L,
+          long_click: '"',
+          swipe_up: '"',
+          swipe_down: '"',
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key3_width,
+        }
+      # 第四行
+      - {
+          click: Shift_exit,
+          long_click: Shift_caps,
+          double_click: Shift_caps,
+          swipe_up: "'",
+          swipe_down: "'",
+          label_symbol: "'",
+          width: 15,
+          hilited_key_back_color: benter,
+          key_back_color: bbs,
+          key_text_color: tbs,
+        }
+      - {
+          click: Z,
+          long_click: "select_all",
+          swipe_up: "select_all",
+          swipe_down: "select_all",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: X,
+          long_click: cut,
+          swipe_up: "cut",
+          swipe_down: "cut",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: C,
+          long_click: copy,
+          swipe_up: "copy",
+          swipe_down: "copy",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: V,
+          long_click: paste,
+          swipe_up: "paste",
+          swipe_down: paste,
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: B,
+          long_click: "<",
+          swipe_up: "<",
+          swipe_down: "<",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: N,
+          long_click: ">",
+          swipe_up: ">",
+          swipe_down: ">",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: M,
+          long_click: "?",
+          swipe_up: "?",
+          swipe_down: "?",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: BackSpace,
+          long_click: "BackSpace",
+          swipe_left: BackSpace_word,
+          swipe_up: Delete,
+          swipe_down: Delete,
+          width: 15,
+          key_back_color: bbs,
+          key_text_color: tbs,
+        }
+      # 第五行
+      - {
+          click: Keyboard_number,
+          long_click: Menu,
+          key_back_color: bgn,
+          key_text_color: tgn,
+          width: *key5_width,
+        }
+      - {
+          click: ",",
+          label: "，",
+          long_click: "<>{Left}",
+          key_back_color: bh4,
+          key_text_color: th4,
+        }
+      - {
+          click: space,
+          long_click: Mode_switch,
+          swipe_left: "Left",
+          swipe_right: "Right",
+          swipe_up: Schema_switchcn,
+          key_back_color: bkg,
+          key_text_color: tkg,
+          width: *space_width,
+        }
+      - {
+          click: ".",
+          label: "。",
+          long_click: clipboard_window,
+          key_back_color: bh4,
+          key_text_color: th4,
+        }
+      - {
+          click: Return,
+          composing: Return1,
+          swipe_up: Escape,
+          key_back_color: benter,
+          key_text_color: tenter,
+          width: *enter_width,
+        }
+
+  caps:
+    author: "ASneka"
+    name: caps
+    width: 10
+    height: 48
+    ascii_mode: 0
+    keys:
+      # 第一行
+      - {
+          click: "Ẑ",
+          label_symbol: "1",
+          long_click: "Commit_1",
+          swipe_up: "Commit_1",
+          swipe_down: "Commit_1",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "Ĉ",
+          label_symbol: "2",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "Ŝ",
+          label_symbol: "3",
+          long_click: "Commit_3",
+          swipe_up: "Commit_3",
+          swipe_down: "Commit_3",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "4",
+          label: "－",
+          label_symbol: "4",
+          long_click: "Commit_4",
+          swipe_up: "Commit_4",
+          swipe_down: "Commit_4",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "5",
+          label: "／",
+          label_symbol: "5",
+          long_click: "Commit_5",
+          swipe_up: "Commit_5",
+          swipe_down: "Commit_5",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "6",
+          label: "｜",
+          label_symbol: "6",
+          long_click: "Commit_6",
+          swipe_up: "Commit_6",
+          swipe_down: "Commit_6",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "7",
+          label: "＼",
+          label_symbol: "7",
+          long_click: "Commit_7",
+          swipe_up: "Commit_7",
+          swipe_down: "Commit_7",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "8",
+          label: "＿",
+          label_symbol: "8",
+          long_click: "Commit_8",
+          swipe_up: "Commit_8",
+          swipe_down: "Commit_8",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "Ñ",
+          label_symbol: "9",
+          long_click: "Commit_9",
+          swipe_up: "Commit_9",
+          swipe_down: "Commit_9",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "Ŋ",
+          label_symbol: "0",
+          long_click: "Commit_0",
+          swipe_up: "Commit_0",
+          swipe_down: "Commit_0",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      # 第二行
+      - {
+          click: Q,
+          long_click: "!",
+          swipe_up: "!",
+          swipe_down: "!",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: W,
+          long_click: "@",
+          swipe_up: "@",
+          swipe_down: "@",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: E,
+          long_click: "#",
+          swipe_up: "#",
+          swipe_down: "#",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: R,
+          long_click: "$",
+          swipe_up: "$",
+          swipe_down: "$",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: T,
+          long_click: "%",
+          swipe_up: "%",
+          swipe_down: "%",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: Y,
+          long_click: "^",
+          swipe_up: "^",
+          swipe_down: "^",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: U,
+          long_click: "&",
+          swipe_up: "&",
+          swipe_down: "&",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: I,
+          long_click: "*",
+          swipe_up: "*",
+          swipe_down: "*",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: O,
+          long_click: "(",
+          swipe_up: "(",
+          swipe_down: "(",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      - {
+          click: P,
+          long_click: ")",
+          swipe_up: ")",
+          swipe_down: ")",
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key2_width,
+        }
+      # 第三行
+      - {
+          click: A,
+          long_click: "`",
+          swipe_up: "`",
+          swipe_down: "`",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: S,
+          long_click: "~",
+          swipe_up: "~",
+          swipe_down: "~",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: D,
+          long_click: "=",
+          swipe_up: "=",
+          swipe_down: "=",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: F,
+          long_click: "+",
+          swipe_up: "+",
+          swipe_down: "+",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: G,
+          long_click: "【】{Left}",
+          swipe_up: "【",
+          swipe_down: "】",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: H,
+          long_click: "「」{Left}",
+          swipe_up: "「",
+          swipe_down: "」",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: J,
+          long_click: ";",
+          swipe_up: ";",
+          swipe_down: ";",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: K,
+          long_click: ":",
+          swipe_up: ":",
+          swipe_down: ":",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key3_width,
+        }
+      - {
+          click: L,
+          long_click: '"',
+          swipe_up: '"',
+          swipe_down: '"',
+          key_back_color: bh2,
+          key_text_color: th2,
+          width: *key3_width,
+        }
+      # 第四行
+      - {
+          click: Shift_exit,
+          swipe_up: "'",
+          swipe_down: "'",
+          label_symbol: "'",
+          width: 15,
+          hilited_key_back_color: benter,
+          key_back_color: bbs,
+          key_text_color: tbs,
+        }
+      - {
+          click: Z,
+          long_click: "select_all",
+          swipe_up: "select_all",
+          swipe_down: "select_all",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: X,
+          long_click: cut,
+          swipe_up: "cut",
+          swipe_down: "cut",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: C,
+          long_click: copy,
+          swipe_up: "copy",
+          swipe_down: "copy",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: V,
+          long_click: paste,
+          swipe_up: "paste",
+          swipe_down: paste,
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: B,
+          long_click: "<",
+          swipe_up: "<",
+          swipe_down: "<",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: N,
+          long_click: ">",
+          swipe_up: ">",
+          swipe_down: ">",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: M,
+          long_click: "?",
+          swipe_up: "?",
+          swipe_down: "?",
+          key_back_color: bh3,
+          key_text_color: th3,
+          width: *key4_width,
+        }
+      - {
+          click: BackSpace,
+          long_click: "BackSpace",
+          swipe_left: BackSpace_word,
+          swipe_up: Delete,
+          swipe_down: Delete,
+          width: 15,
+          key_back_color: bbs,
+          key_text_color: tbs,
+        }
+      # 第五行
+      - {
+          click: Keyboard_number,
+          long_click: Menu,
+          key_back_color: bgn,
+          key_text_color: tgn,
+          width: *key5_width,
+        }
+      - {
+          click: ",",
+          label: "，",
+          long_click: "<>{Left}",
+          key_back_color: bh4,
+          key_text_color: th4,
+        }
+      - {
+          click: space,
+          long_click: Mode_switch,
+          swipe_left: "Left",
+          swipe_right: "Right",
+          swipe_up: Schema_switchcn,
+          key_back_color: bkg,
+          key_text_color: tkg,
+          width: *space_width,
+        }
+      - {
+          click: ".",
+          label: "。",
+          long_click: clipboard_window,
+          key_back_color: bh4,
+          key_text_color: th4,
+        }
+      - {
+          click: Return,
+          composing: Return1,
+          swipe_up: Escape,
+          key_back_color: benter,
+          key_text_color: tenter,
+          width: *enter_width,
+        }
+
+  Keyboard_letter:
+    author: "ASneka"
+    name: 英文
+    width: 10
+    height: 48
+    ascii_mode: 0
+    keys:
+      # 第一行
+      - {
+          click: "ẑ",
+          label_symbol: "1",
+          long_click: "Commit_1",
+          swipe_up: "Commit_1",
+          swipe_down: "Commit_1",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "ĉ",
+          label_symbol: "2",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "ŝ",
+          label_symbol: "3",
+          long_click: "Commit_2",
+          swipe_up: "Commit_3",
+          swipe_down: "Commit_3",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "4",
+          label: "-",
+          label_symbol: "4",
+          long_click: "Commit_4",
+          swipe_up: "Commit_4",
+          swipe_down: "Commit_4",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "5",
+          label: "/",
+          label_symbol: "5",
+          long_click: "Commit_5",
+          swipe_up: "Commit_5",
+          swipe_down: "Commit_5",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "6",
+          label: "|",
+          label_symbol: "6",
+          long_click: "Commit_6",
+          swipe_up: "Commit_6",
+          swipe_down: "Commit_6",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "7",
+          label: "\\",
+          label_symbol: "7",
+          long_click: "Commit_7",
+          swipe_up: "Commit_7",
+          swipe_down: "Commit_7",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "8",
+          label: "_",
+          label_symbol: "8",
+          long_click: "Commit_8",
+          swipe_up: "Commit_8",
+          swipe_down: "Commit_8",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "ñ",
+          label_symbol: "9",
+          long_click: "Commit_9",
+          swipe_up: "Commit_9",
+          swipe_down: "Commit_9",
+          key_back_color: bh1,
+          key_text_color: th1,
+          width: *key1_width,
+        }
+      - {
+          click: "ŋ",
+          label_symbol: "0",
+          long_click: "Commit_0",
           swipe_up: "Commit_0",
           swipe_down: "Commit_0",
           key_back_color: bh1,
@@ -1355,12 +2600,12 @@ preset_keyboards:
           swipe_up: Escape,
           key_back_color: benter,
           key_text_color: tenter,
-          width: *key5_width,
+          width: *enter_width,
         }
 
-  shift:
+  Keyboard_letter_shift:
     author: "ASneka"
-    name: shift
+    name: Keyboard_letter_shift
     width: 10
     height: 48
     ascii_mode: 0
@@ -1379,7 +2624,7 @@ preset_keyboards:
       - {
           click: "Ĉ",
           label_symbol: "2",
-          long_click: "Ĉ",
+          long_click: "Commit_2",
           swipe_up: "Commit_2",
           swipe_down: "Commit_2",
           key_back_color: bh1,
@@ -1389,7 +2634,7 @@ preset_keyboards:
       - {
           click: "Ŝ",
           label_symbol: "3",
-          long_click: "Ŝ",
+          long_click: "Commit_3",
           swipe_up: "Commit_3",
           swipe_down: "Commit_3",
           key_back_color: bh1,
@@ -1398,7 +2643,7 @@ preset_keyboards:
         }
       - {
           click: "4",
-          label: "-",
+          label: "－",
           label_symbol: "4",
           long_click: "Commit_4",
           swipe_up: "Commit_4",
@@ -1409,7 +2654,7 @@ preset_keyboards:
         }
       - {
           click: "5",
-          label: "/",
+          label: "／",
           label_symbol: "5",
           long_click: "Commit_5",
           swipe_up: "Commit_5",
@@ -1420,7 +2665,7 @@ preset_keyboards:
         }
       - {
           click: "6",
-          label: "|",
+          label: "｜",
           label_symbol: "6",
           long_click: "Commit_6",
           swipe_up: "Commit_6",
@@ -1431,7 +2676,7 @@ preset_keyboards:
         }
       - {
           click: "7",
-          label: "\\",
+          label: "＼",
           label_symbol: "7",
           long_click: "Commit_7",
           swipe_up: "Commit_7",
@@ -1442,7 +2687,7 @@ preset_keyboards:
         }
       - {
           click: "8",
-          label: "_",
+          label: "＿",
           label_symbol: "8",
           long_click: "Commit_8",
           swipe_up: "Commit_8",
@@ -1454,7 +2699,7 @@ preset_keyboards:
       - {
           click: "Ñ",
           label_symbol: "9",
-          long_click: "Ñ",
+          long_click: "Commit_9",
           swipe_up: "Commit_9",
           swipe_down: "Commit_9",
           key_back_color: bh1,
@@ -1464,7 +2709,7 @@ preset_keyboards:
       - {
           click: "Ŋ",
           label_symbol: "0",
-          long_click: "Ŋ",
+          long_click: "Commit_0",
           swipe_up: "Commit_0",
           swipe_down: "Commit_0",
           key_back_color: bh1,
@@ -1768,12 +3013,12 @@ preset_keyboards:
           swipe_up: Escape,
           key_back_color: benter,
           key_text_color: tenter,
-          width: *key5_width,
+          width: *enter_width,
         }
 
-  caps:
+  Keyboard_letter_caps:
     author: "ASneka"
-    name: shift
+    name: Keyboard_letter_caps
     width: 10
     height: 48
     ascii_mode: 0
@@ -1792,7 +3037,7 @@ preset_keyboards:
       - {
           click: "Ĉ",
           label_symbol: "2",
-          long_click: "Ĉ",
+          long_click: "Commit_2",
           swipe_up: "Commit_2",
           swipe_down: "Commit_2",
           key_back_color: bh1,
@@ -1802,7 +3047,7 @@ preset_keyboards:
       - {
           click: "Ŝ",
           label_symbol: "3",
-          long_click: "Ŝ",
+          long_click: "Commit_3",
           swipe_up: "Commit_3",
           swipe_down: "Commit_3",
           key_back_color: bh1,
@@ -1811,7 +3056,7 @@ preset_keyboards:
         }
       - {
           click: "4",
-          label: "-",
+          label: "－",
           label_symbol: "4",
           long_click: "Commit_4",
           swipe_up: "Commit_4",
@@ -1822,7 +3067,7 @@ preset_keyboards:
         }
       - {
           click: "5",
-          label: "/",
+          label: "／",
           label_symbol: "5",
           long_click: "Commit_5",
           swipe_up: "Commit_5",
@@ -1833,7 +3078,7 @@ preset_keyboards:
         }
       - {
           click: "6",
-          label: "|",
+          label: "｜",
           label_symbol: "6",
           long_click: "Commit_6",
           swipe_up: "Commit_6",
@@ -1844,7 +3089,7 @@ preset_keyboards:
         }
       - {
           click: "7",
-          label: "\\",
+          label: "＼",
           label_symbol: "7",
           long_click: "Commit_7",
           swipe_up: "Commit_7",
@@ -1855,7 +3100,7 @@ preset_keyboards:
         }
       - {
           click: "8",
-          label: "_",
+          label: "＿",
           label_symbol: "8",
           long_click: "Commit_8",
           swipe_up: "Commit_8",
@@ -1867,7 +3112,7 @@ preset_keyboards:
       - {
           click: "Ñ",
           label_symbol: "9",
-          long_click: "Ñ",
+          long_click: "Commit_9",
           swipe_up: "Commit_9",
           swipe_down: "Commit_9",
           key_back_color: bh1,
@@ -1877,7 +3122,7 @@ preset_keyboards:
       - {
           click: "Ŋ",
           label_symbol: "0",
-          long_click: "Ŋ",
+          long_click: "Commit_0",
           swipe_up: "Commit_0",
           swipe_down: "Commit_0",
           key_back_color: bh1,
@@ -2179,5 +3424,5 @@ preset_keyboards:
           swipe_up: Escape,
           key_back_color: benter,
           key_text_color: tenter,
-          width: *key5_width,
+          width: *enter_width,
         }
