@@ -136,6 +136,7 @@
 一些	ix-
 一些	ixie
 一起	iqi
+一次	ic
 以为	iue
 以后	ih
 以及	iji
@@ -171,7 +172,9 @@
 必要	biio
 比如	bir
 比如	biru
-别人	br
+别人	bier
+别人	bierñ
+标签	bioqiw
 编码	biwma
 补丁	budiñ
 不一样	bii
@@ -180,6 +183,7 @@
 不对	bd
 不能	bn
 不过	bg
+不会	bh
 不就	bj
 不去	bq
 不想	bx|
@@ -187,7 +191,9 @@
 不行	bx
 不知道	bẑd
 不是	bŝ
+不然	br
 配置	peiẑ
+模式	moŝ
 默认	mr
 没有	miu
 没问题	mut
@@ -311,6 +317,7 @@
 自定义	zdi
 自己	zj
 再见	z_j
+再次	z_c
 怎样	zi
 怎么	zm
 怎么样	zmi
@@ -349,9 +356,11 @@
 注释	ẑuŝ
 转义	ẑuwi
 中文	ẑu
+中间	ẑuŋjiw
 中秋	ẑuŋqiu
 插入	ĉaru
 出来	ĉul
+除非	ĉufei
 重新	ĉx
 时候	ŝh
 实在	ŝz
@@ -360,6 +369,7 @@
 视频	ŝp
 事情	ŝq
 上面	ŝm
+上下	ŝx
 声调	ŝñdio
 甚至	ŝẑ
 什么	ŝm

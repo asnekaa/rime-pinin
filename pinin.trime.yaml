@@ -749,8 +749,8 @@ tool_bar:
 
 preset_keys:
   # 編輯
-  Shift_L: { label: Shift, send: Shift_L, shift_lock: ascii_long }
-  Shift_L2: {label: '⇪', send: Shift_L}
+  Shift_L: { label: ⇧, send: Shift_L, shift_lock: long }
+  Shift_L2: { label: "⇪", send: Shift_L, shift_lock: click }
   Return: { label: enter_labels, send: Return }
   Return1: { label: Enter, send: Return }
   Return2: { label: 回车, send: Return }
@@ -1231,10 +1231,10 @@ preset_keyboards:
       # 第四行
       - {
           click: Shift_L,
-          swipe_up: "'",
-          swipe_down: "'",
           long_click: Shift_L2,
           double_click: Shift_L2,
+          swipe_up: "'",
+          swipe_down: "'",
           width: 15,
           hilited_key_back_color: benter,
           key_back_color: bbs,
