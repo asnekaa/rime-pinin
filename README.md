@@ -1409,7 +1409,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 <tr>
   <td align="center">u</td>
   <td align="center">ẑu</td>
-  <td align="center"></td>
+  <td align="center">ẑua</td>
   <td align="center">ẑuo</td>
   <td align="center"></td>
   <td align="center">ẑui</td>
@@ -1472,7 +1472,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">ĉu</td>
   <td align="center"></td>
   <td align="center">ĉuo</td>
-  <td align="center"></td>
+  <td align="center">ĉua</td>
   <td align="center">ĉui</td>
   <td align="center">ĉue</td>
   <td align="center"></td>
@@ -1531,7 +1531,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 <tr>
   <td align="center">u</td>
   <td align="center">ŝu</td>
-  <td align="center"></td>
+  <td align="center">ŝua</td>
   <td align="center">ŝuo</td>
   <td align="center"></td>
   <td align="center">ŝui</td>
@@ -1592,7 +1592,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 <tr>
   <td align="center">u</td>
   <td align="center">ru</td>
-  <td align="center"></td>
+  <td align="center">rua</td>
   <td align="center">ruo</td>
   <td align="center"></td>
   <td align="center"></td>
