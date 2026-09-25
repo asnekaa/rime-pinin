@@ -280,6 +280,7 @@
 好想	hx|
 好像	hx\
 后面	hm
+候选项	hxx
 回关	hueguw
 回车	hueĉe
 会不会	hbh

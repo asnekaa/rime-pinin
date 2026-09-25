@@ -206,13 +206,13 @@ preset_color_schemes:
     tbs: *color2 #退格键文字颜色
     baoe: *color2 #aoeiu背景色
     taoe: *color6 #aoeiu文字颜色
-    bh1: *color2 #第一行背景色
+    bh1: *color3 #第一行背景色
     th1: *color1 #第一行文字颜色
-    bh2: *color2 #第二行背景色
+    bh2: *color3 #第二行背景色
     th2: *color1 #第二行文字颜色
-    bh3: *color2 #第三行背景色
+    bh3: *color3 #第三行背景色
     th3: *color1 #第三行文字颜色
-    bh4: *color2 #第四行背景色
+    bh4: *color3 #第四行背景色
     th4: *color1 #第四行文字颜色
 
   yushe:
@@ -946,7 +946,8 @@ preset_keyboards:
     keys:
       # 第一行
       - {
-          click: "ẑ",
+          click: "2",
+          label: "ẑ",
           label_symbol: "1",
           long_click: "Commit_1",
           swipe_up: "Commit_1",
