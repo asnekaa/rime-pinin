@@ -750,6 +750,7 @@ tool_bar:
 preset_keys:
   # 編輯
   Shift_L: { label: Shift, send: Shift_L, shift_lock: ascii_long }
+  Shift_L2: {label: '⇪', send: Shift_L}
   Return: { label: enter_labels, send: Return }
   Return1: { label: Enter, send: Return }
   Return2: { label: 回车, send: Return }
@@ -1210,9 +1211,9 @@ preset_keyboards:
         }
       - {
           click: k,
-          long_click: "'",
-          swipe_up: "'",
-          swipe_down: "'",
+          long_click: ":",
+          swipe_up: ":",
+          swipe_down: ":",
           key_back_color: bh3,
           key_text_color: th3,
           width: *key3_width,
@@ -1230,11 +1231,10 @@ preset_keyboards:
       # 第四行
       - {
           click: Shift_L,
-          swipe_up: "分",
-          swipe_down: "分",
+          swipe_up: "'",
+          swipe_down: "'",
           long_click: Shift_L2,
           double_click: Shift_L2,
-          composing: delimiter,
           width: 15,
           hilited_key_back_color: benter,
           key_back_color: bbs,
@@ -1278,17 +1278,17 @@ preset_keyboards:
         }
       - {
           click: b,
-          long_click: ":",
-          swipe_up: ":",
-          swipe_down: ":",
+          long_click: "<",
+          swipe_up: "<",
+          swipe_down: "<",
           key_back_color: bh3,
           key_text_color: th3,
           width: *key4_width,
         }
       - {
           click: n,
-          long_click: "<>{Left}",
-          swipe_up: "<",
+          long_click: ">",
+          swipe_up: ">",
           swipe_down: ">",
           key_back_color: bh3,
           key_text_color: th3,
