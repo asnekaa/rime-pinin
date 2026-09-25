@@ -935,6 +935,8 @@ key_width:
   2: &key2_width 10
   3: &key3_width 11.12
   4: &key4_width 10
+  5: &key5_width 20
+  6: &space_width 40
 
 # 键盘布局
 preset_keyboards:
@@ -1319,9 +1321,9 @@ preset_keyboards:
       - {
           click: Keyboard_number,
           long_click: Menu,
-          width: 12.5,
           key_back_color: bgn,
           key_text_color: tgn,
+          width: *key5_width,
         }
       - {
           click: ",",
@@ -1336,9 +1338,9 @@ preset_keyboards:
           swipe_left: "Left",
           swipe_right: "Right",
           swipe_up: Schema_switchcn,
-          width: 30,
           key_back_color: bkg,
           key_text_color: tkg,
+          width: *space_width,
         }
       - {
           click: ".",
@@ -1351,9 +1353,9 @@ preset_keyboards:
           click: Return,
           composing: Return1,
           swipe_up: Escape,
-          width: 15,
           key_back_color: benter,
           key_text_color: tenter,
+          width: *key5_width,
         }
 
   shift:
@@ -1451,7 +1453,6 @@ preset_keyboards:
         }
       - {
           click: "Ñ",
-          label: "ñ",
           label_symbol: "9",
           long_click: "Ñ",
           swipe_up: "Commit_9",
@@ -1462,7 +1463,6 @@ preset_keyboards:
         }
       - {
           click: "Ŋ",
-          label: "ŋ",
           label_symbol: "0",
           long_click: "Ŋ",
           swipe_up: "Commit_0",
@@ -1667,7 +1667,7 @@ preset_keyboards:
           width: *key4_width,
         }
       - {
-          click: x,
+          click: X,
           long_click: cut,
           swipe_up: "cut",
           swipe_down: "cut",
@@ -1734,9 +1734,9 @@ preset_keyboards:
       - {
           click: Keyboard_number,
           long_click: Menu,
-          width: 12.5,
           key_back_color: bgn,
           key_text_color: tgn,
+          width: *key5_width,
         }
       - {
           click: ",",
@@ -1751,9 +1751,9 @@ preset_keyboards:
           swipe_left: "Left",
           swipe_right: "Right",
           swipe_up: Schema_switchcn,
-          width: 30,
           key_back_color: bkg,
           key_text_color: tkg,
+          width: *space_width,
         }
       - {
           click: ".",
@@ -1766,9 +1766,9 @@ preset_keyboards:
           click: Return,
           composing: Return1,
           swipe_up: Escape,
-          width: 15,
           key_back_color: benter,
           key_text_color: tenter,
+          width: *key5_width,
         }
 
   caps:
@@ -1866,7 +1866,6 @@ preset_keyboards:
         }
       - {
           click: "Ñ",
-          label: "ñ",
           label_symbol: "9",
           long_click: "Ñ",
           swipe_up: "Commit_9",
@@ -1877,7 +1876,6 @@ preset_keyboards:
         }
       - {
           click: "Ŋ",
-          label: "ŋ",
           label_symbol: "0",
           long_click: "Ŋ",
           swipe_up: "Commit_0",
@@ -2080,7 +2078,7 @@ preset_keyboards:
           width: *key4_width,
         }
       - {
-          click: x,
+          click: X,
           long_click: cut,
           swipe_up: "cut",
           swipe_down: "cut",
@@ -2147,9 +2145,9 @@ preset_keyboards:
       - {
           click: Keyboard_number,
           long_click: Menu,
-          width: 12.5,
           key_back_color: bgn,
           key_text_color: tgn,
+          width: *key5_width,
         }
       - {
           click: ",",
@@ -2164,9 +2162,9 @@ preset_keyboards:
           swipe_left: "Left",
           swipe_right: "Right",
           swipe_up: Schema_switchcn,
-          width: 30,
           key_back_color: bkg,
           key_text_color: tkg,
+          width: *space_width,
         }
       - {
           click: ".",
@@ -2179,7 +2177,7 @@ preset_keyboards:
           click: Return,
           composing: Return1,
           swipe_up: Escape,
-          width: 15,
           key_back_color: benter,
           key_text_color: tenter,
+          width: *key5_width,
         }
