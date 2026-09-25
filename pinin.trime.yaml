@@ -1383,6 +1383,7 @@ preset_keyboards:
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
+          select: .default,
         }
       - {
           click: "Ĉ",
@@ -1481,7 +1482,7 @@ preset_keyboards:
         }
       # 第二行
       - {
-          click: q,
+          click: Q,
           long_click: "!",
           swipe_up: "!",
           swipe_down: "!",
