@@ -206,13 +206,13 @@ preset_color_schemes:
     tbs: *color2 #退格键文字颜色
     baoe: *color2 #aoeiu背景色
     taoe: *color6 #aoeiu文字颜色
-    bh1: *color3 #第一行背景色
+    bh1: *color2 #第一行背景色
     th1: *color1 #第一行文字颜色
-    bh2: *color3 #第二行背景色
+    bh2: *color2 #第二行背景色
     th2: *color1 #第二行文字颜色
-    bh3: *color3 #第三行背景色
+    bh3: *color2 #第三行背景色
     th3: *color1 #第三行文字颜色
-    bh4: *color3 #第四行背景色
+    bh4: *color2 #第四行背景色
     th4: *color1 #第四行文字颜色
 
   yushe:
@@ -932,7 +932,7 @@ preset_keys:
 key_width:
   1: &key1_width 10
   2: &key2_width 10
-  3: &key3_width 10
+  3: &key3_width 11.15
   4: &key4_width 10
 
 # 键盘布局
@@ -1147,7 +1147,7 @@ preset_keyboards:
           width: *key2_width,
         }
       # 第三行
-      - { width: 5, key_back_color: bh2, key_text_color: th2 }
+      # - { width: 5, key_back_color: bh2, key_text_color: th2 }
       - {
           click: a,
           long_click: "`",
@@ -1228,7 +1228,7 @@ preset_keyboards:
           key_text_color: th2,
           width: *key3_width,
         }
-      - { width: 5, key_back_color: bh2, key_text_color: th2 }
+      # - { width: 5, key_back_color: bh2, key_text_color: th2 }
       # 第四行
       - {
           click: Shift_once,
