@@ -827,7 +827,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
 </tr>
 <tr>
-  <td rowspan="4" align="center">ŋ</td>
+  <td rowspan="4" align="center">g</td>
   <td align="center">/</td>
   <td align="center"></td>
   <td align="center">ga</td>
