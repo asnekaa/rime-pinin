@@ -944,7 +944,7 @@ preset_keyboards:
     keys:
       # 第一行
       - {
-          send: 1,
+          click: ẑ,
           long_click: "1",
           swipe_up: "1",
           swipe_down: "1",
