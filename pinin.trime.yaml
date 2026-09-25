@@ -704,7 +704,7 @@ tool_bar:
 
   hide_button: &hide_button
     foreground:
-      style: "ic@triangle-small-down"
+      style: "ic@keyboard_close"
       normal: candidate_text_color
     action: Hide
 
@@ -935,9 +935,9 @@ key_width:
   2: &key2_width 10
   3: &key3_width 11.12
   4: &key4_width 10
-  5: &key5_width 11
-  6: &enter_width 22
-  7: &space_width 36
+  5: &key5_width 12
+  6: &enter_width 24
+  7: &space_width 32
 
 # 键盘布局
 preset_keyboards:
@@ -1481,7 +1481,7 @@ preset_keyboards:
         }
       # 第二行
       - {
-          click: Q,
+          click: q,
           long_click: "!",
           swipe_up: "!",
           swipe_down: "!",
