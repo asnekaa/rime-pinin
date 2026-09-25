@@ -297,6 +297,9 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA1234567890.ẑĉŝñŋ
   delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   algebra:
+    # 自动纠错
+    - derive/([bpmdtnljqx])iw$/$1wi/
+
     # 补充额外编码
     - derive/^er$/ar/
     - derive/o$/uo/

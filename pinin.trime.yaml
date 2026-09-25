@@ -916,6 +916,16 @@ preset_keys:
       option: "UPDATE_CONFIG",
     } #更新配置文件
   RepeatCommit: { label: 重复, command: commit, option: "%1$s" } #重复输入刚上屏的内容
+  Commit_1: { commit: "1" }
+  Commit_2: { commit: "2" }
+  Commit_3: { commit: "3" }
+  Commit_4: { commit: "4" }
+  Commit_5: { commit: "5" }
+  Commit_6: { commit: "6" }
+  Commit_7: { commit: "7" }
+  Commit_8: { commit: "8" }
+  Commit_9: { commit: "9" }
+  Commit_0: { commit: "0" }
 
 key_width:
   1: &key1_width 10
@@ -935,90 +945,91 @@ preset_keyboards:
       # 第一行
       - {
           click: "1",
-          long_click: "!",
-          swipe_up: "!",
-          swipe_down: "!",
+          label: "ẑ",
+          long_click: "Commit_1",
+          swipe_up: "Commit_1",
+          swipe_down: "Commit_1",
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
           click: "2",
-          long_click: "@",
-          swipe_up: "@",
-          swipe_down: "@",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
           click: "3",
-          long_click: "#",
-          swipe_up: "#",
-          swipe_down: "#",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
           click: "4",
-          long_click: "$",
-          swipe_up: "$",
-          swipe_down: "$",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
           click: "5",
-          long_click: "%",
-          swipe_up: "%",
-          swipe_down: "%",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
           click: "6",
-          long_click: "^",
-          swipe_up: "^",
-          swipe_down: "^",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
           click: "7",
-          long_click: "&",
-          swipe_up: "&",
-          swipe_down: "&",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
           click: "8",
-          long_click: "*",
-          swipe_up: "*",
-          swipe_down: "*",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
           click: "9",
-          long_click: "(",
-          swipe_up: "(",
-          swipe_down: "(",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
           click: "0",
-          long_click: ")",
-          swipe_up: ")",
-          swipe_down: ")",
+          long_click: "Commit_2",
+          swipe_up: "Commit_2",
+          swipe_down: "Commit_2",
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,

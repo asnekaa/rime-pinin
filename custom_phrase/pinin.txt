@@ -45,6 +45,7 @@
 把	ba
 被	be
 帮	bv
+别	bie
 变	biw
 编	biw-
 不	bu
@@ -203,6 +204,7 @@
 复杂	fuza
 风格	fg
 打字	daz
+打出	daĉu
 代码	daim
 代码	daima
 到底	dd
@@ -273,6 +275,7 @@
 介母	jiemu
 结合	jiehe
 脚本	jb
+就能	jn
 就好了	jhl
 就是	jŝ
 就想	jx|
@@ -364,6 +367,7 @@
 什么时候	ŝmŝh
 声母	ŝñmu
 输入法	ŝrf
+数字	ŝuz
 睡觉	ŝuejio
 日志	rẑ
 然后	rh
