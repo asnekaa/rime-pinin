@@ -760,6 +760,7 @@ preset_keys:
   BackSpace_word: { label: ⇦, send: Control+BackSpace }
   space: { repeatable: false, functional: false, send: space }
   space1: { label: 空格, repeatable: false, functional: false, send: space }
+  Tab: {label: ↹, send: Tab}
   Escape: { label: Esc, send: Escape }
   Home: { label: 行首, send: Home }
   Insert: { label: 插入, send: Insert }
@@ -1342,10 +1343,11 @@ preset_keyboards:
         }
       - {
           click: space,
-          long_click: Mode_switch,
+          long_click: Tab,
           swipe_left: "Left",
           swipe_right: "Right",
-          swipe_up: Schema_switchcn,
+          swipe_up: "Up",
+          swipe_down: "Down",
           key_back_color: bkg,
           key_text_color: tkg,
           width: *space_width,
