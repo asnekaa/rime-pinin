@@ -966,7 +966,6 @@ preset_keyboards:
       # 第一行
       - {
           click: ẑ,
-          label_symbol: "1",
           long_click: Commit_1,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
