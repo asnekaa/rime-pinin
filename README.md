@@ -1322,7 +1322,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">so</td>
   <td align="center">se</td>
   <td align="center">sai</td>
-  <td align="center"></td>
+  <td align="center">sei</td>
   <td align="center">sao</td>
   <td align="center">sou</td>
   <td align="center">sw</td>
