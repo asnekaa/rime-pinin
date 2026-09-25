@@ -933,7 +933,7 @@ preset_keys:
 key_width:
   1: &key1_width 10
   2: &key2_width 10
-  3: &key3_width 11.15
+  3: &key3_width 11.12
   4: &key4_width 10
 
 # 键盘布局
@@ -1311,7 +1311,6 @@ preset_keyboards:
           swipe_left: BackSpace_word,
           swipe_up: Delete,
           swipe_down: Delete,
-          label: "⌫",
           width: 15,
           key_back_color: bbs,
           key_text_color: tbs,
