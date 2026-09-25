@@ -928,7 +928,11 @@ preset_keys:
       option: "UPDATE_CONFIG",
     } #更新配置文件
   RepeatCommit: { label: 重复, command: commit, option: "%1$s" } #重复输入刚上屏的内容
-  ẑ: { lebel: "ẑ", preview: ẑ, send: "1" }
+  ẑ: { label: ẑ, preview: ẑ, send: "1" }
+  ĉ: { label: ĉ, preview: ĉ, send: "2" }
+  ŝ: { label: ŝ, preview: ŝ, send: "3" }
+  ñ: { label: ñ, preview: ŋ, send: "4" }
+  ŋ: { label: ŋ, preview: ñ, send: "5" }
   Commit_1: { commit: "1" }
   Commit_2: { commit: "2" }
   Commit_3: { commit: "3" }
@@ -961,7 +965,6 @@ preset_keyboards:
       # 第一行
       - {
           click: ẑ,
-          label: ẑ,
           label_symbol: "1",
           long_click: Commit_1,
           swipe_up: Commit_1,
@@ -971,23 +974,21 @@ preset_keyboards:
           width: *key1_width,
         }
       - {
-          click: "2",
-          label: "ĉ",
+          click: ĉ,
           label_symbol: "2",
-          long_click: "Commit_2",
-          swipe_up: "Commit_2",
-          swipe_down: "Commit_2",
+          long_click: Commit_2,
+          swipe_up: Commit_2,
+          swipe_down: Commit_2,
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
-          click: "3",
-          label: "ŝ",
+          click: ŝ,
           label_symbol: "3",
-          long_click: "Commit_3",
-          swipe_up: "Commit_3",
-          swipe_down: "Commit_3",
+          long_click: Commit_3,
+          swipe_up: Commit_3,
+          swipe_down: Commit_3,
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
@@ -1048,23 +1049,21 @@ preset_keyboards:
           width: *key1_width,
         }
       - {
-          click: "9",
-          label: "ñ",
+          click: ñ,
           label_symbol: "9",
-          long_click: "Commit_9",
-          swipe_up: "Commit_9",
-          swipe_down: "Commit_9",
+          long_click: Commit_9,
+          swipe_up: Commit_9,
+          swipe_down: Commit_9,
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
         }
       - {
-          click: "0",
-          label: "ŋ",
+          click: ŋ,
           label_symbol: "0",
-          long_click: "Commit_0",
-          swipe_up: "Commit_0",
-          swipe_down: "Commit_0",
+          long_click: Commit_0,
+          swipe_up: Commit_0,
+          swipe_down: Commit_0,
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
