@@ -189,6 +189,7 @@
 配置	peiẑ
 默认	mr
 没有	miu
+没问题	mut
 没用	my
 没什么	mxm
 每个	meig
