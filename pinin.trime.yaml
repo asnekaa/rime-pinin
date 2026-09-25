@@ -961,10 +961,11 @@ preset_keyboards:
       # 第一行
       - {
           click: ẑ,
+          label: ẑ,
           label_symbol: "1",
-          long_click: "Commit_1",
-          swipe_up: "Commit_1",
-          swipe_down: "Commit_1",
+          long_click: Commit_1,
+          swipe_up: Commit_1,
+          swipe_down: Commit_1,
           key_back_color: bh1,
           key_text_color: th1,
           width: *key1_width,
