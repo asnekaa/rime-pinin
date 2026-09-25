@@ -931,9 +931,10 @@ preset_keys:
   ẑ: { label: ẑ, preview: ẑ, send: "1" }
   ĉ: { label: ĉ, preview: ĉ, send: "2" }
   ŝ: { label: ŝ, preview: ŝ, send: "3" }
+  -: { label: "-", preview: "-", send: "4" }
   ñ: { label: ñ, preview: ŋ, send: "4" }
   ŋ: { label: ŋ, preview: ñ, send: "5" }
-  Commit_1: { commit: "1" }
+  Commit_1: { label: "1", preview: "1", commit: "1" }
   Commit_2: { commit: "2" }
   Commit_3: { commit: "3" }
   Commit_4: { commit: "4" }
