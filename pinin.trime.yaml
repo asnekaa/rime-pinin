@@ -768,7 +768,7 @@ preset_keys:
       send: space,
     }
   space1: { label: 空格, repeatable: false, functional: false, send: space }
-  Tab: { label: ↹, preview: ↹, send: Tab }
+  Tab: { label: ↹, send: Tab }
   Escape: { label: Esc, send: Escape }
   Home: { label: 行首, send: Home }
   Insert: { label: 插入, send: Insert }
@@ -960,7 +960,7 @@ preset_keyboards:
     keys:
       # 第一行
       - {
-          click: "ẑ",
+          click: ẑ,
           label_symbol: "1",
           long_click: "Commit_1",
           swipe_up: "Commit_1",
