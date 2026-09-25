@@ -86,6 +86,7 @@
 还	hai
 好	h
 好	hao	1
+后	hou
 坏	hui
 会	hue
 加	jia
@@ -125,6 +126,7 @@
 额外	eui
 安卓	wẑo
 按照	wẑ
+按住	wẑu
 一样	ii
 一般	ib
 一点	id
@@ -176,6 +178,7 @@
 别人	bierñ
 标签	bioqiw
 编码	biwma
+变成	biwĉñ
 补丁	budiñ
 不一样	bii
 不应该	big
@@ -213,12 +216,14 @@
 风格	fg
 打字	daz
 打出	daĉu
+大写	daxie
 代码	daim
 代码	daima
 到底	dd
 都是	d-ŝ
 但是	dŝ
 当然	dr
+电脑	diwnao
 读我	duo
 短语	duwy
 东西	dx
@@ -253,6 +258,7 @@
 根本	gb
 规则	gz
 关于	gy
+功能	gn
 可爱	keai
 可以	ki
 可用	keyŋ
@@ -274,6 +280,7 @@
 好想	hx|
 好像	hx\
 后面	hm
+回关	hueguw
 回车	hueĉe
 会不会	hbh
 基本上	jbŝ
@@ -295,8 +302,8 @@
 键盘	jiwpw
 经常	jĉ
 竟然	jr
-回关	hueguw
 居然	jr	1
+进入	jiñru
 觉得	jd
 其他	qt
 其它	qta
@@ -331,6 +338,7 @@
 促音	cuiñ
 所以	si
 所有	siu
+锁定	sodiñ
 虽然	sr
 算了	sl
 直接	ẑj
@@ -346,7 +354,7 @@
 这个	ẑg
 真的	ẑd
 真正	ẑẑ
-整个	ẑg
+整个	ẑñg
 正在	ẑz
 正常	ẑĉ
 主文件夹	ẑujj
