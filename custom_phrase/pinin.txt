@@ -373,6 +373,7 @@
 如果	rg
 如何	ruhe
 如下	rux
+run	ruv
 容易	ri
 容错	rc
 

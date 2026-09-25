@@ -1600,7 +1600,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center"></td>
   <td align="center">ruw</td>
-  <td align="center"></td>
+  <td align="center">ruv</td>
   <td align="center">ruñ</td>
   <td align="center">ruŋ</td>
 </tr>
