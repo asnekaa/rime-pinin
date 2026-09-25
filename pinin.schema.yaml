@@ -37,7 +37,7 @@ switches:
 # 输入引擎
 engine:
   processors:
-    - lua_processor@*pinin.tone_symbol
+    - lua_processor@*pinin.symbol_input
     - lua_processor@*select_character  # 以词定字
     - ascii_composer
     - recognizer
@@ -292,77 +292,17 @@ editor:
 # 拼写设定
 speller:
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`1234567890.·-/|\_‾
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`1234567890.·-/|\_ẑĉŝñŋ
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
-  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA.
+  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA1234567890.ẑĉŝñŋ
   delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   algebra:
-    # 一个音节最多由三部分构成：声母 + 介母 + 韵母
-    # 声母：b p m f d t n l g k h j q x z c s r
-    # 介母：iuy
-    # 韵母：
-    #  单韵母：a o e
-    #  复韵母：ai ei ao ou
-    #  鼻韵母：w v n g
-
-    # # y 起始音节去除 i
-    # - xform/^yi$/y/
-    # - xform/^yin$/yn/
-    # - xform/^ying$/yng/
-
-    # # w 起始音节去除 u
-    # - xform/^wu$/w/
-
-    # # 统一 ü 编码
-    # - xform/^([jqxy])[uv]/$1ü/
-    # - xform/^([nl])v$/$1ü/
-    # - xform/^([nl])[uv]e$/$1üe/
-
-    # # 修正介母
-    # - xform/^yong$/yüng/
-    # - xform/iong$/üng/
-    # - xform/ong$/ung/
-    # - xform/^yo$/yüo/
-
-    # # 去除隔音字母 y/w，并将 ü 转为 y
-    # - xform/^y$/i/
-    # - xform/^y([^ü])/i$1/
-    # - xform/^w/u/
-    # - xform/^yü/ü/
-    # - xform/ü/y/
-
-    # # 展开缩写韵母
-    # - xform/iu$/iou/
-    # - xform/ui$/uei/
-
-    # # 修改单韵母编码
-    # - xform/an$/w/
-    # - xform/ang$/v/
-    # - xform/^(.+)en$/$1n/
-    # - xform/^(.+)eng$/$1ng/
-    # - xform/^(.+)ng$/$1g/
-
-    # # 空韵重新编码
-    # - xform/^([zcsr]|zh|ch|sh)i$/$1/
-
-    # # 翘舌声母重新编码
-    # - xform/^zh/j/
-    # - xform/^ch/q/
-    # - xform/^sh/x/
-
-    # # 压缩介韵
-    # - xform/uo$/o/
-    # - xform/uai$/ui/
-    # - xform/uei$/ue/
-    # - xform/iao$/io/
-    # - xform/iou$/iu/
-
     # 补充额外编码
     - derive/^er$/ar/
     - derive/o$/uo/
-    - derive/^([bpmf])g/$1ug/
-    - derive/^([dtnlgkhjqxzcsr])g/$1n/
-    - derive/ig/in/
+    - derive/^([bpmf])ŋ/$1uŋ/
+    - derive/^([dtnlgkhjqxzcsr]|ẑ|ĉ|ŝ)ŋ/$1ñ/
+    - derive/iŋ/iñ/
 
     # 超级简拼
-    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([a-zẑĉŝ]).+$/$1/

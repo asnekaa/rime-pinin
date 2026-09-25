@@ -55,13 +55,13 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 
 ## 二、声调符号
 
-| 声调 | 符号   | 示例                |
-| ---- | ------ | ------------------- |
-| 一声 | `-` | `mā` → `ma-` |
-| 二声 | `/` | `má` → `ma/` |
+| 声调 | 符号 | 示例          |
+| ---- | ---- | ------------- |
+| 一声 | `-`  | `mā` → `ma-`  |
+| 二声 | `/`  | `má` → `ma/`  |
 | 三声 | `\|` | `mǎ` → `ma\|` |
-| 四声 | `\` | `mà` → `ma\` |
-| 轻声 | `·` | `ma` → `ma·`  |
+| 四声 | `\`  | `mà` → `ma\`  |
+| 轻声 | `·`  | `ma` → `ma·`  |
 
 声调符号加在压缩后的编码末尾。
 
@@ -78,26 +78,26 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 
 ## 四、声母改写
 
-| 标准声母                  | 输入码 |
-| ------------------------- | ------ |
+| 标准声母                | 输入码 |
+| ----------------------- | ------ |
 | `b p m f d t n l g k h` | 不变   |
 | `j q x`                 | 不变   |
-| `zh`                    | `j`  |
-| `ch`                    | `q`  |
-| `sh`                    | `x`  |
+| `zh`                    | `j`    |
+| `ch`                    | `q`    |
+| `sh`                    | `x`    |
 | `z c s r`               | 不变   |
 
 空韵：
 
-| 标准    | 输入  |
-| ------- | ----- |
-| `zhi` | `j` |
-| `chi` | `q` |
-| `shi` | `x` |
-| `zi`  | `z` |
-| `ci`  | `c` |
-| `si`  | `s` |
-| `ri`  | `r` |
+| 标准  | 输入 |
+| ----- | ---- |
+| `zhi` | `j`  |
+| `chi` | `q`  |
+| `shi` | `x`  |
+| `zi`  | `z`  |
+| `ci`  | `c`  |
+| `si`  | `s`  |
+| `ri`  | `r`  |
 
 ---
 
@@ -108,92 +108,92 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 
 ### 1. 介母 `i` 的组合
 
-| 标准     | 组合                     | 输入码                    |
-| -------- | ------------------------ | ------------------------- |
-| `ia`   | `i + a`                | `ia`                    |
-| `ie`   | `i + e`                | `ie`                    |
-| `iao`  | `i + ao`               | `io`                    |
-| `iu`   | `i + ou`               | `iu`                    |
-| `ian`  | `i + an` → `i + w`  | `iw`                    |
-| `iang` | `i + ang` → `i + v` | `iv`                    |
-| `in`   | `i + n`                | `in`                    |
+| 标准   | 组合                | 输入码                |
+| ------ | ------------------- | --------------------- |
+| `ia`   | `i + a`             | `ia`                  |
+| `ie`   | `i + e`             | `ie`                  |
+| `iao`  | `i + ao`            | `io`                  |
+| `iu`   | `i + ou`            | `iu`                  |
+| `ian`  | `i + an` → `i + w`  | `iw`                  |
+| `iang` | `i + ang` → `i + v` | `iv`                  |
+| `in`   | `i + n`             | `in`                  |
 | `ing`  | `i + ng` → `i + g`  | `ig`（额外编码 `in`） |
 
 > 注意：`iong` 的介母是 `y`，不在此处，见介母 `y` 的组合。
 
 ### 2. 介母 `u` 的组合
 
-| 标准     | 组合                     | 输入码                   |
-| -------- | ------------------------ | ------------------------ |
-| `ua`   | `u + a`                | `ua`                   |
-| `uo`   | `u + o`                | `o`（额外编码 `uo`） |
-| `uai`  | `u + ai`               | `ui`                   |
-| `ui`   | `u + ei`               | `ue`                   |
-| `uan`  | `u + an` → `u + w`  | `uw`                   |
-| `uang` | `u + ang` → `u + v` | `uv`                   |
-| `un`   | `u + en` → `u + n`  | `un`                   |
-| `ong`  | `u + g`                | `ug`                   |
+| 标准   | 组合                | 输入码               |
+| ------ | ------------------- | -------------------- |
+| `ua`   | `u + a`             | `ua`                 |
+| `uo`   | `u + o`             | `o`（额外编码 `uo`） |
+| `uai`  | `u + ai`            | `ui`                 |
+| `ui`   | `u + ei`            | `ue`                 |
+| `uan`  | `u + an` → `u + w`  | `uw`                 |
+| `uang` | `u + ang` → `u + v` | `uv`                 |
+| `un`   | `u + en` → `u + n`  | `un`                 |
+| `ong`  | `u + g`             | `ug`                 |
 
 ### 3. 介母 `y` 的组合（`ü` 最终写作 `y`）
 
-| 标准                     | 输入码                                                                                            |
-| ------------------------ | ------------------------------------------------------------------------------------------------- |
-| `ü`                   | `y`                                                                                             |
-| `üe`                  | `ye`                                                                                            |
-| `üan`                 | `yw`                                                                                            |
-| `ün`                  | `yn`                                                                                            |
-| `iong`                 | `yg`                                                                                            |
+| 标准                | 输入码                                                                           |
+| ------------------- | -------------------------------------------------------------------------------- |
+| `ü`                 | `y`                                                                              |
+| `üe`                | `ye`                                                                             |
+| `üan`               | `yw`                                                                             |
+| `ün`                | `yn`                                                                             |
+| `iong`              | `yg`                                                                             |
 | `ü` 与 `j/q/x` 组合 | `j/q/x + y`，如 `ju → jy`、`jue → jye`、`juan → jyw`、`jun → jyn`、`jiong → jyg` |
 
 ### 4. 鼻韵母改写
 
-| 标准    | 输入码 |
-| ------- | ------ |
-| `an`  | `w`  |
-| `ang` | `v`  |
-| `en`  | `n`  |
-| `eng` | `g`  |
+| 标准  | 输入码 |
+| ----- | ------ |
+| `an`  | `w`    |
+| `ang` | `v`    |
+| `en`  | `n`    |
+| `eng` | `g`    |
 
 ### 5. 复韵母简写
 
-| 标准    | 输入码               |
-| ------- | -------------------- |
+| 标准  | 输入码           |
+| ----- | ---------------- |
 | `uo`  | `o`（额外 `uo`） |
-| `uai` | `ui`               |
-| `ui`  | `ue`               |
-| `iao` | `io`               |
-| `iu`  | `iu`               |
+| `uai` | `ui`             |
+| `ui`  | `ue`             |
+| `iao` | `io`             |
+| `iu`  | `iu`             |
 
 ---
 
 ## 六、整体认读 / 零声母
 
-| 标准     | 输入                      |
-| -------- | ------------------------- |
-| `yi`   | `i`                     |
-| `ya`   | `ia`                    |
-| `ye`   | `ie`                    |
-| `yao`  | `io`                    |
-| `you`  | `iu`                    |
-| `yan`  | `iw`                    |
-| `yang` | `iv`                    |
-| `yin`  | `in`                    |
+| 标准   | 输入                  |
+| ------ | --------------------- |
+| `yi`   | `i`                   |
+| `ya`   | `ia`                  |
+| `ye`   | `ie`                  |
+| `yao`  | `io`                  |
+| `you`  | `iu`                  |
+| `yan`  | `iw`                  |
+| `yang` | `iv`                  |
+| `yin`  | `in`                  |
 | `ying` | `ig`（额外编码 `in`） |
-| `wo`   | `o`                     |
-| `wu`   | `u`                     |
-| `wa`   | `ua`                    |
-| `wai`  | `ui`                    |
-| `wei`  | `ue`                    |
-| `wan`  | `uw`                    |
-| `wang` | `uv`                    |
-| `wen`  | `un`                    |
-| `weng` | `ug`                    |
-| `yu`   | `y`                     |
-| `yo`   | `yo`                    |
-| `yue`  | `ye`                    |
-| `yuan` | `yw`                    |
-| `yun`  | `yn`                    |
-| `yong` | `yg`                    |
+| `wo`   | `o`                   |
+| `wu`   | `u`                   |
+| `wa`   | `ua`                  |
+| `wai`  | `ui`                  |
+| `wei`  | `ue`                  |
+| `wan`  | `uw`                  |
+| `wang` | `uv`                  |
+| `wen`  | `un`                  |
+| `weng` | `ug`                  |
+| `yu`   | `y`                   |
+| `yo`   | `yo`                  |
+| `yue`  | `ye`                  |
+| `yuan` | `yw`                  |
+| `yun`  | `yn`                  |
+| `yong` | `yg`                  |
 
 ---
 
@@ -217,22 +217,22 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 
 ## 九、示例
 
-| 标准拼音    | 自创编码  |
-| ----------- | --------- |
-| `zhōng`  | `jug-` |
-| `zhuàng` | `juv\` |
-| `xióng`  | `xyg/` |
-| `yīng`   | `ig-`  |
-| `yǒng`   | `yg\|`  |
-| `juǎn`   | `jyw\|` |
-| `jūn`    | `jyn-` |
-| `guì`    | `gue\` |
-| `liú`    | `liu/` |
-| `duō`    | `do-`  |
-| `diǎn`   | `diw\|` |
-| `dàng`   | `dv\`  |
-| `děng`   | `dg\|`  |
-| `dōng`   | `dug-` |
+| 标准拼音 | 自创编码 |
+| -------- | -------- |
+| `zhōng`  | `jug-`   |
+| `zhuàng` | `juv\`   |
+| `xióng`  | `xyg/`   |
+| `yīng`   | `ig-`    |
+| `yǒng`   | `yg\|`   |
+| `juǎn`   | `jyw\|`  |
+| `jūn`    | `jyn-`   |
+| `guì`    | `gue\`   |
+| `liú`    | `liu/`   |
+| `duō`    | `do-`    |
+| `diǎn`   | `diw\|`  |
+| `dàng`   | `dv\`    |
+| `děng`   | `dg\|`   |
+| `dōng`   | `dug-`   |
 
 ---
 
@@ -272,8 +272,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <th align="center">ou</th>
   <th align="center">w</th>
   <th align="center">v</th>
-  <th align="center">n</th>
-  <th align="center">g</th>
+  <th align="center">ñ</th>
+  <th align="center">ŋ</th>
 </tr>
 </thead>
 <tbody>
@@ -290,8 +290,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">ou</td>
   <td align="center">w</td>
   <td align="center">v</td>
-  <td align="center">n</td>
-  <td align="center">g</td>
+  <td align="center">ñ</td>
+  <td align="center">ŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -305,8 +305,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">iu</td>
   <td align="center">iw</td>
   <td align="center">iv</td>
-  <td align="center">in</td>
-  <td align="center">ig</td>
+  <td align="center">iñ</td>
+  <td align="center">iŋ</td>
 </tr>
 <tr>
   <td align="center">u</td>
@@ -320,8 +320,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">uw</td>
   <td align="center">uv</td>
-  <td align="center">un</td>
-  <td align="center">ug</td>
+  <td align="center">uñ</td>
+  <td align="center">uŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -335,8 +335,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">yw</td>
   <td align="center"></td>
-  <td align="center">yn</td>
-  <td align="center">yg</td>
+  <td align="center">yñ</td>
+  <td align="center">yŋ</td>
 </tr>
 <tr>
   <td rowspan="4" align="center">b</td>
@@ -351,8 +351,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">bw</td>
   <td align="center">bv</td>
-  <td align="center">bn</td>
-  <td align="center">bg</td>
+  <td align="center">bñ</td>
+  <td align="center">bŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -366,8 +366,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">biw</td>
   <td align="center">biv</td>
-  <td align="center">bin</td>
-  <td align="center">big</td>
+  <td align="center">biñ</td>
+  <td align="center">biŋ</td>
 </tr>
 <tr>
   <td align="center">u</td>
@@ -382,7 +382,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center"></td>
   <td align="center"></td>
-  <td align="center">bug</td>
+  <td align="center">buŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -412,8 +412,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">pw</td>
   <td align="center">pv</td>
-  <td align="center">pn</td>
-  <td align="center">pg</td>
+  <td align="center">pñ</td>
+  <td align="center">pŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -427,8 +427,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">piw</td>
   <td align="center"></td>
-  <td align="center">pin</td>
-  <td align="center">pig</td>
+  <td align="center">piñ</td>
+  <td align="center">piŋ</td>
 </tr>
 <tr>
   <td align="center">u</td>
@@ -443,7 +443,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center"></td>
   <td align="center"></td>
-  <td align="center">pug</td>
+  <td align="center">puŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -473,8 +473,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">mou</td>
   <td align="center">mw</td>
   <td align="center">mv</td>
-  <td align="center">mn</td>
-  <td align="center">mg</td>
+  <td align="center">mñ</td>
+  <td align="center">mŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -488,8 +488,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">miw</td>
   <td align="center"></td>
-  <td align="center">min</td>
-  <td align="center">mig</td>
+  <td align="center">miñ</td>
+  <td align="center">miŋ</td>
 </tr>
 <tr>
   <td align="center">u</td>
@@ -504,7 +504,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center"></td>
   <td align="center"></td>
-  <td align="center">mug</td>
+  <td align="center">muŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -534,8 +534,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">fou</td>
   <td align="center">fw</td>
   <td align="center">fv</td>
-  <td align="center">fn</td>
-  <td align="center">fg</td>
+  <td align="center">fñ</td>
+  <td align="center">fŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -565,7 +565,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center"></td>
   <td align="center"></td>
-  <td align="center">fug</td>
+  <td align="center">fuŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -595,8 +595,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">dou</td>
   <td align="center">dw</td>
   <td align="center">dv</td>
-  <td align="center">dn</td>
-  <td align="center">dg</td>
+  <td align="center">dñ</td>
+  <td align="center">dŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -611,7 +611,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">diw</td>
   <td align="center"></td>
   <td align="center"></td>
-  <td align="center">dig</td>
+  <td align="center">diŋ</td>
 </tr>
 <tr>
   <td align="center">u</td>
@@ -625,8 +625,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">duw</td>
   <td align="center"></td>
-  <td align="center">dun</td>
-  <td align="center">dug</td>
+  <td align="center">duñ</td>
+  <td align="center">duŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -657,7 +657,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">tw</td>
   <td align="center">tv</td>
   <td align="center"></td>
-  <td align="center">tg</td>
+  <td align="center">tŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -672,7 +672,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">tiw</td>
   <td align="center"></td>
   <td align="center"></td>
-  <td align="center">tig</td>
+  <td align="center">tiŋ</td>
 </tr>
 <tr>
   <td align="center">u</td>
@@ -686,8 +686,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">tuw</td>
   <td align="center"></td>
-  <td align="center">tun</td>
-  <td align="center">tug</td>
+  <td align="center">tuñ</td>
+  <td align="center">tuŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -717,8 +717,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">nou</td>
   <td align="center">nw</td>
   <td align="center">nv</td>
-  <td align="center">nn</td>
-  <td align="center">ng</td>
+  <td align="center">nñ</td>
+  <td align="center">nŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -732,8 +732,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">niu</td>
   <td align="center">niw</td>
   <td align="center">niv</td>
-  <td align="center">nin</td>
-  <td align="center">nig</td>
+  <td align="center">niñ</td>
+  <td align="center">niŋ</td>
 </tr>
 <tr>
   <td align="center">u</td>
@@ -748,7 +748,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">nuw</td>
   <td align="center"></td>
   <td align="center"></td>
-  <td align="center">nug</td>
+  <td align="center">nuŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -779,7 +779,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">lw</td>
   <td align="center">lv</td>
   <td align="center"></td>
-  <td align="center">lg</td>
+  <td align="center">lŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -793,8 +793,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">liu</td>
   <td align="center">liw</td>
   <td align="center">liv</td>
-  <td align="center">ln</td>
-  <td align="center">lig</td>
+  <td align="center">lñ</td>
+  <td align="center">liŋ</td>
 </tr>
 <tr>
   <td align="center">u</td>
@@ -808,8 +808,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">luw</td>
   <td align="center"></td>
-  <td align="center">lun</td>
-  <td align="center">lug</td>
+  <td align="center">luñ</td>
+  <td align="center">luŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -827,7 +827,7 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
 </tr>
 <tr>
-  <td rowspan="4" align="center">g</td>
+  <td rowspan="4" align="center">ŋ</td>
   <td align="center">/</td>
   <td align="center"></td>
   <td align="center">ga</td>
@@ -839,8 +839,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">gou</td>
   <td align="center">gw</td>
   <td align="center">gv</td>
-  <td align="center">gn</td>
-  <td align="center">gg</td>
+  <td align="center">gñ</td>
+  <td align="center">gŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -869,8 +869,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">guw</td>
   <td align="center">guv</td>
-  <td align="center">gun</td>
-  <td align="center">gug</td>
+  <td align="center">guñ</td>
+  <td align="center">guŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -900,8 +900,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">kou</td>
   <td align="center">kw</td>
   <td align="center">kv</td>
-  <td align="center">kn</td>
-  <td align="center">kg</td>
+  <td align="center">kñ</td>
+  <td align="center">kŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -930,8 +930,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">kuw</td>
   <td align="center">kuv</td>
-  <td align="center">kun</td>
-  <td align="center">kug</td>
+  <td align="center">kuñ</td>
+  <td align="center">kuŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -961,8 +961,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">hou</td>
   <td align="center">hw</td>
   <td align="center">hv</td>
-  <td align="center">hn</td>
-  <td align="center">hg</td>
+  <td align="center">hñ</td>
+  <td align="center">hŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -991,8 +991,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">huw</td>
   <td align="center">huv</td>
-  <td align="center">hun</td>
-  <td align="center">hug</td>
+  <td align="center">huñ</td>
+  <td align="center">huŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -1012,18 +1012,18 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
 <tr>
   <td rowspan="4" align="center">j</td>
   <td align="center">/</td>
-  <td align="center">j</td>
-  <td align="center">ja</td>
-  <td align="center">jo</td>
-  <td align="center">je</td>
-  <td align="center">jai</td>
-  <td align="center">jei</td>
-  <td align="center">jao</td>
-  <td align="center">jou</td>
-  <td align="center">jw</td>
-  <td align="center">jv</td>
-  <td align="center">jn</td>
-  <td align="center">jg</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -1037,23 +1037,23 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">jiu</td>
   <td align="center">jiw</td>
   <td align="center">jiv</td>
-  <td align="center">jin</td>
-  <td align="center">jig</td>
+  <td align="center">jiñ</td>
+  <td align="center">jiŋ</td>
 </tr>
 <tr>
   <td align="center">u</td>
-  <td align="center">ju</td>
-  <td align="center"></td>
-  <td align="center">juo</td>
-  <td align="center"></td>
-  <td align="center">jui</td>
-  <td align="center">jue</td>
   <td align="center"></td>
   <td align="center"></td>
-  <td align="center">juw</td>
-  <td align="center">juv</td>
-  <td align="center">jun</td>
-  <td align="center">jug</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -1067,24 +1067,24 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">jyw</td>
   <td align="center"></td>
-  <td align="center">jyn</td>
-  <td align="center">jyg</td>
+  <td align="center">jyñ</td>
+  <td align="center">jyŋ</td>
 </tr>
 <tr>
   <td rowspan="4" align="center">q</td>
   <td align="center">/</td>
-  <td align="center">q</td>
-  <td align="center">qa</td>
-  <td align="center">qo</td>
-  <td align="center">qe</td>
-  <td align="center">qai</td>
   <td align="center"></td>
-  <td align="center">qao</td>
-  <td align="center">qou</td>
-  <td align="center">qw</td>
-  <td align="center">qv</td>
-  <td align="center">qn</td>
-  <td align="center">qg</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -1098,23 +1098,23 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">qiu</td>
   <td align="center">qiw</td>
   <td align="center">qiv</td>
-  <td align="center">qin</td>
-  <td align="center">qig</td>
+  <td align="center">qiñ</td>
+  <td align="center">qiŋ</td>
 </tr>
 <tr>
   <td align="center">u</td>
-  <td align="center">qu</td>
-  <td align="center"></td>
-  <td align="center">quo</td>
-  <td align="center"></td>
-  <td align="center">qui</td>
-  <td align="center">que</td>
   <td align="center"></td>
   <td align="center"></td>
-  <td align="center">quw</td>
-  <td align="center">quv</td>
-  <td align="center">qun</td>
-  <td align="center">qug</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -1128,24 +1128,24 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">qyw</td>
   <td align="center"></td>
-  <td align="center">qyn</td>
-  <td align="center">qyg</td>
+  <td align="center">qyñ</td>
+  <td align="center">qyŋ</td>
 </tr>
 <tr>
   <td rowspan="4" align="center">x</td>
   <td align="center">/</td>
-  <td align="center">x</td>
-  <td align="center">xa</td>
-  <td align="center">xo</td>
-  <td align="center">xe</td>
-  <td align="center">xai</td>
-  <td align="center">xei</td>
-  <td align="center">xao</td>
-  <td align="center">xou</td>
-  <td align="center">xw</td>
-  <td align="center">xv</td>
-  <td align="center">xn</td>
-  <td align="center">xg</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -1159,22 +1159,22 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">xiu</td>
   <td align="center">xiw</td>
   <td align="center">xiv</td>
-  <td align="center">xin</td>
-  <td align="center">xig</td>
+  <td align="center">xiñ</td>
+  <td align="center">xiŋ</td>
 </tr>
 <tr>
   <td align="center">u</td>
-  <td align="center">xu</td>
-  <td align="center"></td>
-  <td align="center">xuo</td>
-  <td align="center"></td>
-  <td align="center">xui</td>
-  <td align="center">xue</td>
   <td align="center"></td>
   <td align="center"></td>
-  <td align="center">xuw</td>
-  <td align="center">xuv</td>
-  <td align="center">xun</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
   <td align="center"></td>
 </tr>
 <tr>
@@ -1189,8 +1189,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">xyw</td>
   <td align="center"></td>
-  <td align="center">xyn</td>
-  <td align="center">xyg</td>
+  <td align="center">xyñ</td>
+  <td align="center">xyŋ</td>
 </tr>
 <tr>
   <td rowspan="4" align="center">z</td>
@@ -1205,8 +1205,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">zou</td>
   <td align="center">zw</td>
   <td align="center">zv</td>
-  <td align="center">zn</td>
-  <td align="center">zg</td>
+  <td align="center">zñ</td>
+  <td align="center">zŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -1235,8 +1235,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">zuw</td>
   <td align="center"></td>
-  <td align="center">zun</td>
-  <td align="center">zug</td>
+  <td align="center">zuñ</td>
+  <td align="center">zuŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -1266,8 +1266,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">cou</td>
   <td align="center">cw</td>
   <td align="center">cv</td>
-  <td align="center">cn</td>
-  <td align="center">cg</td>
+  <td align="center">cñ</td>
+  <td align="center">cŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -1296,8 +1296,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">cuw</td>
   <td align="center"></td>
-  <td align="center">cun</td>
-  <td align="center">cug</td>
+  <td align="center">cuñ</td>
+  <td align="center">cuŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -1327,8 +1327,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">sou</td>
   <td align="center">sw</td>
   <td align="center">sv</td>
-  <td align="center">sn</td>
-  <td align="center">sg</td>
+  <td align="center">sñ</td>
+  <td align="center">sŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -1357,8 +1357,191 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">suw</td>
   <td align="center"></td>
-  <td align="center">sun</td>
-  <td align="center">sug</td>
+  <td align="center">suñ</td>
+  <td align="center">suŋ</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">ẑ</td>
+  <td align="center">/</td>
+  <td align="center">ẑ</td>
+  <td align="center">ẑa</td>
+  <td align="center">ẑo</td>
+  <td align="center">ẑe</td>
+  <td align="center">ẑai</td>
+  <td align="center">ẑei</td>
+  <td align="center">ẑao</td>
+  <td align="center">ẑou</td>
+  <td align="center">ẑw</td>
+  <td align="center">ẑv</td>
+  <td align="center">ẑñ</td>
+  <td align="center">ẑŋ</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">ẑu</td>
+  <td align="center"></td>
+  <td align="center">ẑuo</td>
+  <td align="center"></td>
+  <td align="center">ẑui</td>
+  <td align="center">ẑue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">ẑuw</td>
+  <td align="center">ẑuv</td>
+  <td align="center">ẑuñ</td>
+  <td align="center">ẑuŋ</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">ĉ</td>
+  <td align="center">/</td>
+  <td align="center">ĉ</td>
+  <td align="center">ĉa</td>
+  <td align="center">ĉo</td>
+  <td align="center">ĉe</td>
+  <td align="center">ĉai</td>
+  <td align="center"></td>
+  <td align="center">ĉao</td>
+  <td align="center">ĉou</td>
+  <td align="center">ĉw</td>
+  <td align="center">ĉv</td>
+  <td align="center">ĉñ</td>
+  <td align="center">ĉŋ</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">ĉu</td>
+  <td align="center"></td>
+  <td align="center">ĉuo</td>
+  <td align="center"></td>
+  <td align="center">ĉui</td>
+  <td align="center">ĉue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">ĉuw</td>
+  <td align="center">ĉuv</td>
+  <td align="center">ĉuñ</td>
+  <td align="center">ĉuŋ</td>
+</tr>
+<tr>
+  <td align="center">y</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td rowspan="4" align="center">ŝ</td>
+  <td align="center">/</td>
+  <td align="center">ŝ</td>
+  <td align="center">ŝa</td>
+  <td align="center">ŝo</td>
+  <td align="center">ŝe</td>
+  <td align="center">ŝai</td>
+  <td align="center">ŝei</td>
+  <td align="center">ŝao</td>
+  <td align="center">ŝou</td>
+  <td align="center">ŝw</td>
+  <td align="center">ŝv</td>
+  <td align="center">ŝñ</td>
+  <td align="center">ŝŋ</td>
+</tr>
+<tr>
+  <td align="center">i</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center"></td>
+</tr>
+<tr>
+  <td align="center">u</td>
+  <td align="center">ŝu</td>
+  <td align="center"></td>
+  <td align="center">ŝuo</td>
+  <td align="center"></td>
+  <td align="center">ŝui</td>
+  <td align="center">ŝue</td>
+  <td align="center"></td>
+  <td align="center"></td>
+  <td align="center">ŝuw</td>
+  <td align="center">ŝuv</td>
+  <td align="center">ŝuñ</td>
+  <td align="center"></td>
 </tr>
 <tr>
   <td align="center">y</td>
@@ -1388,8 +1571,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center">rou</td>
   <td align="center">rw</td>
   <td align="center">rv</td>
-  <td align="center">rn</td>
-  <td align="center">rg</td>
+  <td align="center">rñ</td>
+  <td align="center">rŋ</td>
 </tr>
 <tr>
   <td align="center">i</td>
@@ -1418,8 +1601,8 @@ git clone git@github.com:asnekaa/Rime.git; if ($?) { cd Rime; .\others\setup.ps1
   <td align="center"></td>
   <td align="center">ruw</td>
   <td align="center"></td>
-  <td align="center">run</td>
-  <td align="center">rug</td>
+  <td align="center">ruñ</td>
+  <td align="center">ruŋ</td>
 </tr>
 <tr>
   <td align="center">y</td>

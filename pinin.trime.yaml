@@ -677,7 +677,7 @@ liquid_keyboard:
       ]
 
 tool_bar:
-  button_spacing: 10 # 按钮间距
+  button_spacing: 8 # 按钮间距
   button_font: iconfont.ttf # 按钮字体
   back_style: "ic@arrow-left" # 左侧返回按钮样式
 
@@ -768,13 +768,13 @@ preset_keys:
   Down: { label: "↓", send: Down }
   Up: { label: "↑", send: Up }
   Right: { label: "→", send: Right }
-  select_all: { label: 全選, send: Control+a }
+  select_all: { label: 全, send: Control+a }
   Clear: { label: 清除, text: "{Control+a}{BackSpace}" } #全選並刪除
-  cut: { label: 剪下, send: Control+x }
+  cut: { label: 剪, send: Control+x }
   cut_all: { label: 全挪, text: "{Control+a}{Control+x}" } #全選並剪切
-  copy: { label: 複製, send: Control+c }
+  copy: { label: 复, send: Control+c }
   copy_all: { label: 全謄, text: "{Control+a}{Control+c}" } #全選並複製
-  paste: { label: 貼上, send: Control+v }
+  paste: { label: 粘, send: Control+v }
   paste_text: { label: 貼上文本, send: Control+Shift+Alt+v } #>=Android 6.0
   share_text: { label: 分享文本, send: Control+Alt+s } #>=Android 6.0
   redo: { label: 重做, send: Control+Shift+z } #>=Android 6.0
@@ -1200,9 +1200,10 @@ preset_keyboards:
       # 第四行
       - {
           click: Shift_L,
-          label_symbol: " ",
-          long_click: Shift_L,
-          double_click: Shift_L3,
+          swipe_up: "分",
+          swipe_down: "分",
+          long_click: Shift_L2,
+          double_click: Shift_L2,
           composing: delimiter,
           width: 15,
           hilited_key_back_color: benter,

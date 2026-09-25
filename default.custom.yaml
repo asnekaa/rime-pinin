@@ -4,7 +4,7 @@ patch:
     - schema: pinin
     - schema: kagiroi
 
-  menu/page_size: 2 # 候选词个数
+  menu/page_size: 3 # 候选词个数
 
   # 方案选单相关
   switcher/hotkeys:
