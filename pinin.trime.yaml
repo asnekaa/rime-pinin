@@ -756,7 +756,8 @@ preset_keys:
   Return1: { label: Enter, send: Return }
   Return2: { label: 回车, send: Return }
   Hide: { label: 隱藏, send: BACK }
-  BackSpace: { label: 退格, repeatable: true, send: BackSpace }
+  BackSpace: { label: "⌫", preview: "⇦", repeatable: true, send: BackSpace }
+  BackSpace_word: { label: ⇦ }
   space: { repeatable: false, functional: false, send: space }
   space1: { label: 空格, repeatable: false, functional: false, send: space }
   Escape: { label: Esc, send: Escape }
@@ -1147,7 +1148,6 @@ preset_keyboards:
           width: *key2_width,
         }
       # 第三行
-      # - { width: 5, key_back_color: bh2, key_text_color: th2 }
       - {
           click: a,
           long_click: "`",
@@ -1191,6 +1191,7 @@ preset_keyboards:
           swipe_down: "】",
           key_back_color: bh3,
           key_text_color: th3,
+          width: *key3_width,
         }
       - {
           click: h,
@@ -1228,7 +1229,6 @@ preset_keyboards:
           key_text_color: th2,
           width: *key3_width,
         }
-      # - { width: 5, key_back_color: bh2, key_text_color: th2 }
       # 第四行
       - {
           click: Shift_once,
@@ -1306,7 +1306,12 @@ preset_keyboards:
           width: *key4_width,
         }
       - {
-          click: BackSpace2,
+          click: BackSpace,
+          long_click: "BackSpace",
+          swipe_left: BackSpace_word,
+          swipe_up: Delete,
+          swipe_down: Delete,
+          label: "⌫",
           width: 15,
           key_back_color: bbs,
           key_text_color: tbs,

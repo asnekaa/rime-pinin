@@ -258,6 +258,7 @@
 根本	gb
 规则	gz
 关于	gy
+光标	guvbio
 功能	gn
 可爱	keai
 可以	ki
@@ -368,6 +369,7 @@
 中间	ẑuŋjiw
 中秋	ẑuŋqiu
 插入	ĉaru
+长按	ĉvw
 出来	ĉul
 除非	ĉufei
 重新	ĉx
@@ -377,6 +379,7 @@
 是不是	ŝbŝ
 视频	ŝp
 事情	ŝq
+删除	ŝwĉu
 上面	ŝm
 上下	ŝx
 声调	ŝñdio
