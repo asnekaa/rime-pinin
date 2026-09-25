@@ -1344,10 +1344,9 @@ preset_keyboards:
       - {
           click: space,
           long_click: Tab,
-          swipe_left: "Left",
-          swipe_right: "Right",
-          swipe_up: "Up",
-          swipe_down: "Down",
+          slide_cursor: true,
+          swipe_up: Up,
+          swipe_down: Down,
           key_back_color: bkg,
           key_text_color: tkg,
           width: *space_width,
