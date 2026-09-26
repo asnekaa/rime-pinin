@@ -15,7 +15,7 @@ size:
   3: &key_text_size 22 # 键字号
 
 height:
-  kbh: &kbh 200
+  kbh: &kbh 300
   1: &jpgd1 30 # 表情键盘
   2: &jpgd2 24 # 颜文字键盘1
   3: &jpgd3 24 # 颜文字键盘2
@@ -938,8 +938,8 @@ keyboard_width:
   shiftw: &shiftw 15
   bsw: &bsw 15
   kbsw: &kbsw 13
-  enterw: &enterw 20
-  spacew: &spacew 34
+  enterw: &enterw 15
+  spacew: &spacew 39
 
 number_keyboard_width:
   nw: &nw 20
@@ -955,7 +955,7 @@ preset_keyboards:
     keys:
       # 第一行
       - {
-          click: ẑ,
+          click: ĉ,
           long_click: Commit_1,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
@@ -1357,7 +1357,6 @@ preset_keyboards:
     name: Pinin_number
     author: ASneka
     ascii_mode: 1
-    height: *nkbh
     keys:
       # 第一行
       - {
