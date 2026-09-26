@@ -749,9 +749,15 @@ tool_bar:
 
 preset_keys:
   # 編輯
-  Shift_L: { label: ic@keyboard-shift, send: Shift_L }
+  Shift_L: { label: ic@apple-keyboard-shift, send: Shift_L }
   Shift_L2: { label: ⇪, send: Eisu_toggle, select: caps }
-  BackSpace: { label: ic@keyboard-return, preview: ⇦, repeatable: true, send: BackSpace }
+  BackSpace:
+    {
+      label: ic@keyboard-backspace,
+      preview: ⇦,
+      repeatable: true,
+      send: BackSpace,
+    }
   BackSpace_word: { label: ⇦, send: Control+BackSpace }
   space:
     {
@@ -762,7 +768,7 @@ preset_keys:
       functional: false,
       send: space,
     }
-  Return: { label: ic@keyboard-return, preview: ↩, send: Return }
+  Return: { label: ic@apple-keyboard-return, send: Return }
   Return1: { label: ↩, send: Return }
   Return2: { label: 回车, send: Return }
   space1: { label: 空格, repeatable: false, functional: false, send: space }
