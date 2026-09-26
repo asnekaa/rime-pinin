@@ -2,7 +2,7 @@ patch:
   # 方案列表
   schema_list:
     - schema: pinin
-    - schema: kagiroi
+    # - schema: kagiroi
 
   menu/page_size: 3 # 候选词个数
 
@@ -32,8 +32,6 @@ patch:
   #   half_shape: 标点符号全部直接上屏，和 macOS 自带输入法的区别是
   #              '|' 是半角的，
   #              '~' 是半角的。
-  punctuator/half_shape/[: "（"
-  punctuator/half_shape/]: "）"
   punctuator/half_shape/_: null
 
   # 快捷键patch:

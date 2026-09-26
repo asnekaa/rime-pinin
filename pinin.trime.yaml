@@ -677,7 +677,7 @@ liquid_keyboard:
       ]
 
 tool_bar:
-  button_spacing: 8 # 按钮间距
+  button_spacing: 5 # 按钮间距
   button_font: iconfont.ttf # 按钮字体
   back_style: "ic@arrow-left" # 左侧返回按钮样式
 
@@ -918,7 +918,7 @@ preset_keys:
       option: "UPDATE_CONFIG",
     } #更新配置文件
   RepeatCommit: { label: 重复, command: commit, option: "%1$s" } #重复输入刚上屏的内容
-  ẑ: { label: ẑ, preview: ẑ, send: "1", shift: "Ẑ", shift_label: "Ẑ" }
+  ẑ: { label: ẑ, preview: ẑ, send: "1" }
   ĉ: { label: ĉ, preview: ĉ, send: "2" }
   ŝ: { label: ŝ, preview: ŝ, send: "3" }
   ñ: { label: ñ, preview: ñ, send: "9" }
@@ -944,9 +944,12 @@ key_width:
   2: &key2_width 10
   3: &key3_width 11.12
   4: &key4_width 10
-  5: &key5_width 12
-  6: &enter_width 24
-  7: &space_width 32
+  5: &key5_width 10
+  6: &shift_width 15
+  7: &backspace_width 15
+  8: &kbs_width 12
+  9: &enter_width 24
+  10: &space_width 32
 
 # 键盘布局
 preset_keyboards:
@@ -1230,10 +1233,10 @@ preset_keyboards:
           swipe_up: "'",
           swipe_down: "'",
           label_symbol: "'",
-          width: 15,
           hilited_key_back_color: benter,
           key_back_color: bbs,
           key_text_color: tbs,
+          width: *shift_width,
         }
       - {
           click: z,
@@ -1304,9 +1307,9 @@ preset_keyboards:
           swipe_left: BackSpace_word,
           swipe_up: Delete,
           swipe_down: Delete,
-          width: 15,
           key_back_color: bbs,
           key_text_color: tbs,
+          width: *backspace_width,
         }
       # 第五行
       - {
@@ -1314,21 +1317,21 @@ preset_keyboards:
           long_click: Menu,
           key_back_color: bgn,
           key_text_color: tgn,
-          width: *key5_width,
+          width: *kbs_width,
         }
       - {
           click: Keyboard_switch,
           long_click: Menu,
           key_back_color: bgn,
           key_text_color: tgn,
-          width: *key5_width,
+          width: *kbs_width,
         }
       - {
           click: ",",
           label: "，",
-          long_click: "<>{Left}",
           key_back_color: bh4,
           key_text_color: th4,
+          width: *key5_width,
         }
       - {
           click: space,
@@ -1342,9 +1345,9 @@ preset_keyboards:
       - {
           click: ".",
           label: "。",
-          long_click: clipboard_window,
           key_back_color: bh4,
           key_text_color: th4,
+          width: *key5_width,
         }
       - {
           click: Return,

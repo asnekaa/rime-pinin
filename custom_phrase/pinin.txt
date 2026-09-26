@@ -152,8 +152,10 @@
 要不要	ibi
 要不然	ibr
 要么	iom
+优化	iuhua
 有点	iud
 有一次	iic
+有用	iuyŋ
 有没有	imi
 有个	iug
 因为	iñu
@@ -170,6 +172,7 @@
 原来	yl
 韵母	yñmu
 用不了	ybl
+保持	baoĉ
 半角	bwjio
 本来	bl
 必要	biio
@@ -221,6 +224,7 @@
 代码	daim
 代码	daima
 到底	dd
+到此一游	dcii
 都是	d-ŝ
 但是	dŝ
 当然	dr
@@ -231,6 +235,8 @@
 他们	tm
 她们	t_m
 它们	tam
+特殊	teŝu
+调试	tioŝ
 天天	tt
 突然	tr	1
 通过	tg
@@ -289,6 +295,7 @@
 会不会	hbh
 基本上	jbŝ
 记得	jide
+加个	jiag
 家伙	jiaho
 介音	jieiñ
 介母	jiemu
@@ -296,6 +303,7 @@
 脚本	jb
 就能	jn
 就好了	jhl
+就会	jh
 就想	jx|
 就像	jx\
 就行	jx
@@ -315,6 +323,7 @@
 其实	qŝ
 起来	ql
 前面	qm
+全部	qb
 全面	qywmiw
 全角	qywjio
 系统	xt
@@ -328,6 +337,7 @@
 子文件夹	zujj
 自定义	zdi
 自己	zj
+在此之前	zcẑq
 再见	z_j
 再次	z_c
 怎样	zi
@@ -368,14 +378,18 @@
 注意	ẑui
 注释	ẑuŝ
 转义	ẑuwi
+状态	ẑuvt
+状态	ẑuvtai
 中文	ẑu
 中间	ẑuŋjiw
 中秋	ẑuŋqiu
 插入	ĉaru
 差不多	ĉbd
+超级简拼	ĉjjp
 长按	ĉvw
 出来	ĉul
 除非	ĉufei
+处于	ĉuy
 重新	ĉx
 时候	ŝh
 实在	ŝz
@@ -395,6 +409,7 @@
 什么东西	ŝmdx
 什么时候	ŝmŝh
 声母	ŝñmu
+输入	ŝuru
 输入法	ŝrf
 数字	ŝuz
 睡觉	ŝuejio
@@ -459,9 +474,6 @@ Trance	tr
 这么强	ẑmq
 彳亍	ĉĉ
 彳亍	ĉĉu
-
-到此一游	dcii
-超级简拼	ĉjjp
 
 电子蛇	dzŝ
 ASneka	as
