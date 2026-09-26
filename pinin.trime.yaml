@@ -938,8 +938,8 @@ keyboard_width:
   shiftw: &shiftw 15
   bsw: &bsw 15
   kbsw: &kbsw 13
-  enterw: &enterw 15
-  spacew: &spacew 39
+  enterw: &enterw 20
+  spacew: &spacew 34
 
 number_keyboard_width:
   nw: &nw 20
