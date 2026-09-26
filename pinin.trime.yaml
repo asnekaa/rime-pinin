@@ -918,11 +918,10 @@ preset_keys:
       option: "UPDATE_CONFIG",
     } #更新配置文件
   RepeatCommit: { label: 重复, command: commit, option: "%1$s" } #重复输入刚上屏的内容
-  ẑ: { label: ẑ, preview: ẑ, send: "1" }
-  Ẑ: { label: Ẑ, preview: Ẑ, commit: "Ẑ" }
+  ẑ: { label: ẑ, preview: ẑ, send: "1", shift: "Ẑ", shift_label: "Ẑ" }
   ĉ: { label: ĉ, preview: ĉ, send: "2" }
   ŝ: { label: ŝ, preview: ŝ, send: "3" }
-  ñ: { label: ñ, preview: ŋ, send: "9" }
+  ñ: { label: ñ, preview: ñ, send: "9" }
   ŋ: { label: ŋ, preview: ñ, send: "0" }
   Tone_1: { label: "-", preview: "-", send: "4" }
   Tone_2: { label: "/", preview: "/", send: "5" }
@@ -962,7 +961,6 @@ preset_keyboards:
       # 第一行
       - {
           click: ẑ,
-          shift_click: Ẑ,
           long_click: Commit_1,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
