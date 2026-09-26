@@ -800,7 +800,7 @@ preset_keys:
       label: ic@web,
       toggle: ascii_mode,
       send: SWITCH_CHARSET,
-      states: [中文, 西文],
+      states: [中, 英],
     }
   Zenkaku_Hankaku:
     { toggle: full_shape, send: SWITCH_CHARSET, states: [半角, 全角] }
@@ -962,9 +962,9 @@ keyboard_width:
   spacew: &spacew 39
 
 number_keyboard_width:
-  nw: &nw 20
-  nk1w: &nk1w 20
-  nk2w: &nk2w 20
+  nw: &nw 22
+  nk1w: &nk1w 17
+  nk2w: &nk2w 17
 
 # 键盘布局
 preset_keyboards:
@@ -1333,8 +1333,8 @@ preset_keyboards:
       - {
           click: Mode_switch,
           long_click: IME_switch,
-          swipe_up: Schema_switch,
-          swipe_down: Schema_switch,
+          swipe_up: Keyboard_switch,
+          swipe_down: Keyboard_switch,
           key_back_color: bgn,
           key_text_color: tgn,
           width: *kbsw,
