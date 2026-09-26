@@ -15,7 +15,7 @@ size:
   3: &key_text_size 22 # 键字号
 
 height:
-  kbh: &kbh 300
+  kbh: &kbh 200
   1: &jpgd1 30 # 表情键盘
   2: &jpgd2 24 # 颜文字键盘1
   3: &jpgd3 24 # 颜文字键盘2
