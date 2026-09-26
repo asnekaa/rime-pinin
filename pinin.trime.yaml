@@ -936,10 +936,10 @@ keyboard:
   k5w: &k5w 10
   shiftw: &shiftw 15
   bsw: &bsw 15
-  kbsw: &kbsw 11
-  enterw: &enterw 22
+  kbsw: &kbsw 12
+  enterw: &enterw 20
   spacew: &spacew 36
-  kbh: &kbh 50
+  kbh: &kbh 100
 
 number_keyboard:
   nw: &nw 22
