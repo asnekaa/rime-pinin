@@ -946,7 +946,7 @@ number_keyboard_width:
   nw: &nw 20
   nk1w: &nk1w 20
   nk2w: &nk2w 20
-  nkh: &kh 10
+  nkh: &nkh 10
 
 # 键盘布局
 preset_keyboards:
