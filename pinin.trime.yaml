@@ -15,6 +15,7 @@ size:
   3: &key_text_size 22 # 键字号
 
 height:
+  kbh: &kbh 300
   1: &jpgd1 30 # 表情键盘
   2: &jpgd2 24 # 颜文字键盘1
   3: &jpgd3 24 # 颜文字键盘2
@@ -91,7 +92,7 @@ style:
   keyboard_padding_bottom: 0 # 竖屏模式下，屏幕下边缘与键盘的距离（减少全面屏误触）
   keyboard_padding_land: 0 # 横屏模式下，屏幕左右两侧与键盘的距离（避免横屏按键过度拉伸变形）
   keyboard_padding_land_bottom: 0 # 横屏模式下，屏幕下边缘与键盘的距离
-  keyboard_height: 250 # 键盘锁定的高度。当每行按键高度、行之间间距之和与此参数存在差异时，键盘自动缩放为锁定的高度。使用此参数可以快速调整键盘高度而无需复杂。当缺少此参数时，键盘高度不做缩放计算。
+  keyboard_height: *kbh # 键盘锁定的高度。当每行按键高度、行之间间距之和与此参数存在差异时，键盘自动缩放为锁定的高度。使用此参数可以快速调整键盘高度而无需复杂。当缺少此参数时，键盘高度不做缩放计算。
   keyboard_height_land: 200 # 横屏下键盘锁定的高度，同上
 
 preedit: # 预编辑文本视图参数
@@ -928,7 +929,7 @@ preset_keys:
   Commit_9: { label: "9", preview: "9", commit: "9" }
   Commit_0: { label: "0", preview: "0", commit: "0" }
 
-keyboard:
+keyboard_width:
   k1w: &k1w 10
   k2w: &k2w 10
   k3w: &k3w 11.12
@@ -939,13 +940,11 @@ keyboard:
   kbsw: &kbsw 13
   enterw: &enterw 15
   spacew: &spacew 39
-  kbh: &kbh 10
 
-number_keyboard:
-  nw: &nw 24
-  nk1w: &nk1w 14
-  nk2w: &nk2w 14
-  nkbh: &nkbh 10
+number_keyboard_width:
+  nw: &nw 22
+  nk1w: &nk1w 17
+  nk2w: &nk2w 17
 
 # 键盘布局
 preset_keyboards:
@@ -953,7 +952,6 @@ preset_keyboards:
     name: Pinin
     author: ASneka
     ascii_mode: 0
-    height: *kbh
     keys:
       # 第一行
       - {
