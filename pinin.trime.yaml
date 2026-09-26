@@ -15,7 +15,7 @@ size:
   3: &key_text_size 22 # 键字号
 
 height:
-  kbh: &kbh 200
+  kbh: &kbh 250
   1: &jpgd1 30 # 表情键盘
   2: &jpgd2 24 # 颜文字键盘1
   3: &jpgd3 24 # 颜文字键盘2
@@ -42,13 +42,13 @@ style:
   reset_ascii_mode_on_focus_change: true # 焦点变更弹起输入法软键盘时，重置 ascii_mode
   enter_label_mode: 0 # 是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel，2优先使用，3当其他方式没有获得label时才读取actionlabel
   enter_labels: # 定义Enter键的文本
-    go: 前往
-    done: 完成
-    next: 下个
-    pre: 上个
-    search: 搜索
-    send: 发送
-    default: ↩ # 定义默认Enter键的文本
+    go: ↩
+    done: ic@check
+    next: ic@chevron_right
+    pre: ic@chevron_left
+    search: ic@magnify
+    send: ic@send
+    default: ic@keyboard_return
 
   ### 字体
   text_font: latin.ttf # 编码字体
@@ -70,7 +70,8 @@ style:
   candidate_view_height: 28 # 候选区高度
   candidate_corner_radius: 5 # 候选圆角
   comment_text_size: 10 # 候选注释大小
-  comment_height: 12 # 候选注释区高度=
+  comment_height: 12 # 候选注释区高度
+  key_height: 1
   comment_position: right # 编码提示布局位置：right / top / overlay
   comment_vertical_bias: 0.0 # 编码提示垂直偏移位置（仅 overlay 模式使用，需要间隙空间足够，范围 0.0~1.0，0.0=top，0.5=center，1.0=bottom）
   key_border: 1 # 按键边框宽度
@@ -759,8 +760,7 @@ preset_keys:
       functional: false,
       send: space,
     }
-  Return: { label: ic@keyboard_return, preview: "", send: Return }
-  Return1: { label: ↩, send: Return }
+  Return: { label: enter_labels, preview: "", send: Return }
   Return2: { label: 回车, send: Return }
   space1: { label: 空格, repeatable: false, functional: false, send: space }
   Tab: { label: ic@keyboard_tab, send: Tab }
@@ -794,7 +794,7 @@ preset_keys:
   Keyboard_mini: { label: 迷你, send: Eisu_toggle, select: mini }
   Keyboard_letter: { label: 字母, send: Eisu_toggle, select: default }
   Keyboard_default: { label: 返回, send: Eisu_toggle, select: .default }
-  Keyboard_switch: { label: 鍵盤, send: Eisu_toggle, select: .next }
+  Keyboard_switch: { label: ic@web, send: Eisu_toggle, select: .next }
   liquid_keyboard_switch:
     { label: 更多, send: FUNCTION, command: liquid_keyboard, option: "更多" }
   liquid_keyboard_exit: {
@@ -929,7 +929,7 @@ preset_keys:
   Commit_9: { label: "9", preview: "9", commit: "9" }
   Commit_0: { label: "0", preview: "0", commit: "0" }
 
-keyboard:
+keyboard_width:
   k1w: &k1w 10
   k2w: &k2w 10
   k3w: &k3w 11.12
@@ -940,13 +940,11 @@ keyboard:
   kbsw: &kbsw 13
   enterw: &enterw 15
   spacew: &spacew 39
-  kh: &kh 1
 
 number_keyboard_width:
   nw: &nw 20
   nk1w: &nk1w 20
   nk2w: &nk2w 20
-  nkh: &nkh 1
 
 # 键盘布局
 preset_keyboards:
@@ -954,11 +952,11 @@ preset_keyboards:
     name: Pinin
     author: ASneka
     ascii_mode: 0
-    height: *kh
+    height: 1
     keys:
       # 第一行
       - {
-          click: ĉ,
+          click: ẑ,
           long_click: Commit_1,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
@@ -1308,13 +1306,12 @@ preset_keyboards:
       # 第五行
       - {
           click: Keyboard_number,
-          long_click: Menu,
           key_back_color: bgn,
           key_text_color: tgn,
           width: *kbsw,
         }
       - {
-          click: Keyboard_switch,
+          click: IME_switch,
           long_click: Menu,
           key_back_color: bgn,
           key_text_color: tgn,
@@ -1349,7 +1346,6 @@ preset_keyboards:
         }
       - {
           click: Return,
-          composing: Return1,
           swipe_up: Escape,
           key_back_color: benter,
           key_text_color: tenter,
@@ -1360,7 +1356,7 @@ preset_keyboards:
     name: Pinin_number
     author: ASneka
     ascii_mode: 1
-    height: *nkh
+    height: 1
     keys:
       # 第一行
       - {
