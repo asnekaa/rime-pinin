@@ -936,16 +936,16 @@ keyboard:
   k5w: &k5w 10
   shiftw: &shiftw 15
   bsw: &bsw 15
-  kbsw: &kbsw 12
-  enterw: &enterw 20
-  spacew: &spacew 36
-  kbh: &kbh 100
+  kbsw: &kbsw 13
+  enterw: &enterw 15
+  spacew: &spacew 39
+  kbh: &kbh 10
 
 number_keyboard:
-  nw: &nw 22
-  nk1w: &nk1w 17
-  nk2w: &nk2w 17
-  nkbh: &nkbh 70
+  nw: &nw 24
+  nk1w: &nk1w 14
+  nk2w: &nk2w 14
+  nkbh: &nkbh 10
 
 # 键盘布局
 preset_keyboards:
