@@ -704,7 +704,7 @@ tool_bar:
 
   hide_button: &hide_button
     foreground:
-      style: "ic@keyboard_close"
+      style: "ic@chevron_down"
       normal: candidate_text_color
     action: Hide
 
@@ -748,31 +748,27 @@ tool_bar:
     ]
 
 preset_keys:
+  # 工具栏
+  Hide: {send: BACK}
   # 編輯
-  Shift_L: { label: ic@apple-keyboard-shift, send: Shift_L }
-  Shift_L2: { label: ⇪, send: Eisu_toggle, select: caps }
-  BackSpace:
-    {
-      label: ic@keyboard-backspace,
-      preview: ⇦,
-      repeatable: true,
-      send: BackSpace,
-    }
+  Shift_L: { label: ic@apple_keyboard_shift, preview: "", send: Shift_L }
+  Shift_L2: { label: ic@apple_keyboard_caps, send: Eisu_toggle, select: caps }
+  BackSpace: { label: ⌫, preview: "", repeatable: true, send: BackSpace }
   BackSpace_word: { label: ⇦, send: Control+BackSpace }
   space:
     {
-      label: "␣",
+      label: "ic@keyboard_space",
       preview: "",
       repeatable: false,
       slide_cursor: true,
       functional: false,
       send: space,
     }
-  Return: { label: ic@apple-keyboard-return, send: Return }
+  Return: { label: ic@keyboard_return, preview: "", send: Return }
   Return1: { label: ↩, send: Return }
   Return2: { label: 回车, send: Return }
   space1: { label: 空格, repeatable: false, functional: false, send: space }
-  Tab: { label: ↹, send: Tab }
+  Tab: { label: ic@keyboard_tab, send: Tab }
   Left: { label: "←", send: Left }
   Down: { label: "↓", send: Down }
   Up: { label: "↑", send: Up }
