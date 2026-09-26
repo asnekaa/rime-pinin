@@ -751,10 +751,6 @@ preset_keys:
   # 編輯
   Shift_L: { label: ic@apple-keyboard-shift, send: Shift_L }
   Shift_L2: { label: "⇪", send: Eisu_toggle, select: caps }
-  Return: { label: ↩, send: Return }
-  Return1: { label: ↩, send: Return }
-  Return2: { label: 回车, send: Return }
-  Hide: { label: 隱藏, send: BACK }
   BackSpace: { label: "⌫", preview: "⇦", repeatable: true, send: BackSpace }
   BackSpace_word: { label: ⇦, send: Control+BackSpace }
   space:
@@ -766,21 +762,16 @@ preset_keys:
       functional: false,
       send: space,
     }
+  Return: { label: ↩, send: Return }
+  Return1: { label: ↩, send: Return }
+  Return2: { label: 回车, send: Return }
   space1: { label: 空格, repeatable: false, functional: false, send: space }
   Tab: { label: ↹, send: Tab }
-  Escape: { label: Esc, send: Escape }
-  Home: { label: 行首, send: Home }
-  Insert: { label: 插入, send: Insert }
-  Delete: { label: Del, send: Delete }
-  End: { label: 行尾, send: End }
-  Page_Up: { label: 上頁, send: Page_Up }
-  Page_Down: { label: 下頁, send: Page_Down }
   Left: { label: "←", send: Left }
   Down: { label: "↓", send: Down }
   Up: { label: "↑", send: Up }
   Right: { label: "→", send: Right }
   select_all: { label: 全, send: Control+a }
-  Clear: { label: 清除, text: "{Control+a}{BackSpace}" } #全選並刪除
   cut: { label: 剪, send: Control+x }
   cut_all: { label: 全挪, text: "{Control+a}{Control+x}" } #全選並剪切
   copy: { label: 复, send: Control+c }
@@ -928,6 +919,7 @@ preset_keys:
     } #更新配置文件
   RepeatCommit: { label: 重复, command: commit, option: "%1$s" } #重复输入刚上屏的内容
   ẑ: { label: ẑ, preview: ẑ, send: "1" }
+  Ẑ: { label: Ẑ, preview: Ẑ, commit: "Ẑ" }
   ĉ: { label: ĉ, preview: ĉ, send: "2" }
   ŝ: { label: ŝ, preview: ŝ, send: "3" }
   ñ: { label: ñ, preview: ŋ, send: "9" }
@@ -960,16 +952,17 @@ key_width:
 # 键盘布局
 preset_keyboards:
   default:
-    author: "ASneka"
     name: Pinin
+    author: "ASneka"
+    ascii_mode: 0
+    ascii_keyboard: letter
     width: 10
     height: 48
-    ascii_mode: 0
-    label_transform: uppercase
     keys:
       # 第一行
       - {
           click: ẑ,
+          shift_click: Ẑ,
           long_click: Commit_1,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
