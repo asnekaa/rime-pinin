@@ -179,7 +179,7 @@
 别人	bierñ
 标签	bioqiw
 编码	biwma
-变成	biwĉñ
+变成	bĉ
 补丁	budiñ
 不一样	bii
 不应该	big
@@ -249,6 +249,7 @@
 你好	nh
 裸体	loti
 离谱	lp
+里面	lm
 聊天	lt
 两个	lg
 果然	gr
@@ -295,10 +296,11 @@
 脚本	jb
 就能	jn
 就好了	jhl
-就是	jŝ
 就想	jx|
 就像	jx\
 就行	jx
+就算	js
+就是	jŝ
 简洁	jiwjie/
 简介	jiwjie\
 间接	jiwjie-
