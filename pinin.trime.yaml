@@ -1333,7 +1333,7 @@ preset_keyboards:
       - {
           click: Mode_switch,
           long_click: IME_switch,
-          label_symbol: "",
+          label_symbol: "1",
           swipe_up: Menu,
           swipe_down: Menu,
           key_back_color: bgn,
