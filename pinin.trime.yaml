@@ -704,7 +704,7 @@ tool_bar:
 
   hide_button: &hide_button
     foreground:
-      style: "ic@chevron_down"
+      style: "ic@keyboard_close"
       normal: candidate_text_color
     action: Hide
 
@@ -749,7 +749,9 @@ tool_bar:
 
 preset_keys:
   # 工具栏
-  Hide: {send: BACK}
+  undo: { label: ic@undo, send: Control+z }
+  redo: { label: ic@redo, send: Control+Shift+z }
+  Hide: { send: BACK }
   # 編輯
   Shift_L: { label: ic@apple_keyboard_shift, preview: "", send: Shift_L }
   Shift_L2: { label: ic@apple_keyboard_caps, send: Eisu_toggle, select: caps }
@@ -773,12 +775,10 @@ preset_keys:
   Down: { label: "↓", send: Down }
   Up: { label: "↑", send: Up }
   Right: { label: "→", send: Right }
-  select_all: { label: 全, send: Control+a }
-  cut: { label: 剪, send: Control+x }
-  copy: { label: 复, send: Control+c }
-  paste: { label: 粘, send: Control+v }
-  redo: { label: 重做, send: Control+Shift+z } #>=Android 6.0
-  undo: { label: 撤銷, send: Control+z } #>=Android 6.0
+  select_all: { label: ic@select_all, send: Control+a }
+  cut: { label: ic@content_cut, send: Control+x }
+  copy: { label: ic@content_copy, send: Control+c }
+  paste: { label: ic@content_paste, send: Control+v }
   # rime組合鍵
   F4: { label: 方案選單, send: F4 }
   BackToPreviousSyllable: { label: 刪音節, send: Control+BackSpace }
@@ -798,7 +798,7 @@ preset_keys:
     { toggle: ascii_punct, send: SWITCH_CHARSET, states: [。，, ．，] }
   #切换键盘
   Keyboard_symbols: { label: 符號, send: Eisu_toggle, select: symbols }
-  Keyboard_number: { label: 數字, send: Eisu_toggle, select: number }
+  Keyboard_number: { label: ic@numeric, send: Eisu_toggle, select: number }
   Keyboard_mini: { label: 迷你, send: Eisu_toggle, select: mini }
   Keyboard_letter: { label: 字母, send: Eisu_toggle, select: default }
   Keyboard_default: { label: 返回, send: Eisu_toggle, select: .default }
