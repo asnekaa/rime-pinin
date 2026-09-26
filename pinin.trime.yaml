@@ -670,7 +670,7 @@ liquid_keyboard:
       ]
 
 tool_bar:
-  button_spacing: 1 # 按钮间距
+  # button_spacing: 1 # 按钮间距
   button_font: iconfont.ttf # 按钮字体
   back_style: "ic@arrow_left" # 左侧返回按钮样式
 
@@ -798,6 +798,7 @@ preset_keys:
   Mode_switch:
     {
       label: ic@web,
+      preview: "",
       toggle: ascii_mode,
       send: SWITCH_CHARSET,
       states: [中, 英],
@@ -957,9 +958,9 @@ keyboard_width:
   k5w: &k5w 10
   shiftw: &shiftw 15
   bsw: &bsw 15
-  kbsw: &kbsw 13
-  enterw: &enterw 15
-  spacew: &spacew 39
+  kbsw: &kbsw 12
+  enterw: &enterw 20
+  spacew: &spacew 36
 
 number_keyboard_width:
   nw: &nw 22
@@ -1333,7 +1334,7 @@ preset_keyboards:
       - {
           click: Mode_switch,
           long_click: IME_switch,
-          label_symbol: "1",
+          label_symbol: " ",
           swipe_up: Menu,
           swipe_down: Menu,
           key_back_color: bgn,
