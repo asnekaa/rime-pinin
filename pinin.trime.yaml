@@ -670,9 +670,9 @@ liquid_keyboard:
       ]
 
 tool_bar:
-  button_spacing: 5 # 按钮间距
+  button_spacing: 4 # 按钮间距
   button_font: iconfont.ttf # 按钮字体
-  back_style: "ic@arrow-left" # 左侧返回按钮样式
+  back_style: "ic@arrow_left" # 左侧返回按钮样式
 
   # 左侧固定主按钮配置
   primary_button:
@@ -729,6 +729,18 @@ tool_bar:
       option_styles: ["ic@moon_full", "ic@moon_new"]
     action: Zenkaku_Hankaku
 
+  redo_button: &redo_button
+    foreground:
+      style: "ic@redo"
+      font_size: 14
+    action: redo
+
+  undo_button: &undo_button
+    foreground:
+      style: "ic@undo"
+      font_size: 14
+    action: undo
+
   # 右侧按钮列表（从右向左排列）
   buttons:
     [
@@ -738,12 +750,15 @@ tool_bar:
       *edit_button,
       *ascii_mode_button,
       *full_shape_button,
+      *redo_button,
+      *undo_button,
     ]
 
 preset_keys:
   # 工具栏
-  undo: { label: ic@undo, send: Control+z }
-  redo: { label: ic@redo, send: Control+Shift+z }
+  menu_keyboard: { send: FUNCTION, command: menu_keyboard }
+  undo: { send: Control+z }
+  redo: { send: Control+Shift+z }
   Hide: { send: BACK }
   # 編輯
   Shift_L: { label: ic@apple_keyboard_shift, preview: "", send: Shift_L }
@@ -781,7 +796,12 @@ preset_keys:
   DeleteCandidate: { label: 刪詞, send: Control+Delete }
   # rime狀態
   Mode_switch:
-    { label: ic@web, toggle: ascii_mode, send: SWITCH_CHARSET, states: [中文, 西文] }
+    {
+      label: ic@web,
+      toggle: ascii_mode,
+      send: SWITCH_CHARSET,
+      states: [中文, 西文],
+    }
   Zenkaku_Hankaku:
     { toggle: full_shape, send: SWITCH_CHARSET, states: [半角, 全角] }
   Henkan: { toggle: simplification, send: SWITCH_CHARSET, states: [漢字, 汉字] }
