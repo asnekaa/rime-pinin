@@ -781,7 +781,7 @@ preset_keys:
   DeleteCandidate: { label: 刪詞, send: Control+Delete }
   # rime狀態
   Mode_switch:
-    { toggle: ascii_mode, send: SWITCH_CHARSET, states: [中文, 西文] }
+    { label: ic@web, toggle: ascii_mode, send: SWITCH_CHARSET, states: [中文, 西文] }
   Zenkaku_Hankaku:
     { toggle: full_shape, send: SWITCH_CHARSET, states: [半角, 全角] }
   Henkan: { toggle: simplification, send: SWITCH_CHARSET, states: [漢字, 汉字] }
@@ -825,7 +825,7 @@ preset_keys:
       option: "ink",
     } #空参数为刷新主题
   # trime設定
-  IME_switch: { label: 🌐, send: LANGUAGE_SWITCH } #彈出對話框選擇輸入法
+  IME_switch: { send: LANGUAGE_SWITCH } #彈出對話框選擇輸入法
   IME_last: { label: 上一輸入法, send: LANGUAGE_SWITCH, select: .last } #直接切換到上一輸入法
   IME_next: { label: 下一輸入法, send: LANGUAGE_SWITCH, select: .next } #直接切換到下一輸入法
   Schema_switch: { label: 下一方案, send: Control+Shift+1 }
@@ -1312,7 +1312,9 @@ preset_keyboards:
         }
       - {
           click: Mode_switch,
-          long_click: Menu,
+          long_click: IME_switch,
+          swipe_up: Schema_switch,
+          swipe_down: Schema_switch,
           key_back_color: bgn,
           key_text_color: tgn,
           width: *kbsw,
