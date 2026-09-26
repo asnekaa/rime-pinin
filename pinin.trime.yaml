@@ -15,7 +15,7 @@ size:
   3: &key_text_size 22 # 键字号
 
 height:
-  kbh: &kbh 400
+  kbh: &kbh 200
   1: &jpgd1 30 # 表情键盘
   2: &jpgd2 24 # 颜文字键盘1
   3: &jpgd3 24 # 颜文字键盘2
@@ -940,13 +940,13 @@ keyboard:
   kbsw: &kbsw 13
   enterw: &enterw 15
   spacew: &spacew 39
-  kh: &kh 10
+  kh: &kh 1
 
 number_keyboard_width:
   nw: &nw 20
   nk1w: &nk1w 20
   nk2w: &nk2w 20
-  nkh: &nkh 10
+  nkh: &nkh 1
 
 # 键盘布局
 preset_keyboards:
