@@ -1181,45 +1181,45 @@ preset_keyboards:
         }
       - {
           click: g,
-          long_click: "【】{Left}",
-          swipe_up: "【",
-          swipe_down: "】",
+          long_click: "[",
+          swipe_up: "[",
+          swipe_down: "[",
           key_back_color: bh3,
           key_text_color: th3,
           width: *key3_width,
         }
       - {
           click: h,
-          long_click: "「」{Left}",
-          swipe_up: "「",
-          swipe_down: "」",
+          long_click: "]",
+          swipe_up: "]",
+          swipe_down: "]",
           key_back_color: bh3,
           key_text_color: th3,
           width: *key3_width,
         }
       - {
           click: j,
-          long_click: ";",
-          swipe_up: ";",
-          swipe_down: ";",
+          long_click: "{",
+          swipe_up: "{",
+          swipe_down: "{",
           key_back_color: bh3,
           key_text_color: th3,
           width: *key3_width,
         }
       - {
           click: k,
-          long_click: ":",
-          swipe_up: ":",
-          swipe_down: ":",
+          long_click: "}",
+          swipe_up: "}",
+          swipe_down: "}",
           key_back_color: bh3,
           key_text_color: th3,
           width: *key3_width,
         }
       - {
           click: l,
-          long_click: '"',
-          swipe_up: '"',
-          swipe_down: '"',
+          long_click: ";",
+          swipe_up: ";",
+          swipe_down: ";",
           key_back_color: bh2,
           key_text_color: th2,
           width: *key3_width,
@@ -1275,18 +1275,18 @@ preset_keyboards:
         }
       - {
           click: b,
-          long_click: "<",
-          swipe_up: "<",
-          swipe_down: "<",
+          long_click: ":",
+          swipe_up: ":",
+          swipe_down: ":",
           key_back_color: bh3,
           key_text_color: th3,
           width: *key4_width,
         }
       - {
           click: n,
-          long_click: ">",
-          swipe_up: ">",
-          swipe_down: ">",
+          long_click: '"',
+          swipe_up: '"',
+          swipe_down: '"',
           key_back_color: bh3,
           key_text_color: th3,
           width: *key4_width,
@@ -1327,7 +1327,9 @@ preset_keyboards:
         }
       - {
           click: ",",
-          label: "，",
+          long_click: "<",
+          swipe_up: "<",
+          swipe_down: "<",
           key_back_color: bh4,
           key_text_color: th4,
           width: *key5_width,
@@ -1343,7 +1345,9 @@ preset_keyboards:
         }
       - {
           click: ".",
-          label: "。",
+          long_click: ">",
+          swipe_up: ">",
+          swipe_down: ">",
           key_back_color: bh4,
           key_text_color: th4,
           width: *key5_width,
