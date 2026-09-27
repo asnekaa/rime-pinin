@@ -692,7 +692,7 @@ tool_bar:
       # highlight:        # 高亮状态前景色
       padding: 10 # 前景内容与背景边界的内边距
     # 按钮点击事件
-    action: menu_keyboard
+    action: menu_keyboardf
     long_press_action: Settings
 
   hide_button: &hide_button
@@ -776,7 +776,8 @@ preset_keys:
       send: space,
     }
   Return: { label: enter_labels, preview: "", send: Return }
-  Return2: { label: 回车, send: Return }
+  Return1: { label: ic@keyboard_return, send: Return }
+  Escape: { label: Esc, send: ic@keyboard_esc }
   space1: { label: 空格, repeatable: false, functional: false, send: space }
   Tab: { label: ic@keyboard_tab, send: Tab }
   Left: { label: "←", send: Left }
@@ -928,17 +929,16 @@ preset_keys:
       command: apply,
       option: "UPDATE_CONFIG",
     } #更新配置文件
-  RepeatCommit: { label: 重复, command: commit, option: "%1$s" } #重复输入刚上屏的内容
-  ẑ: { label: ẑ, preview: ẑ, send: "1" }
-  ĉ: { label: ĉ, preview: ĉ, send: "2" }
-  ŝ: { label: ŝ, preview: ŝ, send: "3" }
-  ñ: { label: ñ, preview: ñ, send: "9" }
-  ŋ: { label: ŋ, preview: ñ, send: "0" }
-  Tone_1: { label: "-", preview: "-", send: "4" }
-  Tone_2: { label: "/", preview: "/", send: "5" }
-  Tone_3: { label: "|", preview: "|", send: "6" }
-  Tone_4: { label: "\\", preview: "\\", send: "7" }
-  Variant: { label: "_", preview: "_", send: "8" }
+  ñ: { label: ñ, preview: ñ, send: "1" }
+  ŋ: { label: ŋ, preview: ñ, send: "2" }
+  ẑ: { label: ẑ, preview: ẑ, send: "8" }
+  ĉ: { label: ĉ, preview: ĉ, send: "9" }
+  ŝ: { label: ŝ, preview: ŝ, send: "0" }
+  Tone_1: { label: "-", preview: "-", send: "3" }
+  Tone_2: { label: "/", preview: "/", send: "4" }
+  Tone_3: { label: "|", preview: "|", send: "5" }
+  Tone_4: { label: "\\", preview: "\\", send: "6" }
+  Variant: { label: "_", preview: "_", send: "7" }
   Commit_1: { label: "1", preview: "1", commit: "1" }
   Commit_2: { label: "2", preview: "2", commit: "2" }
   Commit_3: { label: "3", preview: "3", commit: "3" }
@@ -977,7 +977,7 @@ preset_keyboards:
     keys:
       # 第一行
       - {
-          click: ẑ,
+          click: ñ,
           long_click: Commit_1,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
@@ -986,7 +986,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ĉ,
+          click: ŋ,
           long_click: Commit_2,
           swipe_up: Commit_2,
           swipe_down: Commit_2,
@@ -995,7 +995,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ŝ,
+          click: Tone_1,
           long_click: Commit_3,
           swipe_up: Commit_3,
           swipe_down: Commit_3,
@@ -1004,7 +1004,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Tone_1,
+          click: Tone_2,
           long_click: Commit_4,
           swipe_up: Commit_4,
           swipe_down: Commit_4,
@@ -1013,7 +1013,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Tone_2,
+          click: Tone_3,
           long_click: Commit_5,
           swipe_up: Commit_5,
           swipe_down: Commit_5,
@@ -1022,7 +1022,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Tone_3,
+          click: Tone_4,
           long_click: Commit_6,
           swipe_up: Commit_6,
           swipe_down: Commit_6,
@@ -1031,7 +1031,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Tone_4,
+          click: Variant,
           long_click: Commit_7,
           swipe_up: Commit_7,
           swipe_down: Commit_7,
@@ -1040,7 +1040,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Variant,
+          click: ẑ,
           long_click: Commit_8,
           swipe_up: Commit_8,
           swipe_down: Commit_8,
@@ -1049,7 +1049,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ñ,
+          click: ĉ,
           long_click: Commit_9,
           swipe_up: Commit_9,
           swipe_down: Commit_9,
@@ -1058,7 +1058,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ŋ,
+          click: ŝ,
           long_click: Commit_0,
           swipe_up: Commit_0,
           swipe_down: Commit_0,
@@ -1370,6 +1370,7 @@ preset_keyboards:
         }
       - {
           click: Return,
+          composing: Return1,
           swipe_up: Escape,
           key_back_color: benter,
           key_text_color: tenter,

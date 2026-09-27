@@ -53,6 +53,8 @@
 多	do
 的	d
 得	dei
+到	d\
+到	dao
 都	d-
 都	dou
 点	diw
@@ -87,6 +89,7 @@
 还	hai
 好	h
 好	hao	1
+后	h\
 后	hou
 坏	hui
 会	hue
@@ -155,11 +158,15 @@
 要么	iom
 优化	iuhua
 有点	iud
+有一些	iix
 有一次	iic
 有用	iuyŋ
 有没有	imi
 有个	iug
+有些	iux
+有种	iuẑ
 因为	iñu
+音乐	iñye
 应该	iñg
 为什么	uŝm
 完美	uwm
@@ -189,6 +196,7 @@
 不应该	big
 不用	by
 不对	bd
+不同	bt
 不能	bn
 不过	bg
 不会	bh
@@ -280,6 +288,8 @@
 肯定	kd
 空韵	kuŋyñ
 空格	kg
+活着	hoẑ·
+或者	hoẑ
 还要	h/io
 还有	h/iu
 还没	h/m
@@ -360,6 +370,7 @@
 锁定	sodiñ
 虽然	sr
 算了	sl
+之后	ẑh\
 之后	ẑhou
 直接	ẑj
 只要	ẑio
@@ -373,6 +384,7 @@
 这里	ẑl
 这么	ẑm
 这个	ẑg
+这些	ẑx
 真的	ẑd
 真正	ẑẑ
 整个	ẑñg
