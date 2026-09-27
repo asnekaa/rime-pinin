@@ -140,6 +140,7 @@
 一些	ixie
 一起	iqi
 一次	ic
+依然	irw
 以为	iue
 以后	ih
 以及	iji
@@ -287,6 +288,8 @@
 好吧	hb
 好的	hd	1
 好听	ht	1
+好看	hk	1
+好看的	hkd	1
 好想	hx|
 好像	hx\
 后面	hm
@@ -412,6 +415,7 @@
 什么东西	ŝmdx
 什么时候	ŝmŝh
 声母	ŝñmu
+输出	ŝuĉu
 输入	ŝuru
 输入法	ŝrf
 数字	ŝuz
@@ -456,6 +460,7 @@ Trance	tr
 慕名而来	mmal
 慕名而来	mmel
 慕名前来	mmql
+又寸	iucuñ
 蓝白碗	lbu
 萝莉控	llk
 裂开了	lkl
@@ -467,6 +472,8 @@ Trance	tr
 豪听	ht
 好欸	hei\
 好耶	hie
+好康	hk
+好康的	hkd
 好怪哦	hgo
 好好	hh
 好好好	hhh
