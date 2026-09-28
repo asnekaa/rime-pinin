@@ -812,7 +812,8 @@ preset_keys:
   Punct_switch:
     { toggle: ascii_punct, send: SWITCH_CHARSET, states: [。，, ．，] }
   #切换键盘
-  Keyboard_number: { label: ic@numeric, send: Eisu_toggle, select: number }
+  Keyboard_number:
+    { label: ic@numeric, preview: "", send: Eisu_toggle, select: number }
   Keyboard_mini: { label: 迷你, send: Eisu_toggle, select: mini }
   Keyboard_letter: { label: 字母, send: Eisu_toggle, select: default }
   Keyboard_default: { label: 返回, send: Eisu_toggle, select: .default }
@@ -860,7 +861,7 @@ preset_keys:
   Color_switch: { label: 配色, send: PROG_RED }
   Help: { label: 說明, send: HELP }
   Info: { label: 關於, send: INFO }
-  Menu: { label: 方案, send: MENU }
+  Menu: { label: 方案, preview: "", send: MENU }
   Settings: { label: 設定, send: SETTINGS }
   Color_settings: { label: 配色, send: SETTINGS, option: "color" }
   Theme_settings: { label: 主題, send: SETTINGS, option: "theme" }
@@ -929,16 +930,16 @@ preset_keys:
       command: apply,
       option: "UPDATE_CONFIG",
     } #更新配置文件
-  ñ: { label: ñ, preview: ñ, send: "1" }
-  ŋ: { label: ŋ, preview: ñ, send: "2" }
-  ẑ: { label: ẑ, preview: ẑ, send: "8" }
-  ĉ: { label: ĉ, preview: ĉ, send: "9" }
-  ŝ: { label: ŝ, preview: ŝ, send: "0" }
-  Tone_1: { label: "-", preview: "-", send: "3" }
-  Tone_2: { label: "/", preview: "/", send: "4" }
-  Tone_3: { label: "|", preview: "|", send: "5" }
-  Tone_4: { label: "\\", preview: "\\", send: "6" }
-  Variant: { label: "_", preview: "_", send: "7" }
+  ẑ: { label: ẑ, preview: ẑ, send: "1" }
+  ĉ: { label: ĉ, preview: ĉ, send: "2" }
+  ŝ: { label: ŝ, preview: ŝ, send: "3" }
+  ñ: { label: ñ, preview: ñ, send: "9" }
+  ŋ: { label: ŋ, preview: ñ, send: "0" }
+  Tone_1: { label: "-", preview: "-", send: "4" }
+  Tone_2: { label: "/", preview: "/", send: "5" }
+  Tone_3: { label: "|", preview: "|", send: "6" }
+  Tone_4: { label: "\\", preview: "\\", send: "7" }
+  Variant: { label: "_", preview: "_", send: "8" }
   Commit_1: { label: "1", preview: "1", commit: "1" }
   Commit_2: { label: "2", preview: "2", commit: "2" }
   Commit_3: { label: "3", preview: "3", commit: "3" }
@@ -977,7 +978,7 @@ preset_keyboards:
     keys:
       # 第一行
       - {
-          click: ñ,
+          click: ẑ,
           long_click: Commit_1,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
@@ -986,7 +987,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ŋ,
+          click: ĉ,
           long_click: Commit_2,
           swipe_up: Commit_2,
           swipe_down: Commit_2,
@@ -995,7 +996,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Tone_1,
+          click: ŝ,
           long_click: Commit_3,
           swipe_up: Commit_3,
           swipe_down: Commit_3,
@@ -1004,7 +1005,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Tone_2,
+          click: Tone_1,
           long_click: Commit_4,
           swipe_up: Commit_4,
           swipe_down: Commit_4,
@@ -1013,7 +1014,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Tone_3,
+          click: Tone_2,
           long_click: Commit_5,
           swipe_up: Commit_5,
           swipe_down: Commit_5,
@@ -1022,7 +1023,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Tone_4,
+          click: Tone_3,
           long_click: Commit_6,
           swipe_up: Commit_6,
           swipe_down: Commit_6,
@@ -1031,7 +1032,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Variant,
+          click: Tone_4,
           long_click: Commit_7,
           swipe_up: Commit_7,
           swipe_down: Commit_7,
@@ -1040,7 +1041,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ẑ,
+          click: Variant,
           long_click: Commit_8,
           swipe_up: Commit_8,
           swipe_down: Commit_8,
@@ -1049,7 +1050,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ĉ,
+          click: ñ,
           long_click: Commit_9,
           swipe_up: Commit_9,
           swipe_down: Commit_9,
@@ -1058,7 +1059,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ŝ,
+          click: ŋ,
           long_click: Commit_0,
           swipe_up: Commit_0,
           swipe_down: Commit_0,
@@ -1334,9 +1335,9 @@ preset_keyboards:
       - {
           click: Mode_switch,
           long_click: IME_switch,
-          label_symbol: " ",
           swipe_up: Menu,
           swipe_down: Menu,
+          label_symbol: " ",
           key_back_color: bgn,
           key_text_color: tgn,
           width: *kbsw,

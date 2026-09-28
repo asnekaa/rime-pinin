@@ -41,6 +41,7 @@
 音	iñ
 为	ue
 玩	uw
+于	y/
 用	yŋ
 把	ba
 被	be
@@ -113,6 +114,7 @@
 这	ẑe
 这	ẑei
 着	ẑ·
+中	ẑuŋ
 是	ŝ
 时	ŝ/
 说	ŝo
@@ -120,9 +122,11 @@
 让	rv
 
 而已	ari
+而不是	arbŝ
 而且	arq
 而是	arŝ
 而已	eri
+而不是	erbŝ
 而且	erq
 而是	erŝ
 我的	od
@@ -151,6 +155,7 @@
 已经	ij
 意思	is
 也就是	ijŝ
+也就是说	ijŝŝ
 也行	iex
 也是	ieŝ
 要不要	ibi
@@ -193,6 +198,7 @@
 变成	bĉ
 补丁	budiñ
 不一样	bii
+不要	buio
 不应该	big
 不用	by
 不对	bd
@@ -222,6 +228,7 @@
 反正	fẑ
 方案	fvw
 方便	fvb
+方不方便	fbfb
 方法	ff
 分别	fñb
 复制	fuẑ
@@ -251,6 +258,9 @@
 图标	tubio
 通过	tg
 同时	tŝ
+哪有	n|i
+那有	n\i
+哪么	n|m
 那么	n\m
 哪里	n|l
 那里	n\l
@@ -348,6 +358,7 @@
 想到	xd
 行不行	xbx
 需要	xyio
+选项	xywxiv
 子文件夹	zujj
 自定义	zdi
 自己	zj
@@ -428,6 +439,7 @@
 什么时候	ŝmŝh
 声母	ŝñmu
 输出	ŝuĉu
+输入	ŝr
 输入	ŝuru
 输入法	ŝrf
 数字	ŝuz

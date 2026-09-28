@@ -1,16 +1,16 @@
 local M = {}
 
 local TONE_MAP = {
-    ['1'] = 'ñ',
-    ['2'] = 'ŋ',
-    ['8'] = 'ẑ',
-    ['9'] = 'ĉ',
-    ['0'] = 'ŝ',
-    ['3'] = '-',
-    ['4'] = '/',
-    ['5'] = '|',
-    ['6'] = '\\',
-    ['7'] = '_',
+    ['1'] = 'ẑ',
+    ['2'] = 'ĉ',
+    ['3'] = 'ŝ',
+    ['9'] = 'ñ',
+    ['0'] = 'ŋ',
+    ['4'] = '-',
+    ['5'] = '/',
+    ['6'] = '|',
+    ['7'] = '\\',
+    ['8'] = '_',
     ['grave'] = '·',
 }
 
@@ -23,19 +23,19 @@ local KEYCODE_MAP = {
 }
 
 local SHIFT_MAP = {
-    [33] = 'Ẑ',
-    [64] = 'Ĉ',
-    [35] = 'Ŝ',
-    [40] = 'Ñ',
-    [41] = 'Ŋ',
-}
-
-local DOT_SHIFT_MAP = {
     [33] = '！',
     [64] = '@',
     [35] = '#',
     [40] = '（',
     [41] = '）',
+}
+
+local DOT_SHIFT_MAP = {
+    [33] = 'Ẑ',
+    [64] = 'Ĉ',
+    [35] = 'Ŝ',
+    [40] = 'Ñ',
+    [41] = 'Ŋ',
 }
 
 local REVERSE_MAP = {}
@@ -46,7 +46,7 @@ for key, value in pairs(TONE_MAP) do
     SYM_SET[value] = true
 end
 
-for keycode, value in pairs(SHIFT_MAP) do
+for keycode, value in pairs(DOT_SHIFT_MAP) do
     REVERSE_MAP[value] = KEYCODE_MAP[keycode]
     SYM_SET[value] = true
 end
@@ -112,6 +112,7 @@ function M.func(key, env)
 
         env.engine:commit_text(restore_original(input))
         ctx:clear()
+
         return 1
     end
 
@@ -127,6 +128,7 @@ function M.func(key, env)
         end
 
         replace_input(ctx, input:sub(1, #input - #last_char))
+
         return 1
     end
 
@@ -135,8 +137,8 @@ function M.func(key, env)
             local sym = DOT_SHIFT_MAP[key.keycode]
 
             if sym then
-                env.engine:commit_text(sym)
                 ctx:clear()
+                env.engine:commit_text(sym)
                 return 1
             end
         end
@@ -156,6 +158,7 @@ function M.func(key, env)
         end
 
         env.engine:commit_text(sym)
+
         return 1
     end
 
@@ -166,6 +169,7 @@ function M.func(key, env)
     end
 
     replace_input(ctx, input .. sym)
+
     return 1
 end
 
