@@ -192,10 +192,9 @@ preset_color_schemes:
     # dark_scheme: pinin_dark
     hilited_text_color: *pl_htext
     text_color: *pl_text
-    hilited_back_color: *pl_mark
-    text_back_color: *pl_mark
-    back_color: *pl_mark
-    # root_background: *pl_back
+    hilited_back_color: *pl_hback
+    text_back_color: *pl_back
+    back_color: *pl_back
 
   fhx:
     name: "标准配色！"  #方案名称
