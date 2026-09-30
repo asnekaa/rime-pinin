@@ -192,8 +192,8 @@ preset_color_schemes:
     # dark_scheme: pinin_dark
 
     # 编码区
-    text_color: *pl_mark
-    hilited_text_color: *pl_text
+    text_color: *pl_hlabel
+    hilited_text_color: *pl_label
 
     # 候选项
     back_color: *pl_back
