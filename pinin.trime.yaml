@@ -164,12 +164,36 @@ colors:
   7: &color7 0x00
   8: &color8 0xff838383
 
+pinin_light:
+  pl_mark: &pl_mark 0x0067C0
+  pl_label: &pl_label 0x4C566A
+  pl_text: &pl_text 0x2E3440
+  pl_back: &pl_back 0xF9F9F9
+  pl_border: &pl_border 0xEFEFEF
+  pl_hlabel: &pl_hlabel 0xCAC9C8
+  pl_htext: &pl_htext 0xFFFFFF
+  pl_hback: &pl_hback 0xF0F0F0
+
+pinin_dark:
+  pd_mark: &pd_mark 0x4CC2FF
+  pd_label: &pd_label 0xBBBBBB
+  pd_text: &pd_text 0xEEEEEE
+  pd_back: &pd_back 0x2C2C2C
+  pd_border: &pd_border 0xC9C9C9
+  pd_hlabel: &pd_hlabel 0x4C4C4C
+  pd_htext: &pd_htext 0x000000
+  pd_hback: &pd_hback 0x383838
+
 #配色方案
 preset_color_schemes:
   default:
     name: Pinin_light
     author: ASneka
-    dark_scheme: steam
+    dark_scheme: pinin_dark
+
+  q:
+    name: q
+    author: q
     back_color: *color2 #候选区背景状态栏
     candidate_separator_color: *color2 #候选分割背景
     candidate_text_color: *color1 #候选文本
