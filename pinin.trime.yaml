@@ -185,249 +185,166 @@ pinin_dark:
   pd_hback: &pd_hback 0x383838
 
 #配色方案
-# 配色方案
-
 preset_color_schemes:
+  # ============================================================
+  #  浅色 · Pinin_light
+  # ============================================================
   default:
     name: Pinin_light
     author: ASneka
-    # dark_scheme: pinin_dark
+    dark_scheme: pinin_dark
 
-    # 编码区
-    text_color: 0xff5d6570
-    hilited_text_color: 0xff6c63ff
-    text_back_color: 0xfff5f6fa
+    # ── 编码区 ────────────────────────────────
+    text_color: "#33383F"                    # 已上屏编码
+    hilited_text_color: "#1B64D9"            # 待选编码
 
-    # 候选项
-    back_color: 0xfff5f6fa
-    candidate_text_color: 0xff4f5661
-    comment_text_color: 0xff8b929d
-    hilited_candidate_back_color: 0xffe9e7ff
-    hilited_candidate_text_color: 0xff5b50d6
-    hilited_comment_text_color: 0xff756de0
-    label_color: 0xff7b8390
-    hilited_label_color: 0xff5b50d6
-    candidate_separator_color: 0xffe5e7ed
+    # ── 候选项 ────────────────────────────────
+    back_color: "#F5F6F8"                    # 候选栏底色
+    candidate_text_color: "#33383F"          # 候选项文字
+    hilited_candidate_back_color: "#E3ECFB"  # 选中项底色
+    hilited_candidate_text_color: "#1B64D9"  # 选中项文字
 
-    # 键盘整体
-    keyboard_back_color: 0xffe9ebf1
-    keyboard_background: 0xffe9ebf1
+    # ── 键盘 ──────────────────────────────────
+    key_back_color: "#FFFFFF"
+    key_text_color: "#33383F"
+    hilited_key_back_color: "#E3ECFB"
+    hilited_key_text_color: "#1B64D9"
+    key_border_color: "#00000000"            # 普通按键：无边框
 
-    # 普通按键
-    key_back_color: 0xfff8f9fc
-    key_border_color: 0xfff8f9fc
-    key_text_color: 0xff4c535e
-    key_symbol_color: 0xff8a919c
+    # ── 普通按键 ──────────────────────────────
+    b_button: "#FFFFFF"
+    f_button: "#33383F"
+    hb_button: "#E3ECFB"
+    hf_button: "#1B64D9"
 
-    # 高亮按键
-    hilited_key_back_color: 0xffe4e1ff
-    hilited_key_border_color: 0xffe4e1ff
-    hilited_key_text_color: 0xff5146c6
-    hilited_key_symbol_color: 0xff766de0
+    # ── Tab ───────────────────────────────────
+    b_tab: "#FFFFFF"
+    f_tab: "#33383F"
+    hb_tab: "#E3ECFB"
+    ht_tab: "#1B64D9"
+    bd_tab: "#DCE1E8"
 
-    # 按键开关状态
-    off_key_back_color: 0xfff8f9fc
-    off_key_border_color: 0xfff8f9fc
-    off_key_text_color: 0xff4c535e
-    off_key_symbol_color: 0xff8a919c
+    # ── Shift ─────────────────────────────────
+    bshift: "#FFFFFF"
+    tshift: "#33383F"
+    hb_shift: "#E3ECFB"
+    ht_shift: "#1B64D9"
+    bd_shift: "#DCE1E8"
 
-    on_key_back_color: 0xff6c63ff
-    on_key_border_color: 0xff6c63ff
-    on_key_text_color: 0xffffffff
-    on_key_symbol_color: 0xffe9e7ff
+    # ── 退格 ──────────────────────────────────
+    b_backspace: "#FFFFFF"
+    f_backspace: "#33383F"
+    hb_backspace: "#E3ECFB"
+    ht_backspace: "#1B64D9"
+    bd_backspace: "#DCE1E8"
 
-    hilited_off_key_back_color: 0xffe4e1ff
-    hilited_off_key_border_color: 0xffe4e1ff
-    hilited_off_key_text_color: 0xff5146c6
-    hilited_off_key_symbol_color: 0xff766de0
+    # ── 中英切换 ──────────────────────────────
+    bgn: "#FFFFFF"
+    tgn: "#33383F"
+    hb_gn: "#E3ECFB"
+    ht_gn: "#1B64D9"
+    bd_gn: "#DCE1E8"
 
-    hilited_on_key_back_color: 0xff6258e8
-    hilited_on_key_border_color: 0xff6258e8
-    hilited_on_key_text_color: 0xffffffff
-    hilited_on_key_symbol_color: 0xffeeecff
+    # ── 回车 ──────────────────────────────────
+    benter: "#FFFFFF"
+    tenter: "#33383F"
+    hb_enter: "#E3ECFB"
+    ht_enter: "#1B64D9"
+    bd_enter: "#DCE1E8"
 
-    # 按键预览 / 弹出键盘
-    preview_back_color: 0xffddd9ff
-    preview_text_color: 0xff5146c6
+    # ── 空格 ──────────────────────────────────
+    bspace: "#FFFFFF"
+    tspace: "#33383F"
+    hb_space: "#E3ECFB"
+    ht_space: "#1B64D9"
+    bd_space: "#DCE1E8"
 
-    popup_back_color: 0xfff8f9fc
-    popup_text_color: 0xff4c535e
-    hilited_popup_back_color: 0xffe4e1ff
-    hilited_popup_text_color: 0xff5146c6
+    # ── 主功能键 ──────────────────────────────
+    b_primary_button: "#FFFFFF"
+    f_primary_button: "#33383F"
+    hb_primary_button: "#E3ECFB"
+    hf_primary_button: "#1B64D9"
+    bd_primary_button: "#DCE1E8"
 
-    # 工具栏
-    hilited_candidate_button_color: 0xffe4e1ff
 
-    # 背景
-    root_background: 0xfff5f6fa
-    candidate_background: 0xfff5f6fa
-    liquid_keyboard_background: 0xffe9ebf1
-    long_text_color: 0xff4c535e
-    long_text_back_color: 0xfff8f9fc
-
-    # 阴影
-    shadow_color: 0xffd7dae2
-
-    # 自定义按键
-    b_button: 0xfff8f9fc
-    f_button: 0xff4c535e
-    hb_button: 0xffe4e1ff
-    hf_button: 0xff5146c6
-
-    b_tab: 0xfff8f9fc
-    f_tab: 0xff4c535e
-    hb_tab: 0xffe4e1ff
-    ht_tab: 0xff5146c6
-
-    bshift: 0xfff8f9fc
-    tshift: 0xff4c535e
-    hb_shift: 0xffe4e1ff
-    ht_shift: 0xff5146c6
-
-    b_backspace: 0xfff8f9fc
-    f_backspace: 0xff4c535e
-    hb_backspace: 0xffffe5e5
-    ht_backspace: 0xffd94f4f
-
-    bgn: 0xfff8f9fc
-    tgn: 0xff4c535e
-    hb_gn: 0xffe4e1ff
-    ht_gn: 0xff5146c6
-
-    benter: 0xfff8f9fc
-    tenter: 0xff4c535e
-    hb_enter: 0xff6c63ff
-    ht_enter: 0xffffffff
-
-    bspace: 0xfff8f9fc
-    tspace: 0xff4c535e
-    hb_space: 0xffe4e1ff
-    ht_space: 0xff5146c6
-
-    b_primary_button: 0xfff8f9fc
-    f_primary_button: 0xff4c535e
-    hb_primary_button: 0xfff8f9fc
-    hf_primary_button: 0xff4c535e
-
+  # ============================================================
+  #  暗色 · pinin_dark
+  # ============================================================
   pinin_dark:
     name: pinin_dark
     author: ASneka
 
-    # 编码区
-    text_color: 0xffaeb4c0
-    hilited_text_color: 0xff9d94ff
-    text_back_color: 0xff20232a
+    # ── 编码区 ────────────────────────────────
+    text_color: "#E8EAEE"
+    hilited_text_color: "#7FB2FF"
 
-    # 候选项
-    back_color: 0xff20232a
-    candidate_text_color: 0xffd7dae2
-    comment_text_color: 0xff858b99
-    hilited_candidate_back_color: 0xff34304f
-    hilited_candidate_text_color: 0xffb3aaff
-    hilited_comment_text_color: 0xff958ce8
-    label_color: 0xff9298a6
-    hilited_label_color: 0xffb3aaff
-    candidate_separator_color: 0xff30343d
+    # ── 候选项 ────────────────────────────────
+    back_color: "#1C1F24"
+    candidate_text_color: "#D6DAE0"
+    hilited_candidate_back_color: "#33455E"
+    hilited_candidate_text_color: "#7FB2FF"
 
-    # 键盘整体
-    keyboard_back_color: 0xff181b21
-    keyboard_background: 0xff181b21
+    # ── 键盘 ──────────────────────────────────
+    key_back_color: "#2A2F36"
+    key_text_color: "#D6DAE0"
+    hilited_key_back_color: "#33455E"
+    hilited_key_text_color: "#7FB2FF"
+    key_border_color: "#00000000"            # 普通按键：无边框
 
-    # 普通按键
-    key_back_color: 0xff242830
-    key_border_color: 0xff242830
-    key_text_color: 0xffd8dbe2
-    key_symbol_color: 0xff8f95a2
+    # ── 普通按键 ──────────────────────────────
+    b_button: "#2A2F36"
+    f_button: "#D6DAE0"
+    hb_button: "#33455E"
+    hf_button: "#7FB2FF"
 
-    # 高亮按键
-    hilited_key_back_color: 0xff35314f
-    hilited_key_border_color: 0xff35314f
-    hilited_key_text_color: 0xffb9b0ff
-    hilited_key_symbol_color: 0xff978ee8
+    # ── Tab ───────────────────────────────────
+    b_tab: "#2A2F36"
+    f_tab: "#D6DAE0"
+    hb_tab: "#33455E"
+    ht_tab: "#7FB2FF"
+    bd_tab: "#454C57"
 
-    # 按键开关状态
-    off_key_back_color: 0xff242830
-    off_key_border_color: 0xff242830
-    off_key_text_color: 0xffd8dbe2
-    off_key_symbol_color: 0xff8f95a2
+    # ── Shift ─────────────────────────────────
+    bshift: "#2A2F36"
+    tshift: "#D6DAE0"
+    hb_shift: "#33455E"
+    ht_shift: "#7FB2FF"
+    bd_shift: "#454C57"
 
-    on_key_back_color: 0xff6c63b8
-    on_key_border_color: 0xff6c63b8
-    on_key_text_color: 0xffffffff
-    on_key_symbol_color: 0xffddd9ff
+    # ── 退格 ──────────────────────────────────
+    b_backspace: "#2A2F36"
+    f_backspace: "#D6DAE0"
+    hb_backspace: "#33455E"
+    ht_backspace: "#7FB2FF"
+    bd_backspace: "#454C57"
 
-    hilited_off_key_back_color: 0xff35314f
-    hilited_off_key_border_color: 0xff35314f
-    hilited_off_key_text_color: 0xffb9b0ff
-    hilited_off_key_symbol_color: 0xff978ee8
+    # ── 中英切换 ──────────────────────────────
+    bgn: "#2A2F36"
+    tgn: "#D6DAE0"
+    hb_gn: "#33455E"
+    ht_gn: "#7FB2FF"
+    bd_gn: "#454C57"
 
-    hilited_on_key_back_color: 0xff7a70cf
-    hilited_on_key_border_color: 0xff7a70cf
-    hilited_on_key_text_color: 0xffffffff
-    hilited_on_key_symbol_color: 0xffe6e2ff
+    # ── 回车 ──────────────────────────────────
+    benter: "#2A2F36"
+    tenter: "#D6DAE0"
+    hb_enter: "#33455E"
+    ht_enter: "#7FB2FF"
+    bd_enter: "#454C57"
 
-    # 按键预览 / 弹出键盘
-    preview_back_color: 0xff4a4566
-    preview_text_color: 0xffc0b9ff
+    # ── 空格 ──────────────────────────────────
+    bspace: "#2A2F36"
+    tspace: "#D6DAE0"
+    hb_space: "#33455E"
+    ht_space: "#7FB2FF"
+    bd_space: "#454C57"
 
-    popup_back_color: 0xff292d36
-    popup_text_color: 0xffd8dbe2
-    hilited_popup_back_color: 0xff3b3658
-    hilited_popup_text_color: 0xffb9b0ff
-
-    # 工具栏
-    hilited_candidate_button_color: 0xff3b3658
-
-    # 背景
-    root_background: 0xff20232a
-    candidate_background: 0xff20232a
-    liquid_keyboard_background: 0xff181b21
-    long_text_color: 0xffd8dbe2
-    long_text_back_color: 0xff242830
-
-    # 阴影
-    shadow_color: 0xff111318
-
-    # 自定义按键
-    b_button: 0xff242830
-    f_button: 0xffd8dbe2
-    hb_button: 0xff35314f
-    hf_button: 0xffb9b0ff
-
-    b_tab: 0xff242830
-    f_tab: 0xffd8dbe2
-    hb_tab: 0xff35314f
-    ht_tab: 0xffb9b0ff
-
-    bshift: 0xff242830
-    tshift: 0xffd8dbe2
-    hb_shift: 0xff35314f
-    ht_shift: 0xffb9b0ff
-
-    b_backspace: 0xff242830
-    f_backspace: 0xffd8dbe2
-    hb_backspace: 0xff493136
-    ht_backspace: 0xffff8585
-
-    bgn: 0xff242830
-    tgn: 0xffd8dbe2
-    hb_gn: 0xff35314f
-    ht_gn: 0xffb9b0ff
-
-    benter: 0xff242830
-    tenter: 0xffd8dbe2
-    hb_enter: 0xff6c63b8
-    ht_enter: 0xffffffff
-
-    bspace: 0xff242830
-    tspace: 0xffd8dbe2
-    hb_space: 0xff35314f
-    ht_space: 0xffb9b0ff
-
-    b_primary_button: 0xff242830
-    f_primary_button: 0xffd8dbe2
-    hb_primary_button: 0xff242830
-    hf_primary_button: 0xffd8dbe2
+    # ── 主功能键 ──────────────────────────────
+    b_primary_button: "#2A2F36"
+    f_primary_button: "#D6DAE0"
+    hb_primary_button: "#33455E"
+    hf_primary_button: "#7FB2FF"
+    bd_primary_button: "#454C57"
 
   tongwenfeng:
     name: "标准配色！" #方案名称
