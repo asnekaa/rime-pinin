@@ -190,6 +190,7 @@ preset_color_schemes:
     name: Pinin_light
     author: ASneka
     # dark_scheme: pinin_dark
+    hilited_text_color: *pl_mark
     text_color: *pl_text
     back_color: *pl_hback
 
@@ -677,7 +678,7 @@ tool_bar:
       # highlight:        # 高亮状态前景色
       padding: 10 # 前景内容与背景边界的内边距
     # 按钮点击事件
-    action: menu_keyboardf
+    action: menu_keyboard
     long_press_action: Settings
 
   hide_button: &hide_button
