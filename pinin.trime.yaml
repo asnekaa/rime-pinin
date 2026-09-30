@@ -192,60 +192,138 @@ preset_color_schemes:
     # dark_scheme: pinin_dark
 
     # 编码区
-    text_color: *pl_hlabel
-    hilited_text_color: *pl_label
+    text_color: 0xff756d78
+    hilited_text_color: 0xff8b4f70
+    text_back_color: 0xfff7f4f1
 
     # 候选项
-    back_color: *pl_back
-    candidate_text_color: *pl_text
-    hilited_candidate_back_color: *pl_hback
-    hilited_candidate_text_color: *pl_mark
+    back_color: 0xfff7f4f1
+    candidate_text_color: 0xff4d4850
+    hilited_candidate_back_color: 0xffe9dfe7
+    hilited_candidate_text_color: 0xff8b4f70
 
     # 键盘
-    key_back_color: *pl_back
-    key_text_color: *pl_text
-    hilited_key_back_color: *pl_hback
-    hilited_key_text_color: *pl_text
+    key_back_color: 0xfff1ede9
+    key_text_color: 0xff4d4850
+    hilited_key_back_color: 0xffe1d4df
+    hilited_key_text_color: 0xff4d4850
 
-    b_button:: *pl_back
-    f_button: *pl_text
-    hb_button:: *pl_hback
-    hf_button: *pl_text
+    # 普通按钮
+    b_button: 0xfff1ede9
+    f_button: 0xff4d4850
+    hb_button: 0xffe1d4df
+    hf_button: 0xff4d4850
 
-    b_tab: *pl_back
-    f_tab: *pl_text
-    hb_tab: *pl_hback
-    ht_tab: *pl_text
+    # Tab
+    b_tab: 0xfff1ede9
+    f_tab: 0xff4d4850
+    hb_tab: 0xffe1d4df
+    ht_tab: 0xff4d4850
 
-    bshift: *pl_back
-    tshift: *pl_text
-    hb_shift: *pl_hback
-    ht_shift: *pl_text
+    # Shift
+    bshift: 0xfff1ede9
+    tshift: 0xff4d4850
+    hb_shift: 0xffe1d4df
+    ht_shift: 0xff4d4850
 
-    b_backspace: *pl_back
-    f_backspace: *pl_text
-    hb_backspace: *pl_hback
-    ht_backspace: *pl_text
+    # Backspace
+    b_backspace: 0xfff1ede9
+    f_backspace: 0xff4d4850
+    hb_backspace: 0xffe1d4df
+    ht_backspace: 0xff4d4850
 
-    bgn: *pl_back
-    tgn: *pl_text
-    hb_gn: *pl_hback
-    ht_gn: *pl_text
+    # GN
+    bgn: 0xfff1ede9
+    tgn: 0xff4d4850
+    hb_gn: 0xffe1d4df
+    ht_gn: 0xff4d4850
 
-    benter: *pl_back
-    tenter: *pl_text
-    hb_enter: *pl_hback
-    ht_enter: *pl_text
+    # Enter
+    benter: 0xfff1ede9
+    tenter: 0xff4d4850
+    hb_enter: 0xffe1d4df
+    ht_enter: 0xff4d4850
 
-    bspace: *pl_back
-    tspace: *pl_text
-    hb_space: *pl_hback
-    ht_space: *pl_text
+    # Space
+    bspace: 0xfff1ede9
+    tspace: 0xff4d4850
+    hb_space: 0xffe1d4df
+    ht_space: 0xff4d4850
 
-    b_primary_button: *pl_back
-    f_primary_button: *pl_text
-    hb_primary_button: *pl_back
-    hf_primary_button: *pl_text
+    # 主按钮
+    b_primary_button: 0xfff1ede9
+    f_primary_button: 0xff4d4850
+    hb_primary_button: 0xffe1d4df
+    hf_primary_button: 0xff4d4850
+
+  pinin_dark:
+    name: Pinin_dark
+    author: ASneka
+
+    # 编码区
+    text_color: 0xffaaa1ad
+    hilited_text_color: 0xffe5a0c0
+    text_back_color: 0xff1b191f
+
+    # 候选项
+    back_color: 0xff1b191f
+    candidate_text_color: 0xffded7e0
+    hilited_candidate_back_color: 0xff463443
+    hilited_candidate_text_color: 0xfff0a9c5
+
+    # 键盘
+    key_back_color: 0xff27242c
+    key_text_color: 0xffded7e0
+    hilited_key_back_color: 0xff3c303b
+    hilited_key_text_color: 0xffded7e0
+
+    # 普通按钮
+    b_button: 0xff27242c
+    f_button: 0xffded7e0
+    hb_button: 0xff3c303b
+    hf_button: 0xffded7e0
+
+    # Tab
+    b_tab: 0xff27242c
+    f_tab: 0xffded7e0
+    hb_tab: 0xff3c303b
+    ht_tab: 0xffded7e0
+
+    # Shift
+    bshift: 0xff27242c
+    tshift: 0xffded7e0
+    hb_shift: 0xff3c303b
+    ht_shift: 0xffded7e0
+
+    # Backspace
+    b_backspace: 0xff27242c
+    f_backspace: 0xffded7e0
+    hb_backspace: 0xff3c303b
+    ht_backspace: 0xffded7e0
+
+    # GN
+    bgn: 0xff27242c
+    tgn: 0xffded7e0
+    hb_gn: 0xff3c303b
+    ht_gn: 0xffded7e0
+
+    # Enter
+    benter: 0xff27242c
+    tenter: 0xffded7e0
+    hb_enter: 0xff3c303b
+    ht_enter: 0xffded7e0
+
+    # Space
+    bspace: 0xff27242c
+    tspace: 0xffded7e0
+    hb_space: 0xff3c303b
+    ht_space: 0xffded7e0
+
+    # 主按钮
+    b_primary_button: 0xff27242c
+    f_primary_button: 0xffded7e0
+    hb_primary_button: 0xff3c303b
+    hf_primary_button: 0xffded7e0
 
   tongwenfeng:
     name: "标准配色！" #方案名称
