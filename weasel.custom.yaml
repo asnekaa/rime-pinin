@@ -1,44 +1,62 @@
+pinin_light:
+  pl_mark: &pl_mark 0x0067C0
+  pl_label: &pl_label 0x4C566A
+  pl_text: &pl_text 0x2E3440
+  pl_back: &pl_back 0xF9F9F9
+  pl_border: &pl_border 0xEFEFEF
+  pl_hlabel: &pl_hlabel 0xCAC9C8
+  pl_htext: &pl_htext 0xFFFFFF
+  pl_hback: &pl_hback 0xF0F0F0
+
+pinin_dark:
+  pd_mark: &pd_mark 0x4CC2FF
+  pd_label: &pd_label 0xBBBBBB
+  pd_text: &pd_text 0xEEEEEE
+  pd_back: &pd_back 0x2C2C2C
+  pd_border: &pd_border 0xC9C9C9
+  pd_hlabel: &pd_hlabel 0x4C4C4C
+  pd_htext: &pd_htext 0x000000
+  pd_hback: &pd_hback 0x383838
+
 patch:
   # [style]
   # 字体；候选项、候选窗口的行为、布局及样式
-  style/color_scheme: mspy_light # 默认配色方案
-  style/color_scheme_dark: mspy_dark # 深色模式
+  style/color_scheme: pinin_dark # 默认配色方案
+  style/color_scheme_dark: pinin_dark # 深色模式
 
   # 全局字体
   style/font_face: "LXGW WenKai, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:30:39, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Segoe UI, Microsoft YaHei, DengXian, Segoe UI Emoji, Noto Color Emoji, Segoe UI Symbol"
-  style/label_format: "" # 标签字符：例如 %s. 效果为 1. 2. 3. ....
+  # style/label_format: "" # 标签字符：例如 %s. 效果为 1. 2. 3. ....
 
   # [preset_color_schemes]
   # 配色设定
-  preset_color_schemes/mspy_light:
-    name: "微软拼音浅色／mspy_light"
+  preset_color_schemes/pinin_light:
+    name: "Pinin_light"
     author: ASneka
     color_format: rgba
-    # hilited_mark_color: 0x0067C0
-    hilited_label_color: 0xcac9c8
-    hilited_candidate_text_color: 0xFFFFFF
-    hilited_comment_text_color: 0xFFFFFF
-    label_color: 0x4C566A
-    candidate_text_color: 0x2E3440
-    comment_text_color: 0x2E3440
-    hilited_candidate_back_color: 0x0067C0
-    back_color: 0xF9F9F9
-    border_color: 0xF0F0F0
+    label_color: *pl_label
+    candidate_text_color: *pl_text
+    comment_text_color: *pl_text
+    back_color: *pl_back
+    border_color: *pl_hback
+    hilited_label_color: *pl_hlabel
+    hilited_candidate_text_color: *pl_htext
+    hilited_comment_text_color: *pl_htext
+    hilited_candidate_back_color: *pl_mark
 
-  preset_color_schemes/mspy_dark:
-    name: "微软拼音深色／mspy_dark"
+  preset_color_schemes/pinin_dark:
+    name: "Pinin_dark"
     author: ASneka
     color_format: rgba
-    # hilited_mark_color: 0x4CC2FF
-    hilited_label_color: 0x4C4C4C
-    hilited_candidate_text_color: 0x000000
-    hilited_comment_text_color: 0x000000
-    label_color: 0xBBBBBB
-    candidate_text_color: 0xEEEEEE
-    comment_text_color: 0xEEEEEE
-    hilited_candidate_back_color: 0x4CC2FF
-    back_color: 0x2C2C2C
-    border_color: 0x383838
+    label_color: *pd_label
+    candidate_text_color: *pd_text
+    comment_text_color: *pd_text
+    back_color: *pd_back
+    border_color: *pd_hback
+    hilited_label_color: *pd_hlabel
+    hilited_candidate_text_color: *pd_htext
+    hilited_comment_text_color: *pd_htext
+    hilited_candidate_back_color: *pd_mark
 
   # 薄荷拼音的配色方案
   preset_color_schemes/mint_light_blue:

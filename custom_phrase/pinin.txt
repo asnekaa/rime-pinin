@@ -227,6 +227,7 @@
 当然	dr
 点	diw
 电脑	diwnao
+定义	diñi
 读我	duo
 对	due
 短语	duwy
@@ -410,6 +411,7 @@
 
 写	xie
 小时	xioŝ
+修改	xiugai
 先	xiw
 显示	xŝ
 现在	xz
