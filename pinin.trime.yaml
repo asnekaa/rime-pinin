@@ -198,7 +198,7 @@ preset_color_schemes:
     # 候选项
     back_color: *pl_back
     candidate_text_color: *pl_text
-    hilited_candidate_back_color: *pl_mark
+    hilited_candidate_back_color: *pl_hback
     hilited_candidate_text_color: *pl_mark
 
     # 键盘
