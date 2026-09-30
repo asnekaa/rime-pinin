@@ -21,106 +21,27 @@
 哦	ou
 昂	v
 呀	ia
+耶	ie
 哇	ua
 吧	b
 呗	bei
 吗	m
 嘛	ma
+么	me
+的	d
+了	l
+咯	l·
 恩	ñ
 嗯	ŋ
 呢	ne
 啦	la
 哈	ha
 哼	hŋ
-
-我	o
-按	w
-也	ie
-要	io
-有	iu
-音	iñ
-为	ue
-玩	uw
-于	y/
-用	yŋ
-把	ba
-被	be
-帮	bv
-别	bie
-变	biw
-编	biw-
-不	bu
-没	mei
-多	do
-的	d
-得	dei
-到	d\
-到	dao
-都	d-
-都	dou
-点	diw
-对	due
-他	t
-她	t_
-它	ta
-太	tai
-图	tu
-哪	n|
-那	n\
-能	n
-你	ni
-娘	niv
-弄	nuŋ
-了	l
-来	l/
-来	lai
-咯	l·
-个	ge
-改	gai
-给	g
-给	gei
-搞	g|
-搞	gao
-刚	gv
-跟	g-
-更	g\
-看	kw
-和	he
-还	h/
-还	hai
-好	h
-好	hao	1
-后	h\
-后	hou
-坏	hui
-会	hue
-加	jia
-就	j
-去	qy
-却	qye
-下	xia
-写	xie
-先	xiw
-想	x|
-像	x\
-行	x
-字	z\
-在	z
-再	z_
-总	zuŋ
-才	cai
-色	se
-只	ẑ
-这	ẑe
-这	ẑei
 着	ẑ·
-中	ẑuŋ
-是	ŝ
-时	ŝ/
-说	ŝo
-上	ŝv
-让	rv
 
+
+而	ar
+而	er
 而已	ari
 而不是	arbŝ
 而且	arq
@@ -129,76 +50,125 @@
 而不是	erbŝ
 而且	erq
 而是	erŝ
+
+我	o
 我的	od
 我们	om
+他	t
+他的	td
+他们	tm
+她	t_
+她的	t_d
+她们	t_m
+它	ta
+它的	tad
+它们	tam
+你	ni
+你的	nd
+你们	nm
+你好	nh
+
 额外	eui
+
 安卓	wẑo
+按	w
 按照	wẑ
+按照	wẑao
 按住	wẑu
+长按	ĉv
+
 一样	ii
 一般	ib
 一点	id
 一定	idiñ
 一个	ig
-一个	ige
 一行	ihv
-一下	ix
-一些	ix-
-一些	ixie
+一会	ih
+一下	ixia
+一些	ix
 一起	iqi
 一次	ic
 依然	irw
 以为	iue
-以后	ih
+以后	ih\
+以后	ihou
 以及	iji
 以前	iq
 已经	ij
 意思	is
+
+也	ie	1
 也就是	ijŝ
 也就是说	ijŝŝ
 也行	iex
 也是	ieŝ
+要	io
 要不要	ibi
 要不然	ibr
 要么	iom
-优化	iuhua
+有	iu
 有点	iud
 有一些	iix
 有一次	iic
-有用	iuyŋ
+有用	iuy
 有没有	imi
 有个	iug
 有些	iux
 有种	iuẑ
-因为	iñu
-音乐	iñye
+优化	iuhua
+因为	iñue
 应该	iñg
+音	iñ
+音乐	iñye
+
+为	ue
+为啥	ueŝa
 为什么	uŝm
+玩	uw
 完美	uwm
 完美	uwmei
 完全	uq
+晚上	uwŝv
 忘记	uvji
+
 文件	uj
 文件夹	ujj
+子文件夹	zujj
+主文件夹	ẑujj
+
 问题	ut
+
+于	y/
 越来越	yly
 原来	yl
 韵母	yñmu
+用	yŋ
 用不了	ybl
+
+把	ba
+被	be
 保持	baoĉ
 半角	bwjio
+帮	bv
 本来	bl
 必要	biio
 比如	bir
 比如	biru
+别	bie
 别人	bier
 别人	bierñ
+标	bio-
 标签	bioqiw
-编码	biwma
+表	bio|
+变	biw
 变成	bĉ
+编	biw-
+编码	biwma
 补丁	budiñ
+
+不	bu
 不一样	bii
-不要	buio
+不要	bio
 不应该	big
 不用	by
 不对	bd
@@ -214,15 +184,19 @@
 不知道	bẑd
 不是	bŝ
 不然	br
+
 配置	peiẑ
+
 模式	moŝ
 默认	mr
+没	mei
 没有	miu
 没问题	mut
 没用	my
 没什么	mxm
 每个	meig
 明白	mb
+
 发现	fx
 非常	fĉ
 反正	fẑ
@@ -230,101 +204,169 @@
 方便	fvb
 方不方便	fbfb
 方法	ff
-分别	fñb
+分别	fb
 复制	fuẑ
 复杂	fuza
 风格	fg
+
 打字	daz
 打出	daĉu
 大写	daxie
+多	do
+多少	doŝao
 代码	daim
 代码	daima
+得	dei
+到	dao
 到底	dd
 到此一游	dcii
+都	d-
+都	dou
 都是	d-ŝ
 但是	dŝ
 当然	dr
+点	diw
 电脑	diwnao
 读我	duo
+对	due
 短语	duwy
 东西	dx
-他们	tm
-她们	t_m
-它们	tam
+
 特殊	teŝu
+太	tai
 调试	tioŝ
 天天	tt
 突然	tr	1
+图	tu
 图标	tubio
 通过	tg
 同时	tŝ
+
+哪	n|
 哪有	n|i
-那有	n\i
 哪么	n|m
-那么	n\m
 哪里	n|l
-那里	n\l
 哪个	n|g
-那个	n\g
 哪些	n|x
+那	n\
+那有	n\i
+那么	n\m
+那里	n\l
+那个	n\g
 那些	n\x
+怎	zñ
+怎样	zi
+怎么	zm
+怎么样	zmi
+怎么办	zmb
+怎么回事	zmhŝ
+这	ẑe
+这	ẑei
+这样	ẑi
+这里	ẑl
+这么	ẑm
+这个	ẑg
+这些	ẑx
+
 内容	nr
+能	n
 能不能	nbn
 能够	ng
-你们	nm
-你好	nh
+娘	niv
+弄	nuŋ
+
 裸体	loti
+来	lai
 离谱	lp
+里	li	1
 里面	lm
 聊天	lt
 两个	lg
+
+个	ge
 果然	gr
+改	gai
 改成	gĉ
+给	gei
+搞	gao
 搞的	gd	1
 感觉	gj
 干什么	gŝm
+刚	gv
+刚才	gc
+跟	g-
+更	g\
 根本	gb
 规则	gz
 关于	gy
 光标	guvbio
 功能	gn
-可爱	keai
+
+可	ke
+可爱	kai
 可以	ki
-可用	keyŋ
-可恶	keu
+可用	ky
+可恶	ku
 可能	kn
 可是	kŝ
+开	kai
+看	kw
 看看	kk	1
 肯定	kd
 空韵	kuŋyñ
 空格	kg
+
+和	he
 活着	hoẑ·
 或者	hoẑ
+还	h/
+还	hai
 还要	h/io
+还要	haiio
 还有	h/iu
+还有	haiiu
 还没	h/m
+还没	haim
+还行	h/x
+还行	haix
 还在	h/z
+还在	haiz
 还是	h/ŝ
+还是	haiŝ
+好	h
+好	hao
 好吧	hb
+好吗	hm
 好的	hd	1
 好听	ht	1
 好看	hk	1
 好看的	hkd	1
 好想	hx|
 好像	hx\
-后面	hm
+号	hao\
+后	h\
+后	hou
+后面	h\m
+后面	houm
 候选项	hxx
+坏	hui
 回关	hueguw
 回车	hueĉe
+会	hue
 会不会	hbh
+
 基本上	jbŝ
+记得	jid
 记得	jide
-加个	jiag
 家伙	jiaho
+加	jia
+加个	jiag
 介音	jieiñ
 介母	jiemu
 结合	jiehe
 脚本	jb
+
+就	j
 就能	jn
 就好了	jhl
 就会	jh
@@ -333,6 +375,7 @@
 就行	jx
 就算	js
 就是	jŝ
+
 简洁	jiwjie/
 简介	jiwjie\
 间接	jiwjie-
@@ -342,48 +385,80 @@
 居然	jr	1
 进入	jiñru
 觉得	jd
+
 其他	qt
 其它	qta
 其实	qŝ
 起来	ql
 前面	qm
+去	qy
+却	qye
 全部	qb
 全面	qywmiw
 全角	qywjio
+
 系统	xt
 喜欢	xihuw
-下面	xm
+
+下	xia
+下午	xiau
+下面	xiam
+上	ŝv
+上午	ŝvu
+上面	ŝvm
+上下	ŝvxia
+
+写	xie
+小时	xioŝ
+先	xiw
 显示	xŝ
 现在	xz
-想到	xd
+
+想	x|
+想要	x|io
+想到	x|d
+像	x\
+像要	x\io
+行	x
+行吧
 行不行	xbx
+行吗	xm
+
+需	xy
 需要	xyio
 选项	xywxiv
-子文件夹	zujj
+
 自定义	zdi
 自己	zj
+字	z\
+在	z
 在此之前	zcẑq
+再	z_
 再见	z_j
 再次	z_c
-怎样	zi
-怎么	zm
-怎么样	zmi
-怎么办	zmb
-怎么回事	zmhŝ
+早上	zaoŝv
 最终	zueẑuŋ
-总是	zŝ
+总	zuŋ
+总是	zuŋŝ
+
 词首	cŝou
-才是	caiŝ
 操作	caozo
+才	cai
+才是	caiŝ
 促音	cuiñ
+
+所	so
+色	se
 所以	si
 所有	siu
 锁定	sodiñ
 虽然	sr
 算了	sl
+
 之后	ẑh\
 之后	ẑhou
-直接	ẑj
+
+只	ẑ
 只要	ẑio
 只有	ẑiu
 只用	ẑy
@@ -391,17 +466,14 @@
 只能	ẑn
 只会	ẑh
 只是	ẑŝ
-这样	ẑi
-这里	ẑl
-这么	ẑm
-这个	ẑg
-这些	ẑx
+
+直接	ẑj
 真的	ẑd
 真正	ẑẑ
+整理	ẑñli
 整个	ẑñg
 正在	ẑz
 正常	ẑĉ
-主文件夹	ẑujj
 主副	ẑufu
 主人	ẑurñ
 注意	ẑui
@@ -409,27 +481,30 @@
 转义	ẑuwi
 状态	ẑuvt
 状态	ẑuvtai
-中文	ẑu
+中	ẑuŋ
+中文	ẑuŋuñ
 中间	ẑuŋjiw
 中秋	ẑuŋqiu
+
 插入	ĉaru
 差不多	ĉbd
 超级简拼	ĉjjp
-长按	ĉvw
 出来	ĉul
 除非	ĉufei
 处于	ĉuy
 重新	ĉx
+
+是	ŝ
+是不是	ŝbŝ
+时	ŝ/
 时候	ŝh
 实在	ŝz
 使用	ŝy
 试一试	ŝiŝ
-是不是	ŝbŝ
 视频	ŝp
 事情	ŝq
+说	ŝo
 删除	ŝwĉu
-上面	ŝvm
-上下	ŝx
 声调	ŝñdio
 甚至	ŝẑ
 什么	ŝm
@@ -444,14 +519,17 @@
 输入法	ŝrf
 数字	ŝuz
 睡觉	ŝuejio
+
 日志	rẑ
-然后	rh
+然后	rh\
+然后	rhou
+让	rv
 任意	rñi
 任何	rñhe
 认为	rñue
 如果	rg
 如何	ruhe
-如下	rux
+如下	ruxia
 run	ruv
 容易	ri
 容错	rc
@@ -480,21 +558,25 @@ Ableton Live	live
 FL Studio	fl
 Trance	tr
 
+蓝白碗	lbu
+萝莉控	llk
+绪山真寻	xŝẑx
+真寻	ẑñxyñ
+
 啊这	aẑ
 慕名而来	mmal
 慕名而来	mmel
 慕名前来	mmql
 又寸	iucuñ
-蓝白碗	lbu
-萝莉控	llk
+イ 尔女子	nihao
+力	li
 裂开了	lkl
 怪怪的	ggd
 康康	kk
-豪	h
-豪	hao
+豪	hao/
 豪德	hd
 豪听	ht
-好欸	hei\
+好欸	hei
 好耶	hie
 好康	hk
 好康的	hkd
@@ -504,6 +586,7 @@ Trance	tr
 好家伙	hjh
 就离谱	jlp
 剧然	jr	2
+撅	jye
 强强	qq
 这么强	ẑmq
 彳亍	ĉĉ
