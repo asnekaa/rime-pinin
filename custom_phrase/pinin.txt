@@ -298,6 +298,7 @@
 个	ge
 果然	gr
 改	gai
+改回来	gaihl/
 改成	gĉ
 给	gei
 搞	gao

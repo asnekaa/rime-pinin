@@ -195,8 +195,11 @@ preset_color_schemes:
     hilited_back_color: *pl_hback # 选中候选项的背景
     text_back_color: *pl_back # 编码区背景
     back_color: *pl_back # 其余背景
+    candidate_text_color: *pl_text # 候选文本
     hilited_candidate_text_color: *pl_mark # 高亮候选文本
+    key_text_color: *pl_text # 按键文本（click）
     hilited_key_text_color: *pl_text # 高亮按键文本
+    key_symbol_color: *pl_text # 按键符号（long_click 和 hint）
     bk: *pl_back
     tk: *pl_text
     btab: *pl_back
@@ -1900,8 +1903,8 @@ preset_keyboards:
           click: space,
           swipe_up: Up,
           swipe_down: Down,
-          key_back_color: bkg,
-          key_text_color: tkg,
+          key_back_color: bspace,
+          key_text_color: tspace,
           width: *spacew,
         }
       - {
