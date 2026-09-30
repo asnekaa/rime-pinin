@@ -434,6 +434,7 @@
 需	xy
 需要	xyio
 选项	xywxiv
+选中	xywẑuŋ
 
 自定义	zdi
 自己	zj
