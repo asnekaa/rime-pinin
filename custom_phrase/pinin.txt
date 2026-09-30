@@ -400,6 +400,7 @@
 前面	qm
 去	qy
 却	qye
+区别	qybie
 全部	qb
 全面	qywmiw
 全角	qywjio
@@ -454,6 +455,7 @@
 操作	caozo
 才	cai
 才是	caiŝ
+参数	cwŝu
 促音	cuiñ
 
 所	so
