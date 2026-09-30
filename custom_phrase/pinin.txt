@@ -72,6 +72,7 @@
 
 安卓	wẑo
 按	w
+按键	wjiw
 按照	wẑ
 按照	wẑao
 按住	wẑu
@@ -107,6 +108,7 @@
 要不要	ibi
 要不然	ibr
 要么	iom
+要求	ioqiu
 有	iu
 有点	iud
 有一些	iix
@@ -117,6 +119,8 @@
 有些	iux
 有种	iuẑ
 优化	iuhua
+右边	iub
+颜色	iwse
 因为	iñue
 应该	iñg
 音	iñ
@@ -137,6 +141,7 @@
 子文件夹	zujj
 主文件夹	ẑujj
 
+文本	uñbñ
 问题	ut
 
 于	y/
@@ -174,6 +179,7 @@
 不要	bio
 不应该	big
 不用	by
+不变	bb
 不对	bd
 不同	bt
 不能	bn
@@ -441,6 +447,7 @@
 自定义	zdi
 自己	zj
 字	z\
+左边	zob
 在	z
 在此之前	zcẑq
 再	z_
@@ -513,6 +520,7 @@
 时候	ŝh
 实在	ŝz
 使用	ŝy
+试	ŝ\
 试一试	ŝiŝ
 视频	ŝp
 事情	ŝq
