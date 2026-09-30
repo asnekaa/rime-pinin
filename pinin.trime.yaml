@@ -195,7 +195,7 @@ preset_color_schemes:
     hilited_back_color: *pl_hback # 选中候选项的背景
     text_back_color: *pl_back # 编码区背景
     back_color: *pl_back # 其余背景
-    candidate_text_color: *pd_mark
+    hilited_candidate_text_color: *pd_mark
 
   fhx:
     name: "标准配色！" #方案名称
