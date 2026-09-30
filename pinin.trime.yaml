@@ -193,8 +193,8 @@ preset_color_schemes:
     hilited_text_color: *pl_htext # 高亮编码（一般是位于光标插入点左边的编码）
     text_color: *pl_text # 编码（位于光标插入点右边的编码，或者是拼音类方案中无法正常解析的空码，比如全拼时输入 hau，u 就属于这种）
     hilited_back_color: *pl_back # 高亮编码背景 ※ 非高亮的编码背景与back_color相同
-    text_back_color: *pl_hback # 编码区背景
-    back_color: *pd_mark # 候选区背景
+    text_back_color: *pd_mark # 编码区背景
+    back_color: *pl_back # 候选区背景
 
   fhx:
     name: "标准配色！" #方案名称
