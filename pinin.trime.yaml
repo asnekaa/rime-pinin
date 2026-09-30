@@ -190,9 +190,9 @@ preset_color_schemes:
     name: Pinin_light
     author: ASneka
     # dark_scheme: pinin_dark
-    hilited_text_color: *pd_htext # 位于光标插入点左边的编码和选中候选项的编码
+    hilited_text_color: *pl_mark # 位于光标插入点左边的编码和选中候选项的编码
     text_color: *pl_text # 其余编码
-    hilited_back_color: *pl_hback # 选中候选项的背景
+    hilited_back_color: *pl_mark # 选中候选项的背景
     text_back_color: *pl_back # 编码区背景
     back_color: *pl_back # 其余背景
     # candidate_separator_color: *pl_border
