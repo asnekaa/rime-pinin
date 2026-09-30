@@ -189,7 +189,7 @@ preset_color_schemes:
   default:
     name: Pinin_light
     author: ASneka
-    dark_scheme: pinin_dark
+    # dark_scheme: pinin_dark
     back_color: *color2 #候选区背景状态栏
     candidate_separator_color: *color2 #候选分割背景
     candidate_text_color: *color1 #候选文本
