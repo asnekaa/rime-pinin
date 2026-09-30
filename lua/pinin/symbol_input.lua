@@ -162,7 +162,7 @@ function M.func(key, env)
         return 1
     end
 
-    local sym = TONE_MAP[repr]
+    local sym = TONE_MAP[repr] or (SYM_SET[repr] and repr)
 
     if not sym then
         return 2
