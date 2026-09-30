@@ -193,6 +193,7 @@ preset_color_schemes:
     hilited_text_color: *pl_htext
     text_color: *pl_text
     hilited_back_color: *pl_mark
+    text_back_color: *pl_mark
     back_color: *pl_hback
 
   yushe:
