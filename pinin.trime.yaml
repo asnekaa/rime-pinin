@@ -190,8 +190,8 @@ preset_color_schemes:
     name: Pinin_light
     author: ASneka
     # dark_scheme: pinin_dark
-    hilited_text_color: *pl_mark # 高亮编码（一般是位于光标插入点左边的编码）
-    text_color: *pl_text # 编码（位于光标插入点右边的编码，或者是拼音类方案中无法正常解析的空码，比如全拼时输入 hau，u 就属于这种）
+    hilited_text_color: *pl_htext # 高亮编码（一般是位于光标插入点左边的编码和选中的候选项）
+    text_color: *pl_mark # 编码（位于光标插入点右边的编码，或者是拼音类方案中无法正常解析的空码，比如全拼时输入 hau，u 就属于这种）
     hilited_back_color: *pl_back # 高亮编码背景 ※ 非高亮的编码背景与back_color相同
     text_back_color: *pl_hback # 编码区背景
     back_color: *pl_back # 候选区背景
@@ -1289,7 +1289,7 @@ preset_keys:
     {
       label: "ic@keyboard_space",
       preview: "",
-      repeatable: false,
+      repeatable: true,
       slide_cursor: true,
       functional: false,
       send: space,
@@ -1299,6 +1299,7 @@ preset_keys:
   Escape: { label: Esc, send: ic@keyboard_esc }
   space1: { label: 空格, repeatable: false, functional: false, send: space }
   Tab: { label: ic@keyboard_tab, send: Tab }
+  Tab_Reverse: { label: ic@keyboard_tab_reverse, send: Shift+Tab }
   Left: { label: "←", send: Left }
   Down: { label: "↓", send: Down }
   Up: { label: "↑", send: Up }
@@ -1473,7 +1474,7 @@ preset_keys:
 keyboard_width:
   k1w: &k1w 10
   k2w: &k2w 10
-  k3w: &k3w 11.12
+  k3w: &k3w 10
   k4w: &k4w 10
   k5w: &k5w 10
   shiftw: &shiftw 15
@@ -1679,6 +1680,14 @@ preset_keyboards:
         }
       # 第三行
       - {
+          click: Tab,
+          swipe_up: "Tab_Reverse",
+          swipe_down: "Tab_Reverse",
+          key_back_color: btab,
+          key_text_color: ttab,
+          width: *k3w,
+        }
+      - {
           click: a,
           long_click: "`",
           swipe_up: "`",
@@ -1872,7 +1881,6 @@ preset_keyboards:
         }
       - {
           click: space,
-          long_click: Tab,
           swipe_up: Up,
           swipe_down: Down,
           key_back_color: bkg,
