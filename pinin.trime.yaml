@@ -186,165 +186,70 @@ pinin_dark:
 
 #配色方案
 preset_color_schemes:
-  # ============================================================
-  #  浅色 · Pinin_light
-  # ============================================================
   default:
     name: Pinin_light
     author: ASneka
-    dark_scheme: pinin_dark
+    # dark_scheme: pinin_dark
 
-    # ── 编码区 ────────────────────────────────
-    text_color: "#33383F"                    # 已上屏编码
-    hilited_text_color: "#1B64D9"            # 待选编码
+    # 编码区
+    text_color: *pl_hlabel
+    hilited_text_color: *pl_label
 
-    # ── 候选项 ────────────────────────────────
-    back_color: "#F5F6F8"                    # 候选栏底色
-    candidate_text_color: "#33383F"          # 候选项文字
-    hilited_candidate_back_color: "#E3ECFB"  # 选中项底色
-    hilited_candidate_text_color: "#1B64D9"  # 选中项文字
+    # 候选项
+    back_color: *pl_back
+    candidate_text_color: *pl_text
+    hilited_candidate_back_color: *pl_hback
+    hilited_candidate_text_color: *pl_mark
 
-    # ── 键盘 ──────────────────────────────────
-    key_back_color: "#FFFFFF"
-    key_text_color: "#33383F"
-    hilited_key_back_color: "#E3ECFB"
-    hilited_key_text_color: "#1B64D9"
-    key_border_color: "#00000000"            # 普通按键：无边框
+    # 键盘
+    key_back_color: *pl_back
+    key_text_color: *pl_text
+    hilited_key_back_color: *pl_hback
+    hilited_key_text_color: *pl_text
 
-    # ── 普通按键 ──────────────────────────────
-    b_button: "#FFFFFF"
-    f_button: "#33383F"
-    hb_button: "#E3ECFB"
-    hf_button: "#1B64D9"
+    b_button: *pl_back
+    f_button: *pl_text
+    hb_button: *pl_hback
+    hf_button: *pl_text
 
-    # ── Tab ───────────────────────────────────
-    b_tab: "#FFFFFF"
-    f_tab: "#33383F"
-    hb_tab: "#E3ECFB"
-    ht_tab: "#1B64D9"
-    bd_tab: "#DCE1E8"
+    b_tab: *pl_back
+    f_tab: *pl_text
+    hb_tab: *pl_hback
+    ht_tab: *pl_text
 
-    # ── Shift ─────────────────────────────────
-    bshift: "#FFFFFF"
-    tshift: "#33383F"
-    hb_shift: "#E3ECFB"
-    ht_shift: "#1B64D9"
-    bd_shift: "#DCE1E8"
+    bshift: *pl_back
+    tshift: *pl_text
+    hb_shift: *pl_hback
+    ht_shift: *pl_text
 
-    # ── 退格 ──────────────────────────────────
-    b_backspace: "#FFFFFF"
-    f_backspace: "#33383F"
-    hb_backspace: "#E3ECFB"
-    ht_backspace: "#1B64D9"
-    bd_backspace: "#DCE1E8"
+    b_backspace: *pl_back
+    f_backspace: *pl_text
+    hb_backspace: *pl_hback
+    ht_backspace: *pl_text
 
-    # ── 中英切换 ──────────────────────────────
-    bgn: "#FFFFFF"
-    tgn: "#33383F"
-    hb_gn: "#E3ECFB"
-    ht_gn: "#1B64D9"
-    bd_gn: "#DCE1E8"
+    bgn: *pl_back
+    tgn: *pl_text
+    hb_gn: *pl_hback
+    ht_gn: *pl_text
 
-    # ── 回车 ──────────────────────────────────
-    benter: "#FFFFFF"
-    tenter: "#33383F"
-    hb_enter: "#E3ECFB"
-    ht_enter: "#1B64D9"
-    bd_enter: "#DCE1E8"
+    benter: *pl_back
+    tenter: *pl_text
+    hb_enter: *pl_hback
+    ht_enter: *pl_text
 
-    # ── 空格 ──────────────────────────────────
-    bspace: "#FFFFFF"
-    tspace: "#33383F"
-    hb_space: "#E3ECFB"
-    ht_space: "#1B64D9"
-    bd_space: "#DCE1E8"
+    bspace: *pl_back
+    tspace: *pl_text
+    hb_space: *pl_hback
+    ht_space: *pl_text
 
-    # ── 主功能键 ──────────────────────────────
-    b_primary_button: "#FFFFFF"
-    f_primary_button: "#33383F"
-    hb_primary_button: "#E3ECFB"
-    hf_primary_button: "#1B64D9"
-    bd_primary_button: "#DCE1E8"
+    b_primary_button: *pl_back
+    f_primary_button: *pl_text
+    hb_primary_button: *pl_back
+    hf_primary_button: *pl_text
 
-
-  # ============================================================
-  #  暗色 · pinin_dark
-  # ============================================================
-  pinin_dark:
-    name: pinin_dark
-    author: ASneka
-
-    # ── 编码区 ────────────────────────────────
-    text_color: "#E8EAEE"
-    hilited_text_color: "#7FB2FF"
-
-    # ── 候选项 ────────────────────────────────
-    back_color: "#1C1F24"
-    candidate_text_color: "#D6DAE0"
-    hilited_candidate_back_color: "#33455E"
-    hilited_candidate_text_color: "#7FB2FF"
-
-    # ── 键盘 ──────────────────────────────────
-    key_back_color: "#2A2F36"
-    key_text_color: "#D6DAE0"
-    hilited_key_back_color: "#33455E"
-    hilited_key_text_color: "#7FB2FF"
-    key_border_color: "#00000000"            # 普通按键：无边框
-
-    # ── 普通按键 ──────────────────────────────
-    b_button: "#2A2F36"
-    f_button: "#D6DAE0"
-    hb_button: "#33455E"
-    hf_button: "#7FB2FF"
-
-    # ── Tab ───────────────────────────────────
-    b_tab: "#2A2F36"
-    f_tab: "#D6DAE0"
-    hb_tab: "#33455E"
-    ht_tab: "#7FB2FF"
-    bd_tab: "#454C57"
-
-    # ── Shift ─────────────────────────────────
-    bshift: "#2A2F36"
-    tshift: "#D6DAE0"
-    hb_shift: "#33455E"
-    ht_shift: "#7FB2FF"
-    bd_shift: "#454C57"
-
-    # ── 退格 ──────────────────────────────────
-    b_backspace: "#2A2F36"
-    f_backspace: "#D6DAE0"
-    hb_backspace: "#33455E"
-    ht_backspace: "#7FB2FF"
-    bd_backspace: "#454C57"
-
-    # ── 中英切换 ──────────────────────────────
-    bgn: "#2A2F36"
-    tgn: "#D6DAE0"
-    hb_gn: "#33455E"
-    ht_gn: "#7FB2FF"
-    bd_gn: "#454C57"
-
-    # ── 回车 ──────────────────────────────────
-    benter: "#2A2F36"
-    tenter: "#D6DAE0"
-    hb_enter: "#33455E"
-    ht_enter: "#7FB2FF"
-    bd_enter: "#454C57"
-
-    # ── 空格 ──────────────────────────────────
-    bspace: "#2A2F36"
-    tspace: "#D6DAE0"
-    hb_space: "#33455E"
-    ht_space: "#7FB2FF"
-    bd_space: "#454C57"
-
-    # ── 主功能键 ──────────────────────────────
-    b_primary_button: "#2A2F36"
-    f_primary_button: "#D6DAE0"
-    hb_primary_button: "#33455E"
-    hf_primary_button: "#7FB2FF"
-    bd_primary_button: "#454C57"
+  # Pinin_dark:
+  #   name: pinin_dark
+  #   author: ASneka
 
   tongwenfeng:
     name: "标准配色！" #方案名称
