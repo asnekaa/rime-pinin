@@ -190,8 +190,9 @@ preset_color_schemes:
     name: Pinin_light
     author: ASneka
     # dark_scheme: pinin_dark
-    hilited_text_color: *pl_mark
+    hilited_text_color: *pl_htext
     text_color: *pl_text
+    hilited_back_color: *pl_mark
     back_color: *pl_hback
 
   yushe:
