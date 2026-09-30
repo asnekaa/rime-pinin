@@ -190,30 +190,62 @@ preset_color_schemes:
     name: Pinin_light
     author: ASneka
     # dark_scheme: pinin_dark
-    hilited_text_color: *pl_text # 高亮编码（一般是位于光标插入点左边的编码）
-    text_color: *pl_mark # 编码（位于光标插入点右边的编码，或者是拼音类方案中无法正常解析的空码）
-    hilited_back_color: *pl_hback # 选中候选项的背景
-    text_back_color: *pl_back # 编码区背景
-    back_color: *pl_back # 其余背景
-    candidate_text_color: *pl_label # 候选文本
-    hilited_candidate_text_color: *pl_mark # 高亮候选文本
-    key_text_color: *pl_text # 按键文本（click）
-    hilited_key_text_color: *pl_text # 高亮按键文本
-    key_symbol_color: *pl_text # 按键符号（long_click 和 hint）
-    bk: *pl_back
-    tk: *pl_text
-    btab: *pl_back
-    ttab: *pl_text
+
+    # 编码区
+    text_color: *pl_mark
+    hilited_text_color: *pl_text
+
+    # 候选项
+    back_color: *pl_back
+    candidate_text_color: *pl_text
+    hilited_candidate_back_color: *pl_mark
+    hilited_candidate_text_color: *pl_mark
+
+    # 键盘
+    key_back_color: *pl_back
+    key_text_color: *pl_text
+    hilited_key_back_color: *pl_hback
+    hilited_key_text_color: *pl_text
+
+    b_button:: *pl_back
+    f_button: *pl_text
+    hb_button:: *pl_hback
+    hf_button: *pl_text
+
+    b_tab: *pl_back
+    f_tab: *pl_text
+    hb_tab: *pl_hback
+    ht_tab: *pl_text
+
     bshift: *pl_back
     tshift: *pl_text
-    bbs: *pl_back
-    tbs: *pl_text
+    hb_shift: *pl_hback
+    ht_shift: *pl_text
+
+    b_backspace: *pl_back
+    f_backspace: *pl_text
+    hb_backspace: *pl_hback
+    ht_backspace: *pl_text
+
     bgn: *pl_back
     tgn: *pl_text
+    hb_gn: *pl_hback
+    ht_gn: *pl_text
+
     benter: *pl_back
     tenter: *pl_text
+    hb_enter: *pl_hback
+    ht_enter: *pl_text
+
     bspace: *pl_back
     tspace: *pl_text
+    hb_space: *pl_hback
+    ht_space: *pl_text
+
+    b_primary_button: *pl_back
+    f_primary_button: *pl_text
+    hb_primary_button: *pl_back
+    hf_primary_button: *pl_text
 
   tongwenfeng:
     name: "标准配色！" #方案名称
@@ -1208,74 +1240,111 @@ liquid_keyboard:
       ]
 
 tool_bar:
-  button_spacing: 1 # 按钮间距
-  button_font: iconfont.ttf # 按钮字体
-  back_style: "ic@arrow_left" # 左侧返回按钮样式
+  button_spacing: 1 # 其他按键水平间隙
+  button_font: iconfont.ttf # 按键字体设置
+  back_style: "ic@menu_left" # 左侧返回按钮样式
 
-  # 左侧固定主按钮配置
+  # 主按键
   primary_button:
-    # size: [120, 24]      # 视图组件整体宽高 (支持: -1: 填充(matchParent), -2: 自适应(wrapContent))
-    # 背景样式设置
+    # 背景样式
     background:
-      type: circle # 高亮形状 (可选值: circle|rectangle)
-      corner_radius: 10 # 圆角半径
-      normal: 0x00 # 正常状态背景颜色
-      highlight: hilited_candidate_button_color # 高亮状态背景色
-      vertical_inset: 4 # 垂直方向内缩量
-      horizontal_inset: 4 # 水平方向内缩量
-    # 前景内容设置
+      type: circle # 按键高亮形状类型。可选值：rectangle（默认）、circle
+      corner_radius: 10 # 按键圆角
+      bg_normal: b_primary_button # 一般状态下按键背景配色
+      bg_hightlight: hb_primary_button # 按下状态下按键背景配色
+      vertical_inset: 4 # 垂直方向上按键背景内距（距离上下两侧边框距离）
+      horizontal_inset: 4 # 垂直方向上按键背景内距（距离左右两侧边框距离）
+    # 前景样式
     foreground:
-      style: "ic@dots_horizontal" # 内置质感设计图标样式（以ic@开头）
-      normal: candidate_text_color # 正常状态前景色 (本地图片不允许着色)
-      # highlight:        # 高亮状态前景色
-      padding: 10 # 前景内容与背景边界的内边距
+      style: "ic@dots_horizontal" # 按键图标样式
+      fg_normal: f_primary_button # 一般状态下按键前景配色
+      fg_highlight: hf_primary_button # 按下状态下按键前景配色
+      padding: 10 # 按键内距（距离上下左右边框距离）
     # 按钮点击事件
     action: menu_keyboard
     long_press_action: Settings
 
   hide_button: &hide_button
+    background:
+      bg_normal: b_button
+      bg_hightlight: hb_button
     foreground:
-      style: "ic@keyboard_close"
-      normal: candidate_text_color
+      style: "ic@menu_down"
+      fg_normal: f_button
+      fg_hightlight: hf_button
     action: Hide
 
   emoji_button: &emoji_button
+    background:
+      bg_normal: b_button
+      bg_hightlight: hb_button
     foreground:
       style: "ic@emoticon"
-    # 前景样式可以为空，使用默认样式，按钮将显示为 action 的 label
+      fg_normal: f_button
+      fg_hightlight: hf_button
     action: liquid_keyboard_emoji
 
   clipboard_button: &clipboard_button
+    background:
+      bg_normal: b_button
+      bg_hightlight: hb_button
     foreground:
       style: "ic@clipboard"
+      fg_normal: f_button
+      fg_hightlight: hf_button
     action: clipboard_window
 
   edit_button: &edit_button
+    background:
+      bg_normal: b_button
+      bg_hightlight: hb_button
     foreground:
       style: "ic@cursor_text"
+      fg_normal: f_button
+      fg_hightlight: hf_button
     action: Keyboard_editor
 
   ascii_mode_button: &ascii_mode_button
+    background:
+      bg_normal: b_button
+      bg_hightlight: hb_button
     foreground:
-      option_styles: ["中", "En"] # 样式也可以为表，将根据 action 的 toggle 决定
+      option_styles: ["中", "英"]
+      fg_normal: f_button
+      fg_hightlight: hf_button
       font_size: 18 # 按钮字体大小
       padding: 10
     action: Mode_switch
 
   full_shape_button: &full_shape_button
+    background:
+      bg_normal: b_button
+      bg_hightlight: hb_button
     foreground:
       option_styles: ["ic@moon_full", "ic@moon_new"]
+      fg_normal: f_button
+      fg_hightlight: hf_button
     action: Zenkaku_Hankaku
 
   redo_button: &redo_button
+    background:
+      bg_normal: b_button
+      bg_hightlight: hb_button
     foreground:
       style: "ic@redo"
+      fg_normal: f_button
+      fg_hightlight: hf_button
       font_size: 14
     action: redo
 
   undo_button: &undo_button
+    background:
+      bg_normal: b_button
+      bg_hightlight: hb_button
     foreground:
       style: "ic@undo"
+      fg_normal: f_button
+      fg_hightlight: hf_button
       font_size: 14
     action: undo
 
@@ -1522,8 +1591,6 @@ preset_keyboards:
           long_click: Commit_1,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k1w,
         }
       - {
@@ -1531,8 +1598,6 @@ preset_keyboards:
           long_click: Commit_2,
           swipe_up: Commit_2,
           swipe_down: Commit_2,
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k1w,
         }
       - {
@@ -1540,8 +1605,6 @@ preset_keyboards:
           long_click: Commit_3,
           swipe_up: Commit_3,
           swipe_down: Commit_3,
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k1w,
         }
       - {
@@ -1549,8 +1612,6 @@ preset_keyboards:
           long_click: Commit_4,
           swipe_up: Commit_4,
           swipe_down: Commit_4,
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k1w,
         }
       - {
@@ -1558,8 +1619,6 @@ preset_keyboards:
           long_click: Commit_5,
           swipe_up: Commit_5,
           swipe_down: Commit_5,
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k1w,
         }
       - {
@@ -1567,8 +1626,6 @@ preset_keyboards:
           long_click: Commit_6,
           swipe_up: Commit_6,
           swipe_down: Commit_6,
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k1w,
         }
       - {
@@ -1576,8 +1633,6 @@ preset_keyboards:
           long_click: Commit_7,
           swipe_up: Commit_7,
           swipe_down: Commit_7,
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k1w,
         }
       - {
@@ -1585,8 +1640,6 @@ preset_keyboards:
           long_click: Commit_8,
           swipe_up: Commit_8,
           swipe_down: Commit_8,
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k1w,
         }
       - {
@@ -1594,8 +1647,6 @@ preset_keyboards:
           long_click: Commit_9,
           swipe_up: Commit_9,
           swipe_down: Commit_9,
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k1w,
         }
       - {
@@ -1603,8 +1654,6 @@ preset_keyboards:
           long_click: Commit_0,
           swipe_up: Commit_0,
           swipe_down: Commit_0,
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k1w,
         }
       # 第二行
@@ -1613,8 +1662,6 @@ preset_keyboards:
           long_click: "!",
           swipe_up: "!",
           swipe_down: "!",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k2w,
         }
       - {
@@ -1622,8 +1669,6 @@ preset_keyboards:
           long_click: "@",
           swipe_up: "@",
           swipe_down: "@",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k2w,
         }
       - {
@@ -1631,8 +1676,6 @@ preset_keyboards:
           long_click: "#",
           swipe_up: "#",
           swipe_down: "#",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k2w,
         }
       - {
@@ -1640,8 +1683,6 @@ preset_keyboards:
           long_click: "$",
           swipe_up: "$",
           swipe_down: "$",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k2w,
         }
       - {
@@ -1649,8 +1690,6 @@ preset_keyboards:
           long_click: "%",
           swipe_up: "%",
           swipe_down: "%",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k2w,
         }
       - {
@@ -1658,8 +1697,6 @@ preset_keyboards:
           long_click: "^",
           swipe_up: "^",
           swipe_down: "^",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k2w,
         }
       - {
@@ -1667,8 +1704,6 @@ preset_keyboards:
           long_click: "&",
           swipe_up: "&",
           swipe_down: "&",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k2w,
         }
       - {
@@ -1676,8 +1711,6 @@ preset_keyboards:
           long_click: "*",
           swipe_up: "*",
           swipe_down: "*",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k2w,
         }
       - {
@@ -1685,8 +1718,6 @@ preset_keyboards:
           long_click: "(",
           swipe_up: "(",
           swipe_down: "(",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k2w,
         }
       - {
@@ -1694,8 +1725,6 @@ preset_keyboards:
           long_click: ")",
           swipe_up: ")",
           swipe_down: ")",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k2w,
         }
       # 第三行
@@ -1704,8 +1733,6 @@ preset_keyboards:
           long_click: "`",
           swipe_up: "`",
           swipe_down: "`",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k3w,
         }
       - {
@@ -1713,8 +1740,6 @@ preset_keyboards:
           long_click: "~",
           swipe_up: "~",
           swipe_down: "~",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k3w,
         }
       - {
@@ -1722,8 +1747,6 @@ preset_keyboards:
           long_click: "=",
           swipe_up: "=",
           swipe_down: "=",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k3w,
         }
       - {
@@ -1731,8 +1754,6 @@ preset_keyboards:
           long_click: "+",
           swipe_up: "+",
           swipe_down: "+",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k3w,
         }
       - {
@@ -1740,8 +1761,6 @@ preset_keyboards:
           long_click: "[",
           swipe_up: "[",
           swipe_down: "[",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k3w,
         }
       - {
@@ -1749,8 +1768,6 @@ preset_keyboards:
           long_click: "]",
           swipe_up: "]",
           swipe_down: "]",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k3w,
         }
       - {
@@ -1758,8 +1775,6 @@ preset_keyboards:
           long_click: "{",
           swipe_up: "{",
           swipe_down: "{",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k3w,
         }
       - {
@@ -1767,8 +1782,6 @@ preset_keyboards:
           long_click: "}",
           swipe_up: "}",
           swipe_down: "}",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k3w,
         }
       - {
@@ -1776,16 +1789,16 @@ preset_keyboards:
           long_click: ";",
           swipe_up: ";",
           swipe_down: ";",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k3w,
         }
       - {
           click: Tab,
-          swipe_up: "Tab_Reverse",
-          swipe_down: "Tab_Reverse",
-          key_back_color: btab,
-          key_text_color: ttab,
+          swipe_up: Tab_Reverse,
+          swipe_down: Tab_Reverse,
+          key_back_color: b_tab,
+          key_text_color: f_tab,
+          hilited_key_back_color: hb_tab,
+          hilited_key_text_color: ht_tan,
           width: *k3w,
         }
       # 第四行
@@ -1796,9 +1809,10 @@ preset_keyboards:
           swipe_up: "'",
           swipe_down: "'",
           label_symbol: "'",
-          # hilited_key_back_color: hbshift,
-          key_back_color: bshift,
-          key_text_color: tshift,
+          key_back_color: b_shift,
+          key_text_color: f_shift,
+          hilited_key_back_color: hb_shift,
+          hilited_key_text_color: ht_shift,
           width: *shiftw,
         }
       - {
@@ -1806,8 +1820,6 @@ preset_keyboards:
           long_click: "select_all",
           swipe_up: "select_all",
           swipe_down: "select_all",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k4w,
         }
       - {
@@ -1815,8 +1827,6 @@ preset_keyboards:
           long_click: cut,
           swipe_up: "cut",
           swipe_down: "cut",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k4w,
         }
       - {
@@ -1824,8 +1834,6 @@ preset_keyboards:
           long_click: copy,
           swipe_up: "copy",
           swipe_down: "copy",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k4w,
         }
       - {
@@ -1833,8 +1841,6 @@ preset_keyboards:
           long_click: paste,
           swipe_up: "paste",
           swipe_down: paste,
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k4w,
         }
       - {
@@ -1842,8 +1848,6 @@ preset_keyboards:
           long_click: ":",
           swipe_up: ":",
           swipe_down: ":",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k4w,
         }
       - {
@@ -1851,8 +1855,6 @@ preset_keyboards:
           long_click: '"',
           swipe_up: '"',
           swipe_down: '"',
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k4w,
         }
       - {
@@ -1860,8 +1862,6 @@ preset_keyboards:
           long_click: "?",
           swipe_up: "?",
           swipe_down: "?",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k4w,
         }
       - {
@@ -1869,15 +1869,19 @@ preset_keyboards:
           swipe_left: BackSpace_word,
           swipe_up: Delete,
           swipe_down: Delete,
-          key_back_color: bbs,
-          key_text_color: tbs,
+          key_back_color: b_backspace,
+          key_text_color: f_backspace,
+          hilited_key_back_color: hb_backspace,
+          hilited_key_text_color: ht_backspace,
           width: *bsw,
         }
       # 第五行
       - {
           click: Keyboard_number,
-          key_back_color: bgn,
-          key_text_color: tgn,
+          key_back_color: b_keyboard_switch,
+          key_text_color: f_keyboard_switch,
+          hilited_key_back_color: hb_keyboard_switch,
+          hilited_key_text_color: ht_keyboard_switch,
           width: *kbsw,
         }
       - {
@@ -1886,8 +1890,10 @@ preset_keyboards:
           swipe_up: Menu,
           swipe_down: Menu,
           label_symbol: " ",
-          key_back_color: bgn,
-          key_text_color: tgn,
+          key_back_color: b_keyboard_switch,
+          key_text_color: f_keyboard_switch,
+          hilited_key_back_color: hb_keyboard_switch,
+          hilited_key_text_color: ht_keyboard_switch,
           width: *kbsw,
         }
       - {
@@ -1895,16 +1901,16 @@ preset_keyboards:
           long_click: "<",
           swipe_up: "<",
           swipe_down: "<",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k5w,
         }
       - {
           click: space,
           swipe_up: Up,
           swipe_down: Down,
-          key_back_color: bspace,
-          key_text_color: tspace,
+          key_back_color: b_space,
+          key_text_color: f_space,
+          hilited_key_back_color: hb_space,
+          hilited_key_text_color: ht_space,
           width: *spacew,
         }
       - {
@@ -1912,16 +1918,16 @@ preset_keyboards:
           long_click: ">",
           swipe_up: ">",
           swipe_down: ">",
-          key_back_color: bk,
-          key_text_color: tk,
           width: *k5w,
         }
       - {
           click: Return,
           composing: Return1,
           swipe_up: Escape,
-          key_back_color: benter,
-          key_text_color: tenter,
+          key_back_color: b_enter,
+          key_text_color: f_enter,
+          hilited_key_back_color: hb_enter,
+          hilited_key_text_color: ht_enter,
           width: *enterw,
         }
 
@@ -1939,8 +1945,10 @@ preset_keyboards:
           label_symbol: "±",
           swipe_down: "#",
           hint: "#",
-          key_back_color: bgn,
-          key_text_color: tgn,
+          key_back_color: b_gn,
+          key_text_color: f_gn,
+          hilited_key_back_color: hb_gn,
+          hilited_key_text_color: ht_gn,
           width: *nk1w,
         }
       - { click: 1, width: *nw }
@@ -1953,8 +1961,10 @@ preset_keyboards:
           label_symbol: "≠",
           swipe_down: "≈",
           hint: "≈",
-          key_back_color: bgn,
-          key_text_color: tgn,
+          key_back_color: b_gn,
+          key_text_color: f_gn,
+          hilited_key_back_color: hb_gn,
+          hilited_key_text_color: ht_gn,
           width: *nk2w,
         }
       # 第二行
@@ -1965,8 +1975,10 @@ preset_keyboards:
           label_symbol: "%",
           swipe_down: "_",
           hint: "_",
-          key_back_color: bgn,
-          key_text_color: tgn,
+          key_back_color: b_gn,
+          key_text_color: f_gn,
+          hilited_key_back_color: hb_gn,
+          hilited_key_text_color: ht_gn,
           width: *nk1w,
         }
       - { click: 4, width: *nw }
@@ -1976,8 +1988,10 @@ preset_keyboards:
           click: space,
           swipe_up: Up,
           swipe_down: Down,
-          key_back_color: bgn,
-          key_text_color: tgn,
+          key_back_color: b_space,
+          key_text_color: f_space,
+          hilited_key_back_color: hb_space,
+          hilited_key_text_color: ht_space,
           width: *nk2w,
         }
       # 第三行
@@ -1988,8 +2002,10 @@ preset_keyboards:
           label_symbol: "^",
           swipe_down: "&",
           hint: "&",
-          key_back_color: bgn,
-          key_text_color: tgn,
+          key_back_color: b_gn,
+          key_text_color: f_gn,
+          hilited_key_back_color: hb_gn,
+          hilited_key_text_color: ht_gn,
           width: *nk1w,
         }
       - {
@@ -2018,15 +2034,19 @@ preset_keyboards:
           swipe_left: BackSpace_word,
           swipe_up: Delete,
           swipe_down: Delete,
-          key_back_color: bbs,
-          key_text_color: tbs,
+          key_back_color: b_backspace,
+          key_text_color: f_backspace,
+          hilited_key_back_color: hb_backspace,
+          hilited_key_text_color: ht_backspace,
           width: *nk2w,
         }
       # 第四行
       - {
           click: Keyboard_default,
-          key_back_color: bgn,
-          key_text_color: tgn,
+          key_back_color: b_gn,
+          key_text_color: f_gn,
+          hilited_key_back_color: hb_gn,
+          hilited_key_text_color: ht_gn,
           width: *nk1w,
         }
       - {
@@ -2036,8 +2056,6 @@ preset_keyboards:
           label_symbol: "|",
           swipe_down: "\\",
           hint: "\\",
-          key_back_color: bgn,
-          key_text_color: tgn,
           width: *nw,
         }
       - {
@@ -2054,13 +2072,13 @@ preset_keyboards:
           label_symbol: "<",
           swipe_down: ">",
           hint: ">",
-          key_back_color: bgn,
-          key_text_color: tgn,
           width: *nw,
         }
       - {
           click: Return,
-          key_back_color: benter,
-          key_text_color: tenter,
+          key_back_color: b_enter,
+          key_text_color: f_enter,
+          hilited_key_back_color: hb_enter,
+          hilited_key_text_color: ht_enter,
           width: *nk2w,
         }

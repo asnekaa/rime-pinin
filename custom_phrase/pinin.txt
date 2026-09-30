@@ -121,6 +121,7 @@
 优化	iuhua
 右边	iub
 颜色	iwse
+颜色值	iwseẑ
 因为	iñue
 应该	iñg
 音	iñ
