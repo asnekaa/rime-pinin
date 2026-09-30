@@ -14,6 +14,14 @@ local TONE_MAP = {
     ['grave'] = '·',
 }
 
+local DIRECT_INPUT_MAP = {
+    ['ẑ'] = 'ẑ',
+    ['ĉ'] = 'ĉ',
+    ['ŝ'] = 'ŝ',
+    ['ñ'] = 'ñ',
+    ['ŋ'] = 'ŋ',
+}
+
 local KEYCODE_MAP = {
     [33] = '1',
     [64] = '2',
@@ -162,7 +170,7 @@ function M.func(key, env)
         return 1
     end
 
-    local sym = TONE_MAP[repr] or (SYM_SET[repr] and repr)
+    local sym = DIRECT_INPUT_MAP[repr] or TONE_MAP[repr]
 
     if not sym then
         return 2
