@@ -1543,7 +1543,7 @@ preset_keys:
       command: apply,
       option: "UPDATE_CONFIG",
     } #更新配置文件
-  ẑ: { label: ẑ, preview: ẑ, send: "1" }
+  # ẑ: { label: ẑ, preview: ẑ, send: "1" }
   ĉ: { label: ĉ, preview: ĉ, send: "2" }
   ŝ: { label: ŝ, preview: ŝ, send: "3" }
   ñ: { label: ñ, preview: ñ, send: "9" }
