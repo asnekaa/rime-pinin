@@ -194,8 +194,8 @@ preset_color_schemes:
     text_color: *pl_text
     hilited_back_color: *pl_mark
     text_back_color: *pl_mark
-    back_color: *pl_hback
-    root_background: *pl_back
+    back_color: *pl_mark
+    # root_background: *pl_back
 
   fhx:
     name: "标准配色！"  #方案名称
