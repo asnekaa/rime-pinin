@@ -192,10 +192,10 @@ preset_color_schemes:
     # dark_scheme: pinin_dark
     hilited_text_color: *pl_mark # 位于光标插入点左边的编码和选中候选项的编码
     text_color: *pl_text # 其余编码
-    hilited_back_color: *pl_mark # 选中候选项的背景 ※ 未选中候选项的背景与back_color相同
-    text_back_color: *pl_hback # 编码区背景
+    hilited_back_color: *pl_hback # 选中候选项的背景
+    text_back_color: *pl_back # 编码区背景
     back_color: *pl_back # 其余背景
-    # hilited_candidate_back_color: *pl_back # 高亮候选背景（候选项被选中时）
+    candidate_separator_color: *pl_border
 
   fhx:
     name: "标准配色！" #方案名称
