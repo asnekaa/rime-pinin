@@ -189,44 +189,7 @@ preset_color_schemes:
   default:
     name: Pinin_light
     author: ASneka
-    dark_scheme: pinin_dark
-    back_color: *color2 #候选区背景状态栏
-    candidate_separator_color: *color2 #候选分割背景
-    candidate_text_color: *color1 #候选文本
-    comment_text_color: *color3 #提示
-    hilited_back_color: *color2 #高亮编码背景
-    hilited_candidate_back_color: *color6 #高亮候选背景
-    hilited_candidate_text_color: *color2 #高亮候选文本
-    hilited_comment_text_color: *color1 #高亮提示
-    hilited_key_back_color: *color6 #高亮按键背景
-    hilited_key_symbol_color: *color2 #高亮按键符号
-    hilited_key_text_color: *color1 #高亮按键文本
-    hilited_off_key_back_color: *color2 #高亮按键关闭状态背景
-    hilited_off_key_text_color: *color1 #高亮按键关闭状态文本
-    hilited_text_color: *color1 #高亮编码
-    key_back_color: *color2 #按键背景
-    key_symbol_color: *color8 #按键符号
-    key_text_color: *color1 #按键文本
-    keyboard_back_color: *color3 #键盘背景
-    label_color: *color6 #标签
-    off_key_back_color: *color4 #按键关闭状态背景
-    off_key_text_color: *color8 #按键关闭状态文本
-    preview_back_color: *color4 #按键提示背景
-    preview_text_color: *color6 #按键提示文本
-    text_color: *color6 #编码
-    text_back_color: *color2 #编码区背景
-    bkg: *color2 #空格键背景色
-    tkg: *color1 #空格键文字颜色
-    benter: *color6 #回车键背景色
-    tenter: *color2 #回车键文字颜色
-    bshift: *color6 #回车键背景色
-    tshift: *color2 #回车键文字颜色
-    bgn: *color4 #功能键背景色
-    tgn: *color2 #功能键文字颜色
-    bbs: *color4 #退格键背景色
-    tbs: *color2 #退格键文字颜色
-    bh: *color2
-    th: *color1
+    # dark_scheme: pinin_dark
 
   q:
     name: q
