@@ -89,6 +89,7 @@
 一起	iqi
 一次	ic
 依然	irw
+以外	iui
 以为	iue
 以后	ih\
 以后	ihou
@@ -140,7 +141,8 @@
 
 于	y/
 越来越	yly
-原来	yl
+原来	yl/
+原来	ylai
 韵母	yñmu
 用	yŋ
 用不了	ybl
@@ -150,7 +152,8 @@
 保持	baoĉ
 半角	bwjio
 帮	bv
-本来	bl
+本来	bl/
+本来	blai
 必要	biio
 比如	bir
 比如	biru
@@ -277,6 +280,7 @@
 弄	nuŋ
 
 裸体	loti
+来	l/
 来	lai
 离谱	lp
 里	li	1
@@ -390,7 +394,8 @@
 其他	qt
 其它	qta
 其实	qŝ
-起来	ql
+起来	qil/
+起来	qilai
 前面	qm
 去	qy
 却	qye
@@ -491,8 +496,10 @@
 插入	ĉaru
 差不多	ĉbd
 超级简拼	ĉjjp
-出来	ĉul
+出来	ĉul/
+出来	ĉulai
 除非	ĉufei
+除了	ĉul
 处于	ĉuy
 重新	ĉx
 

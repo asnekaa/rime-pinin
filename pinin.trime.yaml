@@ -190,9 +190,9 @@ preset_color_schemes:
     name: Pinin_light
     author: ASneka
     # dark_scheme: pinin_dark
-    hilited_text_color: *pl_htext # 高亮编码（一般是位于光标插入点左边的编码和选中的候选项）
-    text_color: *pl_mark # 编码（位于光标插入点右边的编码，或者是拼音类方案中无法正常解析的空码，比如全拼时输入 hau，u 就属于这种）
-    hilited_back_color: *pl_back # 高亮编码背景 ※ 非高亮的编码背景与back_color相同
+    hilited_text_color: *pl_mark # 高亮编码（一般是位于光标插入点左边的编码和选中的候选项）
+    text_color: *pl_text # 编码（除了高亮编码以外的编码）
+    hilited_back_color: *pl_htext # 高亮编码背景 ※ 非高亮的编码背景与back_color相同
     text_back_color: *pl_hback # 编码区背景
     back_color: *pl_back # 候选区背景
 
