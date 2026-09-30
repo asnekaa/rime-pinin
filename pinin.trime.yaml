@@ -195,7 +195,7 @@ preset_color_schemes:
     hilited_back_color: *pl_hback # 选中候选项的背景
     text_back_color: *pl_back # 编码区背景
     back_color: *pl_back # 其余背景
-    candidate_text_color: *pl_text # 候选文本
+    candidate_text_color: *pl_label # 候选文本
     hilited_candidate_text_color: *pl_mark # 高亮候选文本
     key_text_color: *pl_text # 按键文本（click）
     hilited_key_text_color: *pl_text # 高亮按键文本
