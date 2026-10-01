@@ -158,6 +158,7 @@
 保持	baoĉ
 半角	bwjio
 帮	bv
+本	bñ
 本来	bl/
 本来	blai
 必要	biio
@@ -209,6 +210,7 @@
 
 发现	fx
 非常	fĉ
+费用	feiyŋ
 反过来	fhl
 反正	fẑ
 方案	fvw
@@ -216,6 +218,7 @@
 方不方便	fbfb
 方法	ff
 分别	fb
+服务	fuu
 复制	fuẑ
 复杂	fuza
 风格	fg
@@ -227,6 +230,7 @@
 多少	doŝao
 代码	daim
 代码	daima
+带来	dail/
 得	dei
 到	dao
 到底	dd
@@ -236,9 +240,11 @@
 都是	d-ŝ
 但是	dŝ
 当然	dr
+第一	dii
 点	diw
 电脑	diwnao
 定义	diñi
+订购	diñgou
 读我	duo
 对	due
 短语	duwy
@@ -297,6 +303,7 @@
 两个	lg
 
 个	ge
+国庆	goqiñ
 果然	gr
 改	gai
 改回来	gaihl/
@@ -305,6 +312,7 @@
 搞	gao
 搞的	gd	1
 感觉	gj
+感谢	gwxie
 干什么	gŝm
 刚	gv
 刚才	gc
@@ -401,6 +409,7 @@
 进入	jiñru
 觉得	jd
 
+期待	qidai
 其余	qy_
 其他	qt
 其它	qta
@@ -421,6 +430,7 @@
 下	xia
 下午	xiau
 下面	xiam
+下次	xiac
 上	ŝv
 上午	ŝvu
 上面	ŝvm
@@ -477,8 +487,10 @@
 虽然	sr
 算了	sl
 
+支付	ẑfu
 之后	ẑh\
 之后	ẑhou
+支持	ẑ-ĉ/
 
 只	ẑ
 只要	ẑio
@@ -538,6 +550,7 @@
 什么东西	ŝmdx
 什么时候	ŝmŝh
 声母	ŝñmu
+生效	ŝñxio
 输出	ŝuĉu
 输入	ŝr
 输入	ŝuru
