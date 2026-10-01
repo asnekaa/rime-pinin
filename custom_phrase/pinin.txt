@@ -315,6 +315,7 @@
 关于	gy
 光标	guvbio
 功能	gn
+公司	guŋs
 
 可	ke
 可爱	kai
