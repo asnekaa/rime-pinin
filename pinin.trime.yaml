@@ -12,21 +12,9 @@ author: ASneka
 size:
   1: &candidate_text_size 18 # 候选字号
   2: &key_long_text_size 14 #长标签字号
-  3: &key_text_size 22 # 键字号
 
 height:
   kbh: &kbh 250
-  1: &jpgd1 30 # 表情键盘
-  2: &jpgd2 24 # 颜文字键盘1
-  3: &jpgd3 24 # 颜文字键盘2
-  5: &jpgd5 39.5 # 符号键盘
-  6: &hgap 1 # 键盘横缝大小
-  7: &sgap 1 # 键盘竖缝大小
-
-round_corner:
-  1: &round1 8 # 按键圆角半径
-  2: &round2 0 # 候选窗口圆角
-  3: &round3 12 # 回车键圆角
 
 # 界面风格、功能开关
 style:
@@ -85,7 +73,7 @@ style:
   popup_key_height: 48 # 按键提示内键高度
   popup_text_size: 23 # 按键提示字号
   shadow_radius: 0.0 # 键盘字体阴影大小（数值不宜过大，可能会造成卡顿）
-  horizontal_gap: 10 #键水平间距
+  horizontal_gap: 5 #键水平间距
   vertical_gap: 10 #键盘行距
   # ⚠ 若关闭了proximity_correction，过大的horizontal_gap与vertical_gap会引起空按漏按
   vertical_correction: 0 # 触摸位置校正（竖直方向）。 ※ 为了提升打字手感，可将按键的实际触摸位置相对其显示位置上下偏移一点点（默认值-10，上偏为正，下偏为负，为0则不偏移）。
@@ -1891,7 +1879,7 @@ preset_keyboards:
           hilited_key_back_color: hb_keyboard_switch,
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
-          round_corner: 20,
+          round_corner: 15,
         }
       - {
           click: Mode_switch,
@@ -1904,7 +1892,7 @@ preset_keyboards:
           hilited_key_back_color: hb_keyboard_switch,
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
-          round_corner: 20,
+          round_corner: 15,
         }
       - {
           click: ",",
