@@ -174,32 +174,32 @@ pinin_light:
   pl_henter_b: &pl_henter_b 0x0842A0
 
 pinin_dark:
-  pd_t: &pd_t 0x1F1F1F
-  pd_ht: &pd_ht 0x5F6368
-  pd_s: &pd_s 0x444746
-  pd_hs: &pd_hs 0xBDBFC3
-  pd_hk: &pd_hk 0xB1B3B7
-  pd_enter: &pd_enter 0xFFFFFF
-  pd_back: &pd_back 0xF0F4F9
-  pd_hc_b: &pd_hc_b 0xD8DBE0
-  pd_hpb_b: &pd_hpb_b 0xCAE2F5
-  pd_hb_b: &pd_hb_b 0xBCBFC3
-  pd_p_b: &pd_p_b 0xFFFFFF
-  pd_hp_b: &pd_hp_b 0x0B57D0
-  pd_hk_b: &pd_hk_b 0xD7DADF
-  pd_kbs_b: &pd_kbs_b 0xE1E3E1
-  pd_hkbs_b: &pd_hkbs_b 0xC9CBC9
-  pd_space_b: &pd_space_b 0xFFFFFF
-  pd_hspace_b: &pd_hspace_b 0xDDE3EA
-  pd_enter_b: &pd_enter_b 0x0B57D0
-  pd_henter_b: &pd_henter_b 0x0842A0
+  pd_t: &pd_t 0xE3E3E3
+  pd_ht: &pd_ht 0x9AA0A6
+  pd_s: &pd_s 0xC4C7C5
+  pd_hs: &pd_hs 0x505251
+  pd_hk: &pd_hk 0x5A5B5B
+  pd_enter: &pd_enter 0x062E6F
+  pd_back: &pd_back 0x1E1F20
+  pd_hc_b: &pd_hc_b 0x37393B
+  pd_hpb_b: &pd_hpb_b 0x17425A
+  pd_hb_b: &pd_hb_b 0x4F5051
+  pd_p_b: &pd_p_b 0x37393B
+  pd_hp_b: &pd_hp_b 0xA8C7FA
+  pd_hk_b: &pd_hk_b 0x363738
+  pd_kbs_b: &pd_kbs_b 0x444746
+  pd_hkbs_b: &pd_hkbs_b 0x575959
+  pd_space_b: &pd_space_b 0x444746
+  pd_hspace_b: &pd_hspace_b 0x575959
+  pd_enter_b: &pd_enter_b 0xA8C7FA
+  pd_henter_b: &pd_henter_b 0xD3E3FD
 
 #配色方案
 preset_color_schemes:
   default:
     name: Pinin_light
     author: ASneka
-    # dark_scheme: pinin_dark
+    dark_scheme: pinin_dark
 
     # 编码区
     text_back_color: *pl_back
@@ -262,9 +262,70 @@ preset_color_schemes:
     hb_enter: *pl_henter_b
     hf_enter: *pl_enter
 
-  # Pinin_dark:
-  #   name: pinin_dark
-  #   author: ASneka
+  pinin_dark:
+    name: Pinin_dark
+    author: ASneka
+
+    # 编码区
+    text_back_color: *pd_back
+    text_color: *pd_t
+    hilited_back_color: *pd_back
+    hilited_text_color: *pd_ht
+
+    # 候选项
+    back_color: *pd_back
+    candidate_text_color: *pd_t
+    hilited_candidate_back_color: *pd_hc_b
+    hilited_candidate_text_color: *pd_t
+
+    # 工具栏
+    b_primary_button: *pd_back
+    f_primary_button: *pd_t
+    hb_primary_button: *pd_hpb_b
+    hf_primary_button: *pd_t
+
+    b_button: *pd_back
+    f_button: *pd_t
+    hb_button: *pd_hb_b
+    hf_button: *pd_t
+
+    # 键盘
+    key_symbol_color: *pd_s
+    hilited_key_symbol_color: *pd_hs
+
+    popup_back_color: *pd_p_b
+    popup_text_color: *pd_t
+    hilited_popup_text_color: *pd_hp_b
+
+    key_back_color: *pd_back
+    key_text_color: *pd_t
+    hilited_key_back_color: *pd_back
+    hilited_key_text_color: *pd_hk
+
+    b_shift: *pd_back
+    t_shift: *pd_t
+    hb_shift: *pd_hk_b
+    hf_shift: *pd_t
+
+    b_backspace: *pd_back
+    f_backspace: *pd_t
+    hb_backspace: *pd_hk_b
+    hf_backspace: *pd_t
+
+    b_keyboard_switch: *pd_kbs_b
+    f_keyboard_switch: *pd_t
+    hb_keyboard_switch: *pd_hkbs_b
+    hf_keyboard_switch: *pd_t
+
+    b_space: *pd_space_b
+    f_space: *pd_t
+    hb_space: *pd_hspace_b
+    hf_space: *pd_t
+
+    b_enter: *pd_enter_b
+    f_enter: *pd_enter
+    hb_enter: *pd_henter_b
+    hf_enter: *pd_enter
 
   tongwenfeng:
     name: "标准配色！" #方案名称
