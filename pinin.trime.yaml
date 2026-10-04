@@ -84,8 +84,8 @@ style:
   keyboard_padding_land_bottom: 0 # 横屏模式下，屏幕下边缘与键盘的距离
   keyboard_height: *kbh # 键盘锁定的高度。当每行按键高度、行之间间距之和与此参数存在差异时，键盘自动缩放为锁定的高度。使用此参数可以快速调整键盘高度而无需复杂。当缺少此参数时，键盘高度不做缩放计算。
   keyboard_height_land: 200 # 横屏下键盘锁定的高度，同上
-  key_symbol_offset_x: 10 # 长按符号 x 方向偏移量
-  key_symbol_offset_y: 0 # 长按符号 y 方向偏移量
+  key_symbol_offset_x: 5 # 长按符号 x 方向偏移量
+  key_symbol_offset_y: -1 # 长按符号 y 方向偏移量
 
 preedit: # 预编辑文本视图参数
   horizontal_padding: 8 # 横向内边距（整数）
