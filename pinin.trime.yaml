@@ -238,8 +238,8 @@ preset_color_schemes:
     hilited_key_back_color: *pl_back
     hilited_key_text_color: *pl_hk
 
-    bshift: *pl_back
-    tshift: *pl_t
+    b_shift: *pl_back
+    t_shift: *pl_t
     hb_shift: *pl_hk_b
     hf_shift: *pl_t
 
@@ -253,13 +253,13 @@ preset_color_schemes:
     hb_keyboard_switch: *pl_hkbs_b
     hf_keyboard_switch: *pl_t
 
-    bspace: *pl_space_b
-    fspace: *pl_t
+    b_space: *pl_space_b
+    f_space: *pl_t
     hb_space: *pl_hspace_b
     hf_space: *pl_t
 
-    benter: *pl_enter_b
-    fenter: *pl_enter
+    b_enter: *pl_enter_b
+    f_enter: *pl_enter
     hb_enter: *pl_henter_b
     hf_enter: *pl_enter
 
