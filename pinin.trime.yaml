@@ -1922,7 +1922,7 @@ preset_keyboards:
           hilited_key_back_color: hb_space,
           hilited_key_text_color: hf_space,
           width: *spacew,
-          round_corner: 35,
+          round_corner: 20,
           key_text_size: 17,
         }
       - {
@@ -1940,7 +1940,7 @@ preset_keyboards:
           hilited_key_back_color: hb_enter,
           hilited_key_text_color: hf_enter,
           width: *enterw,
-          round_corner: 35,
+          round_corner: 20,
           key_text_size: 17,
         }
 
@@ -1994,6 +1994,8 @@ preset_keyboards:
           hilited_key_back_color: hb_space,
           hilited_key_text_color: hf_space,
           width: *nk2w,
+          round_corner: 40,
+          key_text_size: 18,
         }
       # 第三行
       - {
@@ -2046,7 +2048,7 @@ preset_keyboards:
           hilited_key_back_color: hb_keyboard_switch,
           hilited_key_text_color: hf_keyboard_switch,
           width: *nk1w,
-          round_corner: 35,
+          round_corner: 40,
         }
       - {
           click: "/",
@@ -2080,6 +2082,6 @@ preset_keyboards:
           hilited_key_back_color: hb_enter,
           hilited_key_text_color: hf_enter,
           width: *nk2w,
-          round_corner: 35,
+          round_corner: 40,
           key_text_size: 18,
         }
