@@ -85,7 +85,7 @@ style:
   popup_key_height: 48 # 按键提示内键高度
   popup_text_size: 23 # 按键提示字号
   shadow_radius: 0.0 # 键盘字体阴影大小（数值不宜过大，可能会造成卡顿）
-  horizontal_gap: *hgap #键水平间距
+  horizontal_gap: 10 #键水平间距
   vertical_gap: 10 #键盘行距
   # ⚠ 若关闭了proximity_correction，过大的horizontal_gap与vertical_gap会引起空按漏按
   vertical_correction: 0 # 触摸位置校正（竖直方向）。 ※ 为了提升打字手感，可将按键的实际触摸位置相对其显示位置上下偏移一点点（默认值-10，上偏为正，下偏为负，为0则不偏移）。
