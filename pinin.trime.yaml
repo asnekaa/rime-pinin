@@ -2079,5 +2079,6 @@ preset_keyboards:
           hilited_key_back_color: hb_enter,
           hilited_key_text_color: hf_enter,
           width: *nk2w,
+          round_corner: 30,
           key_text_size: 18,
         }
