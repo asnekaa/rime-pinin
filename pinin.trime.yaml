@@ -173,7 +173,7 @@ pinin_light:
   pl_enter_b: &pl_enter_b 0x0B57D0
   pl_henter_b: &pl_henter_b 0x0842A0
 
-pinin_light:
+pinin_dark:
   pd_t: &pd_t 0x1F1F1F
   pd_ht: &pd_ht 0x5F6368
   pd_s: &pd_s 0x444746
@@ -1922,7 +1922,7 @@ preset_keyboards:
           hilited_key_back_color: hb_space,
           hilited_key_text_color: hf_space,
           width: *spacew,
-          round_corner: 20,
+          round_corner: 25,
           key_text_size: 17,
         }
       - {
@@ -1940,7 +1940,7 @@ preset_keyboards:
           hilited_key_back_color: hb_enter,
           hilited_key_text_color: hf_enter,
           width: *enterw,
-          round_corner: 20,
+          round_corner: 25,
           key_text_size: 17,
         }
 
@@ -1958,10 +1958,6 @@ preset_keyboards:
           label_symbol: "±",
           swipe_down: "#",
           hint: "#",
-          key_back_color: b_gn,
-          key_text_color: f_gn,
-          hilited_key_back_color: hb_gn,
-          hilited_key_text_color: hf_gn,
           width: *nk1w,
         }
       - { click: 1, width: *nw }
@@ -1974,10 +1970,6 @@ preset_keyboards:
           label_symbol: "≠",
           swipe_down: "≈",
           hint: "≈",
-          key_back_color: b_gn,
-          key_text_color: f_gn,
-          hilited_key_back_color: hb_gn,
-          hilited_key_text_color: hf_gn,
           width: *nk2w,
         }
       # 第二行
@@ -1988,10 +1980,6 @@ preset_keyboards:
           label_symbol: "%",
           swipe_down: "_",
           hint: "_",
-          key_back_color: b_gn,
-          key_text_color: f_gn,
-          hilited_key_back_color: hb_gn,
-          hilited_key_text_color: hf_gn,
           width: *nk1w,
         }
       - { click: 4, width: *nw }
@@ -2015,10 +2003,6 @@ preset_keyboards:
           label_symbol: "^",
           swipe_down: "&",
           hint: "&",
-          key_back_color: b_gn,
-          key_text_color: f_gn,
-          hilited_key_back_color: hb_gn,
-          hilited_key_text_color: hf_gn,
           width: *nk1w,
         }
       - {
@@ -2056,10 +2040,10 @@ preset_keyboards:
       # 第四行
       - {
           click: Keyboard_default,
-          key_back_color: b_gn,
-          key_text_color: f_gn,
-          hilited_key_back_color: hb_gn,
-          hilited_key_text_color: hf_gn,
+          key_back_color: b_keyboard_switch,
+          key_text_color: f_keyboard_switch,
+          hilited_key_back_color: hb_keyboard_switch,
+          hilited_key_text_color: hf_keyboard_switch,
           width: *nk1w,
         }
       - {
