@@ -254,12 +254,12 @@ preset_color_schemes:
     hf_keyboard_switch: *pl_t
 
     bspace: *pl_space_b
-    tspace: *pl_t
+    fspace: *pl_t
     hb_space: *pl_hspace_b
     hf_space: *pl_t
 
     benter: *pl_enter_b
-    tenter: *pl_enter
+    fenter: *pl_enter
     hb_enter: *pl_henter_b
     hf_enter: *pl_enter
 
