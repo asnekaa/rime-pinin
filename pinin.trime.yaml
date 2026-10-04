@@ -66,7 +66,7 @@ style:
   key_text_size: 23 # 按键文本大小（click）
   key_long_text_size: *key_long_text_size # 按键长文本大小（字数 ≥2）
   symbol_text_size: 10 # 符号大小（long_click 和 hint）
-  round_corner: 8 # 按键圆角半径
+  round_corner: 20 # 按键圆角半径
   popup_width: 38 # 按键提示宽度
   popup_height: 48 # 按键提示高度
   popup_bottom_margin: 68 # 按键提示底边距
@@ -173,15 +173,26 @@ pinin_light:
   pl_enter_b: &pl_enter_b 0x0B57D0
   pl_henter_b: &pl_henter_b 0x0842A0
 
-pinin_dark:
-  pd_mark: &pd_mark 0x4CC2FF
-  pd_label: &pd_label 0xBBBBBB
-  pd_text: &pd_text 0xEEEEEE
-  pd_back: &pd_back 0x2C2C2C
-  pd_border: &pd_border 0xC9C9C9
-  pd_hlabel: &pd_hlabel 0x4C4C4C
-  pd_htext: &pd_htext 0x000000
-  pd_hback: &pd_hback 0x383838
+pinin_light:
+  pd_t: &pd_t 0x1F1F1F
+  pd_ht: &pd_ht 0x5F6368
+  pd_s: &pd_s 0x444746
+  pd_hs: &pd_hs 0xBDBFC3
+  pd_hk: &pd_hk 0xB1B3B7
+  pd_enter: &pd_enter 0xFFFFFF
+  pd_back: &pd_back 0xF0F4F9
+  pd_hc_b: &pd_hc_b 0xD8DBE0
+  pd_hpb_b: &pd_hpb_b 0xCAE2F5
+  pd_hb_b: &pd_hb_b 0xBCBFC3
+  pd_p_b: &pd_p_b 0xFFFFFF
+  pd_hp_b: &pd_hp_b 0x0B57D0
+  pd_hk_b: &pd_hk_b 0xD7DADF
+  pd_kbs_b: &pd_kbs_b 0xE1E3E1
+  pd_hkbs_b: &pd_hkbs_b 0xC9CBC9
+  pd_space_b: &pd_space_b 0xFFFFFF
+  pd_hspace_b: &pd_hspace_b 0xDDE3EA
+  pd_enter_b: &pd_enter_b 0x0B57D0
+  pd_henter_b: &pd_henter_b 0x0842A0
 
 #配色方案
 preset_color_schemes:
@@ -1879,7 +1890,7 @@ preset_keyboards:
           hilited_key_back_color: hb_keyboard_switch,
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
-          round_corner: 20,
+          round_corner: 19,
         }
       - {
           click: Mode_switch,
@@ -1892,7 +1903,7 @@ preset_keyboards:
           hilited_key_back_color: hb_keyboard_switch,
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
-          round_corner: 20,
+          round_corner: 19,
         }
       - {
           click: ",",
@@ -1912,7 +1923,7 @@ preset_keyboards:
           hilited_key_text_color: hf_space,
           width: *spacew,
           round_corner: 20,
-          key_text_size: 16,
+          key_text_size: 17,
         }
       - {
           click: ".",
