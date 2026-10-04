@@ -1643,7 +1643,7 @@ preset_keys:
 keyboard_width:
   k1w: &k1w 10
   k2w: &k2w 10
-  k3w: &k3w 10.9
+  k3w: &k3w 10.95
   k4w: &k4w 10
   k5w: &k5w 10
   shiftw: &shiftw 15
