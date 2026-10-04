@@ -29,7 +29,6 @@ RULES = [
     (re.compile(r'^zh'),            r'ẑ'),
     (re.compile(r'^ch'),            r'ĉ'),
     (re.compile(r'^sh'),            r'ŝ'),
-    (re.compile(r'^([zcsrẑĉŝ])i$'), r'\1'),
     (re.compile(r'uo$'),            r'o'),
     (re.compile(r'uai$'),           r'ui'),
     (re.compile(r'uei$'),           r'ue'),

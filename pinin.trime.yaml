@@ -212,11 +212,6 @@ preset_color_schemes:
     hb_button: *pl_hback
     hf_button: *pl_text
 
-    b_tab: *pl_back
-    f_tab: *pl_text
-    hb_tab: *pl_hback
-    ht_tab: *pl_text
-
     bshift: *pl_back
     tshift: *pl_text
     hb_shift: *pl_hback
@@ -1386,7 +1381,7 @@ preset_keys:
     {
       label: "ic@keyboard_space",
       preview: "",
-      repeatable: true,
+      repeatable: false,
       slide_cursor: true,
       functional: false,
       send: space,
@@ -1567,7 +1562,7 @@ preset_keys:
 keyboard_width:
   k1w: &k1w 10
   k2w: &k2w 10
-  k3w: &k3w 10
+  k3w: &k3w 11.12
   k4w: &k4w 10
   k5w: &k5w 10
   shiftw: &shiftw 15
@@ -1795,16 +1790,6 @@ preset_keyboards:
           swipe_down: ";",
           width: *k3w,
         }
-      - {
-          click: Tab,
-          swipe_up: Tab_Reverse,
-          swipe_down: Tab_Reverse,
-          key_back_color: b_tab,
-          key_text_color: f_tab,
-          hilited_key_back_color: hb_tab,
-          hilited_key_text_color: ht_tan,
-          width: *k3w,
-        }
       # 第四行
       - {
           click: Shift_L,
@@ -1909,6 +1894,7 @@ preset_keyboards:
         }
       - {
           click: space,
+          long_click: Tab,
           swipe_up: Up,
           swipe_down: Down,
           key_back_color: b_space,

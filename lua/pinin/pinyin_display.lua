@@ -3,6 +3,8 @@ local MARK = "~"
 local function rewrite_pinyin(pinyin)
     pinyin = pinyin:gsub("ie", "iê")
     pinyin = pinyin:gsub("ye", "yê")
+    pinyin = pinyin:gsub("iw", "iŵ")
+    pinyin = pinyin:gsub("yw", "yŵ")
     return pinyin
 end
 

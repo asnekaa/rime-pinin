@@ -174,8 +174,11 @@ translator:
     - xform/^/［/
     - xform/$/］/
   preedit_format:              # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
-    - xform/ie$/iê/            # 显示为 iê
-    - xform/ye$/yê/            # 显示为 yê
+    - xform/ie/iê/
+    - xform/ye/yê/
+    - xform/iw/iŵ/
+    - xform/yw/yŵ/
+    - xform/([zcsr]|ẑ|ĉ|ŝ)i/$1î/
     - xform/(?<=[A-Z])\s(?=[A-Z])//  # 消除大写字母之间的空格
   # dictionary_exclude: [肏屄, 鸡巴]  # 如有屏蔽 NSFW 词汇需求 librime >= 1.14.0 等价于从 .dict.yaml 中删除对应词条，但不影响组句和用户词库。
 

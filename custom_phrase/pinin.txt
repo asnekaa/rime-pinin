@@ -39,13 +39,82 @@
 哼	hŋ
 着	ẑ·
 
+额外	eui
+优化	iuhua
+颜色	iwse
+颜色值	iwseẑi
+音	iñ
+音乐	iñye
+忘记	uvji
+文本	uñbñ
+于	y/
+保持	baoĉi
+半角	bwjio
+帮	bv
+补丁	budiñ
+配置	peiẑ
+模式	moŝi
+服务	fuu
+复制	fuẑi
+复杂	fuza
+灯光	dñguv
+电脑	diwnao
+定义	diñi
+订购	diñgou
+读我	duo
+短语	duwy
+特殊	teŝu
+调试	tioŝi
+弄	nuŋ
+裸体	loti
+国庆	goqiñ
+感谢	gwxie
+光标	guvbio
+公司	guŋsi
+空韵	kuŋyñ
+号	hao\
+坏	hui
+家伙	jiaho
+介音	jieiñ
+介母	jiemu
+结合	jiehe
+键盘	jiwpw
+进入	jiñru
+期待	qidai
+区别	qybie
+喜欢	xihuw
+修改	xiugai
+选项	xywxiv
+选中	xywẑuŋ
+最终	zueẑuŋ
+词首	ciŝou
+操作	caozo
+参数	cwŝu
+促音	cuiñ
+色	se
+锁定	sodiñ
+支付	ẑifu
+主副	ẑufu
+主人	ẑurñ
+注意	ẑui
+注释	ẑuŝi
+转义	ẑuwi
+插入	ĉaru
+处于	ĉuy
+删除	ŝwĉu
+声调	ŝñdio
+声母	ŝñmu
+生效	ŝñxio
+睡觉	ŝuejio
+数字	ŝuzi
+日志	riẑi
 
 而	ar
-而	er
 而已	ari
 而不是	arbŝ
 而且	arq
 而是	arŝ
+而	er
 而已	eri
 而不是	erbŝ
 而且	erq
@@ -64,25 +133,26 @@
 它的	tad
 它们	tam
 你	ni
-你的	nd
-你们	nm
-你好	nh
+你的	nid
+你们	nim
+你好	nih|
+你好	nihao	1
 
-额外	eui
-
+安	w_
+安全带	wqywdai
+安卓	w_ẑ
 安卓	wẑo
 按	w
 按键	wjiw
 按照	wẑ
 按照	wẑao
 按住	wẑu
-长按	ĉv
+长按	ĉvw
 
 一样	ii
 一般	ib
 一点	id
 一定	idiñ
-一个	ig
 一行	ihv
 一会	ih
 一下	ixia
@@ -118,14 +188,9 @@
 有个	iug
 有些	iux
 有种	iuẑ
-优化	iuhua
 右边	iub
-颜色	iwse
-颜色值	iwseẑ
 因为	iñue
 应该	iñg
-音	iñ
-音乐	iñye
 
 为	ue
 为啥	ueŝa
@@ -135,17 +200,14 @@
 完美	uwmei
 完全	uq
 晚上	uwŝv
-忘记	uvji
 
 文件	uj
 文件夹	ujj
 子文件夹	zujj
 主文件夹	ẑujj
 
-文本	uñbñ
 问题	ut
 
-于	y/
 越来越	yly
 原来	yl/
 原来	ylai
@@ -155,9 +217,6 @@
 
 把	ba
 被	be
-保持	baoĉ
-半角	bwjio
-帮	bv
 本	bñ
 本来	bl/
 本来	blai
@@ -168,13 +227,14 @@
 别人	bier
 别人	bierñ
 标	bio-
-标签	bioqiw
+标签	bio-q
+标志	bio-ẑ
 表	bio|
 变	biw
 变成	bĉ
 编	biw-
+编码	biwm
 编码	biwma
-补丁	budiñ
 
 不	bu
 不一样	bii
@@ -186,6 +246,8 @@
 不同	bt
 不能	bn
 不过	bg
+不好	bh|
+不好	bhao
 不会	bh
 不就	bj
 不去	bq
@@ -196,41 +258,38 @@
 不是	bŝ
 不然	br
 
-配置	peiẑ
-
-模式	moŝ
 默认	mr
 没	mei
 没有	miu
 没问题	mut
 没用	my
-没什么	mxm
+没什么	mŝm
 每个	meig
 明白	mb
 
 发现	fx
 非常	fĉ
 费用	feiyŋ
-反过来	fhl
+反过来	fgl
 反正	fẑ
 方案	fvw
 方便	fvb
 方不方便	fbfb
 方法	ff
 分别	fb
-服务	fuu
-复制	fuẑ
-复杂	fuza
+分别	fñbie
 风格	fg
 
-打字	daz
+打字	dazi
 打出	daĉu
 大写	daxie
 多	do
+多少	doŝ
 多少	doŝao
 代码	daim
 代码	daima
 带来	dail/
+带来	dailai
 得	dei
 到	dao
 到底	dd
@@ -238,36 +297,30 @@
 都	d-
 都	dou
 都是	d-ŝ
+都是	douŝ
 但是	dŝ
 当然	dr
 第一	dii
 点	diw
-电脑	diwnao
-定义	diñi
-订购	diñgou
-读我	duo
 对	due
-短语	duwy
 东西	dx
 
-特殊	teŝu
 太	tai
-调试	tioŝ
 天天	tt
 突然	tr	1
 图	tu
 图标	tubio
 通过	tg
-同时	tŝ
+同时	tŝ/
 
 哪	n|
-哪有	n|i
+哪有	n|iu
 哪么	n|m
 哪里	n|l
 哪个	n|g
 哪些	n|x
 那	n\
-那有	n\i
+那有	n\iu
 那么	n\m
 那里	n\l
 那个	n\g
@@ -291,19 +344,18 @@
 能不能	nbn
 能够	ng
 娘	niv
-弄	nuŋ
 
-裸体	loti
 来	l/
 来	lai
 离谱	lp
 里	li	1
 里面	lm
 聊天	lt
+
+个	g
+一个	ig
 两个	lg
 
-个	ge
-国庆	goqiñ
 果然	gr
 改	gai
 改回来	gaihl/
@@ -312,7 +364,6 @@
 搞	gao
 搞的	gd	1
 感觉	gj
-感谢	gwxie
 干什么	gŝm
 刚	gv
 刚才	gc
@@ -321,9 +372,7 @@
 根本	gb
 规则	gz
 关于	gy
-光标	guvbio
 功能	gn
-公司	guŋs
 
 可	ke
 可爱	kai
@@ -336,7 +385,6 @@
 看	kw
 看看	kk	1
 肯定	kd
-空韵	kuŋyñ
 空格	kg
 
 和	he
@@ -356,37 +404,40 @@
 还在	haiz
 还是	h/ŝ
 还是	haiŝ
-好	h
+好	h|
 好	hao
-好吧	hb
-好吗	hm
-好的	hd	1
-好听	ht	1
-好看	hk	1
+好吧	h|b
+好吧	haob
+好吗	h|m
+好吗	haom
+好的	h|d	1
+好的	haod	1
+好听	h|t	1
+好听	haot	1
+好看	h|k	1
+好看	haok	1
 好看的	hkd	1
-好想	hx|
-好像	hx\
-号	hao\
+好想	h|x|
+好想	haox|
+好像	h|x\
+好像	haox\
 后	h\
 后	hou
 后面	h\m
 后面	houm
 候选项	hxx
-坏	hui
+回	hue
 回关	hueguw
 回车	hueĉe
-会	hue
+会	h
+会车	hĉe
 会不会	hbh
 
 基本上	jbŝ
 记得	jid
 记得	jide
-家伙	jiaho
 加	jia
 加个	jiag
-介音	jieiñ
-介母	jiemu
-结合	jiehe
 脚本	jb
 
 就	j
@@ -402,14 +453,11 @@
 简洁	jiwjie/
 简介	jiwjie\
 间接	jiwjie-
-键盘	jiwpw
 经常	jĉ
 竟然	jr
 居然	jr	1
-进入	jiñru
 觉得	jd
 
-期待	qidai
 其余	qy_
 其他	qt
 其它	qta
@@ -417,15 +465,14 @@
 起来	qil/
 起来	qilai
 前面	qm
+去	q
 去	qy
 却	qye
-区别	qybie
 全部	qb
 全面	qywmiw
 全角	qywjio
 
 系统	xt
-喜欢	xihuw
 
 下	xia
 下午	xiau
@@ -434,11 +481,11 @@
 上	ŝv
 上午	ŝvu
 上面	ŝvm
+上次	ŝvc
 上下	ŝvxia
 
 写	xie
-小时	xioŝ
-修改	xiugai
+小时	xioŝ/
 先	xiw
 显示	xŝ
 现在	xz
@@ -455,12 +502,10 @@
 
 需	xy
 需要	xyio
-选项	xywxiv
-选中	xywẑuŋ
 
 自定义	zdi
 自己	zj
-字	z\
+字	zi\
 左边	zob
 在	z
 在此之前	zcẑq
@@ -468,31 +513,23 @@
 再见	z_j
 再次	z_c
 早上	zaoŝv
-最终	zueẑuŋ
 总	zuŋ
 总是	zuŋŝ
 
-词首	cŝou
-操作	caozo
 才	cai
 才是	caiŝ
-参数	cwŝu
-促音	cuiñ
 
 所	so
-色	se
 所以	si
 所有	siu
-锁定	sodiñ
 虽然	sr
 算了	sl
 
-支付	ẑfu
 之后	ẑh\
 之后	ẑhou
-支持	ẑ-ĉ/
+支持	ẑiĉi	1
 
-只	ẑ
+只	ẑ|
 只要	ẑio
 只有	ẑiu
 只用	ẑy
@@ -508,11 +545,6 @@
 整个	ẑñg
 正在	ẑz
 正常	ẑĉ
-主副	ẑufu
-主人	ẑurñ
-注意	ẑui
-注释	ẑuŝ
-转义	ẑuwi
 状态	ẑuvt
 状态	ẑuvtai
 中	ẑuŋ
@@ -520,14 +552,12 @@
 中间	ẑuŋjiw
 中秋	ẑuŋqiu
 
-插入	ĉaru
 差不多	ĉbd
 超级简拼	ĉjjp
 出来	ĉul/
 出来	ĉulai
 除非	ĉufei
 除了	ĉul
-处于	ĉuy
 重新	ĉx
 
 是	ŝ
@@ -536,29 +566,21 @@
 时候	ŝh
 实在	ŝz
 使用	ŝy
-试	ŝ\
 试一试	ŝiŝ
 视频	ŝp
 事情	ŝq
 说	ŝo
-删除	ŝwĉu
-声调	ŝñdio
 甚至	ŝẑ
 什么	ŝm
 什么意思	ŝmis
 什么用	ŝmy
 什么东西	ŝmdx
 什么时候	ŝmŝh
-声母	ŝñmu
-生效	ŝñxio
 输出	ŝuĉu
 输入	ŝr
 输入	ŝuru
 输入法	ŝrf
-数字	ŝuz
-睡觉	ŝuejio
 
-日志	rẑ
 然后	rh\
 然后	rhou
 让	rv
@@ -607,6 +629,7 @@ Trance	tr
 慕名前来	mmql
 又寸	iucuñ
 イ 尔女子	nihao
+イ 尔女子	nih|
 力	li
 裂开了	lkl
 怪怪的	ggd
@@ -614,12 +637,16 @@ Trance	tr
 豪	hao/
 豪德	hd
 豪听	ht
-好欸	hei
-好耶	hie
-好康	hk
+好欸	h|ei
+好欸	haoei
+好耶	h|ie
+好耶	haoie
+好康	h|k
+好康	haok
 好康的	hkd
 好怪哦	hgo
-好好	hh
+好好	h|h|
+好好	haoh
 好好好	hhh
 好家伙	hjh
 就离谱	jlp
@@ -627,6 +654,7 @@ Trance	tr
 撅	jye
 强强	qq
 这么强	ẑmq
+智齿	ẑiĉi
 彳亍	ĉĉ
 彳亍	ĉĉu
 

@@ -38,8 +38,8 @@ sort: by_weight
 欲说还休	y ŝo huw xiu
 欲说还休梦已阑	y ŝo hai xiu mŋ i lw
 欲说还休梦已阑	y ŝo huw xiu mŋ i lw
-欲言还止	y iw hai ẑ
-欲言还止	y iw huw ẑ
+欲言还止	y iw hai ẑi
+欲言还止	y iw huw ẑi
 欲迎还拒	y iŋ hai jy
 欲迎还拒	y iŋ huw jy
 欲语还休	y y hai xiu
@@ -49,8 +49,8 @@ sort: by_weight
 欲走还留	y zou hai liu
 欲走还留	y zou huw liu
 # 「斜」的协音读法
-远上寒山石径斜	yw ŝv hw ŝw ŝ jiŋ xie
-远上寒山石径斜	yw ŝv hw ŝw ŝ jiŋ xia
+远上寒山石径斜	yw ŝv hw ŝw ŝi jiŋ xie
+远上寒山石径斜	yw ŝv hw ŝw ŝi jiŋ xia
 # 「骑」目前统读 qi
 坐骑	zo qi
 坐骑	zo ji
@@ -62,8 +62,8 @@ sort: by_weight
 一骑绝尘	i ji jye ĉñ
 一骑当千	i qi dv qiw
 一骑当千	i ji dv qiw
-一骑红尘妃子笑	i qi huŋ ĉñ fei z xio
-一骑红尘妃子笑	i ji huŋ ĉñ fei z xio
+一骑红尘妃子笑	i qi huŋ ĉñ fei zi xio
+一骑红尘妃子笑	i ji huŋ ĉñ fei zi xio
 走单骑	zou dw qi
 走单骑	zou dw ji
 千里走单骑	qiw li zou dw qi
@@ -78,10 +78,10 @@ sort: by_weight
 # 「蔚山」读音混乱，说法不一
 蔚山	y ŝw
 蔚山	ue ŝw
-蔚山市	y ŝw ŝ
-蔚山市	ue ŝw ŝ
-蔚山广域市	y ŝw guv y ŝ
-蔚山广域市	ue ŝw guv y ŝ
+蔚山市	y ŝw ŝi
+蔚山市	ue ŝw ŝi
+蔚山广域市	y ŝw guv y ŝi
+蔚山广域市	ue ŝw guv y ŝi
 韩国蔚山	hw go y ŝw
 韩国蔚山	hw go ue ŝw
 蔚山工厂	y ŝw guŋ ĉv
@@ -97,14 +97,14 @@ sort: by_weight
 扑街仔	pu gai zai
 仆街仔	pu jie zai
 仆街仔	pu gai zai
-街溜子	jie liu z
-街溜子	gai liu z
+街溜子	jie liu zi
+街溜子	gai liu zi
 # 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
 郭明錤	go miŋ ji
 郭明錤	go miŋ qi
 # 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
 李昌镐	li ĉv hao
-曹世镐	cao ŝ hao
+曹世镐	cao ŝi hao
 张镐哲	ẑv gao ẑe
 姜成镐	jiv ĉŋ hao
 姜镐童	jiv hao tuŋ
@@ -125,8 +125,8 @@ sort: by_weight
 角色	jio se
 比萨饼	bi sa biŋ
 比萨饼	pi sa biŋ
-吃比萨	ĉ bi sa
-吃比萨	ĉ pi sa
+吃比萨	ĉi bi sa
+吃比萨	ĉi pi sa
 说服	ŝo fu
 说服	ŝue fu
 道行	dao hŋ
@@ -155,8 +155,8 @@ sort: by_weight
 给予	gei y
 槟榔	biŋ lv
 槟榔	biñ lv
-张柏芝	ẑv bo ẑ
-张柏芝	ẑv bai ẑ
+张柏芝	ẑv bo ẑi
+张柏芝	ẑv bai ẑi
 藤蔓	tŋ uw
 藤蔓	tŋ mw
 弄堂	luŋ tv
@@ -182,11 +182,11 @@ sort: by_weight
 模具	mu jy
 模具	mo jy
 草薙	cao ti
-草薙	cao ẑ
+草薙	cao ẑi
 草薙京	cao ti jiŋ
-草薙京	cao ẑ jiŋ
+草薙京	cao ẑi jiŋ
 草薙剑	cao ti jiw
-草薙剑	cao ẑ jiw
+草薙剑	cao ẑi jiw
 贾平凹	jia piŋ ua
 贾平凹	jia piŋ ao
 雪佛兰	xye fu lw
@@ -201,24 +201,24 @@ sort: by_weight
 鸭绿江	ia ly jiv
 大腹便便	da fu piw piw
 大腹便便	da fu biw biw
-卡脖子	qia bo z
-卡脖子	ka bo z
-吱声	z ŝŋ
-吱声	ẑ ŝŋ
+卡脖子	qia bo zi
+卡脖子	ka bo zi
+吱声	zi ŝŋ
+吱声	ẑi ŝŋ
 掺和	ĉw ho
 掺和	ĉw he
 掺和	cw ho
 掺和	cw he
-称职	ĉñ ẑ
-称职	ĉŋ ẑ
-螺蛳粉	lo s fñ
-螺蛳粉	lo ŝ fñ
+称职	ĉñ ẑi
+称职	ĉŋ ẑi
+螺蛳粉	lo si fñ
+螺蛳粉	lo ŝi fñ
 调换	dio huw
 调换	tio huw
 太行山	tai hv ŝw
 太行山	tai xiŋ ŝw
-歇斯底里	xie s di li
-歇斯底里	jie s di li
+歇斯底里	xie si di li
+歇斯底里	jie si di li
 发酵	fa jio
 发酵	fa xio
 酵母菌	jio mu jyñ
@@ -258,42 +258,42 @@ sort: by_weight
 厚朴	hou pu
 大宛马	da yw ma
 大宛马	da uw ma
-龇牙	z ia
-龇牙	c ia
-龇着牙	z ẑe ia
-龇着牙	c ẑe ia
-龇牙咧嘴	z ia lie zue
-龇牙咧嘴	c ia lie zue
+龇牙	zi ia
+龇牙	ci ia
+龇着牙	zi ẑe ia
+龇着牙	ci ẑe ia
+龇牙咧嘴	zi ia lie zue
+龇牙咧嘴	ci ia lie zue
 头皮屑	tou pi xie
 头皮屑	tou pi xye
 六安	lu w
 六安	liu w
 六安县	lu w xiw
 六安县	liu w xiw
-六安市	lu w ŝ
-六安市	liu w ŝ
+六安市	lu w ŝi
+六安市	liu w ŝi
 六合区	lu he qy
 六合区	liu he qy
 安徽六安	w hue lu w
 安徽六安	w hue liu w
-安徽六安市	w hue lu w ŝ
-安徽六安市	w hue liu w ŝ
-安徽省六安市	w hue ŝŋ lu w ŝ
-安徽省六安市	w hue ŝŋ liu w ŝ
+安徽六安市	w hue lu w ŝi
+安徽六安市	w hue liu w ŝi
+安徽省六安市	w hue ŝŋ lu w ŝi
+安徽省六安市	w hue ŝŋ liu w ŝi
 南京六合	nw jiŋ lu he
 南京六合	nw jiŋ liu he
 南京六合区	nw jiŋ lu he qy
 南京六合区	nw jiŋ liu he qy
-南京市六合区	nw jiŋ ŝ lu he qy
-南京市六合区	nw jiŋ ŝ liu he qy
+南京市六合区	nw jiŋ ŝi lu he qy
+南京市六合区	nw jiŋ ŝi liu he qy
 偌大	ro da
 偌大	no da
-饮鸩止渴	iñ ẑñ ẑ ke
-饮鸩止渴	iñ jiu ẑ ke
+饮鸩止渴	iñ ẑñ ẑi ke
+饮鸩止渴	iñ jiu ẑi ke
 饮鸩解渴	iñ ẑñ jie ke
 饮鸩解渴	iñ jiu jie ke
-宫商角徵羽	guŋ ŝv jye ẑ y
-宫商角徵羽	guŋ ŝv jio ẑ y
+宫商角徵羽	guŋ ŝv jye ẑi y
+宫商角徵羽	guŋ ŝv jio ẑi y
 氙气灯	xiw qi dŋ
 氙气灯	ŝw qi dŋ
 氙气大灯	xiw qi da dŋ
@@ -320,8 +320,8 @@ sort: by_weight
 吐谷浑	tu gu huñ
 高句丽	gao gou li
 高句丽	gao jy li
-角斗士	jye dou ŝ
-角斗士	jio dou ŝ
+角斗士	jye dou ŝi
+角斗士	jio dou ŝi
 缩砂密	su ŝa mi
 缩砂密	so ŝa mi
 迫击炮	pai ji pao
@@ -348,12 +348,12 @@ sort: by_weight
 关卡	guw ka	1000
 三昧真火	sw mei ẑñ ho
 三昧真火	sw ue ẑñ ho
-青𬞟之末	qiŋ piñ ẑ mo
-青𬞟之末	qiŋ piŋ ẑ mo
-起于青𬞟之末	qi y qiŋ piñ ẑ mo
-起于青𬞟之末	qi y qiŋ piŋ ẑ mo
-风起于青𬞟之末	fŋ qi y qiŋ piñ ẑ mo
-风起于青𬞟之末	fŋ qi y qiŋ piŋ ẑ mo
+青𬞟之末	qiŋ piñ ẑi mo
+青𬞟之末	qiŋ piŋ ẑi mo
+起于青𬞟之末	qi y qiŋ piñ ẑi mo
+起于青𬞟之末	qi y qiŋ piŋ ẑi mo
+风起于青𬞟之末	fŋ qi y qiŋ piñ ẑi mo
+风起于青𬞟之末	fŋ qi y qiŋ piŋ ẑi mo
 优惠券	iu hue qyw
 优惠券	iu hue jyw
 拱券	guŋ xyw
@@ -362,8 +362,8 @@ sort: by_weight
 哺乳	pu ru
 脑卒中	nao cu ẑuŋ
 脑卒中	nao zu ẑuŋ
-阈值	y ẑ
-阈值	fa ẑ
+阈值	y ẑi
+阈值	fa ẑi
 潟湖	xi hu
 潟湖	xie hu
 果脯	go fu
@@ -376,8 +376,8 @@ sort: by_weight
 脯氨酸	pu w suw
 酪氨酸	lao w suw
 酪氨酸	lo w suw
-没食子	mo ŝ z
-没食子	mei ŝ z
+没食子	mo ŝi zi
+没食子	mei ŝi zi
 裳凤蝶	ĉv fŋ die
 裳凤蝶	ŝv fŋ die
 白𬶨豚	bai ji tuñ
@@ -390,8 +390,8 @@ sort: by_weight
 椎心泣血	ẑue xiñ qi xie
 椎心泣血	ĉue xiñ qi xye
 椎心泣血	ẑue xiñ qi xye
-挟持	xie ĉ
-挟持	xia ĉ
+挟持	xie ĉi
+挟持	xia ĉi
 亳州	bo ẑou
 亳州	hao ẑou
 牛丼	niu dw
@@ -426,8 +426,8 @@ sort: by_weight
 李悝	li li
 跬步	kue bu
 跬步	gue bu
-道在屎溺	dao zai ŝ nio
-道在屎溺	dao zai ŝ ni
+道在屎溺	dao zai ŝi nio
+道在屎溺	dao zai ŝi ni
 暴殄天物	bao tiw tiw u
 暴殄天物	bao liw tiw u
 以己度人	i ji do rñ
@@ -438,8 +438,8 @@ sort: by_weight
 甑糕	jiŋ gao
 着想	ẑo xiv
 着想	ẑao xiv
-胳肢窝	ga ẑ o
-胳肢窝	ge ẑ o
+胳肢窝	ga ẑi o
+胳肢窝	ge ẑi o
 潏河	jye he
 潏河	y he
 校正	jio ẑŋ
@@ -448,8 +448,8 @@ sort: by_weight
 校对	xio due
 结束	jie ŝu
 结束	jie su
-自怨自艾	z yw z i
-自怨自艾	z yw z ai
+自怨自艾	zi yw zi i
+自怨自艾	zi yw zi ai
 呱呱坠地	gu gu ẑue di
 呱呱坠地	gua gua ẑue di
 拗口	ao kou
@@ -458,26 +458,26 @@ sort: by_weight
 蚌埠	bv bu
 秘鲁	bi lu
 秘鲁	mi lu
-炽热	ĉ re
-炽热	ẑ re
+炽热	ĉi re
+炽热	ẑi re
 裨益	bi i
 裨益	pi i
-刚愎自用	gv bi z yŋ
-刚愎自用	gv fu z yŋ
-戛然而止	jia rw er ẑ
-戛然而止	ga rw er ẑ
+刚愎自用	gv bi zi yŋ
+刚愎自用	gv fu zi yŋ
+戛然而止	jia rw er ẑi
+戛然而止	ga rw er ẑi
 一叶扁舟	i ie piw ẑou
 一叶扁舟	i ie biw ẑou
-博闻强识	bo uñ qiv ẑ
-博闻强识	bo uñ qiv ŝ
+博闻强识	bo uñ qiv ẑi
+博闻强识	bo uñ qiv ŝi
 贲临	bi liñ
 贲临	bñ liñ
 倾轧	qiŋ ia
 倾轧	qiŋ ẑa
 妊娠	rñ ŝñ
 妊娠	rñ ĉñ
-莘莘学子	ŝñ ŝñ xye z
-莘莘学子	xiñ xiñ xye z
+莘莘学子	ŝñ ŝñ xye zi
+莘莘学子	xiñ xiñ xye zi
 拓本	ta bñ
 拓本	to bñ
 唾手可得	to ŝou ke de
@@ -490,8 +490,8 @@ sort: by_weight
 星宿	xiŋ su
 赝品	iw piñ
 赝品	iŋ piñ
-一曝十寒	i pu ŝ hw
-一曝十寒	i bao ŝ hw
+一曝十寒	i pu ŝi hw
+一曝十寒	i bao ŝi hw
 粗犷	cu guv
 粗犷	cu kuv
 巷道	hv dao
@@ -512,9 +512,9 @@ sort: by_weight
 剽悍	bio hw
 淙淙	cuŋ cuŋ
 淙淙	zuŋ zuŋ
-整饬	ẑŋ ĉ
+整饬	ẑŋ ĉi
 整饬	ẑŋ ŝv
-捯饬	dao ĉ
+捯饬	dao ĉi
 捯饬	dao ŝv
 谬论	miu luñ
 谬论	mio luñ
@@ -533,19 +533,19 @@ sort: by_weight
 粗糙	cu cao
 粗糙	cu zao
 肄业	i ie
-肄业	s ie
+肄业	si ie
 瞠目结舌	ĉŋ mu jie ŝe
 瞠目结舌	tv mu jie ŝe
 谄媚	ĉw mei
 谄媚	xiw mei
-不啻	bu ĉ
+不啻	bu ĉi
 不啻	bu di
 鞭挞	biw ta
 鞭挞	biw da
-鞭笞	biw ĉ
+鞭笞	biw ĉi
 鞭笞	biw tai
-附骨之疽	fu gu ẑ jy
-附骨之疽	fu gu ẑ qy
+附骨之疽	fu gu ẑi jy
+附骨之疽	fu gu ẑi qy
 ### 错字
 曾经	cŋ jiŋ
 曾今	cŋ jiñ
@@ -590,7 +590,7 @@ sort: by_weight
 两个人
 两个飞
 两个戈
-两个厶	liv ge s
+两个厶	liv ge si
 两个厶	liv ge mou
 两个又
 两个香
@@ -609,7 +609,7 @@ sort: by_weight
 两个𢎘	liv ge hw
 两个魚	liv ge y
 两个明
-两个朿	liv ge c
+两个朿	liv ge ci
 两个乂
 两个曰
 两个尸
@@ -680,7 +680,7 @@ sort: by_weight
 两个女
 两个又
 两个支
-两个隻	liv ge ẑ
+两个隻	liv ge ẑi
 两个古
 两个吉
 两个舌
@@ -747,7 +747,7 @@ sort: by_weight
 两个東	liv ge duŋ
 两个善
 两个僉	liv ge qiw
-两个齒	liv ge ĉ
+两个齒	liv ge ĉi
 两个喜
 两个走
 两个止
@@ -771,7 +771,7 @@ sort: by_weight
 三个十
 三个力
 三个原
-三个厶	sw ge s
+三个厶	sw ge si
 三个厶	sw ge mou
 三个又
 三个口
@@ -849,7 +849,7 @@ sort: by_weight
 三个市
 三个文
 三个斗
-三个朿	sw ge c
+三个朿	sw ge ci
 三个束
 三个林
 三个果
@@ -898,21 +898,21 @@ sort: by_weight
 三个鸟
 三个米
 # 四叠字
-四个乂	s ge i
+四个乂	si ge i
 四个人
-四个厶	s ge s
-四个厶	s ge mou
+四个厶	si ge si
+四个厶	si ge mou
 四个又
 四个匕
 四个工
 四个口
 四个天
 四个小
-四个屮	s ge ĉe
-四个屮	s ge cao
+四个屮	si ge ĉe
+四个屮	si ge cao
 四个火
 四个牛
-四个魚	s ge y
+四个魚	si ge y
 四个月
 四个日
 四个林
@@ -925,18 +925,18 @@ sort: by_weight
 四个困
 四个竹
 四个老
-四个朿	s ge c
+四个朿	si ge ci
 四个先
 四个金
 四个泉
 四个言
-四个門	s ge mñ
+四个門	si ge mñ
 四个果
 四个春
-四个車	s ge ĉe
-四个風	s ge fŋ
+四个車	si ge ĉe
+四个風	si ge fŋ
 四个雷
-四个雲	s ge yñ
-四个興	s ge xiŋ
-四个龍	s ge luŋ
+四个雲	si ge yñ
+四个興	si ge xiŋ
+四个龍	si ge luŋ
 四个土
