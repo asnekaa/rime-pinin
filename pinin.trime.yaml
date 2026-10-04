@@ -73,7 +73,7 @@ style:
   popup_key_height: 48 # 按键提示内键高度
   popup_text_size: 23 # 按键提示字号
   shadow_radius: 0.0 # 键盘字体阴影大小（数值不宜过大，可能会造成卡顿）
-  horizontal_gap: 3 #键水平间距
+  horizontal_gap: 2 #键水平间距
   vertical_gap: 10 #键盘行距
   # ⚠ 若关闭了proximity_correction，过大的horizontal_gap与vertical_gap会引起空按漏按
   vertical_correction: 0 # 触摸位置校正（竖直方向）。 ※ 为了提升打字手感，可将按键的实际触摸位置相对其显示位置上下偏移一点点（默认值-10，上偏为正，下偏为负，为0则不偏移）。
@@ -1879,7 +1879,7 @@ preset_keyboards:
           hilited_key_back_color: hb_keyboard_switch,
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
-          round_corner: 17,
+          round_corner: 20,
         }
       - {
           click: Mode_switch,
@@ -1892,7 +1892,7 @@ preset_keyboards:
           hilited_key_back_color: hb_keyboard_switch,
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
-          round_corner: 17,
+          round_corner: 20,
         }
       - {
           click: ",",
@@ -1911,8 +1911,8 @@ preset_keyboards:
           hilited_key_back_color: hb_space,
           hilited_key_text_color: hf_space,
           width: *spacew,
-          round_corner: 100,
-          key_text_size: 15,
+          round_corner: 20,
+          key_text_size: 16,
         }
       - {
           click: ".",
@@ -1929,8 +1929,8 @@ preset_keyboards:
           hilited_key_back_color: hb_enter,
           hilited_key_text_color: hf_enter,
           width: *enterw,
-          round_corner: 100,
-          key_text_size: 15,
+          round_corner: 20,
+          key_text_size: 16,
         }
 
   number:
