@@ -233,7 +233,7 @@ preset_color_schemes:
     popup_text_color: *pl_t
     hilited_popup_text_color: *pl_hp_b
 
-    key_back_color: *pl_back
+    key_back_color: 0xFFFFFF
     key_text_color: *pl_t
     hilited_key_back_color: *pl_back
     hilited_key_text_color: *pl_hk
@@ -1892,7 +1892,6 @@ preset_keyboards:
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
           round_corner: 20,
-          height:30,
         }
       - {
           click: Mode_switch,
