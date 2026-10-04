@@ -1941,7 +1941,7 @@ preset_keyboards:
           hilited_key_text_color: hf_enter,
           width: *enterw,
           round_corner: 20,
-          key_text_size: 16,
+          key_text_size: 17,
         }
 
   number:
