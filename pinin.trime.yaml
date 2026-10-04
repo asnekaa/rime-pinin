@@ -42,7 +42,7 @@ style:
   reset_ascii_mode_on_focus_change: true # 焦点变更弹起输入法软键盘时，重置 ascii_mode
   enter_label_mode: 0 # 是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel，2优先使用，3当其他方式没有获得label时才读取actionlabel
   enter_labels: # 定义Enter键的文本
-    go: ↩
+    go: ic@arrow_right
     done: ic@check
     next: ic@chevron_right
     pre: ic@chevron_left
@@ -1303,17 +1303,17 @@ tool_bar:
       fg_hightlight: hf_button
     action: Keyboard_editor
 
-  ascii_mode_button: &ascii_mode_button
-    background:
-      bg_normal: b_button
-      bg_hightlight: hb_button
-    foreground:
-      option_styles: ["中", "英"]
-      fg_normal: f_button
-      fg_hightlight: hf_button
-      font_size: 18 # 按钮字体大小
-      padding: 10
-    action: Mode_switch
+  # ascii_mode_button: &ascii_mode_button
+  #   background:
+  #     bg_normal: b_button
+  #     bg_hightlight: hb_button
+  #   foreground:
+  #     option_styles: ["中", "英"]
+  #     fg_normal: f_button
+  #     fg_hightlight: hf_button
+  #     font_size: 18 # 按钮字体大小
+  #     padding: 10
+  #   action: Mode_switch
 
   full_shape_button: &full_shape_button
     background:
@@ -1376,7 +1376,6 @@ preset_keys:
   BackSpace_word: { label: ⇦, send: Control+BackSpace }
   Delete: { label: ⌦, send: Delete }
   Return: { label: enter_labels, preview: "", send: Return }
-  Return1: { label: ic@keyboard_return, send: Return }
   space:
     {
       label: "ic@keyboard_space",
@@ -1912,7 +1911,6 @@ preset_keyboards:
         }
       - {
           click: Return,
-          composing: Return1,
           swipe_up: Escape,
           key_back_color: b_enter,
           key_text_color: f_enter,
