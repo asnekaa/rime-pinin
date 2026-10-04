@@ -75,10 +75,10 @@ style:
   comment_position: right # 编码提示布局位置：right / top / overlay
   comment_vertical_bias: 0.0 # 编码提示垂直偏移位置（仅 overlay 模式使用，需要间隙空间足够，范围 0.0~1.0，0.0=top，0.5=center，1.0=bottom）
   key_border: 1 # 按键边框宽度
-  key_text_size: *key_text_size # 按键文本大小（click）
+  key_text_size: 25 # 按键文本大小（click）
   key_long_text_size: *key_long_text_size # 按键长文本大小（字数 ≥2）
   symbol_text_size: 10 # 符号大小（long_click 和 hint）
-  round_corner: 20 # 按键圆角半径
+  round_corner: 8 # 按键圆角半径
   popup_width: 38 # 按键提示宽度
   popup_height: 48 # 按键提示高度
   popup_bottom_margin: 68 # 按键提示底边距
@@ -86,7 +86,7 @@ style:
   popup_text_size: 23 # 按键提示字号
   shadow_radius: 0.0 # 键盘字体阴影大小（数值不宜过大，可能会造成卡顿）
   horizontal_gap: *hgap #键水平间距
-  vertical_gap: *sgap #键盘行距
+  vertical_gap: 5 #键盘行距
   # ⚠ 若关闭了proximity_correction，过大的horizontal_gap与vertical_gap会引起空按漏按
   vertical_correction: 0 # 触摸位置校正（竖直方向）。 ※ 为了提升打字手感，可将按键的实际触摸位置相对其显示位置上下偏移一点点（默认值-10，上偏为正，下偏为负，为0则不偏移）。
   keyboard_padding: 0 # 竖屏模式下，屏幕左右两侧与键盘的距离（减少曲面屏误触）
@@ -233,7 +233,7 @@ preset_color_schemes:
     popup_text_color: *pl_t
     hilited_popup_text_color: *pl_hp_b
 
-    key_back_color: 0xFFFFFF
+    key_back_color: *pl_back
     key_text_color: *pl_t
     hilited_key_back_color: *pl_back
     hilited_key_text_color: *pl_hk
@@ -1891,7 +1891,7 @@ preset_keyboards:
           hilited_key_back_color: hb_keyboard_switch,
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
-          round_corner: 20,
+          round_corner: 12,
         }
       - {
           click: Mode_switch,
@@ -1904,7 +1904,7 @@ preset_keyboards:
           hilited_key_back_color: hb_keyboard_switch,
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
-          round_corner: 20,
+          round_corner: 12,
         }
       - {
           click: ",",
@@ -1923,7 +1923,7 @@ preset_keyboards:
           hilited_key_back_color: hb_space,
           hilited_key_text_color: hf_space,
           width: *spacew,
-          round_corner: 20,
+          round_corner: 30,
         }
       - {
           click: ".",
@@ -1940,7 +1940,7 @@ preset_keyboards:
           hilited_key_back_color: hb_enter,
           hilited_key_text_color: hf_enter,
           width: *enterw,
-          round_corner: 20,
+          round_corner: 30,
         }
 
   number:
