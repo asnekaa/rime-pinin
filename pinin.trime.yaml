@@ -263,7 +263,7 @@ preset_color_schemes:
     hf_enter: *pl_enter
 
   pinin_dark:
-    name: pinin_dark
+    name: "Pinin_dark"
     author: ASneka
 
     # 编码区
