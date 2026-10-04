@@ -57,6 +57,7 @@
 服务	fuu
 复制	fuẑi
 复杂	fuza
+单独	dwdu
 灯光	dñguv
 电脑	diwnao
 定义	diñi
@@ -72,6 +73,7 @@
 光标	guvbio
 公司	guŋsi
 空韵	kuŋyñ
+控制	kuŋẑi
 号	hao\
 坏	hui
 家伙	jiaho
