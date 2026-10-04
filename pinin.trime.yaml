@@ -1892,6 +1892,7 @@ preset_keyboards:
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
           round_corner: 20,
+          height:30,
         }
       - {
           click: Mode_switch,
