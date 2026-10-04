@@ -1643,7 +1643,7 @@ preset_keys:
 keyboard_width:
   k1w: &k1w 10
   k2w: &k2w 10
-  k3w: &k3w 11
+  k3w: &k3w 10
   k4w: &k4w 10
   k5w: &k5w 10
   shiftw: &shiftw 15
@@ -1808,7 +1808,7 @@ preset_keyboards:
           width: *k2w,
         }
       # 第三行
-      - { width: 0.5 }
+      - { width: 1 }
       - {
           click: a,
           long_click: "`",
@@ -1872,7 +1872,7 @@ preset_keyboards:
           swipe_down: ";",
           width: *k3w,
         }
-      - { width: 0.5 }
+      - { width: 1 }
       # 第四行
       - {
           click: Shift_L,
