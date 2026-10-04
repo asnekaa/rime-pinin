@@ -198,7 +198,7 @@ pinin_dark:
 #配色方案
 preset_color_schemes:
   default:
-    name: Pinin_light
+    name: pinin_light
     author: ASneka
     dark_scheme: pinin_dark
 
@@ -264,7 +264,7 @@ preset_color_schemes:
     hf_enter: *pl_enter
 
   pinin_dark:
-    name: "Pinin_dark"
+    name: "pinin_dark"
     author: ASneka
 
     # 编码区
