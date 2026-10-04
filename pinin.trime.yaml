@@ -78,7 +78,7 @@ style:
   key_text_size: *key_text_size # 按键文本大小（click）
   key_long_text_size: *key_long_text_size # 按键长文本大小（字数 ≥2）
   symbol_text_size: 10 # 符号大小（long_click 和 hint）
-  round_corner: *round1 # 按键圆角半径
+  round_corner: 20 # 按键圆角半径
   popup_width: 38 # 按键提示宽度
   popup_height: 48 # 按键提示高度
   popup_bottom_margin: 68 # 按键提示底边距
@@ -1891,6 +1891,7 @@ preset_keyboards:
           hilited_key_back_color: hb_keyboard_switch,
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
+          round_corner: 20,
         }
       - {
           click: Mode_switch,
@@ -1903,6 +1904,7 @@ preset_keyboards:
           hilited_key_back_color: hb_keyboard_switch,
           hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
+          round_corner: 20,
         }
       - {
           click: ",",
@@ -1921,6 +1923,7 @@ preset_keyboards:
           hilited_key_back_color: hb_space,
           hilited_key_text_color: hf_space,
           width: *spacew,
+          round_corner: 20,
         }
       - {
           click: ".",
@@ -1937,6 +1940,7 @@ preset_keyboards:
           hilited_key_back_color: hb_enter,
           hilited_key_text_color: hf_enter,
           width: *enterw,
+          round_corner: 20,
         }
 
   number:
