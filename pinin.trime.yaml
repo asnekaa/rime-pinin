@@ -165,14 +165,25 @@ colors:
   8: &color8 0xff838383
 
 pinin_light:
-  pl_mark: &pl_mark 0x0067C0
-  pl_label: &pl_label 0x4C566A
-  pl_text: &pl_text 0x2E3440
-  pl_back: &pl_back 0xF9F9F9
-  pl_border: &pl_border 0xEFEFEF
-  pl_hlabel: &pl_hlabel 0xCAC9C8
-  pl_htext: &pl_htext 0xFFFFFF
-  pl_hback: &pl_hback 0xF0F0F0
+  pl_t: &pl_t 0x1F1F1F
+  pl_ht: &pl_ht 0x5F6368
+  pl_s: &pl_s 0x444746
+  pl_hs: &pl_hs 0xBDBFC3
+  pl_hk: &pl_hk 0xB1B3B7
+  pl_enter: &pl_enter 0xFFFFFF
+  pl_back: &pl_back 0xF0F4F9
+  pl_hc_b: &pl_hc_b 0xD8DBE0
+  pl_hpb_b: &pl_hpb_b 0xCAE2F5
+  pl_hb_b: &pl_hb_b 0xBCBFC3
+  pl_p_b: &pl_p_b 0xFFFFFF
+  pl_hp_b: &pl_hp_b 0x0B57D0
+  pl_hk_b: &pl_hk_b 0xD7DADF
+  pl_kbs_b: &pl_kbs_b 0xE1E3E1
+  pl_hkbs_b: &pl_hkbs_b 0xC9CBC9
+  pl_space_b: &pl_space_b 0xFFFFFF
+  pl_hspace_b: &pl_hspace_b 0xDDE3EA
+  pl_enter_b: &pl_enter_b 0x0B57D0
+  pl_henter_b: &pl_henter_b 0x0842A0
 
 pinin_dark:
   pd_mark: &pd_mark 0x4CC2FF
@@ -192,55 +203,65 @@ preset_color_schemes:
     # dark_scheme: pinin_dark
 
     # 编码区
-    text_color: *pl_hlabel
-    hilited_text_color: *pl_label
+    text_back_color: *pl_back
+    text_color: *pl_t
+    hilited_back_color: *pl_back
+    hilited_text_color: *pl_ht
 
     # 候选项
     back_color: *pl_back
-    candidate_text_color: *pl_text
-    hilited_candidate_back_color: *pl_hback
-    hilited_candidate_text_color: *pl_mark
+    candidate_text_color: *pl_t
+    hilited_candidate_back_color: *pl_hc_b
+    hilited_candidate_text_color: *pl_t
 
-    # 键盘
-    key_back_color: *pl_back
-    key_text_color: *pl_text
-    hilited_key_back_color: *pl_hback
-    hilited_key_text_color: *pl_text
+    # 工具栏
+    b_primary_button: *pl_back
+    f_primary_button: *pl_t
+    hb_primary_button: *pl_hpb_b
+    hf_primary_button: *pl_t
 
     b_button: *pl_back
-    f_button: *pl_text
-    hb_button: *pl_hback
-    hf_button: *pl_text
+    f_button: *pl_t
+    hb_button: *pl_hb_b
+    hf_button: *pl_t
+
+    # 键盘
+    key_symbol_color: *pl_s
+    hilited_key_symbol_color: *pl_hs
+
+    popup_back_color: *pl_p_b
+    popup_text_color: *pl_t
+    hilited_popup_text_color: *pl_hp_b
+
+    key_back_color: *pl_back
+    key_text_color: *pl_t
+    hilited_key_back_color: *pl_back
+    hilited_key_text_color: *pl_hk
 
     bshift: *pl_back
-    tshift: *pl_text
-    hb_shift: *pl_hback
-    ht_shift: *pl_text
+    tshift: *pl_t
+    hb_shift: *pl_hk_b
+    hf_shift: *pl_t
 
     b_backspace: *pl_back
-    f_backspace: *pl_text
-    hb_backspace: *pl_hback
-    ht_backspace: *pl_text
+    f_backspace: *pl_t
+    hb_backspace: *pl_hk_b
+    hf_backspace: *pl_t
 
-    bgn: *pl_back
-    tgn: *pl_text
-    hb_gn: *pl_hback
-    ht_gn: *pl_text
+    b_keyboard_switch: *pl_kbs_b
+    f_keyboard_switch: *pl_t
+    hb_keyboard_switch: *pl_hkbs_b
+    hf_keyboard_switch: *pl_t
 
-    benter: *pl_back
-    tenter: *pl_text
-    hb_enter: *pl_hback
-    ht_enter: *pl_text
+    bspace: *pl_space_b
+    tspace: *pl_t
+    hb_space: *pl_hspace_b
+    hf_space: *pl_t
 
-    bspace: *pl_back
-    tspace: *pl_text
-    hb_space: *pl_hback
-    ht_space: *pl_text
-
-    b_primary_button: *pl_back
-    f_primary_button: *pl_text
-    hb_primary_button: *pl_back
-    hf_primary_button: *pl_text
+    benter: *pl_enter_b
+    tenter: *pl_enter
+    hb_enter: *pl_henter_b
+    hf_enter: *pl_enter
 
   # Pinin_dark:
   #   name: pinin_dark
@@ -1348,13 +1369,12 @@ tool_bar:
     action: undo
 
   # 右侧按钮列表（从右向左排列）
-  buttons:
-    [
+  buttons: [
       *hide_button,
       *emoji_button,
       *clipboard_button,
       *edit_button,
-      *ascii_mode_button,
+      # *ascii_mode_button,
       *full_shape_button,
       *redo_button,
       *undo_button,
@@ -1800,7 +1820,7 @@ preset_keyboards:
           key_back_color: b_shift,
           key_text_color: f_shift,
           hilited_key_back_color: hb_shift,
-          hilited_key_text_color: ht_shift,
+          hilited_key_text_color: hf_shift,
           width: *shiftw,
         }
       - {
@@ -1860,7 +1880,7 @@ preset_keyboards:
           key_back_color: b_backspace,
           key_text_color: f_backspace,
           hilited_key_back_color: hb_backspace,
-          hilited_key_text_color: ht_backspace,
+          hilited_key_text_color: hf_backspace,
           width: *bsw,
         }
       # 第五行
@@ -1869,7 +1889,7 @@ preset_keyboards:
           key_back_color: b_keyboard_switch,
           key_text_color: f_keyboard_switch,
           hilited_key_back_color: hb_keyboard_switch,
-          hilited_key_text_color: ht_keyboard_switch,
+          hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
         }
       - {
@@ -1881,7 +1901,7 @@ preset_keyboards:
           key_back_color: b_keyboard_switch,
           key_text_color: f_keyboard_switch,
           hilited_key_back_color: hb_keyboard_switch,
-          hilited_key_text_color: ht_keyboard_switch,
+          hilited_key_text_color: hf_keyboard_switch,
           width: *kbsw,
         }
       - {
@@ -1899,7 +1919,7 @@ preset_keyboards:
           key_back_color: b_space,
           key_text_color: f_space,
           hilited_key_back_color: hb_space,
-          hilited_key_text_color: ht_space,
+          hilited_key_text_color: hf_space,
           width: *spacew,
         }
       - {
@@ -1915,7 +1935,7 @@ preset_keyboards:
           key_back_color: b_enter,
           key_text_color: f_enter,
           hilited_key_back_color: hb_enter,
-          hilited_key_text_color: ht_enter,
+          hilited_key_text_color: hf_enter,
           width: *enterw,
         }
 
@@ -1936,7 +1956,7 @@ preset_keyboards:
           key_back_color: b_gn,
           key_text_color: f_gn,
           hilited_key_back_color: hb_gn,
-          hilited_key_text_color: ht_gn,
+          hilited_key_text_color: hf_gn,
           width: *nk1w,
         }
       - { click: 1, width: *nw }
@@ -1952,7 +1972,7 @@ preset_keyboards:
           key_back_color: b_gn,
           key_text_color: f_gn,
           hilited_key_back_color: hb_gn,
-          hilited_key_text_color: ht_gn,
+          hilited_key_text_color: hf_gn,
           width: *nk2w,
         }
       # 第二行
@@ -1966,7 +1986,7 @@ preset_keyboards:
           key_back_color: b_gn,
           key_text_color: f_gn,
           hilited_key_back_color: hb_gn,
-          hilited_key_text_color: ht_gn,
+          hilited_key_text_color: hf_gn,
           width: *nk1w,
         }
       - { click: 4, width: *nw }
@@ -1979,7 +1999,7 @@ preset_keyboards:
           key_back_color: b_space,
           key_text_color: f_space,
           hilited_key_back_color: hb_space,
-          hilited_key_text_color: ht_space,
+          hilited_key_text_color: hf_space,
           width: *nk2w,
         }
       # 第三行
@@ -1993,7 +2013,7 @@ preset_keyboards:
           key_back_color: b_gn,
           key_text_color: f_gn,
           hilited_key_back_color: hb_gn,
-          hilited_key_text_color: ht_gn,
+          hilited_key_text_color: hf_gn,
           width: *nk1w,
         }
       - {
@@ -2025,7 +2045,7 @@ preset_keyboards:
           key_back_color: b_backspace,
           key_text_color: f_backspace,
           hilited_key_back_color: hb_backspace,
-          hilited_key_text_color: ht_backspace,
+          hilited_key_text_color: hf_backspace,
           width: *nk2w,
         }
       # 第四行
@@ -2034,7 +2054,7 @@ preset_keyboards:
           key_back_color: b_gn,
           key_text_color: f_gn,
           hilited_key_back_color: hb_gn,
-          hilited_key_text_color: ht_gn,
+          hilited_key_text_color: hf_gn,
           width: *nk1w,
         }
       - {
@@ -2067,6 +2087,6 @@ preset_keyboards:
           key_back_color: b_enter,
           key_text_color: f_enter,
           hilited_key_back_color: hb_enter,
-          hilited_key_text_color: ht_enter,
+          hilited_key_text_color: hf_enter,
           width: *nk2w,
         }
