@@ -40,14 +40,13 @@ style:
     default: ic@keyboard_return
 
   ### 字体
-  text_font: latin.ttf # 编码字体
+  text_font: LXGWWenKai-Regular.ttf # 编码字体
   candidate_font: LXGWWenKai-Regular.ttf # 候选字体
   comment_font: comment.ttf # 候选注释字体
   hanb_font: hanb.ttf # 后备字体。用于补充候选字体（candidate_font）。
-  latin_font: latin.ttf # 候选及候选注释拉丁字体 ※ 当latin_font生效时，拉丁字符（< 0x2e80）就不再由comment_font和candidate_font控制
   key_font: LXGWWenKai-Regular.ttf # 按键字体（click）
   symbol_font: symbol.ttf # 符号字体（long_click 和 hint）
-  popup_font: latin.ttf # 按键提示字体
+  popup_font: LXGWWenKai-Regular.ttf # 按键提示字体
 
   ### 尺寸
   candidate_border: 0 # 候选区域边框宽度
