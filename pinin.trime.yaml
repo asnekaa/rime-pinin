@@ -1374,7 +1374,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: "ic@clipboard"
+      style: "ic@clipboard_text"
       fg_normal: f_button
       fg_hightlight: hf_button
     action: clipboard_window
@@ -1384,7 +1384,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: "ic@cursor_text"
+      style: "‹ɪ›"
       fg_normal: f_button
       fg_hightlight: hf_button
     action: Keyboard_editor
@@ -1452,16 +1452,16 @@ preset_keys:
   redo: { send: Control+Shift+z }
   Keyboard_editor: { send: Eisu_toggle, select: editor }
   Hide: { send: BACK }
-  # 編輯
-  Tab: { label: ic@keyboard_tab, send: Tab }
+  # 编辑
+  Tab: { label: ic@keyboard_tab, preview: "", send: Tab }
   Tab_Reverse: { label: ic@keyboard_tab_reverse, send: Shift+Tab }
-  Shift_L: { label: ic@apple_keyboard_shift, preview: "", send: Shift_L }
+  Shift_L: { label: ic@arrow_up_bold_outline, preview: "", send: Shift_L }
   Shift_L2: { label: ic@apple_keyboard_caps, send: Eisu_toggle, select: caps }
   BackSpace: { label: ⌫, preview: "", repeatable: true, send: BackSpace }
-  BackSpace_word: { label: ⇦, send: Control+BackSpace }
+  BackSpace_Word: { send: Control+BackSpace }
   Delete: { label: ⌦, send: Delete }
   Return: { label: enter_labels, preview: "", send: Return }
-  space:
+  Space:
     {
       label: "ic@keyboard_space",
       preview: "",
@@ -1471,7 +1471,6 @@ preset_keys:
       send: space,
     }
   Escape: { label: Esc, send: ic@keyboard_esc }
-  space1: { label: 空格, repeatable: false, functional: false, send: space }
   Left: { label: "←", send: Left }
   Down: { label: "↓", send: Down }
   Up: { label: "↑", send: Up }
@@ -1857,7 +1856,7 @@ preset_keyboards:
         }
       - {
           click: BackSpace,
-          swipe_left: BackSpace_word,
+          swipe_left: BackSpace_Word,
           swipe_up: Delete,
           swipe_down: Delete,
           key_back_color: b_backspace,
@@ -1897,7 +1896,7 @@ preset_keyboards:
           width: *k5w,
         }
       - {
-          click: space,
+          click: Space,
           long_click: Tab,
           swipe_up: Up,
           swipe_down: Down,
@@ -1908,8 +1907,6 @@ preset_keyboards:
           width: *spacew,
           round_corner: 20,
           key_text_size: 17,
-          key_symbol_offset_x: 0,
-          key_symbol_offset_y: 0,
         }
       - {
           click: ".",
@@ -1972,7 +1969,7 @@ preset_keyboards:
       - { click: 5, width: *nw }
       - { click: 6, width: *nw }
       - {
-          click: space,
+          click: Space,
           swipe_up: Up,
           swipe_down: Down,
           key_back_color: b_space,
@@ -2016,7 +2013,7 @@ preset_keyboards:
         }
       - {
           click: BackSpace,
-          swipe_left: BackSpace_word,
+          swipe_left: BackSpace_Word,
           swipe_up: Delete,
           swipe_down: Delete,
           key_back_color: b_backspace,
