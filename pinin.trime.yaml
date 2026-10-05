@@ -84,9 +84,9 @@ style:
   keyboard_padding_land_bottom: 0 # 横屏模式下，屏幕下边缘与键盘的距离
   keyboard_height: *kbh # 键盘锁定的高度。当每行按键高度、行之间间距之和与此参数存在差异时，键盘自动缩放为锁定的高度。使用此参数可以快速调整键盘高度而无需复杂。当缺少此参数时，键盘高度不做缩放计算。
   keyboard_height_land: 200 # 横屏下键盘锁定的高度，同上
-  key_symbol_offset_x: 9 # 长按符号 x 方向偏移量
+  key_symbol_offset_x: 8 # 长按符号 x 方向偏移量
   key_symbol_offset_y: 1 # 长按符号 y 方向偏移量
-  key_hint_offset_x: 9 # 助记符号 x 方向偏移量
+  key_hint_offset_x: 8 # 助记符号 x 方向偏移量
   key_hint_offset_y: -1 # 助记符号 y 方向偏移量
 
 preedit: # 预编辑文本视图参数
@@ -145,17 +145,6 @@ fallback_colors:
 #  liquid_keyboard_background: keyboard_back_color # liquidKeyboard的背景图/色
 #  text_back_color: back_color #编码区背景，即悬浮窗背景
 #  long_text_back_color: key_back_color #长文本按键的背景(剪贴板）
-
-#颜色
-colors:
-  1: &color1 0xff000000
-  2: &color2 0xffffffff
-  3: &color3 0xffe1e3e7
-  4: &color4 0xffacb2c2
-  5: &color5 0xff131313
-  6: &color6 0xff3266a0
-  7: &color7 0x00
-  8: &color8 0xff838383
 
 pinin_light:
   pl_t: &pl_t 0x5F6368
@@ -1584,7 +1573,6 @@ preset_keyboards:
           swipe_up: Commit_1,
           swipe_down: Commit_1,
           width: *k1w,
-          select: .default,
         }
       - {
           click: ĉ,
@@ -1941,6 +1929,7 @@ preset_keyboards:
           swipe_up: Commit_1,
           swipe_down: Commit_1,
           width: *k1w,
+          select: .default,
         }
       - {
           click: Ĉ,
