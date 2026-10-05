@@ -1946,7 +1946,7 @@ preset_keyboards:
           long_click: Commit_4,
           swipe_up: Tone_1,
           swipe_down: Tone_1,
-          label_symbol: Tone_1,
+          label_symbol: "-",
           width: *k1w,
         }
       - {
@@ -1954,7 +1954,7 @@ preset_keyboards:
           long_click: Commit_5,
           swipe_up: Tone_2,
           swipe_down: Tone_2,
-          label_symbol: Tone_2,
+          label_symbol: "/",
           width: *k1w,
         }
       - {
@@ -1962,7 +1962,7 @@ preset_keyboards:
           long_click: Commit_6,
           swipe_up: Tone_3,
           swipe_down: Tone_3,
-          label_symbol: Tone_3,
+          label_symbol: "|",
           width: *k1w,
         }
       - {
@@ -1970,7 +1970,7 @@ preset_keyboards:
           long_click: Commit_7,
           swipe_up: Tone_4,
           swipe_down: Tone_4,
-          label_symbol: Tone_4,
+          label_symbol: "\\",
           width: *k1w,
         }
       - {
@@ -1978,7 +1978,7 @@ preset_keyboards:
           long_click: Commit_8,
           swipe_up: Variant,
           swipe_down: Variant,
-          label_symbol: Variant,
+          label_symbol: "_",
           width: *k1w,
         }
       - {
