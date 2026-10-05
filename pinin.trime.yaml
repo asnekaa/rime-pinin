@@ -1436,7 +1436,8 @@ preset_keys:
     { label: ic@numeric, preview: "", send: Eisu_toggle, select: number }
   Keyboard_letter: { preview: "", send: Eisu_toggle, select: letter }
   Keyboard_letter_caps: { preview: "", send: Eisu_toggle, select: letter_caps }
-  Keyboard_default: { review: "", send: Eisu_toggle, select: .default }
+  Keyboard_default:
+    { label: 返回, preview: "", send: Eisu_toggle, select: .default }
   Keyboard_switch: { label: ic@web, send: Eisu_toggle, select: .next }
   liquid_keyboard_switch:
     { label: 更多, send: FUNCTION, command: liquid_keyboard, option: "更多" }
@@ -1846,7 +1847,7 @@ preset_keyboards:
           long_click: IME_switch,
           swipe_up: Menu,
           swipe_down: Menu,
-          label: 中,
+          label: "中",
           label_symbol: " ",
           key_back_color: b_keyboard_switch,
           key_text_color: f_keyboard_switch,
@@ -2620,7 +2621,7 @@ preset_keyboards:
           long_click: IME_switch,
           swipe_up: Menu,
           swipe_down: Menu,
-          label: 英,
+          label: "英",
           label_symbol: " ",
           key_back_color: b_keyboard_switch,
           key_text_color: f_keyboard_switch,
@@ -2767,7 +2768,6 @@ preset_keyboards:
       # 第四行
       - {
           click: Keyboard_default,
-          label: 返回,
           key_back_color: b_keyboard_switch,
           key_text_color: f_keyboard_switch,
           hilited_key_back_color: hb_keyboard_switch,
