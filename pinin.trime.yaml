@@ -1522,6 +1522,7 @@ preset_keyboards:
           long_click: Ẑ,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
+          label_symbol: "1",
           width: *k1w,
         }
       - {
@@ -1529,6 +1530,7 @@ preset_keyboards:
           long_click: Ĉ,
           swipe_up: Commit_2,
           swipe_down: Commit_2,
+          label_symbol: "2",
           width: *k1w,
         }
       - {
@@ -1536,6 +1538,7 @@ preset_keyboards:
           long_click: Ŝ,
           swipe_up: Commit_3,
           swipe_down: Commit_3,
+          label_symbol: "3",
           width: *k1w,
         }
       - {
@@ -1578,6 +1581,7 @@ preset_keyboards:
           long_click: Ñ,
           swipe_up: Commit_9,
           swipe_down: Commit_9,
+          label_symbol: "9",
           width: *k1w,
         }
       - {
@@ -1585,15 +1589,24 @@ preset_keyboards:
           long_click: Ŋ,
           swipe_up: Commit_0,
           swipe_down: Commit_0,
+          label_symbol: "0",
           width: *k1w,
         }
       # 第二行
-      - { click: q, long_click: Q, swipe_up: "!", swipe_down: "!", width: *k2w }
+      - {
+          click: q,
+          long_click: Q,
+          swipe_up: "!",
+          swipe_down: "!",
+          label_symbol: "!",
+          width: *k2w,
+        }
       - {
           click: w,
           long_click: W,
           swipe_up: "@",
           swipe_down: ŵ,
+          label_symbol: "@",
           hint: ŵ,
           width: *k2w,
         }
@@ -1602,34 +1615,141 @@ preset_keyboards:
           long_click: E,
           swipe_up: "#",
           swipe_down: ê,
+          label_symbol: "#",
           hint: ê,
           width: *k2w,
         }
-      - { click: r, long_click: R, swipe_up: "$", swipe_down: "$", width: *k2w }
-      - { click: t, long_click: T, swipe_up: "%", swipe_down: "%", width: *k2w }
-      - { click: y, long_click: Y, swipe_up: "^", swipe_down: "^", width: *k2w }
-      - { click: u, long_click: U, swipe_up: "&", swipe_down: "&", width: *k2w }
+      - {
+          click: r,
+          long_click: R,
+          swipe_up: "$",
+          swipe_down: "$",
+          label_symbol: "$",
+          width: *k2w,
+        }
+      - {
+          click: t,
+          long_click: T,
+          swipe_up: "%",
+          swipe_down: "%",
+          label_symbol: "%",
+          width: *k2w,
+        }
+      - {
+          click: y,
+          long_click: Y,
+          swipe_up: "^",
+          swipe_down: "^",
+          label_symbol: "^",
+          width: *k2w,
+        }
+      - {
+          click: u,
+          long_click: U,
+          swipe_up: "&",
+          swipe_down: "&",
+          label_symbol: "&",
+          width: *k2w,
+        }
       - {
           click: i,
           long_click: I,
           swipe_up: "*",
           swipe_down: î,
+          label_symbol: "*",
           hint: î,
           width: *k2w,
         }
-      - { click: o, long_click: O, swipe_up: "(", swipe_down: "(", width: *k2w }
-      - { click: p, long_click: P, swipe_up: ")", swipe_down: ")", width: *k2w }
+      - {
+          click: o,
+          long_click: O,
+          swipe_up: "(",
+          swipe_down: "(",
+          label_symbol: "(",
+          width: *k2w,
+        }
+      - {
+          click: p,
+          long_click: P,
+          swipe_up: ")",
+          swipe_down: ")",
+          label_symbol: ")",
+          width: *k2w,
+        }
       # 第三行
       - { width: 1 }
-      - { click: a, long_click: A, swipe_up: "`", swipe_down: "`", width: *k3w }
-      - { click: s, long_click: S, swipe_up: "~", swipe_down: "~", width: *k3w }
-      - { click: d, long_click: D, swipe_up: "=", swipe_down: "=", width: *k3w }
-      - { click: f, long_click: F, swipe_up: "+", swipe_down: "+", width: *k3w }
-      - { click: g, long_click: G, swipe_up: "[", swipe_down: "[", width: *k3w }
-      - { click: h, long_click: H, swipe_up: "]", swipe_down: "]", width: *k3w }
-      - { click: j, long_click: J, swipe_up: "{", swipe_down: "{", width: *k3w }
-      - { click: k, long_click: K, swipe_up: "}", swipe_down: "}", width: *k3w }
-      - { click: l, long_click: L, swipe_up: ";", swipe_down: ";", width: *k3w }
+      - {
+          click: a,
+          long_click: A,
+          swipe_up: "`",
+          swipe_down: "`",
+          label_symbol: "`",
+          width: *k3w,
+        }
+      - {
+          click: s,
+          long_click: S,
+          swipe_up: "~",
+          swipe_down: "~",
+          label_symbol: "~",
+          width: *k3w,
+        }
+      - {
+          click: d,
+          long_click: D,
+          swipe_up: "=",
+          swipe_down: "=",
+          label_symbol: "=",
+          width: *k3w,
+        }
+      - {
+          click: f,
+          long_click: F,
+          swipe_up: "+",
+          swipe_down: "+",
+          label_symbol: "+",
+          width: *k3w,
+        }
+      - {
+          click: g,
+          long_click: G,
+          swipe_up: "[",
+          swipe_down: "[",
+          label_symbol: "[",
+          width: *k3w,
+        }
+      - {
+          click: h,
+          long_click: H,
+          swipe_up: "]",
+          swipe_down: "]",
+          label_symbol: "]",
+          width: *k3w,
+        }
+      - {
+          click: j,
+          long_click: J,
+          swipe_up: "{",
+          swipe_down: "{",
+          label_symbol: "{",
+          width: *k3w,
+        }
+      - {
+          click: k,
+          long_click: K,
+          swipe_up: "}",
+          swipe_down: "}",
+          label_symbol: "}",
+          width: *k3w,
+        }
+      - {
+          click: l,
+          long_click: L,
+          swipe_up: ";",
+          swipe_down: ";",
+          label_symbol: ";",
+          width: *k3w,
+        }
       - { width: 1 }
       # 第四行
       - {
@@ -1649,34 +1769,59 @@ preset_keyboards:
       - {
           click: z,
           long_click: Z,
-          swipe_up: "select_all",
-          swipe_down: "select_all",
+          swipe_up: select_all,
+          swipe_down: select_all,
+          label_symbol: ic@select_all,
           width: *k4w,
         }
       - {
           click: x,
           long_click: X,
-          swipe_up: "cut",
-          swipe_down: "cut",
+          swipe_up: cut,
+          swipe_down: cut,
+          label_symbol: ic@cut,
           width: *k4w,
         }
       - {
           click: c,
           long_click: C,
-          swipe_up: "copy",
-          swipe_down: "copy",
+          swipe_up: copy,
+          swipe_down: copy,
+          label_symbol: ic@copy,
           width: *k4w,
         }
       - {
           click: v,
           long_click: V,
-          swipe_up: "paste",
+          swipe_up: paste,
           swipe_down: paste,
+          label_symbol: ic@paste,
           width: *k4w,
         }
-      - { click: b, long_click: B, swipe_up: ":", swipe_down: ":", width: *k4w }
-      - { click: n, long_click: N, swipe_up: '"', swipe_down: '"', width: *k4w }
-      - { click: m, long_click: M, swipe_up: "?", swipe_down: "?", width: *k4w }
+      - {
+          click: b,
+          long_click: B,
+          swipe_up: ":",
+          swipe_down: ":",
+          label_symbol: ":",
+          width: *k4w,
+        }
+      - {
+          click: n,
+          long_click: N,
+          swipe_up: '"',
+          swipe_down: '"',
+          label_symbol: '"',
+          width: *k4w,
+        }
+      - {
+          click: m,
+          long_click: M,
+          swipe_up: "?",
+          swipe_down: "?",
+          label_symbol: "?",
+          width: *k4w,
+        }
       - {
           click: BackSpace,
           swipe_left: BackSpace_Word,
@@ -1764,6 +1909,7 @@ preset_keyboards:
           long_click: ẑ,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
+          label_symbol: "1",
           width: *k1w,
         }
       - {
@@ -1771,6 +1917,7 @@ preset_keyboards:
           long_click: ĉ,
           swipe_up: Commit_2,
           swipe_down: Commit_2,
+          label_symbol: "2",
           width: *k1w,
         }
       - {
@@ -1778,6 +1925,7 @@ preset_keyboards:
           long_click: š,
           swipe_up: Commit_3,
           swipe_down: Commit_3,
+          label_symbol: "3",
           width: *k1w,
         }
       - {
@@ -1820,6 +1968,7 @@ preset_keyboards:
           long_click: ñ,
           swipe_up: Commit_9,
           swipe_down: Commit_9,
+          label_symbol: "9",
           width: *k1w,
         }
       - {
@@ -1827,15 +1976,24 @@ preset_keyboards:
           long_click: ŋ,
           swipe_up: Commit_0,
           swipe_down: Commit_0,
+          label_symbol: "0",
           width: *k1w,
         }
       # 第二行
-      - { click: Q, long_click: q, swipe_up: "!", swipe_down: "!", width: *k2w }
+      - {
+          click: Q,
+          long_click: q,
+          swipe_up: "!",
+          swipe_down: "!",
+          label_symbol: "!",
+          width: *k2w,
+        }
       - {
           click: W,
           long_click: w,
           swipe_up: "@",
           swipe_down: Ŵ,
+          label_symbol: "@",
           hint: Ŵ,
           width: *k2w,
         }
@@ -1844,38 +2002,145 @@ preset_keyboards:
           long_click: e,
           swipe_up: "#",
           swipe_down: Ê,
+          label_symbol: "#",
           hint: Ê,
           width: *k2w,
         }
-      - { click: R, long_click: r, swipe_up: "$", swipe_down: "$", width: *k2w }
-      - { click: T, long_click: t, swipe_up: "%", swipe_down: "%", width: *k2w }
-      - { click: Y, long_click: y, swipe_up: "^", swipe_down: "^", width: *k2w }
-      - { click: U, long_click: u, swipe_up: "&", swipe_down: "&", width: *k2w }
+      - {
+          click: R,
+          long_click: r,
+          swipe_up: "$",
+          swipe_down: "$",
+          label_symbol: "$",
+          width: *k2w,
+        }
+      - {
+          click: T,
+          long_click: t,
+          swipe_up: "%",
+          swipe_down: "%",
+          label_symbol: "%",
+          width: *k2w,
+        }
+      - {
+          click: Y,
+          long_click: y,
+          swipe_up: "^",
+          swipe_down: "^",
+          label_symbol: "^",
+          width: *k2w,
+        }
+      - {
+          click: U,
+          long_click: u,
+          swipe_up: "&",
+          swipe_down: "&",
+          label_symbol: "&",
+          width: *k2w,
+        }
       - {
           click: I,
           long_click: i,
           swipe_up: "*",
           swipe_down: Î,
+          label_symbol: "*",
           hint: Î,
           width: *k2w,
         }
-      - { click: O, long_click: o, swipe_up: "(", swipe_down: "(", width: *k2w }
-      - { click: P, long_click: p, swipe_up: ")", swipe_down: ")", width: *k2w }
+      - {
+          click: O,
+          long_click: o,
+          swipe_up: "(",
+          swipe_down: "(",
+          label_symbol: "(",
+          width: *k2w,
+        }
+      - {
+          click: P,
+          long_click: p,
+          swipe_up: ")",
+          swipe_down: ")",
+          label_symbol: ")",
+          width: *k2w,
+        }
       # 第三行
       - { width: 1 }
-      - { click: A, long_click: a, swipe_up: "`", swipe_down: "`", width: *k3w }
-      - { click: S, long_click: s, swipe_up: "~", swipe_down: "~", width: *k3w }
-      - { click: D, long_click: d, swipe_up: "=", swipe_down: "=", width: *k3w }
-      - { click: F, long_click: f, swipe_up: "+", swipe_down: "+", width: *k3w }
-      - { click: G, long_click: g, swipe_up: "[", swipe_down: "[", width: *k3w }
-      - { click: H, long_click: h, swipe_up: "]", swipe_down: "]", width: *k3w }
-      - { click: J, long_click: j, swipe_up: "{", swipe_down: "{", width: *k3w }
-      - { click: K, long_click: k, swipe_up: "}", swipe_down: "}", width: *k3w }
-      - { click: L, long_click: l, swipe_up: ";", swipe_down: ";", width: *k3w }
+      - {
+          click: A,
+          long_click: a,
+          swipe_up: "`",
+          swipe_down: "`",
+          label_symbol: "`",
+          width: *k3w,
+        }
+      - {
+          click: S,
+          long_click: s,
+          swipe_up: "~",
+          swipe_down: "~",
+          label_symbol: "~",
+          width: *k3w,
+        }
+      - {
+          click: D,
+          long_click: d,
+          swipe_up: "=",
+          swipe_down: "=",
+          label_symbol: "=",
+          width: *k3w,
+        }
+      - {
+          click: F,
+          long_click: f,
+          swipe_up: "+",
+          swipe_down: "+",
+          label_symbol: "+",
+          width: *k3w,
+        }
+      - {
+          click: G,
+          long_click: g,
+          swipe_up: "[",
+          swipe_down: "[",
+          label_symbol: "[",
+          width: *k3w,
+        }
+      - {
+          click: H,
+          long_click: h,
+          swipe_up: "]",
+          swipe_down: "]",
+          label_symbol: "]",
+          width: *k3w,
+        }
+      - {
+          click: J,
+          long_click: j,
+          swipe_up: "{",
+          swipe_down: "{",
+          label_symbol: "{",
+          width: *k3w,
+        }
+      - {
+          click: K,
+          long_click: k,
+          swipe_up: "}",
+          swipe_down: "}",
+          label_symbol: "}",
+          width: *k3w,
+        }
+      - {
+          click: L,
+          long_click: l,
+          swipe_up: ";",
+          swipe_down: ";",
+          label_symbol: ";",
+          width: *k3w,
+        }
       - { width: 1 }
       # 第四行
       - {
-          click: keyboard_default,
+          click: Keyboard_default,
           long_click: Shift_L,
           double_click: Shift_L,
           swipe_up: "'",
@@ -1891,34 +2156,59 @@ preset_keyboards:
       - {
           click: Z,
           long_click: z,
-          swipe_up: "select_all",
-          swipe_down: "select_all",
+          swipe_up: select_all,
+          swipe_down: select_all,
+          label_symbol: ic@select_all,
           width: *k4w,
         }
       - {
           click: X,
           long_click: x,
-          swipe_up: "cut",
-          swipe_down: "cut",
+          swipe_up: cut,
+          swipe_down: cut,
+          label_symbol: ic@cut,
           width: *k4w,
         }
       - {
           click: C,
           long_click: c,
-          swipe_up: "copy",
-          swipe_down: "copy",
+          swipe_up: copy,
+          swipe_down: copy,
+          label_symbol: ic@copy,
           width: *k4w,
         }
       - {
           click: V,
           long_click: v,
-          swipe_up: "paste",
+          swipe_up: paste,
           swipe_down: paste,
+          label_symbol: ic@paste,
           width: *k4w,
         }
-      - { click: B, long_click: b, swipe_up: ":", swipe_down: ":", width: *k4w }
-      - { click: N, long_click: n, swipe_up: '"', swipe_down: '"', width: *k4w }
-      - { click: M, long_click: m, swipe_up: "?", swipe_down: "?", width: *k4w }
+      - {
+          click: B,
+          long_click: b,
+          swipe_up: ":",
+          swipe_down: ":",
+          label_symbol: ":",
+          width: *k4w,
+        }
+      - {
+          click: N,
+          long_click: n,
+          swipe_up: '"',
+          swipe_down: '"',
+          label_symbol: '"',
+          width: *k4w,
+        }
+      - {
+          click: M,
+          long_click: m,
+          swipe_up: "?",
+          swipe_down: "?",
+          label_symbol: "?",
+          width: *k4w,
+        }
       - {
           click: BackSpace,
           swipe_left: BackSpace_Word,
