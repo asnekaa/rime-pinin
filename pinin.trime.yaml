@@ -1385,7 +1385,7 @@ preset_keys:
   # 编辑
   Tab: { label: ic@keyboard_tab, send: Tab }
   Tab_Reverse: { label: ic@keyboard_tab_reverse, send: Shift+Tab }
-  Shift_L: { label: ic@arrow_up_bold_outline, preview: "", send: Shift_L }
+  Shift_L: { label: ic@arrow_up_bold_outline, preview: "", send: "" }
   Caps:
     {
       label: ic@apple_keyboard_shift,
