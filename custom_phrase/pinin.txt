@@ -233,6 +233,7 @@
 标签	bio-q
 标志	bio-ẑ
 表	bio|
+表示	bioŝi
 变	biw
 变成	bĉ
 编	biw-

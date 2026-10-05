@@ -1357,7 +1357,6 @@ tool_bar:
       style: "\uE0D0"
       fg_normal: f_button
       fg_hightlight: hf_button
-      # font_size: 14
     action: Hide
 
   emoji_button: &emoji_button
@@ -1365,7 +1364,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: ic@emoticon
+      style: ic@emoticon_outline
       fg_normal: f_button
       fg_hightlight: hf_button
     action: liquid_keyboard_emoji
@@ -1375,7 +1374,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: ic@clipboard_text
+      style: ic@clipboard_text_outline
       fg_normal: f_button
       fg_hightlight: hf_button
     action: clipboard_window
@@ -1388,7 +1387,7 @@ tool_bar:
       style: "\uE1C1"
       fg_normal: f_button
       fg_hightlight: hf_button
-      font_size: 20
+      font_size: 25
     action: Keyboard_editor
 
   # ascii_mode_button: &ascii_mode_button
@@ -1408,7 +1407,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      option_styles: [ic@moon_full, ic@moon_new]
+      option_styles: [ic@moon_new, ic@moon_full]
       fg_normal: f_button
       fg_hightlight: hf_button
     action: Zenkaku_Hankaku
