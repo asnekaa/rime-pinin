@@ -2233,7 +2233,7 @@ preset_keyboards:
           long_click: IME_switch,
           swipe_up: Menu,
           swipe_down: Menu,
-          label: 英,
+          label: "英",
           label_symbol: " ",
           key_back_color: b_keyboard_switch,
           key_text_color: f_keyboard_switch,
