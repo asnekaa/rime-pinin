@@ -88,6 +88,7 @@
 喜欢	xihuw
 修改	xiugai
 选项	xywxiv
+选择	xywze
 选中	xywẑuŋ
 最终	zueẑuŋ
 词首	ciŝou
@@ -307,6 +308,7 @@
 第一	dii
 点	diw
 对	due
+对应	dueiñ
 东西	dx
 
 太	tai
@@ -362,6 +364,7 @@
 
 果然	gr
 改	gai
+改为	gaiue
 改回来	gaihl/
 改成	gĉ
 给	gei
@@ -490,6 +493,7 @@
 上下	ŝvxia
 
 写	xie
+小写	xioxie
 小时	xioŝ/
 先	xiw
 显示	xŝ

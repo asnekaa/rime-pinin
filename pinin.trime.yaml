@@ -84,9 +84,9 @@ style:
   keyboard_padding_land_bottom: 0 # 横屏模式下，屏幕下边缘与键盘的距离
   keyboard_height: *kbh # 键盘锁定的高度。当每行按键高度、行之间间距之和与此参数存在差异时，键盘自动缩放为锁定的高度。使用此参数可以快速调整键盘高度而无需复杂。当缺少此参数时，键盘高度不做缩放计算。
   keyboard_height_land: 200 # 横屏下键盘锁定的高度，同上
-  key_symbol_offset_x: 8 # 长按符号 x 方向偏移量
+  key_symbol_offset_x: 7 # 长按符号 x 方向偏移量
   key_symbol_offset_y: 1 # 长按符号 y 方向偏移量
-  key_hint_offset_x: 8 # 助记符号 x 方向偏移量
+  key_hint_offset_x: 7 # 助记符号 x 方向偏移量
   key_hint_offset_y: -1 # 助记符号 y 方向偏移量
 
 preedit: # 预编辑文本视图参数
@@ -1434,9 +1434,7 @@ preset_keys:
   Tab: { label: ic@keyboard_tab, send: Tab }
   Tab_Reverse: { label: ic@keyboard_tab_reverse, send: Shift+Tab }
   Shift_L: { label: ic@arrow_up_bold_outline, preview: "", send: Shift_L }
-  Shift_Off: { send: Eisu_toggle, preview: "", select: .default }
-  Shift_Once: { send: Eisu_toggle, preview: "", select: shift_once }
-  Shift_Caps: { send: Eisu_toggle, preview: "", select: shift_caps }
+  Caps: { send: Eisu_toggle, preview: "", select: caps }
   BackSpace: { label: ⌫, preview: "", repeatable: true, send: BackSpace }
   BackSpace_Word: { send: Control+BackSpace }
   Delete: { label: ⌦, send: Delete }
@@ -1569,21 +1567,21 @@ preset_keyboards:
       # 第一行
       - {
           click: ẑ,
-          long_click: Commit_1,
+          long_click: Ẑ,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
           width: *k1w,
         }
       - {
           click: ĉ,
-          long_click: Commit_2,
+          long_click: Ĉ,
           swipe_up: Commit_2,
           swipe_down: Commit_2,
           width: *k1w,
         }
       - {
           click: ŝ,
-          long_click: Commit_3,
+          long_click: Ŝ,
           swipe_up: Commit_3,
           swipe_down: Commit_3,
           width: *k1w,
@@ -1625,14 +1623,14 @@ preset_keyboards:
         }
       - {
           click: ñ,
-          long_click: Commit_9,
+          long_click: Ñ,
           swipe_up: Commit_9,
           swipe_down: Commit_9,
           width: *k1w,
         }
       - {
           click: ŋ,
-          long_click: Commit_0,
+          long_click: Ŋ,
           swipe_up: Commit_0,
           swipe_down: Commit_0,
           width: *k1w,
@@ -1640,14 +1638,14 @@ preset_keyboards:
       # 第二行
       - {
           click: q,
-          long_click: "!",
+          long_click: Q,
           swipe_up: "!",
           swipe_down: "!",
           width: *k2w,
         }
       - {
           click: w,
-          long_click: "@",
+          long_click: W,
           swipe_up: "@",
           swipe_down: ŵ,
           hint: ŵ,
@@ -1655,7 +1653,7 @@ preset_keyboards:
         }
       - {
           click: e,
-          long_click: "#",
+          long_click: E,
           swipe_up: "#",
           swipe_down: ê,
           hint: ê,
@@ -1663,35 +1661,35 @@ preset_keyboards:
         }
       - {
           click: r,
-          long_click: "$",
+          long_click: R,
           swipe_up: "$",
           swipe_down: "$",
           width: *k2w,
         }
       - {
           click: t,
-          long_click: "%",
+          long_click: T,
           swipe_up: "%",
           swipe_down: "%",
           width: *k2w,
         }
       - {
           click: y,
-          long_click: "^",
+          long_click: Y,
           swipe_up: "^",
           swipe_down: "^",
           width: *k2w,
         }
       - {
           click: u,
-          long_click: "&",
+          long_click: U,
           swipe_up: "&",
           swipe_down: "&",
           width: *k2w,
         }
       - {
           click: i,
-          long_click: "*",
+          long_click: I,
           swipe_up: "*",
           swipe_down: î,
           hint: î,
@@ -1699,14 +1697,14 @@ preset_keyboards:
         }
       - {
           click: o,
-          long_click: "(",
+          long_click: O,
           swipe_up: "(",
           swipe_down: "(",
           width: *k2w,
         }
       - {
           click: p,
-          long_click: ")",
+          long_click: P,
           swipe_up: ")",
           swipe_down: ")",
           width: *k2w,
@@ -1715,63 +1713,63 @@ preset_keyboards:
       - { width: 1 }
       - {
           click: a,
-          long_click: "`",
+          long_click: A,
           swipe_up: "`",
           swipe_down: "`",
           width: *k3w,
         }
       - {
           click: s,
-          long_click: "~",
+          long_click: S,
           swipe_up: "~",
           swipe_down: "~",
           width: *k3w,
         }
       - {
           click: d,
-          long_click: "=",
+          long_click: D,
           swipe_up: "=",
           swipe_down: "=",
           width: *k3w,
         }
       - {
           click: f,
-          long_click: "+",
+          long_click: F,
           swipe_up: "+",
           swipe_down: "+",
           width: *k3w,
         }
       - {
           click: g,
-          long_click: "[",
+          long_click: G,
           swipe_up: "[",
           swipe_down: "[",
           width: *k3w,
         }
       - {
           click: h,
-          long_click: "]",
+          long_click: H,
           swipe_up: "]",
           swipe_down: "]",
           width: *k3w,
         }
       - {
           click: j,
-          long_click: "{",
+          long_click: J,
           swipe_up: "{",
           swipe_down: "{",
           width: *k3w,
         }
       - {
           click: k,
-          long_click: "}",
+          long_click: K,
           swipe_up: "}",
           swipe_down: "}",
           width: *k3w,
         }
       - {
           click: l,
-          long_click: ";",
+          long_click: L,
           swipe_up: ";",
           swipe_down: ";",
           width: *k3w,
@@ -1779,12 +1777,12 @@ preset_keyboards:
       - { width: 1 }
       # 第四行
       - {
-          click: Shift_Once,
+          click: Caps,
           long_click: Shift_L,
-          double_click: Shift_Caps,
+          double_click: Shift_L,
           swipe_up: "'",
           swipe_down: "'",
-          label: ic@arrow_up_bold_outline,
+          label: ic@apple-keyboard-shift,
           label_symbol: "'",
           key_back_color: b_shift,
           key_text_color: f_shift,
@@ -1794,49 +1792,49 @@ preset_keyboards:
         }
       - {
           click: z,
-          long_click: "select_all",
+          long_click: Z,
           swipe_up: "select_all",
           swipe_down: "select_all",
           width: *k4w,
         }
       - {
           click: x,
-          long_click: cut,
+          long_click: X,
           swipe_up: "cut",
           swipe_down: "cut",
           width: *k4w,
         }
       - {
           click: c,
-          long_click: copy,
+          long_click: C,
           swipe_up: "copy",
           swipe_down: "copy",
           width: *k4w,
         }
       - {
           click: v,
-          long_click: paste,
+          long_click: V,
           swipe_up: "paste",
           swipe_down: paste,
           width: *k4w,
         }
       - {
           click: b,
-          long_click: ":",
+          long_click: B,
           swipe_up: ":",
           swipe_down: ":",
           width: *k4w,
         }
       - {
           click: n,
-          long_click: '"',
+          long_click: N,
           swipe_up: '"',
           swipe_down: '"',
           width: *k4w,
         }
       - {
           click: m,
-          long_click: "?",
+          long_click: M,
           swipe_up: "?",
           swipe_down: "?",
           width: *k4w,
@@ -1916,31 +1914,30 @@ preset_keyboards:
           key_text_size: *enters,
         }
 
-  shift_once:
-    name: Pinin_shift_once
+  caps:
+    name: Pinin_Caps
     author: ASneka
-    ascii_mode: 1
+    ascii_mode: 0
     height: 1
     keys:
       # 第一行
       - {
           click: Ẑ,
-          long_click: Commit_1,
+          long_click: ẑ,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
           width: *k1w,
-          select: .default,
         }
       - {
           click: Ĉ,
-          long_click: Commit_2,
+          long_click: ĉ,
           swipe_up: Commit_2,
           swipe_down: Commit_2,
           width: *k1w,
         }
       - {
           click: Ŝ,
-          long_click: Commit_3,
+          long_click: š,
           swipe_up: Commit_3,
           swipe_down: Commit_3,
           width: *k1w,
@@ -1982,14 +1979,14 @@ preset_keyboards:
         }
       - {
           click: Ñ,
-          long_click: Commit_9,
+          long_click: ñ,
           swipe_up: Commit_9,
           swipe_down: Commit_9,
           width: *k1w,
         }
       - {
           click: Ŋ,
-          long_click: Commit_0,
+          long_click: ŋ,
           swipe_up: Commit_0,
           swipe_down: Commit_0,
           width: *k1w,
@@ -1997,14 +1994,14 @@ preset_keyboards:
       # 第二行
       - {
           click: Q,
-          long_click: "!",
+          long_click: q,
           swipe_up: "!",
           swipe_down: "!",
           width: *k2w,
         }
       - {
           click: W,
-          long_click: "@",
+          long_click: w,
           swipe_up: "@",
           swipe_down: Ŵ,
           hint: Ŵ,
@@ -2012,7 +2009,7 @@ preset_keyboards:
         }
       - {
           click: E,
-          long_click: "#",
+          long_click: e,
           swipe_up: "#",
           swipe_down: Ê,
           hint: Ê,
@@ -2020,35 +2017,35 @@ preset_keyboards:
         }
       - {
           click: R,
-          long_click: "$",
+          long_click: r,
           swipe_up: "$",
           swipe_down: "$",
           width: *k2w,
         }
       - {
           click: T,
-          long_click: "%",
+          long_click: t,
           swipe_up: "%",
           swipe_down: "%",
           width: *k2w,
         }
       - {
           click: Y,
-          long_click: "^",
+          long_click: y,
           swipe_up: "^",
           swipe_down: "^",
           width: *k2w,
         }
       - {
           click: U,
-          long_click: "&",
+          long_click: u,
           swipe_up: "&",
           swipe_down: "&",
           width: *k2w,
         }
       - {
           click: I,
-          long_click: "*",
+          long_click: i,
           swipe_up: "*",
           swipe_down: Î,
           hint: Î,
@@ -2056,14 +2053,14 @@ preset_keyboards:
         }
       - {
           click: O,
-          long_click: "(",
+          long_click: o,
           swipe_up: "(",
           swipe_down: "(",
           width: *k2w,
         }
       - {
           click: P,
-          long_click: ")",
+          long_click: p,
           swipe_up: ")",
           swipe_down: ")",
           width: *k2w,
@@ -2072,63 +2069,63 @@ preset_keyboards:
       - { width: 1 }
       - {
           click: A,
-          long_click: "`",
+          long_click: a,
           swipe_up: "`",
           swipe_down: "`",
           width: *k3w,
         }
       - {
           click: S,
-          long_click: "~",
+          long_click: s,
           swipe_up: "~",
           swipe_down: "~",
           width: *k3w,
         }
       - {
           click: D,
-          long_click: "=",
+          long_click: d,
           swipe_up: "=",
           swipe_down: "=",
           width: *k3w,
         }
       - {
           click: F,
-          long_click: "+",
+          long_click: f,
           swipe_up: "+",
           swipe_down: "+",
           width: *k3w,
         }
       - {
           click: G,
-          long_click: "[",
+          long_click: g,
           swipe_up: "[",
           swipe_down: "[",
           width: *k3w,
         }
       - {
           click: H,
-          long_click: "]",
+          long_click: h,
           swipe_up: "]",
           swipe_down: "]",
           width: *k3w,
         }
       - {
           click: J,
-          long_click: "{",
+          long_click: j,
           swipe_up: "{",
           swipe_down: "{",
           width: *k3w,
         }
       - {
           click: K,
-          long_click: "}",
+          long_click: k,
           swipe_up: "}",
           swipe_down: "}",
           width: *k3w,
         }
       - {
           click: L,
-          long_click: ";",
+          long_click: l,
           swipe_up: ";",
           swipe_down: ";",
           width: *k3w,
@@ -2136,12 +2133,12 @@ preset_keyboards:
       - { width: 1 }
       # 第四行
       - {
-          click: Shift_Off,
+          click: keyboard_default,
           long_click: Shift_L,
-          double_click: Shift_Caps,
+          double_click: Shift_L,
           swipe_up: "'",
           swipe_down: "'",
-          label: ic@arrow_up_bold,
+          label: ic@apple-keyboard-caps,
           label_symbol: "'",
           key_back_color: b_shift,
           key_text_color: f_shift,
@@ -2151,49 +2148,49 @@ preset_keyboards:
         }
       - {
           click: Z,
-          long_click: "select_all",
+          long_click: z,
           swipe_up: "select_all",
           swipe_down: "select_all",
           width: *k4w,
         }
       - {
           click: X,
-          long_click: cut,
+          long_click: x,
           swipe_up: "cut",
           swipe_down: "cut",
           width: *k4w,
         }
       - {
           click: C,
-          long_click: copy,
+          long_click: c,
           swipe_up: "copy",
           swipe_down: "copy",
           width: *k4w,
         }
       - {
           click: V,
-          long_click: paste,
+          long_click: v,
           swipe_up: "paste",
           swipe_down: paste,
           width: *k4w,
         }
       - {
           click: B,
-          long_click: ":",
+          long_click: b,
           swipe_up: ":",
           swipe_down: ":",
           width: *k4w,
         }
       - {
           click: N,
-          long_click: '"',
+          long_click: n,
           swipe_up: '"',
           swipe_down: '"',
           width: *k4w,
         }
       - {
           click: M,
-          long_click: "?",
+          long_click: m,
           swipe_up: "?",
           swipe_down: "?",
           width: *k4w,
