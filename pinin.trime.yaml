@@ -1385,7 +1385,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: "\uE1C1"
+      style: "\ue1c1"
       fg_normal: f_button
       fg_hightlight: hf_button
       font_size: 30
