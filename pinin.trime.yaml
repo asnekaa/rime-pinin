@@ -1325,7 +1325,7 @@ liquid_keyboard:
       ]
 
 tool_bar:
-  button_spacing: 2 # 其他按键水平间隙
+  button_spacing: 3 # 其他按键水平间隙
   button_font: iconfont.ttf # 按键字体设置
   back_style: ic@menu_left # 左侧返回按钮样式
 
@@ -1357,6 +1357,7 @@ tool_bar:
       style: ic@chevron_down
       fg_normal: f_button
       fg_hightlight: hf_button
+      font_size: 20
     action: Hide
 
   emoji_button: &emoji_button
@@ -1387,7 +1388,7 @@ tool_bar:
       style: ‹ɪ›
       fg_normal: f_button
       fg_hightlight: hf_button
-      font_size: 50
+      font_size: 40
     action: Keyboard_editor
 
   # ascii_mode_button: &ascii_mode_button
