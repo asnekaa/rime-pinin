@@ -1524,7 +1524,7 @@ number_keyboard_width:
 
 # 键盘布局
 preset_keyboards:
-  default:
+  pinin:
     name: Pinin
     author: ASneka
     ascii_mode: 0
