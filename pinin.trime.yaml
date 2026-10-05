@@ -24,7 +24,7 @@ style:
   candidate_use_cursor: false # 候选焦点高亮（true:打开;false:关闭）
   comment_on_top: false # 候选项注释在上方或右侧 （true:在上方；false:在右侧）
   horizontal: true # 水平模式。改变方向键的功能 （true：方向键适配横排候选；false：方向键适配竖排候选）
-  keyboards: [.default, letter, number, edit, numberb] # 键盘配置。除主键盘外，其它需要用到的键盘都要在这里声明。
+  keyboards: [.default, shift_once, shift_caps, letter, number, edit, numberb] # 键盘配置。除主键盘外，其它需要用到的键盘都要在这里声明。
   proximity_correction: false # 将按键之间的空白区域分配给相邻的按键，避免空按（true:打开；false:关闭）
   # background_folder: # 背景图路径，即保存在 background 的哪个子目录。 使用此参数可以方便管理多个主题的图片（当然也可以指定多个主题共用一套图片）。
   reset_ascii_mode: true # 不同进程中显示键盘时重置为中文状态（true:重置为中文；false:记忆中英状态）
@@ -1445,9 +1445,9 @@ preset_keys:
   Tab: { label: ic@keyboard_tab, send: Tab }
   Tab_Reverse: { label: ic@keyboard_tab_reverse, send: Shift+Tab }
   Shift_L: { label: ic@arrow_up_bold_outline, preview: "", send: Shift_L }
-  Shift_Off: { send: Eisu_toggle, select: .default }
-  Shift_Once: { send: Eisu_toggle, select: shift_once }
-  Shift_Caps: { send: Eisu_toggle, select: shift_caps }
+  Shift_Off: { send: Eisu_toggle, preview: "", select: .default }
+  Shift_Once: { send: Eisu_toggle, preview: "", select: shift_once }
+  Shift_Caps: { send: Eisu_toggle, preview: "", select: shift_caps }
   BackSpace: { label: ⌫, preview: "", repeatable: true, send: BackSpace }
   BackSpace_Word: { send: Control+BackSpace }
   Delete: { label: ⌦, send: Delete }
@@ -1943,7 +1943,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Ẑ,
+          click: Ĉ,
           long_click: Commit_2,
           swipe_up: Commit_2,
           swipe_down: Commit_2,
@@ -1957,35 +1957,35 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Tone_1,
+          click: "-",
           long_click: Commit_4,
           swipe_up: Commit_4,
           swipe_down: Commit_4,
           width: *k1w,
         }
       - {
-          click: Tone_2,
+          click: "/",
           long_click: Commit_5,
           swipe_up: Commit_5,
           swipe_down: Commit_5,
           width: *k1w,
         }
       - {
-          click: Tone_3,
+          click: "|",
           long_click: Commit_6,
           swipe_up: Commit_6,
           swipe_down: Commit_6,
           width: *k1w,
         }
       - {
-          click: Tone_4,
+          click: "\\",
           long_click: Commit_7,
           swipe_up: Commit_7,
           swipe_down: Commit_7,
           width: *k1w,
         }
       - {
-          click: Variant,
+          click: "_",
           long_click: Commit_8,
           swipe_up: Commit_8,
           swipe_down: Commit_8,
