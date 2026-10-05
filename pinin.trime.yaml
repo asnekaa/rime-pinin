@@ -1922,7 +1922,7 @@ preset_keyboards:
           long_click: Ẑ,
           swipe_up: ẑ,
           swipe_down: ẑ,
-          label_symbol: Commit_1,
+          label_symbol: ẑ,
           width: *k1w,
         }
       - {
@@ -1930,7 +1930,7 @@ preset_keyboards:
           long_click: Ĉ,
           swipe_up: ĉ,
           swipe_down: ĉ,
-          label_symbol: Commit_2,
+          label_symbol: ĉ,
           width: *k1w,
         }
       - {
@@ -1938,7 +1938,7 @@ preset_keyboards:
           long_click: Ŝ,
           swipe_up: ŝ,
           swipe_down: ŝ,
-          label_symbol: Commit_3,
+          label_symbol: ŝ,
           width: *k1w,
         }
       - {
@@ -1946,7 +1946,7 @@ preset_keyboards:
           long_click: Commit_4,
           swipe_up: Tone_1,
           swipe_down: Tone_1,
-          label_symbol: Commit_4,
+          label_symbol: Tone_1,
           width: *k1w,
         }
       - {
@@ -1954,7 +1954,7 @@ preset_keyboards:
           long_click: Commit_5,
           swipe_up: Tone_2,
           swipe_down: Tone_2,
-          label_symbol: Commit_5,
+          label_symbol: Tone_2,
           width: *k1w,
         }
       - {
@@ -1962,7 +1962,7 @@ preset_keyboards:
           long_click: Commit_6,
           swipe_up: Tone_3,
           swipe_down: Tone_3,
-          label_symbol: Commit_6,
+          label_symbol: Tone_3,
           width: *k1w,
         }
       - {
@@ -1970,7 +1970,7 @@ preset_keyboards:
           long_click: Commit_7,
           swipe_up: Tone_4,
           swipe_down: Tone_4,
-          label_symbol: Commit_7,
+          label_symbol: Tone_4,
           width: *k1w,
         }
       - {
@@ -1978,7 +1978,7 @@ preset_keyboards:
           long_click: Commit_8,
           swipe_up: Variant,
           swipe_down: Variant,
-          label_symbol: Commit_8,
+          label_symbol: Variant,
           width: *k1w,
         }
       - {
@@ -1986,7 +1986,7 @@ preset_keyboards:
           long_click: Ñ,
           swipe_up: ñ,
           swipe_down: ñ,
-          label_symbol: Commit_9,
+          label_symbol: ñ,
           width: *k1w,
         }
       - {
@@ -1994,7 +1994,7 @@ preset_keyboards:
           long_click: Ŋ,
           swipe_up: ŋ,
           swipe_down: ŋ,
-          label_symbol: Commit_0,
+          label_symbol: ŋ,
           width: *k1w,
         }
       # 第二行
@@ -2252,7 +2252,7 @@ preset_keyboards:
           long_click: IME_switch,
           swipe_up: Menu,
           swipe_down: Menu,
-          label: 中,
+          label: 日,
           label_symbol: " ",
           key_back_color: b_keyboard_switch,
           key_text_color: f_keyboard_switch,
