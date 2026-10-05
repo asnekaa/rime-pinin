@@ -2333,35 +2333,35 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: Tone_1,
+          click: "-",
           long_click: Commit_4,
           swipe_up: Commit_4,
           swipe_down: Commit_4,
           width: *k1w,
         }
       - {
-          click: Tone_2,
+          click: "/",
           long_click: Commit_5,
           swipe_up: Commit_5,
           swipe_down: Commit_5,
           width: *k1w,
         }
       - {
-          click: Tone_3,
+          click: "|",
           long_click: Commit_6,
           swipe_up: Commit_6,
           swipe_down: Commit_6,
           width: *k1w,
         }
       - {
-          click: Tone_4,
+          click: "\\",
           long_click: Commit_7,
           swipe_up: Commit_7,
           swipe_down: Commit_7,
           width: *k1w,
         }
       - {
-          click: Variant,
+          click: "_",
           long_click: Commit_8,
           swipe_up: Commit_8,
           swipe_down: Commit_8,
