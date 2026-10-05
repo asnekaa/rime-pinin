@@ -1866,9 +1866,9 @@ preset_keyboards:
       - {
           click: Space,
           long_click: Tab,
-          label_symbol: "",
           swipe_up: Up,
           swipe_down: Down,
+          label_symbol: " ",
           key_back_color: b_space,
           key_text_color: f_space,
           hilited_key_back_color: hb_space,
