@@ -1327,7 +1327,7 @@ liquid_keyboard:
 tool_bar:
   button_spacing: 1 # 其他按键水平间隙
   button_font: iconfont.ttf # 按键字体设置
-  back_style: "ic@menu_left" # 左侧返回按钮样式
+  back_style: ic@menu_left # 左侧返回按钮样式
 
   # 主按键
   primary_button:
@@ -1341,7 +1341,7 @@ tool_bar:
       horizontal_inset: 4 # 垂直方向上按键背景内距（距离左右两侧边框距离）
     # 前景样式
     foreground:
-      style: "ic@dots_horizontal" # 按键图标样式
+      style: ic@dots_horizontal # 按键图标样式
       fg_normal: f_primary_button # 一般状态下按键前景配色
       fg_highlight: hf_primary_button # 按下状态下按键前景配色
       padding: 10 # 按键内距（距离上下左右边框距离）
@@ -1354,7 +1354,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: "ic@chevron_down"
+      style: ic@chevron_down
       fg_normal: f_button
       fg_hightlight: hf_button
     action: Hide
@@ -1364,7 +1364,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: "ic@emoticon"
+      style: ic@emoticon
       fg_normal: f_button
       fg_hightlight: hf_button
     action: liquid_keyboard_emoji
@@ -1374,7 +1374,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: "ic@clipboard_text"
+      style: ic@clipboard_text
       fg_normal: f_button
       fg_hightlight: hf_button
     action: clipboard_window
@@ -1384,7 +1384,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: "‹ic@cursor_text›"
+      style: ‹I›
       fg_normal: f_button
       fg_hightlight: hf_button
     action: Keyboard_editor
@@ -1406,7 +1406,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      option_styles: ["ic@moon_full", "ic@moon_new"]
+      option_styles: [ic@moon_full, ic@moon_new]
       fg_normal: f_button
       fg_hightlight: hf_button
     action: Zenkaku_Hankaku
@@ -1416,7 +1416,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: "ic@redo"
+      style: ic@redo
       fg_normal: f_button
       fg_hightlight: hf_button
       font_size: 14
@@ -1427,7 +1427,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: "ic@undo"
+      style: ic@undo
       fg_normal: f_button
       fg_hightlight: hf_button
       font_size: 14
@@ -1463,7 +1463,7 @@ preset_keys:
   Return: { label: enter_labels, preview: "", send: Return }
   Space:
     {
-      label: "ic@keyboard_space",
+      label: ic@keyboard_space,
       preview: "",
       repeatable: false,
       slide_cursor: true,

@@ -55,6 +55,7 @@
 配置	peiẑ
 模式	moŝi
 服务	fuu
+符号	fuhao
 复制	fuẑi
 复杂	fuza
 单独	dwdu
