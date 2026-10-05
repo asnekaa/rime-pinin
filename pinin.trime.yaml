@@ -1384,7 +1384,7 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: "‹ɪ›"
+      style: "‹ic@cursor_text›"
       fg_normal: f_button
       fg_hightlight: hf_button
     action: Keyboard_editor
@@ -1453,7 +1453,7 @@ preset_keys:
   Keyboard_editor: { send: Eisu_toggle, select: editor }
   Hide: { send: BACK }
   # 编辑
-  Tab: { label: ic@keyboard_tab, preview: "", send: Tab }
+  Tab: { label: ic@keyboard_tab, send: Tab }
   Tab_Reverse: { label: ic@keyboard_tab_reverse, send: Shift+Tab }
   Shift_L: { label: ic@arrow_up_bold_outline, preview: "", send: Shift_L }
   Shift_L2: { label: ic@apple_keyboard_caps, send: Eisu_toggle, select: caps }
@@ -1898,6 +1898,7 @@ preset_keyboards:
       - {
           click: Space,
           long_click: Tab,
+          label_symbol: "",
           swipe_up: Up,
           swipe_down: Down,
           key_back_color: b_space,
