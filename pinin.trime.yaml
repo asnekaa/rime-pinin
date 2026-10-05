@@ -1354,10 +1354,10 @@ tool_bar:
       bg_normal: b_button
       bg_hightlight: hb_button
     foreground:
-      style: ic@chevron_down
+      style: "\uE0D0"
       fg_normal: f_button
       fg_hightlight: hf_button
-      font_size: 14
+      # font_size: 14
     action: Hide
 
   emoji_button: &emoji_button
@@ -1388,6 +1388,7 @@ tool_bar:
       style: "\uE1C1"
       fg_normal: f_button
       fg_hightlight: hf_button
+      font_size: 20
     action: Keyboard_editor
 
   # ascii_mode_button: &ascii_mode_button
