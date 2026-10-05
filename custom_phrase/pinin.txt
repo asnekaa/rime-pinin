@@ -143,8 +143,8 @@
 
 安	w_
 安全带	wqywdai
-安卓	w_ẑ
 安卓	wẑo
+安装	wẑuv
 按	w
 按键	wjiw
 按照	wẑ
@@ -509,6 +509,7 @@
 自定义	zdi
 自己	zj
 字	zi\
+字体	ziti
 左边	zob
 在	z
 在此之前	zcẑq
