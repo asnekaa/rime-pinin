@@ -1944,40 +1944,40 @@ preset_keyboards:
       - {
           click: Commit_4,
           long_click: Commit_4,
-          swipe_up: Tone_1,
-          swipe_down: Tone_1,
+          swipe_up: "-",
+          swipe_down: "-",
           label_symbol: "-",
           width: *k1w,
         }
       - {
           click: Commit_5,
           long_click: Commit_5,
-          swipe_up: Tone_2,
-          swipe_down: Tone_2,
+          swipe_up: "/",
+          swipe_down: "/",
           label_symbol: "/",
           width: *k1w,
         }
       - {
           click: Commit_6,
           long_click: Commit_6,
-          swipe_up: Tone_3,
-          swipe_down: Tone_3,
+          swipe_up: "|",
+          swipe_down: "|",
           label_symbol: "|",
           width: *k1w,
         }
       - {
           click: Commit_7,
           long_click: Commit_7,
-          swipe_up: Tone_4,
-          swipe_down: Tone_4,
+          swipe_up: "\\",
+          swipe_down: "\\",
           label_symbol: "\\",
           width: *k1w,
         }
       - {
           click: Commit_8,
           long_click: Commit_8,
-          swipe_up: Variant,
-          swipe_down: Variant,
+          swipe_up: "_",
+          swipe_down: "_",
           label_symbol: "_",
           width: *k1w,
         }
