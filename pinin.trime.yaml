@@ -1753,6 +1753,7 @@ preset_keyboards:
           long_click: ŵ,
           swipe_up: "@",
           swipe_down: "@",
+          label_symbol: "@",
           hint: ŵ,
           width: *k2w,
         }
@@ -1761,6 +1762,7 @@ preset_keyboards:
           long_click: ê,
           swipe_up: "#",
           swipe_down: "#",
+          label_symbol: "#",
           hint: ê,
           width: *k2w,
         }
@@ -1797,6 +1799,7 @@ preset_keyboards:
           long_click: î,
           swipe_up: "*",
           swipe_down: "*",
+          label_symbol: "*",
           hint: î,
           width: *k2w,
         }
