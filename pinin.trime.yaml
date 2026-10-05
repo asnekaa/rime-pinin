@@ -1326,7 +1326,7 @@ liquid_keyboard:
 
 tool_bar:
   button_spacing: 4 # 其他按键水平间隙
-  button_font: iconfont.ttf # 按键字体设置
+  button_font: [iconfont.ttf, abcde.ttf] # 按键字体设置
   back_style: ic@menu_left # 左侧返回按钮样式
 
   # 主按键
