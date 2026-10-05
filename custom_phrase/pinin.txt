@@ -506,9 +506,10 @@
 像	x\
 像要	x\io
 行	x
-行吧
+行吧	xb
 行不行	xbx
 行吗	xm
+行了	xl
 
 需	xy
 需要	xyio

@@ -1478,11 +1478,11 @@ preset_keys:
   Menu: { label: 方案, preview: "", send: MENU }
   Settings: { label: 設定, send: SETTINGS }
   Schema_settings: { label: 方案, send: SETTINGS, option: "schema" }
-  ẑ: { label: ẑ, preview: ẑ, send: "1" }
-  ĉ: { label: ĉ, preview: ĉ, send: "2" }
-  ŝ: { label: ŝ, preview: ŝ, send: "3" }
-  ñ: { label: ñ, preview: ñ, send: "9" }
-  ŋ: { label: ŋ, preview: ñ, send: "0" }
+  ẑ_key: { label: ẑ, preview: ẑ, send: "1" }
+  ĉ_key: { label: ĉ, preview: ĉ, send: "2" }
+  ŝ_key: { label: ŝ, preview: ŝ, send: "3" }
+  ñ_key: { label: ñ, preview: ñ, send: "9" }
+  ŋ_key: { label: ŋ, preview: ŋ, send: "0" }
   Tone_1: { label: "-", preview: "-", send: "4" }
   Tone_2: { label: "/", preview: "/", send: "5" }
   Tone_3: { label: "|", preview: "|", send: "6" }
@@ -1532,7 +1532,7 @@ preset_keyboards:
     keys:
       # 第一行
       - {
-          click: ẑ,
+          click: ẑ_key,
           long_click: Ẑ,
           swipe_up: Commit_1,
           swipe_down: Commit_1,
@@ -1540,7 +1540,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ĉ,
+          click: ĉ_key,
           long_click: Ĉ,
           swipe_up: Commit_2,
           swipe_down: Commit_2,
@@ -1548,7 +1548,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ŝ,
+          click: ŝ_key,
           long_click: Ŝ,
           swipe_up: Commit_3,
           swipe_down: Commit_3,
@@ -1591,7 +1591,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ñ,
+          click: ñ_key,
           long_click: Ñ,
           swipe_up: Commit_9,
           swipe_down: Commit_9,
@@ -1599,7 +1599,7 @@ preset_keyboards:
           width: *k1w,
         }
       - {
-          click: ŋ,
+          click: ŋ_key,
           long_click: Ŋ,
           swipe_up: Commit_0,
           swipe_down: Commit_0,
@@ -1951,7 +1951,7 @@ preset_keyboards:
         }
       - {
           click: Commit_5,
-          long_click: Commit_5,
+          long_click: "/",
           swipe_up: "/",
           swipe_down: "/",
           label_symbol: "/",
@@ -1959,7 +1959,7 @@ preset_keyboards:
         }
       - {
           click: Commit_6,
-          long_click: Commit_6,
+          long_click: "|",
           swipe_up: "|",
           swipe_down: "|",
           label_symbol: "|",
@@ -1967,7 +1967,7 @@ preset_keyboards:
         }
       - {
           click: Commit_7,
-          long_click: Commit_7,
+          long_click: "\\",
           swipe_up: "\\",
           swipe_down: "\\",
           label_symbol: "\\",
@@ -1975,7 +1975,7 @@ preset_keyboards:
         }
       - {
           click: Commit_8,
-          long_click: Commit_8,
+          long_click: "_",
           swipe_up: "_",
           swipe_down: "_",
           label_symbol: "_",
@@ -3042,7 +3042,7 @@ preset_keyboards:
       - {
           click: Space,
           long_click: Tab,
-          label_symbol: "",
+          label_symbol: " ",
           swipe_up: Up,
           swipe_down: Down,
           key_back_color: b_space,
