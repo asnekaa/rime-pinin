@@ -1909,6 +1909,397 @@ preset_keyboards:
           round_corner: *rc,
           key_text_size: *enters,
         }
+        
+  kagiroi:
+    name: かぎろい
+    author: ASneka
+    ascii_mode: 0
+    height: 1
+    keys:
+      # 第一行
+      - {
+          click: Commit_1,
+          long_click: Ẑ,
+          swipe_up: ẑ,
+          swipe_down: ẑ,
+          label_symbol: Commit_1,
+          width: *k1w,
+        }
+      - {
+          click: Commit_2,
+          long_click: Ĉ,
+          swipe_up: ĉ,
+          swipe_down: ĉ,
+          label_symbol: Commit_2,
+          width: *k1w,
+        }
+      - {
+          click: Commit_3,
+          long_click: Ŝ,
+          swipe_up: ŝ,
+          swipe_down: ŝ,
+          label_symbol: Commit_3,
+          width: *k1w,
+        }
+      - {
+          click: Commit_4,
+          long_click: Commit_4,
+          swipe_up: Tone_1,
+          swipe_down: Tone_1,
+          label_symbol: Commit_4,
+          width: *k1w,
+        }
+      - {
+          click: Commit_5,
+          long_click: Commit_5,
+          swipe_up: Tone_2,
+          swipe_down: Tone_2,
+          label_symbol: Commit_5,
+          width: *k1w,
+        }
+      - {
+          click: Commit_6,
+          long_click: Commit_6,
+          swipe_up: Tone_3,
+          swipe_down: Tone_3,
+          label_symbol: Commit_6,
+          width: *k1w,
+        }
+      - {
+          click: Commit_7,
+          long_click: Commit_7,
+          swipe_up: Tone_4,
+          swipe_down: Tone_4,
+          label_symbol: Commit_7,
+          width: *k1w,
+        }
+      - {
+          click: Commit_8,
+          long_click: Commit_8,
+          swipe_up: Variant,
+          swipe_down: Variant,
+          label_symbol: Commit_8,
+          width: *k1w,
+        }
+      - {
+          click: Commit_9,
+          long_click: Ñ,
+          swipe_up: ñ,
+          swipe_down: ñ,
+          label_symbol: Commit_9,
+          width: *k1w,
+        }
+      - {
+          click: Commit_0,
+          long_click: Ŋ,
+          swipe_up: ŋ,
+          swipe_down: ŋ,
+          label_symbol: Commit_0,
+          width: *k1w,
+        }
+      # 第二行
+      - {
+          click: q,
+          long_click: Q,
+          swipe_up: "!",
+          swipe_down: "!",
+          label_symbol: "!",
+          width: *k2w,
+        }
+      - {
+          click: w,
+          long_click: W,
+          swipe_up: "@",
+          swipe_down: ŵ,
+          label_symbol: "@",
+          hint: ŵ,
+          width: *k2w,
+        }
+      - {
+          click: e,
+          long_click: E,
+          swipe_up: "#",
+          swipe_down: ê,
+          label_symbol: "#",
+          hint: ê,
+          width: *k2w,
+        }
+      - {
+          click: r,
+          long_click: R,
+          swipe_up: "$",
+          swipe_down: "$",
+          label_symbol: "$",
+          width: *k2w,
+        }
+      - {
+          click: t,
+          long_click: T,
+          swipe_up: "%",
+          swipe_down: "%",
+          label_symbol: "%",
+          width: *k2w,
+        }
+      - {
+          click: y,
+          long_click: Y,
+          swipe_up: "^",
+          swipe_down: "^",
+          label_symbol: "^",
+          width: *k2w,
+        }
+      - {
+          click: u,
+          long_click: U,
+          swipe_up: "&",
+          swipe_down: "&",
+          label_symbol: "&",
+          width: *k2w,
+        }
+      - {
+          click: i,
+          long_click: I,
+          swipe_up: "*",
+          swipe_down: î,
+          label_symbol: "*",
+          hint: î,
+          width: *k2w,
+        }
+      - {
+          click: o,
+          long_click: O,
+          swipe_up: "(",
+          swipe_down: "(",
+          label_symbol: "(",
+          width: *k2w,
+        }
+      - {
+          click: p,
+          long_click: P,
+          swipe_up: ")",
+          swipe_down: ")",
+          label_symbol: ")",
+          width: *k2w,
+        }
+      # 第三行
+      - { width: 1 }
+      - {
+          click: a,
+          long_click: A,
+          swipe_up: "`",
+          swipe_down: "`",
+          label_symbol: "`",
+          width: *k3w,
+        }
+      - {
+          click: s,
+          long_click: S,
+          swipe_up: "~",
+          swipe_down: "~",
+          label_symbol: "~",
+          width: *k3w,
+        }
+      - {
+          click: d,
+          long_click: D,
+          swipe_up: "=",
+          swipe_down: "=",
+          label_symbol: "=",
+          width: *k3w,
+        }
+      - {
+          click: f,
+          long_click: F,
+          swipe_up: "+",
+          swipe_down: "+",
+          label_symbol: "+",
+          width: *k3w,
+        }
+      - {
+          click: g,
+          long_click: G,
+          swipe_up: "[",
+          swipe_down: "[",
+          label_symbol: "[",
+          width: *k3w,
+        }
+      - {
+          click: h,
+          long_click: H,
+          swipe_up: "]",
+          swipe_down: "]",
+          label_symbol: "]",
+          width: *k3w,
+        }
+      - {
+          click: j,
+          long_click: J,
+          swipe_up: "{",
+          swipe_down: "{",
+          label_symbol: "{",
+          width: *k3w,
+        }
+      - {
+          click: k,
+          long_click: K,
+          swipe_up: "}",
+          swipe_down: "}",
+          label_symbol: "}",
+          width: *k3w,
+        }
+      - {
+          click: l,
+          long_click: L,
+          swipe_up: ";",
+          swipe_down: ";",
+          label_symbol: ";",
+          width: *k3w,
+        }
+      - { width: 1 }
+      # 第四行
+      - {
+          click: Caps,
+          long_click: Shift_L,
+          double_click: Shift_L,
+          swipe_up: "'",
+          swipe_down: "'",
+          label_symbol: "'",
+          key_back_color: b_shift,
+          key_text_color: f_shift,
+          hilited_key_back_color: hb_shift,
+          hilited_key_text_color: hf_shift,
+          width: *shiftw,
+        }
+      - {
+          click: z,
+          long_click: Z,
+          swipe_up: select_all,
+          swipe_down: select_all,
+          label_symbol: ic@select_all,
+          width: *k4w,
+        }
+      - {
+          click: x,
+          long_click: X,
+          swipe_up: cut,
+          swipe_down: cut,
+          label_symbol: ic@content_cut,
+          width: *k4w,
+        }
+      - {
+          click: c,
+          long_click: C,
+          swipe_up: copy,
+          swipe_down: copy,
+          label_symbol: ic@content_copy,
+          width: *k4w,
+        }
+      - {
+          click: v,
+          long_click: V,
+          swipe_up: paste,
+          swipe_down: paste,
+          label_symbol: ic@content_paste,
+          width: *k4w,
+        }
+      - {
+          click: b,
+          long_click: B,
+          swipe_up: ":",
+          swipe_down: ":",
+          label_symbol: ":",
+          width: *k4w,
+        }
+      - {
+          click: n,
+          long_click: N,
+          swipe_up: '"',
+          swipe_down: '"',
+          label_symbol: '"',
+          width: *k4w,
+        }
+      - {
+          click: m,
+          long_click: M,
+          swipe_up: "?",
+          swipe_down: "?",
+          label_symbol: "?",
+          width: *k4w,
+        }
+      - {
+          click: BackSpace,
+          swipe_left: BackSpace_Word,
+          swipe_up: Delete,
+          swipe_down: Delete,
+          key_back_color: b_backspace,
+          key_text_color: f_backspace,
+          hilited_key_back_color: hb_backspace,
+          hilited_key_text_color: hf_backspace,
+          width: *bsw,
+        }
+      # 第五行
+      - {
+          click: Keyboard_number,
+          key_back_color: b_keyboard_switch,
+          key_text_color: f_keyboard_switch,
+          hilited_key_back_color: hb_keyboard_switch,
+          hilited_key_text_color: hf_keyboard_switch,
+          width: *kbsw,
+          round_corner: *rc,
+        }
+      - {
+          click: Keyboard_letter,
+          long_click: IME_switch,
+          swipe_up: Menu,
+          swipe_down: Menu,
+          label: 中,
+          label_symbol: " ",
+          key_back_color: b_keyboard_switch,
+          key_text_color: f_keyboard_switch,
+          hilited_key_back_color: hb_keyboard_switch,
+          hilited_key_text_color: hf_keyboard_switch,
+          width: *kbsw,
+          round_corner: *rc,
+        }
+      - {
+          click: ",",
+          long_click: "<",
+          swipe_up: "<",
+          swipe_down: "<",
+          width: *k5w,
+        }
+      - {
+          click: Space,
+          long_click: Tab,
+          swipe_up: Up,
+          swipe_down: Down,
+          label_symbol: " ",
+          key_back_color: b_space,
+          key_text_color: f_space,
+          hilited_key_back_color: hb_space,
+          hilited_key_text_color: hf_space,
+          width: *spacew,
+          round_corner: *rc,
+          key_text_size: *spaces,
+        }
+      - {
+          click: ".",
+          long_click: ">",
+          swipe_up: ">",
+          swipe_down: ">",
+          width: *k5w,
+        }
+      - {
+          click: Return,
+          swipe_up: Escape,
+          key_back_color: b_enter,
+          key_text_color: f_enter,
+          hilited_key_back_color: hb_enter,
+          hilited_key_text_color: hf_enter,
+          width: *enterw,
+          round_corner: *rc,
+          key_text_size: *enters,
+        }
 
   letter:
     name: Pinin_letter
