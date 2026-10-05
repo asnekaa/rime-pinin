@@ -1357,7 +1357,7 @@ tool_bar:
       style: ic@chevron_down
       fg_normal: f_button
       fg_hightlight: hf_button
-      font_size: 15
+      font_size: 14
     action: Hide
 
   emoji_button: &emoji_button
