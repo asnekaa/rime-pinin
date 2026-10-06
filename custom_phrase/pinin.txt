@@ -43,6 +43,7 @@
 优化	iuhua
 颜色	iwse
 颜色值	iwseẑi
+扬抑符	ivifu
 伪造	uezao
 忘记	uvji
 文本	uñbñ
@@ -110,6 +111,7 @@
 转义	ẑuwi
 插入	ĉaru
 车辆	ĉeliv
+常见	ĉvjiw
 处于	ĉuy
 删除	ŝwĉu
 声调	ŝñdio
@@ -197,6 +199,7 @@
 要不然	ibr
 要么	iom
 要求	ioqiu
+要是	ioŝ
 有	iu
 有点	iud
 有一些	iix
@@ -219,6 +222,7 @@
 完美	uwm
 完美	uwmei
 完全	uq
+完整	uwẑñ
 晚上	uwŝv
 
 文件	uj
@@ -289,6 +293,7 @@
 没有	miu
 没问题	mut
 没用	my
+没关系	mgx
 没什么	mŝm
 每个	meige
 明白	mb
@@ -456,6 +461,7 @@
 后	hou
 后面	h\m
 后面	houm
+候选	houxyw
 候选项	hxx
 回	hue
 回来	huel/
@@ -522,6 +528,7 @@
 写	xie
 小写	xioxie
 小时	xioŝ/
+效果	xiog
 先	xiw
 显示	xŝ
 现在	xz
@@ -598,6 +605,7 @@
 超载	ĉaozai
 出来	ĉul/
 出来	ĉulai
+出现	ĉuxiw
 除非	ĉufei
 除了	ĉul
 重新	ĉx

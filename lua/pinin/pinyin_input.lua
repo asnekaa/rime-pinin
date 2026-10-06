@@ -53,7 +53,6 @@ end
 
 local function replace_input(ctx, input)
     ctx:clear()
-
     if input ~= '' then
         ctx:push_input(input)
     end
@@ -69,18 +68,19 @@ local function restore_original(input)
     return table.concat(result)
 end
 
-local function commit_first_candidate(ctx, env)
+local function commit_candidate(ctx, env, index)
     if not ctx:has_menu() then
         return false
     end
 
-    local segment = ctx.composition:back()
+    local candidate
 
-    if not segment then
-        return false
+    if index ~= nil then
+        local segment = ctx.composition:back()
+        candidate = segment and segment:get_candidate_at(index)
+    else
+        candidate = ctx:get_selected_candidate()
     end
-
-    local candidate = segment:get_candidate_at(0)
 
     if not candidate or not candidate.text or candidate.text == '' then
         return false
@@ -102,6 +102,18 @@ function M.func(key, env)
     local repr = key:repr()
 
     if ctx:get_option('ascii_mode') then
+        return 2
+    end
+
+    if repr == 'space' then
+        if input == '' then
+            return 2
+        end
+
+        if commit_candidate(ctx, env) then
+            return 1
+        end
+
         return 2
     end
 
@@ -154,7 +166,7 @@ function M.func(key, env)
         end
 
         if input ~= '' then
-            commit_first_candidate(ctx, env)
+            commit_candidate(ctx, env, 0)
         end
 
         env.engine:commit_text(sym)
