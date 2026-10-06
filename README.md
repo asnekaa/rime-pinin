@@ -20,7 +20,7 @@ git clone git@github.com:asnekaa/rime-pinin.git; if ($?) { cd rime-pinin; .\othe
 
 ---
 
-## Pinin
+## Piñiñ
 
 <table>
 <thead>

@@ -43,8 +43,7 @@
 优化	iuhua
 颜色	iwse
 颜色值	iwseẑi
-音	iñ
-音乐	iñye
+伪造	uezao
 忘记	uvji
 文本	uñbñ
 于	y/
@@ -54,6 +53,7 @@
 补丁	budiñ
 配置	peiẑ
 模式	moŝi
+翻译	fwi
 服务	fuu
 符号	fuhao
 复制	fuẑi
@@ -67,8 +67,10 @@
 短语	duwy
 特殊	teŝu
 调试	tioŝi
+娘	niv
 弄	nuŋ
 裸体	loti
+类似	leisi
 国庆	goqiñ
 感谢	gwxie
 光标	guvbio
@@ -83,6 +85,7 @@
 结合	jiehe
 键盘	jiwpw
 进入	jiñru
+卷舌	jywŝe
 期待	qidai
 区别	qybie
 确定	qyediñ
@@ -92,12 +95,13 @@
 选择	xywze
 选中	xywẑuŋ
 最终	zueẑuŋ
-词首	ciŝou
 操作	caozo
 参数	cwŝu
+词首	ciŝou
 促音	cuiñ
 色	se
 锁定	sodiñ
+遮挡	ẑedv
 支付	ẑifu
 主副	ẑufu
 主人	ẑurñ
@@ -105,6 +109,7 @@
 注释	ẑuŝi
 转义	ẑuwi
 插入	ĉaru
+车辆	ĉeliv
 处于	ĉuy
 删除	ŝwĉu
 声调	ŝñdio
@@ -112,6 +117,7 @@
 生效	ŝñxio
 睡觉	ŝuejio
 数字	ŝuzi
+人数	rñŝu
 日志	riẑi
 
 而	ar
@@ -146,7 +152,9 @@
 安	w_
 安全带	wqywdai
 安卓	wẑo
+安卓	w_ẑo
 安装	wẑuv
+安装	w_ẑuv
 按	w
 按键	wjiw
 按照	wẑ
@@ -154,23 +162,28 @@
 按住	wẑu
 长按	ĉvw
 
+一	i
 一样	ii
 一般	ib
 一点	id
 一定	idiñ
 一行	ihv
 一会	ih
-一下	ixia
+一下	ixia	1
 一些	ix
 一起	iqi
 一次	ic
+依然	ir
 依然	irw
+以	i|
 以外	iui
 以为	iue
 以后	ih\
 以后	ihou
 以及	iji
 以前	iq
+以上	iŝv
+以下	ixia
 已经	ij
 意思	is
 
@@ -190,10 +203,12 @@
 有一次	iic
 有用	iuy
 有没有	imi
-有个	iug
+有个	iuge
 有些	iux
 有种	iuẑ
-右边	iub
+右边	iubiw
+音	iñ
+音乐	iñye
 因为	iñue
 应该	iñg
 
@@ -237,6 +252,7 @@
 表	bio|
 表示	bioŝi
 变	biw
+变体	biwti
 变成	bĉ
 编	biw-
 编码	biwm
@@ -260,9 +276,13 @@
 不想	bx|
 不像	bx\
 不行	bx
+不算	bs
 不知道	bẑd
 不是	bŝ
 不然	br
+
+拼音	piñiñ
+普通	pt
 
 默认	mr
 没	mei
@@ -270,7 +290,7 @@
 没问题	mut
 没用	my
 没什么	mŝm
-每个	meig
+每个	meige
 明白	mb
 
 发现	fx
@@ -325,12 +345,14 @@
 哪么	n|m
 哪里	n|l
 哪个	n|g
+哪个	n|ge
 哪些	n|x
 那	n\
 那有	n\iu
 那么	n\m
 那里	n\l
 那个	n\g
+那个	n\ge
 那些	n\x
 怎	zñ
 怎样	zi
@@ -344,13 +366,13 @@
 这里	ẑl
 这么	ẑm
 这个	ẑg
+这个	ẑge
 这些	ẑx
 
 内容	nr
 能	n
 能不能	nbn
 能够	ng
-娘	niv
 
 来	l/
 来	lai
@@ -359,14 +381,14 @@
 里面	lm
 聊天	lt
 
-个	g
-一个	ig
-两个	lg
+过	g
+个	ge
+一个	ige
+两个	lge
 
 果然	gr
 改	gai
 改为	gaiue
-改回来	gaihl/
 改成	gĉ
 给	gei
 搞	gao
@@ -383,7 +405,7 @@
 关于	gy
 功能	gn
 
-可	ke
+可	k
 可爱	kai
 可以	ki
 可用	ky
@@ -436,6 +458,8 @@
 后面	houm
 候选项	hxx
 回	hue
+回来	huel/
+回来	huelai
 回关	hueguw
 回车	hueĉe
 会	h
@@ -445,8 +469,9 @@
 基本上	jbŝ
 记得	jid
 记得	jide
+既然	jir
 加	jia
-加个	jiag
+加个	jiage
 脚本	jb
 
 就	j
@@ -459,15 +484,15 @@
 就算	js
 就是	jŝ
 
+间接	jiwjie-
 简洁	jiwjie/
 简介	jiwjie\
-间接	jiwjie-
 经常	jĉ
 竟然	jr
 居然	jr	1
 觉得	jd
 
-其余	qy_
+其余	qiy
 其他	qt
 其它	qta
 其实	qŝ
@@ -478,10 +503,11 @@
 去	qy
 却	qye
 全部	qb
+全面	qmiw
 全面	qywmiw
 全角	qywjio
 
-系统	xt
+系统	xit
 
 下	xia
 下午	xiau
@@ -514,17 +540,17 @@
 需	xy
 需要	xyio
 
-自定义	zdi
-自己	zj
-字	zi\
-字体	ziti
-左边	zob
+左边	zobiw
 在	z
 在此之前	zcẑq
 再	z_
 再见	z_j
 再次	z_c
 早上	zaoŝv
+自定义	zdi
+自己	zj
+字	zi\
+字体	ziti
 总	zuŋ
 总是	zuŋŝ
 
@@ -535,13 +561,20 @@
 所以	si
 所有	siu
 虽然	sr
+算	s
 算了	sl
 
+真的	ẑd
+真正	ẑẑ
+整理	ẑñli
+整个	ẑñge
+正在	ẑz
+正常	ẑĉ
 之后	ẑh\
 之后	ẑhou
 支持	ẑiĉi	1
 
-只	ẑ|
+只	ẑ
 只要	ẑio
 只有	ẑiu
 只用	ẑy
@@ -551,12 +584,6 @@
 只是	ẑŝ
 
 直接	ẑj
-真的	ẑd
-真正	ẑẑ
-整理	ẑñli
-整个	ẑñg
-正在	ẑz
-正常	ẑĉ
 状态	ẑuvt
 状态	ẑuvtai
 中	ẑuŋ
@@ -565,13 +592,23 @@
 中秋	ẑuŋqiu
 
 差不多	ĉbd
+超过	ĉaog
 超级简拼	ĉjjp
+超速	ĉaosu
+超载	ĉaozai
 出来	ĉul/
 出来	ĉulai
 除非	ĉufei
 除了	ĉul
 重新	ĉx
 
+说	ŝo
+甚至	ŝẑ
+什么	ŝm
+什么意思	ŝmis
+什么用	ŝmy
+什么东西	ŝmdx
+什么时候	ŝmŝh
 是	ŝ
 是不是	ŝbŝ
 时	ŝ/
@@ -581,13 +618,6 @@
 试一试	ŝiŝ
 视频	ŝp
 事情	ŝq
-说	ŝo
-甚至	ŝẑ
-什么	ŝm
-什么意思	ŝmis
-什么用	ŝmy
-什么东西	ŝmdx
-什么时候	ŝmŝh
 输出	ŝuĉu
 输入	ŝr
 输入	ŝuru
