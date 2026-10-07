@@ -1550,7 +1550,6 @@ preset_keyboards:
           swipe_down: Commit_2,
           label_symbol: "2",
           width: *k1w,
-          key_text_offset_y: *offset,
         }
       - {
           click: ŝ_key,
@@ -1559,7 +1558,6 @@ preset_keyboards:
           swipe_down: Commit_3,
           label_symbol: "3",
           width: *k1w,
-          key_text_offset_y: *offset,
         }
       - {
           click: Tone_1,
@@ -1567,7 +1565,6 @@ preset_keyboards:
           swipe_up: Commit_4,
           swipe_down: Commit_4,
           width: *k1w,
-          key_text_offset_y: *offset,
         }
       - {
           click: Tone_2,
@@ -1575,7 +1572,6 @@ preset_keyboards:
           swipe_up: Commit_5,
           swipe_down: Commit_5,
           width: *k1w,
-          key_text_offset_y: *offset,
         }
       - {
           click: Tone_3,
@@ -1583,7 +1579,6 @@ preset_keyboards:
           swipe_up: Commit_6,
           swipe_down: Commit_6,
           width: *k1w,
-          key_text_offset_y: *offset,
         }
       - {
           click: Tone_4,
@@ -1591,7 +1586,6 @@ preset_keyboards:
           swipe_up: Commit_7,
           swipe_down: Commit_7,
           width: *k1w,
-          key_text_offset_y: *offset,
         }
       - {
           click: Variant,
@@ -1599,7 +1593,6 @@ preset_keyboards:
           swipe_up: Commit_8,
           swipe_down: Commit_8,
           width: *k1w,
-          key_text_offset_y: *offset,
         }
       - {
           click: ñ_key,
@@ -1608,7 +1601,6 @@ preset_keyboards:
           swipe_down: Commit_9,
           label_symbol: "9",
           width: *k1w,
-          key_text_offset_y: *offset,
         }
       - {
           click: ŋ_key,
@@ -1617,7 +1609,6 @@ preset_keyboards:
           swipe_down: Commit_0,
           label_symbol: "0",
           width: *k1w,
-          key_text_offset_y: *offset,
         }
       # 第二行
       - {
@@ -1627,7 +1618,6 @@ preset_keyboards:
           swipe_down: "!",
           label_symbol: "!",
           width: *k2w,
-          key_text_offset_y: *offset,
         }
       - {
           click: w,
