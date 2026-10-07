@@ -1507,10 +1507,10 @@ keyboard:
   shiftw: &shiftw 15
   bsw: &bsw 15
   kbsw: &kbsw 12
-  commaw: &commaw 12
+  commaw: &commaw 11
   spacew: &spacew 36
-  dotw: &dotw 12
-  enterw: &enterw 16
+  dotw: &dotw 11
+  enterw: &enterw 18
   rc: &rc 20
   spaces: &spaces 17
   enters: &enters 17
