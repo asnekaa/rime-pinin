@@ -30,14 +30,14 @@
 么	me
 的	d
 了	l
-咯	l·
+咯	l`
 恩	ñ
 嗯	ŋ
 呢	ne
 啦	la
 哈	ha
 哼	hŋ
-着	ẑ·
+着	ẑ`
 
 额外	eui
 优化	iuhua
@@ -164,20 +164,37 @@
 按住	wẑu
 长按	ĉvw
 
-一	i
-一样	ii
-一般	ib
-一点	id
-一定	idiñ
-一行	ihv
-一会	ih
-一下	ixia	1
-一些	ix
-一起	iqi
-一次	ic
+一	.1
+一样	.1i
+一样	.ii
+一般	.1b
+一般	.ib
+一点	.1d
+一点	.id
+一定	.1diñ
+一定	.idiñ
+一个	.1ge
+一个	.ige
+两个	.2ge
+两个	.lge
+一行	.1hv
+一行	.ihv
+一会	.1h
+一会	.ih
+一下	.1xia	1
+一下	.ixia	1
+一些	.1x
+一些	.ix
+一起	.1q
+一起	.iq
+一次	.1c
+一次	.ic
+第一	dii
+第一	di.1
+
 依然	ir
 依然	irw
-以	i|
+以	i
 以外	iui
 以为	iue
 以后	ih\
@@ -331,7 +348,6 @@
 都是	douŝ
 但是	dŝ
 当然	dr
-第一	dii
 点	diw
 对	due
 对应	dueiñ
@@ -388,8 +404,6 @@
 
 过	g
 个	ge
-一个	ige
-两个	lge
 
 果然	gr
 改	gai
@@ -424,7 +438,7 @@
 空格	kg
 
 和	he
-活着	hoẑ·
+活着	hoẑ`
 或者	hoẑ
 还	h/
 还	hai

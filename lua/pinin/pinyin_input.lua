@@ -11,7 +11,6 @@ local TONE_MAP = {
     ['6'] = '|',
     ['7'] = '\\',
     ['8'] = '_',
-    ['grave'] = '·',
 }
 
 local KEYCODE_MAP = {
@@ -38,6 +37,7 @@ local DOT_SHIFT_MAP = {
     [41] = 'Ŋ',
 }
 
+local CHAR_PATTERN = '[%z\1-\127\194-\244][\128-\191]*'
 local REVERSE_MAP = {}
 local SYM_SET = {}
 
@@ -61,11 +61,15 @@ end
 local function restore_original(input)
     local result = {}
 
-    for char in input:gmatch('[%z\1-\127\194-\244][\128-\191]*') do
+    for char in input:gmatch(CHAR_PATTERN) do
         result[#result + 1] = REVERSE_MAP[char] or char
     end
 
     return table.concat(result)
+end
+
+local function get_last_char(input)
+    return input:match(CHAR_PATTERN .. '$')
 end
 
 local function commit_candidate(ctx, env, index)
@@ -73,14 +77,11 @@ local function commit_candidate(ctx, env, index)
         return false
     end
 
-    local candidate
-
-    if index ~= nil then
-        local segment = ctx.composition:back()
-        candidate = segment and segment:get_candidate_at(index)
-    else
-        candidate = ctx:get_selected_candidate()
-    end
+    local segment = ctx.composition:back()
+    local candidate = index ~= nil
+        and segment
+        and segment:get_candidate_at(index)
+        or ctx:get_selected_candidate()
 
     if not candidate or not candidate.text or candidate.text == '' then
         return false
@@ -90,6 +91,10 @@ local function commit_candidate(ctx, env, index)
     ctx:clear()
 
     return true
+end
+
+local function is_dot_digit_prefix(input)
+    return input:match('%.%d*$') ~= nil
 end
 
 function M.func(key, env)
@@ -110,41 +115,28 @@ function M.func(key, env)
             return 2
         end
 
-        if commit_candidate(ctx, env) then
-            return 1
-        end
-
-        return 2
+        return commit_candidate(ctx, env) and 1 or 2
     end
 
     if repr == '.' or repr == 'period' or repr == 'KP_Decimal' then
         if input == '' then
-            return 2
+            replace_input(ctx, '.')
+            return 1
         end
 
-        env.engine:commit_text(restore_original(input))
-        ctx:clear()
+        local last_char = get_last_char(input)
 
+        if last_char and SYM_SET[last_char] then
+            env.engine:commit_text(restore_original(input))
+            ctx:clear()
+            return 1
+        end
+
+        replace_input(ctx, input .. '.')
         return 1
     end
 
-    if repr == 'BackSpace' then
-        if input == '' then
-            return 2
-        end
-
-        local last_char = input:match('[%z\1-\127\194-\244][\128-\191]*$')
-
-        if not last_char or not SYM_SET[last_char] then
-            return 2
-        end
-
-        replace_input(ctx, input:sub(1, #input - #last_char))
-
-        return 1
-    end
-
-    if input:sub(1, 1) == '.' then
+    if is_dot_digit_prefix(input) then
         if key:shift() then
             local sym = DOT_SHIFT_MAP[key.keycode]
 
@@ -156,6 +148,21 @@ function M.func(key, env)
         end
 
         return 2
+    end
+
+    if repr == 'BackSpace' then
+        if input == '' then
+            return 2
+        end
+
+        local last_char = get_last_char(input)
+
+        if not last_char or not SYM_SET[last_char] then
+            return 2
+        end
+
+        replace_input(ctx, input:sub(1, #input - #last_char))
+        return 1
     end
 
     if key:shift() then
@@ -170,7 +177,6 @@ function M.func(key, env)
         end
 
         env.engine:commit_text(sym)
-
         return 1
     end
 
@@ -181,7 +187,6 @@ function M.func(key, env)
     end
 
     replace_input(ctx, input .. sym)
-
     return 1
 end
 

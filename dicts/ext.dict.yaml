@@ -16,7 +16,7 @@
 # - 简化字八股文 https://github.com/rime/rime-essay-simp
 ---
 name: ext
-version: "2026-09-11"
+version: "2026-08-22"
 sort: by_weight
 ...
 # +_+
@@ -51,10 +51,8 @@ sort: by_weight
 阿布杜拉	a bu du la	100
 阿布杜拉曼	a bu du la mw	100
 阿卜杜勒	a bu du le	100
-阿卜杜勒-阿齐兹	a bu du le a qi zi	100
-阿卜杜勒-贾巴尔	a bu du le jia ba er	100
-阿卜杜勒·萨拉姆	a bu du le sa la mu	100
-阿卜杜萨拉姆	a bu du sa la mu	100
+阿卜杜勒阿齐兹	a bu du le a qi zi	100
+阿不都沙拉	a bu du ŝa la	100
 阿布都沙拉木	a bu du ŝa la mu	100
 阿布尔	a bu er	100
 阿不福思	a bu fu si	100
@@ -169,12 +167,12 @@ sort: by_weight
 阿芙蓉	a fu ruŋ	100
 阿芙忒娜	a fu te na	100
 阿盖达	a gai da	100
+阿甘正传电影	a gw ẑŋ ẑuw diw iŋ	100
 阿戈尔	a ge er	100
 阿哥哥	a ge ge	100
 阿格规文	a ge gue uñ	100
 啊哥们	a ge mñ	100
 阿格娜	a ge na	100
-阿格尼	a ge ni	100
 阿根廷区	a gñ tiŋ qy	100
 阿根廷输了	a gñ tiŋ ŝu le	100
 阿根廷央行	a gñ tiŋ iv hv	100
@@ -245,6 +243,7 @@ sort: by_weight
 啊啦啦	a la la	100
 啊啦啦啦	a la la la	100
 阿拉米语	a la mi y	100
+阿拉摩	a la mo	100
 阿拉善地区	a la ŝw di qy	100
 阿拉什	a la ŝi	100
 阿拉斯	a la si	100
@@ -1826,6 +1825,7 @@ sort: by_weight
 安徽省环保厅	w hue ŝŋ huw bao tiŋ	100
 安徽省黄山	w hue ŝŋ huv ŝw	100
 安徽省黄山市	w hue ŝŋ huv ŝw ŝi	100
+安徽省黄山市黟县	w hue ŝŋ huv ŝw ŝi i xiw	100
 安徽省会	w hue ŝŋ hue	100
 安徽省会合肥	w hue ŝŋ hue he fei	100
 安徽省霍邱县	w hue ŝŋ ho qiu xiw	100
@@ -2497,7 +2497,6 @@ sort: by_weight
 安息油	w xi iu	100
 安息之地	w xi ẑi di	100
 按下重启键	w xia ĉuŋ qi jiw	100
-按下葫芦起了瓢	w xia hu lu qi le pio	100
 按下来	w xia lai	100
 暗下来了	w xia lai le	100
 按下了快进键	w xia le kui jiñ jiw	100
@@ -8625,6 +8624,7 @@ sort: by_weight
 帮帮我了	bv bv o le	100
 𠳐𠳐响	bv bv xiv	100
 帮宝适	bv bao ŝi	100
+邦博尔卫校网	bv bo er ue xio uv	100
 帮不帮啊	bv bu bv a	100
 棒不棒啊	bv bu bv a	100
 帮不了你	bv bu lio ni	100
@@ -10294,11 +10294,13 @@ sort: by_weight
 抱子弄孙	bao zi nuŋ suñ	100
 豹子窝	bao zi o	100
 孢子叶	bao zi ie	100
+暴走财神	bao zou cai ŝñ	100
 暴走大事件	bao zou da ŝi jiw	100
 暴走萝莉	bao zou lo li	100
 暴走萝莉金克丝	bao zou lo li jiñ ke si	100
 暴走漫画	bao zou mw hua	100
 暴走模式	bao zou mo ŝi	100
+暴走日报	bao zou ri bao	100
 暴揍一顿	bao zou i duñ	100
 包租公	bao zu guŋ	100
 包租婆	bao zu po	100
@@ -11009,6 +11011,7 @@ sort: by_weight
 北京新东方学校	bei jiŋ xiñ duŋ fv xye xio	100
 北京新发地	bei jiŋ xiñ fa di	100
 北京新发地市场	bei jiŋ xiñ fa di ŝi ĉv	100
+北京新发地疫情	bei jiŋ xiñ fa di i qiŋ	100
 北京新年音乐会	bei jiŋ xiñ niw iñ ye hue	100
 北京新天地	bei jiŋ xiñ tiw di	100
 北京行	bei jiŋ xiŋ	100
@@ -11220,7 +11223,6 @@ sort: by_weight
 被抹杀	bei mo ŝa	100
 被没收了	bei mo ŝou le	100
 被没收了啊	bei mo ŝou le a	100
-被摸透	bei mo tou	100
 椑木镇	bei mu ẑñ	100
 贝纳勒斯	bei na le si	100
 贝娜齐尔布托	bei na qi er bu to	100
@@ -12878,7 +12880,6 @@ sort: by_weight
 逼来逼去	bi lai bi qy	100
 比烂论	bi lw luñ	100
 毕姥爷	bi lao ie	100
-比勒费尔德应用科学大学	bi le fei er de iŋ yŋ ke xye da xye	100
 哔了狗	bi le gou	100
 毙了你	bi le ni	100
 闭了眼	bi le iw	100
@@ -15957,6 +15958,7 @@ sort: by_weight
 兵来将敌	biŋ lai jiv di	100
 槟榔树	biŋ lv ŝu	100
 槟榔兄弟	biŋ lv xyŋ di	100
+槟榔屿	biŋ lv y	100
 槟榔汁	biŋ lv ẑi	100
 冰牢之术	biŋ lao ẑi ŝu	100
 病了吗	biŋ le ma	100
@@ -25939,7 +25941,6 @@ sort: by_weight
 苍生浩劫	cv ŝŋ hao jie	100
 苍生霖雨	cv ŝŋ liñ y	100
 苍生涂炭	cv ŝŋ tu tw	100
-藏是藏不住的	cv ŝi cv bu ẑu de	100
 藏手机	cv ŝou ji	100
 藏首露尾	cv ŝou lu ue	100
 藏书标记	cv ŝu bio ji	100
@@ -32087,7 +32088,6 @@ sort: by_weight
 超有感	ĉao iu gw	100
 超有感觉	ĉao iu gw jye	100
 超友谊关系	ĉao iu i guw xi	100
-超预期	ĉao y qi	100
 超预期增长	ĉao y qi zŋ ẑv	100
 超预算	ĉao y suw	100
 超远程	ĉao yw ĉŋ	100
@@ -33356,6 +33356,7 @@ sort: by_weight
 成都第一	ĉŋ du di i	100
 成都店	ĉŋ du diw	100
 成都电视台	ĉŋ du diw ŝi tai	100
+成都电梯	ĉŋ du diw ti	100
 成都电信	ĉŋ du diw xiñ	100
 成都电子科大	ĉŋ du diw zi ke da	100
 成都电子科技大学	ĉŋ du diw zi ke ji da xye	100
@@ -33758,6 +33759,7 @@ sort: by_weight
 成都医学院	ĉŋ du i xye yw	100
 成都医药	ĉŋ du i io	100
 成都医院	ĉŋ du i yw	100
+成都银	ĉŋ du iñ	100
 成都银行	ĉŋ du iñ hv	100
 成都音乐	ĉŋ du iñ ye	100
 成都英语	ĉŋ du iŋ y	100
@@ -33769,6 +33771,7 @@ sort: by_weight
 成都院	ĉŋ du yw	100
 成都元素	ĉŋ du yw su	100
 成都远洋太古里	ĉŋ du yw iv tai gu li	100
+成都月子中心	ĉŋ du ye zi ẑuŋ xiñ	100
 成都云	ĉŋ du yñ	100
 成都造	ĉŋ du zao	100
 成都展	ĉŋ du ẑw	100
@@ -33790,11 +33793,13 @@ sort: by_weight
 成都周边	ĉŋ du ẑou biw	100
 成都周边游	ĉŋ du ẑou biw iu	100
 成都主城区	ĉŋ du ẑu ĉŋ qy	100
+成都自动门	ĉŋ du zi duŋ mñ	100
 成都自考	ĉŋ du zi kao	100
 成都总部	ĉŋ du zuŋ bu	100
 成都纵横	ĉŋ du zuŋ hŋ	100
 成都总领馆	ĉŋ du zuŋ liŋ guw	100
 成都总领事馆	ĉŋ du zuŋ liŋ ŝi guw	100
+成都棕南医院	ĉŋ du zuŋ nw i yw	100
 成都租车	ĉŋ du zu ĉe	100
 成都租房	ĉŋ du zu fv	100
 成都足球	ĉŋ du zu qiu	100
@@ -35005,7 +35010,6 @@ sort: by_weight
 称重检测	ĉŋ ẑuŋ jiw ce	100
 称重控制器	ĉŋ ẑuŋ kuŋ ẑi qi	100
 称重控制仪表	ĉŋ ẑuŋ kuŋ ẑi i bio	100
-称重快餐	ĉŋ ẑuŋ kui cw	100
 承重力	ĉŋ ẑuŋ li	100
 承重力大	ĉŋ ẑuŋ li da	100
 承重力强	ĉŋ ẑuŋ li qiv	100
@@ -35042,7 +35046,6 @@ sort: by_weight
 承重柱	ĉŋ ẑuŋ ẑu	100
 称重装置	ĉŋ ẑuŋ ẑuv ẑi	100
 称重准确	ĉŋ ẑuŋ ẑuñ qye	100
-称重自选快餐	ĉŋ ẑuŋ zi xyw kui cw	100
 橙子橘子	ĉŋ zi jy zi	100
 成组织	ĉŋ zu ẑi	100
 成组织的	ĉŋ zu ẑi de	100
@@ -38338,6 +38341,7 @@ sort: by_weight
 重做之前	ĉuŋ zo ẑi qiw	100
 筹安会	ĉou w hue	100
 臭爸爸	ĉou ba ba	100
+丑巴怪	ĉou ba gui	100
 愁白了头	ĉou bai le tou	100
 筹办处	ĉou bw ĉu	100
 丑爆了	ĉou bao le	100
@@ -39901,6 +39905,7 @@ sort: by_weight
 出现问题了	ĉu xiw uñ ti le	100
 出现下降	ĉu xiw xia jiv	100
 出现于	ĉu xiw y	100
+出现月经不调	ĉu xiw ye jiŋ bu tio	100
 出现在半空	ĉu xiw zai bw kuŋ	100
 出现在面前	ĉu xiw zai miw qiw	100
 出现在脑海中	ĉu xiw zai nao hai ẑuŋ	100
@@ -43139,13 +43144,7 @@ sort: by_weight
 吹参差兮谁思	ĉue cñ ci xi ŝue si	100
 吹出去	ĉue ĉu qy	100
 垂楚组之连纲	ĉue ĉu zu ẑi liw gv	100
-捶捶背	ĉue ĉue bei	100
-捶捶肩	ĉue ĉue jiw	100
-捶捶肩膀	ĉue ĉue jiw bv	100
 垂垂老矣	ĉue ĉue lao i	100
-捶捶腿	ĉue ĉue tue	100
-捶捶胸	ĉue ĉue xyŋ	100
-捶捶腰	ĉue ĉue io	100
 吹大法螺	ĉue da fa lo	100
 吹大风了	ĉue da fŋ le	100
 锤打着	ĉue da ẑe	100
@@ -43181,14 +43180,7 @@ sort: by_weight
 炊臼之戚	ĉue jiu ẑi qi	100
 吹空调	ĉue kuŋ tio	100
 吹口气啊	ĉue kou qi a	100
-捶了捶背	ĉue le ĉue bei	100
-捶了捶后背	ĉue le ĉue hou bei	100
-捶了捶肩	ĉue le ĉue jiw	100
-捶了捶肩膀	ĉue le ĉue jiw bv	100
-捶了捶脚	ĉue le ĉue jio	100
-捶了捶胸	ĉue le ĉue xyŋ	100
-捶了捶胸口	ĉue le ĉue xyŋ kou	100
-捶了捶腰	ĉue le ĉue io	100
+吹了吹	ĉue le ĉue	100
 吹了风	ĉue le fŋ	100
 吹了个呼哨	ĉue le ge hu ŝao	100
 吹了口气	ĉue le kou qi	100
@@ -43286,16 +43278,6 @@ sort: by_weight
 吹叶机	ĉue ie ji	100
 垂衣裳	ĉue i ĉv	100
 垂衣裳而天下治	ĉue i ĉv er tiw xia ẑi	100
-捶一捶背	ĉue i ĉue bei	100
-捶一捶肩	ĉue i ĉue jiw	100
-捶一捶肩膀	ĉue i ĉue jiw bv	100
-捶一捶腿	ĉue i ĉue tue	100
-捶一捶腰	ĉue i ĉue io	100
-捶一下背	ĉue i xia bei	100
-捶一下肩	ĉue i xia jiw	100
-捶一下肩膀	ĉue i xia jiw bv	100
-捶一下腿	ĉue i xia tue	100
-捶一下腰	ĉue i xia io	100
 垂裕后昆	ĉue y hou kuñ	100
 垂于将来	ĉue y jiv lai	100
 吹竽手	ĉue y ŝou	100
@@ -48610,6 +48592,7 @@ sort: by_weight
 大型模具	da xiŋ mu jy	100
 大型起重机	da xiŋ qi ẑuŋ ji	100
 大型强子对撞机	da xiŋ qiv zi due ẑuv ji	100
+大星芹	da xiŋ qiñ	100
 大行秋	da xiŋ qiu	100
 大型犬	da xiŋ qyw	100
 大型商业银行	da xiŋ ŝv ie iñ hv	100
@@ -53549,6 +53532,7 @@ sort: by_weight
 导之先路	dao ẑi xiw lu	100
 导致严重的后果	dao ẑi iw ẑuŋ de hou go	100
 导致严重后果	dao ẑi iw ẑuŋ hou go	100
+导致月经不调	dao ẑi ye jiŋ bu tio	100
 到终点	dao ẑuŋ diw	100
 到重点	dao ẑuŋ diw	100
 到终点了	dao ẑuŋ diw le	100
@@ -56997,7 +56981,6 @@ sort: by_weight
 低头亲吻	di tou qiñ uñ	100
 低头亲吻我的左手	di tou qiñ uñ o de zo ŝou	100
 低头丧气	di tou sv qi	100
-地头收购价	di tou ŝou gou jia	100
 低头吻了	di tou uñ le	100
 低头吻了下去	di tou uñ le xia qy	100
 低头吻在	di tou uñ zai	100
@@ -60250,6 +60233,11 @@ sort: by_weight
 东北大地	duŋ bei da di	100
 东北的	duŋ bei de	100
 东北的冬	duŋ bei de duŋ	100
+东北地区大部	duŋ bei di qy da bu	100
+东北地区东部	duŋ bei di qy duŋ bu	100
+东北地区南部	duŋ bei di qy nw bu	100
+东北地区中北部	duŋ bei di qy ẑuŋ bei bu	100
+东北地区中南部	duŋ bei di qy ẑuŋ nw bu	100
 东北地域	duŋ bei di y	100
 东北东	duŋ bei duŋ	100
 东北风云	duŋ bei fŋ yñ	100
@@ -60612,7 +60600,6 @@ sort: by_weight
 东风雪铁龙	duŋ fŋ xye tie luŋ	100
 东风遥	duŋ fŋ io	100
 东风战	duŋ fŋ ẑw	100
-东风镇	duŋ fŋ ẑñ	100
 洞府里	duŋ fu li	100
 动感单车	duŋ gw dw ĉe	100
 动感的音乐	duŋ gw de iñ ye	100
@@ -60714,7 +60701,7 @@ sort: by_weight
 东莞寮步	duŋ guw lio bu	100
 东莞楼市	duŋ guw lou ŝi	100
 东莞旅游	duŋ guw ly iu	100
-东莞麻涌	duŋ guw ma ĉuŋ	100
+东莞麻涌	duŋ guw ma yŋ	100
 东莞模具	duŋ guw mu jy	100
 东莞木箱	duŋ guw mu xiv	100
 东莞南城	duŋ guw nw ĉŋ	100
@@ -60752,7 +60739,6 @@ sort: by_weight
 东莞市公安局	duŋ guw ŝi guŋ w jy	100
 东莞市莞城区	duŋ guw ŝi guw ĉŋ qy	100
 东莞市横沥镇	duŋ guw ŝi hŋ li ẑñ	100
-东莞市洪梅镇	duŋ guw ŝi huŋ mei ẑñ	100
 东莞市厚街镇	duŋ guw ŝi hou jie ẑñ	100
 东莞市虎门	duŋ guw ŝi hu mñ	100
 东莞市虎门镇	duŋ guw ŝi hu mñ ẑñ	100
@@ -60762,9 +60748,10 @@ sort: by_weight
 东莞石碣	duŋ guw ŝi jie	100
 东莞市寮步镇	duŋ guw ŝi lio bu ẑñ	100
 东莞石龙	duŋ guw ŝi luŋ	100
-东莞市麻涌镇	duŋ guw ŝi ma ĉuŋ ẑñ	100
+东莞市麻涌镇	duŋ guw ŝi ma yŋ ẑñ	100
 东莞市民	duŋ guw ŝi miñ	100
 东莞市南城街道	duŋ guw ŝi nw ĉŋ jie dao	100
+东莞市南城区	duŋ guw ŝi nw ĉŋ qy	100
 东莞石排	duŋ guw ŝi pai	100
 东莞市企石镇	duŋ guw ŝi qi ŝi ẑñ	100
 东莞市气象台	duŋ guw ŝi qi xiv tai	100
@@ -60785,7 +60772,6 @@ sort: by_weight
 东莞市委	duŋ guw ŝi ue	100
 东莞市卫生健康局	duŋ guw ŝi ue ŝŋ jiw kv jy	100
 东莞市文化馆	duŋ guw ŝi uñ hua guw	100
-东莞市谢岗镇	duŋ guw ŝi xie gv ẑñ	100
 东莞市樟木头镇	duŋ guw ŝi ẑv mu tou ẑñ	100
 东莞市政府	duŋ guw ŝi ẑŋ fu	100
 东莞市中堂镇	duŋ guw ŝi ẑuŋ tv ẑñ	100
@@ -72694,6 +72680,7 @@ sort: by_weight
 反光度	fw guv du	100
 反广告	fw guv gao	100
 范广惠	fw guv hue	100
+返光镜	fw guv jiŋ	100
 反光镜乐队	fw guv jiŋ ye due	100
 反光率	fw guv ly	100
 反光面	fw guv miw	100
@@ -72705,6 +72692,7 @@ sort: by_weight
 反过来了	fw go lai le	100
 饭锅里	fw go li	100
 翻过墙	fw go qiv	100
+番海大桥	fw hai da qio	100
 范海伦	fw hai luñ	100
 饭还没吃	fw hai mei ĉi	100
 梵汉对音	fw hw due iñ	100
@@ -79271,6 +79259,7 @@ sort: by_weight
 福建省立医院	fu jiw ŝŋ li i yw	100
 福建省连城县	fu jiw ŝŋ liw ĉŋ xiw	100
 福建省林业局	fu jiw ŝŋ liñ ie jy	100
+福建省龙海市	fu jiw ŝŋ luŋ hai ŝi	100
 福建省龙岩市	fu jiw ŝŋ luŋ iw ŝi	100
 福建省闽	fu jiw ŝŋ miñ	100
 福建省闽侯县	fu jiw ŝŋ miñ hou xiw	100
@@ -79621,6 +79610,7 @@ sort: by_weight
 妇女小组长	fu ny xio zu ẑv	100
 妇女新知	fu ny xiñ ẑi	100
 妇女新知基金会	fu ny xiñ ẑi ji jiñ hue	100
+妇女月经不调	fu ny ye jiŋ bu tio	100
 父女之情	fu ny ẑi qiŋ	100
 妇女之友	fu ny ẑi iu	100
 浮沤泡影	fu ou pao iŋ	100
@@ -81083,6 +81073,7 @@ sort: by_weight
 改善搜索和浏览体验	gai ŝw sou so he liu lw ti iw	100
 改善通讯	gai ŝw tuŋ xyñ	100
 改善消化系统	gai ŝw xio hua xi tuŋ	100
+改善月经不调	gai ŝw ye jiŋ bu tio	100
 盖上被子	gai ŝv bei zi	100
 盖上了被子	gai ŝv le bei zi	100
 该舍弃	gai ŝe qi	100
@@ -82547,7 +82538,6 @@ sort: by_weight
 赶着上班	gw ẑe ŝv bw	100
 甘蔗田	gw ẑe tiw	100
 赶着投胎	gw ẑe tou tai	100
-赶着下班	gw ẑe xia bw	100
 敢这样	gw ẑe iv	100
 敢这样和我	gw ẑe iv he o	100
 敢这样和我说话	gw ẑe iv he o ŝo hua	100
@@ -84670,19 +84660,24 @@ sort: by_weight
 高兴劲	gao xiŋ jiñ	100
 高兴劲儿	gao xiŋ jiñ er	100
 高兴啦	gao xiŋ la	100
-高兴了吗	gao xiŋ le ma	100
+高行了吗	gao xiŋ le ma	100
 高性能模式	gao xiŋ nŋ mo ŝi	100
 高性能文件系统	gao xiŋ nŋ uñ jiw xi tuŋ	100
 高性能系列	gao xiŋ nŋ xi lie	100
 高兴死了	gao xiŋ si le	100
 搞行政	gao xiŋ ẑŋ	100
 高雄港	gao xyŋ gv	100
-高雄科技大学	gao xyŋ ke ji da xye	100
+高雄工专	gao xyŋ guŋ ẑuw	100
+高雄海洋科技大学	gao xyŋ hai iv ke ji da xye	100
+高雄海专	gao xyŋ hai ẑuw	100
+高雄科学技术学院	gao xyŋ ke xye ji ŝu xye yw	100
 高雄人	gao xyŋ rñ	100
 高雄师范大学	gao xyŋ ŝi fw da xye	100
+高雄师范学院	gao xyŋ ŝi fw xye yw	100
 高雄市长	gao xyŋ ŝi ẑv	100
 高雄县长	gao xyŋ xiw ẑv	100
 高雄医学大学	gao xyŋ i xye da xye	100
+高雄医学院	gao xyŋ i xye yw	100
 高雄应用科技大学	gao xyŋ iŋ yŋ ke ji da xye	100
 羔袖狐裘	gao xiu hu qiu	100
 高溴酸钾	gao xiu suw jia	100
@@ -90985,6 +90980,7 @@ sort: by_weight
 骨质密度	gu ẑi mi du	100
 估值模型	gu ẑi mo xiŋ	100
 估值便宜	gu ẑi piw i	100
+股指期货行情	gu ẑi qi ho hv qiŋ	100
 骨质软化症	gu ẑi ruw hua ẑŋ	100
 骨质石化症	gu ẑi ŝi hua ẑŋ	100
 估值体系	gu ẑi ti xi	100
@@ -92420,6 +92416,7 @@ sort: by_weight
 关注直播间	guw ẑu ẑi bo jiw	100
 关注重点	guw ẑu ẑuŋ diw	100
 冠状病毒病	guw ẑuv biŋ du biŋ	100
+冠状病毒大流行	guw ẑuv biŋ du da liu xiŋ	100
 冠状动脉旁路移植手术	guw ẑuv duŋ mai pv lu i ẑi ŝou ŝu	100
 冠状动脉旁通手术	guw ẑuv duŋ mai pv tuŋ ŝou ŝu	100
 冠状动脉硬化症	guw ẑuv duŋ mai iŋ hua ẑŋ	100
@@ -96484,7 +96481,6 @@ sort: by_weight
 还得涨	hai dei ẑv	100
 海灯法师	hai dŋ fa ŝi	100
 还等啥	hai dŋ ŝa	100
-还等什么呢	hai dŋ ŝñ me ne	100
 海堤坝	hai di ba	100
 海底宝藏	hai di bao zv	100
 海地岛	hai di dao	100
@@ -96880,7 +96876,6 @@ sort: by_weight
 还没出分	hai mei ĉu fñ	100
 还没出结果	hai mei ĉu jie go	100
 还没出来	hai mei ĉu lai	100
-还没处理完	hai mei ĉu li uw	100
 还没出门呢	hai mei ĉu mñ ne	100
 还没出去呢	hai mei ĉu qy ne	100
 还没出生	hai mei ĉu ŝŋ	100
@@ -97128,7 +97123,6 @@ sort: by_weight
 海纳山容	hai na ŝw ruŋ	100
 氦氖氩氪氙氡	hai nai ia ke xiw duŋ	100
 海南本地	hai nw bñ di	100
-海南比勒费尔德应用科学大学	hai nw bi le fei er de iŋ yŋ ke xye da xye	100
 海南长臂猿	hai nw ĉv bi yw	100
 海南的	hai nw de	100
 海南等地	hai nw dŋ di	100
@@ -98196,7 +98190,6 @@ sort: by_weight
 海原大地震	hai yw da di ẑñ	100
 氦元素	hai yw su	100
 海源校区	hai yw xio qy	100
-海员证	hai yw ẑŋ	100
 氦原子	hai yw zi	100
 海月姬	hai ye ji	100
 海岳名言	hai ye miŋ iw	100
@@ -102102,11 +102095,11 @@ sort: by_weight
 何而来	he er lai	100
 赫尔曼德	he er mw de	100
 赫尔曼德省	he er mw de ŝŋ	100
-赫尔曼·黑塞	he er mw hei sai	100
 荷尔蒙失调	he er mŋ ŝi tio	100
 荷尔蒙旺盛	he er mŋ uv ŝŋ	100
 赫尔穆特·科尔	he er mu te ke er	100
 荷尔斯泰因	he er si tai iñ	100
+合而为一合唱团	he er ue i he ĉv tuw	100
 核二院	he er yw	100
 赫尔佐格	he er zo ge	100
 核发电厂	he fa diw ĉv	100
@@ -109671,9 +109664,7 @@ sort: by_weight
 黄斑马	huv bw ma	100
 荒坂塔	huv bw ta	100
 黄宝欣	huv bao xiñ	100
-黄陂路	huv bei lu	100
 黄陂站	huv bei ẑw	100
-黄陂镇	huv bei ẑñ	100
 黄檗禅师	huv bo ĉw ŝi	100
 黄博凯	huv bo kai	100
 黄渤老师	huv bo lao ŝi	100
@@ -110045,7 +110036,6 @@ sort: by_weight
 黄陂路	huv pi lu	100
 黄陂南路站	huv pi nw lu ẑw	100
 黄陂人	huv pi rñ	100
-黄陂站	huv pi ẑw	100
 黄陂镇	huv pi ẑñ	100
 黄片儿	huv piw er	100
 黄品源	huv piñ yw	100
@@ -113217,8 +113207,7 @@ sort: by_weight
 基本核算单位	ji bñ he suw dw ue	100
 基本技术参数	ji bñ ji ŝu cw ŝu	100
 基本教育	ji bñ jio y	100
-基本结构	ji bñ jie gou	100
-基本解决	ji bñ jie jye	100
+基本解决执行难	ji bñ jie jye ẑi xiŋ nw	100
 基本精度	ji bñ jiŋ du	100
 基本经济规律	ji bñ jiŋ ji gue ly	100
 基本经济制度	ji bñ jiŋ ji ẑi du	100
@@ -119760,6 +119749,7 @@ sort: by_weight
 健康又长寿	jiw kv iu ĉv ŝou	100
 健康与快乐	jiw kv y kui le	100
 健康娱乐	jiw kv y le	100
+健康榆林	jiw kv y liñ	100
 健康运行	jiw kv yñ xiŋ	100
 健康增长	jiw kv zŋ ẑv	100
 健康长大	jiw kv ẑv da	100
@@ -126930,6 +126920,7 @@ sort: by_weight
 近一些	jiñ i xie	100
 锦衣夜行	jiñ i ie xiŋ	100
 锦衣玉带	jiñ i y dai	100
+瑾衣粤食	jiñ i ye ŝi	100
 金银币收藏	jiñ iñ bi ŝou cv	100
 金银财宝向家流	jiñ iñ cai bao xiv jia liu	100
 进银行	jiñ iñ hv	100
@@ -132615,7 +132606,6 @@ sort: by_weight
 酒中有真意	jiu ẑuŋ iu ẑñ i	100
 九州大地	jiu ẑou da di	100
 九州地区	jiu ẑou di qy	100
-九周年	jiu ẑou niw	100
 九周岁	jiu ẑou sue	100
 九州体育地址	jiu ẑou ti y di ẑi	100
 九州田舍	jiu ẑou tiw ŝe	100
@@ -133452,6 +133442,7 @@ sort: by_weight
 举无遗算	jy u i suw	100
 剧务员	jy u yw	100
 巨细胞病毒视网膜炎	jy xi bao biŋ du ŝi uv mo iw	100
+局系统	jy xi tuŋ	100
 巨系统	jy xi tuŋ	100
 遽下结论	jy xia jie luñ	100
 锯下来	jy xia lai	100
@@ -134635,6 +134626,7 @@ sort: by_weight
 君澜会员	jyñ lw hue yw	100
 君澜酒店	jyñ lw jiu diw	100
 君澜酒店集团	jyñ lw jiu diw ji tuw	100
+君澜律师事务所	jyñ lw ly ŝi ŝi u so	100
 君乐宝	jyñ le bao	100
 君乐宝奶粉	jyñ le bao nai fñ	100
 君乐宝旗帜	jyñ le bao qi ẑi	100
@@ -134933,8 +134925,9 @@ sort: by_weight
 卡拉布里亚	ka la bu li ia	100
 喀拉蚩	ka la ĉi	100
 卡拉哈迪盆地	ka la ha di pñ di	100
-喀喇汗国	ka la hw go	100
+喀拉汗国	ka la hw go	100
 喀喇汗王朝	ka la hw uv ĉao	100
+喀拉汗王朝	ka la hw uv ĉao	100
 卡拉季奇	ka la ji qi	100
 卡拉卡拉	ka la ka la	100
 喀啦喀啦	ka la ka la	100
@@ -138965,7 +138958,8 @@ sort: by_weight
 克利斯提	ke li si ti	100
 克莉丝汀娜	ke li si tiŋ na	100
 克里斯托	ke li si to	100
-克里斯托夫	ke li si to fu	100
+克里斯伊凡	ke li si i fw	100
+克里特克	ke li te ke	100
 颗粒物过滤效率	ke li u go ly xio ly	100
 颗粒物浓度	ke li u nuŋ du	100
 克利希娜	ke li xi na	100
@@ -143192,7 +143186,6 @@ sort: by_weight
 拉防空警报	la fv kuŋ jiŋ bao	100
 拉菲克·哈里里	la fei ke ha li li	100
 拉斐特	la fei te	100
-拉分盆地	la fñ pñ di	100
 拉夫堡	la fu bao	100
 拉夫堡大学	la fu bao da xye	100
 拉弗曲线	la fu qy xiw	100
@@ -151915,7 +151908,6 @@ sort: by_weight
 凌杂米盐	liŋ za mi iw	100
 另择贤主	liŋ ze xiw ẑu	100
 灵长动物	liŋ ẑv duŋ u	100
-灵长总目	liŋ ẑv zuŋ mu	100
 另找办法	liŋ ẑao bw fa	100
 领照费	liŋ ẑao fei	100
 领着孩子	liŋ ẑe hai zi	100
@@ -155131,6 +155123,8 @@ sort: by_weight
 刘钰佳	liu y jia	100
 流瑜伽	liu y jia	100
 刘玉琨	liu y kuñ	100
+刘育绫	liu y liŋ	100
+刘宇柳叶刀	liu y liu ie dao	100
 流域面积	liu y miw ji	100
 刘雨思	liu y si	100
 柳怨花愁	liu yw hua ĉou	100
@@ -155423,6 +155417,8 @@ sort: by_weight
 龙卷云	luŋ jyw yñ	100
 龙龛手鉴	luŋ kw ŝou jiw	100
 龙口夺食	luŋ kou do ŝi	100
+龙口海川装饰	luŋ kou hai ĉuw ẑuv ŝi	100
+龙口市黄城海川装饰	luŋ kou ŝi huv ĉŋ hai ĉuw ẑuv ŝi	100
 龙困浅滩	luŋ kuñ qiw tw	100
 龙利得	luŋ li de	100
 隆力奇	luŋ li qi	100
@@ -156326,7 +156322,6 @@ sort: by_weight
 撸一管	lu i guw	100
 撸一管儿	lu i guw er	100
 陆亦可	lu i ke	100
-路易莎	lu i ŝa	100
 路易士	lu i ŝi	100
 路易斯·阿姆斯特朗	lu i si a mu si te lv	100
 路易斯碱	lu i si jiw	100
@@ -161779,7 +161774,6 @@ sort: by_weight
 没打中	mei da ẑuŋ	100
 没大夫	mei dai fu	100
 没戴过	mei dai go	100
-没戴好	mei dai hao	100
 没带驾驶证	mei dai jia ŝi ẑŋ	100
 没带卡	mei dai ka	100
 没戴口罩	mei dai kou ẑao	100
@@ -166854,6 +166848,7 @@ sort: by_weight
 梦的画面	mŋ de hua miw	100
 猛地里	mŋ de li	100
 蒙的全对	mŋ de qyw due	100
+孟德斯鸠说过	mŋ de si jiu ŝo go	100
 猛地往	mŋ de uv	100
 蒙德往事	mŋ de uv ŝi	100
 猛得像	mŋ de xiv	100
@@ -166865,8 +166860,6 @@ sort: by_weight
 猛地一踹	mŋ de i ĉui	100
 猛地一锤	mŋ de i ĉue	100
 猛地一抖	mŋ de i dou	100
-猛地一跺	mŋ de i do	100
-猛地一跺地	mŋ de i do di	100
 猛地一惊	mŋ de i jiŋ	100
 猛地一揪	mŋ de i jiu	100
 猛地一看	mŋ de i kw	100
@@ -166924,12 +166917,14 @@ sort: by_weight
 蒙古地区	mŋ gu di qy	100
 蒙古儿	mŋ gu er	100
 蒙古高原	mŋ gu gao yw	100
+蒙古国家	mŋ gu go jia	100
 蒙古利亚	mŋ gu li ia	100
 蒙古人民共和国	mŋ gu rñ miñ guŋ he go	100
 蒙古上单	mŋ gu ŝv dw	100
 蒙故业	mŋ gu ie	100
 蒙古音乐	mŋ gu iñ ye	100
 蒙古症	mŋ gu ẑŋ	100
+蒙古自治州	mŋ gu zi ẑi ẑou	100
 蒙古族传统	mŋ gu zu ĉuw tuŋ	100
 蒙古族学校	mŋ gu zu xye xio	100
 孟光举案	mŋ guv jy w	100
@@ -167535,6 +167530,7 @@ sort: by_weight
 靡然从风	mi rw cuŋ fŋ	100
 靡然向风	mi rw xiv fŋ	100
 迷人的地方	mi rñ de di fv	100
+迷人的小红	mi rñ de xio huŋ	100
 迷人耳目	mi rñ er mu	100
 迷人之处	mi rñ ẑi ĉu	100
 弥日继夕	mi ri ji xi	100
@@ -175868,7 +175864,6 @@ sort: by_weight
 尼泊尔总统	ni bo er zuŋ tuŋ	100
 你不爱了	ni bu ai le	100
 你不爱我了	ni bu ai o le	100
-尼布楚	ni bu ĉu	100
 尼布楚条约	ni bu ĉu tio ye	100
 你不搭理	ni bu da li	100
 你不搭理我	ni bu da li o	100
@@ -180837,6 +180832,7 @@ sort: by_weight
 农村的宅基地	nuŋ cuñ de ẑai ji di	100
 农村地方	nuŋ cuñ di fv	100
 农村地区道路	nuŋ cuñ di qy dao lu	100
+农村地区疫情防控	nuŋ cuñ di qy i qiŋ fv kuŋ	100
 农村发展	nuŋ cuñ fa ẑw	100
 农村房地一体	nuŋ cuñ fv di i ti	100
 农村公社	nuŋ cuñ guŋ ŝe	100
@@ -181693,6 +181689,7 @@ sort: by_weight
 女性意识的觉醒	ny xiŋ i ŝi de jye xiŋ	100
 女性艺术	ny xiŋ i ŝu	100
 女性艺术史	ny xiŋ i ŝu ŝi	100
+女性月经不调	ny xiŋ ye jiŋ bu tio	100
 女性长辈	ny xiŋ ẑv bei	100
 女性主角	ny xiŋ ẑu jye	100
 女秀才	ny xiu cai	100
@@ -182668,7 +182665,6 @@ sort: by_weight
 潘广益	pw guv i	100
 攀过来	pw go lai	100
 攀过去	pw go qy	100
-番海大桥	pw hai da qio	100
 潘杭苇	pw hv ue	100
 潘虹樾	pw huŋ ye	100
 攀花问柳	pw hua uñ liu	100
@@ -184356,8 +184352,6 @@ sort: by_weight
 偏处一隅	piw ĉu i y	100
 偏传统	piw ĉuw tuŋ	100
 片词只句	piw ci ẑi jy	100
-偏得很	piw de hñ	100
-偏得厉害	piw de li hai	100
 骗得团团转	piw de tuw tuw ẑuw	100
 片儿里面	piw er li miw	100
 篇幅长	piw fu ĉv	100
@@ -184560,7 +184554,7 @@ sort: by_weight
 便宜又好看	piw i iu hao kw	100
 便宜又好用	piw i iu hao yŋ	100
 便宜又实惠	piw i iu ŝi hue	100
-便宜占尽	piw i ẑw jiñ	100
+便宜占	piw i ẑw	100
 便宜这么多	piw i ẑe me do	100
 片语单辞	piw y dw ci	100
 片羽吉光	piw y ji guv	100
@@ -185125,6 +185119,7 @@ sort: by_weight
 贫壤瘠土	piñ rv ji tu	100
 品三国	piñ sw go	100
 拼色系	piñ se xi	100
+贫僧自	piñ sŋ zi	100
 贫僧自东土大唐而来	piñ sŋ zi duŋ tu da tv er lai	100
 拼上来	piñ ŝv lai	100
 拼上去	piñ ŝv qy	100
@@ -192484,7 +192479,6 @@ sort: by_weight
 抢到一个	qiv dao i ge	100
 抢得到	qiv de dao	100
 强得过分	qiv de go fñ	100
-呛得很	qiv de hñ	100
 强得很	qiv de hñ	100
 强得可怕	qiv de ke pa	100
 强得可怕啊	qiv de ke pa a	100
@@ -193324,6 +193318,7 @@ sort: by_weight
 巧言善辩	qio iw ŝw biw	100
 巧言舌辩	qio iw ŝe biw	100
 瞧一瞧啊	qio i qio a	100
+敲一下	qio i xia	100
 翘英庄	qio iŋ ẑuv	100
 巧语花言	qio y hua iw	100
 敲诈勒索案	qio ẑa le so w	100
@@ -193494,6 +193489,7 @@ sort: by_weight
 切实的行动	qie ŝi de xiŋ duŋ	100
 切实的证据	qie ŝi de ẑŋ jy	100
 切实降低	qie ŝi jiv di	100
+切实解决执行难	qie ŝi jie jye ẑi xiŋ nw	100
 切实可靠	qie ŝi ke kao	100
 切实可行的目标	qie ŝi ke xiŋ de mu bio	100
 切实履行	qie ŝi ly xiŋ	100
@@ -193600,7 +193596,6 @@ sort: by_weight
 芹菜梗	qiñ cai gŋ	100
 芹菜汤	qiñ cai tv	100
 亲操井臼	qiñ cao jiŋ jiu	100
-钦察汗国	qiñ ĉa hw go	100
 钦差大人	qiñ ĉai da rñ	100
 秦长城	qiñ ĉv ĉŋ	100
 秦长青	qiñ ĉv qiŋ	100
@@ -203351,6 +203346,7 @@ sort: by_weight
 乳臭小子	ru xiu xio zi	100
 如需转载请联系	ru xy ẑuw zai qiŋ liw xi	100
 入选了	ru xyw le	100
+入选了全明星	ru xyw le qyw miŋ xiŋ	100
 入选率	ru xyw ly	100
 入选省级	ru xyw ŝŋ ji	100
 入选作品	ru xyw zo piñ	100
@@ -209253,7 +209249,7 @@ sort: by_weight
 山有扶苏	ŝw iu fu su	100
 善有善报恶有恶报	ŝw iu ŝw bao e iu e bao	100
 山有小口	ŝw iu xio kou	100
-山萮菜	ŝw y cai	100
+山嵛菜	ŝw y cai	100
 善于处理人际关系	ŝw y ĉu li rñ ji guw xi	100
 善于辞令	ŝw y ci liŋ	100
 善于调动	ŝw y dio duŋ	100
@@ -214404,8 +214400,7 @@ sort: by_weight
 沈清辞	ŝñ qiŋ ci	100
 申请辞职	ŝñ qiŋ ci ẑi	100
 深情地	ŝñ qiŋ de	100
-深情地凝视	ŝñ qiŋ de niŋ ŝi	100
-深情地凝望	ŝñ qiŋ de niŋ uv	100
+深情地活着	ŝñ qiŋ de ho ẑe	100
 深情的一吻	ŝñ qiŋ de i uñ	100
 申请地	ŝñ qiŋ di	100
 申请地址	ŝñ qiŋ di ẑi	100
@@ -214452,6 +214447,7 @@ sort: by_weight
 申请涨薪	ŝñ qiŋ ẑv xiñ	100
 神情庄重	ŝñ qiŋ ẑuv ẑuŋ	100
 审囚刷卷	ŝñ qiu ŝua jyw	100
+神曲茶	ŝñ qy ĉa	100
 审曲面势	ŝñ qy miw ŝi	100
 神券节	ŝñ qyw jie	100
 沈佺期	ŝñ qyw qi	100
@@ -216912,7 +216908,6 @@ sort: by_weight
 盛世豪庭	ŝŋ ŝi hao tiŋ	100
 盛世和	ŝŋ ŝi he	100
 声势赫奕	ŝŋ ŝi he i	100
-生石花	ŝŋ ŝi hua	100
 盛世华诞	ŝŋ ŝi hua dw	100
 盛世花开	ŝŋ ŝi hua kai	100
 生石花属	ŝŋ ŝi hua ŝu	100
@@ -217063,8 +217058,8 @@ sort: by_weight
 胜算很大	ŝŋ suw hñ da	100
 胜算率	ŝŋ suw ly	100
 胜算是很大	ŝŋ suw ŝi hñ da	100
-圣索菲亚	ŝŋ so fei ia	100
-圣索菲亚大教堂	ŝŋ so fei ia da jio tv	100
+圣索非亚	ŝŋ so fei ia	100
+圣索非亚大教堂	ŝŋ so fei ia da jio tv	100
 绳索套	ŝŋ so tao	100
 圣塔伦	ŝŋ ta luñ	100
 圣塔蒙尼加	ŝŋ ta mŋ ni jia	100
@@ -218211,7 +218206,6 @@ sort: by_weight
 识才尊贤	ŝi cai zuñ xiw	100
 师参谋长	ŝi cw mou ẑv	100
 市餐饮住宿协会	ŝi cw iñ ẑu su xie hue	100
-是藏不住的	ŝi cv bu ẑu de	100
 实操会计师	ŝi cao kui ji ŝi	100
 食草男	ŝi cao nw	100
 失策了	ŝi ce le	100
@@ -219581,6 +219575,7 @@ sort: by_weight
 十号了	ŝi hao le	100
 十毫升	ŝi hao ŝŋ	100
 是好事儿	ŝi hao ŝi er	100
+是好事坏	ŝi hao ŝi hui	100
 是好是坏	ŝi hao ŝi hui	100
 舐毫吮墨	ŝi hao ŝuñ mo	100
 十号晚上	ŝi hao uw ŝv	100
@@ -230014,7 +230009,6 @@ sort: by_weight
 四开间朝南	si kai jiw ĉao nw	100
 死开啦	si kai la	100
 撕开伤口	si kai ŝv kou	100
-似开未开	si kai ue kai	100
 撕开自己的伤口	si kai zi ji de ŝv kou	100
 斯堪的纳维亚	si kw di na ue ia	100
 思考的	si kao de	100
@@ -231990,6 +231984,8 @@ sort: by_weight
 思想重视	si xiv ẑuŋ ŝi	100
 四硝基甲烷	si xio ji jia uw	100
 四小块	si xio kui	100
+司小念	si xio niw	100
+思小妞	si xio niu	100
 四小片	si xio piw	100
 四小时内	si xio ŝi nei	100
 私心藏奸	si xiñ cv jiw	100
@@ -246562,7 +246558,6 @@ sort: by_weight
 吞不下	tuñ bu xia	100
 吞长江	tuñ ĉv jiv	100
 吞刀刮肠	tuñ dao gua ĉv	100
-吞得下	tuñ de xia	100
 囤地炒地	tuñ di ĉao di	100
 囤点粮	tuñ diw liv	100
 屯蜂聚蚁	tuñ fŋ jy i	100
@@ -246870,7 +246865,6 @@ sort: by_weight
 托马斯·穆勒	to ma si mu le	100
 托马斯三百六十度回旋	to ma si sw bai liu ŝi du hue xyw	100
 托马斯三百六十度螺旋	to ma si sw bai liu ŝi du lo xyw	100
-托马斯·扬	to ma si iv	100
 拖麻拽布	to ma ẑui bu	100
 脱毛器	to mao qi	100
 脱毛仪	to mao i	100
@@ -247417,7 +247411,6 @@ sort: by_weight
 外地公安	ui di guŋ w	100
 外地购房者	ui di gou fv ẑe	100
 外地孩子	ui di hai zi	100
-外地号码	ui di hao ma	100
 外地号牌	ui di hao pai	100
 外地户籍	ui di hu ji	100
 外地户口	ui di hu kou	100
@@ -252359,6 +252352,7 @@ sort: by_weight
 卫小青	ue xio qiŋ	100
 微笑趣泡	ue xio qy pao	100
 微小说	ue xio ŝo	100
+卫校网	ue xio uv	100
 微笑行动	ue xio xiŋ duŋ	100
 魏潇逸	ue xio i	100
 卫校招生	ue xio ẑao ŝŋ	100
@@ -252807,6 +252801,8 @@ sort: by_weight
 温布敦	uñ bu duñ	100
 温布顿	uñ bu duñ	100
 温布顿赛	uñ bu duñ sai	100
+温布尔登网球公开赛	uñ bu er dŋ uv qiu guŋ kai sai	100
+温布尔顿	uñ bu er duñ	100
 闻不惯	uñ bu guw	100
 文不尽意	uñ bu jiñ i	100
 文部科学省	uñ bu ke xye ŝŋ	100
@@ -263747,7 +263743,6 @@ sort: by_weight
 细分子行业	xi fñ zi hv ie	100
 系风捕景	xi fŋ bu jiŋ	100
 系风捕影	xi fŋ bu iŋ	100
-西风急流	xi fŋ ji liu	100
 喜逢君子初尝情	xi fŋ jyñ zi ĉu ĉv qiŋ	100
 西风落叶	xi fŋ lo ie	100
 席丰履厚	xi fŋ ly hou	100
@@ -267974,11 +267969,6 @@ sort: by_weight
 献礼剧	xiw li jy	100
 弦理论	xiw li luñ	100
 暹粒省	xiw li ŝŋ	100
-线粒体嵴	xiw li ti ji	100
-线粒体基质	xiw li ti ji ẑi	100
-线粒体膜	xiw li ti mo	100
-线粒体内膜	xiw li ti nei mo	100
-线粒体外膜	xiw li ti ui mo	100
 鲜廉寡耻	xiw liw gua ĉi	100
 限量发行	xiw liv fa xiŋ	100
 限量生产	xiw liv ŝŋ ĉw	100
@@ -271425,6 +271415,7 @@ sort: by_weight
 小弟弟啊	xio di di a	100
 小弟弟们	xio di di mñ	100
 小弟弟说	xio di di ŝo	100
+小弟弟说过	xio di di ŝo go	100
 校地共建	xio di guŋ jiw	100
 小地瓜	xio di gua	100
 校地合作	xio di he zo	100
@@ -272334,6 +272325,7 @@ sort: by_weight
 小美眉	xio mei mei	100
 小妹妹们	xio mei mei mñ	100
 小妹妹说	xio mei mei ŝo	100
+小妹妹说过	xio mei mei ŝo go	100
 小煤气罐	xio mei qi guw	100
 小美人儿	xio mei rñ er	100
 小煤炱菌	xio mei tai jyñ	100
@@ -274571,6 +274563,7 @@ sort: by_weight
 写写博客	xie xie bo ke	100
 写写博客吧	xie xie bo ke ba	100
 谢谢财神爷	xie xie cai ŝñ ie	100
+谢谢大宝贝	xie xie da bao bei	100
 谢谢大姑	xie xie da gu	100
 谢谢大家啦	xie xie da jia la	100
 谢谢道长	xie xie dao ẑv	100
@@ -275291,12 +275284,14 @@ sort: by_weight
 新馆藏	xiñ guw cv	100
 新冠大流行	xiñ guw da liu xiŋ	100
 新冠肺炎大流行	xiñ guw fei iw da liu xiŋ	100
+新冠肺炎疫情地图	xiñ guw fei iw i qiŋ di tu	100
 新冠肺炎重症	xiñ guw fei iw ẑuŋ ẑŋ	100
 新冠肺炎重症患者	xiñ guw fei iw ẑuŋ ẑŋ huw ẑe	100
 新冠后遗症	xiñ guw hou i ẑŋ	100
 新冠死亡率	xiñ guw si uv ly	100
 新冠溯源	xiñ guw su yw	100
 新关系	xiñ guw xi	100
+新冠疫情大流行	xiñ guw i qiŋ da liu xiŋ	100
 新冠症状	xiñ guw ẑŋ ẑuv	100
 新冠治疗	xiñ guw ẑi lio	100
 新冠重症	xiñ guw ẑuŋ ẑŋ	100
@@ -277191,7 +277186,6 @@ sort: by_weight
 行道边	xiŋ dao biw	100
 行道替天	xiŋ dao ti tiw	100
 性的暴行	xiŋ de bao xiŋ	100
-腥得很	xiŋ de hñ	100
 星德山	xiŋ de ŝw	100
 醒得早	xiŋ de zao	100
 行得正	xiŋ de ẑŋ	100
@@ -285853,6 +285847,8 @@ sort: by_weight
 杨秋兴	iv qiu xiŋ	100
 仰取俯拾	iv qy fu ŝi	100
 阳曲一中	iv qy i ẑuŋ	100
+阳泉市作家协会	iv qyw ŝi zo jia xie hue	100
+阳泉市作家协会副主席	iv qyw ŝi zo jia xie hue fu ẑu xi	100
 氧炔吹管	iv qye ĉue guw	100
 殃人货	iv rñ ho	100
 杨日松	iv ri suŋ	100
@@ -291335,6 +291331,7 @@ sort: by_weight
 一季度经济运行	i ji du jiŋ ji yñ xiŋ	100
 一季度末	i ji du mo	100
 一季度排行	i ji du pai hv	100
+一季度受疫情影响	i ji du ŝou i qiŋ iŋ xiv	100
 一季度完成	i ji du uw ĉŋ	100
 一季度销量	i ji du xio liv	100
 一季度业绩	i ji du ie ji	100
@@ -292378,7 +292375,6 @@ sort: by_weight
 以力服人	i li fu rñ	100
 伊里格瑞	i li ge rue	100
 义利观	i li guw	100
-伊利汗国	i li hw go	100
 伊利湖	i li hu	100
 毅力胡萝卜	i li hu lo bo	100
 伊利健康谷	i li jiw kv gu	100
@@ -294037,11 +294033,15 @@ sort: by_weight
 疫情防控措施落实	i qiŋ fv kuŋ co ŝi lo ŝi	100
 疫情防控的原因	i qiŋ fv kuŋ de yw iñ	100
 疫情防控攻坚战	i qiŋ fv kuŋ guŋ jiw ẑw	100
+疫情防控工作落实	i qiŋ fv kuŋ guŋ zo lo ŝi	100
 疫情防控落实	i qiŋ fv kuŋ lo ŝi	100
 疫情防控落实情况	i qiŋ fv kuŋ lo ŝi qiŋ kuv	100
 疫情防控系统	i qiŋ fv kuŋ xi tuŋ	100
 疫情防控行程卡	i qiŋ fv kuŋ xiŋ ĉŋ ka	100
 疫情防控宣传	i qiŋ fv kuŋ xyw ĉuw	100
+疫情防控宣传标语	i qiŋ fv kuŋ xyw ĉuw bio y	100
+疫情防控宣传工作	i qiŋ fv kuŋ xyw ĉuw guŋ zo	100
+疫情防控宣传教育	i qiŋ fv kuŋ xyw ĉuw jio y	100
 疫情防控制度	i qiŋ fv kuŋ ẑi du	100
 疫情防控知识宣传	i qiŋ fv kuŋ ẑi ŝi xyw ĉuw	100
 疫情防控重点	i qiŋ fv kuŋ ẑuŋ diw	100
@@ -298842,6 +298842,7 @@ sort: by_weight
 饮泣吞声	iñ qi tuñ ŝŋ	100
 引起我的注意	iñ qi o de ẑu i	100
 银企信息不对称	iñ qi xiñ xi bu due ĉñ	100
+引起月经不调	iñ qi ye jiŋ bu tio	100
 引起重视	iñ qi ẑuŋ ŝi	100
 阴气最盛	iñ qi zue ŝŋ	100
 引牵出	iñ qiw ĉu	100
@@ -307225,6 +307226,7 @@ sort: by_weight
 园丁们	yw diŋ mñ	100
 远东豹	yw duŋ bao	100
 远东传动	yw duŋ ĉuw duŋ	100
+远东工专	yw duŋ guŋ ẑuw	100
 远东技术学院	yw duŋ ji ŝu xye yw	100
 远东科技大学	yw duŋ ke ji da xye	100
 原董事长	yw duŋ ŝi ẑv	100
@@ -308056,6 +308058,7 @@ sort: by_weight
 月半爱丽丝	ye bw ai li si	100
 约伴旅行	ye bw ly xiŋ	100
 月半弯	ye bw uw	100
+悦宝宝	ye bao bao	100
 阅报室	ye bao ŝi	100
 月报制度	ye bao ẑi du	100
 粤北地区	ye bei di qy	100
@@ -308321,6 +308324,10 @@ sort: by_weight
 越焦虑	ye jio ly	100
 悦近来远	ye jiñ lai yw	100
 越今朝	ye jiñ ẑao	100
+月经不调的女性	ye jiŋ bu tio de ny xiŋ	100
+月经不调的原因	ye jiŋ bu tio de yw iñ	100
+月经不调的症状	ye jiŋ bu tio de ẑŋ ẑuv	100
+月经不调怎么办	ye jiŋ bu tio zñ me bw	100
 月经垫	ye jiŋ diw	100
 月经规则术	ye jiŋ gue ze ŝu	100
 月经来	ye jiŋ lai	100
@@ -309478,7 +309485,6 @@ sort: by_weight
 云阳市	yñ iv ŝi	100
 云艺考	yñ i kao	100
 云易岚	yñ i lw	100
-匀一匀	yñ i yñ	100
 运营成本降低	yñ iŋ ĉŋ bñ jiv di	100
 运营调度	yñ iŋ dio du	100
 云鹰飞将	yñ iŋ fei jiv	100
@@ -314792,8 +314798,8 @@ sort: by_weight
 张心童	ẑv xiñ tuŋ	100
 长新牙	ẑv xiñ ia	100
 长心眼	ẑv xiñ iw	100
-长心眼儿	ẑv xiñ iw er	100
 张歆艺	ẑv xiñ i	100
+张馨艺	ẑv xiñ i	100
 张芯瑜	ẑv xiñ y	100
 张馨予	ẑv xiñ y	100
 掌心之中	ẑv xiñ ẑi ẑuŋ	100
@@ -320308,6 +320314,7 @@ sort: by_weight
 郑幸娟	ẑŋ xiŋ jyw	100
 整型指针	ẑŋ xiŋ ẑi ẑñ	100
 整修费	ẑŋ xiu fei	100
+正修工专	ẑŋ xiu guŋ ẑuw	100
 郑琇月	ẑŋ xiu ye	100
 郑绪岚	ẑŋ xy lw	100
 正选赛	ẑŋ xyw sai	100
@@ -324943,6 +324950,7 @@ sort: by_weight
 重大历史	ẑuŋ da li ŝi	100
 重大历史机遇	ẑuŋ da li ŝi ji y	100
 重大历史事件	ẑuŋ da li ŝi ŝi jiw	100
+重大历史题材	ẑuŋ da li ŝi ti cai	100
 重大历史意义	ẑuŋ da li ŝi i i	100
 重大理由	ẑuŋ da li iu	100
 重大漏洞	ẑuŋ da lou duŋ	100
@@ -330277,6 +330285,7 @@ sort: by_weight
 朱令案	ẑu liŋ w	100
 猪灵交易所	ẑu liŋ jio i so	100
 珠零锦粲	ẑu liŋ jiñ cw	100
+朱凌凌	ẑu liŋ liŋ	100
 朱令铊中毒案	ẑu liŋ ta ẑuŋ du w	100
 朱令铊中毒案件	ẑu liŋ ta ẑuŋ du w jiw	100
 朱令铊中毒事件	ẑu liŋ ta ẑuŋ du ŝi jiw	100
@@ -330874,8 +330883,10 @@ sort: by_weight
 主要社会关系	ẑu io ŝe hue guw xi	100
 主要生产基地	ẑu io ŝŋ ĉw ji di	100
 主要省份	ẑu io ŝŋ fñ	100
+主要是便宜	ẑu io ŝi piw i	100
 主要是什么	ẑu io ŝi ŝñ me	100
 主要是为了	ẑu io ŝi ue le	100
+主要是银行	ẑu io ŝi iñ hv	100
 主要是用	ẑu io ŝi yŋ	100
 主要收藏	ẑu io ŝou cv	100
 主要系列	ẑu io xi lie	100
@@ -334482,7 +334493,6 @@ sort: by_weight
 子胥湖	zi xy hu	100
 子虚乌有的说辞	zi xy u iu de ŝo ci	100
 子虚先生	zi xy xiw ŝŋ	100
-自选称重快餐	zi xyw ĉŋ ẑuŋ kui cw	100
 自选角度	zi xyw jio du	100
 自选卡	zi xyw ka	100
 自选模块	zi xyw mo kui	100
@@ -335002,6 +335012,7 @@ sort: by_weight
 总河长令	zuŋ he ẑv liŋ	100
 综合整治行动	zuŋ he ẑŋ ẑi xiŋ duŋ	100
 综合治理体系	zuŋ he ẑi li ti xi	100
+综合治理执行难	zuŋ he ẑi li ẑi xiŋ nw	100
 综合自动化系统	zuŋ he zi duŋ hua xi tuŋ	100
 纵横都市	zuŋ hŋ du ŝi	100
 纵横交布	zuŋ hŋ jio bu	100

@@ -1380,7 +1380,7 @@
 # 「欬kai」→「咳ke」
 # 「龈ken」→「yin」
 # 「派pa」→「pai」
-# 「蜾臝」「蜾赢」→「蜾蠃」
+# 「蜾臝」→「蜾蠃」
 # 「珩hang」→「heng」
 # 「蚵仔煎」→「蚝仔煎」
 # 「合从连衡」→「合纵连横」
@@ -3072,7 +3072,6 @@
 # 「列克星顿」→「列克星敦」
 # 「关塔纳摩」→「关塔那摩」
 # 「波斯普鲁斯」→「博斯普鲁斯」
-# 「比勒菲尔德」→「比勒费尔德」
 # 「银行抵消权」→「银行抵销权」
 # 「炭水化合物」→「碳水化合物」
 # 「炭酸盐」→「碳酸盐」
@@ -3180,23 +3179,19 @@
 # 「接泊车」→「接驳车」
 # 「开完笑」→「开玩笑」
 # 「禾木科」→「禾本科」
-# 「山嵛菜」→「山萮菜」
 # 「飞杨草」→「飞扬草」
 # 「腓花玉」→「绯花玉」
 # 「缅甸莽」→「缅甸蟒」
-# 「潜夜蛾」→「潜叶蛾」
 # 「蜉蚴目」→「蜉蝣目」
 # 「鹤鹑蛋」→「鹌鹑蛋」
 # 「毛壁鱼」→「毛躄鱼」
 # 「紫宵宫」→「紫霄宫」
 # 「颠复性」→「颠覆性」
-# 「先谴队」→「先遣队」
 # 「电子称」→「电子秤」
 # 「蛋白示」→「蛋白䏡」
 # 「冰激淋」→「冰激凌」
 # 「冰淇凌」→「冰淇淋」
 # 「羞嗒嗒」→「羞答答」
-# 「丑巴怪」→「丑八怪」
 # 「慧仁米粥」→「薏仁米粥」
 # 「芜爆肚丝」→「芫爆肚丝」
 # 「怿味胡豆」→「怪味胡豆」
@@ -3275,7 +3270,7 @@
 #///
 ---
 name: base
-version: "2026-09-11"
+version: "2026-08-22"
 sort: by_weight
 ...
 # +_+
@@ -4102,7 +4097,7 @@ sort: by_weight
 阿特柔斯	a te rou si	170
 阿特苏	a te su	132
 阿特休平鳍𬶏	a te xiu piŋ qi ue	1
-阿滕伯勒长喙针鼹	a tŋ bo le ĉv hue ẑñ iw	2
+阿滕伯勒长喙针鼹鼠	a tŋ bo le ĉv hue ẑñ iw ŝu	1
 阿嚏	a ti	9999
 阿提卡之夜	a ti ka ẑi ie	1
 阿替洛尔	a ti lo er	14
@@ -4111,6 +4106,7 @@ sort: by_weight
 阿提桑诺曼底短腿犬	a ti sv no mw di duw tue qyw	1
 阿铁	a tie	111
 阿童木	a tuŋ mu	6030
+阿吐巴妖魔	a tu ba io mo	1
 阿图尔	a tu er	127
 阿图什	a tu ŝi	2515
 阿图什市	a tu ŝi ŝi	894
@@ -5682,18 +5678,17 @@ sort: by_weight
 按标准	w bio ẑuñ	17090
 暗病	w biŋ	2222
 暗冰	w biŋ	111
-岸冰	w biŋ	5
 按兵不动	w biŋ bu duŋ	7310
 安波里欧	w bo li ou	130
 安伯米尔	w bo mi er	1
 安博维	w bo ue	35
-暗部	w bu	6143
-鞍部	w bu	3493
+按不	w bu	12065
+按部	w bu	3745
 暗补	w bu	3333
 安瓿	w bu	2990
-按部	w bu	37
-按不	w bu	1
-# 庵埠	an bu	0
+庵埠	w bu	2490
+暗部	w bu	61
+鞍部	w bu	49
 安布闭壳龟	w bu bi ke gue	74
 安步当车	w bu dv ĉe	855
 按不好	w bu hao	340
@@ -5912,6 +5907,7 @@ sort: by_weight
 安定性	w diŋ xiŋ	5250
 安定药	w diŋ io	430
 安定苑	w diŋ yw	1
+安定镇政府	w diŋ ẑñ ẑŋ fu	9
 按动	w duŋ	15825
 安东	w duŋ	1
 # 庵东	an dong	0
@@ -6174,6 +6170,7 @@ sort: by_weight
 安慧北里	w hue bei li	1765
 安慧北里秀雅社区	w hue bei li xiu ia ŝe qy	2
 安徽菜	w hue cai	537
+安徽昌法律师事务所	w hue ĉv fa ly ŝi ŝi u so	3
 按回车	w hue ĉe	17245
 安徽大厦	w hue da ŝa	15
 安徽大学	w hue da xye	9835
@@ -6186,17 +6183,21 @@ sort: by_weight
 安徽工业	w hue guŋ ie	144
 安徽工业大学	w hue guŋ ie da xye	2680
 安徽合肥	w hue he fei	13310
+安徽和县历阳镇	w hue he xiw li iv ẑñ	1
 暗灰黑色猫	w hue hei se mao	1
 安徽华普会计师事务所	w hue hua pu kui ji ŝi ŝi u so	1482
 安徽华溪蟹	w hue hua xi xie	1
 安徽华星化工股份有限公司	w hue hua xiŋ hua guŋ gu fñ iu xiw guŋ si	6
 安徽华源	w hue hua yw	143
 安徽淮南	w hue hui nw	1755
+安徽徽达律师事务所	w hue hue da ly ŝi ŝi u so	50
 安徽籍	w hue ji	1460
 安徽建筑	w hue jiw ẑu	192
 安徽教育出版社	w hue jio y ĉu bw ŝe	1080
 暗灰金翅雀鲷	w hue jiñ ĉi qye dio	1
+安徽金亚太律师事务所	w hue jiñ ia tai ly ŝi ŝi u so	56
 安徽旌德	w hue jiŋ de	80
+安徽九华律师事务所	w hue jiu hua ly ŝi ŝi u so	3
 安徽卷	w hue jyw	999
 暗灰鹃	w hue jyw	3
 暗灰鹃鵙	w hue jyw jy	1
@@ -6244,6 +6245,7 @@ sort: by_weight
 安徽省水上交通事故处理办法	w hue ŝŋ ŝue ŝv jio tuŋ ŝi gu ĉu li bw fa	4
 安徽省皖能股份有限公司	w hue ŝŋ uw nŋ gu fñ iu xiw guŋ si	1
 安徽省无为县	w hue ŝŋ u ue xiw	133
+安徽省行政机构设置和编制管理规定	w hue ŝŋ xiŋ ẑŋ ji gou ŝe ẑi he biw ẑi guw li gue diŋ	4
 安徽省行政执法责任追究暂行办法	w hue ŝŋ xiŋ ẑŋ ẑi fa ze rñ ẑue jiu zw xiŋ bw fa	16
 安徽省畜产品质量安全管理条例	w hue ŝŋ xy ĉw piñ ẑi liv w qyw guw li tio li	10
 安徽省肿瘤医院	w hue ŝŋ ẑuŋ liu i yw	10
@@ -6256,6 +6258,7 @@ sort: by_weight
 安徽泗县	w hue si xiw	190
 安徽宿县	w hue su xiw	63
 安徽卫视	w hue ue ŝi	5990
+安徽无为县高沟镇	w hue u ue xiw gao gou ẑñ	4
 黯晦消沉	w hue xio ĉñ	1
 安徽医科大学	w hue i ke da xye	3145
 安徽疫情	w hue i qiŋ	158
@@ -6390,7 +6393,6 @@ sort: by_weight
 暗礁	w jio	2055
 暗角	w jio	1234
 暗叫	w jio	1111
-岸礁	w jio	5
 暗礁海	w jio hai	2
 按揭	w jie	81585
 氨解	w jie	95
@@ -7410,6 +7412,7 @@ sort: by_weight
 安慰奖	w ue jiv	1015
 安胃胶囊	w ue jio nv	1
 安危冷暖	w ue lŋ nuw	2715
+安维律师事务所	w ue ly ŝi ŝi u so	2
 安威玛尔	w ue ma er	15
 安慰赛	w ue sai	9999
 安慰他	w ue ta	16160
@@ -7773,10 +7776,9 @@ sort: by_weight
 安置	w ẑi	322865
 暗指	w ẑi	3710
 案值	w ẑi	1500
+安之	w ẑi	283
 安知	w ẑi	54
 按质	w ẑi	8
-岸质	w ẑi	5
-# 安之	an zhi	0
 安置部	w ẑi bu	255
 安置补助费	w ẑi bu ẑu fei	8906
 按值传递	w ẑi ĉuw di	500
@@ -8064,7 +8066,6 @@ sort: by_weight
 凹槽	ao cao	14695
 熬肠刮肚	ao ĉv gua du	1
 熬成	ao ĉŋ	9190
-熬成角儿	ao ĉŋ jye er	5
 凹翅长角萤金花虫	ao ĉi ĉv jio iŋ jiñ hua ĉuŋ	1
 熬出	ao ĉu	4285
 凹处	ao ĉu	2685
@@ -8072,6 +8073,7 @@ sort: by_weight
 熬穿	ao ĉuw	1111
 熬穿了	ao ĉuw le	1111
 奥创	ao ĉuv	3333
+奥达行	ao da hv	17
 澳大利亚	ao da li ia	365040
 澳大利亚奥尔伯利镇	ao da li ia ao er bo li ẑñ	1
 澳大利亚瓣棘鲀	ao da li ia bw ji tuñ	1
@@ -8170,6 +8172,7 @@ sort: by_weight
 奥丁	ao diŋ	33267
 凹洞	ao duŋ	2465
 敖东	ao duŋ	1
+奥东律师事务所	ao duŋ ly ŝi ŝi u so	36
 澳东蛇属	ao duŋ ŝe ŝu	1
 傲东王子	ao duŋ uv zi	1
 凹度	ao du	130
@@ -8649,7 +8652,6 @@ sort: by_weight
 奥托·海塔尔	ao to hai ta er	111
 奥拓汽车	ao to qi ĉe	293
 岙外	ao ui	1
-澳网	ao uv	234
 奥委	ao ue	1870
 奥维地图	ao ue di tu	84
 奥威尔	ao ue er	3580
@@ -9359,6 +9361,7 @@ sort: by_weight
 巴豆	ba dou	5730
 笆斗	ba dou	400
 # 八陡	ba dou	0
+# 拔都	ba dou	0
 八斗才	ba dou cai	110
 巴豆毒蛋白	ba dou du dw bai	1
 巴豆霜	ba dou ŝuv	1
@@ -9368,7 +9371,6 @@ sort: by_weight
 拔毒	ba du	1490
 八堵	ba du	115
 八渡	ba du	45
-拔都	ba du	5
 # 八都	ba du	0
 八都村	ba du cuñ	1
 拔毒膏	ba du gao	13
@@ -9630,11 +9632,10 @@ sort: by_weight
 八湖镇	ba hu ẑñ	127
 拔胡子	ba hu zi	125
 跋扈恣睢	ba hu zi sue	1
-把话	ba hua	2798
-八画	ba hua	888
+把话	ba hua	27985
+八华	ba hua	8
 把话讲开	ba hua jiv kai	3333
 八花九裂	ba hua jiu lie	1
-八华穴	ba hua xye	8
 八环	ba huw	8888
 八荒	ba huv	8888
 八皇后	ba huv hou	502
@@ -10368,12 +10369,12 @@ sort: by_weight
 八省联考	ba ŝŋ liw kao	135
 八十	ba ŝi	75810
 巴士	ba ŝi	8600
+巴氏	ba ŝi	8005
+八世	ba ŝi	5300
 把式	ba ŝi	4790
 八时	ba ŝi	4440
 罢市	ba ŝi	2300
-八世	ba ŝi	1530
 巴适	ba ŝi	1028
-巴氏	ba ŝi	800
 霸市	ba ŝi	9
 # 巴什	ba shi	0
 八十八	ba ŝi ba	3050
@@ -11575,7 +11576,7 @@ sort: by_weight
 摆动着	bai duŋ ẑe	3440
 摆动作	bai duŋ zo	169
 白豆	bai dou	7906
-白豆蔻	bai dou kou	318
+白豆蔻	bai dou kou	31
 白豆焖猪排	bai dou mñ ẑu pai	1
 白豆沙拉	bai dou ŝa la	7
 白豆汤	bai dou tv	1
@@ -11754,13 +11755,11 @@ sort: by_weight
 百分尺	bai fñ ĉi	9999
 百分等级	bai fñ dŋ ji	230
 百分点	bai fñ diw	283165
-白粉蝶	bai fñ die	2
 百分法	bai fñ fa	95
 百分含量	bai fñ hw liv	1580
 百分号	bai fñ hao	1630
 百分减少	bai fñ jiw ŝao	1
 百分率	bai fñ ly	7895
-白粉虱	bai fñ ŝi	4
 百分数	bai fñ ŝu	9450
 百分数表	bai fñ ŝu bio	1060
 百分数转小数	bai fñ ŝu ẑuw xio ŝu	2
@@ -12755,7 +12754,6 @@ sort: by_weight
 白名单	bai miŋ dw	4770
 白沫	bai mo	4050
 白蘑	bai mo	1628
-白膜	bai mo	689
 白魔法	bai mo fa	156
 白魔法师	bai mo fa ŝi	194
 白魔鬼	bai mo gue	137
@@ -13204,7 +13202,6 @@ sort: by_weight
 白身臂灯鱼	bai ŝñ bi dŋ y	1
 百身何赎	bai ŝñ he ŝu	1
 白肾陌夜蛾	bai ŝñ mo ie e	1
-白神山地	bai ŝñ ŝw di	2
 白参涡螺	bai ŝñ o lo	1
 百神翳其备降兮	bai ŝñ i qi bei jiv xi	2
 白生	bai ŝŋ	1955
@@ -15933,7 +15930,6 @@ sort: by_weight
 班委	bw ue	8565
 瓣胃	bw ue	300
 班味	bw ue	2
-斑尾塍鹬	bw ue ĉŋ y	3
 斑尾刺鰕虎	bw ue ci xia hu	1
 斑尾低线𫚭	bw ue di xiw lie	1
 半位点	bw ue diw	1
@@ -16616,7 +16612,6 @@ sort: by_weight
 绑绳	bv ŝŋ	540
 帮手	bv ŝou	27895
 榜首	bv ŝou	3722
-绑手	bv ŝou	7
 磅数	bv ŝu	2645
 谤书	bv ŝu	3
 榜书	bv ŝu	2
@@ -16766,7 +16761,8 @@ sort: by_weight
 宝安北路	bao w bei lu	55
 保安部	bao w bu	3560
 保安处	bao w ĉu	1630
-保安村	bao w cuñ	1
+保安处分与中国刑法发展	bao w ĉu fñ y ẑuŋ go xiŋ fa fa ẑw	1
+保安村	bao w cuñ	185
 保安措施	bao w co ŝi	2405
 保安大队	bao w da due	705
 保安大街	bao w da jie	1
@@ -17245,7 +17241,6 @@ sort: by_weight
 宝典	bao diw	71980
 爆点	bao diw	2222
 宝殿	bao diw	59
-报点	bao diw	34
 宝钿	bao diw	6
 煲电话粥	bao diw hua ẑou	2090
 鲍店镇	bao diw ẑñ	135
@@ -17980,9 +17975,9 @@ sort: by_weight
 包浆豆腐	bao jiv dou fu	39
 包江桥	bao jiv qio	30
 胞浆素	bao jiv su	11
-保教	bao jio	6
-堡礁	bao jio	5
+保教	bao jio	6105
 包教包会	bao jio bao hue	3395
+宝交公司	bao jio guŋ si	16
 包交换	bao jio huw	337
 保教知识	bao jio ẑi ŝi	162
 包饺子	bao jio zi	7210
@@ -19795,8 +19790,10 @@ sort: by_weight
 暴走	bao zou	14910
 抱走	bao zou	3860
 暴揍	bao zou	1111
+暴走猴	bao zou hou	1
 抱走了	bao zou le	1930
 暴走了	bao zou le	1111
+暴走邻家	bao zou liñ jia	183
 暴走族	bao zou zu	2015
 包租	bao zu	11575
 暴卒	bao zu	600
@@ -19847,10 +19844,9 @@ sort: by_weight
 北白岱村	bei bai dai cuñ	4
 被掰弯	bei bai uw	1111
 被搬	bei bw	5555
-被绊	bei bw	1736
-背板	bei bw	1683
 备办	bei bw	999
 北半	bei bw	960
+背板	bei bw	683
 北半部	bei bw bu	1150
 被搬到	bei bw dao	222
 被绊倒	bei bw dao	111
@@ -20121,7 +20117,6 @@ sort: by_weight
 北褚乡	bei ĉu xiv	1
 被处以	bei ĉu i	7935
 被除以	bei ĉu i	5
-被踹	bei ĉui	444
 被传	bei ĉuw	5555
 背传	bei ĉuw	1111
 北川	bei ĉuw	2
@@ -20461,7 +20456,7 @@ sort: by_weight
 北方监狱钥匙	bei fv jiw y io ŝi	1
 北方交大	bei fv jio da	1385
 北方交通	bei fv jio tuŋ	1560
-北方交通大学	bei fv jio tuŋ da xye	3
+北方交通大学	bei fv jio tuŋ da xye	3790
 北方教育集团	bei fv jio y ji tuw	8
 北方局	bei fv jy	2455
 北方𬶋鱥	bei fv jy gue	1
@@ -21063,6 +21058,10 @@ sort: by_weight
 北京长	bei jiŋ ĉv	184
 北京厂	bei jiŋ ĉv	175
 北京昌平	bei jiŋ ĉv piŋ	13590
+北京昌平区北七家镇	bei jiŋ ĉv piŋ qy bei qi jia ẑñ	3
+北京昌平区东小口镇	bei jiŋ ĉv piŋ qy duŋ xio kou ẑñ	3
+北京昌平区沙河镇	bei jiŋ ĉv piŋ qy ŝa he ẑñ	2
+北京昌平区小汤山镇	bei jiŋ ĉv piŋ qy xio tv ŝw ẑñ	4
 北京菖蒲河公园	bei jiŋ ĉv pu he guŋ yw	3
 北京朝来农艺园	bei jiŋ ĉao lai nuŋ i yw	1
 北京朝阳	bei jiŋ ĉao iv	9930
@@ -21077,11 +21076,20 @@ sort: by_weight
 北京诚利通数码	bei jiŋ ĉŋ li tuŋ ŝu ma	87
 北京诚利通数码技术有限公司	bei jiŋ ĉŋ li tuŋ ŝu ma ji ŝu iu xiw guŋ si	87
 北京城市学院	bei jiŋ ĉŋ ŝi xye yw	505
+北京重光律师事务所	bei jiŋ ĉuŋ guv ly ŝi ŝi u so	32
 北京出版社	bei jiŋ ĉu bw ŝe	4430
 北京出发	bei jiŋ ĉu fa	4290
 北京创原天地	bei jiŋ ĉuv yw tiw di	87
 北京创原天地科技有限公司	bei jiŋ ĉuv yw tiw di ke ji iu xiw guŋ si	87
 北京大观园	bei jiŋ da guw yw	545
+北京大兴区安定镇	bei jiŋ da xiŋ qy w diŋ ẑñ	2
+北京大兴区黄村镇	bei jiŋ da xiŋ qy huv cuñ ẑñ	25
+北京大兴区旧宫镇	bei jiŋ da xiŋ qy jiu guŋ ẑñ	41
+北京大兴区庞各庄镇	bei jiŋ da xiŋ qy pv ge ẑuv ẑñ	11
+北京大兴区魏善庄镇	bei jiŋ da xiŋ qy ue ŝw ẑuv ẑñ	5
+北京大兴区西红门镇	bei jiŋ da xiŋ qy xi huŋ mñ ẑñ	17
+北京大兴区亦庄镇	bei jiŋ da xiŋ qy i ẑuv ẑñ	1
+北京大兴区榆垡镇	bei jiŋ da xiŋ qy y fa ẑñ	8
 北京大熊猫馆	bei jiŋ da xyŋ mao guw	6
 北京大学	bei jiŋ da xye	211845
 北京大学出版社	bei jiŋ da xye ĉu bw ŝe	32285
@@ -21089,6 +21097,7 @@ sort: by_weight
 北京代表处	bei jiŋ dai bio ĉu	6090
 北京的	bei jiŋ de	197440
 背景的	bei jiŋ de	69585
+北京德恒律师事务所	bei jiŋ de hŋ ly ŝi ŝi u so	529
 背景的灰度	bei jiŋ de hue du	1
 背景的颜色	bei jiŋ de iw se	935
 背景灯	bei jiŋ dŋ	10750
@@ -21154,6 +21163,8 @@ sort: by_weight
 北京国泰网信科技有限公司	bei jiŋ go tai uv xiñ ke ji iu xiw guŋ si	87
 北京国投	bei jiŋ go tou	15
 北京海淀	bei jiŋ hai diw	12250
+北京海淀区上庄镇	bei jiŋ hai diw qy ŝv ẑuv ẑñ	3
+北京海淀区苏家坨镇	bei jiŋ hai diw qy su jia to ẑñ	3
 北京海秦方圆科技	bei jiŋ hai qiñ fv yw ke ji	87
 北京海秦方圆科技股份有限公司	bei jiŋ hai qiñ fv yw ke ji gu fñ iu xiw guŋ si	87
 北京海泰方圆科技	bei jiŋ hai tai fv yw ke ji	87
@@ -21250,6 +21261,7 @@ sort: by_weight
 北京眉鹟吸虫	bei jiŋ mei uŋ xi ĉuŋ	1
 北京蜜饯果脯	bei jiŋ mi jiw go fu	1
 北京明城墙遗址公园	bei jiŋ miŋ ĉŋ qiv i ẑi guŋ yw	14
+北京莫少平律师事务所	bei jiŋ mo ŝao piŋ ly ŝi ŝi u so	42
 北京南	bei jiŋ nw	2615
 北京南宫世界地热博览园	bei jiŋ nw guŋ ŝi jie di re bo lw yw	2
 北京南路	bei jiŋ nw lu	241
@@ -21257,6 +21269,7 @@ sort: by_weight
 北京农学院	bei jiŋ nuŋ xye yw	419
 北京农业职业学院	bei jiŋ nuŋ ie ẑi ie xye yw	109
 北京牌	bei jiŋ pai	905
+北京庞标律师事务所	bei jiŋ pv bio ly ŝi ŝi u so	11
 北京片皮鸭	bei jiŋ piw pi ia	2
 北京品识	bei jiŋ piñ ŝi	87
 北京品识科技有限公司	bei jiŋ piñ ŝi ke ji iu xiw guŋ si	87
@@ -21307,6 +21320,8 @@ sort: by_weight
 北京生物制品研究所	bei jiŋ ŝŋ u ẑi piñ iw jiu so	20
 北京市	bei jiŋ ŝi	500682
 北京市安全技术防范管理规定	bei jiŋ ŝi w qyw ji ŝu fv fw guw li gue diŋ	8
+北京市包诚律师事务所	bei jiŋ ŝi bao ĉŋ ly ŝi ŝi u so	1
+北京市宝鼎律师事务所	bei jiŋ ŝi bao diŋ ly ŝi ŝi u so	19
 北京市财政局	bei jiŋ ŝi cai ẑŋ jy	4380
 北京什刹海公园	bei jiŋ ŝi ĉa hai guŋ yw	1
 北京市长城保护管理办法	bei jiŋ ŝi ĉv ĉŋ bao hu guw li bw fa	93
@@ -21330,6 +21345,9 @@ sort: by_weight
 北京市国家公务员奖励暂行办法	bei jiŋ ŝi go jia guŋ u yw jiv li zw xiŋ bw fa	2
 北京市国土资源局	bei jiŋ ŝi go tu zi yw jy	1150
 北京市国有建设用地供应办法	bei jiŋ ŝi go iu jiw ŝe yŋ di guŋ iŋ bw fa	59
+北京市国源律师事务所	bei jiŋ ŝi go yw ly ŝi ŝi u so	29
+北京市浩东律师事务所	bei jiŋ ŝi hao duŋ ly ŝi ŝi u so	86
+北京市洪范广住律师事务所	bei jiŋ ŝi huŋ fw guv ẑu ly ŝi ŝi u so	46
 北京市怀柔区司法局	bei jiŋ ŝi hui rou qy si fa jy	1
 北京市环保局	bei jiŋ ŝi huw bao jy	1745
 北京市环境噪声污染防治办法	bei jiŋ ŝi huw jiŋ zao ŝŋ u rw fv ẑi bw fa	96
@@ -21355,6 +21373,7 @@ sort: by_weight
 北京石景山游乐园	bei jiŋ ŝi jiŋ ŝw iu le yw	26
 北京市经纬律师事务	bei jiŋ ŝi jiŋ ue ly ŝi ŝi u	42
 北京市居民委员会选举办法	bei jiŋ ŝi jy miñ ue yw hue xyw jy bw fa	3
+北京市君永律师事务所	bei jiŋ ŝi jyñ yŋ ly ŝi ŝi u so	12
 北京市林业植物检疫办法	bei jiŋ ŝi liñ ie ẑi u jiw i bw fa	11
 北京市旅馆业治安管理规定	bei jiŋ ŝi ly guw ie ẑi w guw li gue diŋ	35
 北京市旅游局	bei jiŋ ŝi ly iu jy	3155
@@ -21381,6 +21400,8 @@ sort: by_weight
 北京市信息化促进条例	bei jiŋ ŝi xiñ xi hua cu jiñ tio li	700
 北京市行政规范性文件备案监督办法	bei jiŋ ŝi xiŋ ẑŋ gue fw xiŋ uñ jiw bei w jiw du bw fa	7
 北京试验区	bei jiŋ ŝi iw qy	20
+北京市盈科律师事务所	bei jiŋ ŝi iŋ ke ly ŝi ŝi u so	54
+北京市赵晓鲁律师事务所	bei jiŋ ŝi ẑao xio lu ly ŝi ŝi u so	86
 北京市政府	bei jiŋ ŝi ẑŋ fu	14315
 北京市植物园	bei jiŋ ŝi ẑi u yw	43
 北京市志愿服务促进条例	bei jiŋ ŝi ẑi yw fu u cu jiñ tio li	184
@@ -21414,6 +21435,9 @@ sort: by_weight
 北京厅	bei jiŋ tiŋ	260
 北京通	bei jiŋ tuŋ	2200
 北京通州	bei jiŋ tuŋ ẑou	2540
+北京通州区宋庄镇	bei jiŋ tuŋ ẑou qy suŋ ẑuv ẑñ	6
+北京通州区台湖镇	bei jiŋ tuŋ ẑou qy tai hu ẑñ	8
+北京通州区永顺镇	bei jiŋ tuŋ ẑou qy yŋ ŝuñ ẑñ	7
 背景透明	bei jiŋ tou miŋ	1573
 北京头条	bei jiŋ tou tio	142
 背景图	bei jiŋ tu	6725
@@ -21945,7 +21969,6 @@ sort: by_weight
 被你爱过我很快乐	bei ni ai go o hñ kui le	1
 贝尼地平	bei ni di piŋ	1
 被你们	bei ni mñ	6915
-被撵	bei niw	7
 备年货	bei niw ho	189
 被鸟	bei nio	222
 被尿	bei nio	111
@@ -22063,6 +22086,7 @@ sort: by_weight
 北汽福田	bei qi fu tiw	5130
 北七家	bei qi jia	398
 北七家建材批发市场	bei qi jia jiw cai pi fa ŝi ĉv	2
+北七家镇政府	bei qi jia ẑñ ẑŋ fu	25
 北汽角斗士	bei qi jye dou ŝi	48
 北汽控股	bei qi kuŋ gu	6850
 北汽控股公司	bei qi kuŋ gu guŋ si	788
@@ -22897,6 +22921,7 @@ sort: by_weight
 北野场	bei ie ĉv	6
 北野厂村	bei ie ĉv cuñ	1
 北冶村	bei ie cuñ	4
+北野菊	bei ie jy	1
 贝叶斯定理	bei ie si diŋ li	1
 贝叶斯方法	bei ie si fv fa	928
 贝叶斯分类	bei ie si fñ lei	609
@@ -23001,7 +23026,7 @@ sort: by_weight
 # 北渔	bei yu	0
 悖于常情	bei y ĉv qiŋ	10
 悖于法	bei y fa	10
-北渔路	bei y lu	8
+北渔路	bei y lu	1180
 贝聿铭	bei y miŋ	3380
 被誉为	bei y ue	123960
 北宇物业	bei y u ie	4
@@ -24385,7 +24410,6 @@ sort: by_weight
 逼出来	bi ĉu lai	1385
 滗出来	bi ĉu lai	5
 比穿	bi ĉuw	1290
-臂钏	bi ĉuw	5
 比传统	bi ĉuw tuŋ	21095
 必传之作	bi ĉuw ẑi zo	25
 鼻疮	bi ĉuv	35
@@ -25089,7 +25113,8 @@ sort: by_weight
 避了	bi le	3170
 比了比	bi le bi	1275
 闭了闭眼	bi le bi iw	256
-比勒费尔德	bi le fei er de	183
+比勒菲尔德	bi le fei er de	181
+比勒费尔德	bi le fei er de	100
 比了个手势	bi le ge ŝou ŝi	17
 比勒陀利亚	bi le to li ia	1675
 闭了眼睛	bi le iw jiŋ	84
@@ -25105,13 +25130,14 @@ sort: by_weight
 壁垒森严	bi lei sñ iw	1385
 避雷针	bi lei ẑñ	7910
 避雷装置	bi lei ẑuv ẑi	1200
+壁垒族	bi lei zu	1
 比例	bi li	500647
 笔力	bi li	6320
 臂力	bi li	5470
 哔哩	bi li	5000
 壁立	bi li	4470
 笔立	bi li	1999
-薜荔	bi li	369
+薜荔	bi li	5
 毕力	bi li	4
 鄙俚	bi li	3
 秕粒	bi li	2
@@ -25840,11 +25866,10 @@ sort: by_weight
 避世	bi ŝi	4185
 逼事	bi ŝi	4000
 壁饰	bi ŝi	3999
-笔势	bi ŝi	3910
-逼视	bi ŝi	3275
+逼视	bi ŝi	3910
+笔势	bi ŝi	3275
 逼使	bi ŝi	2730
 鼻饰	bi ŝi	75
-笔石	bi ŝi	4
 壁虱	bi ŝi	2
 币市	bi ŝi	2
 拂士	bi ŝi	2
@@ -26322,11 +26347,10 @@ sort: by_weight
 鄙夷	bi i	31350
 笔译	bi i	23985
 裨益	bi i	11190
-鼻翼	bi i	3458
-笔意	bi i	1541
-比翼	bi i	433
+笔意	bi i	5415
+比翼	bi i	4335
+鼻翼	bi i	1458
 鄙意	bi i	99
-避役	bi i	77
 碧漪	bi i	3
 辟易	bi i	2
 敝衣	bi i	1
@@ -26340,7 +26364,6 @@ sort: by_weight
 鄙夷不屑	bi i bu xie	460
 比翼飞	bi i fei	215
 比一季度	bi i ji du	2855
-避役科	bi i ke	5
 敝衣粝食	bi i li ŝi	1
 比翼连枝当日愿	bi i liw ẑi dv ri yw	1
 比一年	bi i niw	223
@@ -27095,7 +27118,6 @@ sort: by_weight
 变更中	biw gŋ ẑuŋ	340
 变更注册商标公告	biw gŋ ẑu ce ŝv bio guŋ gao	1
 变工	biw guŋ	755
-变宫	biw guŋ	5
 # 边贡	bian gong	0
 变躬迁席	biw guŋ qiw xi	1
 变故	biw gu	30040
@@ -27962,8 +27984,6 @@ sort: by_weight
 变透明	biw tou miŋ	675
 鞭头绳	biw tou ŝŋ	1
 扁头𬶐	biw tou ẑao	1
-变秃	biw tu	426
-变土	biw tu	264
 边涂边	biw tu biw	26
 鞭腿	biw tue	989
 边退边	biw tue biw	525
@@ -28331,6 +28351,7 @@ sort: by_weight
 边缘效应	biw yw xio iŋ	535
 边缘性	biw yw xiŋ	3070
 扁圆形	biw yw xiŋ	2720
+边缘刑法学	biw yw xiŋ fa xye	1
 边缘型人格障碍	biw yw xiŋ rñ ge ẑv ai	13
 边缘行者	biw yw xiŋ ẑe	200
 边缘学科	biw yw xye ke	5780
@@ -28407,9 +28428,7 @@ sort: by_weight
 便知	biw ẑi	26715
 编址	biw ẑi	2261
 变址	biw ẑi	609
-变直	biw ẑi	423
 贬职	biw ẑi	305
-变徵	biw ẑi	5
 边指边	biw ẑi biw	13
 编织布	biw ẑi bu	870
 编织厂	biw ẑi ĉv	485
@@ -28970,7 +28989,6 @@ sort: by_weight
 表率	bio ŝui	42050
 表率作用	bio ŝui zo yŋ	20565
 表说明	bio ŝo miŋ	72
-表锁	bio so	5
 表态	bio tai	69500
 表态发言	bio tai fa iw	3945
 彪特富	bio te fu	1
@@ -30037,7 +30055,7 @@ sort: by_weight
 滨海路	biñ hai lu	3655
 滨海区	biñ hai qy	630
 滨海似奇棘鮗	biñ hai si qi ji duŋ	1
-滨海县	biñ hai xiw	265
+滨海县	biñ hai xiw	2265
 滨海新村	biñ hai xiñ cuñ	177
 滨海新区	biñ hai xiñ qy	35995
 滨海愚民	biñ hai y miñ	4
@@ -31478,7 +31496,6 @@ sort: by_weight
 冰箱门	biŋ xiv mñ	1740
 冰箱压缩	biŋ xiv ia so	12500
 冰消	biŋ xio	1205
-并校	biŋ xio	77
 冰消冻解	biŋ xio duŋ jie	1
 兵销革偃	biŋ xio ge iw	1
 冰消气化	biŋ xio qi hua	1
@@ -31726,11 +31743,11 @@ sort: by_weight
 秉志吸尾线虫	biŋ ẑi xi ue xiw ĉuŋ	1
 秉志线虫属	biŋ ẑi xiw ĉuŋ ŝu	1
 兵之形	biŋ ẑi xiŋ	1180
-冰汁杏酪	biŋ ẑi xiŋ lao	1
+冰汁杏淖	biŋ ẑi xiŋ nao	1
+并重	biŋ ẑuŋ	101515
+兵种	biŋ ẑuŋ	33150
 病重	biŋ ẑuŋ	18385
-兵种	biŋ ẑuŋ	3315
 病中	biŋ ẑuŋ	1320
-并重	biŋ ẑuŋ	1015
 病种	biŋ ẑuŋ	111
 丙种球蛋白	biŋ ẑuŋ qiu dw bai	2390
 冰粥	biŋ ẑou	1285
@@ -32258,7 +32275,6 @@ sort: by_weight
 博见多闻	bo jiw do uñ	1
 博见洽闻	bo jiw qia uñ	1
 播讲	bo jiv	2010
-狛江市	bo jiv ŝi	2
 拨叫	bo jio	4930
 跛脚	bo jio	3180
 跛脚鸭	bo jio ia	1180
@@ -32392,7 +32408,7 @@ sort: by_weight
 薄利	bo li	4490
 薄礼	bo li	1465
 波粒	bo li	111
-伯力	bo li	5
+伯力	bo li	4
 波利	bo li	1
 # 勃利	bo li	0
 玻璃板	bo li bw	6810
@@ -32841,10 +32857,7 @@ sort: by_weight
 波丝油糕	bo si iu gao	3
 波斯语	bo si y	3485
 播送	bo suŋ	6210
-泊松斑	bo suŋ bw	5
 泊松分布	bo suŋ fñ bu	435
-泊松过程	bo suŋ go ĉŋ	5
-泊松亮斑	bo suŋ liv bw	5
 波速	bo su	123
 剥蒜	bo suw	3
 剥笋	bo suñ	36
@@ -35402,25 +35415,26 @@ sort: by_weight
 捕获者	bu ho ẑe	20
 不惑之年	bu ho ẑi niw	4690
 补货中	bu ho ẑuŋ	187
+不及	bu ji	158750
 补给	bu ji	99999
+不计	bu ji	57875
 不急	bu ji	32540
+不吉	bu ji	28215
+不记	bu ji	27777
+部级	bu ji	25685
 不羁	bu ji	24170
+不济	bu ji	17970
 补寄	bu ji	15900
-不及	bu ji	15875
-不计	bu ji	15787
-不记	bu ji	12777
-补剂	bu ji	6359
-部级	bu ji	5685
+补剂	bu ji	3595
 簿记	bu ji	3210
 补记	bu ji	3060
-不吉	bu ji	2821
 补集	bu ji	2700
 捕集	bu ji	2095
-不济	bu ji	1797
 簿籍	bu ji	770
 # 布吉	bu ji	0
 不急啊	bu ji a	1180
 不计报酬	bu ji bao ĉou	3335
+不吉波普不笑	bu ji bo pu bu xio	150
 不饥不寒	bu ji bu hw	40
 不疾不缓	bu ji bu huw	107
 不即不离	bu ji bu li	1205
@@ -36718,7 +36732,6 @@ sort: by_weight
 不论	bu luñ	329715
 布伦	bu luñ	1
 不伦不类	bu luñ bu lei	13525
-布伦德勒	bu luñ de le	5
 不论好坏	bu luñ hao hui	875
 不论何人	bu luñ he rñ	380
 不论何时	bu luñ he ŝi	3580
@@ -41181,7 +41194,6 @@ sort: by_weight
 菜帮子	cai bv zi	9999
 财报	cai bao	17630
 财宝	cai bao	17460
-踩爆	cai bao	3678
 彩报	cai bao	2530
 菜包	cai bao	2010
 财保	cai bao	97
@@ -41991,9 +42003,8 @@ sort: by_weight
 财力物力	cai li u li	2115
 财力雄厚	cai li xyŋ hou	1915
 采莲	cai liw	6980
-踩脸	cai liw	2468
 彩练	cai liw	1530
-采莲船	cai liw ĉuw	32
+采莲船	cai liw ĉuw	325
 采莲南塘秋	cai liw nw tv qiu	152
 裁量	cai liv	1111
 菜量	cai liv	999
@@ -48224,10 +48235,8 @@ sort: by_weight
 长队	ĉv due	9940
 唱对台戏	ĉv due tai xi	1315
 长吨	ĉv duñ	2
-唱多	ĉv do	555
-长多	ĉv do	25
-长多了	ĉv do le	7
-长多少	ĉv do ŝao	290
+长多	ĉv do	2590
+唱多	ĉv do	1
 肠多糖片	ĉv do tv piw	1
 嫦娥	ĉv e	30415
 嫦娥奔月	ĉv e bñ ye	4175
@@ -48727,7 +48736,6 @@ sort: by_weight
 长径比	ĉv jiŋ bi	1285
 长精度	ĉv jiŋ du	3
 长颈龟	ĉv jiŋ gue	3
-长颈羚	ĉv jiŋ liŋ	89
 唱经楼	ĉv jiŋ lou	73
 长颈鹿	ĉv jiŋ lu	11345
 长颈鹿天牛	ĉv jiŋ lu tiw niu	1
@@ -48789,8 +48797,8 @@ sort: by_weight
 # 长坑	chang keng	0
 长坑村	ĉv kŋ cuñ	17
 长坑水	ĉv kŋ ŝue	3
-唱空	ĉv kuŋ	1999
-长空	ĉv kuŋ	228
+长空	ĉv kuŋ	22810
+唱空	ĉv kuŋ	99
 唱空城计	ĉv kuŋ ĉŋ ji	330
 常恐秋风早	ĉv kuŋ qiu fŋ zao	1
 常恐秋节至	ĉv kuŋ qiu jie ẑi	1180
@@ -49067,6 +49075,8 @@ sort: by_weight
 常宁宫	ĉv niŋ guŋ	44
 长宁路	ĉv niŋ lu	5990
 长宁区	ĉv niŋ qy	31610
+长宁区北渔路	ĉv niŋ qy bei y lu	1180
+长宁区新泾镇	ĉv niŋ qy xiñ jiŋ ẑñ	1180
 常宁市	ĉv niŋ ŝi	1315
 长宁县	ĉv niŋ xiw	1650
 昌宁县	ĉv niŋ xiw	1635
@@ -49924,8 +49934,7 @@ sort: by_weight
 昌姓	ĉv xiŋ	1
 # 长兴	chang xing	0
 # 长行	chang xing	0
-长兴岛	ĉv xiŋ dao	302
-长兴岛镇	ĉv xiŋ dao ẑñ	4
+长兴岛	ĉv xiŋ dao	3025
 长兴公寓	ĉv xiŋ guŋ y	2
 长兴集乡	ĉv xiŋ ji xiv	1
 长兴街	ĉv xiŋ jie	116
@@ -50013,7 +50022,6 @@ sort: by_weight
 长野抹香鲸	ĉv ie mo xiv jiŋ	1
 长夜难眠	ĉv ie nw miw	175
 长夜难明赤县天	ĉv ie nw miŋ ĉi xiw tiw	9
-长野市	ĉv ie ŝi	5
 长叶异痣蟌	ĉv ie i ẑi cuŋ	1
 长夜沾湿何由彻	ĉv ie ẑw ŝi he iu ĉe	3
 长夜之乐	ĉv ie ẑi le	1
@@ -50122,6 +50130,7 @@ sort: by_weight
 常用网址	ĉv yŋ uv ẑi	59
 常永祥	ĉv yŋ xiv	6
 常用效果	ĉv yŋ xio go	147
+常用药事法规千问	ĉv yŋ io ŝi fa gue qiw uñ	1
 常用于	ĉv yŋ y	16735
 常用语	ĉv yŋ y	4955
 常用语法	ĉv yŋ y fa	409
@@ -50134,7 +50143,6 @@ sort: by_weight
 畅游	ĉv iu	45205
 常由	ĉv iu	4305
 倡优	ĉv iu	820
-肠油	ĉv iu	5
 菖鲉	ĉv iu	3
 # 厂有	chang you	0
 常有高猿长啸	ĉv iu gao yw ĉv xio	3
@@ -50349,8 +50357,8 @@ sort: by_weight
 超爱	ĉao ai	9999
 超暗	ĉao w	5555
 潮安	ĉao w	1
-潮安区	ĉao w qy	200
-潮安县	ĉao w xiw	4
+潮安区	ĉao w qy	2000
+潮安县	ĉao w xiw	7005
 超拔	ĉao ba	1765
 超霸	ĉao ba	180
 炒八宝饭	ĉao ba bao fw	6
@@ -50450,8 +50458,6 @@ sort: by_weight
 潮虫	ĉao ĉuŋ	16
 巢虫	ĉao ĉuŋ	5
 炒茺蔚子	ĉao ĉuŋ ue zi	1
-超臭	ĉao ĉou	876
-超丑	ĉao ĉou	234
 超出	ĉao ĉu	218645
 炒出	ĉao ĉu	111
 超出法律范围的	ĉao ĉu fa ly fw ue de	2
@@ -50661,8 +50667,6 @@ sort: by_weight
 炒股票	ĉao gu pio	4860
 抄古诗	ĉao gu ŝi	163
 超固态	ĉao gu tai	9999
-超乖	ĉao gui	2468
-超怪	ĉao gui	789
 超广角	ĉao guv jio	4890
 超光速	ĉao guv su	2225
 超贵	ĉao gue	3333
@@ -50946,7 +50950,7 @@ sort: by_weight
 超流水线	ĉao liu ŝue xiw	63
 超流水线结构	ĉao liu ŝue xiw jie gou	10
 潮泷阁	ĉao luŋ ge	1
-炒楼	ĉao lou	7
+炒楼黑名单	ĉao lou hei miŋ dw	1
 炒楼花	ĉao lou hua	705
 抄录	ĉao lu	12780
 抄录下来	ĉao lu xia lai	665
@@ -51670,9 +51674,7 @@ sort: by_weight
 超值	ĉao ẑi	106935
 超支	ĉao ẑi	12285
 炒至	ĉao ẑi	8085
-抄纸	ĉao ẑi	234
-朝职	ĉao ẑi	111
-超陟	ĉao ẑi	5
+朝职	ĉao ẑi	1111
 超值版	ĉao ẑi bw	1620
 超值价	ĉao ẑi jia	2155
 炒芝麻	ĉao ẑi ma	189
@@ -51861,8 +51863,6 @@ sort: by_weight
 彻底诱变	ĉe di iu biw	1
 彻底治愈	ĉe di ẑi y	5625
 车店	ĉe diw	6987
-撤点	ĉe diw	678
-撤店	ĉe diw	596
 掣电	ĉe diw	595
 撤佃	ĉe diw	15
 撤掉	ĉe dio	8970
@@ -54164,6 +54164,7 @@ sort: by_weight
 承德避暑山庄及周围寺庙	ĉŋ de bi ŝu ŝw ẑuv ji ẑou ue si mio	105
 成德达财	ĉŋ de da cai	1
 承德道	ĉŋ de dao	6
+承德德律律师事务所	ĉŋ de de ly ly ŝi ŝi u so	2
 称德度功	ĉŋ de du guŋ	1
 承德钒钛	ĉŋ de fw tai	12500
 撑得慌	ĉŋ de huv	265
@@ -54223,6 +54224,7 @@ sort: by_weight
 成都车展	ĉŋ du ĉe ẑw	196
 成都城	ĉŋ du ĉŋ	385
 成都出口加工区	ĉŋ du ĉu kou jia guŋ qy	17
+成都传智播客	ĉŋ du ĉuw ẑi bo ke	77
 成都大学	ĉŋ du da xye	1082
 成都担担面	ĉŋ du dw dw miw	42
 成都蛋汤	ĉŋ du dw tv	7
@@ -55356,7 +55358,7 @@ sort: by_weight
 城市公有房屋管理规定	ĉŋ ŝi guŋ iu fv u guw li gue diŋ	32
 城市公园	ĉŋ ŝi guŋ yw	4115
 城市管理	ĉŋ ŝi guw li	65525
-城市管理学院	ĉŋ ŝi guw li xye yw	1
+城市管理学院	ĉŋ ŝi guw li xye yw	158
 城市广场	ĉŋ ŝi guv ĉv	3117
 城市轨道	ĉŋ ŝi gue dao	13535
 城市规划	ĉŋ ŝi gue hua	202700
@@ -56121,9 +56123,8 @@ sort: by_weight
 程油子乡	ĉŋ iu zi xiv	13
 成语	ĉŋ y	70850
 称誉	ĉŋ y	6030
-城隅	ĉŋ y	2
-塍鹬	ĉŋ y	2
 程昱	ĉŋ y	2
+城隅	ĉŋ y	1
 逞欲	ĉŋ y	1
 # 澄宇	cheng yu	0
 成与败	ĉŋ y bai	1705
@@ -57272,7 +57273,6 @@ sort: by_weight
 池畔	ĉi pw	4715
 齿盘	ĉi pw	1050
 痴盼	ĉi pw	20
-吃胖	ĉi pv	987
 吃螃蟹	ĉi pv xie	9435
 吃螃蟹者	ĉi pv xie ẑe	705
 吃碰提	ĉi pŋ di	1
@@ -58332,7 +58332,6 @@ sort: by_weight
 重估价	ĉuŋ gu jia	300
 冲古寺	ĉuŋ gu si	4320
 充古乡	ĉuŋ gu xiv	1
-重固镇	ĉuŋ gu ẑñ	2
 重挂	ĉuŋ gua	185
 冲冠	ĉuŋ guw	3333
 冲关	ĉuŋ guw	2580
@@ -58577,7 +58576,7 @@ sort: by_weight
 重命名	ĉuŋ miŋ miŋ	26535
 虫鸣鸟叫	ĉuŋ miŋ nio jio	119
 虫鸣声	ĉuŋ miŋ ŝŋ	400
-崇明县	ĉuŋ miŋ xiw	8
+崇明县	ĉuŋ miŋ xiw	8595
 虫鸣螽跃	ĉuŋ miŋ ẑuŋ ye	1
 重磨	ĉuŋ mo	895
 冲漠无朕	ĉuŋ mo u ẑñ	6
@@ -58646,6 +58645,7 @@ sort: by_weight
 重庆工商	ĉuŋ qiŋ guŋ ŝv	175
 重庆工商大学	ĉuŋ qiŋ guŋ ŝv da xye	4280
 重庆国际车展	ĉuŋ qiŋ go ji ĉe ẑw	793
+重庆浩邦律师事务所	ĉuŋ qiŋ hao bv ly ŝi ŝi u so	8
 重庆护士门	ĉuŋ qiŋ hu ŝi mñ	26
 重庆胡同	ĉuŋ qiŋ hu tuŋ	12
 重庆魂	ĉuŋ qiŋ huñ	147
@@ -58660,6 +58660,7 @@ sort: by_weight
 重庆老妈火锅	ĉuŋ qiŋ lao ma ho go	135
 重庆力帆	ĉuŋ qiŋ li fw	4840
 重庆路	ĉuŋ qiŋ lu	1013
+重庆南岸区南坪镇	ĉuŋ qiŋ nw w qy nw piŋ ẑñ	5
 重庆南路	ĉuŋ qiŋ nw lu	2675
 重庆人	ĉuŋ qiŋ rñ	8155
 重庆仁济医院	ĉuŋ qiŋ rñ ji i yw	1
@@ -58712,6 +58713,7 @@ sort: by_weight
 重庆银行	ĉuŋ qiŋ iñ hv	172
 重庆邮电	ĉuŋ qiŋ iu diw	198
 重庆站	ĉuŋ qiŋ ẑw	2215
+重庆志同律师事务所	ĉuŋ qiŋ ẑi tuŋ ly ŝi ŝi u so	84
 重庆中药	ĉuŋ qiŋ ẑuŋ io	2
 冲去	ĉuŋ qy	25055
 冲拳	ĉuŋ qyw	3333
@@ -58873,7 +58875,6 @@ sort: by_weight
 冲突消解	ĉuŋ tu xio jie	19
 冲突性	ĉuŋ tu xiŋ	970
 冲突中	ĉuŋ tu ẑuŋ	8225
-虫腿	ĉuŋ tue	69
 充完	ĉuŋ uw	1963
 重玩	ĉuŋ uw	111
 充完电	ĉuŋ uw diw	1180
@@ -59627,7 +59628,6 @@ sort: by_weight
 丑橘	ĉou jy	7
 绸绢	ĉou jyw	385
 丑角	ĉou jye	5760
-丑角儿	ĉou jye er	5
 抽角色	ĉou jye se	199
 抽卡	ĉou ka	1111
 抽卡记录	ĉou ka ji lu	119
@@ -61528,8 +61528,8 @@ sort: by_weight
 出声	ĉu ŝŋ	55595
 畜生	ĉu ŝŋ	31075
 初生	ĉu ŝŋ	24785
+初升	ĉu ŝŋ	9115
 出省	ĉu ŝŋ	8005
-初升	ĉu ŝŋ	3911
 楚声	ĉu ŝŋ	1
 初生壁	ĉu ŝŋ bi	6
 出生的	ĉu ŝŋ de	356
@@ -61577,14 +61577,14 @@ sort: by_weight
 出使	ĉu ŝi	14855
 初识	ĉu ŝi	12730
 出师	ĉu ŝi	12520
-出市	ĉu ŝi	123
 初时	ĉu ŝi	11
-础石	ĉu ŝi	5
-除式	ĉu ŝi	3
-出仕	ĉu ŝi	2
-处士	ĉu ŝi	2
+础石	ĉu ŝi	1
+# 出仕	chu shi	0
+# 初试	chu shi	0
+# 处士	chu shi	0
 # 处室	chu shi	0
 # 褚师	chu shi	0
+# 除式	chu shi	0
 出豕败御	ĉu ŝi bai y	1
 初始版	ĉu ŝi bw	68
 出师表	ĉu ŝi bio	4565
@@ -62166,9 +62166,8 @@ sort: by_weight
 处着呢	ĉu ẑe ne	1
 出诊	ĉu ẑñ	13575
 初诊	ĉu ẑñ	5005
-出阵	ĉu ẑñ	4425
-触诊	ĉu ẑñ	3995
-出镇	ĉu ẑñ	2439
+触诊	ĉu ẑñ	4425
+出阵	ĉu ẑñ	3995
 出震继离	ĉu ẑñ ji li	1
 出疹子	ĉu ẑñ zi	1700
 出征	ĉu ẑŋ	33690
@@ -62317,16 +62316,13 @@ sort: by_weight
 踹到	ĉui dao	864
 揣兜	ĉui dou	295
 揣兜里	ĉui dou li	295
-踹断	ĉui duw	214
 揣度	ĉui do	3210
 揣骨听声	ĉui gu tiŋ ŝŋ	1
-踹坏	ĉui hui	244
 揣进	ĉui jiñ	2250
 踹开	ĉui kai	4055
 踹了	ĉui le	5540
 踹了踹	ĉui le ĉui	456
 搋了搋	ĉui le ĉui	123
-踹脸	ĉui liw	4
 揣量	ĉui liv	95
 踹两脚	ĉui liv jio	122
 搋面	ĉui miw	123
@@ -64174,7 +64170,6 @@ sort: by_weight
 捶床拍枕	ĉue ĉuv pai ẑñ	1
 吹吹	ĉue ĉue	8000
 锤锤	ĉue ĉue	1600
-捶捶	ĉue ĉue	987
 垂垂	ĉue ĉue	16
 吹吹打打	ĉue ĉue da da	1395
 吹吹风	ĉue ĉue fŋ	3445
@@ -64218,8 +64213,6 @@ sort: by_weight
 吹度玉门关	ĉue du y mñ guw	11
 吹断	ĉue duw	1390
 垂耳	ĉue er	1700
-锤儿	ĉue er	9
-槌儿	ĉue er	5
 吹耳边风	ĉue er biw fŋ	15
 垂饵虎口	ĉue er hu kou	1
 垂耳下首	ĉue er xia ŝou	1
@@ -64286,9 +64279,7 @@ sort: by_weight
 捶鸡	ĉue ji	12
 锤击试验	ĉue ji ŝi iw	20
 吹箭	ĉue jiw	1135
-捶肩	ĉue jiw	199
 垂鉴	ĉue jiw	6
-捶肩膀	ĉue jiw bv	99
 垂降	ĉue jiv	9999
 吹角	ĉue jio	670
 吹角连营	ĉue jio liw iŋ	625
@@ -64314,10 +64305,6 @@ sort: by_weight
 垂老不得安	ĉue lao bu de w	1
 吹了	ĉue le	17920
 锤了	ĉue le	1111
-捶了	ĉue le	78
-吹了吹	ĉue le ĉue	1378
-捶了捶	ĉue le ĉue	468
-锤了锤	ĉue le ĉue	273
 吹了个口哨	ĉue le ge kou ŝao	220
 垂了下来	ĉue le xia lai	2220
 垂了下去	ĉue le xia qy	945
@@ -64437,7 +64424,6 @@ sort: by_weight
 吹水	ĉue ŝue	632
 垂死	ĉue si	8275
 捶死	ĉue si	5555
-锤死	ĉue si	77
 垂死病中惊坐起	ĉue si biŋ ẑuŋ jiŋ zo qi	34
 垂死的人	ĉue si de rñ	545
 垂死的狮子	ĉue si de ŝi zi	25
@@ -64532,14 +64518,9 @@ sort: by_weight
 垂杨柳西里社区	ĉue iv liu xi li ŝe qy	3
 垂扬袅袅	ĉue iv nio nio	1
 垂杨镇	ĉue iv ẑñ	112
-捶腰	ĉue io	199
 垂翼暴鳞	ĉue i bao liñ	1
-吹一吹	ĉue i ĉue	1348
-捶一捶	ĉue i ĉue	934
+吹一吹	ĉue i ĉue	222
 锤一锤	ĉue i ĉue	111
-吹一下	ĉue i xia	3987
-捶一下	ĉue i xia	876
-锤一下	ĉue i xia	123
 垂缨蝶蝠	ĉue iŋ die fu	1
 椎膺顿足	ĉue iŋ duñ zu	1
 吹影镂尘	ĉue iŋ lou ĉñ	1
@@ -64730,8 +64711,7 @@ sort: by_weight
 春分日	ĉuñ fñ ri	116
 春分时节	ĉuñ fñ ŝi jie	125
 春风	ĉuñ fŋ	107120
-唇峰	ĉuñ fŋ	77
-淳风	ĉuñ fŋ	8
+淳风	ĉuñ fŋ	1085
 春风报罢	ĉuñ fŋ bao ba	1
 春风不度玉门关	ĉuñ fŋ bu du y mñ guw	1180
 春风不改旧时波	ĉuñ fŋ bu gai jiu ŝi bo	4
@@ -64806,7 +64786,6 @@ sort: by_weight
 春耕时节	ĉuñ gŋ ŝi jie	505
 春耕夏耘	ĉuñ gŋ xia yñ	13
 春宫	ĉuñ guŋ	3910
-唇弓	ĉuñ guŋ	7
 春宫画	ĉuñ guŋ hua	805
 春宫图	ĉuñ guŋ tu	1785
 蠢狗	ĉuñ gou	3
@@ -65963,14 +65942,13 @@ sort: by_weight
 此例	ci li	8630
 此理	ci li	8170
 此粒	ci li	1111
-刺梨	ci li	3
-慈利	ci li	2
+# 慈利	ci li	0
 磁力泵	ci li bŋ	3525
 磁力场	ci li ĉv	175
 磁力狗	ci li gou	78
 磁力搅拌器	ci li jio bw qi	1975
+慈利县	ci li xiw	2755
 磁力线	ci li xiw	2515
-慈利县	ci li xiw	275
 刺梨汁	ci li ẑi	121
 磁链	ci liw	7095
 此联	ci liw	109
@@ -69103,8 +69081,6 @@ sort: by_weight
 错得比	co de bi	35
 错的少	co de ŝao	148
 挫敌锐气	co di rue qi	50
-搓掉	co dio	3892
-锉掉	co dio	1634
 错叠	co die	9999
 蹉跌	co die	355
 搓动	co duŋ	1305
@@ -70116,7 +70092,6 @@ sort: by_weight
 大创意	da ĉuv i	1150
 大锤	da ĉue	5355
 大吹	da ĉue	1755
-大槌	da ĉue	4
 大吹大打	da ĉue da da	2
 大吹大擂	da ĉue da lei	970
 大吹法螺	da ĉue fa lo	9999
@@ -70307,7 +70282,6 @@ sort: by_weight
 达到要求	da dao io qiu	14390
 达到一个新的水平	da dao i ge xiñ de ŝue piŋ	460
 大盗移国	da dao i go	1
-大岛樱	da dao iŋ	3
 大岛由加利	da dao iu jia li	2
 大岛优子	da dao iu zi	6
 大道之行	da dao ẑi xiŋ	1180
@@ -70366,7 +70340,6 @@ sort: by_weight
 打得赢	da de iŋ	3090
 打得着	da de ẑao	215
 大灯	da dŋ	48425
-打灯	da dŋ	682
 大灯保险杠	da dŋ bao xiw gv	14
 大嶝岛	da dŋ dao	118
 大灯灯泡	da dŋ dŋ pao	173
@@ -71327,7 +71300,6 @@ sort: by_weight
 大航海家	da hv hai jia	485
 大航海时代	da hv hai ŝi dai	14145
 大行家	da hv jia	1390
-大行情	da hv qiŋ	22
 大行业	da hv ie	4925
 大好	da hao	53110
 打好	da hao	52380
@@ -72746,7 +72718,7 @@ sort: by_weight
 大柳树南站	da liu ŝu nw ẑw	3
 大柳塔镇	da liu ta ẑñ	134
 大流通	da liu tuŋ	5280
-大流乡	da liu xiv	2
+大流乡	da liu xiv	125
 大流行	da liu xiŋ	7805
 大流星	da liu xiŋ	55
 大刘寨	da liu ẑai	8
@@ -74798,6 +74770,7 @@ sort: by_weight
 大侠的	da xia de	222
 # 大夏的	da xia de	0
 大虾番茄炒面	da xia fw qie ĉao miw	1
+大虾番茄烤面条	da xia fw qie kao miw tio	1
 大峡谷	da xia gu	43755
 大侠霍元甲	da xia ho yw jia	131
 大虾鸡蛋炒通心粉	da xia ji dw ĉao tuŋ xiñ fñ	1
@@ -74806,6 +74779,7 @@ sort: by_weight
 打下来	da xia lai	5495
 打下了	da xia le	63085
 打下马威	da xia ma ue	1
+大霞美	da xia mei	5
 大虾们	da xia mñ	2395
 大侠们	da xia mñ	2345
 大厦门	da xia mñ	111
@@ -74952,7 +74926,6 @@ sort: by_weight
 大写字	da xie zi	395
 大写字母	da xie zi mu	7815
 大协作	da xie zo	1170
-打新	da xiñ	77
 # 大新	da xin	0
 # 大昕	da xin	0
 # 大欣	da xin	0
@@ -75038,7 +75011,7 @@ sort: by_weight
 大兴桥东	da xiŋ qio duŋ	2
 大兴桥南	da xiŋ qio nw	3
 大兴桥西	da xiŋ qio xi	2
-大星芹	da xiŋ qiñ	3
+大行情	da xiŋ qiŋ	22
 大兴区	da xiŋ qy	28125
 大兴区经济技术开发区	da xiŋ qy jiŋ ji ji ŝu kai fa qy	3
 大兴区行政服务中心	da xiŋ qy xiŋ ẑŋ fu u ẑuŋ xiñ	1
@@ -75066,7 +75039,7 @@ sort: by_weight
 大兴西路西段	da xiŋ xi lu xi duw	4
 大型系统	da xiŋ xi tuŋ	1855
 大兴西庄	da xiŋ xi ẑuv	1
-大兴县	da xiŋ xiw	264
+大兴县	da xiŋ xiw	2645
 大型项目	da xiŋ xiv mu	13010
 大兴小营	da xiŋ xio iŋ	4
 大兴辛店村	da xiŋ xiñ diw cuñ	3
@@ -75836,7 +75809,6 @@ sort: by_weight
 打造出	da zao ĉu	30080
 大早会	da zao hue	290
 大枣姜汤	da zao jiv tv	22
-大造桥虫	da zao qio ĉuŋ	4
 大灶头	da zao tou	153
 打造为	da zao ue	73
 大造舆论	da zao y luñ	960
@@ -77571,12 +77543,12 @@ sort: by_weight
 待证事实	dai ẑŋ ŝi ŝi	1125
 怠政者	dai ẑŋ ẑe	87
 呆滞	dai ẑi	21145
+待之	dai ẑi	8005
 带至	dai ẑi	5135
-代指	dai ẑi	2468
-代职	dai ẑi	1885
-待之	dai ẑi	800
-代之	dai ẑi	665
+代之	dai ẑi	1665
+代职	dai ẑi	885
 带职	dai ẑi	570
+代指	dai ẑi	2
 戴志诚	dai ẑi ĉŋ	195
 戴志春	dai ẑi ĉuñ	140
 带纸巾	dai ẑi jiñ	124
@@ -78696,8 +78668,8 @@ sort: by_weight
 箪瓢陋室	dw pio lou ŝi	1
 箪瓢屡罄	dw pio ly qiŋ	1
 单品	dw piñ	28790
+蛋品	dw piñ	4310
 单频	dw piñ	1180
-蛋品	dw piñ	431
 单凭	dw piŋ	20005
 但凭	dw piŋ	6235
 胆瓶	dw piŋ	530
@@ -79088,10 +79060,9 @@ sort: by_weight
 单图	dw tu	1225
 掸土	dw tu	25
 # 丹徒	dan tu	0
-丹徒区	dw tu qy	189
+丹徒区	dw tu qy	1895
 丹徒县	dw tu xiw	700
 单腿	dw tue	6015
-单推	dw tue	77
 弹托	dw to	1180
 弹丸	dw uw	6725
 丹丸	dw uw	1945
@@ -79360,8 +79331,8 @@ sort: by_weight
 氮氧化物	dw iv hua u	9235
 丹阳街道	dw iv jie dao	5
 丹阳路	dw iv lu	53
-丹阳市	dw iv ŝi	816
-丹阳县	dw iv xiw	9
+丹阳市	dw iv ŝi	11160
+丹阳县	dw iv xiw	11
 但要	dw io	155720
 弹药	dw io	48610
 丹药	dw io	11410
@@ -81019,7 +80990,6 @@ sort: by_weight
 刀耕火种	dao gŋ ho ẑuŋ	3130
 刀功	dao guŋ	6085
 # 悼公	dao gong	0
-刀功差	dao guŋ ĉa	67
 导购	dao gou	70980
 倒钩	dao gou	65580
 倒狗	dao gou	414
@@ -81050,6 +81020,7 @@ sort: by_weight
 倒挂	dao gua	16295
 倒挂金钩	dao gua jiñ gou	855
 倒挂金钟	dao gua jiñ ẑuŋ	670
+倒挂金钟白粉虱	dao gua jiñ ẑuŋ bai fñ ŝi	1
 刀刮水洗	dao gua ŝue xi	21
 倒挂着	dao gua ẑe	510
 导管	dao guw	47405
@@ -82445,6 +82416,7 @@ sort: by_weight
 德黑兰	de hei lw	8490
 德黑兰会议	de hei lw hue i	450
 得很	de hñ	248545
+德衡律师事务所	de hŋ ly ŝi ŝi u so	192
 德宏	de huŋ	183
 # 德洪	de hong	0
 # 德鸿	de hong	0
@@ -82826,6 +82798,7 @@ sort: by_weight
 德威并施	de ue biŋ ŝi	1
 德威并用	de ue biŋ yŋ	1
 德维尔斯圆吻鱥	de ue er si yw uñ gue	1
+得伟君尚律师事务所	de ue jyñ ŝv ly ŝi ŝi u so	363
 德威特	de ue te	149
 德威乡	de ue xiv	5
 德文	de uñ	23155
@@ -82902,7 +82875,6 @@ sort: by_weight
 得意	de i	144455
 得以	de i	3674
 得益	de i	1775
-德裔	de i	1234
 得一	de i	1111
 的一	de i	111
 德艺	de i	99
@@ -86199,7 +86171,6 @@ sort: by_weight
 低密	di mi	905
 碲醚	di mi	7
 籴米	di mi	3
-蒂米	di mi	2
 低迷不振	di mi bu ẑñ	596
 地米菜	di mi cai	12
 低密度	di mi du	21105
@@ -86539,9 +86510,9 @@ sort: by_weight
 地区法院	di qy fa yw	1930
 地区化	di qy hua	83
 地区级	di qy ji	4550
-地区界	di qy jie	5
 地区经济	di qy jiŋ ji	32280
 地区名	di qy miŋ	95
+地区实验林场	di qy ŝi iw liñ ĉv	11
 地区性	di qy xiŋ	18840
 地区学	di qy xye	103
 地区一农场	di qy i nuŋ ĉv	2
@@ -88069,7 +88040,6 @@ sort: by_weight
 低头耷脑	di tou da nao	111
 地头地脑	di tou di nao	1
 低头哈腰	di tou ha io	61
-地头价	di tou jia	89
 低头看看	di tou kw kw	196
 低头呢喃	di tou ni nw	1111
 低头倾首	di tou qiŋ ŝou	1
@@ -88140,7 +88110,6 @@ sort: by_weight
 低维	di ue	2222
 帝位	di ue	901
 底围	di ue	832
-低危	di ue	789
 底味	di ue	789
 堤围	di ue	229
 低纬	di ue	136
@@ -89483,7 +89452,6 @@ sort: by_weight
 帝制	di ẑi	7000
 地志	di ẑi	6015
 低值	di ẑi	4500
-底质	di ẑi	579
 递质	di ẑi	529
 底止	di ẑi	4
 地址变动	di ẑi biw duŋ	68
@@ -92007,7 +91975,7 @@ sort: by_weight
 调包	dio bao	3730
 屌爆	dio bao	1111
 掉宝	dio bao	322
-# 刁包	diao bao	0
+刁包	dio bao	1
 调包计	dio bao ji	330
 屌爆了	dio bao le	9999
 掉宝率	dio bao ly	1950
@@ -92390,6 +92358,7 @@ sort: by_weight
 钓名拾紫	dio miŋ ŝi zi	1
 钓名要誉	dio miŋ io y	1
 刁难	dio nw	20730
+叼你啊	dio ni a	3
 吊牌	dio pai	26325
 调派	dio pai	5395
 调派到	dio pai dao	295
@@ -93250,10 +93219,10 @@ sort: by_weight
 鼎湖上素	diŋ hu ŝv su	272
 订花	diŋ hua	20815
 定滑轮	diŋ hua luñ	565
+订花网	diŋ hua uv	20
 定淮门	diŋ hui mñ	533
 定会	diŋ hue	9999
-顶会	diŋ hue	7
-# 定慧	ding hui	0
+定慧	diŋ hue	1
 定慧北桥	diŋ hue bei qio	5
 定慧桥	diŋ hue qio	640
 定慧桥北	diŋ hue qio bei	10
@@ -93385,7 +93354,6 @@ sort: by_weight
 定军山	diŋ jyñ ŝw	2630
 丁卡因	diŋ ka iñ	4
 顶开	diŋ kai	2340
-顶刊	diŋ kw	77
 顶抗	diŋ kv	110
 定可	diŋ ke	4150
 丁克	diŋ ke	3440
@@ -93487,9 +93455,8 @@ sort: by_weight
 丁某	diŋ mou	4830
 定谋贵决	diŋ mou gue jye	1
 锭模	diŋ mu	195
-订奶	diŋ nai	689
-定南	diŋ nw	3
-定南县	diŋ nw xiw	150
+定南	diŋ nw	3410
+定南县	diŋ nw xiw	1500
 顶内	diŋ nei	50
 定能	diŋ nŋ	43570
 定能够	diŋ nŋ gou	1905
@@ -93790,6 +93757,7 @@ sort: by_weight
 丁先生	diŋ xiw ŝŋ	7815
 定仙墕镇	diŋ xiw iw ẑñ	2
 定线制	diŋ xiw ẑi	87
+定县猪新品系	diŋ xiw ẑu xiñ piñ xi	1
 定向	diŋ xiv	155290
 丁香	diŋ xiv	125472
 定项	diŋ xiv	9999
@@ -94037,15 +94005,14 @@ sort: by_weight
 定制样车	diŋ ẑi iv ĉe	68
 定知玉兔十分圆	diŋ ẑi y tu ŝi fñ yw	2
 鼎峙之业	diŋ ẑi ẑi ie	1
-定种	diŋ ẑuŋ	246
 顶踵	diŋ ẑuŋ	50
 顶踵尽捐	diŋ ẑuŋ jiñ jyw	1
 顶踵捐糜	diŋ ẑuŋ jyw mi	1
 丁仲礼	diŋ ẑuŋ li	152
 定中门街道	diŋ ẑuŋ mñ jie dao	2
 订终身	diŋ ẑuŋ ŝñ	1705
-定州	diŋ ẑou	95
-定州市	diŋ ẑou ŝi	390
+定州	diŋ ẑou	11495
+定州市	diŋ ẑou ŝi	3900
 定轴转动	diŋ ẑou ẑuw duŋ	240
 叮嘱	diŋ ẑu	45105
 盯住	diŋ ẑu	30150
@@ -94837,6 +94804,7 @@ sort: by_weight
 东方明珠塔	duŋ fv miŋ ẑu ta	1710
 东方墨头鱼	duŋ fv mo tou y	2
 东方女性	duŋ fv ny xiŋ	5970
+东方欧文钖伯鲶	duŋ fv ou uñ iv bo niw	1
 东方骑	duŋ fv qi	3
 东方千骑	duŋ fv qiw qi	4
 东方青苍	duŋ fv qiŋ cv	101
@@ -94848,7 +94816,7 @@ sort: by_weight
 东方日报	duŋ fv ri bao	3025
 东方日射贝	duŋ fv ri ŝe bei	1
 东方润园	duŋ fv ruñ yw	29
-东方山	duŋ fv ŝw	2
+东方山	duŋ fv ŝw	187
 东方山水	duŋ fv ŝw ŝue	113
 东方商城	duŋ fv ŝv ĉŋ	153
 东方商人	duŋ fv ŝv rñ	1045
@@ -94857,10 +94825,12 @@ sort: by_weight
 东方神娃	duŋ fv ŝñ ua	175
 东方圣人	duŋ fv ŝŋ rñ	1
 东方生物	duŋ fv ŝŋ u	194
-东方市	duŋ fv ŝi	55
+东方市	duŋ fv ŝi	4155
 东方时代广场	duŋ fv ŝi dai guv ĉv	23
 东方时空	duŋ fv ŝi kuŋ	5300
 东方食品厂	duŋ fv ŝi piñ ĉv	2
+东方时尚驾校	duŋ fv ŝi ŝv jia xio	109
+东方姝	duŋ fv ŝu	25
 东方朔	duŋ fv ŝo	5500
 东方台	duŋ fv tai	495
 东方太阳城	duŋ fv tai iv ĉŋ	47
@@ -94868,6 +94838,7 @@ sort: by_weight
 东方田鼠	duŋ fv tiw ŝu	24
 东方通信	duŋ fv tuŋ xiñ	3640
 东方通信大厦	duŋ fv tuŋ xiñ da ŝa	4
+东方通应用服务器软件	duŋ fv tuŋ iŋ yŋ fu u qi ruw jiw	87
 东方涂钦	duŋ fv tu qiñ	10
 东方图书馆	duŋ fv tu ŝu guw	220
 东方鲀	duŋ fv tuñ	123
@@ -96471,7 +96442,7 @@ sort: by_weight
 动态筛选	duŋ tai ŝai xyw	40
 动态生成	duŋ tai ŝŋ ĉŋ	11941
 动态生成程序	duŋ tai ŝŋ ĉŋ ĉŋ xy	14
-东台市	duŋ tai ŝi	7
+东台市	duŋ tai ŝi	7320
 动态视频	duŋ tai ŝi piñ	140
 动态树	duŋ tai ŝu	405
 动态树分治	duŋ tai ŝu fñ ẑi	34
@@ -96584,9 +96555,9 @@ sort: by_weight
 洞头县	duŋ tou xiw	5025
 动图	duŋ tu	9999
 冻土	duŋ tu	9500
+东突	duŋ tu	9250
+东土	duŋ tu	4910
 动土	duŋ tu	4635
-东土	duŋ tu	99
-东突	duŋ tu	44
 冻土层	duŋ tu cŋ	1210
 东土城路	duŋ tu ĉŋ lu	50
 东土城路南口	duŋ tu ĉŋ lu nw kou	3
@@ -96675,7 +96646,7 @@ sort: by_weight
 动物化石	duŋ u hua ŝi	1910
 动物化学	duŋ u hua xye	20
 东五环	duŋ u huw	1215
-动物极	duŋ u ji	5
+动物婚配拾趣	duŋ u huñ pei ŝi qy	1
 动物疾病	duŋ u ji biŋ	321
 东吴嘉禾	duŋ u jia he	6
 动物胶	duŋ u jio	615
@@ -96889,9 +96860,9 @@ sort: by_weight
 东兴路	duŋ xiŋ lu	166
 东星路	duŋ xiŋ lu	1
 东兴路立交桥	duŋ xiŋ lu li jio qio	1
-东兴区	duŋ xiŋ qy	118
+东兴区	duŋ xiŋ qy	1180
 东星社区	duŋ xiŋ ŝe qy	8
-东兴市	duŋ xiŋ ŝi	204
+东兴市	duŋ xiŋ ŝi	2040
 东行西步	duŋ xiŋ xi bu	1
 动凶	duŋ xyŋ	20
 冬修	duŋ xiu	1615
@@ -97813,7 +97784,6 @@ sort: by_weight
 都可能	dou ke nŋ	80270
 都可以	dou ke i	500346
 都可以从	dou ke i cuŋ	12
-都可以聊	dou ke i lio	77
 豆科植物	dou ke ẑi u	2330
 都肯	dou kñ	3935
 都肯定	dou kñ diŋ	64
@@ -99068,7 +99038,7 @@ sort: by_weight
 读卡器	du ka qi	54730
 杜凯琹	du kai qiñ	1
 独开蹊径	du kai xi jiŋ	1
-杜康	du kv	286
+杜康	du kv	28676
 毒抗	du kv	4
 杜康能散闷	du kv nŋ sw mñ	1
 杜康牌	du kv pai	141
@@ -100393,7 +100363,6 @@ sort: by_weight
 短剑的剑身	duw jiw de jiw ŝñ	2
 断缣零璧	duw jiw liŋ bi	1
 断交	duw jio	4495
-断脚	duw jio	44
 短角	duw jio	11
 短角爱氏海葵	duw jio ai ŝi hai kue	1
 短角苍祝蛾	duw jio cv ẑu e	1
@@ -102669,11 +102638,7 @@ sort: by_weight
 多地	do di	9999
 多低	do di	1185
 夺嫡	do di	1111
-跺地	do di	99
-堕地	do di	67
-跺地板	do di bw	399
-跺地面	do di miw	7
-跺地声	do di ŝŋ	87
+堕地	do di	99
 多地址	do di ẑi	1345
 多点	do diw	7157
 多点爆发	do diw bao fa	163
@@ -103163,7 +103128,6 @@ sort: by_weight
 跺了	do le	1111
 多乐	do le	53
 跺了跺	do le do	1580
-跺了跺地	do le do di	97
 多了个累赘	do le ge lei ẑue	55
 多了个女人	do le ge ny rñ	95
 多了个什么	do le ge ŝñ me	75
@@ -103374,11 +103338,9 @@ sort: by_weight
 多摸	do mo	2222
 多磨	do mo	1315
 多模	do mo	1111
-多摩地区	do mo di qy	7
 多抹点	do mo diw	1986
 多模光纤	do mo guv xiw	5620
 多模块	do mo kui	1321
-多摩市	do mo ŝi	5
 多谋	do mou	2410
 多谋善断	do mou ŝw duw	805
 多谋善虑	do mou ŝw ly	1
@@ -103695,7 +103657,6 @@ sort: by_weight
 多收	do ŝou	17010
 多首	do ŝou	14830
 舵手	do ŝou	10645
-多手	do ŝou	5469
 多受	do ŝou	4690
 剁手达人	do ŝou da rñ	153
 多手毒水母	do ŝou du ŝue mu	1
@@ -104539,7 +104500,6 @@ sort: by_weight
 屙金尿银	e jiñ nio iñ	2
 恶警	e jiŋ	1111
 鹅颈	e jiŋ	111
-扼颈	e jiŋ	77
 厄境	e jiŋ	18
 萼距花	e jy hua	3
 俄军	e jyñ	12380
@@ -104829,7 +104789,6 @@ sort: by_weight
 恶事行千里	e ŝi xiŋ qiw li	5
 阿世循俗	e ŝi xyñ su	1
 扼守	e ŝou	5170
-饿瘦	e ŝou	678
 额手	e ŝou	230
 额手称庆	e ŝou ĉŋ qiŋ	650
 额手称颂	e ŝou ĉŋ suŋ	1
@@ -105160,7 +105119,6 @@ sort: by_weight
 恩高义厚	ñ gao i hou	1
 恩格尔	ñ ge er	1620
 恩格尔系数	ñ ge er xi ŝu	9060
-恩格勒特	ñ ge le te	7
 恩格斯	ñ ge si	1527
 恩公	ñ guŋ	9999
 嗯好的	ñ hao de	91
@@ -105189,8 +105147,6 @@ sort: by_weight
 摁喇叭	ñ la ba	134
 恩拉霉素	ñ la mei su	5
 恩来	ñ lai	1111
-恩赉	ñ lai	2
-恩勒特	ñ le te	2
 恩里克	ñ li ke	698
 恩里科	ñ li ke	273
 恩里莱	ñ li lai	5
@@ -106064,10 +106020,10 @@ sort: by_weight
 二甲氧苄氨嘧啶	er jia iv biw w mi diŋ	10
 二甲氧三苯甲基	er jia iv sw bñ jia ji	1
 二加一	er jia i	200
+而建	er jiw	42810
+二间	er jiw	3990
+二建	er jiw	3950
 耳尖	er jiw	2415
-二建	er jiw	950
-二间	er jiw	399
-# 而建	er jian	0
 二尖瓣	er jiw bw	4420
 二尖瓣成形术	er jiw bw ĉŋ xiŋ ŝu	7
 二尖瓣返流	er jiw bw fw liu	6
@@ -106087,7 +106043,6 @@ sort: by_weight
 而减少	er jiw ŝao	12940
 二件套	er jiw tao	985
 二坚为灾	er jiw ue zai	1
-二间穴	er jiw xye	3
 二简字	er jiw zi	153
 而将	er jiv	55700
 而降	er jiv	8330
@@ -108586,6 +108541,7 @@ sort: by_weight
 法律环境	fa ly huw jiŋ	9360
 法律汇编	fa ly hue biw	885
 法律基础	fa ly ji ĉu	26155
+法律基础新编	fa ly ji ĉu xiñ biw	4
 法律机构	fa ly ji gou	1595
 法律及其配套规定丛书	fa ly ji qi pei tao gue diŋ cuŋ ŝu	33
 法律机制	fa ly ji ẑi	1715
@@ -108785,7 +108741,6 @@ sort: by_weight
 发米粑	fa mi ba	5
 法米拉	fa mi la	179
 发面	fa miw	3450
-发绵	fa miw	4
 发面点心	fa miw diw xiñ	5
 发面油饼	fa miw iu biŋ	2
 法民初字第	fa miñ ĉu zi di	487
@@ -109223,8 +109178,8 @@ sort: by_weight
 法坛	fa tw	1085
 伐檀	fa tw	730
 发烫	fa tv	14045
+法堂	fa tv	3105
 发糖	fa tv	1180
-法堂	fa tv	310
 发棠之请	fa tv ẑi qiŋ	1
 发套	fa tao	845
 发疼	fa tŋ	9999
@@ -111059,8 +111014,6 @@ sort: by_weight
 番茄汁蒸鱼	fw qie ẑi ẑŋ y	1
 番茄煮红衫鱼	fw qie ẑu huŋ ŝw y	1
 番茄煮黄豆	fw qie ẑu huv dou	3
-番茄籽	fw qie zi	6
-番茄籽油	fw qie zi iu	3
 范钦	fw qiñ	1
 翻衾倒枕	fw qiñ dao ẑñ	1
 反侵略	fw qiñ lye	2730
@@ -111336,10 +111289,8 @@ sort: by_weight
 凡所宜有之书	fw so i iu ẑi ŝu	1
 烦琐哲学	fw so ẑe xye	999
 繁琐哲学	fw so ẑe xye	195
-翻台	fw tai	3435
+钒钛	fw tai	4685
 返台	fw tai	3435
-钒钛	fw tai	468
-凡胎	fw tai	8
 反台独	fw tai du	625
 反弹	fw tw	51645
 反贪	fw tw	9780
@@ -116303,7 +116254,6 @@ sort: by_weight
 非寻常	fei xyñ ĉv	1310
 肺循环	fei xyñ huw	1650
 非汛期	fei xyñ qi	480
-费牙	fei ia	6780
 飞呀	fei ia	4705
 肥鸭	fei ia	1610
 肥呀	fei ia	9
@@ -116636,7 +116586,8 @@ sort: by_weight
 非洲鲫鱼	fei ẑou ji y	9999
 非洲金融共同体	fei ẑou jiñ ruŋ guŋ tuŋ ti	315
 非洲经济委员会	fei ẑou jiŋ ji ue yw hue	130
-非洲菊	fei ẑou jy	506
+非洲菊	fei ẑou jy	5065
+非洲菊白粉虱	fei ẑou jy bai fñ ŝi	1
 非洲橘硬蓟马	fei ẑou jy iŋ ji ma	1
 非洲开发银行	fei ẑou kai fa iñ hv	235
 非洲联盟	fei ẑou liw mŋ	1615
@@ -118130,7 +118081,6 @@ sort: by_weight
 粪土当年万户候	fñ tu dv niw uw hu hou	1
 粪土之墙	fñ tu ẑi qiv	190
 粉团	fñ tuw	2095
-粪团	fñ tuw	68
 分腿	fñ tue	1360
 粉臀	fñ tuñ	440
 粉坨	fñ to	36
@@ -118391,8 +118341,8 @@ sort: by_weight
 分着	fñ ẑe	3333
 分着呢	fñ ẑe ne	5
 分诊	fñ ẑñ	9999
-分针	fñ ẑñ	7489
 粉针	fñ ẑñ	6560
+分针	fñ ẑñ	4890
 分诊处	fñ ẑñ ĉu	194
 分针和时针	fñ ẑñ he ŝi ẑñ	1180
 粉针剂	fñ ẑñ ji	5895
@@ -119434,7 +119384,7 @@ sort: by_weight
 风景照	fŋ jiŋ ẑao	1950
 风景照片	fŋ jiŋ ẑao piw	1865
 风景这边独好	fŋ jiŋ ẑe biw du hao	628
-枫泾镇	fŋ jiŋ ẑñ	7
+枫泾镇	fŋ jiŋ ẑñ	127
 封酒棕花香	fŋ jiu zuŋ hua xiv	1
 蜂聚	fŋ jy	95
 风举云飞	fŋ jy yñ fei	1
@@ -119648,8 +119598,8 @@ sort: by_weight
 风龙鳞盔甲	fŋ luŋ liñ kue jia	1
 丰隆穴	fŋ luŋ xye	16
 凤楼龙阙	fŋ lou luŋ qye	1
-封路	fŋ lu	12420
 俸禄	fŋ lu	9635
+封路	fŋ lu	2420
 风炉	fŋ lu	1610
 凤麓镇	fŋ lu ẑñ	1
 峰峦	fŋ luw	14380
@@ -119802,7 +119752,8 @@ sort: by_weight
 凤鸟不至	fŋ nio bu ẑi	18
 蜂鸟社区	fŋ nio ŝe qy	63
 丰宁	fŋ niŋ	1
-丰宁县	fŋ niŋ xiw	94
+丰宁县	fŋ niŋ xiw	945
+丰宁县满族自治县	fŋ niŋ xiw mw zu zi ẑi xiw	9
 疯牛病	fŋ niu biŋ	7230
 风牛马	fŋ niu ma	155
 风牛马不相及	fŋ niu ma bu xiv ji	43
@@ -119840,9 +119791,8 @@ sort: by_weight
 枫坪村	fŋ piŋ cuñ	3
 风平浪静	fŋ piŋ lv jiŋ	17215
 风平浪息	fŋ piŋ lv xi	4
-疯婆	fŋ po	47
-# 凤坡	feng po	0
-风婆婆	fŋ po po	5
+凤坡	fŋ po	2
+风婆婆	fŋ po po	101
 封铺	fŋ pu	111
 凤埔	fŋ pu	2
 # 奉浦	feng pu	0
@@ -121182,6 +121132,7 @@ sort: by_weight
 佛媛	fo yw	2
 佛曰	fo ye	6455
 佛乐	fo ye	1705
+佛泽瑞尾鱼将鱼	fo ze rue ue y jiv y	1
 佛振	fo ẑñ	6666
 佛旨纶音	fo ẑi luñ iñ	1
 佛州	fo ẑou	1925
@@ -122778,7 +122729,9 @@ sort: by_weight
 福建粗角肖叶甲	fu jiw cu jio xio ie jia	1
 福建大厦	fu jiw da ŝa	47
 福建戴姆勒	fu jiw dai mu le	372
+福建德化县龙浔镇	fu jiw de hua xiw luŋ xyñ ẑñ	1
 福建队	fu jiw due	3415
+福建福鼎市白琳镇	fu jiw fu diŋ ŝi bai liñ ẑñ	2
 福建福联	fu jiw fu liw	12500
 福建福州	fu jiw fu ẑou	19915
 福建高速	fu jiw gao su	1305
@@ -122788,9 +122741,18 @@ sort: by_weight
 福建工业学校	fu jiw guŋ ie xye xio	12
 福建广播影视集团	fu jiw guv bo iŋ ŝi ji tuw	31
 富建胡同	fu jiw hu tuŋ	1
+福建惠安县崇武镇	fu jiw hue w xiw ĉuŋ u ẑñ	3
 福建籍	fu jiw ji	194
 肤见谫识	fu jiw jiw ŝi	1
 福建教育	fu jiw jio y	198
+福建晋江市安海镇	fu jiw jiñ jiv ŝi w hai ẑñ	14
+福建晋江市陈埭镇	fu jiw jiñ jiv ŝi ĉñ dai ẑñ	4
+福建晋江市池店镇	fu jiw jiñ jiv ŝi ĉi diw ẑñ	1
+福建晋江市磁灶镇	fu jiw jiñ jiv ŝi ci zao ẑñ	5
+福建晋江市金井镇	fu jiw jiñ jiv ŝi jiñ jiŋ ẑñ	3
+福建晋江市龙湖镇	fu jiw jiñ jiv ŝi luŋ hu ẑñ	1
+福建晋江市深沪镇	fu jiw jiñ jiv ŝi ŝñ hu ẑñ	2
+福建晋江市永和镇	fu jiw jiñ jiv ŝi yŋ he ẑñ	3
 福建军区	fu jiw jyñ qy	145
 附件栏	fu jiw lw	105
 附件里	fu jiw li	12
@@ -122798,6 +122760,8 @@ sort: by_weight
 福建犁沟茧蜂	fu jiw li gou jiw fŋ	1
 福建连城冠豸山机场	fu jiw liw ĉŋ guw ẑai ŝw ji ĉv	1
 福建炼油厂	fu jiw liw iu ĉv	4
+福建龙海市角美镇	fu jiw luŋ hai ŝi jio mei ẑñ	1
+福建龙海市石码镇	fu jiw luŋ hai ŝi ŝi ma ẑñ	6
 福建路	fu jiw lu	175
 福建南安	fu jiw nw w	1290
 福建南纺	fu jiw nw fv	945
@@ -122808,6 +122772,7 @@ sort: by_weight
 福建农林大学	fu jiw nuŋ liñ da xye	4815
 福建莆田	fu jiw pu tiw	3995
 附件区	fu jiw qy	65
+福建泉中律师事务所	fu jiw qyw ẑuŋ ly ŝi ŝi u so	594
 福建泉州	fu jiw qyw ẑou	14220
 福建人	fu jiw rñ	5155
 福建日报	fu jiw ri bao	3610
@@ -125951,9 +125916,9 @@ sort: by_weight
 负重致远	fu ẑuŋ ẑi yw	140
 福州	fu ẑou	356265
 符咒	fu ẑou	13370
-抚州	fu ẑou	99
-覆舟	fu ẑou	38
-浮舟	fu ẑou	25
+覆舟	fu ẑou	3810
+浮舟	fu ẑou	1025
+# 抚州	fu zhou	0
 # 浮洲	fu zhou	0
 # 福周	fu zhou	0
 浮舟沧海	fu ẑou cv hai	1180
@@ -127748,7 +127713,6 @@ sort: by_weight
 干父之蛊	gw fu ẑi gu	300
 尴尬	gw ga	245660
 尴尬程度	gw ga ĉŋ du	65
-尴尬到脚趾抠地	gw ga dao jio ẑi kou di	678
 尴尬的	gw ga de	3333
 尴尬地	gw ga de	100
 尴尬境地	gw ga jiŋ di	8070
@@ -129535,7 +129499,6 @@ sort: by_weight
 港客	gv ke	995
 刚克柔克	gv ke rou ke	2
 港口	gv kou	311050
-缸口	gv kou	6
 筻口	gv kou	1
 钢口	gv kou	1
 港口城市	gv kou ĉŋ ŝi	10985
@@ -129598,7 +129561,6 @@ sort: by_weight
 刚买	gv mai	22370
 刚买过	gv mai go	120
 刚满	gv mw	12815
-港漫	gv mw	7
 刚毛	gv mao	2340
 刚毛近长足钩虾	gv mao jiñ ĉv zu gou xia	1
 刚毛拟𩽾𩾌	gv mao ni w kv	1
@@ -129800,7 +129762,6 @@ sort: by_weight
 缸套厂	gv tao ĉv	3
 冈特家族	gv te jia zu	175
 缸体	gv ti	9590
-刚提	gv ti	2987
 刚体	gv ti	2820
 钢梯	gv ti	600
 肛提肌	gv ti ji	3
@@ -130662,8 +130623,6 @@ sort: by_weight
 高寒地区	gao hw di qy	2935
 高寒区	gao hw qy	320
 高喊着	gao hw ẑe	3230
-高行镇	gao hv ẑñ	2
-高行中学	gao hv ẑuŋ xye	2
 搞好	gao hao	320070
 搞好工作	gao hao guŋ zo	2100
 搞好关系	gao hao guw xi	6570
@@ -131088,7 +131047,6 @@ sort: by_weight
 高锟	gao kuñ	3
 搞来	gao lai	3535
 搞来搞去	gao lai gao qy	715
-搞烂	gao lw	77
 高栏	gao lw	28
 # 皋兰	gao lan	0
 # 高览	gao lan	0
@@ -131409,7 +131367,6 @@ sort: by_weight
 高平子	gao piŋ zi	17
 高坡	gao po	6400
 告破	gao po	5605
-搞破	gao po	467
 高坡店	gao po diw	3
 搞破坏	gao po hui	3870
 高坡巷	gao po xiv	1
@@ -131925,6 +131882,7 @@ sort: by_weight
 高位刹车	gao ue ŝa ĉe	8211
 高位刹车灯	gao ue ŝa ĉe dŋ	8067
 高尾绅路	gao ue ŝñ lu	1
+高伟绅律师事务所	gao ue ŝñ ly ŝi ŝi u so	33
 搞卫生	gao ue ŝŋ	3330
 高维苏肠	gao ue su ĉv	2
 高维索引	gao ue so iñ	43
@@ -132132,6 +132090,7 @@ sort: by_weight
 高性能网站	gao xiŋ nŋ uv ẑw	270
 高兴起来	gao xiŋ qi lai	5430
 高兴之余	gao xiŋ ẑi y	3165
+高行中学	gao xiŋ ẑuŋ xye	27
 高雄	gao xyŋ	36475
 高雄路	gao xyŋ lu	237
 高雄市	gao xyŋ ŝi	8829
@@ -132884,12 +132843,14 @@ sort: by_weight
 隔而固	ge er gu	266
 哥儿俩	ge er lia	2335
 哥儿们	ge er mñ	7090
-格尔木	ge er mu	2665
+格尔木	ge er mu	26665
 格尔木河	ge er mu he	305
-格尔木市	ge er mu ŝi	512
+格尔木市	ge er mu ŝi	5125
+格尔木市城市管理局	ge er mu ŝi ĉŋ ŝi guw li jy	3
 格尔尼卡	ge er ni ka	695
 嗝儿屁	ge er pi	9999
 隔二偏三	ge er piw sw	1
+格尔软件股份有限公司	ge er ruw jiw gu fñ iu xiw guŋ si	87
 哥儿仨	ge er sa	123
 咯尔乡	ge er xiv	7
 哥儿义气	ge er i qi	1
@@ -135123,7 +135084,6 @@ sort: by_weight
 跟其他	gñ qi ta	63
 跟前	gñ qiw	67410
 跟前跟后	gñ qiw gñ hou	225
-跟枪	gñ qiv	4
 跟去	gñ qy	6065
 跟去年	gñ qy niw	68
 跟人	gñ rñ	37390
@@ -137956,7 +137916,6 @@ sort: by_weight
 攻其一点不及其余	guŋ qi i diw bu ji qi y	40
 宫崎寅藏	guŋ qi iñ cv	13
 工钱	guŋ qiw	20260
-工签	guŋ qiw	2
 宫前道	guŋ qiw dao	2
 宫前路	guŋ qiw lu	1
 宫墙	guŋ qiv	5465
@@ -142082,8 +142041,8 @@ sort: by_weight
 骨膜增生厚皮症	gu mo zŋ ŝŋ hou pi ẑŋ	1
 估摸着	gu mo ẑe	3030
 古墓	gu mu	36505
+古木	gu mu	11435
 姑母	gu mu	5545
-古木	gu mu	1435
 钴𬭁	gu mu	2
 古木参天	gu mu cw tiw	5895
 古木盾	gu mu duñ	1
@@ -142516,11 +142475,12 @@ sort: by_weight
 故事细腻	gu ŝi xi ni	200
 股市下跌	gu ŝi xia die	1615
 故事线	gu ŝi xiw	1000
-固始县	gu ŝi xiw	5
+固始县	gu ŝi xiw	2
 顾氏肖蛸	gu ŝi xio ŝao	1
-故事新编	gu ŝi xiñ biw	775
+故事新编	gu ŝi xiñ biw	1775
 股市信息	gu ŝi xiñ xi	900
 故事性	gu ŝi xiŋ	6240
+故事选萃版	gu ŝi xyw cue bw	1
 鼓室硬化症	gu ŝi iŋ hua ẑŋ	2
 故事影片	gu ŝi iŋ piw	790
 股市有风险	gu ŝi iu fŋ xiw	197
@@ -143726,8 +143686,6 @@ sort: by_weight
 挂帅	gua ŝui	15845
 瓜霜退热灵胶囊	gua ŝuv tue re liŋ jio nv	5
 挂霜丸子	gua ŝuv uw zi	17
-刮水	gua ŝue	786
-挂水	gua ŝue	249
 刮水器	gua ŝue qi	2495
 瓜怂	gua suŋ	111
 挂锁	gua so	3325
@@ -143792,7 +143750,8 @@ sort: by_weight
 挂羊头卖狗肉	gua iv tou mai gou rou	1688
 卦爻	gua io	3640
 刮妖风	gua io fŋ	179
-瓜叶菊	gua ie jy	3
+瓜叶菊李短尾蚜虫	gua ie jy li duw ue ia ĉuŋ	1
+瓜叶菊潜夜蛾	gua ie jy qiw ie e	1
 刮野扫地	gua ie sao di	1
 卦意	gua i	140
 刮一次	gua i ci	750
@@ -146330,19 +146289,48 @@ sort: by_weight
 广东	guv duŋ	500656
 广东百灵信	guv duŋ bai liŋ xiñ	3
 广东白云学院	guv duŋ bai yñ xye yw	126
+广东宝安区龙华镇	guv duŋ bao w qy luŋ hua ẑñ	1
+广东博罗县石湾镇	guv duŋ bo lo xiw ŝi uw ẑñ	1
 广东菜	guv duŋ cai	3514
 广东财经	guv duŋ cai jiŋ	186
 广东菜薹	guv duŋ cai tai	1
 广东长尾花天牛	guv duŋ ĉv ue hua tiw niu	1
+广东潮安县庵埠镇	guv duŋ ĉao w xiw w bu ẑñ	1
+广东潮安县彩塘镇	guv duŋ ĉao w xiw cai tv ẑñ	1
 广东潮州	guv duŋ ĉao ẑou	3200
 广东潮州犬	guv duŋ ĉao ẑou qyw	9
 广东齿胸肖叶甲	guv duŋ ĉi xyŋ xio ie jia	1
 广东大厦	guv duŋ da ŝa	117
+广东德法理律师事务所	guv duŋ de fa li ly ŝi ŝi u so	3
 广东电信	guv duŋ diw xiñ	10660
+广东东方星联律师事务所	guv duŋ duŋ fv xiŋ liw ly ŝi ŝi u so	16
 广东东莞	guv duŋ duŋ guw	22170
+广东东莞市茶山镇	guv duŋ duŋ guw ŝi ĉa ŝw ẑñ	2
+广东东莞市长安镇	guv duŋ duŋ guw ŝi ĉv w ẑñ	21
+广东东莞市常平镇	guv duŋ duŋ guw ŝi ĉv piŋ ẑñ	5
+广东东莞市大朗镇	guv duŋ duŋ guw ŝi da lv ẑñ	12
+广东东莞市大岭山镇	guv duŋ duŋ guw ŝi da liŋ ŝw ẑñ	2
+广东东莞市东坑镇	guv duŋ duŋ guw ŝi duŋ kŋ ẑñ	1
+广东东莞市凤岗镇	guv duŋ duŋ guw ŝi fŋ gv ẑñ	25
+广东东莞市横沥镇	guv duŋ duŋ guw ŝi hŋ li ẑñ	3
+广东东莞市洪梅镇	guv duŋ duŋ guw ŝi huŋ mei ẑñ	4
+广东东莞市厚街镇	guv duŋ duŋ guw ŝi hou jie ẑñ	9
+广东东莞市虎门镇	guv duŋ duŋ guw ŝi hu mñ ẑñ	18
+广东东莞市黄江镇	guv duŋ duŋ guw ŝi huv jiv ẑñ	1
+广东东莞市寮步镇	guv duŋ duŋ guw ŝi lio bu ẑñ	5
+广东东莞市麻涌镇	guv duŋ duŋ guw ŝi ma ĉuŋ ẑñ	11
+广东东莞市桥头镇	guv duŋ duŋ guw ŝi qio tou ẑñ	2
+广东东莞市清溪镇	guv duŋ duŋ guw ŝi qiŋ xi ẑñ	9
+广东东莞市石碣镇	guv duŋ duŋ guw ŝi ŝi jie ẑñ	5
+广东东莞市石龙镇	guv duŋ duŋ guw ŝi ŝi luŋ ẑñ	4
+广东东莞市石排镇	guv duŋ duŋ guw ŝi ŝi pai ẑñ	12
+广东东莞市谢岗镇	guv duŋ duŋ guw ŝi xie gv ẑñ	4
+广东东莞市樟木头镇	guv duŋ duŋ guw ŝi ẑv mu tou ẑñ	15
+广东东莞市中堂镇	guv duŋ duŋ guw ŝi ẑuŋ tv ẑñ	16
 广东队	guv duŋ due	6985
-广东发展银行	guv duŋ fa ẑw iñ hv	1
+广东发展银行	guv duŋ fa ẑw iñ hv	10115
 广东房产	guv duŋ fv ĉw	160
+广东风采新纪元律师事务所	guv duŋ fŋ cai xiñ ji yw ly ŝi ŝi u so	9
 广东夫妇	guv duŋ fu fu	128
 广东工大	guv duŋ guŋ da	53
 广东工业大学	guv duŋ guŋ ie da xye	7810
@@ -146357,6 +146345,9 @@ sort: by_weight
 广东鸿图	guv duŋ huŋ tu	162
 广东宏远	guv duŋ huŋ yw	3960
 广东话	guv duŋ hua	16735
+广东花都区狮岭镇	guv duŋ hua dou qy ŝi liŋ ẑñ	3
+广东环球经纬律师事务所	guv duŋ huw qiu jiŋ ue ly ŝi ŝi u so	94
+广东环宇京茂律师事务所	guv duŋ huw y jiŋ mao ly ŝi ŝi u so	29
 广东黄腰太阳鸟	guv duŋ huv io tai iv nio	1
 广东惠州	guv duŋ hue ẑou	4960
 广东籍	guv duŋ ji	925
@@ -146371,16 +146362,19 @@ sort: by_weight
 广东联通	guv duŋ liw tuŋ	1440
 广东凉茶	guv duŋ liv ĉa	121
 广东凉茶颗粒	guv duŋ liv ĉa ke li	11
+广东龙岗区布吉镇	guv duŋ luŋ gv qy bu ji ẑñ	1
 广东路	guv duŋ lu	199
 广东路外滩	guv duŋ lu ui tw	3
 广东路中裕园	guv duŋ lu ẑuŋ y yw	1
 广东茂名	guv duŋ mao miŋ	4710
 广东梅州	guv duŋ mei ẑou	2845
+广东南海区西樵镇	guv duŋ nw hai qy xi qio ẑñ	1
 广东南海溪蟹	guv duŋ nw hai xi xie	1
 光动能	guv duŋ nŋ	2330
 广东黏体虫	guv duŋ niw ti ĉuŋ	1
 广东柠檬	guv duŋ niŋ mŋ	9999
 广东番禺	guv duŋ pw y	1
+广东番禺区化龙镇	guv duŋ pw y qy hua luŋ ẑñ	1
 广东清溪蟹	guv duŋ qiŋ xi xie	1
 广东球孢虫	guv duŋ qiu bao ĉuŋ	1
 广东人	guv duŋ rñ	15185
@@ -146395,18 +146389,25 @@ sort: by_weight
 广东十虎	guv duŋ ŝi hu	430
 广东嗜眼吸虫	guv duŋ ŝi iw xi ĉuŋ	1
 广东顺德	guv duŋ ŝuñ de	5460
+广东顺德区龙江镇	guv duŋ ŝuñ de qy luŋ jiv ẑñ	1
 广东台山	guv duŋ tai ŝw	1141
+广东台山市台城镇	guv duŋ tai ŝw ŝi tai ĉŋ ẑñ	1
 广东体育	guv duŋ ti y	5755
+广东天诺律师事务所	guv duŋ tiw no ly ŝi ŝi u so	6
 广东厅	guv duŋ tiŋ	145
 广东外肋水母	guv duŋ ui lei ŝue mu	1
 广东外语外贸大学	guv duŋ ui y ui mao da xye	8010
 广东万年青	guv duŋ uw niw qiŋ	47
+广东纬国律师事务所	guv duŋ ue go ly ŝi ŝi u so	10
 广东胃瘤水母	guv duŋ ue liu ŝue mu	1
 广东文昌鸡	guv duŋ uñ ĉv ji	12
 广东戏	guv duŋ xi	30
 广东小舟梭螺	guv duŋ xio ẑou so lo	1
+广东信德盛律师事务所	guv duŋ xiñ de ŝŋ ly ŝi ŝi u so	29
 广东新会美达锦纶股份有限公司	guv duŋ xiñ hue mei da jiñ luñ gu fñ iu xiw guŋ si	12
+广东鑫一华律师事务所	guv duŋ xiñ i hua ly ŝi ŝi u so	69
 广东星湖	guv duŋ xiŋ hu	5
+广东星凯律师事务所	guv duŋ xiŋ kai ly ŝi ŝi u so	21
 广东鳐	guv duŋ io	1
 广东医	guv duŋ i	134
 广东隐势瓢虫	guv duŋ iñ ŝi pio ĉuŋ	1
@@ -146417,8 +146418,27 @@ sort: by_weight
 广东语	guv duŋ y	175
 广东芋参	guv duŋ y ŝñ	1
 广东月饼	guv duŋ ye biŋ	121
+广东增城市新塘镇	guv duŋ zŋ ĉŋ ŝi xiñ tv ẑñ	2
 广东证券	guv duŋ ẑŋ qyw	211
 广东殖盘吸虫	guv duŋ ẑi pw xi ĉuŋ	1
+广东中大圣律师事务所	guv duŋ ẑuŋ da ŝŋ ly ŝi ŝi u so	3
+广东中山市大涌镇	guv duŋ ẑuŋ ŝw ŝi da ĉuŋ ẑñ	6
+广东中山市东凤镇	guv duŋ ẑuŋ ŝw ŝi duŋ fŋ ẑñ	2
+广东中山市东升镇	guv duŋ ẑuŋ ŝw ŝi duŋ ŝŋ ẑñ	3
+广东中山市港口镇	guv duŋ ẑuŋ ŝw ŝi gv kou ẑñ	3
+广东中山市古镇镇	guv duŋ ẑuŋ ŝw ŝi gu ẑñ ẑñ	9
+广东中山市横栏镇	guv duŋ ẑuŋ ŝw ŝi hŋ lw ẑñ	14
+广东中山市黄圃镇	guv duŋ ẑuŋ ŝw ŝi huv pu ẑñ	2
+广东中山市民众镇	guv duŋ ẑuŋ ŝw ŝi miñ ẑuŋ ẑñ	3
+广东中山市南朗镇	guv duŋ ẑuŋ ŝw ŝi nw lv ẑñ	5
+广东中山市南头镇	guv duŋ ẑuŋ ŝw ŝi nw tou ẑñ	1
+广东中山市三角镇	guv duŋ ẑuŋ ŝw ŝi sw jio ẑñ	6
+广东中山市三乡镇	guv duŋ ẑuŋ ŝw ŝi sw xiv ẑñ	7
+广东中山市沙溪镇	guv duŋ ẑuŋ ŝw ŝi ŝa xi ẑñ	2
+广东中山市石岐区	guv duŋ ẑuŋ ŝw ŝi ŝi qi qy	3
+广东中山市坦洲镇	guv duŋ ẑuŋ ŝw ŝi tw ẑou ẑñ	2
+广东中山市小榄镇	guv duŋ ẑuŋ ŝw ŝi xio lw ẑñ	16
+广东珠江律师事务所	guv duŋ ẑu jiv ly ŝi ŝi u so	15
 广东粽子	guv duŋ zuŋ zi	215
 光斗	guv dou	1170
 广度	guv du	28340
@@ -146444,6 +146464,7 @@ sort: by_weight
 广发大盘	guv fa da pw	180
 广发华福	guv fa hua fu	1
 广发聚富	guv fa jy fu	30
+广发律师事务所	guv fa ly ŝi ŝi u so	26
 广发银行	guv fa iñ hv	3605
 广发永乡	guv fa yŋ xiv	1
 广发证券	guv fa ẑŋ qyw	13445
@@ -147115,7 +147136,8 @@ sort: by_weight
 逛起来	guv qi lai	425
 广汽日野	guv qi ri ie	420
 光气中毒	guv qi ẑuŋ du	6
-光前	guv qiw	5
+光前	guv qiw	1815
+光前村	guv qiw cuñ	22
 光前启后	guv qiw qi hou	1
 光强	guv qiv	6105
 光强度	guv qiv du	1800
@@ -147335,6 +147357,7 @@ sort: by_weight
 广西菜	guv xi cai	64
 广西大厦	guv xi da ŝa	25
 广西大学	guv xi da xye	12550
+广西东兴市东兴镇	guv xi duŋ xiŋ ŝi duŋ xiŋ ẑñ	1
 广西队	guv xi due	320
 广西副𫚪	guv xi fu y	1
 广西广电	guv xi guv diw	189
@@ -147952,7 +147975,6 @@ sort: by_weight
 贵都路	gue dou lu	2
 鬼斗罗	gue dou lo	159
 轨度	gue du	999
-规度	gue du	4
 圭端臬正	gue duw nie ẑŋ	1
 归队	gue due	9980
 贵多了	gue do le	1
@@ -148867,13 +148889,13 @@ sort: by_weight
 贵贤上品	gue xiw ŝv piñ	196
 硅线石	gue xiw ŝi	490
 归降	gue xiv	9999
+桂香	gue xiv	7240
 归乡	gue xiv	3595
-鬼像	gue xiv	3467
 归向	gue xiv	2785
-桂香	gue xiv	724
-桂香村	gue xiv cuñ	2
+桂香村	gue xiv cuñ	26
 硅橡胶	gue xiv jio	14750
 桂香楼	gue xiv lou	1
+桂香西瓜汁	gue xiv xi gua ẑi	1
 桂巷新村	gue xiv xiñ cuñ	4
 桂香斋	gue xiv ẑai	174
 贵校	gue xio	2190
@@ -148996,8 +149018,8 @@ sort: by_weight
 桂永清	gue yŋ qiŋ	34
 硅油	gue iu	10235
 癸酉	gue iu	1109
-贵由	gue iu	5
-贵友	gue iu	4
+贵友	gue iu	47
+# 贵由	gui you	0
 归有光	gue iu guv	26
 贵友酒家	gue iu jiu jia	10
 龟游莲叶上	gue iu liw ie ŝv	6
@@ -149150,6 +149172,7 @@ sort: by_weight
 贵州贵阳	gue ẑou gue iv	4325
 贵州教育	gue ẑou jio y	151
 贵州开磷集团有限责任公司	gue ẑou kai liñ ji tuw iu xiw ze rñ guŋ si	2
+贵州开阳县金中镇	gue ẑou kai iv xiw jiñ ẑuŋ ẑñ	2
 贵州路	gue ẑou lu	272
 贵州铝厂工贸实业总公司	gue ẑou ly ĉv guŋ mao ŝi ie zuŋ guŋ si	8
 贵州茅台	gue ẑou mao tai	31714
@@ -150797,7 +150820,7 @@ sort: by_weight
 国家商检部门	go jia ŝv jiw bu mñ	3345
 国家商检局	go jia ŝv jiw jy	2720
 国家商务部	go jia ŝv u bu	8330
-郭家厍	go jia ŝe	2
+郭家厍村	go jia ŝe cuñ	2
 国家社会科学基金项目管理办法	go jia ŝe hue ke xye ji jiñ xiv mu guw li bw fa	20
 国家社会主义	go jia ŝe hue ẑu i	1560
 国家审计署	go jia ŝñ ji ŝu	4960
@@ -151247,7 +151270,6 @@ sort: by_weight
 裹乱	go luw	999
 蜾蠃	go lo	132
 过罗	go lo	1
-蜾蠃蜚	go lo fei	3
 果洛中院	go lo ẑuŋ yw	87
 果洛州	go lo ẑou	1900
 过滤	go ly	306705
@@ -151746,7 +151768,6 @@ sort: by_weight
 过审	go ŝñ	8888
 过甚	go ŝñ	2870
 过伸	go ŝñ	123
-过身	go ŝñ	44
 过什么	go ŝñ me	139
 过甚其词	go ŝñ qi ci	9999
 过剩	go ŝŋ	87975
@@ -151926,7 +151947,6 @@ sort: by_weight
 粿条	go tio	32
 果条筒	go tio tuŋ	23
 锅贴	go tie	8673
-国铁	go tie	7
 锅贴儿	go tie er	25
 锅贴鸡片	go tie ji piw	4
 锅贴饺	go tie jio	235
@@ -152307,6 +152327,7 @@ sort: by_weight
 国营东太农场	go iŋ duŋ tai nuŋ ĉv	2
 国营东兴农场	go iŋ duŋ xiŋ nuŋ ĉv	8
 国营敦煌农场	go iŋ duñ huv nuŋ ĉv	2
+蜾赢蜚属	go iŋ fei ŝu	1
 国营芙蓉田农场	go iŋ fu ruŋ tiw nuŋ ĉv	1
 国营公爱农场	go iŋ guŋ ai nuŋ ĉv	1
 国营公司	go iŋ guŋ si	1544
@@ -152321,6 +152342,7 @@ sort: by_weight
 国营加钗农场	go iŋ jia ĉai nuŋ ĉv	2
 国营金安农场	go iŋ jiñ w nuŋ ĉv	1
 国营经济	go iŋ jiŋ ji	2050
+蜾赢科	go iŋ ke	1
 国营蓝洋农场	go iŋ lw iv nuŋ ĉv	3
 国营乐光农场	go iŋ le guv nuŋ ĉv	3
 国营林场	go iŋ liñ ĉv	146
@@ -153229,13 +153251,13 @@ sort: by_weight
 海潮之池	hai ĉao ẑi ĉi	1
 还成	hai ĉŋ	22135
 还称	hai ĉŋ	11111
-海城	hai ĉŋ	90
+海城	hai ĉŋ	1900
 # 海成	hai cheng	0
 # 海程	hai cheng	0
-海城区	hai ĉŋ qy	115
-海城市	hai ĉŋ ŝi	688
+海城区	hai ĉŋ qy	1115
+海城市	hai ĉŋ ŝi	6885
 还成问题	hai ĉŋ uñ ti	1185
-海城县	hai ĉŋ xiw	3
+海城县	hai ĉŋ xiw	31
 海城馅饼	hai ĉŋ xiw biŋ	204
 还吃	hai ĉi	9999
 害虫	hai ĉuŋ	47920
@@ -154001,7 +154023,7 @@ sort: by_weight
 还没被	hai mei bei	178
 还没吃饭	hai mei ĉi fw	860
 还没吃饭呢	hai mei ĉi fw ne	435
-还没处理	hai mei ĉu li	87
+还没处理	hai mei ĉu li	72
 还没到货	hai mei dao ho	104
 还没等	hai mei dŋ	16250
 还没点	hai mei diw	89
@@ -154045,7 +154067,6 @@ sort: by_weight
 还没取餐	hai mei qy cw	5
 还没去拿	hai mei qy na	181
 还没人	hai mei rñ	12
-还没散	hai mei sw	7
 还没上班	hai mei ŝv bw	65
 还没试	hai mei ŝi	335
 还没时间	hai mei ŝi jiw	75
@@ -154078,7 +154099,6 @@ sort: by_weight
 还没有完	hai mei iu uw	650
 还没约	hai mei ye	149
 还没在	hai mei zai	1215
-还没长成	hai mei ẑv ĉŋ	7
 还没找	hai mei ẑao	3070
 还没找到	hai mei ẑao dao	6855
 还没找着	hai mei ẑao ẑao	130
@@ -154090,7 +154110,7 @@ sort: by_weight
 海门村	hai mñ cuñ	24
 海门港	hai mñ gv	77
 海门路	hai mñ lu	51
-海门市	hai mñ ŝi	970
+海门市	hai mñ ŝi	9970
 海门市海门港	hai mñ ŝi hai mñ gv	6
 海门市区	hai mñ ŝi qy	20
 海门县	hai mñ xiw	245
@@ -154937,6 +154957,7 @@ sort: by_weight
 海燕牌	hai iw pai	70
 海盐县	hai iw xiw	5490
 海晏县	hai iw xiw	920
+海晏县西海镇	hai iw xiw xi hai ẑñ	2
 海洋	hai iv	409425
 还养	hai iv	2855
 # 海阳	hai yang	0
@@ -155653,11 +155674,10 @@ sort: by_weight
 汉宫	hw guŋ	4375
 汉宫春	hw guŋ ĉuñ	46
 汉宫侍女暗垂泪	hw guŋ ŝi ny w ĉue lei	1
-汗垢	hw gou	647
 函购	hw gou	470
 含垢	hw gou	245
 罕觏	hw gou	70
-# 汉沟	han gou	0
+汉沟	hw gou	6
 含垢包羞	hw gou bao xiu	1
 含垢藏疾	hw gou cv ji	30
 含垢匿瑕	hw gou ni xia	5
@@ -156081,9 +156101,9 @@ sort: by_weight
 汉明距离	hw miŋ jy li	695
 汉明码	hw miŋ ma	440
 含明隐迹	hw miŋ iñ ji	1
+旱魔	hw mo	3333
 汉末	hw mo	2222
 翰墨	hw mo	1029
-旱魔	hw mo	333
 汉谟拉比	hw mo la bi	9999
 汉谟拉比法典	hw mo la bi fa diw	999
 韩某	hw mou	111
@@ -157419,6 +157439,7 @@ sort: by_weight
 杭州虾爆鳝面	hv ẑou xia bao ŝw miw	1
 杭州小吃	hv ẑou xio ĉi	232
 杭州肖个木虱	hv ẑou xio ge mu ŝi	1
+杭州新紫罗兰大酒店	hv ẑou xiñ zi lo lw da jiu diw	40
 杭州亚运会	hv ẑou ia yñ hue	141
 杭州野生动物世界	hv ẑou ie ŝŋ duŋ u ŝi jie	89
 杭州医学院	hv ẑou i xye yw	155
@@ -159053,8 +159074,6 @@ sort: by_weight
 好于	hao y	27595
 豪雨	hao y	1710
 豪语	hao y	655
-好语	hao y	79
-好雨	hao y	68
 # 郝浴	hao yu	0
 好与不好	hao y bu hao	1180
 郝宇飞	hao y fei	3
@@ -159266,6 +159285,7 @@ sort: by_weight
 喝杯	he bei	15280
 鹤北	he bei	1410
 # 河背	he bei	0
+河北霸州市胜芳镇	he bei ba ẑou ŝi ŝŋ fv ẑñ	15
 河北梆子	he bei bv zi	2560
 河北保定	he bei bao diŋ	7275
 河北彩花	he bei cai hua	6666
@@ -159311,22 +159331,27 @@ sort: by_weight
 河北里	he bei li	17
 河北路	he bei lu	547
 褐背露斯	he bei lu si	1
+河北马倍战律师事务所	he bei ma bei ẑw ly ŝi ŝi u so	16
 河北美术	he bei mei ŝu	197
 河北美院	he bei mei yw	122
 褐背拟地鸦	he bei ni di ia	9
 河北农大	he bei nuŋ da	182
 河北农业大学	he bei nuŋ ie da xye	3320
+河北迁安市蔡园镇	he bei qiw w ŝi cai yw ẑñ	1
 河北秦皇岛	he bei qiñ huv dao	102
 褐背青小灰蝶	he bei qiŋ xio hue die	1
 河北区	he bei qy	12795
 褐背鹊鵙	he bei qye jy	1
 河北日报	he bei ri bao	2500
 河北荣华	he bei ruŋ hua	199
+河北沙河市白塔镇	he bei ŝa he ŝi bai ta ẑñ	2
 河北省	he bei ŝŋ	304020
 河北省霸州市	he bei ŝŋ ba ẑou ŝi	194
 河北省泊头市	he bei ŝŋ bo tou ŝi	86
 河北省沧县	he bei ŝŋ cv xiw	65
 河北省沧州市	he bei ŝŋ cv ẑou ŝi	456
+河北省沧州市河间市	he bei ŝŋ cv ẑou ŝi he jiw ŝi	1
+河北省沧州新华区	he bei ŝŋ cv ẑou xiñ hua qy	1
 河北省长垣县	he bei ŝŋ ĉv yw xiw	2
 河北省承德市	he bei ŝŋ ĉŋ de ŝi	773
 河北省城市房屋拆迁管理实施办法	he bei ŝŋ ĉŋ ŝi fv u ĉai qiw guw li ŝi ŝi bw fa	23
@@ -159342,7 +159367,7 @@ sort: by_weight
 河北省故城县	he bei ŝŋ gu ĉŋ xiw	86
 河北省邯郸市	he bei ŝŋ hw dw ŝi	163
 河北省河间市	he bei ŝŋ he jiw ŝi	140
-河北省衡水市	he bei ŝŋ hŋ ŝue ŝi	206
+河北省衡水市	he bei ŝŋ hŋ ŝue ŝi	1206
 河北省黄骅市	he bei ŝŋ huv hua ŝi	105
 河北省基本农田保护条例	he bei ŝŋ ji bñ nuŋ tiw bao hu tio li	8
 河北省减少污染物排放条例	he bei ŝŋ jiw ŝao u rw u pai fv tio li	11
@@ -159352,6 +159377,8 @@ sort: by_weight
 河北省宽城县	he bei ŝŋ kuw ĉŋ xiw	32
 河北省涞水县	he bei ŝŋ lai ŝue xiw	106
 河北省廊坊市	he bei ŝŋ lv fv ŝi	1067
+河北省廊坊市安次区	he bei ŝŋ lv fv ŝi w ci qy	55
+河北省廊坊市经济技术开发区	he bei ŝŋ lv fv ŝi jiŋ ji ji ŝu kai fa qy	6
 河北省卢龙县	he bei ŝŋ lu luŋ xiw	23
 河北省奶业条例	he bei ŝŋ nai ie tio li	45
 河北省南皮县	he bei ŝŋ nw pi xiw	31
@@ -159363,8 +159390,12 @@ sort: by_weight
 河北省饶阳县	he bei ŝŋ rao iv xiw	44
 河北省任丘市	he bei ŝŋ rñ qiu ŝi	65
 河北省社会保险费征缴暂行办法	he bei ŝŋ ŝe hue bao xiw fei ẑŋ jio zw xiŋ bw fa	8
+河北省石家庄市长安区	he bei ŝŋ ŝi jia ẑuv ŝi ĉv w qy	3
 河北省失业保险实施办法	he bei ŝŋ ŝi ie bao xiw ŝi ŝi bw fa	7
 河北省唐山市	he bei ŝŋ tv ŝw ŝi	1337
+河北省唐山市丰南区	he bei ŝŋ tv ŝw ŝi fŋ nw qy	75
+河北省唐山市开平区	he bei ŝŋ tv ŝw ŝi kai piŋ qy	83
+河北省唐山市玉田县	he bei ŝŋ tv ŝw ŝi y tiw xiw	66
 河北省体育经营活动管理办法	he bei ŝŋ ti y jiŋ iŋ ho duŋ guw li bw fa	6
 河北省土木建筑学会	he bei ŝŋ tu mu jiw ẑu xye hue	5
 河北省委	he bei ŝŋ ue	6020
@@ -159378,15 +159409,18 @@ sort: by_weight
 河北省永清县	he bei ŝŋ yŋ qiŋ xiw	161
 河北省玉田县	he bei ŝŋ y tiw xiw	102
 河北省枣强县	he bei ŝŋ zao qiv xiw	95
+河北省枣强县大营镇	he bei ŝŋ zao qiv xiw da iŋ ẑñ	13
 河北省张家口	he bei ŝŋ ẑv jia kou	271
 河北省张家口市	he bei ŝŋ ẑv jia kou ŝi	1153
 河北省住宅与房地产业协会	he bei ŝŋ ẑu ẑai y fv di ĉw ie xie hue	107
 河北师范大学	he bei ŝi fw da xye	5840
+河北世纪鸿业律师事务所	he bei ŝi ji huŋ ie ly ŝi ŝi u so	7
 河北狮子鱼	he bei ŝi zi y	1
 河北头村	he bei tou cuñ	1
 褐背鹟鵙	he bei uŋ jy	1
 河北细毛羊	he bei xi mao iv	6
-河北细犬	he bei xi qyw	2
+河北细犬	he bei xi qyw	1
+河北香河县淑阳镇	he bei xiv he xiw ŝu iv ẑñ	1
 河北小尾寒羊	he bei xio ue hw iv	1
 褐背啸鹟	he bei xio uŋ	1
 褐背小鹟	he bei xio uŋ	1
@@ -159410,6 +159444,7 @@ sort: by_weight
 河北中考	he bei ẑuŋ kao	128
 河北庄	he bei ẑuv	20
 褐背啄木鸟	he bei ẑo mu nio	1
+河北子辰律师事务所	he bei zi ĉñ ly ŝi ŝi u so	25
 褐背棕翅鸠	he bei zuŋ ĉi jiu	1
 赫本	he bñ	111
 河奔海聚	he bñ hai jy	1
@@ -160433,7 +160468,7 @@ sort: by_weight
 河间国	he jiw go	1
 合建楼社区	he jiw lou ŝe qy	2
 河间路	he jiw lu	38
-河间市	he jiw ŝi	785
+河间市	he jiw ŝi	2785
 河间王	he jiw uv	705
 河间县	he jiw xiw	335
 褐肩鹰	he jiw iŋ	1
@@ -160886,6 +160921,7 @@ sort: by_weight
 河南北路	he nw bei lu	95
 河南泌阳	he nw bi iv	1
 河南财经政法	he nw cai jiŋ ẑŋ fa	133
+河南昌浩律师事务所	he nw ĉv hao ly ŝi ŝi u so	8
 贺南村	he nw cuñ	2
 河南大学	he nw da xye	11970
 河南大尹头如雪	he nw da iñ tou ru xye	1
@@ -160913,6 +160949,7 @@ sort: by_weight
 河南开封	he nw kai fŋ	4545
 河南考生	he nw kao ŝŋ	119
 河南路	he nw lu	542
+河南陆达律师事务所	he nw lu da ly ŝi ŝi u so	1671
 河南卤面	he nw lu miw	5
 河南路桥	he nw lu qio	61
 河南洛阳	he nw lo iv	6470
@@ -160920,6 +160957,7 @@ sort: by_weight
 河南南阳	he nw nw iv	5580
 河南女子	he nw ny zi	157
 河南濮阳	he nw pu iv	2375
+河南千业律师事务所	he nw qiw ie ly ŝi ŝi u so	65
 河南人	he nw rñ	19650
 河南人民	he nw rñ miñ	2510
 河南日报	he nw ri bao	5235
@@ -162851,7 +162889,7 @@ sort: by_weight
 黑寡妇	hei gua fu	1825
 黑瓜子	hei gua zi	952
 黑管	hei guw	2010
-黑鹳	hei guw	190
+黑鹳	hei guw	1190
 黑冠红翅鵙	hei guw huŋ ĉi jy	1
 黑冠黄雀鹀属	hei guw huv qye u ŝu	1
 黑光	hei guv	4405
@@ -163185,9 +163223,7 @@ sort: by_weight
 黑名	hei miŋ	2995
 黑名册	hei miŋ ce	25
 黑名单	hei miŋ dw	43695
-黑膜	hei mo	970
-黑蘑	hei mo	88
-黑墨	hei mo	7
+黑墨	hei mo	1980
 黑摩的	hei mo di	5
 黑默丁格	hei mo diŋ ge	125
 黑魔法学院	hei mo fa xye yw	1
@@ -163279,7 +163315,6 @@ sort: by_weight
 黑日危机	hei ri ue ji	20
 黑乳海参	hei ru hai ŝñ	9
 黑如炱	hei ru tai	2
-黑塞	hei sai	5
 黑塞青林	hei sai qiŋ liñ	1
 黑色	hei se	500339
 黑色产业链	hei se ĉw ie liw	143
@@ -163474,7 +163509,7 @@ sort: by_weight
 黑网	hei uv	1440
 黑网吧	hei uv ba	9355
 黑尾长扁步行虫	hei ue ĉv biw bu xiŋ ĉuŋ	1
-黑尾塍鹬	hei ue ĉŋ y	3
+黑尾塍鹬	hei ue ĉŋ y	1
 黑苇鳽	hei ue jiw	1
 黑尾酱	hei ue jiv	119
 黑尾金粉蝇	hei ue jiñ fñ iŋ	1
@@ -164239,7 +164274,6 @@ sort: by_weight
 很佩服	hñ pei fu	8025
 狠批	hñ pi	1210
 很皮	hñ pi	121
-很偏	hñ piw	1689
 很便宜	hñ piw i	20505
 很漂亮	hñ pio liv	74855
 很漂亮啊	hñ pio liv a	2875
@@ -164265,7 +164299,6 @@ sort: by_weight
 很前卫	hñ qiw ue	1355
 很谦虚	hñ qiw xy	2595
 很强	hñ qiv	293455
-很呛	hñ qiv	1689
 很强大	hñ qiv da	6005
 很巧	hñ qio	3333
 很翘	hñ qio	2222
@@ -164362,8 +164395,6 @@ sort: by_weight
 很死	hñ si	4444
 恨死他了	hñ si ta le	47
 很松	hñ suŋ	1710
-很俗	hñ su	987
-很酥	hñ su	88
 很酸	hñ suw	2341
 很酸爽	hñ suw ŝuv	1111
 很随便的	hñ sue biw de	222
@@ -164463,7 +164494,6 @@ sort: by_weight
 很心疼	hñ xiñ tŋ	3150
 狠心一点	hñ xiñ i diw	166
 很行	hñ xiŋ	2060
-很腥	hñ xiŋ	379
 很兴奋	hñ xiŋ fñ	17685
 很幸福	hñ xiŋ fu	28230
 很性感	hñ xiŋ gw	4405
@@ -164547,7 +164577,6 @@ sort: by_weight
 很脏	hñ zv	8300
 很早	hñ zao	38625
 很糟	hñ zao	5395
-很躁	hñ zao	67
 很糟糕	hñ zao gao	9975
 很早就	hñ zao jiu	32750
 很早以前	hñ zao i qiw	13975
@@ -164706,7 +164735,9 @@ sort: by_weight
 横洞	hŋ duŋ	88
 # 衡东	heng dong	0
 横东岭	hŋ duŋ liŋ	4
-衡东县	hŋ duŋ xiw	166
+衡东县	hŋ duŋ xiw	1665
+衡东县城关镇	hŋ duŋ xiw ĉŋ guw ẑñ	24
+衡东县杨林镇	hŋ duŋ xiw iv liñ ẑñ	3
 横窦	hŋ dou	4
 横渡	hŋ du	9090
 横渎	hŋ du	20
@@ -165539,6 +165570,7 @@ sort: by_weight
 红帆	huŋ fw	1965
 红矾	huŋ fw	645
 红番	huŋ fw	380
+洪范广住律师事务所	huŋ fw guv ẑu ly ŝi ŝi u so	86
 洪范九畴	huŋ fw jiu ĉou	130
 洪范评论	huŋ fw piŋ luñ	35
 洪泛区	huŋ fw qy	1690
@@ -166186,9 +166218,9 @@ sort: by_weight
 轰鸣着	huŋ miŋ ẑe	1115
 虹膜	huŋ mo	15550
 红魔	huŋ mo	15050
-红蘑	huŋ mo	77
 洪魔	huŋ mo	11
 红磨坊	huŋ mo fv	3965
+红墨坊	huŋ mo fv	1
 虹膜根部离断	huŋ mo gñ bu li duw	4
 红魔鬼	huŋ mo gue	1041
 虹膜角膜内皮综合征	huŋ mo jio mo nei pi zuŋ he ẑŋ	2
@@ -168738,8 +168770,10 @@ sort: by_weight
 湖北村	hu bei cuñ	21
 湖北大鼓	hu bei da gu	115
 湖北大学	hu bei da xye	8140
+湖北大冶市陈贵镇	hu bei da ie ŝi ĉñ gue ẑñ	1
 湖北电视台	hu bei diw ŝi tai	129
 湖北队	hu bei due	1285
+湖北法院要案评析	hu bei fa yw io w piŋ xi	2
 湖北高考	hu bei gao kao	149
 湖北工业大学	hu bei guŋ ie da xye	3980
 湖北广电	hu bei guv diw	193
@@ -168769,6 +168803,7 @@ sort: by_weight
 湖北省成品油市场管理办法	hu bei ŝŋ ĉŋ piñ iu ŝi ĉv guw li bw fa	2
 湖北省公共安全技术防范管理规定	hu bei ŝŋ guŋ guŋ w qyw ji ŝu fv fw guw li gue diŋ	5
 湖北省黄梅县	hu bei ŝŋ huv mei xiw	190
+湖北省黄石市阳新县	hu bei ŝŋ huv ŝi ŝi iv xiñ xiw	63
 湖北省科学技术普及条例	hu bei ŝŋ ke xye ji ŝu pu ji tio li	5
 湖北省口腔医院	hu bei ŝŋ kou qiv i yw	1
 湖北省流通环节食品质量安全监督管理办法	hu bei ŝŋ liu tuŋ huw jie ŝi piñ ẑi liv w qyw jiw du guw li bw fa	7
@@ -168785,6 +168820,7 @@ sort: by_weight
 湖北省云梦县	hu bei ŝŋ yñ mŋ xiw	75
 湖北省枣阳市	hu bei ŝŋ zao iv ŝi	212
 湖北市	hu bei ŝi	295
+湖北为维律师事务所	hu bei ue ue ly ŝi ŝi u so	99
 湖北武汉	hu bei u hw	22750
 湖北武汉的热干面	hu bei u hw de re gw miw	5
 湖北襄樊	hu bei xiv fw	4540
@@ -169774,15 +169810,15 @@ sort: by_weight
 胡列娜	hu lie na	195
 户列簪缨	hu lie zw iŋ	1
 护林	hu liñ	6860
-虎林	hu liñ	3
-# 胡林	hu lin	0
+虎林	hu liñ	4430
+胡林	hu liñ	2
 护林防火	hu liñ fv ho	3745
 胡林家乡	hu liñ jia xiv	21
-虎林路	hu liñ lu	7
+虎林路	hu liñ lu	47
 忽临睨夫旧乡	hu liñ ni fu jiu xiv	2
 护林人	hu liñ rñ	290
-虎林市	hu liñ ŝi	129
-虎林县	hu liñ xiw	4
+虎林市	hu liñ ŝi	1295
+虎林县	hu liñ xiw	345
 胡林翼	hu liñ i	99
 护林员	hu liñ yw	5205
 互领	hu liŋ	5555
@@ -169961,17 +169997,21 @@ sort: by_weight
 忽那汐里	hu na xi li	5
 湖南	hu nw	500303
 沪南	hu nw	2330
+湖南白泉律师事务所	hu nw bai qyw ly ŝi ŝi u so	3
 湖南帮	hu nw bv	52
 湖南菜	hu nw cai	3485
 湖南长城银河	hu nw ĉv ĉŋ iñ he	87
 湖南长城银河科技有限公司	hu nw ĉv ĉŋ iñ he ke ji iu xiw guŋ si	87
 湖南常德	hu nw ĉv de	3770
 湖南长沙	hu nw ĉv ŝa	24235
+湖南长沙县江背镇	hu nw ĉv ŝa xiw jiv bei ẑñ	6
 湖南郴州	hu nw ĉñ ẑou	3060
+湖南崇民律师事务所	hu nw ĉuŋ miñ ly ŝi ŝi u so	30
 湖南村	hu nw cuñ	49
 湖南大学	hu nw da xye	21745
 湖南第一师范	hu nw di i ŝi fw	206
 湖南发展	hu nw fa ẑw	199
+湖南富强律师事务所	hu nw fu qiv ly ŝi ŝi u so	1
 湖南高考	hu nw gao kao	172
 湖南工程	hu nw guŋ ĉŋ	164
 沪南公路	hu nw guŋ lu	245
@@ -169991,10 +170031,14 @@ sort: by_weight
 湖南腊鱼	hu nw la y	4
 湖南兰花萝卜	hu nw lw hua lo bo	1
 湖南烈士公园	hu nw lie ŝi guŋ yw	408
+湖南龙溪律师事务所	hu nw luŋ xi ly ŝi ŝi u so	1
 湖南路	hu nw lu	1365
+湖南麓和律师事务所	hu nw lu he ly ŝi ŝi u so	1
+湖南莽源律师事务所	hu nw mv yw ly ŝi ŝi u so	78
 湖南湄公螺	hu nw mei guŋ lo	1
 湖南玫瑰蹄筋	hu nw mei gue ti jiñ	1
 湖南美食	hu nw mei ŝi	117
+湖南宁乡县玉潭镇	hu nw niŋ xiv xiw y tw ẑñ	1
 湖南农业大学	hu nw nuŋ ie da xye	4795
 湖南清绝地	hu nw qiŋ jye di	3
 湖南人	hu nw rñ	12110
@@ -170016,15 +170060,20 @@ sort: by_weight
 湖南双凤	hu nw ŝuv fŋ	1
 湖南天雁	hu nw tiw iw	126
 湖南厅	hu nw tiŋ	110
+湖南唯楚律师事务所	hu nw ue ĉu ly ŝi ŝi u so	19
 湖南卫视	hu nw ue ŝi	37730
 湖南乡	hu nw xiv	135
+湖南湘剑律师事务所	hu nw xiv jiw ly ŝi ŝi u so	22
 湖南湘潭	hu nw xiv tw	3690
+湖南星邦律师事务所	hu nw xiŋ bv ly ŝi ŝi u so	1
 湖南腌三样	hu nw iw sw iv	1
 湖南疫情	hu nw i qiŋ	127
+湖南一星律师事务所	hu nw i xiŋ ly ŝi ŝi u so	107
 湖南永州	hu nw yŋ ẑou	2655
 湖南油淋鸡	hu nw iu liñ ji	1
 湖南有色金属	hu nw iu se jiñ ŝu	1
 湖南岳阳	hu nw ye iv	3855
+湖南挚友律师事务所	hu nw ẑi iu ly ŝi ŝi u so	12
 湖南株洲	hu nw ẑu ẑou	4250
 胡闹	hu nao	17910
 胡闹搬家	hu nao bw jia	195
@@ -172435,6 +172484,7 @@ sort: by_weight
 画卯	hua mao	12
 # 华茂	hua mao	0
 华茂大厦	hua mao da ŝa	9
+华贸硅谷律师事务所	hua mao gue gu ly ŝi ŝi u so	19
 花猫卷管螺	hua mao jyw guw lo	1
 华茂路	hua mao lu	4
 华贸物流	hua mao u liu	155
@@ -175295,11 +175345,11 @@ sort: by_weight
 换热器	huw re qi	27580
 换热站	huw re ẑw	985
 换人	huw rñ	21490
+桓仁	huw rñ	3355
 唤人	huw rñ	1030
 宦人	huw rñ	360
-桓仁	huw rñ	3
-桓仁满族自治县	huw rñ mw zu zi ẑi xiw	109
-桓仁县	huw rñ xiw	102
+桓仁满族自治县	huw rñ mw zu zi ẑi xiw	1095
+桓仁县	huw rñ xiw	1025
 幻日	huw ri	1045
 换日偷天	huw ri tou tiw	1
 涣如冰释	huw ru biŋ ŝi	1
@@ -175383,7 +175433,6 @@ sort: by_weight
 环枢	huw ŝu	12
 寰枢关节	huw ŝu guw jie	44
 幻书启世录	huw ŝu qi ŝi lu	148
-换帅	huw ŝui	678
 换双	huw ŝuv	815
 换水	huw ŝue	14890
 环水	huw ŝue	8215
@@ -175900,7 +175949,6 @@ sort: by_weight
 黄包车	huv bao ĉe	3770
 谎报年龄	huv bao niw liŋ	190
 黄葆戊	huv bao u	1
-# 黄陂	huang bei	0
 黄蓓蕾	huv bei lei	3
 黄贝岭	huv bei liŋ	402
 黄贝路	huv bei lu	36
@@ -176183,7 +176231,7 @@ sort: by_weight
 黄肚蓝魔鬼鱼	huv du lw mo gue y	1
 皇都陆海应无数	huv du lu hai iŋ u ŝu	2
 黄肚炮弹	huv du pao dw	1
-黄渡镇	huv du ẑñ	6
+黄渡镇	huv du ẑñ	685
 黄端粉蝶	huv duw fñ die	1
 黄段子	huv duw zi	3295
 黄队	huv due	7
@@ -176696,6 +176744,7 @@ sort: by_weight
 黄金交易	huv jiñ jio i	3460
 黄金交易所	huv jiñ jio i so	725
 黄金街	huv jiñ jie	24
+黄金菊中金弧夜蛾	huv jiñ jy ẑuŋ jiñ hu ie e	1
 黄巾军	huv jiñ jyñ	2875
 黄金卡	huv jiñ ka	26
 黄锦康	huv jiñ kv	14
@@ -176754,6 +176803,7 @@ sort: by_weight
 黄金一代	huv jiñ i dai	1635
 黄金医院	huv jiñ i yw	2
 黄金右脚	huv jiñ iu jio	167
+黄金鱼将	huv jiñ y jiv	1
 黄金寨	huv jiñ ẑai	139
 黄金之国	huv jiñ ẑi go	129
 黄金周	huv jiñ ẑou	104010
@@ -176763,7 +176813,6 @@ sort: by_weight
 黄精	huv jiŋ	7490
 黄经	huv jiŋ	638
 荒径	huv jiŋ	285
-黄荆	huv jiŋ	6
 黄猄	huv jiŋ	3
 # 黄井	huang jing	0
 # 黄璟	huang jing	0
@@ -177054,7 +177103,6 @@ sort: by_weight
 荒谬可笑	huv miu ke xio	485
 荒谬透顶	huv miu tou diŋ	140
 荒漠	huv mo	29085
-黄蘑	huv mo	98
 荒漠地带	huv mo di dai	530
 荒漠雕鸮	huv mo dio xio	1
 荒漠甘泉	huv mo gw qyw	880
@@ -177141,11 +177189,12 @@ sort: by_weight
 黄皮咖啡豹蠹蛾	huv pi ka fei bao du e	1
 黄丕烈	huv pi lie	21
 黄陂南路	huv pi nw lu	229
-黄陂区	huv pi qy	421
+黄陂区	huv pi qy	4210
+黄陂区公安分局	huv pi qy guŋ w fñ jy	38
 黄皮书	huv pi ŝu	3390
 黄皮树	huv pi ŝu	137
 黄皮属	huv pi ŝu	101
-黄陂县	huv pi xiw	4
+黄陂县	huv pi xiw	715
 黄片	huv piw	6610
 簧片	huv piw	4395
 谎骗	huv piw	260
@@ -180145,7 +180194,7 @@ sort: by_weight
 回旋	hue xyw	27830
 会选	hue xyw	14805
 贿选	hue xyw	4945
-# 慧宣	hui xuan	0
+慧宣	hue xyw	70
 回旋镖	hue xyw bio	3333
 回旋共振质谱仪	hue xyw guŋ ẑñ ẑi pu i	20
 回旋加速器	hue xyw jia su qi	935
@@ -180405,7 +180454,6 @@ sort: by_weight
 毁在	hue zai	4735
 会再度	hue zai du	1970
 会再多	hue zai do	12
-灰藻	hue zao	3
 惠泽	hue ze	256
 # 会泽	hui ze	0
 会泽县	hue ze xiw	142
@@ -180497,9 +180545,8 @@ sort: by_weight
 慧忠里第一社区	hue ẑuŋ li di i ŝe qy	2
 慧忠路东口	hue ẑuŋ lu duŋ kou	9
 慧忠路西口	hue ẑuŋ lu xi kou	1
-惠州	hue ẑou	313
-徽州	hue ẑou	154
-挥肘	hue ẑou	77
+惠州	hue ẑou	103130
+徽州	hue ẑou	55490
 惠州北	hue ẑou bei	153
 徽州饼	hue ẑou biŋ	36
 徽州臭豆腐	hue ẑou ĉou dou fu	68
@@ -181225,7 +181272,6 @@ sort: by_weight
 火爆	ho bao	9999
 活宝	ho bao	7670
 活剥	ho bao	1210
-货包	ho bao	5
 火暴	ho bao	1
 火爆场面	ho bao ĉv miw	3570
 火爆肚头	ho bao du tou	13
@@ -182124,8 +182170,6 @@ sort: by_weight
 获利	ho li	125720
 火力	ho li	70015
 火里	ho li	5410
-霍里	ho li	4
-霍利	ho li	2
 活力吧	ho li ba	21
 活力板	ho li bw	174
 活力版	ho li bw	166
@@ -182419,7 +182463,6 @@ sort: by_weight
 火枪手	ho qiv ŝou	2785
 火枪乌贼	ho qiv u zei	1
 或翘或并	ho qio ho biŋ	1
-活禽	ho qiñ	33
 或擒或杀	ho qiñ ho ŝa	45
 火情	ho qiŋ	7595
 火青	ho qiŋ	375
@@ -183534,7 +183577,6 @@ sort: by_weight
 集北工业区	ji bei guŋ ie qy	1
 济北国	ji bei go	3
 几杯酒	ji bei jiu	3100
-几杯落肚	ji bei lo du	5
 济北王	ji bei uv	5
 极北之地	ji bei ẑi di	260
 基本	ji bñ	501269
@@ -183601,6 +183643,7 @@ sort: by_weight
 基本建设投资	ji bñ jiw ŝe tou zi	8275
 基本建设项目	ji bñ jiw ŝe xiv mu	9535
 基本建设支出	ji bñ jiw ŝe ẑi ĉu	523
+基本解决	ji bñ jie jye	10730
 基本介绍	ji bñ jie ŝao	3066
 基本经济	ji bñ jiŋ ji	16600
 基本经验	ji bñ jiŋ iw	21450
@@ -183948,16 +183991,14 @@ sort: by_weight
 稽查	ji ĉa	8888
 极差	ji ĉa	6666
 级差	ji ĉa	222
-基差	ji ĉa	128
+姬叉	ji ĉa	1
 绩差	ji ĉa	1
-# 姬叉	ji cha	0
 稽查部门	ji ĉa bu mñ	2585
 稽查处	ji ĉa ĉu	3085
 稽查大队	ji ĉa da due	4595
 级差地租	ji ĉa di zu	2770
 稽查队	ji ĉa due	3585
 急茬儿	ji ĉa er	9999
-基差风险	ji ĉa fŋ xiw	5
 绩差公司	ji ĉa guŋ si	6
 绩差股	ji ĉa gu	1425
 即插即用	ji ĉa ji yŋ	25620
@@ -186463,6 +186504,7 @@ sort: by_weight
 棘鳞副鲂𫚒	ji liñ fu fv fu	1
 吉林工商	ji liñ guŋ ŝv	147
 吉林公主岭	ji liñ guŋ ẑu liŋ	12
+吉林华港律师事务所	ji liñ hua gv ly ŝi ŝi u so	3
 吉林化工	ji liñ hua guŋ	1
 吉林化纤	ji liñ hua xiw	5
 吉林交通	ji liñ jio tuŋ	192
@@ -186901,7 +186943,7 @@ sort: by_weight
 机内	ji nei	32970
 饥馁	ji nei	310
 # 畿内	ji nei	0
-鸡内金	ji nei jiñ	5
+鸡内金	ji nei jiñ	130
 机内码	ji nei ma	465
 己内酰胺	ji nei xiw w	3005
 几内亚	ji nei ia	6550
@@ -187279,23 +187321,28 @@ sort: by_weight
 # 季芹	ji qin	0
 激情	ji qiŋ	500251
 基情	ji qiŋ	7777
+寄情	ji qiŋ	6645
 极轻	ji qiŋ	3100
-寄情	ji qiŋ	2664
 # 吉庆	ji qing	0
 # 济青	ji qing	0
 激情大片	ji qiŋ da piw	580
 激情的	ji qiŋ de	50295
-激情电影	ji qiŋ diw iŋ	489
+激情电影	ji qiŋ diw iŋ	48990
 激情犯	ji qiŋ fw	776
+集青公路	ji qiŋ guŋ lu	1
 激情过后	ji qiŋ go hou	3525
+激情海岸	ji qiŋ hai w	11
 畸轻畸重	ji qiŋ ji ẑuŋ	720
+吉庆家园	ji qiŋ jia yw	58
 激情交友	ji qiŋ jio iu	635
-吉庆街	ji qiŋ jie	2
+吉庆街	ji qiŋ jie	1350
 极情尽致	ji qiŋ jiñ ẑi	1
-吉庆里	ji qiŋ li	5
+吉庆里	ji qiŋ li	5720
+激情聊天	ji qiŋ lio tiw	2230
 吉庆路	ji qiŋ lu	11
 激情绿茵	ji qiŋ ly iñ	135
-集庆门	ji qiŋ mñ	5
+激情美眉	ji qiŋ mei mei	25
+集庆门	ji qiŋ mñ	1245
 激情男女	ji qiŋ nw ny	2080
 激情澎湃	ji qiŋ pŋ pai	7115
 激情片	ji qiŋ piw	13050
@@ -187309,14 +187356,16 @@ sort: by_weight
 激情戏	ji qiŋ xi	6520
 激情小说	ji qiŋ xio ŝo	1430
 激情写真	ji qiŋ xie ẑñ	3430
+激情秀	ji qiŋ xiu	160
 激情演绎	ji qiŋ iw i	1750
+激情影院	ji qiŋ iŋ yw	1035
 激情诱惑	ji qiŋ iu ho	3265
 吉庆有余	ji qiŋ iu y	188
 吉庆苑	ji qiŋ yw	2
 吉庆庄	ji qiŋ ẑuv	5
 吉庆庄村	ji qiŋ ẑuv cuñ	2
 激情自拍	ji qiŋ zi pai	4850
-极情纵欲	ji qiŋ zuŋ y	2
+极情纵欲	ji qiŋ zuŋ y	1
 技穷	ji qyŋ	555
 计穷力诎	ji qyŋ li qy	1
 计穷势蹙	ji qyŋ ŝi cu	1
@@ -188228,9 +188277,9 @@ sort: by_weight
 给水	ji ŝue	7584
 集水	ji ŝue	5390
 汲水	ji ŝue	4135
+吉水	ji ŝue	3955
 击水	ji ŝue	3270
 济水	ji ŝue	2350
-吉水	ji ŝue	39
 积水坝	ji ŝue ba	1
 给水泵	ji ŝue bŋ	2925
 寄水部张员外	ji ŝue bu ẑv yw ui	6
@@ -188247,7 +188296,8 @@ sort: by_weight
 积水潭桥北	ji ŝue tw qio bei	28
 积水潭站	ji ŝue tw ẑw	695
 积水为海	ji ŝue ue hai	1
-吉水县	ji ŝue xiw	211
+吉水县	ji ŝue xiw	2110
+吉水县文峰镇	ji ŝue xiw uñ fŋ ẑñ	11
 给水箱	ji ŝue xiv	165
 祭祀	ji si	105335
 急死	ji si	36050
@@ -189527,11 +189577,11 @@ sort: by_weight
 挤压着	ji ia ẑe	1480
 羁押制度与人权保障	ji ia ẑi du y rñ qyw bao ẑv	4
 挤压综合征	ji ia zuŋ he ẑŋ	214
-急眼	ji iw	7396
+几眼	ji iw	20735
+急眼	ji iw	5396
 鸡眼	ji iw	4490
 基岩	ji iw	4132
 忌烟	ji iw	2130
-几眼	ji iw	2073
 吉言	ji iw	1210
 挤眼	ji iw	319
 技研	ji iw	223
@@ -191731,9 +191781,12 @@ sort: by_weight
 甲里桥	jia li qio	4
 家里人	jia li rñ	34470
 加里森	jia li sñ	1400
+嘉莉诗	jia li ŝi	127
+佳莉丝	jia li si	1
 迦梨陀娑	jia li to so	145
 加利西亚	jia li xi ia	665
 嘉黎县	jia li xiw	390
+佳丽轩	jia li xyw	1
 家里有客人	jia li iu ke rñ	136
 甲里镇	jia li ẑñ	3
 钾离子	jia li zi	2410
@@ -194662,7 +194715,6 @@ sort: by_weight
 兼功自厉	jiw guŋ zi li	1
 建构	jiw gou	94675
 涧沟	jiw gou	730
-贱狗	jiw gou	7
 见佝偻者承蜩	jiw gou lou ẑe ĉŋ tio	1
 建构起	jiw gou qi	366
 建构主义	jiw gou ẑu i	12040
@@ -195519,7 +195571,6 @@ sort: by_weight
 键帽	jiw mao	4075
 剪毛	jiw mao	3620
 箭毛	jiw mao	129
-贱猫	jiw mao	7
 鉴貌辨色	jiw mao biw se	310
 见貌辨色	jiw mao biw se	111
 监貌辨色	jiw mao biw se	1
@@ -197486,8 +197537,8 @@ sort: by_weight
 江边码头	jiv biw ma tou	85
 江边踏青罢	jiv biw ta qiŋ ba	4
 江边一盖青	jiv biw i gai qiŋ	1
-江表	jiv bio	4
 # 江标	jiang biao	0
+# 江表	jiang biao	0
 # 蒋彪	jiang biao	0
 江别鹤	jiv bie he	105
 江滨	jiv biñ	1006
@@ -197885,9 +197936,7 @@ sort: by_weight
 绛红色	jiv huŋ se	1035
 江湖	jiv hu	343110
 糨糊	jiv hu	99999
-匠户	jiv hu	7
-江户	jiv hu	5
-江户彼岸樱	jiv hu bi w iŋ	3
+江户	jiv hu	7555
 江户川乱步	jiv hu ĉuw luw bu	8
 江湖多风波	jiv hu do fŋ bo	1
 江湖路	jiv hu lu	1625
@@ -198683,12 +198732,16 @@ sort: by_weight
 # 蒋嵩	jiang song	0
 江苏	jiv su	500419
 降速	jiv su	2800
+江苏滨海县东坎镇	jiv su biñ hai xiw duŋ kw ẑñ	2
+江苏博事达律师事务所	jiv su bo ŝi da ly ŝi ŝi u so	45
 江苏菜	jiv su cai	784
 江苏叉草蛉	jiv su ĉa cao liŋ	1
 江苏常州	jiv su ĉv ẑou	14645
+江苏常州常武律师事务所	jiv su ĉv ẑou ĉv u ly ŝi ŝi u so	96
 江苏大厦	jiv su da ŝa	855
 江苏大学	jiv su da xye	5750
 江苏大闸蟹	jiv su da ẑa xie	62
+江苏丹阳市后巷镇	jiv su dw iv ŝi hou xiv ẑñ	3
 江苏电信	jiv su diw xiñ	4920
 江苏队	jiv su due	7010
 江苏法尔胜股份有限公司	jiv su fa er ŝŋ gu fñ iu xiw guŋ si	1
@@ -198698,24 +198751,45 @@ sort: by_weight
 江苏工艺	jiv su guŋ i	12500
 江苏国光信息产业	jiv su go guv xiñ xi ĉw ie	87
 江苏国光信息产业股份有限公司	jiv su go guv xiñ xi ĉw ie gu fñ iu xiw guŋ si	87
+江苏海门市包场镇	jiv su hai mñ ŝi bao ĉv ẑñ	3
+江苏海门市德胜镇	jiv su hai mñ ŝi de ŝŋ ẑñ	2
+江苏海门市海门镇	jiv su hai mñ ŝi hai mñ ẑñ	1
+江苏海门市三星镇	jiv su hai mñ ŝi sw xiŋ ẑñ	1
 江苏海洋	jiv su hai iv	120
 江苏海洋大学	jiv su hai iv da xye	172
 江苏号	jiv su hao	155
 江苏恒顺	jiv su hŋ ŝuñ	32
 江苏宏宝	jiv su huŋ bao	19
 江苏淮安	jiv su hui w	4210
+江苏汇天元律师事务所	jiv su hue tiw yw ly ŝi ŝi u so	12
 江苏江阴	jiv su jiv iñ	3110
+江苏江阴市长泾镇	jiv su jiv iñ ŝi ĉv jiŋ ẑñ	1
+江苏江阴市璜土镇	jiv su jiv iñ ŝi huv tu ẑñ	2
+江苏江阴市南闸镇	jiv su jiv iñ ŝi nw ẑa ẑñ	1
+江苏江阴市新桥镇	jiv su jiv iñ ŝi xiñ qio ẑñ	5
+江苏江阴市周庄镇	jiv su jiv iñ ŝi ẑou ẑuv ẑñ	4
+江苏江阴市祝塘镇	jiv su jiv iñ ŝi ẑu tv ẑñ	1
 江苏金智科技股份有限公司	jiv su jiñ ẑi ke ji gu fñ iu xiw guŋ si	1
 江苏经贸	jiv su jiŋ mao	185
 江苏卷	jiv su jyw	182
+江苏君远律师事务所	jiv su jyñ yw ly ŝi ŝi u so	98
 江苏科技	jiv su ke ji	144
 江苏宽痣蜂	jiv su kuw ẑi fŋ	1
 江苏旷达	jiv su kuv da	1
+江苏昆山市巴城镇	jiv su kuñ ŝw ŝi ba ĉŋ ẑñ	6
+江苏昆山市淀山湖镇	jiv su kuñ ŝw ŝi diw ŝw hu ẑñ	1
+江苏昆山市锦溪镇	jiv su kuñ ŝw ŝi jiñ xi ẑñ	1
+江苏昆山市玉山镇	jiv su kuñ ŝw ŝi y ŝw ẑñ	2
+江苏溧阳市溧城镇	jiv su li iv ŝi li ĉŋ ẑñ	1
+江苏溧阳市南渡镇	jiv su li iv ŝi nw du ẑñ	1
 江苏路	jiv su lu	6615
+江苏茂通律师事务所	jiv su mao tuŋ ly ŝi ŝi u so	12
 江苏南京	jiv su nw jiŋ	18950
 江苏南通	jiv su nw tuŋ	8805
 江苏女神汽车集团公司	jiv su ny ŝñ qi ĉe ji tuw guŋ si	3
+江苏启东市汇龙镇	jiv su qi duŋ ŝi hue luŋ ẑñ	2
 江苏琼花	jiv su qyŋ hua	12500
+江苏如皋市如城镇	jiv su ru gao ŝi ru ĉŋ ẑñ	2
 江苏三友	jiv su sw iu	12500
 江苏申龙	jiv su ŝñ luŋ	12500
 江苏神州信源系统工程	jiv su ŝñ ẑou xiñ yw xi tuŋ guŋ ĉŋ	87
@@ -198731,6 +198805,7 @@ sort: by_weight
 江苏省洪泽湖农场	jiv su ŝŋ huŋ ze hu nuŋ ĉv	1
 江苏省机动车维修管理条例	jiv su ŝŋ ji duŋ ĉe ue xiu guw li tio li	68
 江苏省价格管理监督条例	jiv su ŝŋ jia ge guw li jiw du tio li	20
+江苏省江都市大桥镇	jiv su ŝŋ jiv du ŝi da qio ẑñ	3
 江苏省江阴市	jiv su ŝŋ jiv iñ ŝi	612
 江苏省考	jiv su ŝŋ kao	137
 江苏省历史文化名城名镇保护条例	jiv su ŝŋ li ŝi uñ hua miŋ ĉŋ miŋ ẑñ bao hu tio li	9
@@ -198750,20 +198825,36 @@ sort: by_weight
 江苏舜天	jiv su ŝuñ tiw	125
 江苏宿迁	jiv su su qiw	3485
 江苏苏州	jiv su su ẑou	17090
+江苏太仓市璜泾镇	jiv su tai cv ŝi huv jiŋ ẑñ	1
+江苏太仓市陆渡镇	jiv su tai cv ŝi lu du ẑñ	1
+江苏泰兴市泰兴镇	jiv su tai xiŋ ŝi tai xiŋ ẑñ	9
 酱酥桃仁	jiv su tao rñ	12
 江苏体彩	jiv su ti cai	960
+江苏吴江市七都镇	jiv su u jiv ŝi qi du ẑñ	2
+江苏吴江市盛泽镇	jiv su u jiv ŝi ŝŋ ze ẑñ	14
+江苏吴江市松陵镇	jiv su u jiv ŝi suŋ liŋ ẑñ	1
 江苏无锡	jiv su u xi	13545
 江苏吴中	jiv su u ẑuŋ	2
+江苏兴化市张郭镇	jiv su xiŋ hua ŝi ẑv go ẑñ	3
 江苏徐州	jiv su xy ẑou	9910
 江苏盐城	jiv su iw ĉŋ	5510
+江苏盐城瑞信律师事务所	jiv su iw ĉŋ rue xiñ ly ŝi ŝi u so	8
 江苏阳光	jiv su iv guv	177
+江苏扬中市新坝镇	jiv su iv ẑuŋ ŝi xiñ ba ẑñ	1
 江苏扬州	jiv su iv ẑou	6645
 江苏移动	jiv su i duŋ	1825
 江苏疫情	jiv su i qiŋ	189
 江苏宜兴	jiv su i xiŋ	5115
+江苏宜兴市丁蜀镇	jiv su i xiŋ ŝi diŋ ŝu ẑñ	1
+江苏宜兴市芳桥镇	jiv su i xiŋ ŝi fv qio ẑñ	1
+江苏宜兴市高塍镇	jiv su i xiŋ ŝi gao ĉŋ ẑñ	1
+江苏宜兴市官林镇	jiv su i xiŋ ŝi guw liñ ẑñ	1
+江苏宜兴市屺亭镇	jiv su i xiŋ ŝi qi tiŋ ẑñ	1
+江苏宜兴市太华镇	jiv su i xiŋ ŝi tai hua ẑñ	1
 江苏意源	jiv su i yw	87
 江苏意源科技有限公司	jiv su i yw ke ji iu xiw guŋ si	87
 江苏悦达	jiv su ye da	12500
+江苏张家港市南丰镇	jiv su ẑv jia gv ŝi nw fŋ ẑñ	3
 姜蒜	jiv suw	4435
 将随	jiv sue	17305
 将随着	jiv sue ẑe	9000
@@ -198955,8 +199046,10 @@ sort: by_weight
 江西师范大学	jiv xi ŝi fw da xye	6565
 江西诗派	jiv xi ŝi pai	800
 江西水泥	jiv xi ŝue ni	12500
+江西宋城律师事务所	jiv xi suŋ ĉŋ ly ŝi ŝi u so	6
 讲习所	jiv xi so	3220
 将系统	jiv xi tuŋ	12520
+江西惟民律师事务所	jiv xi ue miñ ly ŝi ŝi u so	1233
 江西武夷山国家级自然保护区管理局	jiv xi u i ŝw go jia ji zi rw bao hu qy guw li jy	6
 江西婺源	jiv xi u yw	2060
 江西铅山	jiv xi iw ŝw	1
@@ -199367,8 +199460,7 @@ sort: by_weight
 江总	jiv zuŋ	111
 江总书记	jiv zuŋ ŝu ji	11335
 蒋总统	jiv zuŋ tuŋ	525
-降租	jiv zu	123
-# 将组	jiang zu	0
+将组	jiv zu	714
 江钻	jiv zuw	168
 江钻股份	jiv zuw gu fñ	12500
 犟嘴	jiv zue	3050
@@ -202109,8 +202201,6 @@ sort: by_weight
 脚趾尖	jio ẑi jiw	275
 浇汁煎鱼段	jio ẑi jiw y duw	1
 矫制矫诏	jio ẑi jio ẑao	1
-脚趾抠地	jio ẑi kou di	678
-脚趾抠地板	jio ẑi kou di bw	67
 交直流	jio ẑi liu	12965
 胶质瘤	jio ẑi liu	3995
 胶质母细胞瘤	jio ẑi mu xi bao liu	35
@@ -203210,7 +203300,6 @@ sort: by_weight
 介乎	jie hu	6105
 嗟乎	jie hu	1111
 戒护	jie hu	333
-界湖	jie hu	5
 羯胡	jie hu	4
 截和了	jie hu le	8888
 借虎威狐	jie hu ue hu	1
@@ -203652,7 +203741,6 @@ sort: by_weight
 解了	jie le	3637
 接了啊	jie le a	35
 结了冰	jie le biŋ	1300
-杰勒德	jie le de	5
 借了多少钱	jie le do ŝao qiw	62
 接了个电话	jie le ge diw hua	1185
 截了个图	jie le ge tu	305
@@ -205932,8 +206020,8 @@ sort: by_weight
 金柑桔饼	jiñ gw jy biŋ	1
 金刚	jiñ gv	116485
 进港	jiñ gv	7100
-津港	jiñ gv	1
-# 锦港	jin gang	0
+津港	jiñ gv	1885
+锦港	jiñ gv	10
 金刚胺	jiñ gv w	20
 金刚碑	jiñ gv bei	168
 金刚般若波罗蜜	jiñ gv bo re bo lo mi	840
@@ -208017,9 +208105,9 @@ sort: by_weight
 金山屯区	jiñ ŝw tuñ qy	235
 金山网镖	jiñ ŝw uv bio	3355
 金山网友	jiñ ŝw uv iu	645
-金山卫	jiñ ŝw ue	7
+金山卫	jiñ ŝw ue	1255
 金山西见烟尘飞	jiñ ŝw xi jiw iw ĉñ fei	7
-金山县	jiñ ŝw xiw	4
+金山县	jiñ ŝw xiw	12
 巾山小区	jiñ ŝw xio qy	1
 金山小学	jiñ ŝw xio xye	56
 金山新华图书城	jiñ ŝw xiñ hua tu ŝu ĉŋ	1
@@ -208101,26 +208189,26 @@ sort: by_weight
 晋升制度	jiñ ŝŋ ẑi du	1980
 仅是	jiñ ŝi	136720
 进食	jiñ ŝi	88990
+进士	jiñ ŝi	59370
 近视	jiñ ŝi	58730
 尽是	jiñ ŝi	44085
-浸湿	jiñ ŝi	26690
-进士	jiñ ŝi	25937
-紧实	jiñ ŝi	24035
+仅使	jiñ ŝi	28315
+尽失	jiñ ŝi	27735
+今世	jiñ ŝi	22210
+近世	jiñ ŝi	21000
+浸湿	jiñ ŝi	16690
+紧实	jiñ ŝi	14035
 禁食	jiñ ŝi	13040
-金饰	jiñ ŝi	12850
 金石	jiñ ŝi	11111
-仅使	jiñ ŝi	8315
-尽失	jiñ ŝi	7735
-近世	jiñ ŝi	4210
+金狮	jiñ ŝi	9240
+金饰	jiñ ŝi	8505
 今时	jiñ ŝi	4100
+金市	jiñ ŝi	3570
 近侍	jiñ ŝi	2875
 浸蚀	jiñ ŝi	2510
-今世	jiñ ŝi	2221
 金史	jiñ ŝi	1805
-金狮	jiñ ŝi	924
-金市	jiñ ŝi	3
-津市	jiñ ŝi	2
 # 今是	jin shi	0
+# 津市	jin shi	0
 金士百	jiñ ŝi bai	29
 金氏贝	jiñ ŝi bei	1
 金实不鸣	jiñ ŝi bu miŋ	1
@@ -209563,6 +209651,10 @@ sort: by_weight
 金盏花	jiñ ẑw hua	4515
 进展阶段	jiñ ẑw jie duw	1850
 金盏菊	jiñ ẑw jy	1020
+金盏菊李短尾蚜	jiñ ẑw jy li duw ue ia	1
+金盏菊人纹污灯蛾	jiñ ẑw jy rñ uñ u dŋ e	1
+金盏菊中金弧夜蛾	jiñ ẑw jy ẑuŋ jiñ hu ie e	1
+金盏菊朱砂叶螨	jiñ ẑw jy ẑu ŝa ie mw	1
 进展情况	jiñ ẑw qiŋ kuv	67205
 进展顺利	jiñ ẑw ŝuñ li	33925
 金盏松茸	jiñ ẑw suŋ ruŋ	1
@@ -209571,7 +209663,6 @@ sort: by_weight
 近战专精	jiñ ẑw ẑuw jiŋ	1
 紧张	jiñ ẑv	500263
 进账	jiñ ẑv	10785
-金帐	jiñ ẑv	2
 金章	jiñ ẑv	2
 紧张不安	jiñ ẑv bu w	2330
 紧张程度	jiñ ẑv ĉŋ du	3335
@@ -211562,7 +211653,6 @@ sort: by_weight
 精练	jiŋ liw	2634
 竟连	jiŋ liw	1180
 颈联	jiŋ liw	163
-颈链	jiŋ liw	8
 # 净莲	jing lian	0
 精炼宝石	jiŋ liw bao ŝi	5
 精炼厂	jiŋ liw ĉv	1755
@@ -214501,11 +214591,10 @@ sort: by_weight
 救护员	jiu hu yw	1205
 救护站	jiu hu ẑw	560
 酒花	jiu hua	99999
-九画	jiu hua	999
+九华	jiu hua	1953
 酒话	jiu hua	885
 韭花	jiu hua	835
-旧话	jiu hua	749
-# 九华	jiu hua	0
+九画	jiu hua	13
 旧话重提	jiu hua ĉuŋ ti	960
 九华村	jiu hua cuñ	7
 九华膏	jiu hua gao	4
@@ -214521,7 +214610,6 @@ sort: by_weight
 久怀慕蔺	jiu hui mu liñ	1
 就还	jiu huw	11705
 旧患	jiu huw	986
-九环	jiu huw	9
 救患分灾	jiu huw fñ zai	1
 旧欢如梦	jiu huw ru mŋ	510
 韭黄	jiu huv	5380
@@ -218597,7 +218685,6 @@ sort: by_weight
 捐出	jyw ĉu	17495
 蠲除	jyw ĉu	545
 卷次	jyw ci	999
-眷村	jyw cuñ	5
 倦怠	jyw dai	19980
 倦怠感	jyw dai gw	1060
 捐弹而反走	jyw dw er fw zou	1
@@ -221183,7 +221270,6 @@ sort: by_weight
 开采沙子	kai cai ŝa zi	68
 开采石油	kai cai ŝi iu	2230
 开采业	kai cai ie	4085
-开餐	kai cw	8
 开餐馆	kai cw guw	2185
 开餐厅	kai cw tiŋ	198
 开仓	kai cv	9860
@@ -221912,12 +221998,11 @@ sort: by_weight
 开路	kai lu	35200
 开颅	kai lu	3425
 开撸	kai lu	3333
-开炉	kai lu	678
-# 开鲁	kai lu	0
-开鲁路	kai lu lu	2
+开鲁	kai lu	1
+开鲁路	kai lu lu	22
 开路人	kai lu rñ	290
 开颅手术	kai lu ŝou ŝu	115
-开鲁县	kai lu xiw	30
+开鲁县	kai lu xiw	1430
 开路先锋	kai lu xiw fŋ	3635
 开鲁新村	kai lu xiñ cuñ	8
 开滦	kai luw	3690
@@ -222242,7 +222327,7 @@ sort: by_weight
 凯斯宾王子	kai si biñ uv zi	3
 凯斯荷德犬	kai si he de qyw	1
 开撕了	kai si le	1111
-凯斯勒	kai si le	5
+凯斯勒	kai si le	2
 凯斯利尔	kai si li er	1
 凯斯利尔湖	kai si li er hu	1
 凯斯利尔遗迹	kai si li er i ji	1
@@ -222469,7 +222554,7 @@ sort: by_weight
 开阳里第一社区	kai iv li di i ŝe qy	1
 开阳桥南	kai iv qio nw	7
 开阳桥西	kai iv qio xi	7
-开阳县	kai iv xiw	192
+开阳县	kai iv xiw	1920
 开药	kai io	6560
 开药方	kai io fv	1560
 开业	kai ie	253680
@@ -223238,8 +223323,7 @@ sort: by_weight
 看世界杯	kw ŝi jie bei	4205
 勘十郎	kw ŝi lv	150
 看守	kw ŝou	41275
-砍手	kw ŝou	720
-刊授	kw ŝou	7
+刊授	kw ŝou	720
 看守长眼蟹	kw ŝou ĉv iw xie	1
 砍手党	kw ŝou dv	38
 看守内阁	kw ŝou nei ge	280
@@ -223553,7 +223637,6 @@ sort: by_weight
 扛得住	kv de ẑu	870
 # 抗得住	kang de zhu	0
 抗敌	kv di	7065
-康蒂	kv di	5
 康地梅氏孔雀鲷	kv di mei ŝi kuŋ qye dio	1
 抗地震	kv di ẑñ	565
 # 康店	kang dian	0
@@ -226519,7 +226602,6 @@ sort: by_weight
 课名	ke miŋ	330
 # 克明	ke ming	0
 # 可命	ke ming	0
-壳膜	ke mo	5
 柯莫德熊	ke mo de xyŋ	1
 科莫多巨蜥	ke mo do jy xi	196
 可模仿	ke mo fv	625
@@ -228620,10 +228702,10 @@ sort: by_weight
 空格字符	kuŋ ge zi fu	710
 恐更	kuŋ gŋ	1111
 # 孔庚	kong geng	0
+空工院	kuŋ guŋ yw	15
 控购	kuŋ gou	640
 控股	kuŋ gu	190465
-空鼓	kuŋ gu	777
-空谷	kuŋ gu	643
+空谷	kuŋ gu	6435
 空谷白驹	kuŋ gu bai jy	1
 空谷传声	kuŋ gu ĉuw ŝŋ	250
 控股方	kuŋ gu fv	1155
@@ -232446,7 +232528,6 @@ sort: by_weight
 愧不敢当	kue bu gw dv	1050
 亏不了	kue bu lio	355
 葵菜	kue cai	123
-亏惨	kue cw	447
 窥测	kue ce	1890
 窥测一斑	kue ce i bw	1
 窥察	kue ĉa	9999
@@ -232961,8 +233042,8 @@ sort: by_weight
 捆一捆	kuñ i kuñ	123
 困于	kuñ y	5895
 昆嵛山	kuñ y ŝw	940
-昆玉山	kuñ y ŝw	2
-坤元	kuñ yw	8
+昆玉山	kuñ y ŝw	1
+坤元	kuñ yw	1865
 昆云里	kuñ yñ li	110
 捆扎	kuñ za	11590
 捆扎机	kuñ za ji	3925
@@ -233266,7 +233347,6 @@ sort: by_weight
 拉不住	la bu ẑu	1255
 拉踩	la cai	3
 辣菜饼	la cai biŋ	18
-蜡蝉	la ĉw	8
 拉长	la ĉv	36415
 腊肠	la ĉv	6515
 拉肠	la ĉv	1113
@@ -233362,8 +233442,6 @@ sort: by_weight
 拉费	la fei	6
 拉斐尔	la fei er	6070
 拉菲亚	la fei ia	235
-拉分	la fñ	134
-蜡粉	la fñ	98
 拉风	la fŋ	13275
 蜡封	la fŋ	986
 拉幅	la fu	1210
@@ -233648,8 +233726,8 @@ sort: by_weight
 辣么热	la me re	64
 辣妹	la mei	18270
 拉美	la mei	3492
-蜡梅	la mei	3
-腊梅	la mei	2
+腊梅	la mei	11
+蜡梅	la mei	1
 腊梅迟见二年花	la mei ĉi jiw er niw hua	1
 拉美国家	la mei go jia	6350
 拉美化	la mei hua	87
@@ -233657,7 +233735,7 @@ sort: by_weight
 腊梅六星黑点蠹蛾	la mei liu xiŋ hei diw du e	1
 辣妹妹	la mei mei	220
 拉美式	la mei ŝi	87
-蜡梅树	la mei ŝu	113
+腊梅朱砂叶螨	la mei ẑu ŝa ie mw	1
 辣妹子	la mei zi	3525
 辣妹子湘菜馆	la mei zi xiv cai guw	5
 拉门	la mñ	8535
@@ -235694,10 +235772,10 @@ sort: by_weight
 兰友瓜戚	lw iu gua qi	1
 兰有秀兮菊有芳	lw iu xiu xi jy iu fv	3
 蓝幽幽	lw iu iu	605
+蓝玉	lw y	6985
+蓝雨	lw y	6170
 懒于	lw y	3825
-兰屿	lw y	230
-蓝玉	lw y	5
-蓝雨	lw y	1
+兰屿	lw y	1230
 滥竽充数	lw y ĉuŋ ŝu	5875
 兰屿大叶螽蟴	lw y da ie ẑuŋ si	1
 兰屿带纹蝶灯蛾	lw y dai uñ die dŋ e	1
@@ -235898,7 +235976,6 @@ sort: by_weight
 浪费在	lv fei zai	68
 浪费者	lv fei ẑe	245
 浪费资源	lv fei zi yw	10220
-狼粪	lv fñ	7
 浪峰	lv fŋ	725
 浪妇	lv fu	35
 琅玕	lv gw	1060
@@ -237721,7 +237798,6 @@ sort: by_weight
 老烟枪	lao iw qiv	342
 劳燕西东	lao iw xi duŋ	1
 老杨	lao iv	11255
-老羊	lao iv	7
 老洋房	lao iv fv	1485
 老羊寨	lao iv ẑai	2
 老样子	lao iv zi	4860
@@ -238090,7 +238166,7 @@ sort: by_weight
 勒马悬崖	le ma xyw ia	3
 乐满地	le mw di	66
 乐满家	le mw jia	30
-勒芒	le mv	5
+勒芒	le mv	2
 勒芒耐力赛	le mv nai li sai	312
 勒芒赛道	le mv sai dao	222
 了么	le me	99999
@@ -238199,7 +238275,7 @@ sort: by_weight
 乐享城	le xiv ĉŋ	185
 乐逍遥	le xio io	2510
 了些	le xie	9999
-勒歇尔	le xie er	2
+乐蟹	le xie	1209
 了心	le xiñ	111
 乐新厌旧	le xiñ iw jiu	1
 乐心医疗	le xiñ i lio	147
@@ -238419,7 +238495,6 @@ sort: by_weight
 类反射	lei fw ŝe	241
 类方法	lei fv fa	23690
 泪飞顿作倾盆雨	lei fei duñ zo qiŋ pñ y	21
-勒费尔	lei fei er	5
 雷锋	lei fŋ	40080
 # 雷峰	lei feng	0
 雷丰村	lei fŋ cuñ	5
@@ -240120,7 +240195,6 @@ sort: by_weight
 理短	li duw	350
 立断	li duw	11
 # 李端	li duan	0
-李短尾蚜	li duw ue ia	4
 离队	li due	9155
 李对红	li due huŋ	12
 立顿	li duñ	1885
@@ -242515,7 +242589,6 @@ sort: by_weight
 理头发	li tou fa	555
 犁头街	li tou jie	8
 犁头山	li tou ŝw	2
-犁头鳐	li tou io	3
 犁头瑶族乡	li tou io zu xiv	9
 力透纸背	li tou ẑi bei	1080
 栗头侏秧鸡	li tou ẑu iv ji	1
@@ -244844,8 +244917,8 @@ sort: by_weight
 莲前大道	liw qiw da dao	4
 莲前街道	liw qiw jie dao	123
 连阡累陌	liw qiw lei mo	1
-练枪	liw qiv	437
-# 联强	lian qiang	0
+联强	liw qiv	3990
+练枪	liw qiv	3
 联强国际	liw qiv go ji	49
 连墙接栋	liw qiv jie duŋ	1
 连翘	liw qio	11955
@@ -245256,12 +245329,13 @@ sort: by_weight
 练下去	liw xia qy	1190
 连线	liw xiw	94510
 联线	liw xiw	6340
-# 连县	lian xian	0
+连县	liw xiw	1115
 联想	liw xiv	399825
-脸相	liw xiv	755
-莲香	liw xiv	3
-# 恋乡	lian xiang	0
-# 恋香	lian xiang	0
+莲香	liw xiv	3185
+脸相	liw xiv	1755
+恋香	liw xiv	575
+恋乡	liw xiv	1
+连香白	liw xiv bai	1
 联想存储器	liw xiv cuñ ĉu qi	45
 联想打印机	liw xiv da iñ ji	715
 联想到	liw xiv dao	59770
@@ -245686,7 +245760,6 @@ sort: by_weight
 两办	liv bw	3800
 两瓣	liv bw	2735
 两版	liv bw	2610
-亮斑	liv bw	2346
 良伴	liv bw	2185
 两板	liv bw	1660
 两板贝属	liv bw bei ŝu	1
@@ -245727,7 +245800,6 @@ sort: by_weight
 两倍	liv bei	66060
 两杯	liv bei	18745
 量杯	liv bei	3070
-两杯落肚	liv bei lo du	5
 亮背纹胸𬶐	liv bei uñ xyŋ ẑao	1
 两倍于	liv bei y	1885
 梁北镇	liv bei ẑñ	169
@@ -245764,7 +245836,6 @@ sort: by_weight
 凉薄	liv bo	1212
 两步	liv bu	52570
 两部	liv bu	9780
-亮部	liv bu	9780
 两不	liv bu	6875
 量布	liv bu	123
 两不愁三保障	liv bu ĉou sw bao ẑv	195
@@ -247752,12 +247823,14 @@ sort: by_weight
 辽宁队	lio niŋ due	8360
 辽宁抚顺	lio niŋ fu ŝuñ	1785
 辽宁高考	lio niŋ gao kao	172
+辽宁海城市西柳镇	lio niŋ hai ĉŋ ŝi xi liu ẑñ	5
 辽宁舰	lio niŋ jiw	1180
 辽宁街	lio niŋ jie	180
 辽宁晋华	lio niŋ jiñ hua	87
 辽宁晋华科技有限公司	lio niŋ jiñ hua ke ji iu xiw guŋ si	87
 辽宁锦州	lio niŋ jiñ ẑou	2405
 辽宁经济	lio niŋ jiŋ ji	143
+辽宁久鼎律师事务所	lio niŋ jiu diŋ ly ŝi ŝi u so	38
 辽宁科技	lio niŋ ke ji	124
 辽宁路	lio niŋ lu	554
 辽宁男篮	lio niŋ nw lw	154
@@ -247786,11 +247859,14 @@ sort: by_weight
 辽宁省散居少数民族权益保障条例	lio niŋ ŝŋ sw jy ŝao ŝu miñ zu qyw i bao ẑv tio li	17
 辽宁省社会保险费征缴规定	lio niŋ ŝŋ ŝe hue bao xiw fei ẑŋ jio gue diŋ	2
 辽宁省委	lio niŋ ŝŋ ue	3825
+辽宁省新宾满族自治县	lio niŋ ŝŋ xiñ biñ mw zu zi ẑi xiw	24
 辽宁省兴城市	lio niŋ ŝŋ xiŋ ĉŋ ŝi	109
 辽宁省学校安全条例	lio niŋ ŝŋ xye xio w qyw tio li	64
 辽宁省重大动物疫情应急实施办法	lio niŋ ŝŋ ẑuŋ da duŋ u i qiŋ iŋ ji ŝi ŝi bw fa	6
 辽宁时代	lio niŋ ŝi dai	12500
 辽宁师范大学	lio niŋ ŝi fw da xye	4395
+辽宁瓦房店市长兴岛镇	lio niŋ ua fv diw ŝi ĉv xiŋ dao ẑñ	1
+辽宁鑫诺律师事务所	lio niŋ xiñ no ly ŝi ŝi u so	22
 辽宁营口	lio niŋ iŋ kou	1415
 辽宁招生	lio niŋ ẑao ŝŋ	143
 辽宁招生考试	lio niŋ ẑao ŝŋ kao ŝi	105
@@ -247950,11 +248026,8 @@ sort: by_weight
 聊一聊	lio i lio	6850
 撩一撩	lio i lio	456
 撂一撂	lio i lio	123
-燎一燎	lio i lio	77
 聊以塞命	lio i sai miŋ	1
 聊一下	lio i xia	1338
-撩一下	lio i xia	234
-燎一下	lio i xia	77
 聊以自况	lio i zi kuv	1
 聊以自慰	lio i zi ue	2350
 聊以卒岁	lio i zu sue	9999
@@ -248379,7 +248452,6 @@ sort: by_weight
 烈性酒	lie xiŋ jiu	3960
 烈性子	lie xiŋ zi	9999
 列选	lie xyw	935
-裂穴	lie xye	77
 猎靴	lie xye	35
 烈焰	lie iw	23570
 猎艳	lie iw	5570
@@ -250590,12 +250662,11 @@ sort: by_weight
 灵丘熏鸡	liŋ qiu xyñ ji	14
 领取	liŋ qy	432830
 陵区	liŋ qy	3815
+灵渠	liŋ qy	3145
 另取	liŋ qy	2825
 另娶	liŋ qy	1415
 领去	liŋ qy	1255
-灵渠	liŋ qy	314
 聆取	liŋ qy	50
-领区	liŋ qy	27
 领取表	liŋ qy bio	62
 领取成功	liŋ qy ĉŋ guŋ	167
 领取福利	liŋ qy fu li	152
@@ -253273,21 +253344,21 @@ sort: by_weight
 流失	liu ŝi	153775
 六十	liu ŝi	110505
 流逝	liu ŝi	49700
+流式	liu ŝi	22222
+刘氏	liu ŝi	15400
+流势	liu ŝi	9999
+六世	liu ŝi	9535
 六时	liu ŝi	7215
 流食	liu ŝi	3485
-流式	liu ŝi	2222
-刘氏	liu ŝi	1540
-流势	liu ŝi	999
-六世	liu ŝi	695
 溜石	liu ŝi	2
-流矢	liu ŝi	1
-流石	liu ŝi	1
 # 六师	liu shi	0
 # 刘奭	liu shi	0
 # 刘实	liu shi	0
 # 刘寔	liu shi	0
 # 刘诗	liu shi	0
 # 柳市	liu shi	0
+# 流矢	liu shi	0
+# 流石	liu shi	0
 六十八	liu ŝi ba	2545
 六十八分	liu ŝi ba fñ	50
 六十八团	liu ŝi ba tuw	10
@@ -253362,7 +253433,6 @@ sort: by_weight
 六十四团场	liu ŝi si tuw ĉv	1
 六十四万	liu ŝi si uw	95
 六十岁	liu ŝi sue	6755
-流石滩	liu ŝi tw	5
 六十万	liu ŝi uw	3305
 刘仕伟	liu ŝi ue	2
 六十五	liu ŝi u	4180
@@ -254787,16 +254857,16 @@ sort: by_weight
 龙鬼蛇神	luŋ gue ŝe ŝñ	1
 龙桂乡	luŋ gue xiv	1
 龙过鼠年	luŋ go ŝu niw	1
-陇海	luŋ hai	104
-龙海	luŋ hai	4
+龙海	luŋ hai	14950
+陇海	luŋ hai	10440
 龙海家园	luŋ hai jia yw	118
-龙海路	luŋ hai lu	7
+龙海路	luŋ hai lu	47
 陇海路街道	luŋ hai lu jie dao	1
 龙海区	luŋ hai qy	149
-龙海市	luŋ hai ŝi	4
+龙海市	luŋ hai ŝi	5110
 陇海铁路	luŋ hai tie lu	3605
 陇海线	luŋ hai xiw	2320
-龙海县	luŋ hai xiw	5
+龙海县	luŋ hai xiw	295
 龙翰	luŋ hw	62
 龙涵道	luŋ hw dao	1
 龙翰凤雏	luŋ hw fŋ ĉu	1
@@ -254975,7 +255045,7 @@ sort: by_weight
 弄口	luŋ kou	2
 龙口村	luŋ kou cuñ	89
 龙口夺粮	luŋ kou do liv	9999
-龙口市	luŋ kou ŝi	185
+龙口市	luŋ kou ŝi	7185
 龙窟	luŋ ku	5
 隆块拟银杏蟹	luŋ kui ni iñ xiŋ xie	1
 龙葵	luŋ kue	4855
@@ -258342,13 +258412,12 @@ sort: by_weight
 乱涂	luw tu	4895
 乱涂乱画	luw tu luw hua	2285
 乱挖	luw ua	2615
-乱玩	luw uw	88
 乱问	luw uñ	111
 乱舞	luw u	11185
 乱武天下	luw u tiw xia	15
 卵细胞	luw xi bao	5805
 卵系带	luw xi dai	7
-滦县	luw xiw	6
+滦县	luw xiw	678
 卵腺癌	luw xiw ai	1
 乱想	luw xiv	7130
 乱象	luw xiv	4080
@@ -259068,10 +259137,9 @@ sort: by_weight
 罗洞村	lo duŋ cuñ	7
 罗东村	lo duŋ cuñ	1
 罗东进	lo duŋ jiñ	75
-落肚	lo du	98
+洛都争艳	lo dou ẑŋ iw	1
 罗渡苗族乡	lo du mio zu xiv	3
 洛度沙胺	lo du ŝa w	5
-洛都争艳	lo du ẑŋ iw	1
 裸端泉蝇	lo duw qyw iŋ	1
 罗惇曧	lo duñ ruŋ	1
 罗惇衍	lo duñ iw	2
@@ -259660,7 +259728,8 @@ sort: by_weight
 罗曼谛克	lo mw di ke	42
 罗曼谛纳	lo mw di na	1
 罗曼粉壳蛋鸡	lo mw fñ ke dw ji	1
-罗曼·罗兰	lo mw lo lw	279
+洛曼拉	lo mw la	1
+罗曼罗兰	lo mw lo lw	27
 罗曼尼	lo mw ni	177
 罗曼尼康帝	lo mw ni kv di	154
 罗曼史	lo mw ŝi	5395
@@ -260823,7 +260892,6 @@ sort: by_weight
 旅客运输	ly ke yñ ŝu	15245
 旅客运输合同	ly ke yñ ŝu he tuŋ	664
 铝扣板	ly kou bw	5120
-铝块	ly kui	386
 铝矿	ly kuv	1900
 氯喹	ly kue	72
 吕坤	ly kuñ	68
@@ -260888,7 +260956,6 @@ sort: by_weight
 绿码	ly ma	9999
 氯马斯汀	ly ma si tiŋ	1
 绿马仰秣	ly ma iv mo	1
-绿盲蝽	ly mv ĉuñ	4
 绿帽	ly mao	1470
 绿毛	ly mao	1111
 驴毛	ly mao	5
@@ -261096,10 +261163,12 @@ sort: by_weight
 律师袍	ly ŝi pao	300
 律师声明	ly ŝi ŝŋ miŋ	114
 律师事务所	ly ŝi ŝi u so	284985
+律师事务所收费程序规则	ly ŝi ŝi u so ŝou fei ĉŋ xy gue ze	23
+律师实用口才	ly ŝi ŝi yŋ kou cai	1
 律师收费	ly ŝi ŝou fei	2950
 律师所	ly ŝi so	6670
 律师提前介入	ly ŝi ti qiw jie ru	72
-律师网	ly ŝi uv	1
+律师网	ly ŝi uv	15935
 律师维权案例选	ly ŝi ue qyw w li xyw	1
 律师伪证罪	ly ŝi ue ẑŋ zue	87
 律师文摘	ly ŝi uñ ẑai	222
@@ -261591,13 +261660,13 @@ sort: by_weight
 吕正操	ly ẑŋ cao	142
 律政司	ly ẑŋ si	1680
 律政先锋	ly ẑŋ xiw fŋ	190
+铝制	ly ẑi	14115
 绿植	ly ẑi	11065
 滤纸	ly ẑi	10275
 履职	ly ẑi	9999
-铝制	ly ẑi	4115
 绿枝	ly ẑi	1680
 绿汁	ly ẑi	368
-吕雉	ly ẑi	2
+吕雉	ly ẑi	1
 绿植领养	ly ẑi liŋ iv	193
 铝制品	ly ẑi piñ	5350
 绿之韵	ly ẑi yñ	1050
@@ -261870,7 +261939,6 @@ sort: by_weight
 马齿日增	ma ĉi ri zŋ	1
 马齿苋	ma ĉi xiw	5390
 马齿叶亦繁	ma ĉi ie i fw	1
-麻涌镇	ma ĉuŋ ẑñ	2
 骂出	ma ĉu	9999
 码畜	ma ĉu	6666
 码出	ma ĉu	111
@@ -261949,8 +262017,7 @@ sort: by_weight
 麻刀胡同	ma dao hu tuŋ	1
 马道街	ma dao jie	215
 马道梁	ma dao liv	2
-马岛獴	ma dao mŋ	2
-马岛猬	ma dao ue	3
+马岛獴属	ma dao mŋ ŝu	1
 马刀侠瘿	ma dao xia iŋ	3
 马道巷	ma dao xiv	184
 马岛小䴙䴘	ma dao xio pi ti	1
@@ -263172,9 +263239,9 @@ sort: by_weight
 马首乡	ma ŝou xiv	2
 马守真	ma ŝou ẑñ	2
 马术	ma ŝu	17050
-码数	ma ŝu	2373
-麻糬	ma ŝu	779
-麻糬饼	ma ŝu biŋ	6
+麻薯	ma ŝu	779
+码数	ma ŝu	373
+麻薯饼	ma ŝu biŋ	560
 马术服	ma ŝu fu	158
 马树华	ma ŝu hua	11
 麻竖毛天牛	ma ŝu mao tiw niu	1
@@ -263403,7 +263470,7 @@ sort: by_weight
 马祥兴菜馆	ma xiv xiŋ cai guw	53
 马巷镇桐梓村	ma xiv ẑñ tuŋ zi cuñ	1
 麻小	ma xio	3333
-马晓春	ma xio ĉuñ	9
+马晓春	ma xio ĉuñ	91
 麻小儿	ma xio er	3333
 马晓晖	ma xio hue	114
 马小姐	ma xio jie	4235
@@ -264479,7 +264546,6 @@ sort: by_weight
 埋设	mai ŝe	13675
 卖身	mai ŝñ	12845
 卖肾	mai ŝñ	700
-埋深	mai ŝñ	55
 卖身节	mai ŝñ jie	157
 卖身救母	mai ŝñ jiu mu	465
 买什么	mai ŝñ me	17470
@@ -264723,7 +264789,6 @@ sort: by_weight
 买只	mai ẑi	5555
 买纸	mai ẑi	3333
 埋置	mai ẑi	16
-埋植	mai ẑi	9
 买只鸡	mai ẑi ji	121
 买纸巾	mai ẑi jiñ	163
 迈之灵	mai ẑi liŋ	5
@@ -266191,7 +266256,6 @@ sort: by_weight
 帽蚶科	mao hw ke	1
 冒号	mao hao	27614
 帽盒	mao he	305
-泖河	mao he	3
 毛颌𩽾𩾌	mao he w kv	1
 矛和长柄武器专精	mao he ĉv biŋ u qi ẑuw jiŋ	1
 矛和盾	mao he duñ	475
@@ -266854,8 +266918,8 @@ sort: by_weight
 毛呀	mao ia	2
 猫亚科	mao ia ke	44
 毛丫头	mao ia tou	545
-冒烟	mao iw	18670
 猫眼	mao iw	15355
+冒烟	mao iw	13870
 帽檐	mao iw	3340
 茅檐	mao iw	1180
 卯眼	mao iw	90
@@ -267436,11 +267500,13 @@ sort: by_weight
 没的吃	mei de ĉi	9999
 没得到	mei de dao	6240
 美的东西	mei de duŋ xi	5035
-梅德尔	mei de er	8
+梅德尔	mei de er	148
 没的话	mei de hua	97
 美的客车	mei de ke ĉe	168
 没得空	mei de kuŋ	68
 没得了	mei de le	12
+美德林	mei de liñ	1
+美的青春茶	mei de qiŋ ĉuñ ĉa	1
 没的说	mei de ŝo	4800
 梅德韦杰夫	mei de ue jie fu	145
 美的线条	mei de xiw tio	600
@@ -267450,7 +267516,6 @@ sort: by_weight
 没的选	mei de xyw	9999
 美的旋律	mei de xyw ly	1895
 美的音乐	mei de iñ ye	2055
-没得用	mei de yŋ	98
 美德远远胜过美貌	mei de yw yw ŝŋ go mei mao	10
 没等	mei dŋ	9999
 梅登高桥	mei dŋ gao qio	28
@@ -268356,7 +268421,6 @@ sort: by_weight
 没交	mei jio	4115
 没叫	mei jio	3333
 没教	mei jio	2222
-眉角	mei jio	1986
 美脚	mei jio	1695
 没脚	mei jio	820
 煤焦	mei jio	570
@@ -269363,7 +269427,6 @@ sort: by_weight
 梅塞德斯	mei sai de si	166
 梅塞德丝	mei sai de si	5
 梅赛德斯-奔驰	mei sai de si bñ ĉi	2778
-没散	mei sw	7
 梅三路	mei sw lu	1
 没三没四	mei sw mei si	1
 每三年	mei sw niw	7315
@@ -269930,7 +269993,6 @@ sort: by_weight
 没忘	mei uv	9999
 没网	mei uv	5555
 没亡	mei uv	1111
-美网	mei uv	234
 每位	mei ue	185820
 美味	mei ue	106360
 霉味	mei ue	5995
@@ -270103,7 +270165,7 @@ sort: by_weight
 梅须逊雪三分白	mei xy xyñ xye sw fñ bai	19
 没选	mei xyw	111
 没选上	mei xyw ŝv	86
-美学	mei xye	33105
+美学	mei xye	133105
 没学	mei xye	10430
 美雪	mei xye	4725
 美穴	mei xye	111
@@ -270762,7 +270824,6 @@ sort: by_weight
 每章	mei ẑv	11330
 没长	mei ẑv	2222
 没涨	mei ẑv	1111
-没长成	mei ẑv ĉŋ	7
 没账号	mei ẑv hao	63
 每张票	mei ẑv pio	67
 没长眼睛	mei ẑv iw jiŋ	920
@@ -271085,7 +271146,6 @@ sort: by_weight
 门扉	mñ fei	3570
 门缝	mñ fŋ	9850
 门风	mñ fŋ	2240
-门缝儿	mñ fŋ er	7
 门岗	mñ gv	1815
 门拱	mñ guŋ	455
 焖狗肉	mñ gou rou	139
@@ -271422,7 +271482,6 @@ sort: by_weight
 萌宠	mŋ ĉuŋ	79
 蠓虫儿	mŋ ĉuŋ er	9999
 猛抽	mŋ ĉou	1875
-猛踹	mŋ ĉui	444
 孟川	mŋ ĉuw	1
 猛吹	mŋ ĉue	995
 孟春	mŋ ĉuñ	2305
@@ -271537,6 +271596,8 @@ sort: by_weight
 蒙古队	mŋ gu due	205
 蒙古光瓢虫	mŋ gu guv pio ĉuŋ	1
 蒙古国	mŋ gu go	11790
+蒙古国细狗	mŋ gu go xi gou	1
+蒙古国刑法典	mŋ gu go xiŋ fa diw	5
 蒙古馃子	mŋ gu go zi	1
 蒙古汗国	mŋ gu hw go	23
 蒙古红	mŋ gu huŋ	235
@@ -272068,7 +272129,6 @@ sort: by_weight
 蒙医	mŋ i	602
 蒙毅	mŋ i	260
 梦一场	mŋ i ĉv	2250
-猛一跺地	mŋ i do di	97
 梦依诺	mŋ i no	1
 蒙宜乡	mŋ i xiv	4
 蒙以养正	mŋ i iv ẑŋ	185
@@ -272765,6 +272825,7 @@ sort: by_weight
 密码强度	mi ma qiv du	490
 密码身份验证协议	mi ma ŝñ fñ iw ẑŋ xie i	45
 密码术	mi ma ŝu	130
+米麻薯	mi ma ŝu	1
 密码输入框	mi ma ŝu ru kuv	1653
 密码锁	mi ma so	6405
 密码体制	mi ma ti ẑi	1280
@@ -273072,7 +273133,6 @@ sort: by_weight
 密苏里	mi su li	3425
 密苏里河	mi su li he	235
 密苏里州	mi su li ẑou	3020
-米碎	mi sue	7
 靡所底止	mi so di ẑi	1
 米索莉	mi so li	66
 米索莉短剑	mi so li duw jiw	8
@@ -273736,7 +273796,9 @@ sort: by_weight
 棉花棒	miw hua bv	2715
 棉花仓库	miw hua cv ku	49
 棉花厂	miw hua ĉv	80
+棉花大造桥虫	miw hua da zao qio ĉuŋ	1
 棉花的	miw hua de	10090
+棉花顶面绢毛猴	miw hua diŋ miw jyw mao hou	1
 棉花糕	miw hua gao	51
 棉花根	miw hua gñ	75
 棉花胡同	miw hua hu tuŋ	43
@@ -273973,11 +274035,11 @@ sort: by_weight
 面纱	miw ŝa	42160
 棉纱	miw ŝa	29265
 免杀	miw ŝa	8180
+绵山	miw ŝw	3930
 面善	miw ŝw	1970
 棉山	miw ŝw	3
-绵山	miw ŝw	3
 绵山风景区	miw ŝw fŋ jiŋ qy	199
-绵山镇	miw ŝw ẑñ	7
+绵山镇	miw ŝw ẑñ	107
 面上	miw ŝv	130830
 面商	miw ŝv	1330
 面上无光	miw ŝv u guv	360
@@ -274663,7 +274725,6 @@ sort: by_weight
 描述统计学	mio ŝu tuŋ ji xye	65
 描述为	mio ŝu ue	9845
 描述文件	mio ŝu uñ jiw	6164
-秒睡	mio ŝue	77
 秒死	mio si	4444
 # 妙思	miao si	0
 缪斯雯	mio si uñ	187
@@ -275081,7 +275142,6 @@ sort: by_weight
 闵行路	miñ hv lu	7
 民航路口	miñ hv lu kou	24
 闵行区	miñ hv qy	38645
-闵行区莘庄镇	miñ hv qy xiñ ẑuv ẑñ	1
 民航人	miñ hv rñ	134
 民航售票	miñ hv ŝou pio	1470
 民航网	miñ hv uv	144
@@ -275364,7 +275424,10 @@ sort: by_weight
 民事诉讼程序改革热点问题研究	miñ ŝi su suŋ ĉŋ xy gai ge re diw uñ ti iw jiu	2
 民事诉讼程序公约	miñ ŝi su suŋ ĉŋ xy guŋ ye	26
 民事诉讼法	miñ ŝi su suŋ fa	50730
+民事诉讼法习题集	miñ ŝi su suŋ fa xi ti ji	2
 民事诉讼法学	miñ ŝi su suŋ fa xye	3160
+民事诉讼法学新编	miñ ŝi su suŋ fa xye xiñ biw	17
+民事诉讼基本结构	miñ ŝi su suŋ ji bñ jie gou	3
 民事诉讼目的	miñ ŝi su suŋ mu di	96
 民事诉讼委托代理合同	miñ ŝi su suŋ ue to dai li he tuŋ	13
 民事诉讼原告	miñ ŝi su suŋ yw gao	80
@@ -276002,8 +276065,7 @@ sort: by_weight
 命定	miŋ diŋ	99
 酩酊大醉	miŋ diŋ da zue	4785
 酩酊烂醉	miŋ diŋ lw zue	1
-明冬	miŋ duŋ	77
-明兜	miŋ dou	5
+明兜	miŋ dou	1
 命都给你	miŋ dou gei ni	124
 命都没了	miŋ dou mei le	96
 冥斗士	miŋ dou ŝi	2440
@@ -276567,7 +276629,6 @@ sort: by_weight
 明清路	miŋ qiŋ lu	5
 明清小说	miŋ qiŋ xio ŝo	1635
 名倾一时	miŋ qiŋ i ŝi	1
-明秋	miŋ qiu	77
 名曲	miŋ qy	17950
 明渠	miŋ qy	4825
 明区	miŋ qy	1360
@@ -276904,9 +276965,8 @@ sort: by_weight
 明细账	miŋ xi ẑv	13080
 明熹宗	miŋ xi zuŋ	20
 名下	miŋ xia	35010
-明夏	miŋ xia	789
-明霞	miŋ xia	6
-明虾	miŋ xia	2
+明霞	miŋ xia	6805
+明虾	miŋ xia	1
 名下无虚	miŋ xia u xy	170
 名下无虚士	miŋ xia u xy ŝi	4
 明显	miŋ xiw	500594
@@ -277614,7 +277674,7 @@ sort: by_weight
 末端重复	mo duw ẑuŋ fu	2
 莫队算法	mo due suw fa	591
 莫顿	mo duñ	2055
-莫顿蜾蠃蜚	mo duñ go lo fei	1
+莫顿蜾赢蜚	mo duñ go iŋ fei	1
 莫顿巨蜥	mo duñ jy xi	1
 磨盾之暇	mo duñ ẑi xia	1
 莫多	mo do	29
@@ -283241,7 +283301,7 @@ sort: by_weight
 南陈路	nw ĉñ lu	23
 男衬衫	nw ĉñ ŝw	3333
 南陈屯	nw ĉñ tuñ	148
-南城	nw ĉŋ	312
+南城	nw ĉŋ	31295
 # 南埕	nan cheng	0
 南埕村	nw ĉŋ cuñ	4
 难成大器	nw ĉŋ da qi	660
@@ -283250,9 +283310,9 @@ sort: by_weight
 南城街	nw ĉŋ jie	16
 男乘客	nw ĉŋ ke	117
 南城美境	nw ĉŋ mei jiŋ	3
-南城区	nw ĉŋ qy	44
+南城区	nw ĉŋ qy	5895
 南城五黑鸡	nw ĉŋ u hei ji	1
-南城县	nw ĉŋ xiw	16
+南城县	nw ĉŋ xiw	1655
 男程序员	nw ĉŋ xy yw	3333
 南城夜半千沤发	nw ĉŋ ie bw qiw ou fa	1
 男成员	nw ĉŋ yw	215
@@ -283855,11 +283915,11 @@ sort: by_weight
 南环路西	nw huw lu xi	4
 男欢女爱	nw huw ny ai	5335
 南环中路	nw huw ẑuŋ lu	3
-南汇	nw hue	4
+南汇	nw hue	18695
 南灰伯劳	nw hue bo lao	1
 南回归线	nw hue gue xiw	1135
-南汇区	nw hue qy	4
-南汇县	nw hue xiw	4
+南汇区	nw hue qy	10495
+南汇县	nw hue xiw	1690
 男会员	nw hue yw	1245
 难混	nw huñ	445
 男婚女嫁	nw huñ ny jia	1135
@@ -283982,6 +284042,7 @@ sort: by_weight
 南京大桥	nw jiŋ da qio	196
 南京大屠杀	nw jiŋ da tu ŝa	22215
 南京大学	nw jiŋ da xye	51740
+南京德本律师事务所	nw jiŋ de bñ ly ŝi ŝi u so	21
 南京第一医院	nw jiŋ di i i yw	9
 南京东路	nw jiŋ duŋ lu	9185
 南京东路外滩	nw jiŋ duŋ lu ui tw	16
@@ -285412,7 +285473,6 @@ sort: by_weight
 囊萤凿壁	nv iŋ zao bi	1
 囊萤照读	nv iŋ ẑao du	7
 囊萤照书	nv iŋ ẑao ŝu	1
-囊藻	nv zao	3
 囊肿	nv ẑuŋ	29695
 囊中	nv ẑuŋ	18985
 囊中取物	nv ẑuŋ qy u	37
@@ -286094,7 +286154,6 @@ sort: by_weight
 内供奉	nei guŋ fŋ	1115
 内公切线	nei guŋ qie xiw	5
 内购	nei gou	721
-内构	nei gou	89
 内骨骼	nei gu ge	105
 内估计	nei gu ji	19
 内骨架	nei gu jia	199
@@ -286229,7 +286288,6 @@ sort: by_weight
 内军庄	nei jyñ ẑuv	1
 内刊	nei kw	6160
 内科	nei ke	80265
-内壳	nei ke	99
 内科病房	nei ke biŋ fv	550
 内科病人	nei ke biŋ rñ	155
 内科护理学	nei ke hu li xye	9
@@ -286307,6 +286365,7 @@ sort: by_weight
 内蒙古电子信息职业技术学院	nei mŋ gu diw zi xiñ xi ẑi ie ji ŝu xye yw	11
 内蒙古高原	nei mŋ gu gao yw	1335
 内蒙古工业大学	nei mŋ gu guŋ ie da xye	172
+内蒙古建中律师事务所	nei mŋ gu jiw ẑuŋ ly ŝi ŝi u so	86
 内蒙古教育出版社图书广场	nei mŋ gu jio y ĉu bw ŝe tu ŝu guv ĉv	1
 内蒙古精神卫生中心	nei mŋ gu jiŋ ŝñ ue ŝŋ ẑuŋ xiñ	13
 内蒙古军区	nei mŋ gu jyñ qy	349
@@ -288662,7 +288721,6 @@ sort: by_weight
 你稍等	ni ŝao dŋ	12
 拟设	ni ŝe	22780
 你谁	ni ŝei	9
-泥深	ni ŝñ	5
 你身边	ni ŝñ biw	42915
 你什么	ni ŝñ me	7
 你什么时候回家	ni ŝñ me ŝi hou hue jia	170
@@ -289769,7 +289827,6 @@ sort: by_weight
 年卡	niw ka	9999
 年开第七秩	niw kai di qi ẑi	1
 年刊	niw kw	4400
-撵客	niw ke	678
 年来	niw lai	372410
 拈来	niw lai	1405
 年来转觉此生浮	niw lai ẑuw jye ci ŝŋ fu	1
@@ -290522,7 +290579,6 @@ sort: by_weight
 尿痛	nio tuŋ	527
 尿桶	nio tuŋ	400
 鸟头	nio tou	1345
-鸟腿	nio tue	689
 尿完	nio uw	1180
 鸟网	nio uv	730
 鸟为食亡	nio ue ŝi uv	1185
@@ -290937,7 +290993,7 @@ sort: by_weight
 宁和	niŋ he	1111
 宁河	niŋ he	2
 宁河区	niŋ he qy	24
-宁河县	niŋ he xiw	4
+宁河县	niŋ he xiw	3220
 宁红茶	niŋ huŋ ĉa	104
 宁沪	niŋ hu	125
 宁化	niŋ hua	5510
@@ -291127,7 +291183,7 @@ sort: by_weight
 宁氏鳝丝	niŋ ŝi ŝw si	1
 宁式苔菜月饼	niŋ ŝi tai cai ye biŋ	1
 宁式苔生片	niŋ ŝi tai ŝŋ piw	1
-凝视着	niŋ ŝi ẑe	98
+凝视着	niŋ ŝi ẑe	34480
 凝视者	niŋ ŝi ẑe	95
 凝霜	niŋ ŝuv	5095
 凝霜斩	niŋ ŝuv ẑw	1
@@ -291188,13 +291244,13 @@ sort: by_weight
 宁夏湾	niŋ xia uw	7
 宁夏银川	niŋ xia iñ ĉuw	5210
 宁夏自治区	niŋ xia zi ẑi qy	5085
-宁县	niŋ xiw	7
+宁县	niŋ xiw	3575
+宁乡	niŋ xiv	8465
+凝香	niŋ xiv	3685
 凝想	niŋ xiv	535
-宁乡	niŋ xiv	7
-# 凝香	ning xiang	0
 宁乡东南	niŋ xiv duŋ nw	1
 柠香里脊肉	niŋ xiv li ji rou	1
-宁乡县	niŋ xiv xiw	485
+宁乡县	niŋ xiv xiw	4850
 狞笑	niŋ xio	10050
 佞笑	niŋ xio	10
 凝血	niŋ xie	17225
@@ -291892,6 +291948,7 @@ sort: by_weight
 纽约市	niu ye ŝi	14400
 纽约时报	niu ye ŝi bao	25490
 纽约时刻	niu ye ŝi ke	17
+纽约市立大学皇后学院	niu ye ŝi li da xye huv hou xye yw	31
 纽约证券交易所	niu ye ẑŋ qyw jio i so	5680
 纽约芝士蛋糕	niu ye ẑi ŝi dw gao	43
 纽约州	niu ye ẑou	9230
@@ -292863,8 +292920,7 @@ sort: by_weight
 怒打	nu da	1111
 怒道	nu dao	33680
 怒得像	nu de xiv	3
-怒瞪	nu dŋ	96
-怒瞪着	nu dŋ ẑe	96
+怒瞪着	nu dŋ ẑe	565
 怒怼	nu due	9999
 怒㨃	nu due	888
 驽钝	nu duñ	745
@@ -293149,7 +293205,6 @@ sort: by_weight
 暖水瓶	nuw ŝue piŋ	1525
 暖水虾	nuw ŝue xia	149
 暖水性鱼类	nuw ŝue xiŋ y lei	61
-暖胎	nuw tai	368
 暖胎圈	nuw tai qyw	408
 暖汤濯我足	nuw tv ẑo o zu	1
 暖通	nuw tuŋ	21320
@@ -293261,7 +293316,7 @@ sort: by_weight
 挪了挪	no le no	2490
 诺雷得	no lei de	9
 诺里	no li	4505
-# 诺丽	nuo li	0
+诺丽	no li	4240
 诺里奇㹴	no li qi gŋ	3
 诺里奇㹴犬	no li qi gŋ qyw	1
 诺里斯	no li si	113
@@ -293849,7 +293904,6 @@ sort: by_weight
 女侠	ny xia	14060
 女侠节	ny xia jie	182
 女下属	ny xia ŝu	139
-女仙	ny xiw	5
 女相	ny xiv	9999
 女像	ny xiv	5
 女校	ny xio	4400
@@ -295027,9 +295081,7 @@ sort: by_weight
 琶洲街	pa ẑou jie	124
 琶洲街道	pa ẑou jie dao	35
 扒肘条	pa ẑou tio	16
-扒肘子	pa ẑou zi	8
 帕珠沙星	pa ẑu ŝa xiŋ	7
-扒猪蹄	pa ẑu ti	8
 帕子	pa zi	2770
 耙子	pa zi	1500
 趴姿	pa zi	987
@@ -295255,7 +295307,6 @@ sort: by_weight
 排放系统	pai fv xi tuŋ	1075
 排放总量	pai fv zuŋ liv	18375
 排废水	pai fei ŝue	183
-拍粉	pai fñ	1930
 排粪	pai fñ	1820
 排风	pai fŋ	13830
 牌风	pai fŋ	475
@@ -295506,7 +295557,6 @@ sort: by_weight
 拍你们	pai ni mñ	777
 派你们	pai ni mñ	333
 排尿	pai nio	29920
-拍鸟	pai nio	123
 排尿反射	pai nio fw ŝe	12
 排尿功能	pai nio guŋ nŋ	575
 排尿困难	pai nio kuñ nw	6785
@@ -295695,7 +295745,6 @@ sort: by_weight
 派团参加	pai tuw cw jia	270
 拍腿	pai tue	223
 拍拖	pai to	15730
-拍娃	pai ua	123
 排外	pai ui	6895
 拍外景	pai ui jiŋ	1715
 排外性	pai ui xiŋ	215
@@ -296819,7 +296868,6 @@ sort: by_weight
 抛出	pao ĉu	62445
 跑出	pao ĉu	45810
 刨除	pao ĉu	2317
-抛储	pao ĉu	625
 抛除	pao ĉu	470
 庖厨	pao ĉu	128
 抛出窗外	pao ĉu ĉuv ui	80
@@ -297840,7 +297888,6 @@ sort: by_weight
 辔头	pei tou	610
 配图	pei tu	15220
 培土	pei tu	8275
-配土	pei tu	7
 陪玩	pei uw	1111
 配完	pei uw	1
 陪玩儿	pei uw er	1111
@@ -299756,10 +299803,13 @@ sort: by_weight
 皮下脂肪	pi xia ẑi fv	9290
 皮下注射	pi xia ẑu ŝe	6795
 皮下组织	pi xia zu ẑi	7340
-郫县	pi xiw	90
-丕显	pi xiw	51
-邳县	pi xiw	4
+郫县	pi xiw	9090
+邳县	pi xiw	2155
+丕显	pi xiw	515
+郫县北大街	pi xiw bei da jie	3
 郫县豆瓣	pi xiw dou bw	3092
+郫县客运中心	pi xiw ke yñ ẑuŋ xiñ	16
+郫县医院	pi xiw i yw	4
 皮箱	pi xiv	11280
 劈向	pi xiv	4444
 皮相	pi xiv	1700
@@ -301690,13 +301740,13 @@ sort: by_weight
 平东	piŋ duŋ	136
 屏东	piŋ duŋ	1
 平东路	piŋ duŋ lu	2
-屏东县	piŋ duŋ xiw	730
+屏东县	piŋ duŋ xiw	1730
 平洞乡	piŋ duŋ xiv	1
 屏东须𫚭	piŋ duŋ xy lie	1
-平度	piŋ du	7
+平度	piŋ du	7745
 平都牛肉松	piŋ du niu rou suŋ	8
-平度市	piŋ du ŝi	540
-平度县	piŋ du xiw	4
+平度市	piŋ du ŝi	5405
+平度县	piŋ du xiw	150
 评断	piŋ duw	4605
 平儿	piŋ er	11110
 评法	piŋ fa	450
@@ -302830,7 +302880,8 @@ sort: by_weight
 评议结果	piŋ i jie go	5095
 平易近人	piŋ i jiñ rñ	18750
 评一评	piŋ i piŋ	4785
-平邑县	piŋ i xiw	375
+平邑县	piŋ i xiw	3755
+平邑县城市管理行政执法局	piŋ i xiw ĉŋ ŝi guw li xiŋ ẑŋ ẑi fa jy	4
 平易逊顺	piŋ i xyñ ŝuñ	1
 评议意见	piŋ i i jiw	12485
 平易易知	piŋ i i ẑi	1
@@ -303885,6 +303936,7 @@ sort: by_weight
 谱号	pu hao	123
 浦河	pu he	21
 # 普荷	pu he	0
+普衡律师事务所	pu hŋ ly ŝi ŝi u so	34
 普泓	pu huŋ	1
 朴厚	pu hou	615
 铺户	pu hu	999
@@ -303909,8 +303961,7 @@ sort: by_weight
 普惠制	pu hue ẑi	5575
 普惠制待遇	pu hue ẑi dai y	532
 铺货	pu ho	16180
-扑火	pu ho	4343
-普货	pu ho	1618
+扑火	pu ho	13435
 铺货率	pu ho ly	2235
 普及	pu ji	434080
 扑击	pu ji	2
@@ -304866,7 +304917,7 @@ sort: by_weight
 七宝酥	qi bao su	102
 七宝天衣	qi bao tiw i	1
 漆包线	qi bao xiw	7365
-七宝镇	qi bao ẑñ	7
+七宝镇	qi bao ẑñ	170
 七宝庄严	qi bao ẑuv iw	235
 气包子	qi bao zi	5
 齐备	qi bei	44150
@@ -306939,12 +306990,10 @@ sort: by_weight
 漆膜	qi mo	18625
 气模	qi mo	8190
 汽摩	qi mo	8085
-齐默	qi mo	7
 期末不挂科	qi mo bu gua ke	196
 期末测试卷	qi mo ce ŝi jyw	145
 气模厂	qi mo ĉv	1165
 期末存货	qi mo cuñ ho	2841
-齐默尔	qi mo er	7
 弃末返本	qi mo fw bñ	1
 期末复习	qi mo fu xi	6545
 汽摩及配件	qi mo ji pei jiw	2455
@@ -307111,7 +307160,6 @@ sort: by_weight
 欺骗	qi piw	209725
 七篇	qi piw	2825
 七片	qi piw	1760
-起片	qi piw	896
 奇篇	qi piw	200
 欺骗消费者	qi piw xio fei ẑe	9135
 欺骗性	qi piw xiŋ	11605
@@ -309374,9 +309422,9 @@ sort: by_weight
 前安村	qiw w cuñ	5
 # 前安定	qian an ding	0
 前安定村	qiw w diŋ cuñ	1
-迁安市	qiw w ŝi	325
-乾安县	qiw w xiw	89
-迁安县	qiw w xiw	4
+迁安市	qiw w ŝi	2325
+乾安县	qiw w xiw	895
+迁安县	qiw w xiw	19
 钱吧	qiw ba	5555
 千八	qiw ba	4444
 千把	qiw ba	3600
@@ -309876,7 +309924,6 @@ sort: by_weight
 前儿	qiw er	2310
 前二	qiw er	2222
 钱儿	qiw er	1212
-签儿	qiw er	124
 千儿八百	qiw er ba bai	830
 浅二度烧伤	qiw er du ŝao ŝv	87
 前二十名	qiw er ŝi miŋ	2355
@@ -310622,6 +310669,7 @@ sort: by_weight
 千里来寻故地	qiw li lai xyñ gu di	13
 千里良缘	qiw li liv yw	1
 千里良缘一线牵	qiw li liv yw i xiw qiw	1
+乾理律师事务所	qiw li ly ŝi ŝi u so	5
 千里马	qiw li ma	38860
 千里马常有	qiw li ma ĉv iu	84
 千里马环岛	qiw li ma huw dao	1
@@ -312620,7 +312668,6 @@ sort: by_weight
 抢疯	qiv fŋ	364
 戗风	qiv fŋ	10
 墙风壁耳	qiv fŋ bi er	1
-墙缝儿	qiv fŋ er	7
 羟脯氨酸	qiv fu w suw	525
 强凫变鹤	qiv fu biw he	1
 抢福利	qiv fu li	112
@@ -313138,8 +313185,8 @@ sort: by_weight
 强名称	qiv miŋ ĉŋ	145
 抢名额	qiv miŋ e	101
 枪模	qiv mo	2760
+枪模网	qiv mo uv	41
 羌纳乡	qiv na xiv	6
-呛奶	qiv nai	689
 墙内	qiv nei	8955
 腔内	qiv nei	1931
 墙内开花墙外香	qiv nei kai hua qiv ui xiv	830
@@ -313288,12 +313335,11 @@ sort: by_weight
 枪声四起	qiv ŝŋ si qi	255
 抢生意	qiv ŝŋ i	1790
 强势	qiv ŝi	199660
-抢食	qiv ŝi	4364
-强市	qiv ŝi	3641
-强使	qiv ŝi	3111
+强市	qiv ŝi	36410
+墙式	qiv ŝi	3975
 抢市	qiv ŝi	2010
-墙式	qiv ŝi	397
-腔室	qiv ŝi	55
+强使	qiv ŝi	1111
+腔室	qiv ŝi	5
 强世功	qiv ŝi guŋ	271
 强势股	qiv ŝi gu	3280
 强势回归	qiv ŝi hue gue	120
@@ -314132,7 +314178,6 @@ sort: by_weight
 侨民们	qio miñ mñ	70
 桥名	qio miŋ	1135
 悄摸	qio mo	5555
-鞘膜	qio mo	5
 鞘膜积液	qio mo ji ie	37
 悄摸摸	qio mo mo	5555
 悄默声	qio mo ŝŋ	118
@@ -314409,9 +314454,6 @@ sort: by_weight
 撬一撬	qio i qio	456
 翘一翘	qio i qio	123
 乔伊斯	qio i si	4390
-敲一下	qio i xia	1987
-瞧一下	qio i xia	476
-撬一下	qio i xia	342
 瞧一眼	qio i iw	1150
 乔音乡	qio iñ xiv	7
 巧用	qio yŋ	14615
@@ -314773,7 +314815,6 @@ sort: by_weight
 切片机	qie piw ji	3900
 切片检查	qie piw jiw ĉa	850
 切片引擎	qie piw iñ qiŋ	26
-切屏	qie piŋ	987
 切平面	qie piŋ miw	225
 挈瓶小智	qie piŋ xio ẑi	1
 挈瓶之知	qie piŋ ẑi ẑi	111
@@ -315071,6 +315112,7 @@ sort: by_weight
 芹菜丝百叶	qiñ cai si bai ie	1
 亲测	qiñ ce	9999
 亲测有效	qiñ ce iu xio	9999
+钦察汗国	qiñ ĉa hw go	275
 钦差	qiñ ĉai	9665
 钦差大臣	qiñ ĉai da ĉñ	5935
 秦朝	qiñ ĉao	14260
@@ -315135,7 +315177,7 @@ sort: by_weight
 秦都花苑	qiñ du hua yw	164
 秦都口腔医院	qiñ du kou qiv i yw	10
 秦都桥	qiñ du qio	29
-秦都区	qiñ du qy	145
+秦都区	qiñ du qy	1450
 秦都中学	qiñ du ẑuŋ xye	2
 琴断口街道	qiñ duw kou jie dao	3
 侵夺	qiñ do	3750
@@ -315144,8 +315186,6 @@ sort: by_weight
 秦二世	qiñ er ŝi	91
 亲耳所闻	qiñ er so uñ	440
 亲二姨	qiñ er i	12
-秦法	qiñ fa	4
-亲法	qiñ fa	2
 亲法派	qiñ fa pai	20
 侵犯	qiñ fw	2472282
 钦犯	qiñ fw	4444
@@ -315390,7 +315430,6 @@ sort: by_weight
 亲历者	qiñ li ẑe	2540
 琴里知闻唯渌水	qiñ li ẑi uñ ue lu ŝue	6
 勤练	qiñ liw	3150
-亲脸	qiñ liw	2876
 芩连片	qiñ liw piw	3
 芩连四物汤	qiñ liw si u tv	2
 秦梁	qiñ liv	18
@@ -315780,6 +315819,7 @@ sort: by_weight
 侵袭力	qiñ xi li	24
 勤洗手	qiñ xi ŝou	3345
 侵袭性疾病	qiñ xi xiŋ ji biŋ	43
+秦希燕联合律师事务所	qiñ xi iw liw he ly ŝi ŝi u so	134
 亲下	qiñ xia	3125
 擒下	qiñ xia	1250
 亲狎	qiñ xia	125
@@ -315867,9 +315907,9 @@ sort: by_weight
 琴羽雫	qiñ y xia	6666
 勤于学习	qiñ y xye xi	171
 亲缘	qiñ yw	3730
-沁源	qiñ yw	22
-沁园	qiñ yw	5
-# 沁苑	qin yuan	0
+沁源	qiñ yw	2200
+沁园	qiñ yw	572
+沁苑	qiñ yw	18
 沁园春	qiñ yw ĉuñ	7415
 沁园春·长沙	qiñ yw ĉuñ ĉv ŝa	3
 沁园春·雪	qiñ yw ĉuñ xye	320
@@ -316665,7 +316705,6 @@ sort: by_weight
 轻而易举	qiŋ er i jy	45465
 清耳悦心	qiŋ er ye xiñ	1
 请发	qiŋ fa	61485
-轻罚	qiŋ fa	4744
 青发	qiŋ fa	1
 请发给	qiŋ fa gei	66
 请发货	qiŋ fa ho	32
@@ -316741,8 +316780,8 @@ sort: by_weight
 青峰山	qiŋ fŋ ŝw	9
 青枫墅园	qiŋ fŋ ŝu yw	10
 清风送爽	qiŋ fŋ suŋ ŝuv	1044
-青风藤	qiŋ fŋ tŋ	5
-清丰县	qiŋ fŋ xiw	124
+青风藤	qiŋ fŋ tŋ	345
+清丰县	qiŋ fŋ xiw	1245
 庆丰新村	qiŋ fŋ xiñ cuñ	12
 清风徐来	qiŋ fŋ xy lai	2105
 清风雅静	qiŋ fŋ ia jiŋ	3
@@ -320559,7 +320598,6 @@ sort: by_weight
 秋山祥子	qiu ŝw xiv zi	6666
 丘山之功	qiu ŝw ẑi guŋ	1
 求商	qiu ŝv	369
-球商	qiu ŝv	348
 邱少云	qiu ŝao yñ	3480
 秋社	qiu ŝe	13
 秋蛇春蚓	qiu ŝe ĉuñ iñ	1
@@ -320649,8 +320687,8 @@ sort: by_weight
 求她	qiu ta	1180
 球台	qiu tai	6895
 邱太三	qiu tai sw	93
-球探	qiu tw	3987
 球坛	qiu tw	1990
+球探	qiu tw	9
 球坛上	qiu tw ŝv	90
 秋涛路	qiu tao lu	520
 球体	qiu ti	21850
@@ -323831,18 +323869,16 @@ sort: by_weight
 泉石之乐	qyw ŝi ẑi le	1
 权时制宜	qyw ŝi ẑi i	1
 拳手	qyw ŝou	13715
-全熟	qyw ŝou	1246
 犬首𬶋	qyw ŝou jy	1
 全寿命期	qyw ŝou miŋ qi	87
 犬首瓢鳍鰕虎鱼	qyw ŝou pio qi xia hu y	1
 权属	qyw ŝu	142830
 全书	qyw ŝu	104720
-权术	qyw ŝu	9684
-拳术	qyw ŝu	8107
-全数	qyw ŝu	7250
+全数	qyw ŝu	17250
+拳术	qyw ŝu	10700
+权数	qyw ŝu	7330
+权术	qyw ŝu	4525
 圈数	qyw ŝu	4450
-全熟	qyw ŝu	1246
-权数	qyw ŝu	733
 权属纠纷	qyw ŝu jiu fñ	2040
 权属纠纷裁决	qyw ŝu jiu fñ cai jye	4
 全数位	qyw ŝu ue	21
@@ -325301,7 +325337,6 @@ sort: by_weight
 燃糠自照	rw kv zi ẑao	111
 燃控科技	rw kuŋ ke ji	139
 髯口	rw kou	485
-染蓝	rw lw	77
 染蓝涅皂	rw lw nie zao	1
 染了	rw le	7200
 燃了	rw le	3333
@@ -326208,7 +326243,6 @@ sort: by_weight
 热卖	re mai	82295
 热买	re mai	1
 热卖价	re mai jia	85585
-惹毛	re mao	2347
 热门	re mñ	500257
 热门车	re mñ ĉe	165
 热门队	re mñ due	65
@@ -326844,8 +326878,8 @@ sort: by_weight
 稔恶盈贯	rñ e iŋ guw	1
 任恩敬	rñ ñ jiŋ	105
 人儿	rñ er	22660
-人耳	rñ er	9849
 仁儿	rñ er	8673
+人耳	rñ er	8490
 任尔东西南北风	rñ er duŋ xi nw bei fŋ	1180
 壬二酸	rñ er suw	2
 人而无信	rñ er u xiñ	865
@@ -328443,8 +328477,8 @@ sort: by_weight
 人天永隔	rñ tiw yŋ ge	3
 认同	rñ tuŋ	313235
 忍痛	rñ tuŋ	18435
+人同	rñ tuŋ	17305
 壬酮	rñ tuŋ	45
-人同	rñ tuŋ	1
 人同此心	rñ tuŋ ci xiñ	835
 认同度	rñ tuŋ du	5915
 认同感	rñ tuŋ gw	21350
@@ -328532,7 +328566,6 @@ sort: by_weight
 人文社会	rñ uñ ŝe hue	25675
 人文社科	rñ uñ ŝe ke	9795
 人文素质	rñ uñ su ẑi	7350
-人纹污灯蛾	rñ uñ u dŋ e	4
 人文性	rñ uñ xiŋ	5080
 人文学科	rñ uñ xye ke	6800
 人文学院	rñ uñ xye yw	16025
@@ -328777,8 +328810,7 @@ sort: by_weight
 人言头上发	rñ iw tou ŝv fa	1
 人烟稀少	rñ iw xi ŝao	2304
 认养	rñ iv	9999
-人样	rñ iv	389
-人养	rñ iv	146
+人样	rñ iv	9
 人仰马翻	rñ iv ma fw	547
 人样虾朐	rñ iv xia qy	12
 认养一头牛	rñ iv i tou niu	140
@@ -330218,9 +330250,9 @@ sort: by_weight
 日总万机	ri zuŋ uw ji	1
 日租	ri zu	6700
 日租界	ri zu jie	192
-融安	ruŋ w	2
+融安	ruŋ w	1905
 荣安大街	ruŋ w da jie	1
-融安县	ruŋ w xiw	131
+融安县	ruŋ w xiw	1315
 茸安乡	ruŋ w xiv	20
 榕八星天牛	ruŋ ba xiŋ tiw niu	1
 荣邦	ruŋ bv	34
@@ -330253,7 +330285,7 @@ sort: by_weight
 荣成市	ruŋ ĉŋ ŝi	665
 荣成湾	ruŋ ĉŋ uw	101
 容城县	ruŋ ĉŋ xiw	940
-荣成县	ruŋ ĉŋ xiw	4
+荣成县	ruŋ ĉŋ xiw	1
 荣耻	ruŋ ĉi	2040
 容斥定理	ruŋ ĉi diŋ li	241
 容斥原理	ruŋ ĉi yw li	2188
@@ -331178,7 +331210,6 @@ sort: by_weight
 肉馅儿	rou xiw er	3333
 肉馅煎饼卷	rou xiw jiw biŋ jyw	1
 肉香	rou xiv	5910
-肉蟹	rou xie	36
 柔心弱骨	rou xiñ ro gu	1
 柔性	rou xiŋ	66240
 肉刑	rou xiŋ	2585
@@ -331241,7 +331272,7 @@ sort: by_weight
 肉竹嘈杂	rou ẑu cao za	3
 肉抓饭	rou ẑua fw	15
 肉装	rou ẑuv	111
-肉锥花	rou ẑue hua	3
+肉锥花	rou ẑue hua	1
 肉孜节	rou zi jie	795
 柔姿纱	rou zi ŝa	35
 肉粽	rou zuŋ	2605
@@ -331456,14 +331487,14 @@ sort: by_weight
 乳盖交缦缨	ru gai jio mw iŋ	1
 乳杆菌	ru gw jyñ	1065
 入港	ru gv	2890
-乳膏	ru gao	510
-如皋	ru gao	124
+如皋	ru gao	12400
+乳膏	ru gao	101
 乳膏剂	ru gao ji	24
 如皋萝卜粒	ru gao lo bo li	1
 如皋肉松	ru gao rou suŋ	11
-如皋市	ru gao ŝi	685
+如皋市	ru gao ŝi	9685
 如皋市经济开发区	ru gao ŝi jiŋ ji kai fa qy	5
-如皋县	ru gao xiw	5
+如皋县	ru gao xiw	265
 如皋中学	ru gao ẑuŋ xye	43
 如歌	ru ge	15960
 乳鸽	ru ge	7430
@@ -331993,8 +332024,8 @@ sort: by_weight
 乳清粉	ru qiŋ fñ	1780
 入情入理	ru qiŋ ru li	1990
 乳清酸	ru qiŋ suw	420
-入秋	ru qiu	18075
-入球	ru qiu	1820
+入球	ru qiu	18205
+入秋	ru qiu	8075
 如球	ru qiu	1325
 入秋后	ru qiu hou	145
 入球数	ru qiu ŝu	1895
@@ -333048,11 +333079,11 @@ sort: by_weight
 软组织损伤	ruw zu ẑi suñ ŝv	1743
 软座	ruw zo	11330
 瑞霭	rue ai	600
-瑞安	rue w	375
+瑞安	rue w	37585
 瑞安经济开发区	rue w jiŋ ji kai fa qy	7
 瑞安·雷诺兹	rue w lei no zi	111
-瑞安市	rue w ŝi	320
-瑞安县	rue w xiw	4
+瑞安市	rue w ŝi	32075
+瑞安县	rue w xiw	265
 瑞澳吨牛	rue ao duñ niu	1
 瑞巴派特	rue ba pai te	3
 瑞坂村	rue bw cuñ	1
@@ -333376,12 +333407,12 @@ sort: by_weight
 润泽苑	ruñ ze yw	132
 润泽悦溪	ruñ ze ye xi	110
 润之	ruñ ẑi	3430
-润州	ruñ ẑou	5
-润州区	ruñ ẑou qy	124
+润州	ruñ ẑou	2645
+润州花	ruñ ẑou hua	3
+润州区	ruñ ẑou qy	1240
 润资	ruñ zi	110
 若按	ro w	3333
 若安	ro w	111
-若昂	ro v	5
 若敖鬼馁	ro ao gue nei	1
 若白驹之过隙	ro bai jy ẑi go xi	5
 弱爆	ro bao	88
@@ -334266,8 +334297,6 @@ sort: by_weight
 噻嘧啶	sai mi diŋ	2
 塞缪尔	sai miu er	4060
 塞缪尔·杰克逊	sai miu er jie ke xyñ	4060
-塞缪尔森	sai miu er sñ	8
-塞缪尔斯	sai miu er si	6
 赛·墨克斯	sai mo ke si	111
 赛姆螈	sai mu yw	1
 赛纳	sai na	6125
@@ -334633,7 +334662,6 @@ sort: by_weight
 三倍快乐	sw bei kui le	130
 三杯两盏	sw bei liv ẑw	460
 三杯两盏淡酒	sw bei liv ẑw dw jiu	19
-三杯落肚	sw bei lo du	5
 三杯弄宝刀	sw bei nuŋ bao dao	1
 三北藕丝糖	sw bei ou si tv	39
 三倍数	sw bei ŝu	55
@@ -335539,7 +335567,7 @@ sort: by_weight
 三角比	sw jio bi	150
 三焦辨证	sw jio biw ẑŋ	2
 三角饼	sw jio biŋ	8
-三角柄蜾蠃蜚	sw jio biŋ go lo fei	1
+三角柄蜾赢蜚	sw jio biŋ go iŋ fei	1
 三角玻璃	sw jio bo li	215
 三角不等式	sw jio bu dŋ ŝi	70
 三角测距	sw jio ce jy	21
@@ -336102,7 +336130,6 @@ sort: by_weight
 三撇儿	sw pie er	1
 三品	sw piñ	17615
 三频	sw piñ	6420
-三拼	sw piñ	7
 三平	sw piŋ	6975
 三瓶	sw piŋ	1050
 三坪	sw piŋ	104
@@ -337602,8 +337629,11 @@ sort: by_weight
 丧失者	sv ŝi ẑe	715
 桑树	sv ŝu	10700
 桑树蓝尾迷萤叶甲	sv ŝu lw ue mi iŋ ie jia	1
-桑枢蓬户	sv ŝu pŋ hu	2
-桑枢韦带	sv ŝu ue dai	2
+桑枢蓬户	sv ŝu pŋ hu	1
+桑树人纹污灯蛾	sv ŝu rñ uñ u dŋ e	1
+桑树桑伪棍蓟马	sv ŝu sv ue guñ ji ma	1
+桑树桑园黄卷叶蛾	sv ŝu sv yw huv jyw ie e	1
+桑枢韦带	sv ŝu ue dai	1
 桑树云斑天牛	sv ŝu yñ bw tiw niu	1
 桑塔尔	sv ta er	20
 桑塔露琪亚	sv ta lu qi ia	1
@@ -337625,7 +337655,6 @@ sort: by_weight
 桑土之防	sv tu ẑi fv	1
 桑土之谋	sv tu ẑi mou	1
 丧亡	sv uv	950
-桑伪棍蓟马	sv ue guñ ji ma	4
 桑维翰	sv ue hw	2
 桑温特	sv uñ te	78
 桑心	sv xiñ	111
@@ -337679,8 +337708,7 @@ sort: by_weight
 骚逼	sao bi	22
 骚屄	sao bi	11
 扫不上	sao bu ŝv	86
-缫车	sao ĉe	5
-扫尘	sao ĉñ	7
+缫车	sao ĉe	2
 臊臭	sao ĉou	195
 臊臭味	sao ĉou ue	467
 扫除	sao ĉu	29840
@@ -337727,7 +337755,6 @@ sort: by_weight
 骚话	sao hua	30
 扫黄	sao huv	8860
 扫黄打非	sao huv da fei	10275
-扫灰	sao hue	7
 臊秽	sao hue	4
 骚货	sao ho	2725
 扫货	sao ho	1111
@@ -338012,7 +338039,6 @@ sort: by_weight
 啬刻	se ke	1
 色空	se kuŋ	4535
 色空间	se kuŋ jiw	50
-涩口	se kou	689
 色块	se kui	18650
 色拉	se la	12445
 瑟拉丹	se la dw	1
@@ -338108,7 +338134,7 @@ sort: by_weight
 瑟氏獛	se ŝi pu	1
 色树坟	se ŝu fñ	6
 色衰	se ŝui	900
-色衰爱寝	se ŝui ai qiñ	2
+色衰爱寝	se ŝui ai qiñ	1
 色素	se su	78525
 色素斑	se su bw	3000
 色素沉着	se su ĉñ ẑo	14710
@@ -338679,7 +338705,7 @@ sort: by_weight
 沙河铺路口	ŝa he pu lu kou	1
 沙河桥	ŝa he qio	230
 沙和尚	ŝa he ŝv	2760
-沙河市	ŝa he ŝi	273
+沙河市	ŝa he ŝi	2735
 沙河市场	ŝa he ŝi ĉv	34
 沙河滩	ŝa he tw	5
 沙赫特	ŝa he te	320
@@ -338717,8 +338743,8 @@ sort: by_weight
 傻货	ŝa ho	2
 啥活动	ŝa ho duŋ	82
 杀机	ŝa ji	18770
+沙棘	ŝa ji	13475
 杀鸡	ŝa ji	8505
-沙棘	ŝa ji	3475
 沙基惨案	ŝa ji cw w	210
 杀鸡扯脖	ŝa ji ĉe bo	1
 杀鸡哧猴	ŝa ji ĉi hou	1
@@ -338738,7 +338764,7 @@ sort: by_weight
 沙棘油	ŝa ji iu	17
 沙棘原浆	ŝa ji yw jiv	132
 沙棘汁	ŝa ji ẑi	204
-沙棘籽油	ŝa ji zi iu	2
+沙棘籽油软胶囊	ŝa ji zi iu ruw jio nv	1
 杀价	ŝa jia	9465
 沙加	ŝa jia	7110
 沙迦	ŝa jia	2550
@@ -338759,7 +338785,6 @@ sort: by_weight
 沙滘路口	ŝa jio lu kou	1
 沙滘医院	ŝa jio i yw	1
 杀戒	ŝa jie	1615
-沙芥	ŝa jie	3
 傻姐姐	ŝa jie jie	12
 杀进	ŝa jiñ	9985
 纱巾	ŝa jiñ	5065
@@ -339321,6 +339346,7 @@ sort: by_weight
 沙窝桥东	ŝa o qio duŋ	1
 沙窝桥西	ŝa o qio xi	1
 沙窝社区	ŝa o ŝe qy	1
+砂窝文昌鸡	ŝa o uñ ĉv ji	18
 沙悟净	ŝa u jiŋ	745
 沙勿来	ŝa u lai	1
 杀无赦	ŝa u ŝe	5350
@@ -339569,7 +339595,6 @@ sort: by_weight
 筛过	ŝai go	875
 晒黑	ŝai hei	9185
 晒后	ŝai hou	5040
-筛后	ŝai hou	68
 晒化	ŝai hua	1111
 晒化了	ŝai hua le	1111
 筛检	ŝai jiw	4670
@@ -339953,9 +339978,11 @@ sort: by_weight
 山东聊城	ŝw duŋ lio ĉŋ	4025
 山东临沂	ŝw duŋ liñ i	10705
 山东龙口	ŝw duŋ luŋ kou	2730
+山东龙口市东江镇	ŝw duŋ luŋ kou ŝi duŋ jiv ẑñ	2
 山东路	ŝw duŋ lu	1165
 山东路立交桥	ŝw duŋ lu li jio qio	3
 山东鲁能	ŝw duŋ lu nŋ	9990
+山东鲁泉律师事务所	ŝw duŋ lu qyw ly ŝi ŝi u so	5
 山东鲁阳	ŝw duŋ lu iv	2
 山东鲁阳股份有限公司	ŝw duŋ lu iv gu fñ iu xiw guŋ si	6
 山东铝业	ŝw duŋ ly ie	15
@@ -339963,6 +339990,7 @@ sort: by_weight
 山东墨龙	ŝw duŋ mo luŋ	1
 山东农业	ŝw duŋ nuŋ ie	126
 山东农业大学	ŝw duŋ nuŋ ie da xye	5460
+山东平度市南村镇	ŝw duŋ piŋ du ŝi nw cuñ ẑñ	1
 山东汽车信息	ŝw duŋ qi ĉe xiñ xi	6
 山东侨联医院	ŝw duŋ qio liw i yw	3
 山东琴书	ŝw duŋ qiñ ŝu	180
@@ -339970,8 +339998,10 @@ sort: by_weight
 山东丘陵	ŝw duŋ qiu liŋ	145
 煽动群众	ŝw duŋ qyñ ẑuŋ	835
 山东人	ŝw duŋ rñ	10125
+山东荣成市虎山镇	ŝw duŋ ruŋ ĉŋ ŝi hu ŝw ẑñ	1
+山东荣成市人和镇	ŝw duŋ ruŋ ĉŋ ŝi rñ he ẑñ	1
 山东如意	ŝw duŋ ru i	1
-山东单县	ŝw duŋ ŝw xiw	3
+山东单县	ŝw duŋ ŝw xiw	1
 山东省	ŝw duŋ ŝŋ	445360
 山东省残疾人优惠扶持规定	ŝw duŋ ŝŋ cw ji rñ iu hue fu ĉi gue diŋ	26
 山东省城镇最低收入家庭廉租住房管理办法	ŝw duŋ ŝŋ ĉŋ ẑñ zue di ŝou ru jia tiŋ liw zu ẑu fv guw li bw fa	15
@@ -340010,6 +340040,7 @@ sort: by_weight
 山东省信访规定	ŝw duŋ ŝŋ xiñ fv gue diŋ	22
 山东省阳谷县	ŝw duŋ ŝŋ iv gu xiw	168
 山东省渔业港口和渔业船舶管理条例	ŝw duŋ ŝŋ y ie gv kou he y ie ĉuw bo guw li tio li	11
+山东省枣庄市峄城区	ŝw duŋ ŝŋ zao ẑuv ŝi i ĉŋ qy	42
 山东省重特大生产安全事故隐患排查治理办法	ŝw duŋ ŝŋ ẑuŋ te da ŝŋ ĉw w qyw ŝi gu iñ huw pai ĉa ẑi li bw fa	7
 山东市	ŝw duŋ ŝi	590
 山东师范大学	ŝw duŋ ŝi fw da xye	7135
@@ -340028,6 +340059,7 @@ sort: by_weight
 山东威达	ŝw duŋ ue da	5
 山东潍坊	ŝw duŋ ue fv	9225
 山东卫视	ŝw duŋ ue ŝi	5650
+山东文康律师事务所	ŝw duŋ uñ kv ly ŝi ŝi u so	21
 山东现代学院	ŝw duŋ xiw dai xye yw	199
 山东新华制药股份有限公司	ŝw duŋ xiñ hua ẑi io gu fñ iu xiw guŋ si	32
 煽动性	ŝw duŋ xiŋ	2635
@@ -340038,6 +340070,8 @@ sort: by_weight
 山东峄县	ŝw duŋ i xiw	13
 山东渔翁股份	ŝw duŋ y uŋ gu fñ	87
 山东枣庄	ŝw duŋ zao ẑuv	2425
+山东枣庄市峄城区	ŝw duŋ zao ẑuv ŝi i ĉŋ qy	4
+山东枣庄峄城	ŝw duŋ zao ẑuv i ĉŋ	2
 山东章鼓	ŝw duŋ ẑv gu	192
 闪动着	ŝw duŋ ẑe	8505
 扇动着	ŝw duŋ ẑe	1395
@@ -340340,7 +340374,6 @@ sort: by_weight
 删减了吧	ŝw jiw le ba	1394
 山间小路	ŝw jiw xio lu	1725
 善建者不拔	ŝw jiw ẑe bu ba	9
-山姜	ŝw jiv	369
 山江乡	ŝw jiv xiv	1
 山脚	ŝw jio	30020
 山椒	ŝw jio	123
@@ -340534,16 +340567,18 @@ sort: by_weight
 山姆	ŝw mu	16710
 山木	ŝw mu	3555
 山姆大叔	ŝw mu da ŝu	1830
+珊目尔	ŝw mu er	2
 山姆高德	ŝw mu gao de	192
 山姆会员店	ŝw mu hue yw diw	322
 山木蓝	ŝw mu lw	2
 山木盲蝽	ŝw mu mv ĉuñ	1
 山姆士学府店	ŝw mu ŝi xye fu diw	3
 山姆小镇	ŝw mu xio ẑñ	8
+姗娜	ŝw na	810
 山那边	ŝw na biw	3150
 山那边的	ŝw na biw de	990
 善纳忠言	ŝw na ẑuŋ iw	25
-山柰	ŝw nai	368
+山柰	ŝw nai	30
 山柰酚	ŝw nai fñ	4
 山南	ŝw nw	23555
 陕南	ŝw nw	7660
@@ -341013,11 +341048,12 @@ sort: by_weight
 善溪乡	ŝw xi xiv	22
 鳝溪校区	ŝw xi xio qy	3
 陕西新闻	ŝw xi xiñ uñ	164
-山西阳泉	ŝw xi iv qyw	195
+山西杏梅律师事务所	ŝw xi xiŋ mei ly ŝi ŝi u so	7
+山西阳泉	ŝw xi iv qyw	1195
 山西医科大	ŝw xi i ke da	137
 山西医科大学	ŝw xi i ke da xye	2670
 山西营	ŝw xi iŋ	10
-山西盂县	ŝw xi y xiw	8
+山西盂县南娄镇	ŝw xi y xiw nw lou ẑñ	1
 山西宇星客车有限公司	ŝw xi y xiŋ ke ĉe iu xiw guŋ si	2
 山西运城	ŝw xi yñ ĉŋ	3410
 山西云冈石窟	ŝw xi yñ gv ŝi ku	1
@@ -341245,7 +341281,6 @@ sort: by_weight
 鳝鱼凉米线	ŝw y liv mi xiw	20
 善与人交	ŝw y rñ jio	360
 善与人同	ŝw y rñ tuŋ	435
-山萮酸	ŝw y suw	2
 善于学习	ŝw y xye xi	184
 山语银城	ŝw y iñ ĉŋ	128
 善于引导	ŝw y iñ dao	1665
@@ -342096,6 +342131,8 @@ sort: by_weight
 上海炒年糕	ŝv hai ĉao niw gao	14
 上海炒鳝糊	ŝv hai ĉao ŝw hu	1
 上海车展	ŝv hai ĉe ẑw	3630
+上海崇明县城桥镇	ŝv hai ĉuŋ miŋ xiw ĉŋ qio ẑñ	8
+上海崇明县庙镇	ŝv hai ĉuŋ miŋ xiw mio ẑñ	2
 上海传智	ŝv hai ĉuw ẑi	45
 上海春城	ŝv hai ĉuñ ĉŋ	18
 上海春卷	ŝv hai ĉuñ jyw	8
@@ -342121,6 +342158,7 @@ sort: by_weight
 上海东方电视台	ŝv hai duŋ fv diw ŝi tai	61
 上海东路	ŝv hai duŋ lu	36
 上海动物园	ŝv hai duŋ u yw	776
+上海段和段律师事务所	ŝv hai duw he duw ly ŝi ŝi u so	58
 上海队	ŝv hai due	5635
 上海儿童医学中心	ŝv hai er tuŋ i xye ẑuŋ xiñ	608
 上海发布	ŝv hai fa bu	119
@@ -342133,6 +342171,12 @@ sort: by_weight
 上海分行	ŝv hai fñ hv	22860
 上海凤凰	ŝv hai fŋ huv	6
 上海奉贤	ŝv hai fŋ xiw	1880
+上海奉贤区金汇镇	ŝv hai fŋ xiw qy jiñ hue ẑñ	9
+上海奉贤区南桥镇	ŝv hai fŋ xiw qy nw qio ẑñ	4
+上海奉贤区青村镇	ŝv hai fŋ xiw qy qiŋ cuñ ẑñ	1
+上海奉贤区四团镇	ŝv hai fŋ xiw qy si tuw ẑñ	3
+上海奉贤区头桥镇	ŝv hai fŋ xiw qy tou qio ẑñ	2
+上海奉贤区庄行镇	ŝv hai fŋ xiw qy ẑuv hv ẑñ	4
 上海复旦	ŝv hai fu dw	2940
 上海复旦大学	ŝv hai fu dw da xye	3710
 上海妇女用品商店	ŝv hai fu ny yŋ piñ ŝv diw	8
@@ -342183,6 +342227,13 @@ sort: by_weight
 上海机电	ŝv hai ji diw	1835
 上海鸡饭煲	ŝv hai ji fw bao	1
 上海机票	ŝv hai ji pio	23915
+上海嘉定区安亭镇	ŝv hai jia diŋ qy w tiŋ ẑñ	5
+上海嘉定区黄渡镇	ŝv hai jia diŋ qy huv du ẑñ	2
+上海嘉定区江桥镇	ŝv hai jia diŋ qy jiv qio ẑñ	2
+上海嘉定区马陆镇	ŝv hai jia diŋ qy ma lu ẑñ	8
+上海嘉定区南翔镇	ŝv hai jia diŋ qy nw xiv ẑñ	12
+上海嘉定区外冈镇	ŝv hai jia diŋ qy ui gv ẑñ	1
+上海嘉定区徐行镇	ŝv hai jia diŋ qy xy hv ẑñ	5
 上海佳豪	ŝv hai jia hao	1
 上海家化	ŝv hai jia hua	4695
 上海嘉园	ŝv hai jia yw	194
@@ -342195,6 +342246,14 @@ sort: by_weight
 上海金陵	ŝv hai jiñ liŋ	7
 上海金融	ŝv hai jiñ ruŋ	2425
 上海金融学院	ŝv hai jiñ ruŋ xye yw	128
+上海金山区漕泾镇	ŝv hai jiñ ŝw qy cao jiŋ ẑñ	5
+上海金山区枫泾镇	ŝv hai jiñ ŝw qy fŋ jiŋ ẑñ	15
+上海金山区金山卫镇	ŝv hai jiñ ŝw qy jiñ ŝw ue ẑñ	8
+上海金山区廊下镇	ŝv hai jiñ ŝw qy lv xia ẑñ	9
+上海金山区吕巷镇	ŝv hai jiñ ŝw qy ly xiv ẑñ	7
+上海金山区山阳镇	ŝv hai jiñ ŝw qy ŝw iv ẑñ	2
+上海金山区兴塔镇	ŝv hai jiñ ŝw qy xiŋ ta ẑñ	1
+上海金山区朱泾镇	ŝv hai jiñ ŝw qy ẑu jiŋ ẑñ	4
 上海警方	ŝv hai jiŋ fv	168
 上海九百	ŝv hai jiu bai	665
 上海局	ŝv hai jy	2130
@@ -342227,14 +342286,34 @@ sort: by_weight
 上海蜜饯	ŝv hai mi jiw	20
 上海蜜汁糖蹄	ŝv hai mi ẑi tv ti	1
 上海蜜汁小肉	ŝv hai mi ẑi xio rou	1
+上海闵行区虹桥镇	ŝv hai miñ hv qy huŋ qio ẑñ	3
+上海闵行区华漕镇	ŝv hai miñ hv qy hua cao ẑñ	12
+上海闵行区马桥镇	ŝv hai miñ hv qy ma qio ẑñ	5
+上海闵行区梅陇镇	ŝv hai miñ hv qy mei luŋ ẑñ	30
+上海闵行区浦江镇	ŝv hai miñ hv qy pu jiv ẑñ	14
+上海闵行区七宝镇	ŝv hai miñ hv qy qi bao ẑñ	13
+上海闵行区吴泾镇	ŝv hai miñ hv qy u jiŋ ẑñ	5
+上海闵行区莘庄镇	ŝv hai miñ hv qy xiñ ẑuv ẑñ	11
+上海闵行区颛桥镇	ŝv hai miñ hv qy ẑuw qio ẑñ	5
 伤害魔法	ŝv hai mo fa	25
 上海南	ŝv hai nw	6640
+上海南汇区惠南镇	ŝv hai nw hue qy hue nw ẑñ	1
+上海南汇区周浦镇	ŝv hai nw hue qy ẑou pu ẑñ	1
 上海南站	ŝv hai nw ẑw	3435
 上海能源	ŝv hai nŋ yw	1260
 上海农产品市场	ŝv hai nuŋ ĉw piñ ŝi ĉv	5
 上海农学院	ŝv hai nuŋ xye yw	7
 上海浦东发展银行	ŝv hai pu duŋ fa ẑw iñ hv	7415
 上海浦东机场	ŝv hai pu duŋ ji ĉv	7285
+上海浦东新区北蔡镇	ŝv hai pu duŋ xiñ qy bei cai ẑñ	4
+上海浦东新区高东镇	ŝv hai pu duŋ xiñ qy gao duŋ ẑñ	1
+上海浦东新区高行镇	ŝv hai pu duŋ xiñ qy gao hv ẑñ	1
+上海浦东新区高桥镇	ŝv hai pu duŋ xiñ qy gao qio ẑñ	4
+上海浦东新区合庆镇	ŝv hai pu duŋ xiñ qy he qiŋ ẑñ	3
+上海浦东新区花木镇	ŝv hai pu duŋ xiñ qy hua mu ẑñ	1
+上海浦东新区金桥镇	ŝv hai pu duŋ xiñ qy jiñ qio ẑñ	8
+上海浦东新区三林镇	ŝv hai pu duŋ xiñ qy sw liñ ẑñ	5
+上海浦东新区唐镇	ŝv hai pu duŋ xiñ qy tv ẑñ	7
 上海普天	ŝv hai pu tiw	1
 上海汽车	ŝv hai qi ĉe	12350
 上海期货交易所	ŝv hai qi ho jio i so	6555
@@ -342242,6 +342321,14 @@ sort: by_weight
 上海强生	ŝv hai qiv ŝŋ	12500
 上海青年报	ŝv hai qiŋ niw bao	2675
 上海青浦	ŝv hai qiŋ pu	3020
+上海青浦区白鹤镇	ŝv hai qiŋ pu qy bai he ẑñ	2
+上海青浦区华新镇	ŝv hai qiŋ pu qy hua xiñ ẑñ	2
+上海青浦区金泽镇	ŝv hai qiŋ pu qy jiñ ze ẑñ	3
+上海青浦区练塘镇	ŝv hai qiŋ pu qy liw tv ẑñ	4
+上海青浦区徐泾镇	ŝv hai qiŋ pu qy xy jiŋ ẑñ	6
+上海青浦区赵巷镇	ŝv hai qiŋ pu qy ẑao xiv ẑñ	4
+上海青浦区重固镇	ŝv hai qiŋ pu qy ẑuŋ gu ẑñ	6
+上海青浦区朱家角镇	ŝv hai qiŋ pu qy ẑu jia jio ẑñ	3
 上海清蒸螃蟹	ŝv hai qiŋ ẑŋ pv xie	1
 上海热线	ŝv hai re xiw	11410
 上海人	ŝv hai rñ	30425
@@ -342257,6 +342344,7 @@ sort: by_weight
 上海生物制品研究所	ŝv hai ŝŋ u ẑi piñ iw jiu so	106
 上海市	ŝv hai ŝi	500442
 上海市安全生产条例	ŝv hai ŝi w qyw ŝŋ ĉw tio li	39
+上海市北渔路	ŝv hai ŝi bei y lu	10000
 上海市产权交易管理办法	ŝv hai ŝi ĉw qyw jio i guw li bw fa	56
 上海市产权交易市场管理办法	ŝv hai ŝi ĉw qyw jio i ŝi ĉv guw li bw fa	18
 上海市场	ŝv hai ŝi ĉv	12915
@@ -342272,6 +342360,7 @@ sort: by_weight
 上海市工伤保险实施办法	ŝv hai ŝi guŋ ŝv bao xiw ŝi ŝi bw fa	90
 上海市公有住房承租权转让合同	ŝv hai ŝi guŋ iu ẑu fv ĉŋ zu qyw ẑuw rv he tuŋ	12
 上海市股份合作制企业暂行办法	ŝv hai ŝi gu fñ he zo ẑi qi ie zw xiŋ bw fa	19
+上海市恒谊律师事务所	ŝv hai ŝi hŋ i ly ŝi ŝi u so	9
 上海石化	ŝv hai ŝi hua	8
 上海市化学危险物品安全管理办法	ŝv hai ŝi hua xye ue xiw u piñ w qyw guw li bw fa	1
 上海市黄浦江上游水源保护条例	ŝv hai ŝi huv pu jiv ŝv iu ŝue yw bao hu tio li	10
@@ -342301,6 +342390,7 @@ sort: by_weight
 上海市委	ŝv hai ŝi ue	10950
 上海市文化娱乐市场管理条例	ŝv hai ŝi uñ hua y le ŝi ĉv guw li tio li	10
 上海市小城镇社会保险暂行办法	ŝv hai ŝi xio ĉŋ ẑñ ŝe hue bao xiw zw xiŋ bw fa	78
+上海市协力律师事务所	ŝv hai ŝi xie li ly ŝi ŝi u so	244
 上海市徐汇区天钥桥路	ŝv hai ŝi xy hue qy tiw io qio lu	1180
 上海市盐业管理若干规定	ŝv hai ŝi iw ie guw li ro gw gue diŋ	7
 上海市医疗机构管理办法	ŝv hai ŝi i lio ji gou guw li bw fa	10
@@ -342312,6 +342402,15 @@ sort: by_weight
 上海数腾软件科技股份有限公司	ŝv hai ŝu tŋ ruw jiw ke ji gu fñ iu xiw guŋ si	87
 上海水蜜桃	ŝv hai ŝue mi tao	104
 上海税收优惠政策	ŝv hai ŝue ŝou iu hue ẑŋ ce	3
+上海松江区车墩镇	ŝv hai suŋ jiv qy ĉe duñ ẑñ	5
+上海松江区洞泾镇	ŝv hai suŋ jiv qy duŋ jiŋ ẑñ	2
+上海松江区九亭镇	ŝv hai suŋ jiv qy jiu tiŋ ẑñ	12
+上海松江区泖港镇	ŝv hai suŋ jiv qy mao gv ẑñ	1
+上海松江区石湖荡镇	ŝv hai suŋ jiv qy ŝi hu dv ẑñ	1
+上海松江区泗泾镇	ŝv hai suŋ jiv qy si jiŋ ẑñ	10
+上海松江区新浜镇	ŝv hai suŋ jiv qy xiñ bv ẑñ	2
+上海松江区新桥镇	ŝv hai suŋ jiv qy xiñ qio ẑñ	8
+上海松江区叶榭镇	ŝv hai suŋ jiv qy ie xie ẑñ	6
 上海素火腿	ŝv hai su ho tue	1
 上海汤圆	ŝv hai tv yw	4
 上海体育场	ŝv hai ti y ĉv	249
@@ -343910,7 +344009,7 @@ sort: by_weight
 商业关系	ŝv ie guw xi	2615
 商业广场	ŝv ie guv ĉv	14675
 商业广告	ŝv ie guv gao	33855
-上野蜾蠃蜚	ŝv ie go lo fei	1
+上野蜾赢蜚	ŝv ie go iŋ fei	1
 商业合同	ŝv ie he tuŋ	1505
 商业化	ŝv ie hua	61920
 商业环境	ŝv ie huw jiŋ	12540
@@ -344724,7 +344823,6 @@ sort: by_weight
 少龙	ŝao luŋ	18575
 烧录	ŝao lu	22940
 少撸	ŝao lu	1231
-烧炉	ŝao lu	998
 少撸点	ŝao lu diw	1231
 烧录机	ŝao lu ji	1645
 烧录卡	ŝao lu ka	1600
@@ -344955,7 +345053,6 @@ sort: by_weight
 少所推让	ŝao so tue rv	1
 少所许可	ŝao so xy ke	1
 烧塌	ŝao ta	380
-烧胎	ŝao tai	4
 烧炭	ŝao tw	2950
 哨探	ŝao tw	965
 烧炭工	ŝao tw guŋ	9
@@ -345146,7 +345243,6 @@ sort: by_weight
 少泽	ŝao ze	7
 少泽穴	ŝao ze xye	3
 少渣	ŝao ẑa	333
-哨站	ŝao ẑw	7
 少掌柜	ŝao ẑv gue	210
 烧着	ŝao ẑao	8035
 烧着	ŝao ẑe	8035
@@ -345177,8 +345273,9 @@ sort: by_weight
 烧砖	ŝao ẑuw	2190
 少壮	ŝao ẑuv	4320
 少装	ŝao ẑuv	1680
-# 邵庄	shao zhuang	0
+邵庄	ŝao ẑuv	48
 少壮不努力	ŝao ẑuv bu nu li	1700
+少壮不努力老大徒伤悲	ŝao ẑuv bu nu li lao da tu ŝv bei	4
 邵庄村委会	ŝao ẑuv cuñ ue hue	2
 少壮工夫老始成	ŝao ẑuv guŋ fu lao ŝi ĉŋ	3
 少壮几时兮奈老何	ŝao ẑuv ji ŝi xi nai lao he	2
@@ -347063,9 +347160,10 @@ sort: by_weight
 伸长	ŝñ ĉv	19550
 身长	ŝñ ĉv	18930
 深长	ŝñ ĉv	8110
-# 沈场	shen chang	0
-# 沈畅	shen chang	0
+沈畅	ŝñ ĉv	13
+沈场	ŝñ ĉv	4
 伸长脖子	ŝñ ĉv bo zi	3120
+深长城	ŝñ ĉv ĉŋ	12500
 伸长率	ŝñ ĉv ly	6585
 沈潮	ŝñ ĉao	4
 沈朝初	ŝñ ĉao ĉu	1
@@ -347093,7 +347191,6 @@ sort: by_weight
 沈冲	ŝñ ĉuŋ	12
 神冲	ŝñ ĉuŋ	5
 深仇	ŝñ ĉou	2000
-审丑	ŝñ ĉou	47
 神抽	ŝñ ĉou	9
 深仇大恨	ŝñ ĉou da hñ	4370
 深雠大恨	ŝñ ĉou da hñ	1
@@ -347532,12 +347629,14 @@ sort: by_weight
 沈恒	ŝñ hŋ	6
 深红	ŝñ huŋ	10930
 沈鸿	ŝñ huŋ	60
-# 沈虹	shen hong	0
+沈虹	ŝñ huŋ	52
+深红长矛	ŝñ huŋ ĉv mao	5
 沈宏非	ŝñ huŋ fei	121
 深鸿基	ŝñ huŋ ji	12500
 沈鸿烈	ŝñ huŋ lie	55
 深红玫瑰鹦鹉	ŝñ huŋ mei gue iŋ u	1
 深红色	ŝñ huŋ se	10050
+沈红雨	ŝñ huŋ y	385
 深红之网	ŝñ huŋ ẑi uv	146
 深红钻石	ŝñ huŋ zuw ŝi	1
 身后	ŝñ hou	256555
@@ -348050,12 +348149,10 @@ sort: by_weight
 参莲胶囊	ŝñ liw jio nv	1
 身量	ŝñ liv	2750
 渗量	ŝñ liv	365
-深聊	ŝñ lio	1460
-神聊	ŝñ lio	460
-# 沈辽	shen liao	0
+神聊	ŝñ lio	1460
+沈辽	ŝñ lio	19
 身临	ŝñ liñ	4540
-深林	ŝñ liñ	36
-# 沈遴奇	shen lin qi	0
+沈遴奇	ŝñ liñ qi	1
 身临其境	ŝñ liñ qi jiŋ	24255
 深林人不知	ŝñ liñ rñ bu ẑi	1180
 申领	ŝñ liŋ	74290
@@ -348112,8 +348209,8 @@ sort: by_weight
 神马事	ŝñ ma ŝi	65
 神马实业	ŝñ ma ŝi ie	12500
 深埋	ŝñ mai	15495
+申脉	ŝñ mai	1
 参麦团鱼	ŝñ mai tuw y	21
-申脉穴	ŝñ mai xye	5
 参麦雪梨瘦肉汤	ŝñ mai xye li ŝou rou tv	1
 深埋在	ŝñ mai zai	3880
 参麦注射液	ŝñ mai ẑu ŝe ie	67
@@ -348283,7 +348380,7 @@ sort: by_weight
 什么罪	ŝñ me zue	3610
 什么作用	ŝñ me zo yŋ	12170
 审美	ŝñ mei	133445
-# 申梅	shen mei	0
+申梅	ŝñ mei	4
 审美标准	ŝñ mei bio ẑuñ	4380
 审美差异	ŝñ mei ĉa i	165
 审美对象	ŝñ mei due xiv	1965
@@ -349057,13 +349154,14 @@ sort: by_weight
 沈水东路	ŝñ ŝue duŋ lu	10
 深水仿四额齿蟹	ŝñ ŝue fv si e ĉi xie	1
 深水港	ŝñ ŝue gv	6165
+深水金线鱼黄肚	ŝñ ŝue jiñ xiw y huv du	1
 深水区	ŝñ ŝue qy	3700
 深水塘	ŝñ ŝue tv	36
 沈水湾	ŝñ ŝue uw	114
 深水炸弹	ŝñ ŝue ẑa dw	1695
 申硕	ŝñ ŝo	1815
 申说	ŝñ ŝo	1025
-# 沈硕	shen shuo	0
+沈硕	ŝñ ŝo	3
 深思	ŝñ si	40480
 神似	ŝñ si	10020
 神思	ŝñ si	5595
@@ -350660,7 +350758,6 @@ sort: by_weight
 声干扰	ŝŋ gw rao	275
 省港	ŝŋ gv	3095
 省港大罢工	ŝŋ gv da ba guŋ	625
-盛冈市	ŝŋ gv ŝi	5
 升高	ŝŋ gao	190730
 生稿	ŝŋ gao	111
 省高级人民法院	ŝŋ gao ji rñ miñ fa yw	4205
@@ -351771,6 +351868,7 @@ sort: by_weight
 圣山	ŝŋ ŝw	6570
 升山采珠	ŝŋ ŝw cai ẑu	2
 剩山残水	ŝŋ ŝw cw ŝue	1
+圣姗娜	ŝŋ ŝw na	20
 升上	ŝŋ ŝv	12165
 圣上	ŝŋ ŝv	10375
 升上来	ŝŋ ŝv lai	1180
@@ -351935,7 +352033,7 @@ sort: by_weight
 胜算可操	ŝŋ suw ke cao	1
 绳索	ŝŋ so	43775
 圣所	ŝŋ so	6
-圣索菲亚教堂	ŝŋ so fei ia jio tv	265
+圣索非亚教堂	ŝŋ so fei ia jio tv	265
 生态	ŝŋ tai	500296
 生态安全	ŝŋ tai w qyw	10105
 生态保护	ŝŋ tai bao hu	27245
@@ -352241,7 +352339,8 @@ sort: by_weight
 # 盛熙	sheng xi	0
 盛锡福	ŝŋ xi fu	50
 声西击东	ŝŋ xi ji duŋ	3
-圣西门	ŝŋ xi mñ	6
+圣喜美	ŝŋ xi mei	28
+圣西门	ŝŋ xi mñ	46
 胜西施	ŝŋ xi ŝi	3
 省系统	ŝŋ xi tuŋ	103
 声希味淡	ŝŋ xi ue dw	3
@@ -353254,8 +353353,8 @@ sort: by_weight
 食草龙	ŝi cao luŋ	199
 食草兽	ŝi cao ŝou	25
 实测	ŝi ce	30920
-失策	ŝi ce	15100
-史册	ŝi ce	4375
+史册	ŝi ce	14375
+失策	ŝi ce	5100
 施策	ŝi ce	3333
 十册	ŝi ce	1460
 施测	ŝi ce	371
@@ -353739,6 +353838,7 @@ sort: by_weight
 时代风貌	ŝi dai fŋ mao	2370
 时代风气	ŝi dai fŋ qi	360
 时代感	ŝi dai gw	13460
+时代购物	ŝi dai gou u	115
 饰带沟鰕虎鱼	ŝi dai gou xia hu y	1
 时代广场	ŝi dai guv ĉv	20450
 时代华府	ŝi dai hua fu	165
@@ -353747,6 +353847,7 @@ sort: by_weight
 时代集团	ŝi dai ji tuw	3130
 世代交替	ŝi dai jio ti	665
 时代精神	ŝi dai jiŋ ŝñ	31685
+时代九和律师事务所	ŝi dai jiu he ly ŝi ŝi u so	56
 时代峻峰	ŝi dai jyñ fŋ	104
 时代科技	ŝi dai ke ji	4805
 时代课题	ŝi dai ke ti	181
@@ -355281,7 +355382,6 @@ sort: by_weight
 是坏	ŝi hui	229
 使唤	ŝi huw	10520
 仕宦	ŝi huw	3300
-十环	ŝi huw	999
 失欢	ŝi huw	145
 # 世焕	shi huan	0
 实环境	ŝi huw jiŋ	73
@@ -360703,17 +360803,17 @@ sort: by_weight
 世业洲	ŝi ie ẑou	193
 事业主	ŝi ie ẑu	20
 失业状态	ŝi ie ẑuv tai	855
+是以	ŝi i	500332
+十一	ŝi i	347370
 适宜	ŝi i	244600
 事宜	ŝi i	125743
 示意	ŝi i	82120
-释义	ŝi i	57730
-是以	ŝi i	50332
-十一	ŝi i	47370
-失忆	ŝi i	41534
+诗意	ŝi i	57730
 失意	ŝi i	41155
-诗意	ŝi i	37725
+释义	ŝi i	37725
 施以	ŝi i	21650
 十亿	ŝi i	21275
+失忆	ŝi i	15345
 释疑	ŝi i	11720
 拾遗	ŝi i	10210
 时宜	ŝi i	9385
@@ -363641,7 +363741,6 @@ sort: by_weight
 寿面	ŝou miw	9
 兽面牌	ŝou miw pai	1
 兽面纹	ŝou miw uñ	2195
-手描	ŝou mio	5
 手民	ŝou miñ	1
 寿民路	ŝou miñ lu	1
 寿命	ŝou miŋ	194640
@@ -365105,6 +365204,7 @@ sort: by_weight
 数尺	ŝu ĉi	5530
 梳齿	ŝu ĉi	2180
 书痴	ŝu ĉi	980
+术赤	ŝu ĉi	10
 书虫	ŝu ĉuŋ	7950
 书虫子	ŝu ĉuŋ zi	90
 输出	ŝu ĉu	500346
@@ -366270,8 +366370,7 @@ sort: by_weight
 树龄	ŝu liŋ	12005
 属灵	ŝu liŋ	7620
 # 淑玲	shu ling	0
-树瘤	ŝu liu	7
-树鹨	ŝu liu	3
+树鹨	ŝu liu	1
 属龙	ŝu luŋ	1040
 梳拢	ŝu luŋ	530
 鼠龙	ŝu luŋ	70
@@ -366871,9 +366970,8 @@ sort: by_weight
 数十亿	ŝu ŝi i	10235
 数十种	ŝu ŝi ẑuŋ	14350
 熟手	ŝu ŝou	5560
+束手	ŝu ŝou	3455
 戍守	ŝu ŝou	2055
-束手	ŝu ŝou	345
-书首	ŝu ŝou	7
 束手待毙	ŝu ŝou dai bi	1505
 鼠首偾事	ŝu ŝou fñ ŝi	1
 束手缚脚	ŝu ŝou fu jio	10
@@ -367033,14 +367131,11 @@ sort: by_weight
 庶往共饥渴	ŝu uv guŋ ji ke	1
 暑往寒来	ŝu uv hw lai	350
 蜀王无近信	ŝu uv u jiñ xiñ	1
+数为	ŝu ue	80080
 数位	ŝu ue	4640
 殊为	ŝu ue	3360
-戍卫	ŝu ue	749
-鼠尾	ŝu ue	33
-书尾	ŝu ue	7
-# 书伟	shu wei	0
-# 数为	shu wei	0
-# 舒位	shu wei	0
+书伟	ŝu ue	750
+舒位	ŝu ue	7
 鼠尾草	ŝu ue cao	5040
 鼠尾草粉	ŝu ue cao fñ	11
 数位动规	ŝu ue duŋ gue	15
@@ -367441,7 +367536,6 @@ sort: by_weight
 孰云网恢恢	ŝu yñ uv hue hue	1
 数载	ŝu zai	3880
 竖在	ŝu zai	1111
-鼠灾	ŝu zai	444
 束在高阁	ŝu zai gao ge	1
 树栽子	ŝu zai zi	1
 树葬	ŝu zv	9999
@@ -367453,10 +367547,9 @@ sort: by_weight
 舒展	ŝu ẑw	51285
 书展	ŝu ẑw	10635
 舒展着	ŝu ẑw ẑe	1920
+署长	ŝu ẑv	13310
+数丈	ŝu ẑv	8475
 舒张	ŝu ẑv	5120
-署长	ŝu ẑv	3310
-数张	ŝu ẑv	1689
-数丈	ŝu ẑv	847
 数章	ŝu ẑv	255
 熟张	ŝu ẑv	2
 舒张压	ŝu ẑv ia	6540
@@ -371108,10 +371201,9 @@ sort: by_weight
 水乡	ŝue xiv	39435
 谁想	ŝue xiv	17225
 税项	ŝue xiv	12730
+水巷	ŝue xiv	2200
 睡相	ŝue xiv	1675
-水相	ŝue xiv	777
-水巷	ŝue xiv	469
-睡乡	ŝue xiv	111
+睡乡	ŝue xiv	1111
 水箱副水壶	ŝue xiv fu ŝue hu	4
 水湘公寓	ŝue xiv guŋ y	7
 水箱间	ŝue xiv jiw	87
@@ -371307,8 +371399,8 @@ sort: by_weight
 谁再说	ŝue zai ŝo	1233
 谁在说	ŝue zai ŝo	112
 水葬	ŝue zv	1605
-水蚤	ŝue zao	6789
-水藻	ŝue zao	999
+水藻	ŝue zao	9999
+水蚤	ŝue zao	11
 税则	ŝue ze	18040
 水泽	ŝue ze	2180
 水泽乃乃	ŝue ze nai nai	6666
@@ -372284,7 +372376,6 @@ sort: by_weight
 说条念款	ŝo tio niw kuw	1
 说停就停	ŝo tiŋ jiu tiŋ	390
 说通	ŝo tuŋ	2110
-说透	ŝo tou	1689
 说头	ŝo tou	1130
 说头儿	ŝo tou er	30
 说完	ŝo uw	309970
@@ -372849,6 +372940,7 @@ sort: by_weight
 四川农业大学	si ĉuw nuŋ ie da xye	5275
 四川泡菜	si ĉuw pao cai	1001
 四川盆地	si ĉuw pñ di	8395
+四川郫县犀浦镇	si ĉuw pi xiw xi pu ẑñ	1
 四川前个木虱	si ĉuw qiw ge mu ŝi	1
 四川犍为	si ĉuw qiw ue	2
 四川青川犬	si ĉuw qiŋ ĉuw qyw	1
@@ -372914,6 +373006,7 @@ sort: by_weight
 四川扬琴	si ĉuw iv qiñ	120
 四川宜宾	si ĉuw i biñ	3065
 四川音乐学院	si ĉuw iñ ye xye yw	5025
+四川英特信联合律师事务所	si ĉuw iŋ te xiñ liw he ly ŝi ŝi u so	4
 四川在线	si ĉuw zai xiw	11590
 四川榨菜	si ĉuw ẑa cai	193
 四川𬶐	si ĉuw ẑao	1
@@ -373890,8 +373983,8 @@ sort: by_weight
 四进三	si jiñ sw	136
 四进制	si jiñ ẑi	144
 四境	si jiŋ	1540
+泗泾	si jiŋ	1180
 死静	si jiŋ	665
-# 泗泾	si jing	0
 四警合一	si jiŋ he i	8
 四经路	si jiŋ lu	5
 四境社区	si jiŋ ŝe qy	1
@@ -374345,6 +374438,9 @@ sort: by_weight
 司米安	si mi w	14
 私密处	si mi ĉu	470
 思密达	si mi da	840
+斯米兰	si mi lw	153
+斯密斯	si mi si	525
+# 缌蜜丝	si mi si	0
 私密性	si mi xiŋ	9755
 私密账号	si mi ẑv hao	177
 四面	si miw	66195
@@ -375093,7 +375189,7 @@ sort: by_weight
 斯泰勒海牛	si tai le hai niu	1
 斯泰潘内克	si tai pw nei ke	17
 似太平洋无前螨	si tai piŋ iv u qiw mw	1
-斯坦	si tw	537
+斯坦	si tw	55370
 斯坦恩布莱德	si tw ñ bu lai de	1
 斯坦菲尔德芋螺	si tw fei er de y lo	1
 斯坦福	si tw fu	11825
@@ -375870,7 +375966,6 @@ sort: by_weight
 私宰	si zai	1210
 死仔	si zai	7
 斯赞蜜蜂茧蜂	si zw mi fŋ jiw fŋ	1
-丝藻	si zao	3
 四则	si ze	4595
 斯泽比亚克	si ze bi ia ke	10
 四则计算	si ze ji suw	29
@@ -376853,7 +376948,6 @@ sort: by_weight
 松下电器	suŋ xia diw qi	9345
 松下电器公司	suŋ xia diw qi guŋ si	57
 松下公司	suŋ xia guŋ si	5295
-崧厦街道	suŋ xia jie dao	2
 送下来	suŋ xia lai	165
 松下奈绪	suŋ xia nai xy	2
 松下牌	suŋ xia pai	240
@@ -376864,11 +376958,10 @@ sort: by_weight
 松下问童子	suŋ xia uñ tuŋ zi	1180
 松下幸之助	suŋ xia xiŋ ẑi ẑu	4580
 松下站	suŋ xia ẑw	1
-崧厦镇	suŋ xia ẑñ	2
-嵩县	suŋ xiw	311
+嵩县	suŋ xiw	3110
 松闲	suŋ xiw	100
+宋献	suŋ xiw	7
 宋宪	suŋ xiw	5
-# 宋献	song xian	0
 送鲜花	suŋ xiw hua	197
 宋先生	suŋ xiw ŝŋ	8940
 松香	suŋ xiv	15190
@@ -377706,7 +377799,6 @@ sort: by_weight
 速来电	su lai diw	13240
 苏莱曼	su lai mw	1395
 苏莱曼大帝	su lai mw da di	5
-酥烂	su lw	89
 肃立	su li	5285
 酥梨	su li	4500
 俗例	su li	400
@@ -377882,13 +377974,12 @@ sort: by_weight
 宿那鬼	su na gue	191
 苏纳克	su na ke	141
 苏南	su nw	22330
-肃南	su nw	32
-肃南县	su nw xiw	34
+肃南	su nw	1320
+肃南县	su nw xiw	345
 嗉囊	su nv	1070
-# 苏内	su nei	0
+苏内	su nei	16
 苏内村	su nei cuñ	1
 苏内社区	su nei ŝe qy	2
-酥嫩	su nñ	89
 苏尼特右旗	su ni te iu qi	720
 苏尼特左旗	su ni te zo qi	590
 俗念	su niw	1000
@@ -377996,7 +378087,6 @@ sort: by_weight
 肃杀	su ŝa	6550
 素沙拉	su ŝa la	1
 缩砂密	su ŝa mi	9999
-缩砂仁	su ŝa rñ	4
 肃杀之气	su ŝa ẑi qi	1535
 苏珊	su ŝw	16810
 # 苏山	su shan	0
@@ -380056,7 +380146,6 @@ sort: by_weight
 孙芸芸	suñ yñ yñ	200
 榫凿	suñ zao	40
 孙贼	suñ zei	9999
-损招	suñ ẑao	9
 损招儿	suñ ẑao er	9999
 损着儿	suñ ẑao er	1111
 孙哲平	suñ ẑe piŋ	157
@@ -380246,7 +380335,7 @@ sort: by_weight
 所费不赀	so fei bu zi	345
 索菲亚	so fei ia	10545
 索非亚	so fei ia	5170
-索菲娅	so fei ia	5
+索菲娅	so fei ia	1
 索菲亚高地	so fei ia gao di	1
 嗍粉	so fñ	988
 所附	so fu	28130
@@ -380968,9 +381057,7 @@ sort: by_weight
 缩着	so ẑe	2915
 缩着脖子	so ẑe bo zi	905
 锁着呢	so ẑe ne	60
-锁帧	so ẑñ	467
-# 索镇	suo zhen	0
-锁帧率	so ẑñ ly	67
+索镇	so ẑñ	45
 所证	so ẑŋ	9180
 所致	so ẑi	190535
 所指	so ẑi	90965
@@ -381057,7 +381144,6 @@ sort: by_weight
 塔崩	ta bŋ	150
 它比	ta bi	25825
 他比	ta bi	22995
-她比	ta bi	948
 塌鼻	ta bi	835
 塌鼻猴	ta bi hou	2
 他比我	ta bi o	4705
@@ -382588,6 +382674,7 @@ sort: by_weight
 太被动了	tai bei duŋ le	390
 台北豆浆	tai bei dou jiv	6
 台北队	tai bei due	435
+台北工专	tai bei guŋ ẑuw	115
 太悲观了	tai bei guw le	545
 台杯鬼轮虫	tai bei gue luñ ĉuŋ	1
 鲐背鹤发	tai bei he fa	111
@@ -383254,7 +383341,8 @@ sort: by_weight
 太糊涂	tai hu tu	5555
 太糊涂了	tai hu tu le	140
 台湖西街	tai hu xi jie	1
-太湖县	tai hu xiw	431
+太湖县	tai hu xiw	4310
+台湖镇政府	tai hu ẑñ ẑŋ fu	11
 太花	tai hua	2105
 太滑	tai hua	1500
 # 太华	tai hua	0
@@ -384174,7 +384262,7 @@ sort: by_weight
 台山人	tai ŝw rñ	420
 泰山若厉	tai ŝw ro li	1
 泰山三美	tai ŝw sw mei	395
-台山市	tai ŝw ŝi	865
+台山市	tai ŝw ŝi	9865
 泰山石敢当	tai ŝw ŝi gw dv	725
 泰山石膏	tai ŝw ŝi gao	147
 泰山石刻	tai ŝw ŝi ke	165
@@ -386509,8 +386597,10 @@ sort: by_weight
 唐蔡路	tv cai lu	75
 糖厂	tv ĉv	11725
 唐场豆腐乳	tv ĉv dou fu ru	22
-唐菖蒲	tv ĉv pu	361
-唐昌镇	tv ĉv ẑñ	7
+唐菖蒲	tv ĉv pu	1610
+唐菖蒲大造桥虫	tv ĉv pu da zao qio ĉuŋ	1
+唐菖蒲小造桥虫	tv ĉv pu xio zao qio ĉuŋ	1
+唐昌镇	tv ĉv ẑñ	170
 唐朝	tv ĉao	94425
 糖炒大扁	tv ĉao da biw	5
 唐朝官制	tv ĉao guw ẑi	25
@@ -386985,7 +387075,6 @@ sort: by_weight
 唐灭高句丽之战	tv mie gao gou li ẑi ẑw	1
 唐明皇	tv miŋ huv	4860
 唐明律合编	tv miŋ ly he biw	50
-唐末	tv mo	444
 唐末农民战争	tv mo nuŋ miñ ẑw ẑŋ	90
 唐某	tv mou	1
 汤姆	tv mu	52040
@@ -387505,7 +387594,6 @@ sort: by_weight
 掏包	tao bao	9
 讨保	tao bao	2
 套包	tao bao	1
-# 套保	tao bao	0
 淘宝版	tao bao bw	127
 淘宝店	tao bao diw	10965
 淘宝店铺	tao bao diw pu	5375
@@ -388382,11 +388470,11 @@ sort: by_weight
 套用	tao yŋ	41085
 陶俑	tao yŋ	3815
 陶勇	tao yŋ	171
-# 陶永	tao yong	0
+陶永	tao yŋ	13
 淘友圈	tao iu qyw	154
+陶玉	tao y	3210
 套语	tao y	1840
 逃狱	tao y	1830
-# 陶玉	tao yu	0
 桃峪口	tao y kou	7
 桃峪口水库	tao y kou ŝue ku	12
 陶玉玲	tao y liŋ	139
@@ -388497,7 +388585,6 @@ sort: by_weight
 特奥会	te ao hue	3935
 特百惠	te bai hue	2305
 特棒	te bv	1935
-特薄	te bao	1398
 特报	te bao	825
 特保案	te bao w	539
 特暴龙未定种	te bao luŋ ue diŋ ẑuŋ	1
@@ -391187,7 +391274,6 @@ sort: by_weight
 甜茶	tiw ĉa	599
 天差地别	tiw ĉa di bie	2225
 天差地远	tiw ĉa di yw	42
-添柴	tiw ĉai	234
 田产	tiw ĉw	4560
 天长	tiw ĉv	12150
 田常	tiw ĉv	925
@@ -391602,8 +391688,8 @@ sort: by_weight
 甜粿	tiw go	10
 天国大魔境	tiw go da mo jiŋ	118
 天国的嫁衣	tiw go de jia i	171
+天海	tiw hai	13950
 填海	tiw hai	8155
-天海	tiw hai	5
 天海藏	tiw hai cv	175
 天还黑着	tiw hai hei ẑe	69
 天还没黑	tiw hai mei hei	25775
@@ -391899,6 +391985,7 @@ sort: by_weight
 天津路口	tiw jiñ lu kou	20
 天津美术学院	tiw jiñ mei ŝu xye yw	3810
 天津南	tiw jiñ nw	810
+天津宁河县芦台镇	tiw jiñ niŋ he xiw lu tai ẑñ	2
 天津农学院	tiw jiñ nuŋ xye yw	1010
 天津女排	tiw jiñ ny pai	815
 天津普林	tiw jiñ pu liñ	7
@@ -391948,6 +392035,7 @@ sort: by_weight
 天津新村	tiw jiñ xiñ cuñ	43
 天津新港	tiw jiñ xiñ gv	1680
 天津新技术产业园区	tiw jiñ xiñ ji ŝu ĉw ie yw qy	35
+天津耀达律师事务所	tiw jiñ io da ly ŝi ŝi u so	8
 天津医科大学	tiw jiñ i ke da xye	4635
 天津一汽	tiw jiñ i qi	29372
 天津一汽夏利汽车股份有限公司	tiw jiñ i qi xia li qi ĉe gu fñ iu xiw guŋ si	2
@@ -392200,7 +392288,10 @@ sort: by_weight
 天伦酒店	tiw luñ jiu diw	3
 天伦乐	tiw luñ le	315
 天伦乐事	tiw luñ le ŝi	1
+天伦随园	tiw luñ sue yw	20
+天伦王朝	tiw luñ uv ĉao	940
 天伦之乐	tiw luñ ẑi le	9755
+天伦置业	tiw luñ ẑi ie	9
 田螺	tiw lo	12760
 天罗	tiw lo	34
 天罗布	tiw lo bu	1
@@ -392209,7 +392300,7 @@ sort: by_weight
 田螺酿肉	tiw lo niv rou	12
 田律	tiw ly	570
 天马	tiw ma	41310
-天麻	tiw ma	3212
+天麻	tiw ma	32128
 田马	tiw ma	3
 天马杯	tiw ma bei	9
 天马大桥	tiw ma da qio	26
@@ -392229,7 +392320,8 @@ sort: by_weight
 天马精化	tiw ma jiŋ hua	9
 天麻酒	tiw ma jiu	141
 天马来出月支窟	tiw ma lai ĉu ye ẑi ku	1
-田马路	tiw ma lu	2
+田马路	tiw ma lu	29
+天麻芦	tiw ma lu	1
 天麻片	tiw ma piw	8
 天麻汽锅鸡	tiw ma qi go ji	69
 天麻全鸡	tiw ma qyw ji	3
@@ -392934,9 +393026,11 @@ sort: by_weight
 天堂的树	tiw tv de ŝu	90
 天堂地狱	tiw tv di y	2230
 天堂顶	tiw tv diŋ	37
+天堂分割者	tiw tv fñ ge ẑe	3
 天堂凤蝶	tiw tv fŋ die	13
 天堂河	tiw tv he	136
 天堂河小区	tiw tv he xio qy	3
+天堂火龙窟	tiw tv ho luŋ ku	1
 天堂极乐鸟	tiw tv ji le nio	2
 天堂金花蛇	tiw tv jiñ hua ŝe	10
 天堂鸟	tiw tv nio	16050
@@ -392944,6 +393038,12 @@ sort: by_weight
 天堂伞	tiw tv sw	505
 天堂山	tiw tv ŝw	148
 天堂树	tiw tv ŝu	7
+天堂书声	tiw tv ŝu ŝŋ	1
+天堂水之都	tiw tv ŝue ẑi du	1
+天堂午餐	tiw tv u cw	153
+天堂亚丁城	tiw tv ia diŋ ĉŋ	1
+天堂眼藏饰	tiw tv iw cv ŝi	1
+天堂幽与冥	tiw tv iu y miŋ	1
 天堂寨林场	tiw tv ẑai liñ ĉv	1
 天堂之门	tiw tv ẑi mñ	109
 天堂制造	tiw tv ẑi zao	172
@@ -392956,6 +393056,7 @@ sort: by_weight
 天体学家	tiw ti xye jia	10
 天体营	tiw ti iŋ	470
 天体战士	tiw ti ẑw ŝi	24
+天体走秀	tiw ti zou xiu	22
 天天	tiw tiw	411485
 甜甜	tiw tiw	30070
 田田	tiw tiw	17595
@@ -392969,6 +393070,7 @@ sort: by_weight
 天天都	tiw tiw dou	18635
 天天读	tiw tiw du	1505
 天天更新	tiw tiw gŋ xiñ	4440
+天天购物网	tiw tiw gou u uv	240
 天天好	tiw tiw hao	6455
 甜甜花	tiw tiw hua	159
 甜甜花酿鸡	tiw tiw hua niv ji	156
@@ -392985,6 +393087,7 @@ sort: by_weight
 甜甜美美	tiw tiw mei mei	185
 甜甜蜜蜜	tiw tiw mi mi	4700
 天天免费	tiw tiw miw fei	4895
+天天汽车网	tiw tiw qi ĉe uv	7
 甜甜圈	tiw tiw qyw	6001
 甜甜圈龟	tiw tiw qyw gue	3
 甜甜软软	tiw tiw ruw ruw	75
@@ -393076,6 +393179,7 @@ sort: by_weight
 天外村	tiw ui cuñ	73
 天外飞来	tiw ui fei lai	1110
 天外飞仙	tiw ui fei xiw	7650
+天外红	tiw ui huŋ	1
 天外来客	tiw ui lai ke	3525
 天外来物	tiw ui lai u	196
 天外天	tiw ui tiw	4150
@@ -393091,7 +393195,7 @@ sort: by_weight
 田湾彝族乡	tiw uw i zu xiv	1
 天王	tiw uv	67195
 天网	tiw uv	32565
-# 田王	tian wang	0
+田王	tiw uv	45
 天王补心丹	tiw uv bu xiñ dw	13
 天王补心丸	tiw uv bu xiñ uw	7
 天王殿	tiw uv diw	7155
@@ -393163,8 +393267,10 @@ sort: by_weight
 天下安	tiw xia w	200
 天下霸图	tiw xia ba tu	225
 天下本无事	tiw xia bñ u ŝi	685
+天下币	tiw xia bi	331
 天下不乱	tiw xia bu luw	168
 天下不能荡也	tiw xia bu nŋ dv ie	1
+天下车友俱乐部	tiw xia ĉe iu jy le bu	17
 天下城市场	tiw xia ĉŋ ŝi ĉv	230
 天下大乱	tiw xia da luw	9825
 天下大事	tiw xia da ŝi	4190
@@ -393203,6 +393309,7 @@ sort: by_weight
 天下人间	tiw xia rñ jiw	155
 天下伤心处	tiw xia ŝv xiñ ĉu	1
 天下事	tiw xia ŝi	16340
+天下收藏第七日	tiw xia ŝou cv di qi ri	1
 天下虽大	tiw xia sue da	95
 天下太平	tiw xia tai piŋ	6480
 天下滔滔	tiw xia tao tao	6
@@ -393282,8 +393389,10 @@ sort: by_weight
 填项目	tiw xiv mu	130
 天香披肩	tiw xiv pi jiw	5
 田乡枪乌贼	tiw xiv qiv u zei	1
+天香实业	tiw xiv ŝi ie	12500
 天祥寺	tiw xiv si	6
 天祥寺街	tiw xiv si jie	4
+天相投资	tiw xiv tou zi	128
 天象仪	tiw xiv i	325
 天香颐北里	tiw xiv i bei li	3
 天香一品	tiw xiv i piñ	1
@@ -393342,6 +393451,8 @@ sort: by_weight
 天行赤目	tiw xiŋ ĉi mu	1
 天星村	tiw xiŋ cuñ	50
 田兴村	tiw xiŋ cuñ	4
+天行单	tiw xiŋ dw	87
+天行单向安全隔离光闸	tiw xiŋ dw xiv w qyw ge li guv ẑa	87
 天星湖	tiw xiŋ hu	9
 天行健	tiw xiŋ jiw	13170
 天兴居	tiw xiŋ jy	262
@@ -393359,6 +393470,7 @@ sort: by_weight
 天选	tiw xyw	9999
 天璇	tiw xyw	1125
 天玄冰	tiw xyw biŋ	116
+天炫彩	tiw xyw cai	15
 天旋地转	tiw xyw di ẑuw	7915
 天选姬	tiw xyw ji	106
 天选者	tiw xyw ẑe	126
@@ -393410,7 +393522,7 @@ sort: by_weight
 甜言蜜语	tiw iw mi y	27140
 恬言柔舌	tiw iw rou ŝe	1
 天眼通	tiw iw tuŋ	1195
-添盐着醋	tiw iw ẑo cu	2
+添盐着醋	tiw iw ẑe cu	1
 天阳	tiw iv	1
 # 田阳	tian yang	0
 田洋村	tiw iv cuñ	5
@@ -393430,7 +393542,8 @@ sort: by_weight
 天也不懂情	tiw ie bu duŋ qiŋ	143
 田野调查	tiw ie dio ĉa	2442
 天野浩成	tiw ie hao ĉŋ	1
-甜叶菊	tiw ie jy	11
+田野家	tiw ie jia	833
+甜叶菊	tiw ie jy	1211
 田野里	tiw ie li	6835
 田野猎犬	tiw ie lie qyw	25
 田野上	tiw ie ŝv	4965
@@ -393440,12 +393553,13 @@ sort: by_weight
 天意	tiw i	36325
 天翼	tiw i	6225
 天衣	tiw i	2905
-天一	tiw i	103
+天一	tiw i	1030
+天逸	tiw i	120
 天乙	tiw i	35
-# 天仪	tian yi	0
-# 天逸	tian yi	0
+天仪	tiw i	13
 添益宝	tiw i bao	30
 添衣保暖	tiw i bao nuw	103
+天一币	tiw i bi	893
 添一笔	tiw i bi	178
 天已擦黑	tiw i ca hei	17
 天一城	tiw i ĉŋ	41
@@ -393485,6 +393599,7 @@ sort: by_weight
 天阴	tiw iñ	7000
 舔阴	tiw iñ	1205
 天印花园	tiw iñ hua yw	6
+天音怒放	tiw iñ nu fv	120
 天印山	tiw iñ ŝw	108
 天音寺	tiw iñ si	3155
 天音唯	tiw iñ ue	6666
@@ -393495,11 +393610,10 @@ sort: by_weight
 填膺	tiw iŋ	550
 天鹰战士	tiw iŋ ẑw ŝi	22
 天佑	tiw iu	20085
+天游	tiw iu	10805
 填有	tiw iu	995
-添油	tiw iu	246
 添忧	tiw iu	100
-# 天游	tian you	0
-# 天祐	tian you	0
+天祐	tiw iu	11
 天有不测风云	tiw iu bu ce fŋ yñ	5930
 天佑城	tiw iu ĉŋ	41
 添油炽薪	tiw iu ĉi xiñ	1
@@ -393529,7 +393643,10 @@ sort: by_weight
 天域手镯	tiw y ŝou ẑo	1
 天雨虽宽不润无根之草	tiw y sue kuw bu ruñ u gñ ẑi cao	1180
 天域项链	tiw y xiv liw	1
+天喻信息	tiw y xiñ xi	1
 天欲雪	tiw y xye	123
+天语雅阁	tiw y ia ge	110
+天昱医院	tiw y i yw	5
 天域战士	tiw y ẑw ŝi	5
 田园	tiw yw	62955
 天元	tiw yw	25030
@@ -393549,6 +393666,7 @@ sort: by_weight
 天缘公寓	tiw yw guŋ y	89
 田园画	tiw yw hua	115
 天苑花园	tiw yw hua yw	23
+天元吉第	tiw yw ji di	4
 田源鸡火锅	tiw yw ji ho go	14
 天原集团	tiw yw ji tuw	1
 田园将芜胡不归	tiw yw jiv u hu bu gue	45
@@ -393623,9 +393741,9 @@ sort: by_weight
 甜着呢	tiw ẑe ne	40
 觍着一张老脸	tiw ẑe i ẑv lao liw	10000
 天真	tiw ẑñ	120875
-田震	tiw ẑñ	2
-# 天镇	tian zhen	0
-# 田镇	tian zhen	0
+田震	tiw ẑñ	5910
+天镇	tiw ẑñ	1695
+田镇	tiw ẑñ	39
 天真的人	tiw ẑñ de rñ	540
 天真地说	tiw ẑñ de ŝo	605
 天真地问	tiw ẑñ de uñ	216
@@ -393636,8 +393754,8 @@ sort: by_weight
 天真热	tiw ẑñ re	104
 天真少女	tiw ẑñ ŝao ny	340
 天真无邪	tiw ẑñ u xie	10090
-天镇县	tiw ẑñ xiw	6
-天正	tiw ẑŋ	2
+天镇县	tiw ẑñ xiw	685
+天正	tiw ẑŋ	25500
 田征国	tiw ẑŋ go	162
 天正湖滨花园	tiw ẑŋ hu biñ hua yw	3
 添置	tiw ẑi	31310
@@ -393648,6 +393766,7 @@ sort: by_weight
 天之道也	tiw ẑi dao ie	56
 天知地知	tiw ẑi di ẑi	905
 天知地知你知我知	tiw ẑi di ẑi ni ẑi o ẑi	57
+天治核心	tiw ẑi he xiñ	21
 天治基金	tiw ẑi ji jiñ	73
 添枝加叶	tiw ẑi jia ie	885
 天之将丧斯文也	tiw ẑi jiv sv si uñ ie	1
@@ -393655,10 +393774,12 @@ sort: by_weight
 天智颗粒	tiw ẑi ke li	1
 天之历数在尔躬	tiw ẑi li ŝu zai er guŋ	5
 天之戮民	tiw ẑi lu miñ	10
+天治双盈	tiw ẑi ŝuv iŋ	1
 天之未丧斯文也	tiw ẑi ue sv si uñ ie	1
 田志希	tiw ẑi xi	177
 天之邪	tiw ẑi xie	157
 添置衣服	tiw ẑi i fu	220
+天之游侠	tiw ẑi iu xia	88
 填志愿	tiw ẑi yw	3325
 添枝增叶	tiw ẑi zŋ ie	1
 田中	tiw ẑuŋ	2471
@@ -394130,6 +394251,7 @@ sort: by_weight
 调节性	tio jie xiŋ	4005
 调节性内斜视	tio jie xiŋ nei xie ŝi	2
 调节仪	tio jie i	1645
+调解优先促社会稳定和谐	tio jie iu xiw cu ŝe hue uñ diŋ he xie	75
 调解员	tio jie yw	9910
 调节者	tio jie ẑe	545
 调解者	tio jie ẑe	325
@@ -394334,8 +394456,8 @@ sort: by_weight
 跳上台	tio ŝv tai	265
 跳上跳下	tio ŝv tio xia	1065
 跳上桌子	tio ŝv ẑo zi	260
+条蛇	tio ŝe	9999
 挑射	tio ŝe	1425
-条蛇	tio ŝe	999
 调摄	tio ŝe	1
 调设备	tio ŝe bei	200
 跳神	tio ŝñ	3055
@@ -394417,6 +394539,7 @@ sort: by_weight
 # 岧岧	tiao tiao	0
 迢迢白玉绳	tio tio bai y ŝŋ	1
 跳跳板	tio tio bw	80
+跳跳宝屋	tio tio bao u	1
 条条大道通罗马	tio tio da dao tuŋ lo ma	325
 条条大路	tio tio da lu	210
 条条大路通罗马	tio tio da lu tuŋ lo ma	2280
@@ -394461,6 +394584,7 @@ sort: by_weight
 调味剂	tio ue ji	2870
 调味酱	tio ue jiv	3250
 调味料	tio ue lio	26605
+调味料买卖	tio ue lio mai mai	5
 调味品	tio ue piñ	55785
 调味品厂	tio ue piñ ĉv	920
 调味瓶	tio ue piŋ	1145
@@ -394738,6 +394862,7 @@ sort: by_weight
 挑字	tio zi	80
 跳子	tio zi	75
 跳字表	tio zi bio	90
+条子龙	tio zi luŋ	1
 条子泥	tio zi ni	188
 挑字眼	tio zi iw	60
 挑字眼儿	tio zi iw er	9999
@@ -395251,7 +395376,6 @@ sort: by_weight
 铁器时代	tie qi ŝi dai	1550
 铁骑突出刀枪鸣	tie qi tu ĉu dao qiv miŋ	2
 贴钱	tie qiw	2130
-铁签	tie qiw	789
 贴墙	tie qiv	4695
 贴墙纸	tie qiv ẑi	1370
 铁锹	tie qio	8705
@@ -395381,7 +395505,6 @@ sort: by_weight
 铁托	tie to	2655
 铁腕	tie uw	6220
 贴完	tie uw	2395
-铁碗	tie uw	134
 铁腕的	tie uw de	235
 贴完了	tie uw le	440
 铁腕人物	tie uw rñ u	470
@@ -395430,6 +395553,7 @@ sort: by_weight
 贴心人	tie xiñ rñ	7770
 铁心铁意	tie xiñ tie i	1
 贴心小棉袄	tie xiñ xio miw ao	119
+贴心勇士	tie xiñ yŋ ŝi	2
 铁腥	tie xiŋ	5
 铁锈	tie xiu	8060
 铁锈长旋螺	tie xiu ĉv xyw lo	1
@@ -395757,6 +395881,7 @@ sort: by_weight
 听歌啊	tiŋ ge a	180
 听歌呢	tiŋ ge ne	75
 听歌曲	tiŋ ge qy	1620
+听歌网	tiŋ ge uv	255
 听个响儿	tiŋ ge xiv er	5
 停更	tiŋ gŋ	9999
 停工	tiŋ guŋ	35105
@@ -395897,6 +396022,8 @@ sort: by_weight
 挺俊	tiŋ jyñ	335
 庭卡乡	tiŋ ka xiv	1
 停开	tiŋ kai	3455
+廷锴	tiŋ kai	50
+庭开花	tiŋ kai hua	2
 挺开心	tiŋ kai xiñ	2780
 停刊	tiŋ kw	5895
 停靠	tiŋ kao	31020
@@ -395965,8 +396092,9 @@ sort: by_weight
 听力测试	tiŋ li ce ŝi	7395
 听力测验	tiŋ li ce iw	335
 听力耳机	tiŋ li er ji	146
-听鹂馆	tiŋ li guw	1
+听郦馆	tiŋ li guw	1
 挺厉害	tiŋ li hai	2060
+听力机经	tiŋ li ji jiŋ	96
 听力考试	tiŋ li kao ŝi	159
 听力理解	tiŋ li li jie	5680
 听力器	tiŋ li qi	1
@@ -396012,9 +396140,7 @@ sort: by_weight
 挺没面子	tiŋ mei miw zi	90
 听没听	tiŋ mei tiŋ	600
 厅门	tiŋ mñ	3010
-挺闷	tiŋ mñ	743
 挺猛	tiŋ mŋ	1180
-挺萌	tiŋ mŋ	233
 挺猛的	tiŋ mŋ de	1180
 挺迷	tiŋ mi	3333
 挺密	tiŋ mi	1111
@@ -396363,6 +396489,7 @@ sort: by_weight
 听音	tiŋ iñ	21450
 听音练习	tiŋ iñ liw xi	40
 听音乐	tiŋ iñ ye	39920
+听音乐网	tiŋ iñ ye uv	383
 挺硬	tiŋ iŋ	1330
 停映	tiŋ iŋ	999
 挺硬的	tiŋ iŋ de	1330
@@ -396374,6 +396501,7 @@ sort: by_weight
 挺有意思	tiŋ iu i si	9490
 听雨	tiŋ y	23970
 听阈	tiŋ y	750
+廷玉	tiŋ y	16
 听雨声	tiŋ y ŝŋ	1085
 听雨轩	tiŋ y xyw	4025
 庭院	tiŋ yw	76060
@@ -396619,6 +396747,7 @@ sort: by_weight
 同边	tuŋ biw	405
 童便	tuŋ biw	99
 通变达权	tuŋ biw da qyw	1
+通便果	tuŋ biw go	64
 通便剂	tuŋ biw ji	195
 通便灵	tuŋ biw liŋ	8
 通便灵胶囊	tuŋ biw liŋ jio nv	88
@@ -396963,14 +397092,14 @@ sort: by_weight
 同顶角	tuŋ diŋ jio	5
 痛定思痛	tuŋ diŋ si tuŋ	9010
 铜鼎乡	tuŋ diŋ xiv	2
+通都大埠	tuŋ dou da bu	1
+通都巨邑	tuŋ dou jy i	1
 通读	tuŋ du	16965
 统读	tuŋ du	3333
 统独	tuŋ du	405
 通都	tuŋ du	2
-通都大埠	tuŋ du da bu	1
 通都大邑	tuŋ du da i	480
 樋渡结依	tuŋ du jie i	1
-通都巨邑	tuŋ du jy i	1
 铜都铜业	tuŋ du tuŋ ie	185
 统独议题	tuŋ du i ti	405
 通断	tuŋ duw	6005
@@ -397597,7 +397726,6 @@ sort: by_weight
 痛苦状	tuŋ ku ẑuv	865
 痛苦诅咒	tuŋ ku zu ẑou	43
 痛快	tuŋ kui	48260
-铜块	tuŋ kui	986
 痛快沉着	tuŋ kui ĉñ ẑo	1
 痛快的	tuŋ kui de	6995
 痛快地	tuŋ kui de	5895
@@ -398270,7 +398398,6 @@ sort: by_weight
 筒袜	tuŋ ua	9999
 筒瓦	tuŋ ua	1945
 同玩	tuŋ uw	1035
-铜碗	tuŋ uw	968
 通完电话	tuŋ uw diw hua	50
 通完话	tuŋ uw hua	27
 通往	tuŋ uv	103690
@@ -399608,7 +399735,6 @@ sort: by_weight
 透骨酸心	tou gu suw xiñ	1
 透古通今	tou gu tuŋ jiñ	1
 透骨香	tou gu xiv	9
-偷瓜	tou gua	89
 投瓜报玉	tou gua bao y	1
 头冠	tou guw	1960
 头关	tou guw	510
@@ -400105,7 +400231,6 @@ sort: by_weight
 透视之眼	tou ŝi ẑi iw	132
 透视装	tou ŝi ẑuv	1865
 投手	tou ŝou	4715
-偷手	tou ŝou	89
 投手榴弹	tou ŝou liu dw	250
 头数	tou ŝu	4770
 投书	tou ŝu	1895
@@ -400357,7 +400482,7 @@ sort: by_weight
 偷越国边境罪	tou ye go biw jiŋ zue	32
 头晕	tou yñ	76845
 偷运	tou yñ	4270
-投运	tou yñ	511
+投运	tou yñ	11
 投运后	tou yñ hou	66
 头晕目眩	tou yñ mu xyw	11615
 头晕脑胀	tou yñ nao ẑv	1795
@@ -400551,11 +400676,14 @@ sort: by_weight
 投资指南	tou zi ẑi nw	4360
 投资指数	tou zi ẑi ŝu	865
 投资中国	tou zi ẑuŋ go	7615
+投资中国税收法律实务指南	tou zi ẑuŋ go ŝue ŝou fa ly ŝi u ẑi nw	2
 投资中心	tou zi ẑuŋ xiñ	2810
 投资主体	tou zi ẑu ti	32320
+投资状	tou zi ẑuv	1
 投资资本	tou zi zi bñ	1975
 投资咨询	tou zi zi xyñ	14480
 投资咨询公司	tou zi zi xyñ guŋ si	2100
+投资咨询有限公司	tou zi zi xyñ iu xiw guŋ si	6775
 投资总额	tou zi zuŋ e	49435
 投资综合环境	tou zi zuŋ he huw jiŋ	25
 投资组合	tou zi zu he	28935
@@ -401893,7 +402021,6 @@ sort: by_weight
 突围而出	tu ue er ĉu	2180
 土卫六	tu ue liu	1575
 土味十足	tu ue ŝi zu	50
-土味音乐	tu ue iñ ye	7
 图文	tu uñ	158135
 图纹	tu uñ	2222
 土温	tu uñ	1990
@@ -402114,7 +402241,6 @@ sort: by_weight
 土洋村	tu iv cuñ	11
 土洋结合	tu iv jie he	705
 涂药	tu io	2950
-土窑	tu io	999
 土药	tu io	999
 土窑洞	tu io duŋ	665
 徒要教郎比并看	tu io jio lv bi biŋ kw	1
@@ -403746,7 +403872,6 @@ sort: by_weight
 拖长	to ĉv	4785
 拖车	to ĉe	45621
 # 跅弛	tuo chi	0
-脱臭	to ĉou	347
 脱出	to ĉu	15900
 拖出	to ĉu	11570
 脱除	to ĉu	5860
@@ -404019,7 +404144,7 @@ sort: by_weight
 托了托	to le to	123
 脱了衣服	to le i fu	3505
 拖累	to lei	26375
-拖雷	to lei	5
+拖雷	to lei	16
 托雷多	to lei do	500
 托雷拉	to lei la	163
 托雷斯海峡	to lei si hai xia	240
@@ -404334,8 +404459,7 @@ sort: by_weight
 拖网渔船	to uv y ĉuw	315
 脱位	to ue	9630
 妥为	to ue	2770
-托伪	to ue	4
-拖尾	to ue	4
+托伪	to ue	2
 妥为安排	to ue w pai	65
 拖尾巴	to ue ba	85
 拖尾峰	to ue fŋ	65
@@ -405055,7 +405179,6 @@ sort: by_weight
 外带	ui dai	9999
 外带杯子	ui dai bei zi	3333
 外道	ui dao	18495
-外岛	ui dao	1234
 歪道	ui dao	730
 歪道道儿	ui dao dao er	9999
 外岛地区	ui dao di qy	260
@@ -405132,7 +405255,6 @@ sort: by_weight
 外公切线	ui guŋ qie xiw	40
 外公司	ui guŋ si	1330
 外购	ui gou	21725
-外构	ui gou	136
 外购件	ui gou jiw	1490
 外沟门乡	ui gou mñ xiv	6
 外挂	ui gua	130625
@@ -405954,7 +406076,6 @@ sort: by_weight
 外长会议	ui ẑv hue i	3090
 外罩	ui ẑao	6940
 外找	ui ẑao	1840
-歪招	ui ẑao	1807
 外招	ui ẑao	1770
 外照射	ui ẑao ŝe	1910
 外照射急性放射病	ui ẑao ŝe ji xiŋ fv ŝe biŋ	1
@@ -406763,8 +406884,6 @@ sort: by_weight
 皖军	uw jyñ	220
 婉君	uw jyñ	1
 万骏达	uw jyñ da	64
-万卡	uw ka	999
-玩咖	uw ka	7
 玩开心网	uw kai xiñ uv	240
 顽抗	uw kv	3295
 万康	uw kv	64
@@ -407708,7 +407827,6 @@ sort: by_weight
 晚霞	uw xia	26335
 弯下	uw xia	18175
 剜下	uw xia	560
-晚夏	uw xia	123
 玩狎	uw xia	5
 弯下来	uw xia lai	375
 玩下来	uw xia lai	222
@@ -411010,6 +411128,7 @@ sort: by_weight
 王子服	uv zi fu	5
 王子刚	uv zi gv	175
 汪自洁	uv zi jie	385
+王子看见二公主	uv zi kw jiw er guŋ ẑu	18
 王子楼	uv zi lou	30
 王子鸣	uv zi miŋ	11
 王字旁	uv zi pv	1111
@@ -412077,17 +412196,17 @@ sort: by_weight
 尾感器亚纲	ue gw qi ia gv	7
 未感染	ue gw rw	1300
 未敢忘危负岁华	ue gw uv ue fu sue hua	2
+威刚	ue gv	11495
+为纲	ue gv	9430
+维冈	ue gv	5390
 维港	ue gv	2320
-威刚	ue gv	1149
-维冈	ue gv	539
-为纲	ue gv	94
-# 卫刚	wei gang	0
+卫刚	ue gv	640
 卫岗街道	ue gv jie dao	2
 维冈竞技	ue gv jiŋ ji	1905
-位高	ue gao	1453
-为高	ue gao	545
-# 维高	wei gao	0
-# 韦皋	wei gao	0
+为高	ue gao	54575
+位高	ue gao	14530
+维高	ue gao	1775
+韦皋	ue gao	1075
 为高必因丘陵	ue gao bi iñ qiu liŋ	4
 微睾短腺吸虫	ue gao duw xiw xi ĉuŋ	1
 潍高路	ue gao lu	125
@@ -415131,7 +415250,6 @@ sort: by_weight
 微型计算机	ue xiŋ ji suw ji	18005
 微型计算机系统	ue xiŋ ji suw ji xi tuŋ	1220
 卫星接收	ue xiŋ jie ŝou	6265
-卫星俱乐部	ue xiŋ jy le bu	7
 微型客车	ue xiŋ ke ĉe	1935
 卫星路	ue xiŋ lu	429
 微型面包车	ue xiŋ miw bao ĉe	2105
@@ -415494,15 +415612,14 @@ sort: by_weight
 卫浴	ue y	85495
 未予	ue y	20270
 谓语	ue y	14050
-喂鱼	ue y	6418
 微雨	ue y	5700
+喂鱼	ue y	4185
 位与	ue y	3469
 维语	ue y	1975
 位域	ue y	1906
 未愈	ue y	1385
 尾羽	ue y	299
 𬶏鱼	ue y	41
-鲔鱼	ue y	9
 # 未雨	wei yu	0
 # 韦钰	wei yu	0
 微雨霭芳原	ue y ai fv yw	1
@@ -415934,7 +416051,6 @@ sort: by_weight
 微作文	ue zo uñ	181
 围坐着	ue zo ẑe	825
 问啊	uñ a	3333
-稳啊	uñ a	7
 文爱	uñ ai	6666
 文案	uñ w	50905
 问安	uñ w	4575
@@ -417051,6 +417167,7 @@ sort: by_weight
 温开水	uñ kai ŝue	15450
 文康	uñ kv	2975
 文康活动	uñ kv ho duŋ	110
+文康律师事务所	uñ kv ly ŝi ŝi u so	40
 文康苑	uñ kv yw	191
 文科	uñ ke	122875
 温课	uñ ke	99
@@ -417265,8 +417382,8 @@ sort: by_weight
 文墨	uñ mo	2980
 文魔秀士	uñ mo xiu ŝi	1
 文牧	uñ mu	565
+问那	uñ na	9515
 稳拿	uñ na	1120
-问那	uñ na	951
 问难	uñ nw	1425
 汶南镇	uñ nw ẑñ	191
 问你	uñ ni	87800
@@ -417688,8 +417805,8 @@ sort: by_weight
 问完	uñ uw	111
 文王	uñ uv	19795
 文网	uñ uv	12730
-温网	uñ uv	428
-# 温王	wen wang	0
+温网	uñ uv	4280
+温王	uñ uv	2
 闻王昌龄左迁龙标	uñ uv ĉv liŋ zo qiw luŋ bio	6
 文王发政施仁	uñ uv fa ẑŋ ŝi rñ	3
 文王路	uñ uv lu	1
@@ -421727,11 +421844,10 @@ sort: by_weight
 舞步	u bu	29585
 五部	u bu	17505
 五步	u bu	15620
-误捕	u bu	13440
 五不	u bu	4440
 无补	u bu	3225
 乌布	u bu	1640
-# 吴堡	wu bu	0
+吴堡	u bu	1495
 无补偿	u bu ĉv	300
 五步成诗	u bu ĉŋ ŝi	1
 悟不出	u bu ĉu	345
@@ -422439,7 +422555,6 @@ sort: by_weight
 乌尔班二世	u er bw er ŝi	1
 乌尔比安	u er bi w	174
 吴儿城	u er ĉŋ	1
-乌尔都	u er du	7
 乌尔都语	u er du y	1120
 捂耳朵	u er do	5555
 伍尔夫	u er fu	770
@@ -423221,7 +423336,7 @@ sort: by_weight
 五湖四海	u hu si hai	18650
 五虎汤	u hu tv	167
 无呼吸	u hu xi	575
-芜湖县	u hu xiw	4
+芜湖县	u hu xiw	3495
 五户乡	u hu xiv	4
 五湖新区	u hu xiñ qy	1
 五湖烟水	u hu iw ŝue	3
@@ -423599,9 +423714,9 @@ sort: by_weight
 无疆	u jiv	5425
 五将	u jiv	1910
 五讲	u jiv	1545
-乌江	u jiv	5
-吴江	u jiv	3
-武江	u jiv	2
+乌江	u jiv	2
+吴江	u jiv	1
+# 武江	wu jiang	0
 乌江赤壁空烦恼	u jiv ĉi bi kuŋ fw nao	1180
 吾将从彭咸之所居	u jiv cuŋ pŋ xiw ẑi so jy	2
 武江监狱	u jiv jiw y	89
@@ -423612,10 +423727,9 @@ sort: by_weight
 乌江牌	u jiv pai	110
 武江桥	u jiv qio	2
 乌江青波鱼	u jiv qiŋ bo y	1
-吴江区	u jiv qy	820
-武江区	u jiv qy	680
+武江区	u jiv qy	820
 吾将上下而求索	u jiv ŝv xia er qiu so	6050
-吴江市	u jiv ŝi	4
+吴江市	u jiv ŝi	22870
 五讲四美	u jiv si mei	2667
 五讲四美三热爱	u jiv si mei sw re ai	880
 吾将往乎南疑	u jiv uv hu nw i	1
@@ -425174,9 +425288,9 @@ sort: by_weight
 无求于物长精神	u qiu y u ẑv jiŋ ŝñ	1
 梧丘之魂	u qiu ẑi huñ	1
 误区	u qy	169090
+舞曲	u qy	96690
 无趣	u qy	22420
-舞曲	u qy	21966
-五区	u qy	5930
+五区	u qy	15930
 五曲	u qy	690
 舞曲版	u qy bw	96
 无区别	u qy bie	1240
@@ -427697,7 +427811,6 @@ sort: by_weight
 五藏六府	u zv liu fu	111
 五脏所恶	u zv so e	1
 五脏所主	u zv so ẑu	1
-武藏野市	u zv ie ŝi	5
 武藏传	u zv ẑuw	20
 无皂	u zao	500
 乌枣	u zao	250
@@ -427772,8 +427885,8 @@ sort: by_weight
 捂着嘴巴	u ẑe zue ba	3333
 捂着嘴笑	u ẑe zue xio	3333
 误诊	u ẑñ	17160
+吴镇	u ẑñ	2835
 乌镇	u ẑñ	1180
-吴镇	u ẑñ	5
 吴振峰	u ẑñ fŋ	122
 乌镇路	u ẑñ lu	21
 误诊率	u ẑñ ly	950
@@ -427973,8 +428086,9 @@ sort: by_weight
 五洲明珠	u ẑou miŋ ẑu	1
 五周年	u ẑou niw	10505
 五周年快乐	u ẑou niw kui le	173
-梧州市	u ẑou ŝi	392
+梧州市	u ẑou ŝi	13925
 梧州市中医院	u ẑou ŝi ẑuŋ i yw	1
+五轴数	u ẑou ŝu	87
 五洲四海	u ẑou si hai	1215
 伍洲彤	u ẑou tuŋ	64
 五洲小区	u ẑou xio qy	141
@@ -428248,6 +428362,7 @@ sort: by_weight
 西安市	xi w ŝi	154915
 西安事变	xi w ŝi biw	10660
 西安市场	xi w ŝi ĉv	1560
+西安市城市管理综合行政执法条例	xi w ŝi ĉŋ ŝi guw li zuŋ he xiŋ ẑŋ ẑi fa tio li	11
 西安市地质环境管理办法	xi w ŝi di ẑi huw jiŋ guw li bw fa	1
 西安市土地储备条例	xi w ŝi tu di ĉu bei tio li	2
 西安市图书馆	xi w ŝi tu ŝu guw	50
@@ -429261,7 +429376,7 @@ sort: by_weight
 西工院	xi guŋ yw	70
 西公园	xi guŋ yw	30
 析构	xi gou	10940
-细狗	xi gou	191
+细狗	xi gou	111
 惜购	xi gou	12
 # 西沟	xi gou	0
 析构函数	xi gou hw ŝu	21398
@@ -430023,8 +430138,8 @@ sort: by_weight
 喜来登饭店	xi lai dŋ fw diw	71
 熙来攘往	xi lai rv uv	525
 西来寺	xi lai si	108
+锡兰	xi lw	4745
 稀烂	xi lw	4740
-锡兰	xi lw	1474
 细缆	xi lw	1395
 细览	xi lw	915
 西蓝花	xi lw hua	15428
@@ -430754,7 +430869,7 @@ sort: by_weight
 细瞧	xi qio	920
 西桥	xi qio	463
 西樵大饼	xi qio da biŋ	218
-西樵山	xi qio ŝw	296
+西樵山	xi qio ŝw	2965
 西樵云瀑	xi qio yñ pu	2
 西芹	xi qiñ	10848
 西秦	xi qiñ	4075
@@ -430810,7 +430925,6 @@ sort: by_weight
 戏曲小说	xi qy xio ŝo	295
 戏曲学	xi qy xye	690
 膝曲眼虫	xi qy iw ĉuŋ	1
-细犬	xi qyw	99
 西泉	xi qyw	60
 犀全龟科	xi qyw gue ke	1
 系全省	xi qyw ŝŋ	68
@@ -431980,8 +432094,8 @@ sort: by_weight
 西线	xi xiw	22965
 细线	xi xiw	10860
 豨莶	xi xiw	65
-息县	xi xiw	2
-隰县	xi xiw	2
+隰县	xi xiw	1
+# 息县	xi xian	0
 # 西县	xi xian	0
 # 锡县	xi xian	0
 豨莶草	xi xiw cao	214
@@ -432631,6 +432745,7 @@ sort: by_weight
 洗澡先	xi zao xiw	3289
 细则	xi ze	125060
 # 西泽	xi ze	0
+喜泽鹊	xi ze qye	17
 洗泽乡	xi ze xiv	1
 # 西闸	xi zha	0
 西闸村	xi ẑa cuñ	5
@@ -433434,10 +433549,9 @@ sort: by_weight
 鰕虎鱼科	xia hu y ke	16
 下滑	xia hua	153565
 下划	xia hua	4500
+夏花	xia hua	4480
 瞎话	xia hua	2975
-夏花	xia hua	448
-黠猾	xia hua	5
-下化	xia hua	2
+下化	xia hua	2610
 下滑了	xia hua le	3770
 下划线	xia hua xiw	40720
 下花园	xia hua yw	1295
@@ -436564,6 +436678,7 @@ sort: by_weight
 先签	xiw qiw	2130
 先遣部队	xiw qiw bu due	1060
 先遣队	xiw qiw due	3565
+先谴队	xiw qiw due	3
 先签后换	xiw qiw hou huw	123
 县前街	xiw qiw jie	38
 县前汤团	xiw qiw tv tuw	14
@@ -438888,7 +439003,8 @@ sort: by_weight
 相隔很远	xiv ge hñ yw	845
 香格里拉	xiv ge li la	70850
 香格里拉大酒店	xiv ge li la da jiu diw	1266
-香格里拉县	xiv ge li la xiw	301
+香格里拉县	xiv ge li la xiw	3015
+香阁娜	xiv ge na	20
 相隔千里	xiv ge qiw li	196
 像个人	xiv ge rñ	6666
 向个人	xiv ge rñ	5945
@@ -439020,10 +439136,7 @@ sort: by_weight
 向光性	xiv guv xiŋ	740
 香闺	xiv gue	3070
 箱柜	xiv gue	2990
-象龟	xiv gue	689
-像鬼	xiv gue	467
-乡规	xiv gue	5
-# 香贵	xiang gui	0
+香贵	xiv gue	235
 乡规民约	xiv gue miñ ye	2000
 湘桂铁路	xiv gue tie lu	705
 香闺掩雾	xiv gue iw u	1180
@@ -439066,7 +439179,7 @@ sort: by_weight
 祥和	xiv he	56655
 相合	xiv he	19955
 想喝	xiv he	11980
-香河	xiv he	103
+香河	xiv he	10390
 向何处	xiv he ĉu	5465
 香河道	xiv he dao	1
 相和而歌曰	xiv he er ge ye	1
@@ -439084,7 +439197,7 @@ sort: by_weight
 祥和人家	xiv he rñ jia	9
 想喝什么	xiv he ŝñ me	188
 想和我	xiv he o	63
-香河县	xiv he xiw	675
+香河县	xiv he xiw	2675
 香河县医院	xiv he xiw i yw	4
 祥和小区	xiv he xio qy	32
 祥和雅居	xiv he ia jy	110
@@ -439747,8 +439860,8 @@ sort: by_weight
 橡木	xiv mu	13770
 香木	xiv mu	2905
 向慕	xiv mu	500
-向暮	xiv mu	23
-# 项穆	xiang mu	0
+向暮	xiv mu	235
+项穆	xiv mu	2
 项目案	xiv mu w	455
 项目案例	xiv mu w li	286
 项模板	xiv mu bw	120
@@ -439858,6 +439971,7 @@ sort: by_weight
 项目执行	xiv mu ẑi xiŋ	11608
 项目中	xiv mu ẑuŋ	91060
 项目转让	xiv mu ẑuw rv	3325
+项目子	xiv mu zi	110
 项目资金	xiv mu zi jiñ	27390
 项目综合	xiv mu zuŋ he	93
 项目总投资	xiv mu zuŋ tou zi	32490
@@ -440122,7 +440236,7 @@ sort: by_weight
 乡曲之意	xiv qy ẑi i	1
 项圈	xiv qyw	9320
 相劝	xiv qyw	5500
-# 湘泉	xiang quan	0
+湘泉	xiv qyw	2530
 向全国	xiv qyw go	51015
 香泉环岛	xiv qyw huw dao	230
 湘泉酒	xiv qyw jiu	120
@@ -440315,14 +440429,14 @@ sort: by_weight
 相视一笑	xiv ŝi i xio	7770
 相适应	xiv ŝi iŋ	189235
 相识者	xiv ŝi ẑe	535
-香石竹	xiv ŝi ẑu	5
+香石竹	xiv ŝi ẑu	1505
+香石竹银纹夜蛾	xiv ŝi ẑu iñ uñ ie e	1
 享受	xiv ŝou	500676
 相守	xiv ŝou	21735
 想瘦	xiv ŝou	1995
 想收	xiv ŝou	1500
 想受	xiv ŝou	1375
 相熟	xiv ŝou	1111
-享寿	xiv ŝou	678
 享受厂	xiv ŝou ĉv	10
 享受到	xiv ŝou dao	112170
 想收都收不回来	xiv ŝou dou ŝou bu hue lai	1180
@@ -441638,7 +441752,6 @@ sort: by_weight
 小班制	xio bw ẑi	1510
 肖邦	xio bv	11325
 萧邦	xio bv	113
-小棒	xio bv	7
 # 晓邦	xiao bang	0
 小帮手	xio bv ŝou	2950
 小宝	xio bao	47040
@@ -442046,20 +442159,18 @@ sort: by_weight
 小窗凹缘虫戚	xio ĉuv ao yw ĉuŋ qi	1
 小窗口	xio ĉuv kou	7440
 小锤	xio ĉue	5555
-小槌	xio ĉue	9
-小吹	xio ĉue	1
-小春	xio ĉuñ	2
-# 晓春	xiao chun	0
+小春	xio ĉuñ	20960
+晓春	xio ĉuñ	10385
 小春花	xio ĉuñ hua	147
 小椿树胡同	xio ĉuñ ŝu hu tuŋ	1
 小春作物	xio ĉuñ zo u	445
 消磁	xio ci	6460
+孝慈	xio ci	2640
 小刺	xio ci	2160
 小词	xio ci	1940
-小疵	xio ci	2
-孝慈	xio ci	1
+小疵	xio ci	1
 小刺杜父鱼	xio ci du fu y	1
-小刺蜾蠃蜚	xio ci go lo fei	1
+小刺蜾赢蜚	xio ci go iŋ fei	1
 小呲花	xio ci hua	131
 消磁机	xio ci ji	1180
 小刺激	xio ci ji	210
@@ -442198,7 +442309,6 @@ sort: by_weight
 小地方	xio di fv	9510
 小地蜂	xio di fŋ	1
 小滴管	xio di guw	119
-小地老虎	xio di lao hu	4
 小地毯	xio di tw	565
 小地图	xio di tu	1111
 小地窝堡	xio di o pu	64
@@ -443256,20 +443366,21 @@ sort: by_weight
 小黄游	xio huv iu	222
 小黄油	xio huv iu	111
 小黄鱼	xio huv y	2325
+小黄玉	xio huv y	35
 小黄鱼肠油	xio huv y ĉv iu	1
 小黄庄	xio huv ẑuv	22
 销毁	xio hue	100195
 校徽	xio hue	6375
 小会	xio hue	5520
 校会	xio hue	100
-小惠	xio hue	2
+晓卉	xio hue	9
+小惠	xio hue	1
 小慧	xio hue	1
-# 小辉	xiao hui	0
+小辉	xio hue	1
+晓慧	xio hue	1
+晓辉	xio hue	1
 # 小𫚔	xiao hui	0
-# 晓卉	xiao hui	0
-# 晓慧	xiao hui	0
 # 晓蕙	xiao hui	0
-# 晓辉	xiao hui	0
 小汇报	xio hue bao	50
 肖喙扁蝽	xio hue biw ĉuñ	1
 小灰长角天牛	xio hue ĉv jio tiw niu	1
@@ -443359,7 +443470,6 @@ sort: by_weight
 小鸡鸡	xio ji ji	4035
 硝基甲苯	xio ji jia bñ	420
 小棘拉格鯻	xio ji la ge la	1
-小极乐鸟	xio ji le nio	3
 小剂量	xio ji liv	8310
 小伎俩	xio ji liv	100
 校记录	xio ji lu	129
@@ -444860,7 +444970,6 @@ sort: by_weight
 小勺	xio ŝao	9395
 蟏蛸	xio ŝao	110
 肖蛸	xio ŝao	4
-小勺儿	xio ŝao er	987
 小绍兴	xio ŝao xiŋ	1185
 小绍兴鸡粥	xio ŝao xiŋ ji ẑou	265
 小蛇	xio ŝe	7625
@@ -445371,6 +445480,7 @@ sort: by_weight
 小汤山马坊	xio tv ŝw ma fv	1
 小汤山农业园	xio tv ŝw nuŋ ie yw	9
 小汤山医院	xio tv ŝw i yw	178
+小汤山镇政府	xio tv ŝw ẑñ ẑŋ fu	18
 小唐庄村	xio tv ẑuv cuñ	1
 小桃	xio tao	6825
 小套	xio tao	5080
@@ -446166,6 +446276,7 @@ sort: by_weight
 小牙鲾	xio ia bi	1
 小芽草种蝇	xio ia cao ẑuŋ iŋ	1
 潇雅居	xio ia jy	43
+小牙锯鳐正面临灭亡危险	xio ia jy io ẑŋ miw liñ mie uv ue xiw	1
 肖亚庆	xio ia qiŋ	137
 肖雅婷	xio ia tiŋ	133
 小丫头	xio ia tou	35130
@@ -446657,8 +446768,9 @@ sort: by_weight
 小早川怜子	xio zao ĉuw liw zi	6666
 小早川隆景	xio zao ĉuw luŋ jiŋ	1
 小早川秀秋	xio zao ĉuw xiu qiu	1
-小造桥虫	xio zao qio ĉuŋ	4
-小造桥夜蛾	xio zao qio ie e	4
+小造桥虫	xio zao qio ĉuŋ	26
+小造桥虫绒茧蜂	xio zao qio ĉuŋ ruŋ jiw fŋ	1
+小造桥夜蛾	xio zao qio ie e	2
 小泽	xio ze	4550
 萧赜	xio ze	10
 小泽玛利亚	xio ze ma li ia	6666
@@ -446808,7 +446920,6 @@ sort: by_weight
 小驻	xio ẑu	8
 小主	xio ẑu	3
 # 小朱	xiao zhu	0
-小主播	xio ẑu bo	987
 小诸葛	xio ẑu ge	850
 削竹简	xio ẑu jiw	115
 小猪姐姐	xio ẑu jie jie	154
@@ -447641,7 +447752,6 @@ sort: by_weight
 斜率	xie ly	9475
 协律	xie ly	111
 斜率截距式	xie ly jie jy ŝi	5
-斜绿天蛾	xie ly tiw e	3
 斜率优化	xie ly iu hua	841
 鞋码	xie ma	2985
 歇马	xie ma	1600
@@ -448719,24 +448829,53 @@ sort: by_weight
 心比天高	xiñ bi tiw gao	2475
 信笔涂鸦	xiñ bi tu ia	615
 新编	xiñ biw	38670
-信边	xiñ biw	9
+信边	xiñ biw	99
 欣忭	xiñ biw	1
+新编常用司法解释小全书	xiñ biw ĉv yŋ si fa jie ŝi xio qyw ŝu	6
+新编法律文书完全范本	xiñ biw fa ly uñ ŝu uw qyw fw bñ	2
+新编法律文书写作	xiñ biw fa ly uñ ŝu xie zo	6
+新编房地产法学	xiñ biw fv di ĉw fa xye	1
 新蝙蝠侠	xiñ biw fu xia	177
+新编公民实用法律大全	xiñ biw guŋ miñ ŝi yŋ fa ly da qyw	4
+新编公司法案例大点拨	xiñ biw guŋ si fa w li da diw bo	1
+新编国际经济法	xiñ biw go ji jiŋ ji fa	9
 新编号	xiñ biw hao	65
+新编合同法	xiñ biw he tuŋ fa	4
 新变化	xiñ biw hua	27370
+新编纪检监察业务教材	xiñ biw ji jiw jiw ĉa ie u jio cai	2
+新编交通事故当事人常用法律简释	xiñ biw jio tuŋ ŝi gu dv ŝi rñ ĉv yŋ fa ly jiw ŝi	3
+新编经济法	xiñ biw jiŋ ji fa	87
+新编经济法概论	xiñ biw jiŋ ji fa gai luñ	3
+新编军队法律服务手册	xiñ biw jyñ due fa ly fu u ŝou ce	26
+新编劳动争议仲裁案例	xiñ biw lao duŋ ẑŋ i ẑuŋ cai w li	3
+新编六法参照法令判解全书	xiñ biw liu fa cw ẑao fa liŋ pw jie qyw ŝu	1
+新编企业经营法小全书	xiñ biw qi ie jiŋ iŋ fa xio qyw ŝu	4
+新编司法文书范本	xiñ biw si fa uñ ŝu fw bñ	6
+新编司法文书教程	xiñ biw si fa uñ ŝu jio ĉŋ	2
+新编诉讼文书学习与应用	xiñ biw su suŋ uñ ŝu xye xi y iŋ yŋ	9
+新编外来务工人员常用法律简释	xiñ biw ui lai u guŋ rñ yw ĉv yŋ fa ly jiw ŝi	1
+新编物权法小全书	xiñ biw u qyw fa xio qyw ŝu	1
+新编新闻编辑学	xiñ biw xiñ uñ biw ji xye	2
+新编刑事法律适用手册	xiñ biw xiŋ ŝi fa ly ŝi yŋ ŝou ce	1
+新编刑事司法解释小全书	xiñ biw xiŋ ŝi si fa jie ŝi xio qyw ŝu	2
+新编养老保险政策问答	xiñ biw iv lao bao xiw ẑŋ ce uñ da	5
 新变异	xiñ biw i	167
 新编译	xiñ biw i	12
 新变种	xiñ biw ẑuŋ	2785
+新编中国法律文书范本	xiñ biw ẑuŋ go fa ly uñ ŝu fw bñ	4
+新编中国律师文书范本指南	xiñ biw ẑuŋ go ly ŝi uñ ŝu fw bñ ẑi nw	1
+新编中国刑法学	xiñ biw ẑuŋ go xiŋ fa xye	35
+新编中国刑法学通论	xiñ biw ẑuŋ go xiŋ fa xye tuŋ luñ	3
 新变种人	xiñ biw ẑuŋ rñ	177
 信标	xiñ bio	3640
 新表格	xiñ bio ge	91
 新标识	xiñ bio ŝi	123
 新标志	xiñ bio ẑi	123
 新标准	xiñ bio ẑuñ	41120
-新宾	xiñ biñ	4
+新宾	xiñ biñ	1485
 新宾路	xiñ biñ lu	1
-新宾满族自治县	xiñ biñ mw zu zi ẑi xiw	90
-新宾县	xiñ biñ xiw	55
+新宾满族自治县	xiñ biñ mw zu zi ẑi xiw	900
+新宾县	xiñ biñ xiw	555
 新兵	xiñ biŋ	94565
 心病	xiñ biŋ	21070
 心病还将心药医	xiñ biŋ hai jiv xiñ io i	1
@@ -448908,7 +449047,6 @@ sort: by_weight
 新成员	xiñ ĉŋ yw	30105
 莘城苑	xiñ ĉŋ yw	6
 心诚则灵	xiñ ĉŋ ze liŋ	2080
-莘塍镇	xiñ ĉŋ ẑñ	2
 新城中路	xiñ ĉŋ ẑuŋ lu	3
 新城子	xiñ ĉŋ zi	2140
 新城子区	xiñ ĉŋ zi qy	2120
@@ -451134,7 +451272,8 @@ sort: by_weight
 新桥社区	xiñ qio ŝe qy	81
 新桥头	xiñ qio tou	39
 心乔意怯	xiñ qio i qie	1
-新桥镇	xiñ qio ẑñ	9
+新桥镇	xiñ qio ẑñ	2950
+新乔治才女虫	xiñ qio ẑi cai ny ĉuŋ	1
 新桥职校	xiñ qio ẑi xio	1
 心切	xiñ qie	21410
 心怯	xiñ qie	865
@@ -451612,6 +451751,7 @@ sort: by_weight
 新太乡	xiñ tai xiv	5
 心态学	xiñ tai xye	55
 新泰一中	xiñ tai i ẑuŋ	171
+新台州律师事务所	xiñ tai ẑou ly ŝi ŝi u so	961
 心叹号	xiñ tw hao	3333
 薪炭林	xiñ tw liñ	2770
 心贪手长	xiñ tw ŝou ĉv	8
@@ -453558,10 +453698,12 @@ sort: by_weight
 刑罚处罚	xiŋ fa ĉu fa	950
 刑罚的	xiŋ fa de	14195
 刑法典	xiŋ fa diw	6470
-幸发芬	xiŋ fa fñ	4
+刑法典问题之全景揭示	xiŋ fa diw uñ ti ẑi qyw jiŋ jie ŝi	1
+幸发芬	xiŋ fa fñ	84
 刑法分则	xiŋ fa fñ ze	3230
 刑法分则适用典型疑难问题新释新解	xiŋ fa fñ ze ŝi yŋ diw xiŋ i nw uñ ti xiñ ŝi xiñ jie	2
 刑法改革与刑事司法新课题	xiŋ fa gai ge y xiŋ ŝi si fa xiñ ke ti	3
+刑法关联法规精选	xiŋ fa guw liw fa gue jiŋ xyw	2
 兴发广场	xiŋ fa guv ĉv	134
 刑法规范	xiŋ fa gue fw	1570
 刑法界定	xiŋ fa jie diŋ	28
@@ -453570,6 +453712,7 @@ sort: by_weight
 刑法时效制度	xiŋ fa ŝi xio ẑi du	1
 刑罚适应性	xiŋ fa ŝi iŋ xiŋ	8
 刑法适用范围	xiŋ fa ŝi yŋ fw ue	17
+刑法文化与刑法现代化研究	xiŋ fa uñ hua y xiŋ fa xiw dai hua iw jiu	1
 刑法效力范围	xiŋ fa xio li fw ue	1
 刑法新解读	xiŋ fa xiñ jie du	4
 刑法修正案	xiŋ fa xiu ẑŋ w	3650
@@ -454265,8 +454408,7 @@ sort: by_weight
 醒来折花	xiŋ lai ẑe hua	170
 姓蓝	xiŋ lw	655
 姓郎	xiŋ lv	100
-杏酪	xiŋ lao	7
-# 姓劳	xing lao	0
+姓劳	xiŋ lao	85
 形劳而不休则弊	xiŋ lao er bu xiu ze bi	1
 行了	xiŋ le	144390
 醒了	xiŋ le	70610
@@ -454496,12 +454638,13 @@ sort: by_weight
 星奈爱	xiŋ nai ai	6666
 性乃迁	xiŋ nai qiw	280
 型男	xiŋ nw	9999
-# 杏南	xing nan	0
+杏南	xiŋ nw	16
 兴南街	xiŋ nw jie	8
 型男索女	xiŋ nw so ny	108
 行囊	xiŋ nv	25340
 醒脑	xiŋ nao	5940
-醒脑安神	xiŋ nao w ŝñ	2
+醒脑安神冬瓜汤	xiŋ nao w ŝñ duŋ gua tv	1
+醒脑安神胶囊	xiŋ nao w ŝñ jio nv	1
 醒脑静	xiŋ nao jiŋ	27
 醒脑静注射液	xiŋ nao jiŋ ẑu ŝe ie	38
 醒脑再造胶囊	xiŋ nao zai zao jio nv	4
@@ -455142,7 +455285,7 @@ sort: by_weight
 邢台市	xiŋ tai ŝi	17065
 邢台市桥东区	xiŋ tai ŝi qio duŋ qy	102
 姓太叔	xiŋ tai ŝu	1
-邢台县	xiŋ tai xiw	4
+邢台县	xiŋ tai xiw	1460
 形态学	xiŋ tai xye	6945
 邢台中院	xiŋ tai ẑuŋ yw	87
 兴叹	xiŋ tw	10720
@@ -455894,7 +456037,9 @@ sort: by_weight
 行政强制法草案	xiŋ ẑŋ qiv ẑi fa cao w	463
 行政强制执行	xiŋ ẑŋ qiv ẑi ẑi xiŋ	1920
 行政区	xiŋ ẑŋ qy	84980
+行政区号	xiŋ ẑŋ qy hao	1195
 行政区划	xiŋ ẑŋ qy hua	46200
+行政区社区	xiŋ ẑŋ qy ŝe qy	2
 行政区域	xiŋ ẑŋ qy y	69035
 行政权	xiŋ ẑŋ qyw	13690
 行政权力	xiŋ ẑŋ qyw li	21955
@@ -456773,7 +456918,7 @@ sort: by_weight
 修得像	xiu de xiv	270
 羞得像	xiu de xiv	40
 修堤	xiu di	710
-锈点	xiu diw	346
+修电机钱	xiu diw ji qiw	68
 修电脑	xiu diw nao	5795
 修订	xiu diŋ	322190
 袖钉	xiu diŋ	1980
@@ -458646,6 +458791,7 @@ sort: by_weight
 许晓静	xy xio jiŋ	27
 许晓诺	xy xio no	153
 徐小平	xy xio piŋ	882
+许小平律师事务所	xy xio piŋ ly ŝi ŝi u so	164
 徐小山	xy xio ŝw	160
 续写	xy xie	14430
 叙写	xy xie	2195
@@ -459625,8 +459771,7 @@ sort: by_weight
 选题	xyw ti	77630
 旋梯	xyw ti	1235
 悬梯	xyw ti	685
-选填	xyw tiw	782
-喧天	xyw tiw	685
+喧天	xyw tiw	1685
 喧阗	xyw tiw	645
 玄天湖	xyw tiw hu	155
 喧天锣鼓	xyw tiw lo gu	75
@@ -460610,7 +460755,6 @@ sort: by_weight
 学门	xye mñ	2915
 血盟	xye mŋ	3805
 雪米子	xye mi zi	157
-雪面	xye miw	234
 雪绵豆沙	xye miw dou ŝa	10
 学名	xye miŋ	24170
 学明	xye miŋ	4410
@@ -460973,7 +461117,6 @@ sort: by_weight
 穴头	xye tou	255
 学徒	xye tu	53900
 雪兔	xye tu	1905
-穴兔	xye tu	5
 学途巴士	xye tu ba ŝi	165
 学徒工	xye tu guŋ	15645
 学徒制	xye tu ẑi	420
@@ -461273,8 +461416,8 @@ sort: by_weight
 学业有成	xye ie iu ĉŋ	3975
 学医	xye i	9270
 学艺	xye i	7195
+雪姨	xye i	2121
 血衣	xye i	335
-雪姨	xye i	1
 学艺不精	xye i bu jiŋ	1085
 雪衣豆沙	xye i dou ŝa	133
 雪衣红沙	xye i huŋ ŝa	1
@@ -461532,8 +461675,7 @@ sort: by_weight
 寻访	xyñ fv	23300
 巡防	xyñ fv	7270
 巡访	xyñ fv	5555
-巡房	xyñ fv	1987
-寻芳	xyñ fv	4
+寻芳	xyñ fv	4570
 巡防舰	xyñ fv jiw	230
 巡访团	xyñ fv tuw	260
 讯飞	xyñ fei	362
@@ -461553,7 +461695,6 @@ sort: by_weight
 驯服工具	xyñ fu guŋ jy	375
 驯服野兽	xyñ fu ie ŝou	9
 熏腐之余	xyñ fu ẑi y	1
-熏干	xyñ gw	987
 寻个	xyñ ge	2222
 迅哥	xyñ ge	999
 寻个伴儿	xyñ ge bw er	25
@@ -461581,7 +461722,6 @@ sort: by_weight
 巽卦	xyñ gua	3
 巡官	xyñ guw	990
 寻光之旅	xyñ guv ẑi ly	112
-勋贵	xyñ gue	876
 寻轨	xyñ gue	185
 循规蹈矩	xyñ gue dao jy	12745
 熏鲑鱼	xyñ gue y	220
@@ -461607,8 +461747,8 @@ sort: by_weight
 巡河炮	xyñ he pao	20
 熏黑	xyñ hei	1920
 熏黑了	xyñ hei le	505
-巡护	xyñ hu	3242
-寻呼	xyñ hu	1499
+寻呼	xyñ hu	14995
+巡护	xyñ hu	2425
 寻呼机	xyñ hu ji	9999
 寻呼台	xyñ hu tai	9999
 巡护员	xyñ hu yw	141
@@ -461686,7 +461826,6 @@ sort: by_weight
 循环周期	xyñ huw ẑou qi	3010
 寻欢作乐	xyñ huw zo le	4585
 循环左移	xyñ huw zo i	245
-熏黄	xyñ huv	1987
 鲟鳇	xyñ huv	490
 巡回	xyñ hue	57155
 寻回	xyñ hue	9825
@@ -461912,9 +462051,8 @@ sort: by_weight
 驯扰	xyñ rao	50
 寻人	xyñ rñ	15970
 训人	xyñ rñ	2480
-熏人	xyñ rñ	1357
 寻人启事	xyñ rñ qi ŝi	5700
-寻人网	xyñ rñ uv	7
+寻人网	xyñ rñ uv	795
 旬日	xyñ ri	2385
 熏肉	xyñ rou	3765
 熏肉大饼	xyñ rou da biŋ	7
@@ -462221,9 +462359,7 @@ sort: by_weight
 哑霸鹟	ia ba uŋ	1
 哑吧英语	ia ba iŋ y	588
 牙白	ia bai	765
-崖柏	ia bai	89
 亚白刚玉	ia bai gv y	165
-崖柏树	ia bai ŝu	3
 压板	ia bw	9170
 牙板	ia bw	870
 押宝	ia bao	3890
@@ -462653,7 +462789,7 @@ sort: by_weight
 亚急性硬化性全脑炎	ia ji xiŋ iŋ hua xiŋ qyw nao iw	3
 亚姬缘蝽	ia ji yw ĉuñ	1
 压价	ia jia	13620
-# 雅佳	ya jia	0
+雅佳	ia jia	1640
 雅加达	ia jia da	11220
 亚钾国际	ia jia go ji	145
 亚甲基	ia jia ji	3625
@@ -462883,7 +463019,6 @@ sort: by_weight
 亚麻厂	ia ma ĉv	113
 亚玛顿	ia ma duñ	17
 雅马哈	ia ma ha	21295
-亚麻荠	ia ma ji	3
 轧马路	ia ma lu	435
 亚麻棉	ia ma miw	310
 亚麻仁	ia ma rñ	1450
@@ -463003,7 +463138,7 @@ sort: by_weight
 亚盘	ia pw	38
 哑炮	ia pao	495
 牙胚	ia pei	51
-雅培	ia pei	1
+# 雅培	ya pei	0
 雅痞	ia pi	1111
 雅皮士	ia pi ŝi	1080
 鸦片	ia piw	27555
@@ -463465,7 +463600,6 @@ sort: by_weight
 亚艺节	ia i jie	66
 亚裔模特	ia i mo te	169
 牙医师	ia i ŝi	525
-雅伊斯勒	ia i si le	7
 雅一些	ia i xie	760
 牙医学	ia i xye	34
 压一压	ia i ia	1465
@@ -468504,16 +468638,15 @@ sort: by_weight
 阳去	iv qy	81
 阳曲	iv qy	3
 阳曲路	iv qy lu	425
-阳曲县	iv qy xiw	475
+阳曲县	iv qy xiw	1475
 养犬	iv qyw	33225
 阳泉	iv qyw	218
 # 杨铨	yang quan	0
 阳泉胡同	iv qyw hu tuŋ	1
 阳泉路	iv qyw lu	7
 阳泉坪	iv qyw piŋ	1
-阳泉市	iv qyw ŝi	481
+阳泉市	iv qyw ŝi	14815
 杨全有	iv qyw iu	341
-阳泉盂县	iv qyw y xiw	7
 阳泉中院	iv qyw ẑuŋ yw	87
 扬榷	iv qye	65
 扬榷古今	iv qye gu jiñ	15
@@ -471508,7 +471641,6 @@ sort: by_weight
 夜泊石	ie bo ŝi	190
 叶伯英	ie bo iŋ	3
 也不	ie bu	500737
-腋部	ie bu	99
 曳步	ie bu	45
 也不必	ie bu bi	38295
 也不比	ie bu bi	62
@@ -473435,12 +473567,11 @@ sort: by_weight
 也有着	ie iu ẑe	28125
 也有助于	ie iu ẑu y	14575
 业余	ie y	231685
+也与	ie y	70730
+夜雨	ie y	24100
+也于	ie y	20265
 揶揄	ie y	7725
-也与	ie y	7073
-夜雨	ie y	2410
-也于	ie y	2026
-野芋	ie y	8
-夜语	ie y	5
+夜语	ie y	15
 业余爱好	ie y ai hao	15975
 业余爱好者	ie y ai hao ẑe	5795
 业余班	ie y bw	4750
@@ -474216,7 +474347,6 @@ sort: by_weight
 一杯苦劝护寒归	i bei ku qyw hu hw gue	1
 一倍了	i bei le	5555
 一杯了	i bei le	333
-一杯落肚	i bei lo du	5
 一杯罗浮春	i bei lo fu ĉuñ	1
 一杯奶	i bei nai	3333
 一杯奶茶	i bei nai ĉa	3333
@@ -474994,11 +475124,18 @@ sort: by_weight
 遗传工程	i ĉuw guŋ ĉŋ	2575
 遗传工程小鼠	i ĉuw guŋ ĉŋ xio ŝu	50
 遗传规律	i ĉuw gue ly	1055
-一串红	i ĉuw huŋ	207
+一串红	i ĉuw huŋ	2070
+一串红白粉蝶	i ĉuw huŋ bai fñ die	1
+一串红白粉虱	i ĉuw huŋ bai fñ ŝi	1
+一串红大造桥虫	i ĉuw huŋ da zao qio ĉuŋ	1
+一串红绿盲蝽	i ĉuw huŋ ly mv ĉuñ	1
+一串红小地老虎	i ĉuw huŋ xio di lao hu	1
+一串红银纹夜蛾	i ĉuw huŋ iñ uñ ie e	1
+一串红朱砂叶螨	i ĉuw huŋ ẑu ŝa ie mw	1
 遗传疾病	i ĉuw ji biŋ	1890
 遗传基因	i ĉuw ji iñ	10445
 遗传距离	i ĉuw jy li	6
-易川里	i ĉuw li	1
+易川里	i ĉuw li	149
 一串铃法	i ĉuw liŋ fa	3
 遗传流行病学	i ĉuw liu xiŋ biŋ xye	12
 宜川路	i ĉuw lu	89
@@ -476137,7 +476274,7 @@ sort: by_weight
 伊尔凡	i er fw	116
 一耳光	i er guv	5330
 一而光	i er guv	1
-伊儿汗国	i er hw go	5
+伊儿汗国	i er hw go	225
 一二级	i er ji	3045
 伊尔加拉	i er jia la	1
 一二九	i er jiu	3440
@@ -476169,9 +476306,8 @@ sort: by_weight
 已发	i fa	58545
 一发	i fa	24070
 易发	i fa	19990
+以法	i fa	12630
 益发	i fa	6485
-译法	i fa	2463
-以法	i fa	1263
 依法罢免	i fa ba miw	525
 依法办案	i fa bw w	5285
 依法办理	i fa bw li	30095
@@ -479690,7 +479826,7 @@ sort: by_weight
 沂蒙	i mŋ	1035
 伊盟	i mŋ	127
 艺萌管家	i mŋ guw jia	23
-沂蒙黑猪	i mŋ hei ẑu	3
+沂蒙黑猪新品系	i mŋ hei ẑu xiñ piñ xi	1
 忆梦花	i mŋ hua	587
 沂蒙精神	i mŋ jiŋ ŝñ	156
 沂蒙山	i mŋ ŝw	2325
@@ -479700,8 +479836,8 @@ sort: by_weight
 易蒙停胶囊	i mŋ tiŋ jio nv	1
 一米	i mi	44240
 乙醚	i mi	13275
-薏米	i mi	3119
 一秘	i mi	820
+薏米	i mi	11
 一米八	i mi ba	4665
 以弥补	i mi bu	10870
 壹米滴答	i mi di da	65
@@ -481305,6 +481441,7 @@ sort: by_weight
 一闪一闪亮星星	i ŝw i ŝw liv xiŋ xiŋ	107
 一山一石	i ŝw i ŝi	155
 一山一水	i ŝw i ŝue	108
+异山嵛滑管蓟马	i ŝw y hua guw ji ma	1
 移山造海	i ŝw zao hai	1
 沂山镇	i ŝw ẑñ	9
 一山之隔	i ŝw ẑi ge	635
@@ -483283,12 +483420,12 @@ sort: by_weight
 一掀	i xiw	3070
 乙酰	i xiw	1693
 一现	i xiw	1107
-医仙	i xiw	22
-易县	i xiw	7
-黟县	i xiw	7
-义县	i xiw	6
+医仙	i xiw	222
+# 义县	yi xian	0
 # 峄县	yi xian	0
+# 易县	yi xian	0
 # 逸仙	yi xian	0
+# 黟县	yi xian	0
 胰腺癌	i xiw ai	8455
 乙酰氨基酚	i xiw w ji fñ	42
 乙酰胺注射液	i xiw w ẑu ŝe ie	5
@@ -485382,6 +485519,7 @@ sort: by_weight
 一幢一幢	i ẑuv i ẑuv	215
 一桩一桩	i ẑuv i ẑuv	70
 亦庄站	i ẑuv ẑw	31
+亦庄镇政府	i ẑuv ẑñ ẑŋ fu	25
 亦庄中心小学	i ẑuv ẑuŋ xiñ xio xye	2
 亦庄中学	i ẑuv ẑuŋ xye	4
 一幢幢	i ẑuv ẑuv	5520
@@ -486790,7 +486928,6 @@ sort: by_weight
 音孔	iñ kuŋ	2690
 音控台	iñ kuŋ tai	1
 银库	iñ ku	1305
-银块	iñ kui	986
 银筷	iñ kui	610
 尹宽	iñ kuw	7
 银矿	iñ kuv	4360
@@ -487595,7 +487732,6 @@ sort: by_weight
 殷屯	iñ tuñ	1
 因陀罗	iñ to lo	1260
 淫娃	iñ ua	2155
-银碗	iñ uw	1368
 银网中心	iñ uv ẑuŋ xiñ	461
 因为	iñ ue	503010
 引为	iñ ue	7695
@@ -487677,7 +487813,6 @@ sort: by_weight
 银纹毛叶甲	iñ uñ mao ie jia	1
 音问相继	iñ uñ xiv ji	1
 音问杳然	iñ uñ io rw	1
-银纹夜蛾	iñ uñ ie e	4
 印纹异花天牛	iñ uñ i hua tiw niu	1
 银纹舟蛾	iñ uñ ẑou e	1
 因我	iñ o	24435
@@ -488358,8 +488493,8 @@ sort: by_weight
 尹宗禹	iñ zuŋ y	11
 饮醉	iñ zue	3333
 饮醉了	iñ zue le	333
-引座	iñ zo	9999
-银座	iñ zo	998
+引座	iñ zo	99999
+银座	iñ zo	19985
 银座百货	iñ zo bai ho	121
 鹦阿卷叶蛛	iŋ a jyw ie ẑu	1
 应按	iŋ w	187120
@@ -488616,7 +488751,6 @@ sort: by_weight
 应道	iŋ dao	17450
 赢到	iŋ dao	1685
 营道	iŋ dao	3
-樱岛	iŋ dao	2
 应到会	iŋ dao hue	391
 硬道理	iŋ dao li	7000
 硬导丝	iŋ dao si	1
@@ -488659,9 +488793,9 @@ sort: by_weight
 迎敌	iŋ di	5560
 硬底	iŋ di	4321
 应敌	iŋ di	2285
-硬地	iŋ di	682
 茔地	iŋ di	305
 鹰笛	iŋ di	38
+影帝的公主	iŋ di de guŋ ẑu	125
 硬底化	iŋ di hua	1930
 英迪拉	iŋ di la	610
 营底栖生活	iŋ di qi ŝŋ ho	65
@@ -488909,6 +489043,7 @@ sort: by_weight
 英格丽	iŋ ge li	17
 英格伦	iŋ ge luñ	101
 鹦哥绿	iŋ ge ly	180
+迎鸽律师事务所	iŋ ge ly ŝi ŝi u so	4
 影歌神殿	iŋ ge ŝñ diw	3
 英哥鼠	iŋ ge ŝu	1
 英格索兰	iŋ ge so lw	4295
@@ -489039,6 +489174,7 @@ sort: by_weight
 英国女人	iŋ go ny rñ	355
 英国女王	iŋ go ny uv	4675
 英国欧格特	iŋ go ou ge te	1
+英国品诚梅森律师事务所	iŋ go piñ ĉŋ mei sñ ly ŝi ŝi u so	1
 英国普通法制度之旅	iŋ go pu tuŋ fa ẑi du ẑi ly	3
 英国汽车工业	iŋ go qi ĉe guŋ ie	804
 英国侵权法	iŋ go qiñ qyw fa	14
@@ -490613,11 +490749,10 @@ sort: by_weight
 营业主任	iŋ ie ẑu rñ	475
 应以	iŋ i	131150
 英译	iŋ i	8865
-英裔	iŋ i	346
-英乙	iŋ i	244
-盈溢	iŋ i	102
-颖异	iŋ i	3
-英毅	iŋ i	2
+英乙	iŋ i	2445
+盈溢	iŋ i	1020
+颖异	iŋ i	335
+英毅	iŋ i	265
 # 影艺	ying yi	0
 英译本	iŋ i bñ	2320
 迎意承旨	iŋ i ĉŋ ẑi	1
@@ -490628,9 +490763,8 @@ sort: by_weight
 硬一些	iŋ i xie	229
 英裔新西兰	iŋ i xiñ xi lw	1
 英译中	iŋ i ẑuŋ	2170
+影音	iŋ iñ	160215
 影印	iŋ iñ	14660
-影音	iŋ iñ	1602
-英音	iŋ iñ	288
 影印版	iŋ iñ bw	4310
 影印本	iŋ iñ bñ	4795
 影音传送带	iŋ iñ ĉuw suŋ dai	12115
@@ -491764,9 +491898,6 @@ sort: by_weight
 用脚把	yŋ jio ba	500
 用胶布	yŋ jio bu	1575
 用脚踩	yŋ jio cai	1300
-用脚跺	yŋ jio do	99
-用脚跺地	yŋ jio do di	99
-用脚跺地板	yŋ jio do di bw	99
 用脚尖	yŋ jio jiw	1540
 用脚投票	yŋ jio tou pio	2110
 用脚趾	yŋ jio ẑi	750
@@ -493926,13 +494057,11 @@ sort: by_weight
 有否	iu fou	26035
 优抚	iu fu	19230
 有福	iu fu	15670
-右腹	iu fu	3987
-又复	iu fu	1287
-有负	iu fu	731
-幽浮	iu fu	136
+又复	iu fu	12870
+有负	iu fu	7310
+幽浮	iu fu	1365
 优抚安置	iu fu w ẑi	3550
 优抚安置制度	iu fu w ẑi ẑi du	22
-右腹部	iu fu bu	98
 有付出	iu fu ĉu	66
 优抚对象	iu fu due xiv	14395
 右扶风	iu fu fŋ	2
@@ -495310,7 +495439,6 @@ sort: by_weight
 又快又省	iu kui iu ŝŋ	620
 又快又稳	iu kui iu uñ	2620
 又快又准	iu kui iu ẑuñ	5640
-右髋	iu kuw	9
 又宽又长	iu kuw iu ĉv	1080
 又宽又大	iu kuw iu da	1660
 又宽又深	iu kuw iu ŝñ	720
@@ -495751,8 +495879,7 @@ sort: by_weight
 优美	iu mei	140360
 有没	iu mei	66666
 又没	iu mei	57910
-右眉	iu mei	3698
-又美	iu mei	1461
+又美	iu mei	4610
 幽美	iu mei	1
 # 佑楣	you mei	0
 # 幼梅	you mei	0
@@ -495763,7 +495890,6 @@ sort: by_weight
 有美感	iu mei gw	1220
 由美国	iu mei go	39720
 优美环境	iu mei huw jiŋ	3955
-右眉角	iu mei jio	8
 又没叫你	iu mei jio ni	250
 有没空	iu mei kuŋ	33
 又没来	iu mei lai	106
@@ -496030,7 +496156,6 @@ sort: by_weight
 有男有女	iu nw iu ny	8940
 有难有易	iu nw iu i	1140
 右脑	iu nao	18150
-有脑	iu nao	77
 又闹又吵	iu nao iu ĉao	140
 尤内斯库	iu nei si ku	10
 幼嫩	iu nñ	6810
@@ -496104,9 +496229,7 @@ sort: by_weight
 又怕又爱	iu pa iu ai	640
 又怕又恨	iu pa iu hñ	420
 右派	iu pai	20965
-诱拍	iu pai	88
-有牌	iu pai	2
-优派	iu pai	1
+优派	iu pai	11
 右派分子	iu pai fñ zi	2310
 右派人士	iu pai rñ ŝi	45
 有牌有证	iu pai iu ẑŋ	320
@@ -496284,7 +496407,6 @@ sort: by_weight
 右前	iu qiw	5000
 油钱	iu qiw	3333
 又浅	iu qiw	1180
-右迁	iu qiw	5
 有钱啊	iu qiw a	2590
 右前边	iu qiw biw	15
 右前车门玻璃	iu qiw ĉe mñ bo li	5
@@ -496712,11 +496834,11 @@ sort: by_weight
 有谁	iu ŝei	63690
 由谁	iu ŝei	19430
 幽深	iu ŝñ	25115
+有神	iu ŝñ	24095
 尤甚	iu ŝñ	7160
+有甚	iu ŝñ	5555
 右肾	iu ŝñ	3369
 游神	iu ŝñ	2530
-有神	iu ŝñ	2409
-有甚	iu ŝñ	255
 有身	iu ŝñ	46
 有深度	iu ŝñ du	11225
 有深厚	iu ŝñ hou	6590
@@ -496981,12 +497103,11 @@ sort: by_weight
 又瘦又小	iu ŝou iu xio	795
 有数	iu ŝu	43165
 又输	iu ŝu	7777
-幼鼠	iu ŝu	688
 鼬鼠	iu ŝu	600
 有树	iu ŝu	350
 幼树	iu ŝu	219
+优属	iu ŝu	111
 右枢	iu ŝu	40
-优属	iu ŝu	11
 有数百	iu ŝu bai	3065
 又树蕙之百亩	iu ŝu hue ẑi bai mu	6
 有数家	iu ŝu jia	820
@@ -497032,11 +497153,10 @@ sort: by_weight
 游丝	iu si	5990
 忧思	iu si	5940
 幽思	iu si	2440
+有死	iu si	1557
 又死	iu si	1444
-有死	iu si	557
-右四	iu si	44
-有司	iu si	5
-有私	iu si	4
+右四	iu si	5
+有司	iu si	1
 有四大	iu si da	905
 有死而已	iu si er i	51
 有丝分裂	iu si fñ lie	4990
@@ -497820,7 +497940,6 @@ sort: by_weight
 又像	iu xiv	26425
 幽香	iu xiv	20400
 游向	iu xiv	4150
-油相	iu xiv	777
 油香	iu xiv	242
 诱降	iu xiv	12
 # 优香	you xiang	0
@@ -498005,7 +498124,6 @@ sort: by_weight
 有写	iu xie	16655
 有血	iu xie	1254
 诱胁	iu xie	105
-右胁	iu xie	96
 油鞋	iu xie	60
 # 友协	you xie	0
 有些长	iu xie ĉv	78
@@ -498341,7 +498459,6 @@ sort: by_weight
 有要于时	iu io y ŝi	3
 油液	iu ie	5275
 幽咽	iu ie	1090
-右腋	iu ie	987
 诱掖	iu ie	135
 楢叶町	iu ie diŋ	1
 由也好勇过我	iu ie hao yŋ go o	1
@@ -499306,12 +499423,12 @@ sort: by_weight
 忧灼	iu ẑo	60
 尤卓尔软膏	iu ẑo er ruw gao	2
 有着落	iu ẑo lo	3910
+游子	iu zi	35950
 柚子	iu zi	22205
 油渍	iu zi	10335
 邮资	iu zi	9061
 游资	iu zi	8705
 幼子	iu zi	7000
-游子	iu zi	6950
 有字	iu zi	5720
 犹自	iu zi	5610
 悠子	iu zi	1355
@@ -499949,12 +500066,11 @@ sort: by_weight
 # 渔渡	yu du	0
 鱼肚白	y du bai	1915
 羽渡尘	y du ĉñ	168
-宇都宫市	y du guŋ ŝi	5
 宇都宫紫苑	y du guŋ zi yw	6666
 于都河	y du he	56
-欲渡黄河冰塞川	y du huv he biŋ se ĉuw	13
-于都人	y du rñ	1
-于都县	y du xiw	277
+欲渡黄河冰塞川	y du huv he biŋ sai ĉuw	13
+于都人	y du rñ	16
+于都县	y du xiw	2775
 于都县城	y du xiw ĉŋ	10
 鱼毒性	y du xiŋ	7
 与读者	y du ẑe	10950
@@ -500037,6 +500153,8 @@ sort: by_weight
 语法学	y fa xye	1210
 于法有据	y fa iu jy	930
 与发展	y fa ẑw	253330
+榆垡镇政府	y fa ẑñ ẑŋ fu	10
+榆垡镇政府路口	y fa ẑñ ẑŋ fu lu kou	1
 语法知识	y fa ẑi ŝi	6575
 鱼贩	y fw	1725
 余犯	y fw	65
@@ -500263,8 +500381,8 @@ sort: by_weight
 预购	y gou	24020
 鱼钩	y gou	19999
 欲购	y gou	7075
+与狗	y gou	999
 鱼狗	y gou	899
-与狗	y gou	9
 鱼狗白钩虾	y gou bai gou xia	1
 预购版	y gou bw	370
 欲购从速	y gou cuŋ su	9220
@@ -500299,7 +500417,6 @@ sort: by_weight
 遇故知	y gu ẑi	23111
 预估值	y gu ẑi	2260
 裕固族	y gu zu	3350
-雨刮	y gua	789
 豫卦	y gua	3
 雨刮臂	y gua bi	260
 雨刮电机	y gua diw ji	450
@@ -501167,11 +501284,11 @@ sort: by_weight
 雨林	y liñ	33140
 雨淋	y liñ	13730
 育林	y liñ	5595
+羽林	y liñ	4480
 御林	y liñ	1125
-羽林	y liñ	448
+玉麟	y liñ	721
 玉林	y liñ	424
-榆林	y liñ	55
-玉麟	y liñ	7
+榆林	y liñ	2
 # 育麟	yu lin	0
 玉林北路	y liñ bei lu	44
 榆林北路	y liñ bei lu	1
@@ -501206,8 +501323,8 @@ sort: by_weight
 玉林肉蛋	y liñ rou dw	3
 玉林上横巷	y liñ ŝv hŋ xiv	1
 玉林生活广场	y liñ ŝŋ ho guv ĉv	29
-玉林市	y liñ ŝi	420
-榆林市	y liñ ŝi	182
+玉林市	y liñ ŝi	14220
+榆林市	y liñ ŝi	10820
 榆林市第一医院	y liñ ŝi di i i yw	7
 玉林市骨科医院	y liñ ŝi gu ke i yw	1
 雨淋湿了天空	y liñ ŝi le tiw kuŋ	136
@@ -501268,6 +501385,7 @@ sort: by_weight
 玉龙岛	y luŋ dao	29
 育龙岛	y luŋ dao	1
 与龙共舞	y luŋ guŋ u	510
+禹龙海	y luŋ hai	156
 御龙瀚府	y luŋ hw fu	165
 遇龙河	y luŋ he	8485
 御龙河	y luŋ he	1
@@ -501647,7 +501765,7 @@ sort: by_weight
 于你	y ni	4733
 芋泥	y ni	3364
 芋泥波波	y ni bo bo	169
-芋泥麻糬	y ni ma ŝu	2
+芋泥麻薯	y ni ma ŝu	125
 与你同行	y ni tuŋ xiŋ	3975
 与你同在	y ni tuŋ zai	3100
 与你无关	y ni u guw	4595
@@ -502052,8 +502170,7 @@ sort: by_weight
 余日章	y ri ẑv	2
 羽绒	y ruŋ	30965
 玉容	y ruŋ	6270
-鱼茸	y ruŋ	7
-# 玉荣	yu rong	0
+玉荣	y ruŋ	3765
 羽绒被	y ruŋ bei	2710
 羽绒布	y ruŋ bu	115
 羽绒服	y ruŋ fu	45545
@@ -502527,22 +502644,23 @@ sort: by_weight
 与他们	y ta mñ	63235
 与他人	y ta rñ	55570
 语态	y tai	4430
-玉台	y tai	180
+鱼台	y tai	1955
+玉台	y tai	1800
 舆台	y tai	120
-鱼台	y tai	2
-# 毓泰	yu tai	0
+毓泰	y tai	35
 渝钛白	y tai bai	1
 渝太地产	y tai di ĉw	1
 雨台山	y tai ŝw	132
 与台湾	y tai uw	26000
-鱼台县	y tai xiw	185
+鱼台县	y tai xiw	1185
 玉太乡	y tai xiv	3
 玉台新咏	y tai xiñ yŋ	655
 于台烟	y tai iw	6
 玉台镇	y tai ẑñ	2
 羽坛	y tw	2075
 淤滩	y tw	1103
-玉潭	y tw	3
+玉潭	y tw	32
+余谈阵	y tw ẑñ	5
 鱼塘	y tv	21320
 鱼汤	y tv	10415
 浴堂	y tv	465
@@ -502591,8 +502709,8 @@ sort: by_weight
 宇天能	y tiw nŋ	95
 狱天使	y tiw ŝi	185
 于阗文	y tiw uñ	12
+玉田县	y tiw xiw	3870
 于田县	y tiw xiw	830
-玉田县	y tiw xiw	387
 玉天仙	y tiw xiw	7
 玉天香	y tiw xiv	48
 玉田乡	y tiw xiv	1
@@ -502894,10 +503012,10 @@ sort: by_weight
 愈显	y xiw	1180
 鱼鲜	y xiw	1050
 阈限	y xiw	145
-蔚县	y xiw	7
-盂县	y xiw	6
+蔚县	y xiw	2
 # 余闲	yu xian	0
 # 欲仙	yu xian	0
+# 盂县	yu xian	0
 # 禹县	yu xian	0
 # 聿贤	yu xian	0
 # 育贤	yu xian	0
@@ -502920,6 +503038,7 @@ sort: by_weight
 预先警告	y xiw jiŋ gao	250
 预先录制	y xiw lu ẑi	515
 渔线轮	y xiw luñ	1650
+盂县苗圃	y xiw mio pu	1
 预先判断	y xiw pw duw	600
 预先披露制度	y xiw pi lu ẑi du	647
 预先确定	y xiw qye diŋ	3575
@@ -504416,6 +504535,7 @@ sort: by_weight
 源动力	yw duŋ li	19133
 苑东路	yw duŋ lu	2
 远东裸腹蚤	yw duŋ lo fu zao	1
+远东律师事务所	yw duŋ ly ŝi ŝi u so	231
 远东旅行社	yw duŋ ly xiŋ ŝe	86
 远东苜蓿盲蝽	yw duŋ mu xy mv ĉuñ	1
 远东拟隆头鱼	yw duŋ ni luŋ tou y	1
@@ -505145,7 +505265,6 @@ sort: by_weight
 圆明园公园	yw miŋ yw guŋ yw	64
 圆明园南门	yw miŋ yw nw mñ	35
 圆明园遗址	yw miŋ yw i ẑi	1205
-元末	yw mo	444
 渊默	yw mo	220
 猿魔	yw mo	1
 圆膜凹颚叶蜂	yw mo ao e ie fŋ	1
@@ -506502,6 +506621,7 @@ sort: by_weight
 越北腹露蝗	ye bei fu lu huv	53
 粤北工业开发区	ye bei guŋ ie kai fa qy	15
 越北绛蝇	ye bei jiv iŋ	1
+粤北山	ye bei ŝw	40
 粤北医院	ye bei i yw	79
 越北原矛头蝮	ye bei yw mao tou fu	1
 越背越痛苦	ye bei ye tuŋ ku	10
@@ -506901,6 +507021,7 @@ sort: by_weight
 乐府	ye fu	14600
 悦服	ye fu	965
 越凫楚乙	ye fu ĉu i	1
+粤富华	ye fu hua	12500
 岳父家	ye fu jia	885
 岳府街	ye fu jie	98
 乐府民歌	ye fu miñ ge	715
@@ -507045,9 +507166,10 @@ sort: by_weight
 越过越舒心	ye go ye ŝu xiñ	50
 越过越有	ye go ye iu	65
 月过中秋	ye go ẑuŋ qiu	3
+粤海	ye hai	12220
 月海	ye hai	1280
-粤海	ye hai	1
 粤海大道	ye hai da dao	199
+粤海发	ye hai fa	12500
 粤海花园	ye hai hua yw	1
 粤海饲料	ye hai si lio	200
 约翰	ye hw	135770
@@ -507119,15 +507241,15 @@ sort: by_weight
 越厚越好	ye hou ye hao	535
 越后越精彩	ye hou ye jiŋ cai	25
 越厚越有价	ye hou ye iu jia	45
+月湖	ye hu	6990
 乐户	ye hu	805
-月湖	ye hu	699
 越鳠	ye hu	1
 月湖公园	ye hu guŋ yw	330
-月湖区	ye hu qy	118
+月湖区	ye hu qy	1180
 月华	ye hua	17100
+跃华	ye hua	3055
+粤华	ye hua	2015
 越滑	ye hua	500
-# 粤华	yue hua	0
-# 跃华	yue hua	0
 悦华酒店	ye hua jiu diw	153
 岳华路	ye hua lu	90
 悦华路	ye hua lu	2
@@ -507183,6 +507305,7 @@ sort: by_weight
 月季花	ye ji hua	3915
 月计划	ye ji hua	2080
 月季花园	ye ji hua yw	150
+月季绿盲蝽	ye ji ly mv ĉuñ	1
 约基姆	ye ji mu	3
 约基奇	ye ji qi	74
 月季切叶蜂	ye ji qie ie fŋ	1
@@ -507232,7 +507355,8 @@ sort: by_weight
 越减越胖	ye jiw ye pv	60
 越减越重	ye jiw ye ẑuŋ	125
 月间掌舟蛾	ye jiw ẑv ẑou e	1
-粤江	ye jiv	4
+粤江	ye jiv	4470
+阅江花苑	ye jiv hua yw	4
 阅江楼	ye jiv lou	1670
 月降水量	ye jiv ŝue liv	985
 越江隧道	ye jiv sue dao	715
@@ -507254,6 +507378,7 @@ sort: by_weight
 跃进街	ye jiñ jie	124
 阅金经	ye jiñ jiŋ	1180
 跃进路	ye jiñ lu	574
+粤金曼	ye jiñ mw	71
 阅尽人间春色	ye jiñ rñ jiw ĉuñ se	25
 跃进三肢轮虫	ye jiñ sw ẑi luñ ĉuŋ	1
 跃进社区	ye jiñ ŝe qy	23
@@ -507718,6 +507843,7 @@ sort: by_weight
 越理越乱	ye li ye luw	180
 越离越远	ye li ye yw	400
 乐理知识	ye li ẑi ŝi	135
+粤丽珠	ye li ẑu	1
 越练越	ye liw ye	1235
 越练越差	ye liw ye ĉa	10
 越炼越纯	ye liw ye ĉuñ	40
@@ -508068,7 +508194,7 @@ sort: by_weight
 月如钩	ye ru gou	2270
 跃入人海	ye ru rñ hai	190
 越软越好	ye ruw ye hao	60
-粤若稽古	ye ro ji gu	5
+粤若稽古	ye ro ji gu	45
 越弱越好	ye ro ye hao	20
 月嫂	ye sao	9999
 月色	ye se	34325
@@ -509479,6 +509605,7 @@ sort: by_weight
 云南城投	yñ nw ĉŋ tou	1
 云南春卷	yñ nw ĉuñ jyw	50
 云南大理	yñ nw da li	3850
+云南大理市下关镇	yñ nw da li ŝi xia guw ẑñ	1
 云南大学	yñ nw da xye	13810
 云南队	yñ nw due	1715
 云南红	yñ nw huŋ	2860
@@ -510112,8 +510239,7 @@ sort: by_weight
 陨越	yñ ye	120
 云云	yñ yñ	32055
 晕晕	yñ yñ	11590
-匀匀	yñ yñ	987
-芸芸	yñ yñ	735
+芸芸	yñ yñ	7355
 沄沄	yñ yñ	1
 畇畇	yñ yñ	1
 纭纭	yñ yñ	1
@@ -514055,7 +514181,6 @@ sort: by_weight
 脏病	zv biŋ	8970
 脏不	zv bu	1111
 臧仓小人	zv cv xio rñ	1
-脏层	zv cŋ	5
 藏菖蒲	zv ĉv pu	1
 赃车	zv ĉe	1580
 脏臭	zv ĉou	1111
@@ -514336,7 +514461,6 @@ sort: by_weight
 造到	zao dao	15555
 早到	zao dao	13800
 早稻	zao dao	13000
-造岛	zao dao	368
 遭到报应	zao dao bao iŋ	800
 遭到不幸	zao dao bu xiŋ	640
 遭到了	zao dao le	44800
@@ -514607,7 +514731,6 @@ sort: by_weight
 枣岭村	zao liŋ cuñ	8
 糟熘	zao liu	8
 糟熘鱼片	zao liu y piw	115
-造陆	zao lu	368
 造轮子	zao luñ zi	3053
 早落先梧桐	zao lo xiw u tuŋ	1
 早吗	zao ma	5555
@@ -514675,9 +514798,9 @@ sort: by_weight
 早期诊断	zao qi ẑñ duw	1575
 早前	zao qiw	23480
 遭抢	zao qiv	1765
-枣强	zao qiv	8
+枣强	zao qiv	1585
 遭强奸	zao qiv jiw	440
-枣强县	zao qiv xiw	210
+枣强县	zao qiv xiw	2105
 造桥	zao qio	2945
 遭倾遇祸	zao qiŋ y ho	1
 早秋	zao qiu	2450
@@ -514907,7 +515030,6 @@ sort: by_weight
 噪音污染	zao iñ u rw	3950
 噪音抑制	zao iñ i ẑi	60
 造影	zao iŋ	31590
-蚤蝇	zao iŋ	4
 枣营北里	zao iŋ bei li	555
 造影导管	zao iŋ dao guw	5
 造影剂	zao iŋ ji	4605
@@ -514995,13 +515117,13 @@ sort: by_weight
 早终非命促	zao ẑuŋ fei miŋ cu	1
 早中晚	zao ẑuŋ uw	24845
 凿柱取书	zao ẑu qy ŝu	1
-枣庄	zao ẑuv	2546
+枣庄	zao ẑuv	25460
 枣庄路	zao ẑuv lu	73
-枣庄市	zao ẑuv ŝi	145
+枣庄市	zao ẑuv ŝi	14535
 枣庄市峄城	zao ẑuv ŝi i ĉŋ	9
 枣庄市峄城区	zao ẑuv ŝi i ĉŋ qy	99
 枣庄市中医院	zao ẑuv ŝi ẑuŋ i yw	1
-枣庄峄城	zao ẑuv i ĉŋ	7
+枣庄峄城	zao ẑuv i ĉŋ	24
 枣庄峄县	zao ẑuv i xiw	1
 枣庄中院	zao ẑuv ẑuŋ yw	87
 藻棁	zao ẑo	10
@@ -516079,11 +516201,11 @@ sort: by_weight
 闸板	ẑa bw	2640
 闸板阀	ẑa bw fa	280
 诈保	ẑa bao	770
-闸北	ẑa bei	4
+闸北	ẑa bei	18860
 闸北电厂	ẑa bei diw ĉv	9
 闸北公园	ẑa bei guŋ yw	98
-闸北区	ẑa bei qy	4
-闸北水厂	ẑa bei ŝue ĉv	3
+闸北区	ẑa bei qy	20805
+闸北水厂	ẑa bei ŝue ĉv	35
 齇鼻	ẑa bi	5
 炸菠菜脯	ẑa bo cai fu	1
 扎波罗热	ẑa bo lo re	125
@@ -516099,6 +516221,7 @@ sort: by_weight
 榨菜肉丝汤	ẑa cai rou si tv	35
 榨菜丝	ẑa cai si	650
 榨菜蒸大鳝	ẑa cai ẑŋ da ŝw	1
+柞蚕蛹	ẑa cw yŋ	87
 炸蚕蛹鸡	ẑa cw yŋ ji	2
 铡草	ẑa cao	545
 苲草	ẑa cao	1
@@ -517029,12 +517152,10 @@ sort: by_weight
 毡车百辆皆胡姬	ẑw ĉe bai liv jie hu ji	1
 栈车牝马	ẑw ĉe piñ ma	1
 占车位	ẑw ĉe ue	112
-粘尘	ẑw ĉñ	86
-展陈	ẑw ĉñ	77
 粘尘垫	ẑw ĉñ diw	1005
 站成	ẑw ĉŋ	100000
 占城	ẑw ĉŋ	4160
-# 展城	zhan cheng	0
+展城	ẑw ĉŋ	86
 站成一排	ẑw ĉŋ i pai	1560
 展翅	ẑw ĉi	19480
 展翅飞翔	ẑw ĉi fei xiv	3955
@@ -517887,9 +518008,8 @@ sort: by_weight
 战线上	ẑw xiw ŝv	8250
 展现着	ẑw xiw ẑe	4160
 展现自我	ẑw xiw zi o	1092
+占祥	ẑw xiv	2375
 站相	ẑw xiv	1980
-占相	ẑw xiv	7
-# 占祥	zhan xiang	0
 占祥上猿	ẑw xiv ŝv yw	1
 展销	ẑw xio	39440
 展销部	ẑw xio bu	74
@@ -519397,7 +519517,7 @@ sort: by_weight
 # 张恕	zhang shu	0
 # 掌书	zhang shu	0
 樟树港	ẑv ŝu gv	164
-张曙光	ẑv ŝu guv	3
+张曙光	ẑv ŝu guv	3145
 张舒涵	ẑv ŝu hw	8
 樟树垄	ẑv ŝu luŋ	1
 张叔明	ẑv ŝu miŋ	2
@@ -520077,7 +520197,6 @@ sort: by_weight
 张宗泰	ẑv zuŋ tai	1
 张宗祥	ẑv zuŋ xiv	254
 张宗逊	ẑv zuŋ xyñ	67
-涨租	ẑv zu	77
 张祖辉	ẑv zu hue	2
 张祖谅	ẑv zu liv	3
 张祖同	ẑv zu tuŋ	1
@@ -520551,6 +520670,7 @@ sort: by_weight
 赵虎	ẑao hu	2
 招呼过	ẑao hu go	64
 招呼客人	ẑao hu ke rñ	2745
+赵虎林	ẑao hu liñ	31
 照葫芦画瓢	ẑao hu lu hua pio	1385
 招呼用语	ẑao hu yŋ y	30
 招呼站	ẑao hu ẑw	2250
@@ -522544,12 +522664,18 @@ sort: by_weight
 浙江齐治科技	ẑe jiv qi ẑi ke ji	87
 浙江齐治科技股份有限公司	ẑe jiv qi ẑi ke ji gu fñ iu xiw guŋ si	87
 浙江人	ẑe jiv rñ	8635
+浙江人地律师事务所	ẑe jiv rñ di ly ŝi ŝi u so	6
 浙江日报	ẑe jiv ri bao	5990
+浙江瑞安市飞云镇	ẑe jiv rue w ŝi fei yñ ẑñ	2
+浙江瑞安市塘下镇	ẑe jiv rue w ŝi tv xia ẑñ	12
+浙江瑞安市陶山镇	ẑe jiv rue w ŝi tao ŝw ẑñ	1
+浙江瑞安市莘塍镇	ẑe jiv rue w ŝi xiñ ĉŋ ẑñ	1
 浙江瑞立集团公司	ẑe jiv rue li ji tuw guŋ si	2
 浙江三花股份有限公司	ẑe jiv sw hua gu fñ iu xiw guŋ si	6
 浙江三黄肉鸡	ẑe jiv sw huv rou ji	1
 浙江商人	ẑe jiv ŝv rñ	2065
 浙江上虞	ẑe jiv ŝv y	1680
+浙江上虞市崧厦镇	ẑe jiv ŝv y ŝi suŋ xia ẑñ	2
 浙江绍兴	ẑe jiv ŝao xiŋ	13350
 浙江省	ẑe jiv ŝŋ	500281
 浙江省产品质量监督管理条例	ẑe jiv ŝŋ ĉw piñ ẑi liv jiw du guw li tio li	4
@@ -522622,6 +522748,7 @@ sort: by_weight
 这将是	ẑe jiv ŝi	33525
 浙江师范大学	ẑe jiv ŝi fw da xye	6780
 浙江台州	ẑe jiv tai ẑou	10595
+浙江腾飞金鹰律师事务所	ẑe jiv tŋ fei jiñ iŋ ly ŝi ŝi u so	20
 浙江体彩	ẑe jiv ti cai	1270
 浙江天然	ẑe jiv tiw rw	12500
 浙江天台盆地	ẑe jiv tiw tai pñ di	4
@@ -522643,6 +522770,7 @@ sort: by_weight
 浙江在线	ẑe jiv zai xiw	7575
 浙江榨菜	ẑe jiv ẑa cai	19
 浙江震元	ẑe jiv ẑñ yw	870
+浙江政法联律师事务所	ẑe jiv ẑŋ fa liw ly ŝi ŝi u so	6
 浙江智贝信息	ẑe jiv ẑi bei xiñ xi	87
 浙江智贝信息科技有限公司	ẑe jiv ẑi bei xiñ xi ke ji iu xiw guŋ si	87
 浙江中	ẑe jiv ẑuŋ	637
@@ -523996,7 +524124,6 @@ sort: by_weight
 针刺治疗	ẑñ ci ẑi lio	1595
 真聪明	ẑñ cuŋ miŋ	2915
 针簇多枝轮虫	ẑñ cu do ẑi luñ ĉuŋ	1
-真脆	ẑñ cue	88
 珍存	ẑñ cuñ	720
 真大	ẑñ da	10065
 真打	ẑñ da	36
@@ -524477,7 +524604,6 @@ sort: by_weight
 贞洁	ẑñ jie	875
 侦结	ẑñ jie	620
 镇界	ẑñ jie	77
-镇街	ẑñ jie	69
 针芥	ẑñ jie	65
 枕藉	ẑñ jie	2
 # 振杰	zhen jie	0
@@ -524538,7 +524664,6 @@ sort: by_weight
 真卷	ẑñ jyw	2468
 赈捐	ẑñ jyw	145
 真诀	ẑñ jye	2150
-真绝	ẑñ jye	234
 真觉得	ẑñ jye de	3560
 真觉寺	ẑñ jye si	8
 真菌	ẑñ jyñ	44085
@@ -524797,7 +524922,6 @@ sort: by_weight
 帧内编码	ẑñ nei biw ma	414
 帧内压缩	ẑñ nei ia so	191
 阵内智则	ẑñ nei ẑi ze	5
-真嫩	ẑñ nñ	368
 真能	ẑñ nŋ	27675
 真能变成石头吗	ẑñ nŋ biw ĉŋ ŝi tou ma	1
 真能干	ẑñ nŋ gw	855
@@ -524861,13 +524985,11 @@ sort: by_weight
 阵前	ẑñ qiw	7875
 真欠	ẑñ qiw	2222
 真钱	ẑñ qiw	1111
-真浅	ẑñ qiw	123
 # 振乾	zhen qian	0
 枕前看鹤浴	ẑñ qiw kw he y	1
 真前孔鲀	ẑñ qiw kuŋ tuñ	1
 真强	ẑñ qiv	3540
 真枪	ẑñ qiv	1735
-真呛	ẑñ qiv	123
 真腔骨龙	ẑñ qiv gu luŋ	1
 真枪实弹	ẑñ qiv ŝi dw	2025
 真强状水母	ẑñ qiv ẑuv ŝue mu	1
@@ -525080,7 +525202,6 @@ sort: by_weight
 震悚	ẑñ suŋ	1
 帧速	ẑñ su	3140
 真俗	ẑñ su	1040
-真酥	ẑñ su	8
 真速度	ẑñ su du	5
 帧速率	ẑñ su ly	2570
 真酸	ẑñ suw	1987
@@ -525100,7 +525221,6 @@ sort: by_weight
 侦探团	ẑñ tw tuw	122
 侦探小说	ẑñ tw xio ŝo	6595
 侦探长	ẑñ tw ẑv	1040
-真烫	ẑñ tv	467
 枕套	ẑñ tao	10115
 真淘	ẑñ tao	2
 # 振涛	zhen tao	0
@@ -525481,7 +525601,6 @@ sort: by_weight
 真赃真贼	ẑñ zv ẑñ zei	2
 真早	ẑñ zao	1180
 真糟	ẑñ zao	405
-真躁	ẑñ zao	234
 真糟糕	ẑñ zao gao	1840
 震泽新村	ẑñ ze xiñ cuñ	1
 真贼	ẑñ zei	123
@@ -526152,6 +526271,7 @@ sort: by_weight
 正发光	ẑŋ fa guv	65
 政法机关	ẑŋ fa ji guw	7185
 政法教育	ẑŋ fa jio y	158
+政法界右派分子谬论汇集	ẑŋ fa jie iu pai fñ zi miu luñ hue ji	2
 蒸发了	ẑŋ fa le	5120
 政法类	ẑŋ fa lei	1460
 蒸发冷却	ẑŋ fa lŋ qye	545
@@ -526738,10 +526858,8 @@ sort: by_weight
 睁开眼睛	ẑŋ kai iw jiŋ	43430
 正开着	ẑŋ kai ẑe	710
 正楷字体	ẑŋ kai zi ti	265
-正看	ẑŋ kw	88
-正刊	ẑŋ kw	77
 正看着	ẑŋ kw ẑe	3225
-正考父	ẑŋ kao fu	4
+正考父	ẑŋ kao fu	340
 政客	ẑŋ ke	19220
 正可	ẑŋ ke	4380
 整颗	ẑŋ ke	1630
@@ -528827,13 +528945,14 @@ sort: by_weight
 置产	ẑi ĉw	1530
 滞产	ẑi ĉw	460
 职场	ẑi ĉv	162025
+之长	ẑi ĉv	39065
 直肠	ẑi ĉv	34835
 纸厂	ẑi ĉv	6810
-之长	ẑi ĉv	3906
 知常	ẑi ĉv	1750
 只唱	ẑi ĉv	1490
 治厂	ẑi ĉv	1315
 直肠癌	ẑi ĉv ai	11915
+直肠癌低温治疗仪	ẑi ĉv ai di uñ ẑi lio i	1
 直肠闭锁	ẑi ĉv bi so	3
 直肠给药	ẑi ĉv gei io	14
 职场规划	ẑi ĉv gue hua	28
@@ -530123,10 +530242,9 @@ sort: by_weight
 指痕	ẑi hñ	1005
 鸷狠狼戾	ẑi hñ lv li	1
 制衡	ẑi hŋ	28140
-# 志恒	zhi heng	0
+志恒	ẑi hŋ	1
 治洪	ẑi huŋ	9999
 滞洪	ẑi huŋ	2465
-直红	ẑi huŋ	4
 # 只红	zhi hong	0
 # 志宏	zhi hong	0
 # 志红	zhi hong	0
@@ -530863,10 +530981,9 @@ sort: by_weight
 芝兰堰路	ẑi lw iw lu	1
 芝兰斋糕干	ẑi lw ẑai gao gw	77
 芝兰之室	ẑi lw ẑi ŝi	715
+之狼	ẑi lv	5655
 只狼	ẑi lv	999
-指廊	ẑi lv	899
-之狼	ẑi lv	5
-之劳	ẑi lao	4
+之劳	ẑi lao	414
 纸老虎	ẑi lao hu	5930
 织牢织密	ẑi lao ẑi mi	161
 值了	ẑi le	17310
@@ -532793,21 +532910,22 @@ sort: by_weight
 职务	ẑi u	500347
 植物	ẑi u	500322
 织物	ẑi u	101545
+之物	ẑi u	81990
 支吾	ẑi u	77215
+之五	ẑi u	35540
+之舞	ẑi u	17180
 治污	ẑi u	16670
 置物	ẑi u	6725
+之误	ẑi u	5275
+之屋	ẑi u	4730
 指物	ẑi u	2540
-之物	ẑi u	819
-之五	ẑi u	554
-之误	ẑi u	527
-之舞	ẑi u	171
-之屋	ẑi u	4
 # 至五	zhi wu	0
 植物保护	ẑi u bao hu	11330
 植物标本	ẑi u bio bñ	2245
 植物病害	ẑi u biŋ hai	1080
 植物病理学	ẑi u biŋ li xye	2830
-知无不尽	ẑi u bu jiñ	2
+植物病原线虫摄食类群	ẑi u biŋ yw xiw ĉuŋ ŝe ŝi lei qyñ	1
+知无不尽	ẑi u bu jiñ	12
 知无不言	ẑi u bu iw	4775
 知无不言言无不尽	ẑi u bu iw iw u bu jiñ	39
 植物大战僵尸	ẑi u da ẑw jiv ŝi	453
@@ -532818,13 +532936,19 @@ sort: by_weight
 职务发明	ẑi u fa miŋ	6010
 职务繁杂	ẑi u fw za	1
 职务犯罪	ẑi u fw zue	44675
+职务犯罪惩治法律分解适用集成	ẑi u fw zue ĉŋ ẑi fa ly fñ jie ŝi yŋ ji ĉŋ	3
+职务犯罪的法律对策及治理	ẑi u fw zue de fa ly due ce ji ẑi li	1
+职务犯罪举报工作	ẑi u fw zue jy bao guŋ zo	38
+职务犯罪面面观	ẑi u fw zue miw miw guw	1
+职务犯罪预防战略研究	ẑi u fw zue y fv ẑw lye iw jiu	2
 植物附生性生物	ẑi u fu ŝŋ xiŋ ŝŋ u	1
 职务工资	ẑi u guŋ zi	9115
 植物害虫	ẑi u hai ĉuŋ	97
 植物化石	ẑi u hua ŝi	775
+植物化蜗牛	ẑi u hua o niu	1
 植物化学	ẑi u hua xye	1635
 知误会前翻书语	ẑi u hue qiw fw ŝu y	2
-植物极	ẑi u ji	5
+植物极	ẑi u ji	7
 植物寄生线虫	ẑi u ji ŝŋ xiw ĉuŋ	33
 职务技术成果	ẑi u ji ŝu ĉŋ go	4520
 植物激素	ẑi u ji su	2145
@@ -533487,6 +533611,7 @@ sort: by_weight
 职业认证	ẑi ie rñ ẑŋ	4585
 职业杀手	ẑi ie ŝa ŝou	4045
 职业生涯	ẑi ie ŝŋ ia	93530
+职业生涯管理制度	ẑi ie ŝŋ ia guw li ẑi du	10
 职业生涯规划	ẑi ie ŝŋ ia gue hua	26215
 支叶硕茂	ẑi ie ŝo mao	1
 职业素养	ẑi ie su iv	524
@@ -535168,7 +535293,6 @@ sort: by_weight
 众多	ẑuŋ do	500365
 众多的	ẑuŋ do de	178160
 众多非一	ẑuŋ do fei i	1
-重多少	ẑuŋ do ŝao	77
 众多玩家	ẑuŋ do uw jia	3865
 中俄	ẑuŋ e	51365
 中恶	ẑuŋ e	70
@@ -536479,6 +536603,7 @@ sort: by_weight
 中韩大酒店	ẑuŋ hw da jiu diw	48
 中韩关系	ẑuŋ hw guw xi	1145
 钟汉良	ẑuŋ hw liv	494
+中韩梦之队	ẑuŋ hw mŋ ẑi due	141
 中韩日	ẑuŋ hw ri	645
 中韩铁路轮渡	ẑuŋ hw tie lu luñ du	175
 中行	ẑuŋ hv	58220
@@ -536506,6 +536631,7 @@ sort: by_weight
 重好	ẑuŋ hao	415
 钟浩	ẑuŋ hao	82
 中号的	ẑuŋ hao de	745
+中豪律师事务所	ẑuŋ hao ly ŝi ŝi u so	120
 中浩森林湾	ẑuŋ hao sñ liñ uw	8
 众好众恶	ẑuŋ hao ẑuŋ e	1
 中和	ẑuŋ he	94160
@@ -537343,7 +537469,7 @@ sort: by_weight
 钟缙	ẑuŋ jiñ	1
 中近东	ẑuŋ jiñ duŋ	250
 中金公司	ẑuŋ jiñ guŋ si	9
-中金弧夜蛾	ẑuŋ jiñ hu ie e	2
+中金弧夜蛾	ẑuŋ jiñ hu ie e	1
 中锦会	ẑuŋ jiñ hue	1
 中近景	ẑuŋ jiñ jiŋ	123
 重金礼聘	ẑuŋ jiñ li piñ	945
@@ -537398,6 +537524,7 @@ sort: by_weight
 中楷	ẑuŋ kai	9999
 # 中凯	zhong kai	0
 # 仲恺	zhong kai	0
+中凯律师事务所	ẑuŋ kai ly ŝi ŝi u so	116
 中凯文化	ẑuŋ kai uñ hua	46
 中看	ẑuŋ kw	40865
 中看不中用	ẑuŋ kw bu ẑuŋ yŋ	3620
@@ -538323,7 +538450,6 @@ sort: by_weight
 中书夜直梦忠州	ẑuŋ ŝu ie ẑi mŋ ẑuŋ ẑou	3
 中庶子	ẑuŋ ŝu zi	560
 众数组	ẑuŋ ŝu zu	15
-重摔	ẑuŋ ŝui	1847
 中衰	ẑuŋ ŝui	710
 终霜	ẑuŋ ŝuv	11
 终霜期	ẑuŋ ŝuv qi	11
@@ -541325,7 +541451,6 @@ sort: by_weight
 主持	ẑu ĉi	500303
 住持	ẑu ĉi	22060
 蛀齿	ẑu ĉi	90
-术赤	ẑu ĉi	5
 主持词	ẑu ĉi ci	5230
 主持风格	ẑu ĉi fŋ ge	4850
 主持稿	ẑu ĉi gao	235
@@ -541432,11 +541557,10 @@ sort: by_weight
 住到	ẑu dao	12500
 主刀	ẑu dao	6675
 主道	ẑu dao	4920
+诸岛	ẑu dao	4800
 煮到	ẑu dao	2700
+祝祷	ẑu dao	1905
 注到	ẑu dao	1610
-诸岛	ẑu dao	480
-祝祷	ẑu dao	190
-竹刀	ẑu dao	68
 主导产品	ẑu dao ĉw piñ	38450
 主导产业	ẑu dao ĉw ie	39225
 主导地位	ẑu dao di ue	45440
@@ -542157,10 +542281,10 @@ sort: by_weight
 朱家河	ẑu jia he	118
 朱家胡同	ẑu jia hu tuŋ	5
 朱家花园	ẑu jia hua yw	23
-朱家尖	ẑu jia jiw	3
-朱家尖镇	ẑu jia jiw ẑñ	4
-朱家角	ẑu jia jio	5
-朱家军	ẑu jia jyñ	1
+朱家尖	ẑu jia jiw	3655
+朱家尖镇	ẑu jia jiw ẑñ	40
+朱家角	ẑu jia jio	5790
+朱家军	ẑu jia jyñ	143
 拄颊看山	ẑu jia kw ŝw	1
 朱家门	ẑu jia mñ	9
 驻加拿大	ẑu jia na da	1400
@@ -542396,7 +542520,6 @@ sort: by_weight
 煮咖啡	ẑu ka fei	3300
 煮开	ẑu kai	10605
 主开关	ẑu kai guw	1245
-主刊	ẑu kw	77
 主考	ẑu kao	32180
 助考	ẑu kao	4470
 主考官	ẑu kao guw	29220
@@ -544016,7 +544139,7 @@ sort: by_weight
 主业	ẑu ie	46040
 竹叶	ẑu ie	14650
 逐页	ẑu ie	7152
-# 竹业	zhu ye	0
+竹业	ẑu ie	5
 竹叶柴胡	ẑu ie ĉai hu	2
 主页地址	ẑu ie di ẑi	14550
 株冶集团	ẑu ie ji tuw	20
@@ -546391,7 +546514,6 @@ sort: by_weight
 装过什么	ẑuv go ŝñ me	1180
 撞过什么	ẑuv go ŝñ me	1040
 壮汉	ẑuv hw	15765
-庄行镇	ẑuv hv ẑñ	7
 装好	ẑuv hao	34325
 装好了	ẑuv hao le	6
 庄河	ẑuv he	5500
@@ -546697,7 +546819,6 @@ sort: by_weight
 庄绶甲	ẑuv ŝou jia	1
 装束	ẑuv ŝu	28095
 装书包	ẑuv ŝu bao	138
-装帅	ẑuv ŝui	233
 装睡	ẑuv ŝue	3395
 壮水之主	ẑuv ŝue ẑi ẑu	14
 壮硕	ẑuv ŝo	5215
@@ -547168,7 +547289,6 @@ sort: by_weight
 坠落伤	ẑue lo ŝv	89
 坠落在	ẑue lo zai	3305
 坠马	ẑue ma	2030
-追帽	ẑue mao	7
 追梦	ẑue mŋ	24460
 追梦人	ẑue mŋ rñ	3325
 追梦无悔	ẑue mŋ u hue	1
@@ -549432,7 +549552,6 @@ sort: by_weight
 紫荆花	zi jiŋ hua	7050
 紫荆花路	zi jiŋ hua lu	375
 紫荆花路南口	zi jiŋ hua lu nw kou	7
-紫茎甲	zi jiŋ jia	3
 紫荆街	zi jiŋ jie	16
 紫荆路	zi jiŋ lu	174
 紫荆南路	zi jiŋ nw lu	9
@@ -549489,8 +549608,8 @@ sort: by_weight
 自觉自愿	zi jye zi yw	3795
 自觉遵守	zi jye zuñ ŝou	83905
 子菌落	zi jyñ la	15
-# 子恺	zi kai	0
-子刊	zi kw	77
+子恺	zi kai	5840
+字开始	zi kai ŝi	91
 梓康路	zi kv lu	341
 自考	zi kao	148470
 自考办	zi kao bw	30940
@@ -549593,7 +549712,6 @@ sort: by_weight
 自量	zi liv	805
 资料	zi lio	501691
 自料	zi lio	595
-籽料	zi lio	7
 资料吧	zi lio ba	1590
 资料版	zi lio bw	450
 资料备索	zi lio bei so	61
@@ -549900,9 +550018,8 @@ sort: by_weight
 自强小区	zi qiv xio qy	12
 自强自立	zi qiv zi li	5725
 子桥	zi qio	11
+自清	zi qiŋ	5120
 恣情	zi qiŋ	1275
-自轻	zi qiŋ	675
-自清	zi qiŋ	512
 自清洁	zi qiŋ jie	73
 自清凉无汗	zi qiŋ liv u hw	1
 自清亭	zi qiŋ tiŋ	4
@@ -550099,7 +550216,6 @@ sort: by_weight
 字如其人	zi ru qi rñ	975
 自入秋来风景好	zi ru qiu lai fŋ jiŋ hao	1
 紫如意	zi ru i	2
-籽软骨	zi ruw gu	5
 滋润	zi ruñ	158595
 滋润度	zi ruñ du	2510
 滋润乡	zi ruñ xiv	7
@@ -550206,10 +550322,9 @@ sort: by_weight
 子时	zi ŝi	18700
 自恃	zi ŝi	9735
 滋事	zi ŝi	5890
-籽实	zi ŝi	2140
-自噬	zi ŝi	444
-自视	zi ŝi	406
-自食	zi ŝi	306
+自视	zi ŝi	4695
+自食	zi ŝi	3060
+籽实	zi ŝi	1140
 自适	zi ŝi	27
 自是白衣卿相	zi ŝi bai i qiŋ xiv	2
 紫式部	zi ŝi bu	13
@@ -551151,19 +551266,17 @@ sort: by_weight
 自由自在	zi iu zi zai	45080
 自由组合	zi iu zu he	9620
 自愈	zi y	11685
+自语	zi y	11425
 自娱	zi y	7940
 滋育	zi y	7700
+紫玉	zi y	6469
+子玉	zi y	5600
+紫雨	zi y	3740
 鲻鱼	zi y	3385
 子域	zi y	3015
 仔鱼	zi y	2230
 自喻	zi y	2205
-自语	zi y	1142
-紫芋	zi y	8
-籽玉	zi y	7
-紫雨	zi y	7
-紫玉	zi y	6
 # 啙窳	zi yu	0
-# 子玉	zi yu	0
 紫御府	zi y fu	29
 紫玉拂尘	zi y fu ĉñ	1
 紫玉金砂	zi y jiñ ŝa	505
@@ -551419,6 +551532,7 @@ sort: by_weight
 自治区	zi ẑi qy	500448
 自治区党校	zi ẑi qy dv xio	186
 自治区人民政府	zi ẑi qy rñ miñ ẑŋ fu	24355
+自治区首府拉萨市	zi ẑi qy ŝou fu la sa ŝi	5
 自治区系统	zi ẑi qy xi tuŋ	30
 自治区行政区	zi ẑi qy xiŋ ẑŋ qy	47
 自治区政府	zi ẑi qy ẑŋ fu	3157
@@ -551564,7 +551678,6 @@ sort: by_weight
 自传性	zi ẑuw xiŋ	840
 自转轴	zi ẑuw ẑou	765
 自装	zi ẑuv	1365
-籽状软骨	zi ẑuv ruw gu	5
 自酌	zi ẑo	630
 吱吱	zi zi	50420
 姊姊	zi zi	34975
@@ -554749,7 +554862,6 @@ sort: by_weight
 最顶配	zue diŋ pei	116
 最顶上	zue diŋ ŝv	66
 最懂	zue duŋ	6035
-最东	zue duŋ	303
 最东边	zue duŋ biw	955
 醉东风	zue duŋ fŋ	587
 最动人	zue duŋ rñ	8440
@@ -555698,7 +555810,6 @@ sort: by_weight
 最无私	zue u si	186
 最喜	zue xi	34295
 最细	zue xi	5970
-最西	zue xi	107
 最稀	zue xi	4
 最喜爱	zue xi ai	7575
 最惜杜鹃花烂漫	zue xi du jyw hua lw mw	2
@@ -556422,7 +556533,6 @@ sort: by_weight
 佐餐面包	zo cw miw bao	1
 柞蚕饰腹寄蝇	zo cw ŝi fu ji iŋ	5
 柞蚕丝	zo cw si	1265
-柞蚕蛹	zo cw yŋ	8
 座舱	zo cv	10880
 佐仓绫音	zo cv liŋ iñ	119
 做操	zo cao	5825
@@ -556667,11 +556777,9 @@ sort: by_weight
 左冯翊	zo fŋ i	5
 作风正派	zo fŋ ẑŋ pai	9260
 做佛事	zo fo ŝi	890
-左腹	zo fu	3987
+佐夫	zo fu	9670
 作福	zo fu	1525
 左辅	zo fu	1405
-佐夫	zo fu	967
-左腹部	zo fu bu	98
 做附件	zo fu jiw	228
 做父母	zo fu mu	1055
 左幅桥	zo fu qio	6
@@ -556942,7 +557050,6 @@ sort: by_weight
 左口袋	zo kou dai	183
 做苦工	zo ku guŋ	1315
 左胯	zo kua	369
-左髋	zo kuw	9
 坐困	zo kuñ	320
 作困兽斗	zo kuñ ŝou dou	8
 左括号	zo ko hao	840
@@ -557047,10 +557154,8 @@ sort: by_weight
 坐满了人	zo mw le rñ	21
 做满月	zo mw ye	95
 做媒	zo mei	5125
-左眉	zo mei	3698
 作美	zo mei	1530
 做美甲	zo mei jia	3333
-左眉角	zo mei jio	8
 做美容	zo mei ruŋ	4475
 做媚眼	zo mei iw	15
 做梦	zo mŋ	91650
@@ -557327,8 +557432,7 @@ sort: by_weight
 左说右说	zo ŝo iu ŝo	13
 作死	zo si	9870
 左四	zo si	5
-柞丝	zo si	3
-左思	zo si	2
+左思	zo si	1
 柞丝绸	zo si ĉou	45
 左司郎中	zo si lv ẑuŋ	155
 左司马	zo si ma	345
@@ -557559,7 +557663,6 @@ sort: by_weight
 做些	zo xie	63310
 作协	zo xie	14745
 作些	zo xie	12095
-左胁	zo xie	96
 做些什么	zo xie ŝñ me	38025
 做些调整	zo xie tio ẑŋ	228
 左心	zo xiñ	3455
@@ -557616,7 +557719,6 @@ sort: by_weight
 左摇右晃	zo io iu huv	995
 作业	zo ie	500344
 昨夜	zo ie	55685
-左腋	zo ie	987
 坐夜	zo ie	900
 作业本	zo ie bñ	14105
 作业表	zo ie bio	48

@@ -6,7 +6,7 @@ name: zi
 version: "LTS"
 sort: by_weight
 ...
-啊	a·	759839
+啊	a`	759839
 阿	a-	11249
 啊	a-	11024
 锕	a-	1384
@@ -16,7 +16,7 @@ sort: by_weight
 吖	a-	632
 啊	a\	600
 啊	a|	570
-呵	a·	1
+呵	a`	1
 錒	a-	1
 𠼞	a-	1
 𥥩	a-	1
@@ -500,7 +500,7 @@ sort: by_weight
 𪓴	ao/	1
 𪓾	ao/	1
 把	ba|	934740
-吧	ba·	899095
+吧	ba`	899095
 爸	ba\	733503
 吧	ba-	701153
 八	ba-	522796
@@ -561,7 +561,7 @@ sort: by_weight
 魞	ba-	68
 哵	ba-	68
 炦	ba/	50
-罢	ba·	40
+罢	ba`	40
 詙	ba/	23
 欛	ba\	1
 鼥	ba/	1
@@ -574,7 +574,7 @@ sort: by_weight
 扷	ba-	1
 抪	ba/	1
 皅	ba\	1
-罷	ba·	1
+罷	ba`	1
 魞	ba\	1
 鮁	ba\	1
 鿱	ba-	1
@@ -1033,7 +1033,7 @@ sort: by_weight
 𪧕	bao|	1
 𠦀	bao|	1
 被	bei\	894137
-呗	bei·	34965
+呗	bei`	34965
 北	bei|	34265
 备	bei\	25075
 背	bei\	24573
@@ -1068,11 +1068,11 @@ sort: by_weight
 𬇙	bei\	194
 備	bei\	192
 貝	bei\	172
-臂	bei·	164
+臂	bei`	164
 輩	bei\	163
 揹	bei-	146
 盃	bei-	141
-唄	bei·	113
+唄	bei`	113
 憊	bei\	101
 苝	bei\	101
 桮	bei-	97
@@ -2249,7 +2249,7 @@ sort: by_weight
 波	bo-	3325
 伯	bo/	2732
 玻	bo-	2254
-卜	bo·	1467
+卜	bo`	1467
 拨	bo-	1393
 勃	bo/	611
 驳	bo/	595
@@ -2276,7 +2276,7 @@ sort: by_weight
 钹	bo/	315
 檗	bo\	304
 僰	bo/	302
-啵	bo·	290
+啵	bo`	290
 鹁	bo/	284
 砵	bo-	274
 镈	bo/	267
@@ -2364,7 +2364,7 @@ sort: by_weight
 驋	bo-	1
 㪍	bo/	1
 䗚	bo/	1
-噃	bo·	1
+噃	bo`	1
 壆	bo/	1
 彴	bo/	1
 擗	bo\	1
@@ -2378,7 +2378,7 @@ sort: by_weight
 穛	bo/	1
 糪	bo/	1
 萡	bo/	1
-蔔	bo·	1
+蔔	bo`	1
 蚾	bo|	1
 誖	bo/	1
 謈	bo/	1
@@ -3861,7 +3861,7 @@ sort: by_weight
 綝	ĉñ-	136
 鍖	ĉñ|	116
 硶	ĉñ|	112
-伧	ĉñ·	105
+伧	ĉñ`	105
 曟	ĉñ/	93
 讖	ĉñ\	79
 諶	ĉñ/	79
@@ -3906,7 +3906,7 @@ sort: by_weight
 䢅	ĉñ/	1
 䢈	ĉñ/	1
 𦁄	ĉñ-	1
-傖	ĉñ·	1
+傖	ĉñ`	1
 敶	ĉñ/	1
 栕	ĉñ/	1
 桭	ĉñ/	1
@@ -4296,7 +4296,7 @@ sort: by_weight
 欼	ĉi|	1
 慗	ĉi\	1
 謘	ĉi/	1
-麶	ĉi·	1
+麶	ĉi`	1
 憏	ĉi\	1
 卶	ĉi|	1
 雴	ĉi\	1
@@ -4710,7 +4710,7 @@ sort: by_weight
 诪	ĉou/	1
 跾	ĉou-	1
 醔	ĉou-	1
-鮘	ĉou·	1
+鮘	ĉou`	1
 㘜	ĉou/	1
 㛶	ĉou/	1
 㤽	ĉou/	1
@@ -4859,7 +4859,7 @@ sort: by_weight
 竌	ĉu\	60
 敊	ĉu\	50
 椘	ĉu|	38
-橻	ĉu·	38
+橻	ĉu`	38
 躕	ĉu/	38
 臅	ĉu\	38
 助	ĉu/	37
@@ -6056,13 +6056,13 @@ sort: by_weight
 垯	da/	226
 溚	da/	222
 鿎	da/	185
-垯	da·	183
+垯	da`	183
 撘	da-	171
 逹	da/	170
 迚	da/	156
 噠	da-	148
 龘	da/	148
-瘩	da·	141
+瘩	da`	141
 呾	da/	139
 沓	da/	136
 汏	da\	134
@@ -6074,7 +6074,7 @@ sort: by_weight
 眔	da\	75
 咑	da-	60
 鎝	da-	50
-跶	da·	39
+跶	da`	39
 迖	da/	38
 羍	da/	23
 鐽	da/	23
@@ -6086,7 +6086,7 @@ sort: by_weight
 蟽	da/	1
 笚	da-	1
 詚	da/	1
-繨	da·	1
+繨	da`	1
 匒	da/	1
 㿴	da-	1
 䵣	da/	1
@@ -6094,10 +6094,10 @@ sort: by_weight
 憚	da/	1
 荅	da/	1
 鎉	da-	1
-㙮	da·	1
+㙮	da`	1
 㙮	da-	1
 㜓	da/	1
-㟷	da·	1
+㟷	da`	1
 㯚	da/	1
 㾑	da/	1
 㿯	da/	1
@@ -6118,7 +6118,7 @@ sort: by_weight
 𡉑	da-	1
 𡌩	da/	1
 𡍲	da-	1
-𡐿	da·	1
+𡐿	da`	1
 𡐿	da-	1
 𡚻	da\	1
 𢘇	da/	1
@@ -6140,7 +6140,7 @@ sort: by_weight
 𦑻	da/	1
 𦖿	da-	1
 𦗧	da-	1
-𦞂	da·	1
+𦞂	da`	1
 𦞂	da-	1
 𦪭	da/	1
 𦬹	da/	1
@@ -6535,7 +6535,7 @@ sort: by_weight
 儅	dv-	1
 崵	dv\	1
 擋	dv\	1
-當	dv·	1
+當	dv`	1
 當	dv\	1
 當	dv|	1
 闣	dv-	1
@@ -6702,10 +6702,10 @@ sort: by_weight
 𪠤	dao-	1
 𪥂	dao-	1
 𫄝	dao\	1
-的	de·	48288412
-得	de·	3325433
+的	de`	48288412
+得	de`	3325433
 得	de/	3108656
-地	de·	3046482
+地	de`	3046482
 德	de/	61471
 嘚	de-	1540
 锝	de/	1463
@@ -6716,7 +6716,7 @@ sort: by_weight
 鍀	de/	181
 棏	de/	97
 恴	de/	97
-底	de·	30
+底	de`	30
 㝵	de/	1
 㤫	de/	1
 㥁	de/	1
@@ -6724,11 +6724,11 @@ sort: by_weight
 㝶	de/	1
 㥀	de/	1
 㯖	de/	1
-䙸	de·	1
+䙸	de`	1
 䙸	de/	1
 䙷	de/	1
 𠮊	de/	1
-𠵨	de·	1
+𠵨	de`	1
 𡋩	de/	1
 𡭂	de/	1
 𣌏	de/	1
@@ -8383,7 +8383,7 @@ sort: by_weight
 𥳔	do\	1
 𥿰	do|	1
 𦍦	do-	1
-𦕰	do·	1
+𦕰	do`	1
 𦖋	do|	1
 𧊱	do|	1
 𧙤	do|	1
@@ -8498,7 +8498,7 @@ sort: by_weight
 堊	e\	47
 鶚	e\	42
 卾	e\	42
-呃	e·	36
+呃	e`	36
 鑩	e\	35
 吪	e/	35
 砐	e\	28
@@ -9650,16 +9650,16 @@ sort: by_weight
 富	fu\	2828
 福	fu/	2545
 负	fu\	2417
-付	fu\	1831
 副	fu\	1391
 幅	fu/	1233
 符	fu/	1216
-辅	fu|	929
 夫	fu-	811
 父	fu\	770
 肤	fu-	759
 妇	fu\	754
 腐	fu|	735
+付	fu\	731
+辅	fu|	729
 佛	fu/	718
 腹	fu\	712
 覆	fu\	710
@@ -12010,7 +12010,7 @@ sort: by_weight
 幗	go/	38
 掴	go/	32
 褁	go|	23
-过	go·	22
+过	go`	22
 慖	go/	1
 蟈	go-	1
 嘓	go-	1
@@ -12029,7 +12029,7 @@ sort: by_weight
 矌	go-	1
 簂	go/	1
 腂	go\	1
-過	go·	1
+過	go`	1
 過	go-	1
 鍋	go|	1
 鐹	go\	1
@@ -12214,9 +12214,9 @@ sort: by_weight
 汉	hw\	4039
 韩	hw/	3958
 寒	hw/	3878
-喊	hw|	2314
+函	hw/	2314
 汗	hw\	2198
-函	hw/	704
+喊	hw|	704
 涵	hw/	668
 罕	hw|	656
 撼	hw\	622
@@ -12271,7 +12271,7 @@ sort: by_weight
 闬	hw\	77
 澏	hw/	77
 佄	hw-	67
-兯	hw·	67
+兯	hw`	67
 頷	hw\	67
 哻	hw-	67
 猂	hw\	62
@@ -12300,7 +12300,7 @@ sort: by_weight
 豃	hw|	1
 螒	hw\	1
 馠	hw-	1
-爳	hw·	1
+爳	hw`	1
 鶾	hw\	1
 筨	hw/	1
 蜬	hw/	1
@@ -12544,7 +12544,6 @@ sort: by_weight
 豪	hao/	2631
 毫	hao/	2368
 耗	hao\	1534
-薅	hao-	1424
 浩	hao\	690
 皓	hao\	586
 蒿	hao-	570
@@ -12557,6 +12556,7 @@ sort: by_weight
 灏	hao\	494
 昊	hao\	453
 郝	hao|	440
+薅	hao-	424
 颢	hao\	400
 貉	hao/	393
 嗥	hao/	372
@@ -13474,7 +13474,7 @@ sort: by_weight
 軤	hu-	1
 㝬	hu/	1
 喖	hu/	1
-𩾇	hu·	1
+𩾇	hu`	1
 䓤	hu-	1
 鶦	hu/	1
 㧾	hu-	1
@@ -13871,7 +13871,7 @@ sort: by_weight
 耲	hui/	82
 蘾	hui\	1
 佪	hui/	1
-劃	hui·	1
+劃	hui`	1
 龨	hui/	1
 㜳	hui/	1
 㠢	hui/	1
@@ -14712,7 +14712,7 @@ sort: by_weight
 劐	ho-	185
 𬴃	ho-	175
 㸌	ho\	160
-和	ho·	156
+和	ho`	156
 彟	ho\	146
 漷	ho\	143
 锪	ho\	142
@@ -15624,7 +15624,7 @@ sort: by_weight
 嘉	jia-	620
 夹	jia/	614
 稼	jia\	569
-家	jia·	501
+家	jia`	501
 伽	jia-	474
 迦	jia-	460
 戛	jia/	452
@@ -16713,7 +16713,7 @@ sort: by_weight
 诫	jie\	537
 秸	jie-	521
 藉	jie\	517
-价	jie·	464
+价	jie`	464
 羯	jie/	440
 婕	jie/	436
 拮	jie/	414
@@ -16744,7 +16744,7 @@ sort: by_weight
 耤	jie\	186
 結	jie/	170
 節	jie/	165
-家	jie·	160
+家	jie`	160
 桔	jie/	157
 解	jie\	156
 节	jie-	156
@@ -16840,7 +16840,7 @@ sort: by_weight
 㓗	jie/	1
 䀹	jie/	1
 𣶏	jie-	1
-價	jie·	1
+價	jie`	1
 哜	jie-	1
 唶	jie\	1
 啑	jie/	1
@@ -17590,7 +17590,7 @@ sort: by_weight
 匛	jiu\	1
 齨	jiu\	1
 䊆	jiu\	1
-𣐤	jiu·	1
+𣐤	jiu`	1
 㲃	jiu\	1
 㺩	jiu\	1
 𨳊	jiu-	1
@@ -19898,7 +19898,7 @@ sort: by_weight
 𨶐	ko\	1
 𩋻	ko\	1
 𪗽	ko\	1
-啦	la·	181128
+啦	la`	181128
 拉	la-	177505
 辣	la\	28426
 垃	la-	2680
@@ -19912,7 +19912,7 @@ sort: by_weight
 旯	la/	411
 镴	la\	408
 瘌	la\	318
-鞡	la·	311
+鞡	la`	311
 砬	la/	230
 蝲	la\	212
 𬶟	la\	205
@@ -19976,7 +19976,7 @@ sort: by_weight
 𤊶	la\	1
 𤛊	la-	1
 𤰚	la/	1
-𤷟	la·	1
+𤷟	la`	1
 𥀥	la\	1
 𥀰	la\	1
 𥈙	la\	1
@@ -19995,7 +19995,7 @@ sort: by_weight
 𧩲	la\	1
 𨭛	la\	1
 𩃜	la-	1
-𩋷	la·	1
+𩋷	la`	1
 𩑮	la\	1
 𩘊	la\	1
 𩤲	la-	1
@@ -20205,7 +20205,7 @@ sort: by_weight
 坔	lw\	1
 壏	lw\	1
 爦	lw\	1
-藍	lw·	1
+藍	lw`	1
 蘫	lw/	1
 鑭	lw/	1
 钄	lw\	1
@@ -20495,12 +20495,12 @@ sort: by_weight
 𫃑	lao\	1
 𫐥	lao|	1
 𫞧	lao/	1
-了	le·	5521194
+了	le`	5521194
 乐	le\	690149
 勒	le\	94814
 肋	le-	40883
 叻	le\	4410
-饹	le·	4189
+饹	le`	4189
 簕	le\	3478
 仂	le\	1567
 泐	le\	726
@@ -20570,7 +20570,7 @@ sort: by_weight
 蕌	lei|	150
 勒	lei-	148
 擂	lei/	142
-嘞	lei·	141
+嘞	lei`	141
 鑸	lei|	136
 纇	lei\	134
 櫑	lei/	134
@@ -20841,7 +20841,7 @@ sort: by_weight
 釐	li/	27
 轹	li\	26
 醨	li/	25
-哩	li·	24
+哩	li`	24
 朸	li\	11
 凓	li\	1
 珕	li\	1
@@ -21852,7 +21852,7 @@ sort: by_weight
 冽	lie\	460
 鬣	lie\	411
 洌	lie\	347
-咧	lie·	347
+咧	lie`	347
 捩	lie\	296
 趔	lie\	277
 埒	lie\	232
@@ -22566,7 +22566,7 @@ sort: by_weight
 𫞉	liu|	1
 𠮩	liu-	1
 𤠑	liu/	1
-咯	lo·	4946
+咯	lo`	4946
 龙	luŋ/	17713
 隆	luŋ/	3002
 笼	luŋ/	2579
@@ -22761,7 +22761,7 @@ sort: by_weight
 耬	lou/	23
 瘺	lou\	23
 熡	lou/	23
-喽	lou·	20
+喽	lou`	20
 瘻	lou\	1
 漊	lou/	1
 甊	lou|	1
@@ -22775,10 +22775,10 @@ sort: by_weight
 謱	lou/	1
 𤋏	lou/	1
 𤠋	lou/	1
-嘍	lou·	1
+嘍	lou`	1
 寠	lou/	1
 摟	lou-	1
-瞜	lou·	1
+瞜	lou`	1
 瞜	lou/	1
 褸	lou/	1
 貗	lou/	1
@@ -22802,7 +22802,7 @@ sort: by_weight
 𠞭	lou\	1
 𠞭	lou/	1
 𠳴	lou/	1
-𡀔	lou·	1
+𡀔	lou`	1
 𡇭	lou/	1
 𡗆	lou|	1
 𡡎	lou/	1
@@ -22881,7 +22881,7 @@ sort: by_weight
 轳	lu/	230
 氇	lu|	214
 蓼	lu\	197
-氇	lu·	184
+氇	lu`	184
 甪	lu\	168
 绿	lu\	162
 蕗	lu\	157
@@ -23289,7 +23289,7 @@ sort: by_weight
 骡	lo/	506
 骆	lo\	503
 箩	lo/	485
-啰	lo·	448
+啰	lo`	448
 珞	lo\	400
 摞	lo\	398
 雒	lo\	374
@@ -23350,9 +23350,9 @@ sort: by_weight
 㼈	lo/	1
 捰	lo|	1
 䇔	lo\	1
-囉	lo·	1
+囉	lo`	1
 囉	lo/	1
-囖	lo·	1
+囖	lo`	1
 囖	lo/	1
 囖	lo-	1
 寽	lo/	1
@@ -23365,7 +23365,7 @@ sort: by_weight
 皪	lo\	1
 砢	lo|	1
 磱	lo\	1
-羅	lo·	1
+羅	lo`	1
 羅	lo-	1
 蛒	lo\	1
 詻	lo\	1
@@ -23628,15 +23628,15 @@ sort: by_weight
 𧑀	lye\	1
 𧕌	lye\	1
 𪅅	lye\	1
-呒	ḿ·	4
-呣	m̀·	4
-呣	ḿ·	3
-吗	ma·	601332
+呒	ḿ`	4
+呣	m̀`	4
+呣	ḿ`	3
+吗	ma`	601332
 马	ma|	29716
 码	ma|	11972
 妈	ma-	11732
 麻	ma/	4104
-嘛	ma·	3898
+嘛	ma`	3898
 玛	ma|	729
 骂	ma\	692
 吗	ma/	570
@@ -23644,14 +23644,14 @@ sort: by_weight
 抹	ma-	527
 蟆	ma/	469
 蚂	ma\	444
-么	ma·	405
+么	ma`	405
 犸	ma|	380
-麽	ma·	364
+麽	ma`	364
 孖	ma-	348
 杩	ma\	334
 祃	ma\	324
 馬	ma|	288
-嗎	ma·	280
+嗎	ma`	280
 媽	ma-	271
 碼	ma|	224
 瑪	ma|	202
@@ -23696,7 +23696,7 @@ sort: by_weight
 菻	ma/	1
 螞	ma\	1
 螞	ma-	1
-㐃	ma·	1
+㐃	ma`	1
 㐷	ma\	1
 㑻	ma\	1
 㦄	ma/	1
@@ -24169,13 +24169,13 @@ sort: by_weight
 𩭾	mao/	1
 𩿂	mao\	1
 𪃑	mao\	1
-么	me·	153599
-麼	me·	5918
+么	me`	153599
+麼	me`	5918
 嚒	me-	5097
-嚜	me·	804
-麽	me·	659
+嚜	me`	804
+麽	me`	659
 嚰	me\	201
-庅	me·	113
+庅	me`	113
 濹	me\	107
 没	mei/	189122
 美	mei|	37749
@@ -24315,7 +24315,7 @@ sort: by_weight
 𫟈	mei|	1
 𦳀	mei\	1
 门	mñ/	189822
-们	mñ·	57790
+们	mñ`	57790
 闷	mñ\	2621
 焖	mñ\	2208
 闷	mñ-	2163
@@ -25655,7 +25655,7 @@ sort: by_weight
 軜	na\	38
 那	na-	37
 笝	na\	23
-哪	na·	20
+哪	na`	20
 貀	na\	1
 袦	na\	1
 靹	na\	1
@@ -26031,7 +26031,7 @@ sort: by_weight
 𪥸	nao-	1
 𫍢	nao/	1
 𬆛	nao|	1
-呢	ne·	824128
+呢	ne`	824128
 讷	ne\	2498
 哪	ne/	2448
 疒	ne\	836
@@ -26184,7 +26184,6 @@ sort: by_weight
 鿭	ni|	23
 觬	ni/	23
 淣	ni/	23
-祢	ni|	2
 秜	ni/	1
 誽	ni\	1
 愵	ni\	1
@@ -27034,7 +27033,7 @@ sort: by_weight
 𠥝	ou-	1
 𠥝	ou|	1
 𠴰	ou|	1
-𡂿	ou·	1
+𡂿	ou`	1
 𡂿	ou-	1
 𡈆	ou-	1
 𡩾	ou-	1
@@ -27792,7 +27791,7 @@ sort: by_weight
 怶	pi-	1
 悂	pi|	1
 枈	pi-	1
-榌	pi·	1
+榌	pi`	1
 猈	pi/	1
 痺	pi/	1
 禆	pi/	1
@@ -28288,7 +28287,7 @@ sort: by_weight
 朴	po-	129
 哱	po\	122
 酦	po-	119
-桲	po·	105
+桲	po`	105
 頗	po-	101
 陂	po-	87
 潑	po-	87
@@ -28641,7 +28640,7 @@ sort: by_weight
 荠	qi/	74
 亟	qi\	72
 伎	qi/	54
-啐	qi·	46
+啐	qi`	46
 恓	qi-	40
 槭	qi\	38
 枝	qi/	37
@@ -30564,7 +30563,7 @@ sort: by_weight
 駆	qy-	33
 闃	qy\	31
 嶇	qy-	29
-戌	qy·	28
+戌	qy`	28
 觑	qy-	28
 臞	qy/	12
 髷	qy-	5
@@ -31861,7 +31860,7 @@ sort: by_weight
 䙣	sa\	1
 䬃	sa\	1
 㒎	sa\	1
-𠮿	sa·	1
+𠮿	sa`	1
 丗	sa\	1
 攃	sa|	1
 蕯	sa\	1
@@ -31964,7 +31963,7 @@ sort: by_weight
 参	sw-	39
 毶	sw-	38
 厁	sw-	38
-壭	sw·	38
+壭	sw`	38
 糣	sw|	23
 俕	sw\	23
 糤	sw|	23
@@ -31985,7 +31984,7 @@ sort: by_weight
 䊉	sw|	1
 䫅	sw\	1
 䫩	sw|	1
-𠮿	sw·	1
+𠮿	sw`	1
 𡙘	sw|	1
 𢁘	sw-	1
 𢕕	sw\	1
@@ -32610,7 +32609,7 @@ sort: by_weight
 賞	ŝv|	238
 尙	ŝv\	207
 丄	ŝv\	181
-裳	ŝv·	145
+裳	ŝv`	145
 殤	ŝv-	139
 觴	ŝv-	132
 滳	ŝv-	127
@@ -33233,7 +33232,7 @@ sort: by_weight
 尸	ŝi-	703
 狮	ŝi-	697
 逝	ŝi\	696
-匙	ŝi·	667
+匙	ŝi`	667
 柿	ŝi\	626
 屎	ŝi|	606
 侍	ŝi\	602
@@ -33245,8 +33244,8 @@ sort: by_weight
 嗜	ŝi\	535
 恃	ŝi\	524
 似	ŝi\	517
-殖	ŝi·	509
-栅	ŝi·	501
+殖	ŝi`	509
+栅	ŝi`	501
 仕	ŝi\	463
 噬	ŝi\	458
 轼	ŝi\	457
@@ -33356,7 +33355,7 @@ sort: by_weight
 叓	ŝi\	1
 柹	ŝi\	1
 褷	ŝi-	1
-籂	ŝi·	1
+籂	ŝi`	1
 鉇	ŝi-	1
 遾	ŝi\	1
 鳲	ŝi-	1
@@ -33415,7 +33414,7 @@ sort: by_weight
 箷	ŝi-	1
 篩	ŝi-	1
 蒔	ŝi\	1
-辻	ŝi·	1
+辻	ŝi`	1
 醳	ŝi\	1
 釃	ŝi-	1
 馶	ŝi\	1
@@ -33440,7 +33439,7 @@ sort: by_weight
 䂖	ŝi/	1
 䂠	ŝi|	1
 䄷	ŝi/	1
-䈕	ŝi·	1
+䈕	ŝi`	1
 䈕	ŝi/	1
 䊓	ŝi\	1
 䌳	ŝi-	1
@@ -33544,7 +33543,7 @@ sort: by_weight
 𥜰	ŝi-	1
 𥥥	ŝi\	1
 𥫴	ŝi\	1
-𥫽	ŝi·	1
+𥫽	ŝi`	1
 𥰰	ŝi\	1
 𥰫	ŝi\	1
 𥱒	ŝi\	1
@@ -35181,7 +35180,7 @@ sort: by_weight
 踏	ta-	36
 躢	ta\	23
 狧	ta\	1
-侤	ta·	1
+侤	ta`	1
 鰨	ta|	1
 闧	ta-	1
 崉	ta\	1
@@ -36707,7 +36706,7 @@ sort: by_weight
 埱	tou\	1
 斢	tou|	1
 緰	tou-	1
-頭	tou·	1
+頭	tou`	1
 㓱	tou/	1
 㕻	tou\	1
 㖣	tou\	1
@@ -36787,7 +36786,7 @@ sort: by_weight
 瘏	tu/	28
 蒤	tu/	28
 堗	tu-	28
-汢	tu·	28
+汢	tu`	28
 菟	tu\	21
 筡	tu/	20
 捈	tu/	20
@@ -37310,7 +37309,7 @@ sort: by_weight
 𪘗	to/	1
 𫜒	to-	1
 𫟤	to/	1
-哇	ua·	19346
+哇	ua`	19346
 瓦	ua|	3686
 挖	ua-	3612
 娃	ua/	3539
@@ -37374,7 +37373,7 @@ sort: by_weight
 䚴	ua\	1
 䯉	ua-	1
 䵷	ua-	1
-𠲎	ua·	1
+𠲎	ua`	1
 𠴺	ua-	1
 𠹁	ua\	1
 𡁌	ua-	1
@@ -37421,7 +37420,7 @@ sort: by_weight
 䠿	ui\	1
 䶐	ui\	1
 𠨃	ui\	1
-𠰻	ui·	1
+𠰻	ui`	1
 𠰻	ui\	1
 𢱉	ui|	1
 𤟷	ui-	1
@@ -41348,7 +41347,7 @@ sort: by_weight
 胥	xy-	466
 煦	xy\	423
 盱	xy-	418
-蓿	xy·	414
+蓿	xy`	414
 顼	xy-	403
 勖	xy\	391
 溆	xy\	390
@@ -42224,7 +42223,7 @@ sort: by_weight
 壓	ia-	179
 鴨	ia-	163
 哑	ia-	160
-呀	ia·	156
+呀	ia`	156
 犽	ia\	148
 氬	ia\	145
 圧	ia-	135
@@ -42295,7 +42294,7 @@ sort: by_weight
 铔	ia\	1
 顏	ia/	1
 齖	ia\	1
-㗇	ia·	1
+㗇	ia`	1
 㝞	ia-	1
 㝦	ia/	1
 㤉	ia/	1
@@ -43487,7 +43486,7 @@ sort: by_weight
 釾	ie/	82
 鎑	ie\	82
 捓	ie/	75
-亪	ie·	68
+亪	ie`	68
 墷	ie\	68
 璍	ie\	68
 潱	ie-	60
@@ -44048,7 +44047,7 @@ sort: by_weight
 儗	i\	1
 妷	i\	1
 嬟	i|	1
-弬	i·	1
+弬	i`	1
 彵	i/	1
 忔	i\	1
 悘	i\	1
@@ -45141,10 +45140,10 @@ sort: by_weight
 哟	yo-	9737
 唷	yo-	1840
 喲	yo-	1432
-哟	yo·	1403
-喲	yo·	86
-嚛	yo·	2
-𪠸	yo·	1
+哟	yo`	1403
+喲	yo`	86
+嚛	yo`	2
+𪠸	yo`	1
 用	yŋ\	870866
 拥	yŋ-	49840
 永	yŋ|	48843
@@ -47435,7 +47434,7 @@ sort: by_weight
 蜡	ẑa\	37
 醡	ẑa\	30
 箚	ẑa/	30
-馇	ẑa·	23
+馇	ẑa`	23
 查	ẑa-	22
 鮓	ẑa|	18
 齄	ẑa-	3
@@ -48079,7 +48078,7 @@ sort: by_weight
 𫞃	ẑao-	1
 这	ẑe\	1014823
 者	ẑe|	67013
-着	ẑe·	65672
+着	ẑe`	65672
 折	ẑe/	6397
 浙	ẑe\	2286
 哲	ẑe/	1488
@@ -48089,7 +48088,7 @@ sort: by_weight
 這	ẑe\	588
 蔗	ẑe\	536
 辙	ẑe/	518
-著	ẑe·	506
+著	ẑe`	506
 辄	ẑe/	487
 蛰	ẑe/	481
 蜇	ẑe/	479
@@ -48142,7 +48141,7 @@ sort: by_weight
 䜆	ẑe/	1
 𪚥	ẑe/	1
 乇	ẑe/	1
-嗻	ẑe·	1
+嗻	ẑe`	1
 嗻	ẑe\	1
 慹	ẑe/	1
 扸	ẑe/	1
@@ -48196,7 +48195,7 @@ sort: by_weight
 𠾀	ẑe/	1
 𠽻	ẑe/	1
 𡂭	ẑe-	1
-𡄡	ẑe·	1
+𡄡	ẑe`	1
 𡇠	ẑe/	1
 𡘭	ẑe/	1
 𡜯	ẑe/	1
@@ -50400,7 +50399,7 @@ sort: by_weight
 㺭	zi|	1
 𫓦	zi|	1
 㜽	zi|	1
-嗭	zi·	1
+嗭	zi`	1
 沝	zi|	1
 畠	zi-	1
 秄	zi\	1
@@ -50961,7 +50960,7 @@ sort: by_weight
 捽	zo/	235
 酢	zo\	226
 嘬	zo-	218
-咗	zo·	200
+咗	zo`	200
 岞	zo\	168
 阼	zo\	119
 筰	zo/	105

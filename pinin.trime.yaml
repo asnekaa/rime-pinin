@@ -1909,7 +1909,7 @@ preset_keyboards:
           round_corner: *rc,
           key_text_size: *enters,
         }
-        
+
   kagiroi:
     name: かぎろい
     author: ASneka
