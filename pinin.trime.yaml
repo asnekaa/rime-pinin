@@ -1506,8 +1506,8 @@ keyboard:
   k4w: &k4w 10
   shiftw: &shiftw 15
   bsw: &bsw 15
-  kbsw: &kbsw 10
-  commaw: &commaw 12
+  kbsw: &kbsw 11
+  commaw: &commaw 10
   spacew: &spacew 36
   dotw: &dotw 12
   enterw: &enterw 20
