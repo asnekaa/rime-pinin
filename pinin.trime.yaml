@@ -1508,9 +1508,9 @@ keyboard:
   bsw: &bsw 15
   kbsw: &kbsw 12
   commaw: &commaw 11
-  spacew: &spacew 36
+  spacew: &spacew 37
   dotw: &dotw 11
-  enterw: &enterw 18
+  enterw: &enterw 17
   rc: &rc 20
   spaces: &spaces 17
   enters: &enters 17
