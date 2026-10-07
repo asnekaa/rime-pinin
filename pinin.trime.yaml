@@ -1502,7 +1502,7 @@ preset_keys:
 keyboard:
   k1w: &k1w 10
   k2w: &k2w 10
-  k3w: &k3w 10.96
+  k3w: &k3w 9
   k4w: &k4w 10
   shiftw: &shiftw 15
   bsw: &bsw 15
@@ -1692,7 +1692,7 @@ preset_keyboards:
           width: *k2w,
         }
       # 第三行
-      - { width: 1 }
+      - { width: 2 }
       - {
           click: a,
           long_click: A,
@@ -1765,7 +1765,7 @@ preset_keyboards:
           label_symbol: ";",
           width: *k3w,
         }
-      - { width: 1 }
+      - { width: 2 }
       # 第四行
       - {
           click: Caps,
@@ -2083,7 +2083,7 @@ preset_keyboards:
           width: *k2w,
         }
       # 第三行
-      - { width: 1 }
+      - { width: 2 }
       - {
           click: a,
           long_click: A,
@@ -2156,7 +2156,7 @@ preset_keyboards:
           label_symbol: ";",
           width: *k3w,
         }
-      - { width: 1 }
+      - { width: 2 }
       # 第四行
       - {
           click: Caps,
@@ -2469,7 +2469,7 @@ preset_keyboards:
           width: *k2w,
         }
       # 第三行
-      - { width: 1 }
+      - { width: 2 }
       - {
           click: a,
           long_click: A,
@@ -2542,7 +2542,7 @@ preset_keyboards:
           label_symbol: ";",
           width: *k3w,
         }
-      - { width: 1 }
+      - { width: 2 }
       # 第四行
       - {
           click: Caps,
@@ -2854,7 +2854,7 @@ preset_keyboards:
           width: *k2w,
         }
       # 第三行
-      - { width: 1 }
+      - { width: 2 }
       - {
           click: A,
           long_click: a,
@@ -2927,7 +2927,7 @@ preset_keyboards:
           label_symbol: ";",
           width: *k3w,
         }
-      - { width: 1 }
+      - { width: 2 }
       # 第四行
       - {
           click: Keyboard_default2,
