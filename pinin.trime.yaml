@@ -1502,7 +1502,7 @@ preset_keys:
 keyboard:
   k1w: &k1w 10
   k2w: &k2w 10
-  k3w: &k3w 10.7
+  k3w: &k3w 10.8
   k4w: &k4w 10
   shiftw: &shiftw 15
   bsw: &bsw 15
