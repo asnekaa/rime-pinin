@@ -114,6 +114,7 @@
 常见	ĉvjiw
 处于	ĉuy
 删除	ŝwĉu
+伤心	ŝvxiñ
 声调	ŝñdio
 声母	ŝñmu
 生效	ŝñxio
@@ -542,6 +543,7 @@
 上下	ŝvxia
 
 写	xie
+写为	xieue
 小写	xioxie
 小时	xioŝ/
 效果	xiog
