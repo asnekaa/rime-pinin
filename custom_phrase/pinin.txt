@@ -173,10 +173,12 @@
 一点	.id
 一定	.1diñ
 一定	.idiñ
+个	ge
 一个	.1ge
 一个	.ige
 两个	.2ge
 两个	.lge
+行	hv
 一行	.1hv
 一行	.ihv
 一会	.1h
@@ -191,6 +193,13 @@
 一次	.ic
 第一	dii
 第一	di.1
+第二	di.2
+第二	diar
+第二	dier
+第三	di.3
+第三	disw
+第四	di.4
+第四	disi
 
 依然	ir
 依然	irw
@@ -403,8 +412,6 @@
 聊天	lt
 
 过	g
-个	ge
-
 果然	gr
 改	gai
 改为	gaiue
@@ -492,6 +499,7 @@
 既然	jir
 加	jia
 加个	jiage
+加上	jiaŝv
 脚本	jb
 
 就	j

@@ -1394,7 +1394,7 @@ preset_keys:
       select: caps,
     }
   BackSpace: { label: ⌫, preview: "", repeatable: true, send: BackSpace }
-  BackSpace_Word: { send: Control+BackSpace }
+  BackSpace_Word: { preview: "", send: Control+BackSpace }
   Delete: { label: ⌦, send: Delete }
   Return: { label: enter_labels, preview: "", send: Return }
   Space:
@@ -1515,7 +1515,10 @@ keyboard:
   spaces: &spaces 17
   enters: &enters 17
 
-number_keyboard_width:
+caps_keyboard:
+  offset: &offset 1
+
+number_keyboard:
   nw: &nw 22
   nk1w: &nk1w 17
   nk2w: &nk2w 17
@@ -1547,6 +1550,7 @@ preset_keyboards:
           swipe_down: Commit_2,
           label_symbol: "2",
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: ŝ_key,
@@ -1555,6 +1559,7 @@ preset_keyboards:
           swipe_down: Commit_3,
           label_symbol: "3",
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: Tone_1,
@@ -1562,6 +1567,7 @@ preset_keyboards:
           swipe_up: Commit_4,
           swipe_down: Commit_4,
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: Tone_2,
@@ -1569,6 +1575,7 @@ preset_keyboards:
           swipe_up: Commit_5,
           swipe_down: Commit_5,
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: Tone_3,
@@ -1576,6 +1583,7 @@ preset_keyboards:
           swipe_up: Commit_6,
           swipe_down: Commit_6,
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: Tone_4,
@@ -1583,6 +1591,7 @@ preset_keyboards:
           swipe_up: Commit_7,
           swipe_down: Commit_7,
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: Variant,
@@ -1590,6 +1599,7 @@ preset_keyboards:
           swipe_up: Commit_8,
           swipe_down: Commit_8,
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: ñ_key,
@@ -1598,6 +1608,7 @@ preset_keyboards:
           swipe_down: Commit_9,
           label_symbol: "9",
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: ŋ_key,
@@ -1606,6 +1617,7 @@ preset_keyboards:
           swipe_down: Commit_0,
           label_symbol: "0",
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       # 第二行
       - {
@@ -1615,6 +1627,7 @@ preset_keyboards:
           swipe_down: "!",
           label_symbol: "!",
           width: *k2w,
+          key_text_offset_y: *offset,
         }
       - {
           click: w,
@@ -2701,6 +2714,7 @@ preset_keyboards:
           swipe_down: Commit_1,
           label_symbol: "1",
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: Ĉ,
@@ -2709,6 +2723,7 @@ preset_keyboards:
           swipe_down: Commit_2,
           label_symbol: "2",
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: Ŝ,
@@ -2717,6 +2732,7 @@ preset_keyboards:
           swipe_down: Commit_3,
           label_symbol: "3",
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: "-",
@@ -2760,6 +2776,7 @@ preset_keyboards:
           swipe_down: Commit_9,
           label_symbol: "9",
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       - {
           click: Ŋ,
@@ -2768,6 +2785,7 @@ preset_keyboards:
           swipe_down: Commit_0,
           label_symbol: "0",
           width: *k1w,
+          key_text_offset_y: *offset,
         }
       # 第二行
       - {
@@ -2777,6 +2795,7 @@ preset_keyboards:
           swipe_down: "!",
           label_symbol: "!",
           width: *k2w,
+          key_text_offset_y: *offset,
         }
       - {
           click: W,
@@ -2786,6 +2805,7 @@ preset_keyboards:
           label_symbol: "@",
           hint: Ŵ,
           width: *k2w,
+          key_text_offset_y: *offset,
         }
       - {
           click: E,
@@ -2795,6 +2815,7 @@ preset_keyboards:
           label_symbol: "#",
           hint: Ê,
           width: *k2w,
+          key_text_offset_y: *offset,
         }
       - {
           click: R,
@@ -2803,6 +2824,7 @@ preset_keyboards:
           swipe_down: "$",
           label_symbol: "$",
           width: *k2w,
+          key_text_offset_y: *offset,
         }
       - {
           click: T,
@@ -2811,6 +2833,7 @@ preset_keyboards:
           swipe_down: "%",
           label_symbol: "%",
           width: *k2w,
+          key_text_offset_y: *offset,
         }
       - {
           click: Y,
@@ -2819,6 +2842,7 @@ preset_keyboards:
           swipe_down: "^",
           label_symbol: "^",
           width: *k2w,
+          key_text_offset_y: *offset,
         }
       - {
           click: U,
@@ -2827,6 +2851,7 @@ preset_keyboards:
           swipe_down: "&",
           label_symbol: "&",
           width: *k2w,
+          key_text_offset_y: *offset,
         }
       - {
           click: I,
@@ -2836,6 +2861,7 @@ preset_keyboards:
           label_symbol: "*",
           hint: Î,
           width: *k2w,
+          key_text_offset_y: *offset,
         }
       - {
           click: O,
@@ -2844,6 +2870,7 @@ preset_keyboards:
           swipe_down: "(",
           label_symbol: "(",
           width: *k2w,
+          key_text_offset_y: *offset,
         }
       - {
           click: P,
@@ -2852,6 +2879,7 @@ preset_keyboards:
           swipe_down: ")",
           label_symbol: ")",
           width: *k2w,
+          key_text_offset_y: *offset,
         }
       # 第三行
       - { width: 2 }
@@ -2862,6 +2890,7 @@ preset_keyboards:
           swipe_down: "`",
           label_symbol: "`",
           width: *k3w,
+          key_text_offset_y: *offset,
         }
       - {
           click: S,
@@ -2870,6 +2899,7 @@ preset_keyboards:
           swipe_down: "~",
           label_symbol: "~",
           width: *k3w,
+          key_text_offset_y: *offset,
         }
       - {
           click: D,
@@ -2878,6 +2908,7 @@ preset_keyboards:
           swipe_down: "=",
           label_symbol: "=",
           width: *k3w,
+          key_text_offset_y: *offset,
         }
       - {
           click: F,
@@ -2886,6 +2917,7 @@ preset_keyboards:
           swipe_down: "+",
           label_symbol: "+",
           width: *k3w,
+          key_text_offset_y: *offset,
         }
       - {
           click: G,
@@ -2894,6 +2926,7 @@ preset_keyboards:
           swipe_down: "[",
           label_symbol: "[",
           width: *k3w,
+          key_text_offset_y: *offset,
         }
       - {
           click: H,
@@ -2902,6 +2935,7 @@ preset_keyboards:
           swipe_down: "]",
           label_symbol: "]",
           width: *k3w,
+          key_text_offset_y: *offset,
         }
       - {
           click: J,
@@ -2910,6 +2944,7 @@ preset_keyboards:
           swipe_down: "{",
           label_symbol: "{",
           width: *k3w,
+          key_text_offset_y: *offset,
         }
       - {
           click: K,
@@ -2918,6 +2953,7 @@ preset_keyboards:
           swipe_down: "}",
           label_symbol: "}",
           width: *k3w,
+          key_text_offset_y: *offset,
         }
       - {
           click: L,
@@ -2926,6 +2962,7 @@ preset_keyboards:
           swipe_down: ";",
           label_symbol: ";",
           width: *k3w,
+          key_text_offset_y: *offset,
         }
       - { width: 2 }
       # 第四行
@@ -2950,6 +2987,7 @@ preset_keyboards:
           swipe_down: select_all,
           label_symbol: ic@select_all,
           width: *k4w,
+          key_text_offset_y: *offset,
         }
       - {
           click: X,
@@ -2958,6 +2996,7 @@ preset_keyboards:
           swipe_down: cut,
           label_symbol: ic@content_cut,
           width: *k4w,
+          key_text_offset_y: *offset,
         }
       - {
           click: C,
@@ -2966,6 +3005,7 @@ preset_keyboards:
           swipe_down: copy,
           label_symbol: ic@content_copy,
           width: *k4w,
+          key_text_offset_y: *offset,
         }
       - {
           click: V,
@@ -2974,6 +3014,7 @@ preset_keyboards:
           swipe_down: paste,
           label_symbol: ic@content_paste,
           width: *k4w,
+          key_text_offset_y: *offset,
         }
       - {
           click: B,
@@ -2982,6 +3023,7 @@ preset_keyboards:
           swipe_down: ":",
           label_symbol: ":",
           width: *k4w,
+          key_text_offset_y: *offset,
         }
       - {
           click: N,
@@ -2990,6 +3032,7 @@ preset_keyboards:
           swipe_down: '"',
           label_symbol: '"',
           width: *k4w,
+          key_text_offset_y: *offset,
         }
       - {
           click: M,
@@ -2998,6 +3041,7 @@ preset_keyboards:
           swipe_down: "?",
           label_symbol: "?",
           width: *k4w,
+          key_text_offset_y: *offset,
         }
       - {
           click: BackSpace,
