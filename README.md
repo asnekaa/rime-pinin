@@ -51,7 +51,7 @@ git clone git@github.com:asnekaa/rime-pinin.git; if ($?) { cd rime-pinin; .\othe
 <tr>
   <td rowspan="4" align="center">/</td>
   <td align="center">/</td>
-  <td align="center">ar/er</td>
+  <td align="center">er</td>
   <td align="center">a</td>
   <td align="center">o</td>
   <td align="center">e</td>

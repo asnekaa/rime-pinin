@@ -122,11 +122,6 @@
 人数	rñŝu
 日志	riẑi
 
-而	ar
-而已	ari
-而不是	arbŝ
-而且	arq
-而是	arŝ
 而	er
 而已	eri
 而不是	erbŝ
@@ -194,7 +189,6 @@
 第一	dii
 第一	di.1
 第二	di.2
-第二	diar
 第二	dier
 第三	di.3
 第三	disw
