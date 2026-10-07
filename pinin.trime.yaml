@@ -1504,12 +1504,13 @@ keyboard:
   k2w: &k2w 10
   k3w: &k3w 10.96
   k4w: &k4w 10
-  k5w: &k5w 10
   shiftw: &shiftw 15
   bsw: &bsw 15
-  kbsw: &kbsw 12
-  enterw: &enterw 20
+  kbsw: &kbsw 10
+  commaw: &commaw 12
   spacew: &spacew 36
+  dotw: &dotw 12
+  enterw: &enterw 20
   rc: &rc 20
   spaces: &spaces 17
   enters: &enters 17
@@ -1875,7 +1876,7 @@ preset_keyboards:
           long_click: "<",
           swipe_up: "<",
           swipe_down: "<",
-          width: *k5w,
+          width: *commaw,
         }
       - {
           click: Space,
@@ -1896,7 +1897,7 @@ preset_keyboards:
           long_click: ">",
           swipe_up: ">",
           swipe_down: ">",
-          width: *k5w,
+          width: *dotw,
         }
       - {
           click: Return,
@@ -2266,7 +2267,7 @@ preset_keyboards:
           long_click: "<",
           swipe_up: "<",
           swipe_down: "<",
-          width: *k5w,
+          width: *commaw,
         }
       - {
           click: Space,
@@ -2287,7 +2288,7 @@ preset_keyboards:
           long_click: ">",
           swipe_up: ">",
           swipe_down: ">",
-          width: *k5w,
+          width: *dotw,
         }
       - {
           click: Return,
@@ -2651,7 +2652,7 @@ preset_keyboards:
           long_click: "<",
           swipe_up: "<",
           swipe_down: "<",
-          width: *k5w,
+          width: *commaw,
         }
       - {
           click: Space,
@@ -2672,7 +2673,7 @@ preset_keyboards:
           long_click: ">",
           swipe_up: ">",
           swipe_down: ">",
-          width: *k5w,
+          width: *dotw,
         }
       - {
           click: Return,
@@ -3037,7 +3038,7 @@ preset_keyboards:
           long_click: "<",
           swipe_up: "<",
           swipe_down: "<",
-          width: *k5w,
+          width: *commaw,
         }
       - {
           click: Space,
@@ -3058,7 +3059,7 @@ preset_keyboards:
           long_click: ">",
           swipe_up: ">",
           swipe_down: ">",
-          width: *k5w,
+          width: *dotw,
         }
       - {
           click: Return,
