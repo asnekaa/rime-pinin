@@ -1,4 +1,9 @@
 patch:
+  schema/dependencies:
+    - kagiroi_romaji
+    - kagiroi_kanji
+    - kagiroi_matrix
+
   switches:
     - name: ascii_mode
       reset: 0
@@ -11,6 +16,6 @@ patch:
     - name: ascii_punct
       states: [。，, ．，]
 
-  emoji: null
-
   custom_phrase/user_dict: custom_phrase/kagiroi
+
+  emoji: null

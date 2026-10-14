@@ -10,8 +10,6 @@
 /kagiroi.nico.dict.yaml
 /kagiroi.schema.yaml
 /kagiroi.yaml
-/kagiroi_ansikana.dict.yaml
-/kagiroi_ansikana.schema.yaml
 /kagiroi_kanji.dict.yaml
 /kagiroi_kanji.schema.yaml
 /kagiroi_kaomoji.dict.yaml
@@ -20,5 +18,3 @@
 /kagiroi_romaji.dict.yaml
 /kagiroi_romaji.schema.yaml
 /kagiroi_symbols.dict.yaml
-/kagiroi_szromaji.dict.yaml
-/kagiroi_szromaji.schema.yaml
