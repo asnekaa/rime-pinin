@@ -9470,6 +9470,7 @@ sort: by_weight
 锋	fŋ-	2278
 凤	fŋ\	2164
 疯	fŋ-	2055
+冯	fŋ/	1966
 奉	fŋ\	1952
 逢	fŋ/	800
 缝	fŋ\	796
@@ -9477,7 +9478,6 @@ sort: by_weight
 讽	fŋ|	637
 枫	fŋ-	630
 缝	fŋ/	623
-冯	fŋ/	610
 烽	fŋ-	474
 俸	fŋ\	459
 沣	fŋ-	457
@@ -9650,16 +9650,16 @@ sort: by_weight
 富	fu\	2828
 福	fu/	2545
 负	fu\	2417
+付	fu\	1831
 副	fu\	1391
 幅	fu/	1233
 符	fu/	1216
+辅	fu|	929
 夫	fu-	811
 父	fu\	770
 肤	fu-	759
 妇	fu\	754
 腐	fu|	735
-付	fu\	731
-辅	fu|	729
 佛	fu/	718
 腹	fu\	712
 覆	fu\	710
@@ -12214,9 +12214,9 @@ sort: by_weight
 汉	hw\	4039
 韩	hw/	3958
 寒	hw/	3878
-函	hw/	2314
+喊	hw|	2314
 汗	hw\	2198
-喊	hw|	704
+函	hw/	704
 涵	hw/	668
 罕	hw|	656
 撼	hw\	622
@@ -12490,6 +12490,7 @@ sort: by_weight
 颃	hv/	246
 桁	hv/	134
 垳	hv/	134
+行	hv\	122
 斻	hv/	109
 迒	hv/	101
 絎	hv/	101
@@ -12544,6 +12545,7 @@ sort: by_weight
 豪	hao/	2631
 毫	hao/	2368
 耗	hao\	1534
+薅	hao-	1424
 浩	hao\	690
 皓	hao\	586
 蒿	hao-	570
@@ -12556,7 +12558,6 @@ sort: by_weight
 灏	hao\	494
 昊	hao\	453
 郝	hao|	440
-薅	hao-	424
 颢	hao\	400
 貉	hao/	393
 嗥	hao/	372
@@ -16687,10 +16688,11 @@ sort: by_weight
 𪖄	jio\	1
 𪚰	jio-	1
 𫈇	jio-	1
-解	jie|	27356
+姐	jie|	27356
+借	jie\	8614
 接	jie-	3776
 结	jie/	3398
-姐	jie|	3058
+解	jie|	3058
 节	jie/	2748
 界	jie\	1801
 届	jie\	980
@@ -16707,7 +16709,6 @@ sort: by_weight
 阶	jie-	653
 竭	jie/	649
 芥	jie\	638
-借	jie\	614
 睫	jie/	554
 结	jie-	549
 诫	jie\	537
@@ -20816,6 +20817,7 @@ sort: by_weight
 枥	li\	234
 鲡	li/	226
 猁	li\	216
+郦	li\	206
 逦	li|	204
 粝	li\	202
 疠	li\	194
@@ -26184,6 +26186,7 @@ sort: by_weight
 鿭	ni|	23
 觬	ni/	23
 淣	ni/	23
+祢	ni|	2
 秜	ni/	1
 誽	ni\	1
 愵	ni\	1
