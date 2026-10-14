@@ -48,6 +48,7 @@
 忘记	uvji
 文本	uñbñ
 于	y/
+原来如此	ylrc
 保持	baoĉi
 半角	bwjio
 帮	bv
@@ -76,6 +77,7 @@
 感谢	gwxie
 光标	guvbio
 公司	guŋsi
+考虑	kaoly
 空韵	kuŋyñ
 控制	kuŋẑi
 号	hao\
@@ -187,6 +189,8 @@
 一起	.iq
 一次	.1c
 一次	.ic
+一直	.11
+一直	.iẑ
 第一	dii
 第一	di.1
 第二	di.2
@@ -265,6 +269,7 @@
 本	bñ
 本来	bl/
 本来	blai
+笔记本	bjb
 必要	biio
 比如	bir
 比如	biru
@@ -309,6 +314,7 @@
 拼音	piñiñ
 普通	pt
 
+麻辣烫	mlt
 默认	mr
 没	mei
 没有	miu
@@ -401,6 +407,8 @@
 
 来	l/
 来	lai
+来着	l/ẑ`
+来着	laiẑ`
 离谱	lp
 里	li	1
 里面	lm
@@ -450,6 +458,10 @@
 还有	haiiu
 还没	h/m
 还没	haim
+还好	h/h|
+还好	haih|
+还好	h/hao
+还好	haihao
 还行	h/x
 还行	haix
 还在	h/z
@@ -495,6 +507,7 @@
 加	jia
 加个	jiage
 加上	jiaŝv
+结果	jg
 脚本	jb
 
 就	j
@@ -518,6 +531,7 @@
 其余	qiy
 其他	qt
 其它	qta
+其中	qẑ
 其实	qŝ
 起来	qil/
 起来	qilai
@@ -525,6 +539,7 @@
 去	q
 去	qy
 却	qye
+确实	qyeŝ
 全部	qb
 全面	qmiw
 全面	qywmiw
@@ -553,6 +568,7 @@
 
 想	x|
 想要	x|io
+想法	x|fa
 想到	x|d
 像	x\
 像要	x\io
@@ -678,6 +694,7 @@ Windows	win
 低切	diqie
 高通	gaotuŋ
 高切	gaoqie
+电子音乐	dziy
 混音	huñiñ
 锯齿波	jĉb
 三角波	sjb
@@ -687,10 +704,13 @@ FL Studio	fl
 Trance	tr
 
 蓝白碗	lbu
+萝莉	ll
+萝莉	loli
 萝莉控	llk
 绪山真寻	xŝẑx
 真寻	ẑñxyñ
 
+网易云	uiy
 啊这	aẑ
 慕名而来	mmal
 慕名而来	mmel
@@ -721,6 +741,7 @@ Trance	tr
 剧然	jr	2
 撅	jye
 强强	qq
+思维驰	suĉ
 这么强	ẑmq
 智齿	ẑiĉi
 彳亍	ĉĉ
