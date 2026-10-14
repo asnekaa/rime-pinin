@@ -15,6 +15,4 @@
 /kagiroi_kaomoji.dict.yaml
 /kagiroi_matrix.dict.yaml
 /kagiroi_matrix.schema.yaml
-/kagiroi_romaji.dict.yaml
-/kagiroi_romaji.schema.yaml
 /kagiroi_symbols.dict.yaml

@@ -40,6 +40,7 @@
 着	ẑ`
 
 额外	eui
+拗音	aoiñ
 优化	iuhua
 颜色	iwse
 颜色值	iwseẑi
