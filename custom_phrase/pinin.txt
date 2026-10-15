@@ -49,6 +49,7 @@
 忘记	uvji
 文本	uñbñ
 于	y/
+语言	yiw
 原来如此	ylrc
 保持	baoĉi
 半角	bwjio
@@ -672,6 +673,7 @@
 任意	rñi
 任何	rñhe
 认为	rñue
+日语	ry
 如果	rg
 如何	ruhe
 如下	ruxia
