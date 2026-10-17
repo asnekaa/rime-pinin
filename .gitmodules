@@ -4,6 +4,6 @@
 [submodule "rime-kagiroi"]
 	path = rime-kagiroi
 	url = https://github.com/rimeinn/rime-kagiroi.git
-[submodule "RIME-LMDG"]
+[submodule "rime-wanxiang-data"]
 	path = rime-wanxiang-data
 	url = https://github.com/amzxyz/rime-wanxiang-data.git
