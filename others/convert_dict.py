@@ -49,33 +49,28 @@ TONE_MAP = {
     'ḿ': ('m', 2), 'm̀': ('m', 4),
 }
 
-TONE_KEYS = sorted(TONE_MAP, key=len, reverse=True)
-
-TONE_MARKS = ['1', '2', '3', '4', '5']
+TONE_MARKS = '①②③④⑤'
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 RIME_ROOT = SCRIPT_DIR.parent
 DICT_DIR = RIME_ROOT / 'dicts'
 
 
-def strip_tone(syl: str):
+def strip_tone(syl: str) -> tuple[str, int | None]:
     tone = None
     out = []
     i = 0
 
     while i < len(syl):
-        mark = next(
-            (m for m in TONE_KEYS if syl.startswith(m, i)),
-            None,
-        )
+        mark = 'm̀' if syl.startswith('m̀', i) else syl[i]
+        entry = TONE_MAP.get(mark)
 
-        if mark is None:
+        if entry is None:
             out.append(syl[i])
             i += 1
         else:
-            base, t = TONE_MAP[mark]
+            base, tone = entry
             out.append(base)
-            tone = t
             i += len(mark)
 
     return ''.join(out), tone
@@ -85,55 +80,37 @@ def strip_tone(syl: str):
 def process_syllable(syl: str, apply_tone: bool) -> str:
     if apply_tone:
         base, tone = strip_tone(syl)
-
-        if tone is not None and base == 'n':
-            base = 'ñ'
     else:
-        base = syl
-        tone = None
+        base, tone = syl, None
 
-    # 保留拼音转换功能；RULES 为空时不会修改拼音。
     for pat, rep in RULES:
         base = pat.sub(rep, base)
 
     if apply_tone:
-        t = tone if tone is not None else 5
-        base += TONE_MARKS[t - 1]
+        base += TONE_MARKS[(tone if tone is not None else 5) - 1]
 
     return base
 
 
 def process_pinyin(pinyin: str, apply_tone: bool) -> str:
     return ' '.join(
-        process_syllable(s, apply_tone)
-        for s in pinyin.split()
+        process_syllable(syl, apply_tone)
+        for syl in pinyin.split()
     )
 
 
-def file_has_tone(content: str) -> bool:
-    for line in content.splitlines():
-        if not line or line.startswith('#') or '\t' not in line:
-            continue
-
-        parts = line.split('\t')
-
-        if len(parts) < 2 or not is_pinyin_col(parts[1]):
-            continue
-
-        # 检查拼音列是否含有任何声调符号。
-        # 使用子串匹配，也能识别 m̀ 这样的组合字符。
-        if any(mark in parts[1] for mark in TONE_KEYS):
-            return True
-
-    return False
-
-
 def is_pinyin_col(s: str) -> bool:
-    for ch in s:
-        if ch.isalpha() or ch in TONE_MAP:
-            return True
+    return any(ch.isalpha() or ch in TONE_MAP for ch in s)
 
-    return False
+
+def file_has_tone(content: str) -> bool:
+    return any(
+        any(mark in parts[1] for mark in TONE_MAP)
+        for line in content.splitlines()
+        if line and not line.startswith('#') and '\t' in line
+        for parts in [line.split('\t', 2)]
+        if len(parts) >= 2 and is_pinyin_col(parts[1])
+    )
 
 
 def print_progress(
@@ -141,7 +118,7 @@ def print_progress(
     current: int,
     total: int,
     count: int,
-):
+) -> None:
     percent = current / total * 100 if total else 100
 
     print(
@@ -160,15 +137,11 @@ def convert_file(path: Path) -> int:
     except UnicodeDecodeError:
         return -1
 
-    # 只有整个文件至少存在一个带调拼音，才转换声调。
     apply_tone = file_has_tone(original)
-
     lines = original.splitlines()
-
     total_lines = len(lines)
     out_lines = []
     count = 0
-
     progress_step = max(1000, total_lines // 100)
 
     for i, line in enumerate(lines, 1):
@@ -180,10 +153,7 @@ def convert_file(path: Path) -> int:
             if len(parts) < 2 or not is_pinyin_col(parts[1]):
                 out_lines.append(line)
             else:
-                new_pinyin = process_pinyin(
-                    parts[1],
-                    apply_tone,
-                )
+                new_pinyin = process_pinyin(parts[1], apply_tone)
 
                 if new_pinyin != parts[1]:
                     count += 1
@@ -192,12 +162,7 @@ def convert_file(path: Path) -> int:
                 out_lines.append('\t'.join(parts))
 
         if i % progress_step == 0 or i == total_lines:
-            print_progress(
-                path.name,
-                i,
-                total_lines,
-                count,
-            )
+            print_progress(path.name, i, total_lines, count)
 
     print()
 
@@ -210,11 +175,7 @@ def convert_file(path: Path) -> int:
         new_content += '\n'
 
     tmp = path.with_name(path.name + '.tmp')
-    tmp.write_text(
-        new_content,
-        encoding='utf-8',
-        newline='',
-    )
+    tmp.write_text(new_content, encoding='utf-8', newline='')
     tmp.replace(path)
 
     return count
@@ -225,10 +186,7 @@ def main() -> None:
         print(f'目录不存在: {DICT_DIR}')
         return
 
-    files = sorted(
-        p for p in DICT_DIR.iterdir()
-        if p.is_file()
-    )
+    files = sorted(p for p in DICT_DIR.iterdir() if p.is_file())
 
     if not files:
         print(f'目录为空: {DICT_DIR}')
@@ -240,16 +198,16 @@ def main() -> None:
     print(f'目标目录: {DICT_DIR}')
     print()
 
-    for index, f in enumerate(files, 1):
-        print(f'[{index}/{len(files)}] {f.name}')
+    for index, path in enumerate(files, 1):
+        print(f'[{index}/{len(files)}] {path.name}')
 
-        n = convert_file(f)
+        count = convert_file(path)
 
-        if n < 0:
-            print(f'  跳过（非 UTF-8）: {f.name}')
+        if count < 0:
+            print(f'  跳过（非 UTF-8）: {path.name}')
         else:
-            print(f'  完成：{n} 条')
-            total += n
+            print(f'  完成：{count} 条')
+            total += count
 
         print()
 
