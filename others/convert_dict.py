@@ -2,39 +2,41 @@ import re
 from functools import lru_cache
 from pathlib import Path
 
+
 RULES = [
-    (re.compile(r'^yi$'),           r'y'),
-    (re.compile(r'^yin$'),          r'yn'),
-    (re.compile(r'^ying$'),         r'yng'),
-    (re.compile(r'^wu$'),           r'w'),
-    (re.compile(r'^([jqxy])[uv]'),  r'\1ü'),
-    (re.compile(r'^([nl])v$'),      r'\1ü'),
-    (re.compile(r'^([nl])[uv]e$'),  r'\1üe'),
-    (re.compile(r'^yong$'),         r'yüng'),
-    (re.compile(r'iong$'),          r'üng'),
-    (re.compile(r'ong$'),           r'ung'),
-    (re.compile(r'^yo$'),           r'yüo'),
-    (re.compile(r'^y$'),            r'i'),
-    (re.compile(r'^y([^ü])'),       r'i\1'),
-    (re.compile(r'^w'),             r'u'),
-    (re.compile(r'^yü'),            r'ü'),
-    (re.compile(r'ü'),              r'y'),
-    (re.compile(r'ui$'),            r'uei'),
-    (re.compile(r'an$'),            r'w'),
-    (re.compile(r'ang$'),           r'v'),
-    (re.compile(r'en$'),            r'ñ'),
-    (re.compile(r'eng$'),           r'ng'),
-    (re.compile(r'ng$'),            r'ŋ'),
-    (re.compile(r'^(.+)n$'),        r'\1ñ'),
-    (re.compile(r'^zh'),            r'ẑ'),
-    (re.compile(r'^ch'),            r'ĉ'),
-    (re.compile(r'^sh'),            r'ŝ'),
-    (re.compile(r'uo$'),            r'o'),
-    (re.compile(r'uai$'),           r'ui'),
-    (re.compile(r'uei$'),           r'ue'),
-    (re.compile(r'iao$'),           r'io'),
-    (re.compile(r'iou$'),           r'iu'),
+    # (re.compile(r'^yi$'),           r'y'),
+    # (re.compile(r'^yin$'),          r'yn'),
+    # (re.compile(r'^ying$'),         r'yng'),
+    # (re.compile(r'^wu$'),           r'w'),
+    # (re.compile(r'^([jqxy])[uv]'),  r'\1ü'),
+    # (re.compile(r'^([nl])v$'),      r'\1ü'),
+    # (re.compile(r'^([nl])[uv]e$'),  r'\1üe'),
+    # (re.compile(r'^yong$'),         r'yüng'),
+    # (re.compile(r'iong$'),          r'üng'),
+    # (re.compile(r'ong$'),           r'ung'),
+    # (re.compile(r'^yo$'),           r'yüo'),
+    # (re.compile(r'^y$'),            r'i'),
+    # (re.compile(r'^y([^ü])'),       r'i\1'),
+    # (re.compile(r'^w'),             r'u'),
+    # (re.compile(r'^yü'),            r'ü'),
+    # (re.compile(r'ü'),              r'y'),
+    # (re.compile(r'ui$'),            r'uei'),
+    # (re.compile(r'an$'),            r'w'),
+    # (re.compile(r'ang$'),           r'v'),
+    # (re.compile(r'en$'),            r'ñ'),
+    # (re.compile(r'eng$'),           r'ng'),
+    # (re.compile(r'ng$'),            r'ŋ'),
+    # (re.compile(r'^(.+)n$'),        r'\1ñ'),
+    # (re.compile(r'^zh'),            r'ẑ'),
+    # (re.compile(r'^ch'),            r'ĉ'),
+    # (re.compile(r'^sh'),            r'ŝ'),
+    # (re.compile(r'uo$'),            r'o'),
+    # (re.compile(r'uai$'),           r'ui'),
+    # (re.compile(r'uei$'),           r'ue'),
+    # (re.compile(r'iao$'),           r'io'),
+    # (re.compile(r'iou$'),           r'iu'),
 ]
+
 
 TONE_MAP = {
     'ā': ('a', 1), 'á': ('a', 2), 'ǎ': ('a', 3), 'à': ('a', 4),
@@ -44,9 +46,12 @@ TONE_MAP = {
     'ū': ('u', 1), 'ú': ('u', 2), 'ǔ': ('u', 3), 'ù': ('u', 4),
     'ǖ': ('ü', 1), 'ǘ': ('ü', 2), 'ǚ': ('ü', 3), 'ǜ': ('ü', 4),
     'ń': ('n', 2), 'ň': ('n', 3), 'ǹ': ('n', 4),
+    'ḿ': ('m', 2), 'm̀': ('m', 4),
 }
 
-TONE_MARKS = ['-', '/', '|', '\\', '`']
+TONE_KEYS = sorted(TONE_MAP, key=len, reverse=True)
+
+TONE_MARKS = ['1', '2', '3', '4', '5']
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 RIME_ROOT = SCRIPT_DIR.parent
@@ -56,25 +61,38 @@ DICT_DIR = RIME_ROOT / 'dicts'
 def strip_tone(syl: str):
     tone = None
     out = []
+    i = 0
 
-    for ch in syl:
-        if ch in TONE_MAP:
-            base, t = TONE_MAP[ch]
+    while i < len(syl):
+        mark = next(
+            (m for m in TONE_KEYS if syl.startswith(m, i)),
+            None,
+        )
+
+        if mark is None:
+            out.append(syl[i])
+            i += 1
+        else:
+            base, t = TONE_MAP[mark]
             out.append(base)
             tone = t
-        else:
-            out.append(ch)
+            i += len(mark)
 
     return ''.join(out), tone
 
 
 @lru_cache(maxsize=65536)
 def process_syllable(syl: str, apply_tone: bool) -> str:
-    base, tone = strip_tone(syl)
+    if apply_tone:
+        base, tone = strip_tone(syl)
 
-    if tone is not None and base == 'n':
-        base = 'ñ'
+        if tone is not None and base == 'n':
+            base = 'ñ'
+    else:
+        base = syl
+        tone = None
 
+    # 保留拼音转换功能；RULES 为空时不会修改拼音。
     for pat, rep in RULES:
         base = pat.sub(rep, base)
 
@@ -102,9 +120,10 @@ def file_has_tone(content: str) -> bool:
         if len(parts) < 2 or not is_pinyin_col(parts[1]):
             continue
 
-        for ch in parts[1]:
-            if ch in TONE_MAP:
-                return True
+        # 检查拼音列是否含有任何声调符号。
+        # 使用子串匹配，也能识别 m̀ 这样的组合字符。
+        if any(mark in parts[1] for mark in TONE_KEYS):
+            return True
 
     return False
 
@@ -117,7 +136,12 @@ def is_pinyin_col(s: str) -> bool:
     return False
 
 
-def print_progress(filename: str, current: int, total: int, count: int):
+def print_progress(
+    filename: str,
+    current: int,
+    total: int,
+    count: int,
+):
     percent = current / total * 100 if total else 100
 
     print(
@@ -136,7 +160,9 @@ def convert_file(path: Path) -> int:
     except UnicodeDecodeError:
         return -1
 
+    # 只有整个文件至少存在一个带调拼音，才转换声调。
     apply_tone = file_has_tone(original)
+
     lines = original.splitlines()
 
     total_lines = len(lines)
@@ -154,7 +180,10 @@ def convert_file(path: Path) -> int:
             if len(parts) < 2 or not is_pinyin_col(parts[1]):
                 out_lines.append(line)
             else:
-                new_pinyin = process_pinyin(parts[1], apply_tone)
+                new_pinyin = process_pinyin(
+                    parts[1],
+                    apply_tone,
+                )
 
                 if new_pinyin != parts[1]:
                     count += 1

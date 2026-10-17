@@ -8,8 +8,6 @@
 /default.yaml
 /melt_eng.dict.yaml
 /melt_eng.schema.yaml
-/radical_pinyin.dict.yaml
-/radical_pinyin.schema.yaml
 /rime_ice.dict.yaml
 /rime_ice.schema.yaml
 /symbols_v.yaml

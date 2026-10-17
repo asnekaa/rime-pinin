@@ -12,8 +12,8 @@ $subs = @(
         List = "rime-kagiroi-sparse.txt"
     },
     @{
-        Name = "RIME-LMDG"
-        List = "RIME-LMDG-sparse.txt"
+        Name = "rime-wanxiang-data"
+        List = "rime-wanxiang-data-sparse.txt"
     }
 )
 
