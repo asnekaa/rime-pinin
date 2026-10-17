@@ -5,5 +5,5 @@
 	path = rime-kagiroi
 	url = https://github.com/rimeinn/rime-kagiroi.git
 [submodule "RIME-LMDG"]
-	path = RIME-LMDG
-	url = https://github.com/amzxyz/RIME-LMDG.git
+	path = rime-wanxiang-data
+	url = https://github.com/amzxyz/rime-wanxiang-data.git
