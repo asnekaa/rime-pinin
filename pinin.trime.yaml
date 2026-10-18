@@ -1593,46 +1593,41 @@ preset_keyboards:
       - {
           click: a,
           long_click: A,
-          swipe_up: "`",
+          swipe_up: "~",
           swipe_down: "~",
-          label_symbol: "`",
-          hint: "~",
+          label_symbol: "~",
           width: *k2w,
         }
       - {
           click: s,
           long_click: S,
           swipe_up: "!",
-          swipe_down: "@",
+          swipe_down: "!",
           label_symbol: "!",
-          hint: "@",
           width: *k2w,
         }
       - {
           click: d,
           long_click: D,
-          swipe_up: "#",
-          swipe_down: "$",
-          label_symbol: "#",
-          hint: "$",
+          swipe_up: "@",
+          swipe_down: "@",
+          label_symbol: "@",
           width: *k2w,
         }
       - {
           click: f,
           long_click: F,
-          swipe_up: "%",
-          swipe_down: "^",
-          label_symbol: "%",
-          hint: "^",
+          swipe_up: "&",
+          swipe_down: "&",
+          label_symbol: "&",
           width: *k2w,
         }
       - {
           click: g,
           long_click: G,
-          swipe_up: "&",
+          swipe_up: "*",
           swipe_down: "*",
-          label_symbol: "&",
-          hint: "*",
+          label_symbol: "*",
           width: *k2w,
         }
       - {
@@ -1648,27 +1643,25 @@ preset_keyboards:
           click: j,
           long_click: J,
           swipe_up: "-",
-          swipe_down: "_",
+          swipe_down: "-",
           label_symbol: "-",
-          hint: "_",
           width: *k2w,
         }
       - {
           click: k,
           long_click: K,
-          swipe_up: "=",
-          swipe_down: "+",
-          label_symbol: "=",
-          hint: "+",
+          swipe_up: "_",
+          swipe_down: "_",
+          label_symbol: "_",
           width: *k2w,
         }
       - {
           click: l,
           long_click: L,
-          swipe_up: "\\",
-          swipe_down: "|",
-          label_symbol: "\\",
-          hint: "|",
+          swipe_up: "[",
+          swipe_down: "]",
+          label_symbol: "[",
+          hint: "]",
           width: *k2w,
         }
       - { width: 5 }
@@ -1721,28 +1714,26 @@ preset_keyboards:
       - {
           click: b,
           long_click: B,
-          swipe_up: "[]{Left}",
-          swipe_down: "{}{Left}",
-          label_symbol: "[ ]",
-          hint: "{ }",
+          swipe_up: ":",
+          swipe_down: ":",
+          label_symbol: ":",
           width: *k3w,
         }
       - {
           click: n,
           long_click: N,
-          swipe_up: ";",
-          swipe_down: ":",
-          label_symbol: ";",
-          hint: ":",
+          swipe_up: '"',
+          swipe_down: '"',
+          label_symbol: '"',
           width: *k3w,
         }
       - {
           click: m,
           long_click: M,
-          swipe_up: '"',
-          swipe_down: "<>{Left}",
-          label_symbol: '"',
-          hint: "<>",
+          swipe_up: "<",
+          swipe_down: ">",
+          label_symbol: "<",
+          hint: "<",
           width: *k3w,
         }
       - {
