@@ -10,10 +10,10 @@ name: Pinin
 author: ASneka
 
 size:
-  text_size: &ts 25
+  text_size: &ts 26
   candidate_text_size: &cts 20
-  symbol_text_size: &sts 11
-  vertical_gap: &vg 20
+  symbol_text_size: &sts 12
+  vertical_gap: &vg 25
   kbh: &kbh 210
 
 # 界面风格、功能开关
