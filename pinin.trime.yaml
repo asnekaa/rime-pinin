@@ -1421,13 +1421,7 @@ preset_keys:
   DeleteCandidate: { label: 刪詞, send: Control+Delete }
   # rime狀態
   Mode_switch:
-    {
-      label: ic@web,
-      preview: "",
-      toggle: ascii_mode,
-      send: SWITCH_CHARSET,
-      states: [中, 英],
-    }
+    { label: ic@web, preview: "", toggle: ascii_mode, send: SWITCH_CHARSET }
   Zenkaku_Hankaku:
     { toggle: full_shape, send: SWITCH_CHARSET, states: [半角, 全角] }
   Henkan: { toggle: simplification, send: SWITCH_CHARSET, states: [漢字, 汉字] }
@@ -1505,7 +1499,7 @@ number_keyboard:
 
 # 键盘布局
 preset_keyboards:
-  pinin:
+  default:
     name: Pinin
     author: ASneka
     ascii_mode: 0
