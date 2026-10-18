@@ -357,6 +357,7 @@
 都是	dds
 都是	dous
 但是	ds
+当	drd
 当然	dr
 点	diw
 读我	duo
@@ -724,8 +725,8 @@ Trance	tr
 康康	kk
 豪	haof
 豪	hauf
-豪德	hd
-豪听	ht
+豪德	hjd
+豪庭	hjt
 好欸	hjei
 好耶	hjie
 好康	hjk
