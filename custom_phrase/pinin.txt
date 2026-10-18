@@ -77,6 +77,10 @@
 逻辑	loji
 类似	leisi
 国庆	goqin
+高度	gaodu
+高度	gaudu
+高亮	gaolir
+高亮	gaulir
 感谢	gwxe
 光标	gurbio
 公司	gugsi
@@ -139,6 +143,7 @@
 九	9
 个	ge
 行	hr
+
 一样	1y
 一般	1b
 一点	1d
@@ -154,6 +159,7 @@
 一直	1z
 两个	2g
 两个	2ge
+每一行	mih
 第一	di1
 第二	di2
 第三	di3
@@ -277,10 +283,10 @@
 别人	bier
 别人	biern
 标	biod
-标签	biodq
-标志	biodz
+标签	bioq
+标志	bioz
 表	bioj
-表示	biojs
+表示	bios
 变	biw
 变体	biwti
 变成	bc
@@ -322,6 +328,7 @@
 没用	my
 没关系	mgx
 没什么	msm
+每	meij
 每个	meige
 明白	mb
 
@@ -369,7 +376,7 @@
 天天	tt
 突然	tr	1
 图	tu
-图标	tubiod
+图标	tubio
 通过	tg
 同时	tsf
 
@@ -426,6 +433,7 @@
 过	g
 果然	gr
 改	gai
+改变	gaibiw
 改为	gaiwe
 改成	gaic
 改成	gaichn

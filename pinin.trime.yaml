@@ -10,12 +10,12 @@ name: Pinin
 author: ASneka
 
 size:
-  text_size: &text_size 24
-  candidate_text_size: &candidate_text_size 20 # 候选字号
-  key_long_text_size: &key_long_text_size 14 #长标签字号
+  text_size: &text_size 26
+  candidate_text_size: &candidate_text_size 20
+  symbol_text_size: &symbol_text_size 12
 
 height:
-  kbh: &kbh 220
+  kbh: &kbh 210
 
 # 界面风格、功能开关
 style:
@@ -65,8 +65,7 @@ style:
   comment_vertical_bias: 0.0 # 编码提示垂直偏移位置（仅 overlay 模式使用，需要间隙空间足够，范围 0.0~1.0，0.0=top，0.5=center，1.0=bottom）
   key_border: 1 # 按键边框宽度
   key_text_size: *text_size # 按键文本大小（click）
-  key_long_text_size: *key_long_text_size # 按键长文本大小（字数 ≥2）
-  symbol_text_size: 10 # 符号大小（long_click 和 hint）
+  symbol_text_size: *symbol_text_size # 符号大小（long_click 和 hint）
   round_corner: 25 # 按键圆角半径
   popup_width: 52 # 按键提示宽度
   popup_height: 52 # 按键提示高度
@@ -75,7 +74,7 @@ style:
   popup_text_size: *text_size # 按键提示字号
   shadow_radius: 0.0 # 键盘字体阴影大小（数值不宜过大，可能会造成卡顿）
   horizontal_gap: 1 #键水平间距
-  vertical_gap: 10 #键盘行距
+  vertical_gap: 20 #键盘行距
   # ⚠ 若关闭了proximity_correction，过大的horizontal_gap与vertical_gap会引起空按漏按
   vertical_correction: 0 # 触摸位置校正（竖直方向）。 ※ 为了提升打字手感，可将按键的实际触摸位置相对其显示位置上下偏移一点点（默认值-10，上偏为正，下偏为负，为0则不偏移）。
   keyboard_padding: 0 # 竖屏模式下，屏幕左右两侧与键盘的距离（减少曲面屏误触）
@@ -1385,7 +1384,7 @@ preset_keys:
   # 编辑
   Tab: { label: ic@keyboard_tab, send: Tab }
   Tab_Reverse: { label: ic@keyboard_tab_reverse, send: Shift+Tab }
-  Shift_L: { label: ic@arrow_up_bold_outline, preview: "", send: Shift_L }
+  Shift_L: { label: ic@apple_keyboard_shift, preview: "", send: Shift_L }
   Shift_L2:
     {
       label: ic@apple_keyboard_shift,
@@ -1764,11 +1763,10 @@ preset_keyboards:
           round_corner: *rc,
         }
       - {
-          click: Keyboard_letter,
+          click: Mode_switch,
           long_click: IME_switch,
           swipe_up: Menu,
           swipe_down: Menu,
-          label: 中,
           label_symbol: " ",
           key_back_color: b_keyboard_switch,
           key_text_color: f_keyboard_switch,
