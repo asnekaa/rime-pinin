@@ -8,7 +8,5 @@
 /default.yaml
 /melt_eng.dict.yaml
 /melt_eng.schema.yaml
-/rime_ice.dict.yaml
-/rime_ice.schema.yaml
 /symbols_v.yaml
 /weasel.yaml
