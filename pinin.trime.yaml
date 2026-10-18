@@ -13,7 +13,7 @@ size:
   text_size: &ts 26
   candidate_text_size: &cts 20
   symbol_text_size: &sts 12
-  vertical_gap: &vg 10
+  vertical_gap: &vg 15
   kbh: &kbh 210
 
 # 界面风格、功能开关
@@ -1587,9 +1587,9 @@ preset_keyboards:
       - {
           click: p,
           long_click: P,
-          swipe_up: "9",
-          swipe_down: "9",
-          label_symbol: "9",
+          swipe_up: "0",
+          swipe_down: "0",
+          label_symbol: "0",
           width: *k1w,
         }
       # 第二行

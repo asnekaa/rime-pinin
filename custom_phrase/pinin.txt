@@ -288,6 +288,7 @@
 表	bioj
 表示	bios
 变	biw
+变为	biwwe
 变体	biwti
 变成	bc
 编	biwd
