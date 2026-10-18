@@ -10,11 +10,10 @@ name: Pinin
 author: ASneka
 
 size:
-  text_size: &text_size 26
-  candidate_text_size: &candidate_text_size 20
-  symbol_text_size: &symbol_text_size 12
-
-height:
+  text_size: &ts 26
+  candidate_text_size: &cts 20
+  symbol_text_size: &sts 12
+  vertical_gap: &vg 19
   kbh: &kbh 210
 
 # 界面风格、功能开关
@@ -54,7 +53,7 @@ style:
   candidate_border_round: 0 # 候选区域边框圆角半径
   candidate_padding: 5 # 候选项内边距（影响候选项的间距）
   candidate_spacing: 0.0 # 候选分割线宽度
-  candidate_text_size: *candidate_text_size # 候选字大小
+  candidate_text_size: *cts # 候选字大小
   candidate_text_vertical_bias: 1.0 # 候选文本垂直偏移位置（仅 overlay 模式使用，需要间隙空间足够，范围 0.0~1.0，0.0=top，0.5=center，1.0=bottom）
   candidate_view_height: 28 # 候选区高度
   candidate_corner_radius: 5 # 候选圆角
@@ -64,17 +63,17 @@ style:
   comment_position: right # 编码提示布局位置：right / top / overlay
   comment_vertical_bias: 0.0 # 编码提示垂直偏移位置（仅 overlay 模式使用，需要间隙空间足够，范围 0.0~1.0，0.0=top，0.5=center，1.0=bottom）
   key_border: 1 # 按键边框宽度
-  key_text_size: *text_size # 按键文本大小（click）
-  symbol_text_size: *symbol_text_size # 符号大小（long_click 和 hint）
+  key_text_size: *ts # 按键文本大小（click）
+  symbol_text_size: *sts # 符号大小（long_click 和 hint）
   round_corner: 25 # 按键圆角半径
   popup_width: 52 # 按键提示宽度
   popup_height: 52 # 按键提示高度
   popup_bottom_margin: 52 # 按键提示底边距
   popup_key_height: 52 # 按键提示内键高度
-  popup_text_size: *text_size # 按键提示字号
+  popup_text_size: *ts # 按键提示字号
   shadow_radius: 0.0 # 键盘字体阴影大小（数值不宜过大，可能会造成卡顿）
   horizontal_gap: 1 #键水平间距
-  vertical_gap: 15 #键盘行距
+  vertical_gap: *vg #键盘行距
   # ⚠ 若关闭了proximity_correction，过大的horizontal_gap与vertical_gap会引起空按漏按
   vertical_correction: 0 # 触摸位置校正（竖直方向）。 ※ 为了提升打字手感，可将按键的实际触摸位置相对其显示位置上下偏移一点点（默认值-10，上偏为正，下偏为负，为0则不偏移）。
   keyboard_padding: 0 # 竖屏模式下，屏幕左右两侧与键盘的距离（减少曲面屏误触）
