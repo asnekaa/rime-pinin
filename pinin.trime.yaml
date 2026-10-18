@@ -15,7 +15,7 @@ size:
   key_long_text_size: &key_long_text_size 14 #长标签字号
 
 height:
-  kbh: &kbh 250
+  kbh: &kbh 200
 
 # 界面风格、功能开关
 style:
@@ -1721,10 +1721,10 @@ preset_keyboards:
       - {
           click: b,
           long_click: B,
-          swipe_up: "[]{left}",
-          swipe_down: "{}{left}",
-          label_symbol: "[]",
-          hint: "{}",
+          swipe_up: "[]{Left}",
+          swipe_down: "{}{Left}",
+          label_symbol: "[ ]",
+          hint: "{ }",
           width: *k3w,
         }
       - {
@@ -1740,7 +1740,7 @@ preset_keyboards:
           click: m,
           long_click: M,
           swipe_up: '"',
-          swipe_down: "<>{left}",
+          swipe_down: "<>{Left}",
           label_symbol: '"',
           hint: "<>",
           width: *k3w,
