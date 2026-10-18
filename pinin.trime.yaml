@@ -10,8 +10,8 @@ name: Pinin
 author: ASneka
 
 size:
-  text_size: &ts 26
-  candidate_text_size: &cts 20
+  text_size: &ts 25
+  candidate_text_size: &cts 21
   symbol_text_size: &sts 11
   vertical_gap: &vg 14
   kbh: &kbh 210
