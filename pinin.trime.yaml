@@ -11,10 +11,10 @@ author: ASneka
 
 size:
   text_size: &ts 25
-  candidate_text_size: &cts 21
+  candidate_text_size: &cts 20
   symbol_text_size: &sts 11
   vertical_gap: &vg 14
-  kbh: &kbh 210
+  kbh: &kbh 215
 
 # 界面风格、功能开关
 style:
@@ -1500,8 +1500,8 @@ number_keyboard:
   nk1w: &nk1w 17
   nk2w: &nk2w 17
   nrc: &nrc 30
-  nspaces: &nspaces 17
-  nenters: &nenters 17
+  nspaces: &nspaces 20
+  nenters: &nenters 20
 
 # 键盘布局
 preset_keyboards:
