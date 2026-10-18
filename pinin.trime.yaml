@@ -15,7 +15,7 @@ size:
   key_long_text_size: &key_long_text_size 14 #长标签字号
 
 height:
-  kbh: &kbh 225
+  kbh: &kbh 220
 
 # 界面风格、功能开关
 style:
@@ -1385,8 +1385,14 @@ preset_keys:
   # 编辑
   Tab: { label: ic@keyboard_tab, send: Tab }
   Tab_Reverse: { label: ic@keyboard_tab_reverse, send: Shift+Tab }
-  Shift_L: { label: ic@arrow_up_bold_outline, preview: "", send: "" }
-  Shift_L2: { label: ic@apple_keyboard_shift, preview: "", send: "" }
+  Shift_L: { label: ic@arrow_up_bold_outline, preview: "", send: Shift_L }
+  Shift_L2:
+    {
+      label: ic@apple_keyboard_shift,
+      preview: "",
+      send: Shift_L,
+      shift_lock: click,
+    }
   BackSpace: { label: ⌫, preview: "", repeatable: true, send: BackSpace }
   BackSpace_Word: { preview: "", send: Control+BackSpace }
   Delete: { label: ⌦, send: Delete }
@@ -1733,7 +1739,7 @@ preset_keyboards:
           swipe_up: "<",
           swipe_down: ">",
           label_symbol: "<",
-          hint: "<",
+          hint: ">",
           width: *k3w,
         }
       - {
