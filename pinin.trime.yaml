@@ -13,7 +13,7 @@ size:
   text_size: &ts 26
   candidate_text_size: &cts 20
   symbol_text_size: &sts 12
-  vertical_gap: &vg 25
+  vertical_gap: &vg 10
   kbh: &kbh 210
 
 # 界面风格、功能开关
