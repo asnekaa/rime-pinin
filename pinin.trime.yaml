@@ -1489,8 +1489,8 @@ keyboard:
   dotw: &dotw 11
   enterw: &enterw 17
   rc: &rc 20
-  spaces: &spaces 21
-  enters: &enters 21
+  spaces: &spaces 22
+  enters: &enters 22
 
 caps_keyboard:
   offset: &offset 1
@@ -1500,8 +1500,8 @@ number_keyboard:
   nk1w: &nk1w 17
   nk2w: &nk2w 17
   nrc: &nrc 30
-  nspaces: &nspaces 21
-  nenters: &nenters 21
+  nspaces: &nspaces 22
+  nenters: &nenters 22
 
 # 键盘布局
 preset_keyboards:
