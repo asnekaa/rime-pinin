@@ -15,7 +15,7 @@ size:
   key_long_text_size: &key_long_text_size 14 #长标签字号
 
 height:
-  kbh: &kbh 200
+  kbh: &kbh 225
 
 # 界面风格、功能开关
 style:
