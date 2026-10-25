@@ -272,36 +272,12 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA1234567890
   delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   algebra:
-    - xlit/①②③④⑤/dfjkv/
-
     - erase/^o[dfjkv]?$/
-    - erase/^m[dfjkv]?$/
-    - xform/^n(g?)([dfjk]?)$/en$1$2/
+    - erase/^m[dfjkv]?$/    
 
-    - xform/ng([dfjkv]?)$/g$1/
-    - xform/^(.+)an([dfjkv]?)$/$1w$2/
-    - xform/^(.+)ag([dfjkv]?)$/$1r$2/
-    - xform/^(.+)en([dfjkv]?)$/$1n$2/
-    - xform/^(.+)eg([dfjkv]?)$/$1g$2/
-    - xform/og([dfjkv]?)$/ug$1/
-    - xform/ui([dfjkv]?)$/uei$1/
-    - xform/iu([dfjkv]?)$/iou$1/
-    - xform/^yu([dfjkv]?)$/ywu$1/
-    - xform/^([jqx])u([dfjkv]?)$/$1yu$2/
-    - xform/^([jqx])i([^ng].*)([dfjkv]?)$/$1$2$3/
-    - xform/^([nl])[üv](e?)([dfjkv]?)$/$1yu$2$3/
-    - xform/uo([dfjkv]?)$/o$1/
-    - xform/^yo([dfjkv]?)$/yuo$1/
-    - xform/([jqxyi])ao([dfjkv]?)$/$1o$2/
-    - xform/([jqxyi])ou([dfjkv]?)$/$1u$2/
-    - xform/([wu])ai([dfjkv]?)$/$1i$2/
-    - xform/([wu])ei([dfjkv]?)$/$1e$2/
-
-    - derive/^er([dfjkv]?)$/ar$1/
-    - derive/o([dfjkv]?)$/uo$1/
+    - derive/^an([dfjkv]?)$/w$1/
     - derive/ao([dfjkv]?)$/au$1/
-    - derive/^([jqxy])w([dfjkv]?)$/$1n$2/
-    - derive/^([bpmfw])g([dfjkv]?)$/$1ug$2/
+    - derive/^([bpmf])g([dfjkv]?)$/$1ug$2/
     - derive/^([dtnlgkhjqxzcsr]|zh|ch|sh)g([dfjkv]?)$/$1n$2/
     - derive/ig([dfjkv]?)$/in$1/
 

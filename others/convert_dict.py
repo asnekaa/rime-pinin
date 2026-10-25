@@ -4,37 +4,28 @@ from pathlib import Path
 
 
 RULES = [
-    # (re.compile(r'^yi$'),           r'y'),
-    # (re.compile(r'^yin$'),          r'yn'),
-    # (re.compile(r'^ying$'),         r'yng'),
-    # (re.compile(r'^wu$'),           r'w'),
-    # (re.compile(r'^([jqxy])[uv]'),  r'\1ü'),
-    # (re.compile(r'^([nl])v$'),      r'\1ü'),
-    # (re.compile(r'^([nl])[uv]e$'),  r'\1üe'),
-    # (re.compile(r'^yong$'),         r'yüng'),
-    # (re.compile(r'iong$'),          r'üng'),
-    # (re.compile(r'ong$'),           r'ung'),
-    # (re.compile(r'^yo$'),           r'yüo'),
-    # (re.compile(r'^y$'),            r'i'),
-    # (re.compile(r'^y([^ü])'),       r'i\1'),
-    # (re.compile(r'^w'),             r'u'),
-    # (re.compile(r'^yü'),            r'ü'),
-    # (re.compile(r'ü'),              r'y'),
-    # (re.compile(r'ui$'),            r'uei'),
-    # (re.compile(r'an$'),            r'w'),
-    # (re.compile(r'ang$'),           r'v'),
-    # (re.compile(r'en$'),            r'ñ'),
-    # (re.compile(r'eng$'),           r'ng'),
-    # (re.compile(r'ng$'),            r'ŋ'),
-    # (re.compile(r'^(.+)n$'),        r'\1ñ'),
-    # (re.compile(r'^zh'),            r'ẑ'),
-    # (re.compile(r'^ch'),            r'ĉ'),
-    # (re.compile(r'^sh'),            r'ŝ'),
-    # (re.compile(r'uo$'),            r'o'),
-    # (re.compile(r'uai$'),           r'ui'),
-    # (re.compile(r'uei$'),           r'ue'),
-    # (re.compile(r'iao$'),           r'io'),
-    # (re.compile(r'iou$'),           r'iu'),
+    (re.compile(r'ong$'),           r'ung'),
+    (re.compile(r'^yi(.*)$'),       r'i\1'),
+    (re.compile(r'^y(?!u)(.+)$'),   r'i\1'),
+    (re.compile(r'^yu(.*)$'),       r'y\1'),
+    (re.compile(r'^wu$'),           r'u'),
+    (re.compile(r'^w'),             r'u'),
+    (re.compile(r'^([jqx])i(.+)$'), r'\1\2'),
+    (re.compile(r'^([jqx])u$'),     r'\1y'),
+    (re.compile(r'^([nl])[üv]$'),   r'\1y'),
+    (re.compile(r'^([nl])[üv]e$'),  r'\1ue'),
+    (re.compile(r'^n(g?)$'),        r'en\1'),
+    (re.compile(r'ng$'),            r'g'),
+    (re.compile(r'^(.+)an$'),       r'\1w'),
+    (re.compile(r'^(.+)ag$'),       r'\1r'),
+    (re.compile(r'^(.+)e([ng])$'),  r'\1\2'),
+    (re.compile(r'iu$'),            r'iou'),
+    (re.compile(r'ui$'),            r'uei'),
+    (re.compile(r'uo$'),            r'o'),
+    (re.compile(r'iao$'),           r'io'),
+    (re.compile(r'iou$'),           r'iu'),
+    (re.compile(r'uai$'),           r'ui'),
+    (re.compile(r'uei$'),           r'ue'),
 ]
 
 
@@ -49,7 +40,7 @@ TONE_MAP = {
     'ḿ': ('m', 2), 'm̀': ('m', 4),
 }
 
-TONE_MARKS = '①②③④⑤'
+TONE_MARKS = 'dfjkv'
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 RIME_ROOT = SCRIPT_DIR.parent

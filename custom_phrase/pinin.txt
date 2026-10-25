@@ -29,35 +29,36 @@
 嘛	ma
 么	me
 的	d
+的时候	dsh
 了	l
 咯	lv
 嗯	en
 呢	ne
 啦	la
 哈	ha
-哼	heg
+哼	hg
 着	zv
 
 额外	ewi
-优化	yuhua
-颜色	ywse
-颜色值	ywsezhi
-扬抑符	yryifu
-于	ywuf
-语言	ywuyan
-伪造	wezao
-伪造	wezau
-忘记	wrji
-文本	wnbn
+优化	iuhua
+颜色	iwse
+颜色值	iwsezhi
+扬抑符	irifu
+于	yf
+语言	yiw
+伪造	uezao
+伪造	uezau
+忘记	urji
+文本	unbn
 保持	baochi
 保持	bauchi
 半角	bwjo
-帮	brd
+帮	br
 补丁	budin
 配置	peizhi
 模式	moshi
-翻译	fwyi
-服务	fuwu
+翻译	fwi
+服务	fuu
 符号	fuhao
 符号	fuhau
 复制	fuzhi
@@ -66,9 +67,9 @@
 灯光	dngur
 电脑	diwnao
 电脑	diwnau
-定义	dinyi
+定义	dini
 订购	dingou
-短语	duwywu
+短语	duwy
 特殊	teshu
 调试	tioshi
 娘	nir
@@ -84,25 +85,28 @@
 感谢	gwxe
 光标	gurbio
 公司	gugsi
-考虑	kaolyu
-考虑	kaulyu
-空韵	kugyun
+考虑	kaoly
+考虑	kauly
+空韵	kugyn
 控制	kugzhi
 坏	hui
 家伙	jaho
 结合	jehe
 介母	jemu
 键盘	jwpw
-进入	jinru
+进入	jnru
 卷舌	juwshe
 期待	qidai
-区别	qyubie
+奇妙	qimio
+区别	qybie
 确定	quedin
 喜欢	xihuw
+心灵	xinlin
 修改	xugai
 选项	xuwxr
-选择	xywze
-选中	xywẑuŋ
+选择	xuwze
+选中	xuwzhug
+贼	zei
 最终	zuezhug
 操作	caozo
 操作	cauzo
@@ -110,30 +114,31 @@
 词首	cishou
 色	se
 锁定	sodin
-遮挡	zhedr
 支付	zhifu
+遮挡	zhedr
 主副	zhufu
 主人	zhurn
-注意	zhuyi
+注意	zhui
 注释	zhushi
-转义	zhuwyi
+转义	zhuwi
 插入	charu
 车辆	chelir
 常见	chrjw
-处于	chuywu
+处于	chuy
 删除	shwchu
 伤心	shrxin
 声调	shndio
 声母	shnmu
 生效	shnxo
-睡觉	shuejo
 数字	shuzi
-人数	rnshu
+睡觉	shuejo
 日志	rizhi
+人数	rnshu
 
 零	0
 一	1
-二	2
+二	2	1
+两	2
 三	3
 四	4
 五	5
@@ -144,26 +149,33 @@
 个	ge
 行	hr
 
-一样	1y
+一样	1i
 一般	1b
 一点	1d
 一定	1din
 一个	1g
 一个	1ge
+一开始	1ks
 一行	1hr
 一会	1h
 一下	1xa
 一些	1x
 一起	1q
 一次	1c
+一首	1shou
 一直	1z
 两个	2g
 两个	2ge
+每一行	m1h
 每一行	mih
 第一	di1
+第一	dii
 第二	di2
+第二	dier
 第三	di3
+第三	disw
 第四	di4
+第四	disi
 
 而	er
 而已	eri
@@ -186,25 +198,24 @@
 你	ni
 你的	nid
 你们	nim
-你好	nihj
+你好	nihj	1
 
-安	and
-安全带	anquwdai
-安卓	anzho
-安装	anzhur
-按	an
-按键	anjw
-按照	anz
-按照	anzhao
-按照	anzhau
-按住	anzhu
-长按	chran
+安	wd
+安全带	wquwdai
+安卓	wzho
+安装	wzhur
+按	w
+按键	wjw
+按照	wz
+按照	wzhao
+按照	wzhau
+按住	wzhu
+长按	chrw
 
 依然	ir
-依然	irw
 以	i
-以外	iwi
-以为	iwe
+以外	iui
+以为	iue
 以后	ihk
 以及	iji
 以前	iq
@@ -212,7 +223,6 @@
 以上	ishr
 已经	ij
 意思	is
-
 也	ie	1
 也就是	ijs
 也就是说	ijss
@@ -233,45 +243,46 @@
 有个	iuge
 有些	iux
 有种	iuz
-应该	ig
-
+有时	iusf
+有时候	ish
+又	iuk
+右边	iubiw
+应该	ing
+因为	inue
 音	in
-音乐	inyue
+音乐	inye
 拗音	aoin
 拗音	auin
+配音	peiin
+拼音	pinin
 介音	jein
 促音	cuin
 
-右边	yubiw
-因为	yw
-
+韵母	ynmu
+用	yg
+用不了	ybl
 越来越	yly
 原来	ylf
 原来如此	ylrc
-韵母	yunmu
-用	yug
-用不了	ybl
+圆周率	yzl
 
-为	we
-为啥	ws
-为什么	wsm
-
+为	ue
+为啥	us
+为啥	ues
+为什么	usm
 玩	uw
 玩玩	uwuw
 完美	uwm
 完美	uwmei
-完全	uq
+完全	uwq
+完整	uwz
 完整	uwzhn
-完整	uwzhg
-
+晚上	wwshr
+问题	ut
 文件	uj
 文件夹	ujj
 子文件夹	zujj
 主文件夹	zhujj
-
-问题	ut
-
-晚上	wwshr
 
 把	ba
 被	be
@@ -280,28 +291,28 @@
 必要	biio
 比如	bir
 别	bie
+别的	bied
 别人	bier
-别人	biern
 标	biod
 标签	bioq
 标志	bioz
 表	bioj
 表示	bios
-变	biw
-变为	biwwe
-变体	biwti
-变成	bc
 编	biwd
 编码	biwm
 编码	biwma
+变	biw
+变为	biwue
+变体	biwti
+变成	biwc
 
 不	bu
-不一样	b1i
 不一样	bii
 不要	bio
 不应该	big
 不用	by
 不变	bb
+不怕	bp
 不对	bd
 不同	bt
 不能	bn
@@ -315,10 +326,9 @@
 不行	bx
 不算	bsk
 不知道	bzd
-不是	bŝ
-不然	br
+不是	bs
+不然	brw
 
-拼音	pinin
 普通	pt
 
 麻辣烫	mlt
@@ -328,8 +338,10 @@
 没问题	mut
 没用	my
 没关系	mgx
+没事	ms
 没什么	msm
 每	meij
+每个	meig
 每个	meige
 明白	mb
 
@@ -343,7 +355,6 @@
 方不方便	fbfb
 方法	ff
 分别	fb
-分别	fnbie
 风格	fg
 
 打字	dazi
@@ -362,19 +373,22 @@
 到底	dd
 到此一游	dcii
 都	dou
+都要	ddio
+都要	douio
 都是	dds
 都是	dous
 但是	ds
-当	drd
-当然	dr
+当	dr
+当然	drr
 点	diw
 读我	duo
+东西	dx
 对	due
 对应	duein
-东西	dx
 
 太	tai
 天天	tt
+听着	tinzv
 突然	tr	1
 图	tu
 图标	tubio
@@ -383,15 +397,19 @@
 
 哪	nj
 哪有	njiu
+哪样	nji
 哪么	njm
 哪里	njl
+哪里	njli
 哪个	njg
 哪个	njge
 哪些	njx
 那	nk
 那有	nkiu
+那样	nki
 那么	nkm
 那里	nkl
+那里	nkli
 那个	nkg
 那个	nkge
 那些	nkx
@@ -405,6 +423,7 @@
 这	zhei
 这样	zhi
 这里	zhl
+这里	zhli
 这么	zhm
 这个	zhg
 这个	zhge
@@ -434,11 +453,13 @@
 过	g
 果然	gr
 改	gai
+改为	gaiue
 改变	gaibiw
-改为	gaiwe
+改了	gail
 改成	gaic
 改成	gaichn
 给	gei
+给你	geini
 搞	gao
 搞	gau
 搞的	gaod
@@ -447,24 +468,24 @@
 干什么	gsm
 刚	grd
 刚才	gc
-跟	gd
-更	gk
-更换	gnhuw
-更新	gnxin
+跟	gd	1
+更	gg
+更换	gghuw
+更新	ggxin
 根本	gb
+功能	gn
 规则	gz
 关于	gy
-功能	gn
 
 可	k
-可爱	kai
+可爱	keai
 可以	ki
+可以的	kid
 可用	ky
-可恶	ku
+可恶	keu
 可能	kn
 可是	ks
 开	kai
-开	kaid
 看	kw
 看看	kk	1
 肯定	kd
@@ -474,23 +495,17 @@
 活着	hozv
 或者	hoz
 还	hf
-还	hai
-还以为	hiw
+还以为	hiu
 还要	hfio
-还要	haiio
 还有	hfiu
-还有	haiiu
 还没	hfm
-还没	haim
 还好	hfhj
-还好	haihj
 还行	hfx
-还行	haix
 还在	hfz
-还在	haiz
 还是	hfs
-还是	hais
 好	hj
+好用	hjy
+好玩	hju
 好吧	hjb
 好吗	hjm
 好的	hjd	1
@@ -505,7 +520,6 @@
 候选项	hxx
 回	hue
 回来	huelf
-回来	huelai
 回来	huelv
 回关	hueguw
 回车	hueche
@@ -517,14 +531,15 @@
 记得	jid
 记得	jide
 既然	jir
-加	jia
-加个	jiage
-加上	jiashr
+加	ja
+加个	jage
+加上	jashr
 结果	jg
 脚本	jb
 
 就	j
 就能	jn
+就好	jhj
 就好了	jhl
 就会	jh
 就想	jxj
@@ -536,10 +551,10 @@
 间接	jwjed
 简洁	jwjef
 简介	jwjek
-经常	jc
-竟然	jr
 居然	jr	1
 觉得	jd
+经常	jc
+竟然	jr
 
 其余	qy
 其他	qt
@@ -559,18 +574,24 @@
 
 系统	xt
 
+行	x
+行吧	xb
+行不行	xbx
+行吗	xm
+行了	xl
+
 下	xa
 下午	xau
 下面	xam
 下次	xac
 上	shr
-上午	shrv
+上午	shru
 上面	shrm
 上次	shrc
 上下	sx
 
 写	xe
-写为	xewe
+写为	xeue
 小写	xoxe
 小时	xosf
 效果	xog
@@ -584,27 +605,27 @@
 想到	xjd
 像	xk
 像要	xkio
-行	x
-行吧	xb
-行不行	xbx
-行吗	xm
-行了	xl
 
-需	xyu
-需要	xyuio
+需	xy
+需要	xyio
 
+自定义	zdi
+自己	zij
+自己	zji
+自己	ziji
+字	zik
+字体	ziti
+字体	zikti
 左边	zobiw
+作用	zoy
 在	z
+在看	zkw
 在此之前	zczq
 再	zk
 再见	zkj
 再次	zkc
 早上	zaoshr
 早上	zaushr
-自定义	zdi
-自己	zj
-字	zik
-字体	zikti
 总	zug
 总是	zugs
 
@@ -618,23 +639,23 @@
 算	sk
 算了	skl
 
+之后	zhk
+支持	zhichi	1
+直接	zhije
 真的	zdd
 真正	zdz
 整	zhn
 整理	zhnli
+整个	zhng
 整个	zhnge
 正在	zz
 正常	zc
-之后	zhk
-支持	zhichi	1
-直接	zhije
-
-状态	zhurt
-状态	zhurtai
 中	zhug
-中文	zhugwn
+中文	zhugun
 中间	zhugjw
 中秋	zhugqu
+状态	zhurt
+状态	zhurtai
 
 差不多	cbd
 超	chao
@@ -653,6 +674,15 @@
 除了	chul
 重新	cx
 
+是	s
+是不是	sbs
+时	sf
+时候	sfh
+实在	shiz
+使用	shiy
+试一试	sis
+视频	sp
+事情	sq
 说	sho
 甚至	sz
 什么	sm
@@ -660,30 +690,20 @@
 什么用	smy
 什么东西	smdx
 什么时候	smsh
-是	s
-是不是	sbs
-时	sf
-时候	sh
-实在	shiz
-使用	shiy
-试一试	sis
-视频	sp
-事情	sq
 输出	shuchu
-输入	sr
 输入	shuru
 输入法	srf
 
+然后	rh
 然后	rhk
 让	rr
 任意	rni
 任何	rnhe
-认为	rnwe
+认为	rnue
 日语	ry
 如果	rg
 如何	ruhe
 如下	ruxa
-run	rur
 容易	ri
 容错	rc
 
@@ -714,17 +734,26 @@ Ableton Live	live
 FL Studio	fl
 Trance	tr
 
-蓝白碗	lbw
+夜羊社	iis
+拔作	bazo
+蓝白碗	lbu
 萝莉	ll
 萝莉	loli
 萝莉控	llk
+旮旯	gal
 绪山真寻	xszx
 真寻	zhnxun
 
+网易云	uiy
+哔哩哔哩	blbl	1
+bilibili	blbl
+几何冲刺	jhcc
+思维驰	suc	1
+switch	suc
+
 又寸	iucun
-网易云	wiy
 啊这	az
-哔哩哔哩	blbl
+表情包	bqb
 慕名而来	mmel
 慕名前来	mmql
 イ 尔女子	nihj
@@ -748,13 +777,13 @@ Trance	tr
 剧然	jr	2
 撅	jue
 强强	qq
-思维驰	swc
-这么强	zmq
 智齿	zhichi
+这么强	zmq
 彳亍	cc
 彳亍	chichu
 
 电子蛇	dzs
+星乃弦	xnx
 ASneka	as
 ESnake	es
 esnakesnake@gmail.com	email	2

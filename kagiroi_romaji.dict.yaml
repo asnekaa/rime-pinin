@@ -28,6 +28,8 @@ columns:
 ゕ	vka
 ゖ	vke
 っ	vtu
+っ	vtsu
+っ	vcu
 ー	vv
 ー	-
 あ	a
@@ -67,7 +69,7 @@ columns:
 と	to
 つぁ	tsa
 つぃ	tsi
-つぅ	tsu
+つ	tsu
 つぇ	tse
 つぉ	tso
 だ	da
@@ -90,10 +92,9 @@ columns:
 ぶ	bu
 べ	be
 ぼ	bo
-ゔ	bhv
 ゔぁ	bha
 ゔぃ	bhi
-ゔぅ	bhu
+ゔ	bhu
 ゔぇ	bhe
 ゔぉ	bho
 ぱ	pa
