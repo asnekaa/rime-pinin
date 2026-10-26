@@ -30,22 +30,22 @@ sort: by_weight
 伯伯	bo bo
 伯伯	bai bai
 # 「还」的旧读
-欲就还推	y jy hai tue
-欲就还推	y jy huw tue
+欲就还推	y ju hai tue
+欲就还推	y ju huw tue
 欲拒还迎	y jy hai ig
 欲拒还迎	y jy huw ig
-欲说还休	y sho hai xy
-欲说还休	y sho huw xy
-欲说还休梦已阑	y sho hai xy mg i lw
-欲说还休梦已阑	y sho huw xy mg i lw
+欲说还休	y sho hai xu
+欲说还休	y sho huw xu
+欲说还休梦已阑	y sho hai xu mg i lw
+欲说还休梦已阑	y sho huw xu mg i lw
 欲言还止	y iw hai zhi
 欲言还止	y iw huw zhi
 欲迎还拒	y ig hai jy
 欲迎还拒	y ig huw jy
-欲语还休	y y hai xy
-欲语还休	y y huw xy
-欲语还羞	y y hai xy
-欲语还羞	y y huw xy
+欲语还休	y y hai xu
+欲语还休	y y huw xu
+欲语还羞	y y hai xu
+欲语还羞	y y huw xu
 欲走还留	y zou hai liu
 欲走还留	y zou huw liu
 # 「斜」的协音读法
@@ -62,8 +62,8 @@ sort: by_weight
 一骑绝尘	i ji jue chn
 一骑当千	i qi dr qw
 一骑当千	i ji dr qw
-一骑红尘妃子笑	i qi hug chn fei zi xao
-一骑红尘妃子笑	i ji hug chn fei zi xao
+一骑红尘妃子笑	i qi hug chn fei zi xo
+一骑红尘妃子笑	i ji hug chn fei zi xo
 走单骑	zou dw qi
 走单骑	zou dw ji
 千里走单骑	qw li zou dw qi
@@ -120,9 +120,9 @@ sort: by_weight
 馄饨	hun tun
 馄饨	hun dun
 主角	zhu jue
-主角	zhu jao
+主角	zhu jo
 角色	jue se
-角色	jao se
+角色	jo se
 比萨饼	bi sa big
 比萨饼	pi sa big
 吃比萨	chi bi sa
@@ -219,12 +219,12 @@ sort: by_weight
 太行山	tai xg shw
 歇斯底里	xe si di li
 歇斯底里	je si di li
-发酵	fa jao
-发酵	fa xao
-酵母菌	jao mu jun
-酵母菌	xao mu jun
-酵母	jao mu
-酵母	xao mu
+发酵	fa jo
+发酵	fa xo
+酵母菌	jo mu jun
+酵母菌	xo mu jun
+酵母	jo mu
+酵母	xo mu
 殷红	iw hug
 殷红	in hug
 暖和	nuw ho
@@ -246,8 +246,8 @@ sort: by_weight
 体癣	ti xw
 股癣	gu xuw
 股癣	gu xw
-脚癣	jao xuw
-脚癣	jao xw
+脚癣	jo xuw
+脚癣	jo xw
 足癣	zu xuw
 足癣	zu xw
 结扎	je za
@@ -289,11 +289,11 @@ sort: by_weight
 偌大	ro da
 偌大	no da
 饮鸩止渴	in zhn zhi ke
-饮鸩止渴	in jy zhi ke
+饮鸩止渴	in ju zhi ke
 饮鸩解渴	in zhn je ke
-饮鸩解渴	in jy je ke
+饮鸩解渴	in ju je ke
 宫商角徵羽	gug shr jue zhi y
-宫商角徵羽	gug shr jao zhi y
+宫商角徵羽	gug shr jo zhi y
 氙气灯	xw qi dg
 氙气灯	shw qi dg
 氙气大灯	xw qi da dg
@@ -321,7 +321,7 @@ sort: by_weight
 高句丽	gao gou li
 高句丽	gao jy li
 角斗士	jue dou shi
-角斗士	jao dou shi
+角斗士	jo dou shi
 缩砂密	su sha mi
 缩砂密	so sha mi
 迫击炮	pai ji pao
@@ -442,10 +442,10 @@ sort: by_weight
 胳肢窝	ge zhi o
 潏河	jue he
 潏河	y he
-校正	jao zhg
-校正	xao zhg
-校对	jao due
-校对	xao due
+校正	jo zhg
+校正	xo zhg
+校对	jo due
+校对	xo due
 结束	je shu
 结束	je su
 自怨自艾	zi yw zi i
@@ -486,7 +486,7 @@ sort: by_weight
 吸吮	xi yn
 心广体胖	xn gur ti pw
 心广体胖	xn gur ti pr
-星宿	xg xy
+星宿	xg xu
 星宿	xg su
 赝品	iw pin
 赝品	ig pin
@@ -523,7 +523,7 @@ sort: by_weight
 恪守	ke shou
 恪守	ge shou
 角逐	jue zhu
-角逐	jao zhu
+角逐	jo zhu
 蛤蜊	ge li
 蛤蜊	ga li
 饿殍	e pio

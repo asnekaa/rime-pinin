@@ -10,7 +10,6 @@ RULES = [
     (re.compile(r'^yu(.*)$'),       r'y\1'),
     (re.compile(r'^wu$'),           r'u'),
     (re.compile(r'^w'),             r'u'),
-    (re.compile(r'^([jqx])i(.+)$'), r'\1\2'),
     (re.compile(r'^([jqx])u$'),     r'\1y'),
     (re.compile(r'^([nl])[üv]$'),   r'\1y'),
     (re.compile(r'^([nl])[üv]e$'),  r'\1ue'),
@@ -26,6 +25,7 @@ RULES = [
     (re.compile(r'iou$'),           r'iu'),
     (re.compile(r'uai$'),           r'ui'),
     (re.compile(r'uei$'),           r'ue'),
+    (re.compile(r'^([jqx])i(.+)$'), r'\1\2'),
 ]
 
 

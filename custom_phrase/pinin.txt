@@ -313,6 +313,7 @@
 不用	by
 不变	bb
 不怕	bp
+不方便	bfb
 不对	bd
 不同	bt
 不能	bn
