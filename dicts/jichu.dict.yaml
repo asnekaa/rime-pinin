@@ -3082,6 +3082,7 @@ sort: by_weight
 半文	bwk unf	267
 斑蚊	bwd unf	95
 伴我	bwk oj	276
+半握	bwk ok	182
 伴舞	bwk uj	917
 板屋	bwj ud	666
 班务	bwd uk	407
@@ -11409,9 +11410,9 @@ sort: by_weight
 查车	chaf ched	387
 茶城	chaf chgf	257
 叉乘	chad chgf	244
-茶匙	chaf chif	675
+插翅	chad chik	675
 差池	chad chif	298
-插翅	chad chik	238
+茶匙	chaf chif	238
 查重	chaf chugf	3090
 茶宠	chaf chugj	630
 查出	chaf chud	4760
@@ -22908,6 +22909,7 @@ sort: by_weight
 得书	def shud	684
 得水	def shuej	1372
 的说	dev shod	19317
+地说	dev shod	2214
 得说	def shod	1678
 得死	dev sij	1256
 德苏	def sud	864
@@ -23843,7 +23845,6 @@ sort: by_weight
 递水	dik shuej	163
 底水	dij shuej	130
 帝舜	dik shunk	603
-地说	dik shod	2214
 第四	dik sik	25067
 抵死	dij sij	1959
 涤丝	dif sid	1259
@@ -24030,6 +24031,7 @@ sort: by_weight
 滴着	did zhev	109
 抵折	dij zhef	62
 地震	dik zhnk	7944
+低帧	did zhnd	439
 敌阵	dif zhnk	276
 地政	dik zhgk	38
 地址	dik zhij	43574
@@ -27498,9 +27500,10 @@ sort: by_weight
 断网	duwk urj	1573
 端王	duwd urf	1494
 段位	duwk uek	6873
+断尾	duwk uej	915
+短尾	duwj uej	644
+短位	duwj uek	510
 断为	duwk uef	188
-短尾	duwj uej	144
-断尾	duwk uej	115
 断纬	duwk uej	92
 短文	duwj unf	2920
 段文	duwk unf	1476
@@ -30010,6 +30013,7 @@ sort: by_weight
 发傻	fad shaj	125
 发闪	fad shwj	62
 乏善	faf shwk	28
+发上	fad shrk	911
 法伤	faj shrd	364
 法商	faj shrd	138
 发烧	fad shaod	9141
@@ -34525,6 +34529,7 @@ sort: by_weight
 富液	fuk iek	32
 服役	fuf ik	3605
 复议	fuk ik	3350
+负一	fuk id	814
 辅以	fuj ij	640
 副翼	fuk ik	254
 负义	fuk ik	216
@@ -36802,6 +36807,7 @@ sort: by_weight
 高着	gaod zhaod	97
 高者	gaod zhej	232
 高枕	gaod zhnj	91
+高帧	gaod zhnd	73
 高政	gaod zhgk	1066
 高拯	gaod zhgj	129
 告知	gaok zhid	14808
@@ -38472,6 +38478,7 @@ sort: by_weight
 珙桐	gugj tugf	533
 公投	gugd touf	955
 工头	gugd touf	885
+公头	gugd touf	258
 供图	gugd tuf	1382
 共图	gugk tuf	904
 公兔	gugd tuk	294
@@ -39230,6 +39237,7 @@ sort: by_weight
 姑父	gud fuv	1168
 姑夫	gud fud	617
 鼓腹	guj fuk	520
+咕嘎	gud gad	27
 股改	guj gaij	270
 骨干	guj gwk	2600
 骨感	guj gwj	571
@@ -46978,10 +46986,11 @@ sort: by_weight
 后手	houk shouj	3554
 后收	houk shoud	1408
 后首	houk shouj	1260
-后述	houk shuk	945
+后束	houk shuk	945
 后蜀	houk shuj	898
 厚书	houk shud	850
 后书	houk shud	784
+后述	houk shuk	645
 后熟	houk shuf	614
 侯叔	houf shud	454
 后说	houk shod	851
@@ -51891,8 +51900,8 @@ sort: by_weight
 吉服	jif fuf	63
 祭服	jik fuf	57
 季父	jik fuk	51
-技改	jik gaij	151
-机盖	jid gaik	136
+机盖	jid gaik	151
+技改	jik gaij	136
 鸡肝	jid gwd	1086
 肌酐	jid gwd	260
 急赶	jif gwj	163
@@ -53525,6 +53534,7 @@ sort: by_weight
 家督	jad dud	972
 夹断	jad duwk	163
 甲队	jaj duek	729
+加对	jad duek	310
 嘉顿	jad dunk	603
 加多	jad dod	433
 价额	jak ef	634
@@ -60454,7 +60464,8 @@ sort: by_weight
 臼杵	juk chuj	292
 就踹	juk chuik	680
 就穿	juk chuwd	484
-旧船	juk chuwf	436
+就喘	juk chuwj	455
+旧船	juk chuwf	336
 就此	juk cij	14692
 九次	juj cik	599
 旧词	juk cif	150
@@ -61039,12 +61050,12 @@ sort: by_weight
 酒托	juj tod	770
 久拖	juj tod	600
 就玩	juk uwf	1193
-酒碗	juj uwj	436
-九万	juj uwk	260
-玖万	juj uwk	208
-就完	juk uwf	166
-九湾	juj uwd	132
-九碗	juj uwj	66
+九万	juj uwk	436
+就完	juk uwf	260
+酒碗	juj uwj	208
+玖万	juj uwk	166
+九碗	juj uwj	132
+九湾	juj uwd	66
 就往	juk urj	3231
 救亡	juk urf	116
 就忘	juk urk	92
@@ -74328,6 +74339,7 @@ sort: by_weight
 乱按	luwk ank	716
 乱摆	luwk baij	62
 卵白	luwj baif	9
+乱报	luwk baok	145
 乱蹦	luwk bgk	110
 乱编	luwk biwd	765
 乱兵	luwk bigd	148
@@ -74965,9 +74977,9 @@ sort: by_weight
 罗宋	lof sugk	1116
 落俗	lok suf	3118
 落苏	lok sud	62
-啰嗦	lod sov	10164
-落锁	lok soj	734
-啰唆	lod sod	622
+啰唆	lod sov	10164
+啰嗦	lod sov	734
+落锁	lok soj	622
 洛塔	lok taj	873
 落台	lok taif	62
 落胎	lok taid	62
@@ -78158,7 +78170,8 @@ sort: by_weight
 美柚	meij iuk	142
 魅友	meik iuj	113
 没雨	meif yj	1962
-美玉	meij yk	970
+没与	meif yj	970
+美玉	meij yk	882
 美誉	meij yk	860
 眉宇	meif yj	860
 梅雨	meif yj	497
@@ -81601,6 +81614,7 @@ sort: by_weight
 木桐	muk tugf	95
 木筒	muk tugj	76
 木头	muk touv	10243
+母头	muj touf	151
 母兔	muj tuk	657
 木腿	muk tuej	22
 木托	muk tod	594
@@ -84021,6 +84035,7 @@ sort: by_weight
 泥灸	nif juj	94
 你救	nij juk	75
 拟就	nij juk	60
+你卡	nij kaj	646
 尼卡	nif kaj	392
 你看	nij kwk	51169
 尼堪	nif kwd	611
@@ -95024,7 +95039,7 @@ sort: by_weight
 去哭	qyk kud	106
 区块	qyd kuik	3545
 取款	qyj kuwj	1369
-曲髋	qyj kuwd	369
+屈髋	qyd kuwd	369
 去蜡	qyk lak	62
 去啦	qyk lav	62
 取来	qyj laif	396
@@ -95872,6 +95887,7 @@ sort: by_weight
 全文	quwf unf	14893
 犬瘟	quwj und	824
 劝我	quwk oj	2859
+全握	quwf ok	512
 醛肟	quwf ok	392
 全屋	quwf ud	3391
 全无	quwf uf	2053
@@ -100897,6 +100913,7 @@ sort: by_weight
 筛片	shaid piwk	194
 晒青	shaik qgd	684
 筛去	shaid qyk	88
+晒肉	shaik rouk	45
 筛入	shaid ruk	832
 筛沙	shaid shad	62
 晒晒	shaik shaik	769
@@ -102015,7 +102032,8 @@ sort: by_weight
 尚书	shrk shud	3808
 上书	shrk shud	2857
 上树	shrk shuk	602
-上疏	shrk shud	521
+上束	shrk shuk	521
+上疏	shrk shud	321
 商数	shrd shuk	292
 尚属	shrk shuj	244
 上水	shrk shuej	421
@@ -107046,7 +107064,9 @@ sort: by_weight
 寿包	shouk baod	62
 手背	shouj beik	1583
 守备	shouj beik	822
-手本	shouj bnj	9
+手笨	shouj bnk	311
+收本	shoud bnj	91
+手本	shouj bnj	19
 首本	shouj bnj	7
 手泵	shouj bgk	25
 手臂	shouj bik	19057
@@ -109790,8 +109810,7 @@ sort: by_weight
 水肺	shuej feik	97
 水沸	shuej feik	94
 水分	shuej fnk	15744
-水份	shuej fnk	665
-水粉	shuej fnj	532
+水粉	shuej fnj	632
 水封	shuej fgd	113
 水风	shuej fgd	102
 水丰	shuej fgd	92
@@ -113007,7 +113026,8 @@ sort: by_weight
 所放	soj frk	1098
 所费	soj feik	204
 索菲	soj feid	194
-索粉	soj fnj	693
+嗍粉	sod fnj	693
+索粉	soj fnj	339
 缩缝	sod fgk	711
 所封	soj fgd	597
 所附	soj fuk	286
@@ -113134,6 +113154,7 @@ sort: by_weight
 所卖	soj maik	654
 锁门	soj mnf	973
 索面	soj miwk	698
+嗍面	sod miwk	233
 所灭	soj miek	421
 索命	soj migk	402
 所谋	soj mouf	66
@@ -122963,8 +122984,8 @@ sort: by_weight
 违法	uef faj	9866
 未发	uek fad	499
 微法	ued faj	449
-喂饭	uek fwk	10591
-违反	uef fwj	527
+违反	uef fwj	10591
+喂饭	uek fwk	527
 违犯	uef fwk	150
 唯饭	uef fwk	120
 胃反	uek fwj	96
@@ -128559,6 +128580,7 @@ sort: by_weight
 夏收	xak shoud	680
 下属	xak shuj	15970
 下述	xak shuk	985
+下束	xak shuk	304
 夏树	xak shuk	232
 下书	xak shud	185
 夏叔	xak shud	148
@@ -129417,12 +129439,12 @@ sort: by_weight
 嫌弃	xwf qik	13383
 掀起	xwd qij	4970
 限期	xwk qid	891
-氙气	xwd qik	803
-先期	xwd qid	584
-险企	xwj qij	323
-仙气	xwd qik	222
-贤妻	xwf qid	147
-险棋	xwj qif	117
+仙气	xwd qik	803
+贤妻	xwf qid	584
+险棋	xwj qif	323
+氙气	xwd qik	222
+先期	xwd qid	147
+险企	xwj qij	117
 闲气	xwf qik	93
 现期	xwk qid	74
 仙器	xwd qik	59
@@ -132931,7 +132953,8 @@ sort: by_weight
 解数	xek shuk	304
 谢叔	xek shud	243
 鞋刷	xef shuad	53
-泄水	xek shuej	1755
+写谁	xej shuef	1755
+泄水	xek shuej	310
 邪说	xef shod	122
 写死	xej sij	842
 邪祟	xef suek	204
@@ -132944,8 +132967,8 @@ sort: by_weight
 泄题	xek tif	662
 写题	xej tif	288
 楔体	xed tij	157
-谢天	xek tiwd	150
-些天	xed tiwd	36
+些天	xed tiwd	150
+谢天	xek tiwd	36
 协调	xef tiof	14381
 谐调	xef tiof	1312
 协同	xef tugf	7894
@@ -146216,6 +146239,7 @@ sort: by_weight
 有钱	iuj qwf	40142
 油钱	iuf qwf	1004
 右前	iuk qwf	251
+右迁	iuk qwd	109
 又浅	iuk qwj	100
 有枪	iuj qrd	669
 油枪	iuf qrd	636
@@ -155475,6 +155499,7 @@ sort: by_weight
 志丹	zhik dwd	39
 掷弹	zhik dwk	37
 只当	zhij drd	1294
+治党	zhik drj	355
 值当	zhif drk	178
 治党	zhik drj	142
 志当	zhik drd	113
@@ -156116,6 +156141,7 @@ sort: by_weight
 支脉	zhid maik	2734
 只卖	zhij maik	128
 直埋	zhif maif	100
+枝蔓	zhid mwk	1781
 致盲	zhik mrf	534
 只猫	zhij maod	499
 制帽	zhik maok	150
@@ -156643,7 +156669,6 @@ sort: by_weight
 支腿	zhid tuej	773
 之外	zhid uik	115310
 只玩	zhij uwf	1875
-枝蔓	zhid uwk	1781
 纸碗	zhij uwj	1688
 至晚	zhik uwj	1058
 指望	zhij urk	21343
@@ -157865,6 +157890,7 @@ sort: by_weight
 中枢	zhugd shud	2050
 种树	zhugk shuk	1585
 众数	zhugk shuk	436
+中束	zhugd shuk	333
 中书	zhugd shud	282
 种属	zhugj shuj	225
 钟叔	zhugd shud	180
@@ -161191,8 +161217,10 @@ sort: by_weight
 自期	zik qid	66
 自洽	zik qak	3774
 自谦	zik qwd	559
+自签	zik qwd	520
 资浅	zid qwj	503
-自遣	zik qwj	428
+子谦	zij qwd	403
+自遣	zik qwj	128
 自强	zik qrf	1391
 自戕	zik qrd	207
 自请	zik qgj	1228
@@ -163052,7 +163080,8 @@ sort: by_weight
 作字	zok zik	97
 座子	zok ziv	77
 做足	zok zuf	1008
-左足	zoj zuf	958
+做组	zok zuj	958
+左足	zoj zuf	200
 坐坐	zok zok	6462
 做做	zok zok	2084
 做作	zok zok	1055
@@ -196899,6 +196928,7 @@ sort: by_weight
 玻璃翠	bod liv cuek	360
 玻璃带	bod liv daik	446
 玻璃刀	bod liv daod	22
+玻璃的	bod liv dev	559
 玻璃灯	bod liv dgd	19
 玻璃底	bod liv dij	644
 玻璃店	bod liv diwk	6
@@ -201593,6 +201623,7 @@ sort: by_weight
 不卡吧	buk kaj bav	230
 不卡点	buk kaj diwj	180
 不卡顿	buk kaj dunk	502
+补卡费	buj kaj feik	49
 不卡粉	buk kaj fnj	35
 不卡机	buk kaj jid	464
 不卡了	buk kaj lev	621
@@ -202394,7 +202425,7 @@ sort: by_weight
 部落人	buk lok rnf	418
 不落实	buf lok shif	66
 布洛斯	buk lok sid	43
-不啰唆	buk lod sod	202
+不啰唆	buk lod sov	202
 部落王	buk lok urf	387
 不落伍	buf lok uj	157
 不落叶	buf lok iek	9
@@ -206309,7 +206340,7 @@ sort: by_weight
 不要切	buf iok qed	760
 不要亲	buf iok qnd	666
 不邀请	buk iod qgj	734
-不要求	buf iod quf	4468
+不要求	buk iod quf	4468
 不要去	buf iok qyk	10955
 不要娶	buf iok qyj	572
 不要让	buf iok rrk	6848
@@ -230058,7 +230089,6 @@ sort: by_weight
 从产品	cugf chwj pinj	1161
 从产生	cugf chwj shgd	598
 从长安	cugf chrf and	760
-从长辈	cugf chrf beik	549
 从常德	cugf chrf def	436
 从场地	cugf chrj dik	522
 从厂房	cugf chrj frf	410
@@ -233712,6 +233742,7 @@ sort: by_weight
 从站台	cugf zhwk taif	495
 从站在	cugf zhwk zaik	428
 从站着	cugf zhwk zhev	270
+从长辈	cugf zhrj beik	549
 从账本	cugf zhrk bnj	274
 从章程	cugf zhrd chgf	225
 从账房	cugf zhrk frf	256
@@ -237024,7 +237055,6 @@ sort: by_weight
 大吊车	dak diok ched	490
 大吊灯	dak diok dgd	608
 大调动	dak diok dugk	477
-大调解	dak diok jej	441
 打掉了	daj diok lev	735
 打掉你	daj diok nij	477
 打吊瓶	daj diok pigf	179
@@ -239311,6 +239341,7 @@ sort: by_weight
 搭街坊	dad jed frv	22
 搭接缝	dad jed fgk	225
 大姐夫	dak jej fud	113
+搭结构	dad jef gouk	233
 大结构	dak jef gouk	176
 搭接焊	dad jed hwk	243
 大姐好	dak jej haoj	508
@@ -239735,7 +239766,7 @@ sort: by_weight
 大口吃	dak kouj chid	1044
 大口袋	dak kouj daik	148
 大口地	dak kouj dev	52
-大口的	dak kouj dev	52
+大口的	dak kouj dev	50
 打口碟	daj kouj dief	472
 大口喝	dak kouj hed	91
 大口径	dak kouj jgk	1083
@@ -243184,6 +243215,7 @@ sort: by_weight
 打天钟	daj tiwd zhugd	90
 大天尊	dak tiwd zund	454
 大条幅	dak tiof fuf	351
+大调解	dak tiof jej	441
 大条了	dak tiof lev	513
 大条氏	dak tiof shik	90
 大跳水	dak tiok shuej	179
@@ -244209,8 +244241,9 @@ sort: by_weight
 大行宫	dak xgf gugd	41
 大型狗	dak xgf gouj	536
 大型股	dak xgf guj	590
-大型号	dak xgf haok	459
-大兴号	dak xgd haok	346
+打星号	daj xgd haok	459
+大型号	dak xgf haok	346
+大兴号	dak xgd haok	102
 大型化	dak xgf huak	267
 大行会	dak xgf huek	414
 大型机	dak xgf jid	414
@@ -245518,7 +245551,7 @@ sort: by_weight
 打中锋	daj zhugk fgd	532
 大中哥	dak zhugd ged	45
 大冢公	dak zhugj gugd	171
-打中国	daj zhugk gof	1143
+打中国	daj zhugd gof	1143
 大中国	dak zhugd gof	730
 大中河	dak zhugd hef	153
 大众化	dak zhugk huak	3109
@@ -246497,6 +246530,7 @@ sort: by_weight
 带刻度	daik kek duk	35
 代课费	daik kek feik	302
 带客户	daik kek huk	770
+代可可	daik kej kej	37
 带颗粒	daik ked lik	387
 待客时	daik kek shif	351
 呆壳兽	daid kef shouk	212
@@ -259989,6 +260023,8 @@ sort: by_weight
 德寿堂	def shouk trf	270
 德双语	def shurd yj	405
 德顺斋	def shunk zhaid	202
+地说吧	dev shod bav	459
+地说了	dev shod lev	1138
 德思礼	def sid lij	734
 得所欲	def soj yk	266
 的他们	dev tad mnv	52
@@ -260362,6 +260398,7 @@ sort: by_weight
 等的你	dgj dev nij	536
 等得起	dgj dev qij	210
 等的人	dgj dev rnf	1026
+登得上	dgd def shrk	106
 瞪得像	dgk dev xrk	6
 等等啊	dgj dgj av	662
 等等吧	dgj dgj bav	895
@@ -263752,8 +263789,6 @@ sort: by_weight
 低水准	did shuej zhunj	648
 低水阻	did shuej zuj	68
 低顺位	did shunk uek	405
-地说吧	dik shod bav	459
-地说了	dik shod lev	1138
 第四爱	dik sik aik	446
 第四把	dik sik baj	97
 第四百	dik sik baij	6
@@ -269003,6 +269038,7 @@ sort: by_weight
 定量限	digk lirk xwk	405
 顶梁柱	digj lirf zhuk	992
 叮铃铃	digd ligf ligf	113
+丁零零	digd ligf ligf	68
 定硫仪	digk liuf if	50
 顶楼吧	digj louf bav	180
 定路线	digk luk xwk	9
@@ -278435,7 +278471,7 @@ sort: by_weight
 多洛斯	dod lok sid	418
 多洛丝	dod lok sid	148
 多罗丝	dod lof sid	122
-多啰嗦	dod lod sov	644
+多啰唆	dod lod sov	644
 多萝塔	dod lof taj	202
 多罗塔	dod lof taj	122
 多萝特	dod lof tek	266
@@ -283280,7 +283316,6 @@ sort: by_weight
 发录音	fad luk ind	19
 法鲁兹	faj luj zid	279
 法轮殿	faj lunf diwk	234
-法轮功	faj lunf gugd	28
 发论文	fad lunk unf	855
 发轮子	fad lunf ziv	297
 法洛法	faj lok faj	374
@@ -288659,6 +288694,7 @@ sort: by_weight
 房中术	frf zhugd shuk	585
 访中兴	frj zhugd xgd	144
 房仲业	frf zhugk iek	346
+方中圆	frd zhugd ywf	23
 方舟吧	frd zhoud bav	212
 房周刊	frf zhoud kwd	418
 方洲路	frd zhoud luk	189
@@ -306619,7 +306655,7 @@ sort: by_weight
 高腰裤	gaod iod kuk	814
 高腰款	gaod iod kuwj	6
 膏药旗	gaod iok qif	22
-高要求	gaod iok quf	1334
+高要求	gaod iod quf	1334
 高腰裙	gaod iod qunf	652
 膏药贴	gaod iok tied	558
 高腰线	gaod iod xwk	31
@@ -326707,6 +326743,7 @@ sort: by_weight
 还在用	haif zaik ygk	1120
 还在于	haif zaik yf	2154
 还在涨	haif zaik zhrj	176
+还在找	haif zaik zhaoj	449
 还在招	haif zaik zhaod	47
 还在这	haif zaik zhek	1238
 还在做	haif zaik zok	981
@@ -329037,7 +329074,7 @@ sort: by_weight
 好贵一	haoj guek id	452
 好过啊	haoj gok av	598
 好过冬	haoj gok dugd	536
-好过分	haoj gok fnd	621
+好过分	haoj gok fnk	621
 好国家	haoj gof jad	891
 好过来	haoj gok laif	734
 好过了	haoj gok lev	940
@@ -329069,6 +329106,7 @@ sort: by_weight
 好汉语	haoj hwk yj	472
 好汉子	haoj hwk ziv	72
 号航班	haok hrf bwd	752
+好行情	haoj hrf qgf	662
 好好啊	haoj haoj av	116
 好好爱	haoj haoj aik	283
 好好办	haoj haoj bwk	508
@@ -329767,7 +329805,7 @@ sort: by_weight
 好伦哥	haoj lunf ged	6
 好轮胎	haoj lunf taid	504
 好论文	haoj lunk unf	598
-好啰嗦	haoj lod sov	518
+好啰唆	haoj lod sov	518
 好律师	haoj lyk shid	675
 好旅游	haoj lyj iuf	958
 号码啊	haok maj av	472
@@ -330858,7 +330896,6 @@ sort: by_weight
 好性感	haoj xgk gwj	630
 好性格	haoj xgk gef	927
 好醒目	haoj xgj muk	468
-好行情	haoj xgf qgf	662
 好形势	haoj xgf shik	680
 好形式	haoj xgf shik	441
 好形象	haoj xgf xrk	119
@@ -337433,7 +337470,7 @@ sort: by_weight
 很萝莉	hnj lof lik	400
 很落寞	hnj lok mok	60
 很落魄	hnj lok pok	69
-很啰嗦	hnj lod sov	670
+很啰唆	hnj lod sov	670
 很落伍	hnj lok uj	486
 很绿色	hnj lyk sek	554
 很麻烦	hnj maf fwv	9106
@@ -348339,6 +348376,7 @@ sort: by_weight
 环中路	huwf zhugd luk	774
 环中线	huwf zhugd xwk	454
 环中穴	huwf zhugd xuef	90
+换轴体	huwk zhouf tij	100
 换主板	huwk zhuj bwj	711
 还珠洞	huwf zhud dugk	220
 换主角	huwk zhuj juef	88
@@ -358748,7 +358786,7 @@ sort: by_weight
 会要你	huek iok nij	828
 会咬你	huek ioj nij	422
 会邀请	huek iod qgj	1215
-会要求	huek iok quf	1395
+会要求	huek iod quf	1395
 会要去	huek iok qyk	756
 会咬人	huek ioj rnf	796
 会要他	huek iok tad	594
@@ -366255,10 +366293,10 @@ sort: by_weight
 季斯卡	jik sid kaj	43
 祭祀坑	jik sik kgd	214
 姬丝拉	jid sid lad	328
+记死了	jik sij lev	273
 急死了	jif sij lev	132
 挤死了	jij sij lev	119
 吉斯勒	jif sid lek	107
-记死了	jik sij lev	73
 基斯利	jid sid lik	428
 鸡饲料	jid sik liok	82
 基斯林	jid sid linf	572
@@ -372262,6 +372300,7 @@ sort: by_weight
 鉴红云	jwk hugf ynf	4
 尖后段	jwd houk duwk	243
 睑后面	jwj houk miwk	76
+肩后束	jwd houk shuk	60
 睑后缘	jwj houk ywf	45
 尖后支	jwd houk zhid	45
 键呼出	jwk hud chud	405
@@ -373002,6 +373041,7 @@ sort: by_weight
 捡钱包	jwj qwf baod	482
 睑前面	jwj qwf miwk	4
 见前任	jwk qwf rnk	508
+肩前束	jwd qwf shuk	60
 肩前穴	jwd qwf xuef	153
 睑前缘	jwj qwf ywf	45
 坚强啊	jwd qrf av	472
@@ -374212,6 +374252,7 @@ sort: by_weight
 见众人	jwk zhugk rnf	783
 见众生	jwk zhugk shgd	662
 简中式	jwj zhugd shik	225
+肩中束	jwd zhugd shuk	60
 肩中腧	jwd zhugd shuk	52
 建中汤	jwk zhugd trd	432
 剑中仙	jwk zhugd xwd	4
@@ -386664,6 +386705,8 @@ sort: by_weight
 借个钱	jek gek qwf	418
 劫个色	jef gek sek	9
 截个图	jef gek tuf	663
+接个线	jed gek xwk	92
+借个先	jek gek xwd	73
 结个账	jef gek zhrk	52
 借给了	jek geij lev	842
 借给你	jek geij nij	868
@@ -386673,6 +386716,7 @@ sort: by_weight
 借给她	jek geij tad	573
 借给我	jek geij oj	499
 截根术	jef gnd shuk	76
+接根线	jed gnd xwk	49
 桔梗吧	jef ggj bav	207
 桔梗花	jef ggj huad	88
 桔梗谣	jef ggj iof	9
@@ -396938,6 +396982,7 @@ sort: by_weight
 就闹了	juk naok lev	526
 就恼了	juk naoj lev	426
 就闹心	juk naok xnd	580
+旧内核	juk neik hef	422
 旧内容	juk neik rugf	446
 就能把	juk ngf baj	4892
 就能吧	juk ngf bav	230
@@ -398174,6 +398219,7 @@ sort: by_weight
 就以这	juk ij zhek	47
 就医者	juk id zhej	42
 就一直	juk ik zhif	12739
+就一种	juk ik zhugj	412
 酒一盅	juj ik zhugd	279
 酒瘾大	juj inj dak	52
 九音锣	juj ind lof	99
@@ -403695,7 +403741,7 @@ sort: by_weight
 看成败	kwk chgf baik	414
 看成本	kwk chgf bnj	562
 看成都	kwk chgf dud	639
-看成分	kwk chgf fnd	734
+看成分	kwk chgf fnk	734
 看成个	kwk chgf gek	382
 看成绩	kwk chgf jik	796
 看成了	kwk chgf lev	868
@@ -405054,7 +405100,7 @@ sort: by_weight
 看头啊	kwk touv av	356
 看头吧	kwk touv bav	230
 砍头的	kwj touf dev	630
-看头发	kwk touv fad	576
+看头发	kwk touf fav	576
 看透了	kwk touk lev	1727
 砍头了	kwj touf lev	477
 看透你	kwk touk nij	626
@@ -405492,7 +405538,7 @@ sort: by_weight
 砍中了	kwj zhugk lev	361
 看重量	kwk zhugk lirk	44
 看中文	kwk zhugk unf	873
-看中医	kwk zhugk id	972
+看中医	kwk zhugd id	972
 看周边	kwk zhoud biwd	693
 看周围	kwk zhoud uef	1080
 看周线	kwk zhoud xwk	598
@@ -408571,6 +408617,7 @@ sort: by_weight
 可可以	kej kej ij	692
 可可油	kej kej iuf	346
 科科长	ked ked zhrj	129
+可可脂	kej kej zhid	120
 可刻字	kej kek zik	162
 可可棕	kej kej zugd	432
 可控硅	kej kugk gued	50
@@ -410167,7 +410214,7 @@ sort: by_weight
 可遥控	kej iof kugk	477
 柯耀林	ked iok linf	432
 可要命	kej iok migk	369
-可要求	kej iok quf	819
+可要求	kej iod quf	819
 可要去	kej iok qyk	522
 可要我	kej iok oj	414
 克耶邦	kek ief brd	378
@@ -419490,7 +419537,8 @@ sort: by_weight
 廊坊有	lrf frd iuj	369
 浪费啊	lrk feik av	940
 浪费吧	lrk feik bav	554
-浪费地	lrk feik dev	508
+浪费的	lrk feik dev	508
+浪费地	lrk feik dev	106
 浪费电	lrk feik diwk	765
 浪费点	lrk feik diwj	536
 浪费掉	lrk feik diok	1190
@@ -433235,6 +433283,7 @@ sort: by_weight
 留全尸	liuf quwf shid	374
 留人才	liuf rnf caif	518
 六人份	liuk rnf fnk	356
+留任何	liuf rnk hef	498
 六人间	liuk rnf jwd	752
 留人难	liuf rnf nwf	477
 六人寝	liuk rnf qnj	540
@@ -437623,10 +437672,9 @@ sort: by_weight
 螺丝钻	lof sid zuwd	284
 罗宋汤	lof sugk trd	217
 洛苏湖	lok sud huf	50
-啰嗦吧	lod sov bav	279
-啰嗦不	lod sov buk	526
-啰嗦了	lod sov lev	891
-啰唆了	lod sod lev	277
+啰唆吧	lod sov bav	279
+啰唆不	lod sov buk	526
+啰唆了	lod sov lev	877
 落锁了	lok soj lev	169
 罗塔岛	lof taj daoj	464
 洛泰尔	lok taik erj	711
@@ -450142,7 +450190,7 @@ sort: by_weight
 美院的	meij ywk dev	819
 美元跌	meij ywf died	1102
 美元兑	meij ywf duek	261
-没缘分	meif ywf fnd	100
+没缘分	meif ywf fnk	100
 美媛馆	meij ywk guwj	338
 美元户	meij ywf huk	3
 美元化	meij ywf huak	16
@@ -451102,7 +451150,6 @@ sort: by_weight
 蒙德湖	mgf def huf	360
 蒙德拉	mgf def lad	540
 蒙德年	mgf def niwf	428
-萌的说	mgf dev shod	477
 猛地往	mgj dev urj	22
 猛得像	mgj def xrk	144
 蒙蒂厄	mgf dik ek	374
@@ -457630,7 +457677,7 @@ sort: by_weight
 木奶果	muk naij goj	17
 木乃伊	muk naij id	2898
 睦南道	muk nwf daok	3
-母难日	muj nwf rik	6
+母难日	muj nwk rik	6
 拇囊炎	muj nrf iwf	342
 木脑壳	muk naoj kef	6
 木讷了	muk nek lev	446
@@ -459676,6 +459723,7 @@ sort: by_weight
 哪上班	naj shrk bwd	418
 拿上的	naf shrk dev	356
 那上海	nak shrk haij	486
+拿上货	naf shrk hok	114
 拿上来	naf shrk laif	289
 拿上了	naf shrk lev	144
 那上面	nak shrk miwk	772
@@ -473397,7 +473445,7 @@ sort: by_weight
 你落魄	nij lok pok	441
 你落入	nij lok ruk	472
 你落水	nij lok shuej	405
-你啰嗦	nij lod sov	436
+你啰唆	nij lod sov	436
 你落在	nij lok zaik	432
 你屡次	nij lyj cik	328
 你滤镜	nij lyk jgk	130
@@ -481024,6 +481072,7 @@ sort: by_weight
 你找几	nij zhaoj jij	156
 你召集	nij zhaok jif	140
 你赵家	nij zhaok jad	324
+你找见	nij zhaoj jwk	108
 你招进	nij zhaod jnk	410
 你照旧	nij zhaok juk	212
 你召开	nij zhaok kaid	207
@@ -484791,6 +484840,8 @@ sort: by_weight
 农地里	nugf dik lij	3
 浓点的	nugf diwj dev	414
 农电工	nugf diwk gugd	3
+弄点活	nugk diwj hof	191
+弄点货	nugk diwj hok	30
 农电局	nugf diwk jyf	225
 弄点钱	nugk diwj qwf	531
 弄点啥	nugk diwj shaf	306
@@ -507098,6 +507149,8 @@ sort: by_weight
 清暑殿	qgd shuj diwk	297
 轻熟风	qgd shuf fgd	486
 轻熟感	qgd shuf gwj	288
+请梳理	qgj shud lij	153
+情书里	qgf shud lij	84
 轻熟龄	qgd shuf ligf	13
 轻熟男	qgd shuf nwf	423
 轻熟女	qgd shuf nyj	752
@@ -509517,7 +509570,7 @@ sort: by_weight
 去处了	qyk chuk lev	643
 祛除了	qyd chuf lev	436
 驱除了	qyd chuf lev	371
-去处理	qyk chuk lij	2861
+去处理	qyk chuj lij	2861
 去除率	qyk chuf lyk	688
 取出吗	qyj chud mav	364
 去触摸	qyk chuk mod	742
@@ -509802,7 +509855,6 @@ sort: by_weight
 去锻炼	qyk duwk liwk	990
 去对吧	qyk duek bav	396
 去对比	qyk duek bij	806
-区队长	qyd duek chrf	598
 去对待	qyk duek daik	994
 去对方	qyk duek frd	837
 去对付	qyk duek fuv	386
@@ -509812,6 +509864,7 @@ sort: by_weight
 去对了	qyk duek lev	490
 取对数	qyj duek shuk	612
 取对象	qyj duek xrk	16
+区队长	qyd duek zhrj	598
 趣多多	qyk dod dod	60
 去多久	qyk dod juj	752
 去多了	qyk dod lev	783
@@ -519033,6 +519086,7 @@ sort: by_weight
 融合会	rugf hef huek	482
 融合剂	rugf hef jik	428
 融合积	rugf hef jid	262
+融合进	rugf hef jnk	166
 融合卡	rugf hef kaj	374
 融合了	rugf hef lev	4745
 融合力	rugf hef lik	464
@@ -530319,6 +530373,8 @@ sort: by_weight
 赏黄金	shrj hurf jnd	327
 上黄泥	shrk hurf nif	288
 上黄山	shrk hurf shwd	540
+上回的	shrk huef dev	661
+商会的	shrd huek dev	97
 上会儿	shrk huek erv	19
 商会法	shrd huek faj	284
 上会稿	shrk huek gaoj	220
@@ -542253,7 +542309,8 @@ sort: by_weight
 式浪漫	shik lrk mwk	742
 诗朗诵	shid lrj sugk	170
 是狼牙	shik lrf iaf	400
-石老板	shif laoj bwj	360
+是老板	shik laoj bwj	360
+石老板	shif laoj bwj	121
 是老的	shik laoj dev	52
 使牢固	shij laof guk	50
 适老化	shik laoj huak	562
@@ -546529,6 +546586,7 @@ sort: by_weight
 使用水	shij ygk shuej	1035
 使用税	shij ygk shuek	771
 使用它	shij ygk tad	3002
+是用它	shik ygk tad	334
 食用糖	shif ygk trf	35
 实用贴	shif ygk tied	648
 使用图	shij ygk tuf	1490
@@ -559281,7 +559339,7 @@ sort: by_weight
 说只有	shod zhij iuj	1372
 说制造	shod zhik zaok	608
 说制作	shod zhik zok	747
-说中国	shod zhugk gof	1580
+说中国	shod zhugd gof	1580
 说中奖	shod zhugk jrj	495
 说中了	shod zhugk lev	311
 说重了	shod zhugk lev	280
@@ -565724,7 +565782,6 @@ sort: by_weight
 所以叫	soj ij jok	1152
 所以就	soj ij juk	14689
 所依据	soj id jyk	458
-嗦一口	sov ik kouj	266
 嗍一口	sod ik kouj	52
 所以来	soj ij laif	1305
 所以两	soj ij lirj	1120
@@ -573991,8 +574048,7 @@ sort: by_weight
 他落水	tad lok shuej	374
 塔罗斯	taj lof sid	760
 塔洛斯	taj lok sid	475
-他啰嗦	tad lod sov	436
-他啰唆	tad lod sod	175
+他啰唆	tad lod sov	175
 他落网	tad lok urj	315
 他落下	tad lok xak	486
 他落选	tad lok xuwj	446
@@ -577207,15 +577263,10 @@ sort: by_weight
 他是神	tad shik shnf	574
 她是神	tad shik shnf	317
 他失神	tad shid shnf	233
-他尸身	tad shid shnd	71
 他失声	tad shid shgd	382
-他是史	tad shik shij	693
-他逝世	tad shik shik	543
 他试试	tad shik shik	367
 他实施	tad shif shid	322
-他失势	tad shid shik	156
 他时时	tad shif shif	130
-他事实	tad shik shif	117
 她时时	tad shif shif	101
 他事事	tad shik shik	83
 他适时	tad shik shif	75
@@ -577229,13 +577280,11 @@ sort: by_weight
 她是谁	tad shik shuef	840
 它是水	tad shik shuej	294
 他是说	tad shik shod	675
-他是死	tad shik sij	634
-他是四	tad shik sik	475
-他十四	tad shif sik	283
+他十四	tad shif sik	475
 他誓死	tad shik sij	170
 他失算	tad shid suwk	324
-他十岁	tad shif suek	554
-他是岁	tad shik suek	399
+他是随	tad shik suef	554
+他十岁	tad shif suek	399
 他是他	tad shik tad	819
 他是她	tad shik tad	654
 她是她	tad shik tad	408
@@ -584694,7 +584743,7 @@ sort: by_weight
 太落后	taik lok houk	185
 钛螺丝	taik lof sid	346
 泰罗斯	taik lof sid	99
-太啰嗦	taik lod sov	738
+太啰唆	taik lod sov	738
 太落伍	taik lok uj	31
 泰旅局	taik lyj jyf	374
 钛滤器	taik lyk qik	45
@@ -589053,6 +589102,7 @@ sort: by_weight
 特别事	tek bief shik	548
 特别湿	tek bief shid	52
 特别瘦	tek bief shouk	657
+特别熟	tek bief shuf	1138
 特别帅	tek bief shuik	886
 特别衰	tek bief shuid	52
 特别爽	tek bief shurj	882
@@ -590937,7 +590987,7 @@ sort: by_weight
 体验周	tij iwk zhoud	572
 体验装	tij iwk zhurd	612
 体验组	tij iwk zuj	630
-提要求	tif iok quf	927
+提要求	tif iod quf	927
 剃腋毛	tik iek maof	468
 踢野球	tid iej quf	580
 提耶舍	tif ief shej	306
@@ -594749,7 +594799,8 @@ sort: by_weight
 铁掌帮	tiej zhrj brd	508
 贴照片	tied zhaok piwd	644
 贴着脸	tied zhev liwj	47
-铁着呢	tiej zhev nev	212
+贴着呢	tied zhev nev	212
+铁着呢	tiej zhev nev	109
 贴着墙	tied zhev qrf	179
 贴着我	tied zhev oj	66
 铁砧山	tiej zhnd shwd	468
@@ -598471,7 +598522,6 @@ sort: by_weight
 投行啊	touf hrf av	346
 投行吧	touf hrf bav	248
 投行部	touf hrf buk	927
-投行时	touf hrf shif	446
 投行业	touf hrf iek	990
 头好吧	touf haoj bav	450
 头好大	touf haoj dak	711
@@ -605305,6 +605355,7 @@ sort: by_weight
 玩耍时	uwf shuaj shif	927
 玩耍中	uwf shuaj zhugd	702
 晚霜冻	uwj shurd dugk	261
+玩爽了	uwf shurj lev	439
 万爽力	uwk shurj lik	63
 玩水吧	uwf shuej bav	333
 万水军	uwk shuej jund	436
@@ -613060,8 +613111,9 @@ sort: by_weight
 我背对	oj beik duek	482
 我被罚	oj beik faf	364
 我北方	oj beij frd	468
-我被分	oj beik fnd	630
-我备份	oj beik fnk	315
+我备份	oj beik fnk	630
+我辈分	oj beik fnd	346
+我被分	oj beik fnd	315
 我悲愤	oj beid fnk	205
 我背负	oj beid fuk	495
 我被赶	oj beik gwj	702
@@ -621347,8 +621399,7 @@ sort: by_weight
 我落水	oj lok shuej	374
 沃洛斯	ok lok sid	410
 斡罗思	ok lof sid	338
-我啰嗦	oj lod sov	639
-我罗嗦	oj lof sov	372
+我啰唆	oj lod sov	639
 我落伍	oj lok uj	477
 我落下	oj lok xak	500
 我落在	oj lok zaik	522
@@ -630568,6 +630619,7 @@ sort: by_weight
 我这副	oj zhek fuk	576
 我折服	oj zhef fuf	471
 我蛰伏	oj zhef fuf	312
+我这副	oj zhek fuk	286
 我这幅	oj zhek fuf	240
 我这刚	oj zhek grd	576
 我这个	oj zhek gev	20215
@@ -633126,6 +633178,7 @@ sort: by_weight
 无汗症	uf hwk zhgk	25
 武汉中	uj hwk zhugd	904
 无航母	uf hrf muj	351
+无行情	uf hrf qgf	292
 五航战	uj hrf zhwk	297
 唔好吧	uf haoj bav	261
 五号吧	uj haok bav	217
@@ -636184,7 +636237,6 @@ sort: by_weight
 五星坪	uj xgd pigf	310
 五星旗	uj xgd qif	126
 五行旗	uj xgf qif	113
-无行情	uf xgf qgf	292
 无兴趣	uf xgk qyk	119
 五行拳	uj xgf quwf	163
 吴兴人	uf xgd rnf	482
@@ -640070,6 +640122,7 @@ sort: by_weight
 溪头下	xid touf xak	292
 洗头在	xij touf zaik	382
 洗头这	xij touf zhek	508
+洗头枕	xij touf zhnj	41
 西土城	xid tuj chgf	580
 稀土核	xid tuj hef	4
 西突厥	xid tud juef	813
@@ -640876,6 +640929,7 @@ sort: by_weight
 吸着烟	xid zhev iwd	603
 细褶皱	xik zhej zhouk	130
 戏真多	xik zhnd dod	16
+洗枕头	xij zhnj touv	139
 溪镇溪	xid zhnk xid	162
 西阵织	xid zhnk zhid	369
 席珍子	xif zhnd zij	4
@@ -641605,6 +641659,7 @@ sort: by_weight
 下海子	xak haij zij	392
 厦航的	xak hrf dev	423
 下杭路	xak hrf luk	266
+下行情	xak hrf qgf	801
 下杭州	xak hrf zhoud	720
 下好大	xak haoj dak	9
 下好了	xak haoj lev	1094
@@ -642738,7 +642793,6 @@ sort: by_weight
 下行了	xak xgf lev	139
 下星期	xak xgd qid	185
 下行期	xak xgf qid	166
-下行情	xak xgf qgf	801
 下行时	xak xgf shif	652
 下行线	xak xgf xwk	9
 下性子	xak xgk ziv	626
@@ -648352,6 +648406,7 @@ sort: by_weight
 橡皮艇	xrk pif tigj	166
 橡皮头	xrk pif touf	472
 橡皮线	xrk pif xwk	76
+橡皮屑	xrk pif xek	49
 橡皮鸭	xrk pif iad	43
 橡皮章	xrk pif zhrd	760
 橡皮障	xrk pif zhrk	224
@@ -650664,7 +650719,7 @@ sort: by_weight
 小便多	xoj biwk dod	428
 小编儿	xoj biwd erf	598
 小辫儿	xoj biwk erv	266
-小编发	xoj biwd fak	873
+小编发	xoj biwd fad	873
 小蝙蝠	xoj biwd fuf	585
 小编号	xoj biwd haok	513
 小便后	xoj biwk houk	639
@@ -652357,6 +652412,7 @@ sort: by_weight
 小汗腺	xoj hwk xwk	35
 小巷道	xoj hrk daok	436
 小行家	xoj hrf jad	185
+小行情	xoj hrf qgf	504
 小号啊	xoj haok av	396
 小号吧	xoj haok bav	477
 消耗吧	xod haok bav	346
@@ -656784,7 +656840,6 @@ sort: by_weight
 小型机	xoj xgf jid	641
 笑醒了	xok xgj lev	598
 小行李	xoj xgf lij	608
-小行情	xoj xgf qgf	504
 小星球	xoj xgd quf	634
 小兴趣	xoj xgk qyk	536
 小型犬	xoj xgf quwj	824
@@ -659628,6 +659683,10 @@ sort: by_weight
 新穿搭	xnd chuwd dad	3
 新穿法	xnd chuwd faj	360
 新川路	xnd chuwd luk	310
+新传媒	xnd chuwf meif	950
+新传奇	xnd chuwf qif	562
+新传说	xnd chuwf shod	369
+新传统	xnd chuwf tugj	702
 新船员	xnd chuwf ywf	306
 信创版	xnk churk bwj	3
 新床单	xnd churf dwd	441
@@ -663824,10 +663883,6 @@ sort: by_weight
 新传记	xnd zhuwk jik	302
 新转来	xnd zhuwj laif	25
 新专利	xnd zhuwd lik	742
-新传媒	xnd zhuwk meif	950
-新传奇	xnd zhuwk qif	562
-新传说	xnd zhuwk shod	369
-新传统	xnd zhuwk tugj	702
 新专业	xnd zhuwd iek	752
 心专注	xnd zhuwd zhuk	824
 新撰组	xnd zhuwk zuj	47
@@ -666418,6 +666473,7 @@ sort: by_weight
 修复类	xud fuk leik	436
 修复力	xud fuk lik	544
 修复率	xud fuk lyk	351
+修复没	xud fuk meif	213
 修复酶	xud fuk meif	16
 修复期	xud fuk qid	580
 修复器	xud fuk qik	395
@@ -669889,7 +669945,7 @@ sort: by_weight
 学生端	xuef shgd duwd	486
 学生队	xuef shgd duek	639
 学生多	xuef shgd dod	1084
-学生发	xuef shgd fak	1161
+学生发	xuef shgd fad	1161
 学生范	xuef shgd fwk	459
 学生粉	xuef shgd fnj	495
 学生风	xuef shgd fgd	558
@@ -671358,6 +671414,7 @@ sort: by_weight
 牙缝大	iaf fgk dak	472
 压风机	iad fgd jid	333
 牙缝里	iaf fgk lij	424
+压风式	iad fgd shik	49
 牙缝刷	iaf fgk shuad	468
 牙缝中	iaf fgk zhugd	662
 亚佛烈	iak fof liek	360
@@ -672553,6 +672610,9 @@ sort: by_weight
 盐产品	iwf chwj pinj	536
 研产销	iwf chwj xod	405
 演唱吧	iwj chrk bav	230
+延长板	iwf chrf bwj	61
+延长版	iwf chrf bwj	50
+演唱版	iwj chrk bwj	42
 延长到	iwf chrf daok	757
 延长段	iwf chrf duwk	9
 演唱队	iwj chrk duek	230
@@ -691970,6 +692030,7 @@ sort: by_weight
 因此叫	ind cij jok	603
 尹词客	inj cif kek	45
 因此能	ind cij ngf	364
+引磁片	inj cif piwk	21
 因此上	ind cij shrk	958
 因此是	ind cij shik	1071
 因此事	ind cij shik	730
@@ -695380,7 +695441,7 @@ sort: by_weight
 营养足	igf irj zuf	500
 硬摇滚	igk iof gunj	860
 应要求	igd iod quf	298
-硬要求	igk iok quf	268
+硬要求	igk iod quf	268
 硬要去	igk iok qyk	138
 硬要我	igk iok oj	78
 营业啊	igf iek av	441
@@ -698444,6 +698505,7 @@ sort: by_weight
 有涵养	iuj hwf irj	824
 有寒饮	iuj hwf inj	4
 有汉语	iuj hwk yj	716
+有行情	iuj hrf qgf	752
 游杭州	iuf hrf zhoud	562
 友好啊	iuj haoj av	495
 有好吧	iuj haoj bav	580
@@ -700294,6 +700356,8 @@ sort: by_weight
 有趣了	iuj qyk lev	477
 游去了	iuf qyk lev	381
 又娶了	iuk qyj lev	304
+有趣吗	iuj qyk mav	61
+有去吗	iuj qyk mav	43
 又去哪	iuk qyk naj	648
 有趣呢	iuj qyk nev	680
 右曲球	iuk qyj quf	405
@@ -700683,7 +700747,9 @@ sort: by_weight
 有势场	iuj shik chrj	162
 优势大	iud shik dak	878
 又是当	iuk shik drd	626
-有时到	iuj shif daok	603
+又是到	iuk shik daok	203
+有十道	iuj shif daok	166
+有时到	iuj shif daok	61
 有事的	iuj shik dev	1490
 优势的	iud shik dev	885
 油似的	iuf shik dev	333
@@ -701852,7 +701918,6 @@ sort: by_weight
 有腥气	iuj xgd qik	594
 油性漆	iuf xgk qid	483
 油型气	iuf xgf qik	44
-有行情	iuj xgf qgf	752
 有兴趣	iuj xgk qyk	44302
 游行时	iuf xgf shif	598
 有腥味	iuj xgd uek	999
@@ -702527,7 +702592,7 @@ sort: by_weight
 有缘啊	iuj ywf av	531
 有缘吧	iuj ywf bav	446
 由远处	iuf ywj chuk	9
-有缘分	iuj ywf fnd	339
+有缘分	iuj ywf fnk	339
 有员工	iuj ywf gugd	1188
 游园会	iuf ywf huek	217
 有远见	iuj ywj jwk	876
@@ -708130,6 +708195,7 @@ sort: by_weight
 元至元	ywf zhik ywf	38
 原之战	ywf zhid zhwk	57
 元中都	ywf zhugd dud	43
+圆中方	ywf zhugd frd	23
 愿中国	ywk zhugd gof	990
 原中国	ywf zhugd gof	578
 远中近	ywj zhugd jnk	75
@@ -713009,7 +713075,7 @@ sort: by_weight
 在罗马	zaik lof maj	1102
 在落实	zaik lok shif	82
 再落实	zaik lok shif	74
-再啰唆	zaik lod sod	238
+再啰唆	zaik lod sov	238
 在骆驼	zaik lok tof	522
 在洛阳	zaik lok irf	1012
 在罗阳	zaik lof irf	239
@@ -713563,6 +713629,8 @@ sort: by_weight
 在群里	zaik qunf lij	1242
 再然后	zaik rwf houk	4861
 在燃烧	zaik rwf shaod	578
+再让他	zaik rrk tad	370
+再让她	zaik rrk tad	230
 再让我	zaik rrk oj	710
 在绕城	zaik raok chgf	450
 在热带	zaik rek daik	954
@@ -721792,6 +721860,7 @@ sort: by_weight
 这不会	zhek buf huek	0
 这不叫	zhek buf jok	1356
 这不仅	zhek buk jnj	3303
+这不禁	zhek buk jnd	310
 这不就	zhek buf juk	2352
 这部剧	zhek buk jyk	10378
 遮不了	zhed buk lioj	9
@@ -722568,7 +722637,8 @@ sort: by_weight
 这块吧	zhek kuik bav	378
 这块板	zhek kuik bwj	38
 这块布	zhek kuik buk	531
-这块地	zhek kuik dik	606
+这快递	zhek kuik dik	606
+这块地	zhek kuik dik	201
 这块儿	zhek kuik erv	1262
 这块料	zhek kuik liok	107
 这块肉	zhek kuik rouk	644
@@ -723424,6 +723494,9 @@ sort: by_weight
 这样很	zhek irk hnj	1300
 这样画	zhek irk huak	724
 这样会	zhek irk huek	4644
+这样记	zhek irk jik	145
+这样计	zhek irk jik	111
+这样既	zhek irk jik	73
 这样叫	zhek irk jok	927
 这样教	zhek irk jod	745
 遮阳镜	zhed irf jgk	3
@@ -725024,7 +725097,7 @@ sort: by_weight
 镇罗堡	zhnk lof baoj	153
 真落雷	zhnd lok leif	212
 真裸皮	zhnd loj pif	356
-真啰嗦	zhnd lod sov	428
+真啰唆	zhnd lod sov	428
 镇罗营	zhnk lof igf	3
 振绿发	zhnk lyk fad	4
 真滤子	zhnd lyk ziv	189
@@ -726360,6 +726433,7 @@ sort: by_weight
 正常刷	zhgk chrf shuad	472
 正常态	zhgk chrf taik	531
 正常体	zhgk chrf tij	9
+正常玩	zhgk chrf uwf	337
 整肠丸	zhgj chrf uwf	22
 整场戏	zhgj chrj xik	129
 正常向	zhgk chrf xrk	598
@@ -729621,6 +729695,7 @@ sort: by_weight
 只管出	zhij guwj chud	9
 只管到	zhij guwj daok	310
 直观的	zhif guwd dev	6409
+直观地	zhif guwd dev	319
 直管段	zhif guwj duwk	328
 直观法	zhif guwd faj	288
 置冠服	zhik guwd fuf	382
@@ -729779,7 +729854,7 @@ sort: by_weight
 炙黄芪	zhik hurf qif	6
 制黄芪	zhik hurf qif	5
 智慧啊	zhik huek av	562
-指挥吧	zhij hued bav	432
+只会把	zhij huek baj	511
 智慧吧	zhik huek bav	243
 智慧版	zhik huek bwj	482
 质惠版	zhik huek bwj	376
@@ -753719,8 +753794,6 @@ sort: by_weight
 爱得不行	aik def buk xgf	57
 爱的代价	aik dev daik jak	257
 爱的代驾	aik dev daik jak	231
-爱的点点	aik dev diwj diwj	274
-爱的斗牛	aik dev douk niuf	220
 爱德儿康	aik def erf krd	50
 爱的方式	aik dev frd shik	846
 爱得疯狂	aik dev fgd kurf	52
@@ -754678,7 +754751,7 @@ sort: by_weight
 爱心捐赠	aik xnd juwd zgk	680
 爱心捐助	aik xnd juwd zhuk	616
 爱新觉罗	aik xnd juef lof	484
-爱心理发	aik xnd lij fak	297
+爱心理发	aik xnd lij fad	297
 爱心妈妈	aik xnd mad mav	652
 爱心满满	aik xnd mwj mwj	513
 爱心毛衣	aik xnd maof id	230
@@ -757812,6 +757885,8 @@ sort: by_weight
 巴不能够	bad buk ngf gouk	76
 八部天龙	bad buk tiwd lugf	450
 把不喜欢	baj buk xij huwv	504
+拔不下来	baf buf xak laif	184
+扒不下来	bad buf xak laif	124
 八不中道	bad buk zhugd daok	252
 八菜一汤	bad caik ik trd	518
 拔草引蛇	baf caoj inj shef	99
@@ -774226,7 +774301,7 @@ sort: by_weight
 比什么都	bij shnf mev doud	452
 笔参造化	bij shnd zaok huak	130
 必生恶疮	bik shgd ek churd	4
-毕生发展	bik shgd fak zhwj	50
+毕生发展	bik shgd fad zhwj	50
 毕生功力	bik shgd gugd lik	468
 毕生积蓄	bik shgd jid xyk	590
 毕生精力	bik shgd jgd lik	166
@@ -774698,7 +774773,7 @@ sort: by_weight
 必须要干	bik xyd iok gwk	410
 必须要看	bik xyd iok kwk	788
 必须要买	bik xyd iok maij	729
-必须要求	bik xyd iok quf	778
+必须要求	bik xyd iod quf	778
 必须要有	bik xyd iok iuj	1300
 必须要走	bik xyd iok zouj	670
 必须要做	bik xyd iok zok	1068
@@ -777965,7 +778040,7 @@ sort: by_weight
 别乱讲哦	bief luwk jrj of	52
 别乱摸啊	bief luwk mod av	52
 别乱跑啊	bief luwk paoj av	3
-别啰唆了	bief lod sod lev	99
+别啰唆了	bief lod sov lev	99
 别洛韦日	bief lok uef rik	16
 别麻烦了	bief maf fwv lev	396
 别骂人呀	bief mak rnf iav	4
@@ -778725,7 +778800,7 @@ sort: by_weight
 兵不厌诈	bigd buf iwk zhak	97
 并不严重	bigk buk iwf zhugk	462
 并不要紧	bigk buf iok jnj	477
-并不要求	bigk buf iod quf	778
+并不要求	bigk buk iod quf	778
 并不一定	bigk buk if digk	9342
 并不意外	bigk buf ik uik	896
 并不意味	bigk buf ik uek	371
@@ -783723,9 +783798,9 @@ sort: by_weight
 不管如何	buk guwj ruf hef	1372
 不管三七	buk guwj swd qid	837
 不管啥子	buk guwj shaf ziv	189
+不管什么	buk guwj shnf mev	1314
 不关事的	buk guwd shik dev	130
 不管是否	buk guwj shik fouj	873
-不管什么	buk guwj shif mev	1314
 不管是谁	buk guwj shik shuef	936
 不管是在	buk guwj shik zaik	1084
 不管他了	buk guwj tad lev	598
@@ -784231,7 +784306,7 @@ sort: by_weight
 不会关注	buf huek guwd zhuk	734
 不会鬼跳	buf huek guej tiok	117
 不会过多	buf huek gok dod	742
-不会过分	buf huek gok fnd	770
+不会过分	buf huek gok fnk	770
 不会过敏	buf huek gok minj	662
 不会过期	buf huek gok qid	603
 不会过时	buf huek gok shif	873
@@ -784352,9 +784427,9 @@ sort: by_weight
 不会失望	buf huek shid urk	179
 不会失业	buf huek shid iek	544
 不会使用	buf huek shij ygk	829
-部会首长	buk huek shouj chrf	495
 不会受到	buf huek shouk daok	1192
 不会受伤	buf huek shouk shrd	179
+部会首长	buk huek shouj zhrj	495
 不会数数	buf huek shuj shuk	428
 不会说话	buf huek shod huak	1840
 不会说谎	buf huek shod hurj	760
@@ -786582,7 +786657,7 @@ sort: by_weight
 不能惯着	buk ngf guwk zhev	562
 不能过度	buk ngf gok duk	166
 不能过多	buk ngf gok dod	724
-不能过分	buk ngf gok fnd	157
+不能过分	buk ngf gok fnk	157
 不能过高	buk ngf gok gaod	666
 不能过量	buk ngf gok lirk	652
 不能撼动	buk ngf hwk dugk	78
@@ -788453,6 +788528,7 @@ sort: by_weight
 不说了嘛	buk shod lev mav	6
 不说了那	buk shod lev nak	572
 不说了算	buk shod lev suwk	252
+不说那了	buk shod nak lev	15
 不说那些	buk shod nak xed	720
 不说你了	buk shod nij lev	405
 不说清楚	buk shod qgd chuj	788
@@ -790368,7 +790444,7 @@ sort: by_weight
 不要乱说	buf iok luwk shod	842
 不要乱想	buf iok luwk xrj	91
 不要乱整	buf iok luwk zhgj	99
-不要啰嗦	buf iok lod sov	378
+不要啰唆	buf iok lod sov	378
 不要落下	buf iok lok xak	50
 不要埋怨	buk iok mwf ywk	670
 不要芒果	buf iok mrf goj	153
@@ -790408,7 +790484,7 @@ sort: by_weight
 不要轻视	buf iok qgd shik	742
 不要轻信	buf iok qgd xnk	1017
 不要轻易	buf iok qgd ik	4522
-不要求你	buf iod quf nij	697
+不要求你	buk iod quf nij	697
 不要去管	buf iok qyk guwj	616
 不要去看	buf iok qyk kwk	855
 不要去买	buf iok qyk maij	680
@@ -797719,7 +797795,6 @@ sort: by_weight
 禅游科技	chwf iuf ked jik	4
 产油气层	chwj iuf qik cgf	45
 阐幽显微	chwj iud xwj ued	45
-单于都护	chwf yf dud huk	410
 谄谀取容	chwj yf qyj rugf	3
 单于入朝	chwf yf ruk chaof	153
 单于天降	chwf yf tiwd jrk	76
@@ -814381,6 +814456,7 @@ sort: by_weight
 春韭秋菘	chund juj qud sugd	76
 春菊电器	chund jyf diwk qik	130
 淳剧佳曲	chunf jyk jad qyj	153
+纯可可脂	chunf kej kej zhid	35
 唇口蠕动	chunf kouj ruf dugk	45
 唇口燥裂	chunf kouj zaok liek	45
 春宽梦窄	chund kuwd mgk zhaij	76
@@ -818446,7 +818522,8 @@ sort: by_weight
 大波斯菊	dak bod sid jyf	464
 大博医疗	dak bof id liof	288
 大脖子病	dak bof ziv bigk	72
-答不出的	daf buk chud dev	9
+打不出的	daj buk chud dev	421
+答不出的	daf buk chud dev	119
 答不出话	daf buk chud huak	3
 打不出来	daj buk chud laif	992
 答不出来	daf buk chud laif	518
@@ -832704,7 +832781,7 @@ sort: by_weight
 登记选民	dgd jik xuwj minf	608
 等级压制	dgj jif iad zhik	477
 等级要求	dgj jif iod quf	747
-登记要求	dgd jik iok quf	391
+登记要求	dgd jik iod quf	391
 登记业务	dgd jik iek uk	770
 登基仪式	dgd jid if shik	500
 登记意向	dgd jik ik xrk	194
@@ -840076,7 +840153,6 @@ sort: by_weight
 电站项目	diwk zhwk xrk muk	846
 电站运维	diwk zhwk ynk uef	378
 点掌财经	diwj zhrj caif jgd	315
-店长的说	diwk zhrj dev shod	144
 颠张狂素	diwd zhrd kurf suk	180
 典章文物	diwj zhrd unf uk	16
 典章制度	diwj zhrd zhik duk	160
@@ -840675,6 +840751,7 @@ sort: by_weight
 调漂方法	diok piod frd faj	288
 调漂技巧	diok piod jik qoj	392
 掉期存款	diok qid cunf kuwj	171
+调起高了	diok qij gaod lev	19
 掉期合约	diok qid hef yed	9
 雕漆技艺	diod qid jik ik	99
 掉期交易	diok qid jod ik	75
@@ -841739,7 +841816,7 @@ sort: by_weight
 定位不同	digk uek buk tugf	819
 定位导航	digk uek daoj hrf	116
 定位放线	digk uek frk xwk	324
-定位分析	digk uek fnk xid	652
+定位分析	digk uek fnd xid	652
 定位缝合	digk uek fgf hef	45
 定位复式	digk uek fuk shik	266
 定位服务	digk uek fuf uk	245
@@ -850270,9 +850347,9 @@ sort: by_weight
 堆积作用	dued jid zok ygk	6
 对甲苯胺	duek jaj bnj ank	117
 对甲苯酚	duek jaj bnj fnd	117
-对家长说	duek jad chrf shod	446
 对夹蝶阀	duek jad dief faf	76
 对甲基红	duek jaj jid hugf	45
+对家长说	duek jad zhrj shod	446
 对讲电话	duek jrj diwk huak	279
 对讲门铃	duek jrj mnf ligf	162
 对讲系统	duek jrj xik tugj	38
@@ -850348,6 +850425,7 @@ sort: by_weight
 对来对去	duek laif duek qyk	6
 堆蓝叠翠	dued lwf dief cuek	50
 怼了起来	duek lev qij laif	16
+堆了一堆	dued lev ik dued	32
 堆垒数论	dued leij shuk lunk	189
 对冷过敏	duek lgj gok minj	207
 对立关系	duek lik guwd xik	446
@@ -850723,6 +850801,7 @@ sort: by_weight
 对也是对	duek iej shik duek	220
 对叶盐蓬	duek iek iwf pgf	117
 对异丙基	duek ik bigj jid	243
+堆一大堆	dued if dak dued	32
 对易关系	duek ik guwd xik	518
 对以后的	duek ij houk dev	950
 对亿美元	duek ik meij ywf	396
@@ -851350,7 +851429,7 @@ sort: by_weight
 多次往返	dod cik urj fwj	868
 多次修改	dod cik xud gaij	828
 多次询问	dod cik xunf unk	612
-多次要求	dod cik iok quf	182
+多次要求	dod cik iod quf	182
 多此一举	dod cij ik jyj	1448
 多次逾期	dod cik yf qid	292
 多次折射	dod cik zhef shek	180
@@ -863141,7 +863220,7 @@ sort: by_weight
 防微杜渐	frf ued duk jwk	251
 防卫对象	frf uek duek xrk	117
 防卫盾牌	frf uek dunk paif	50
-方位分析	frd uek fnk xid	500
+方位分析	frd uek fnd xid	500
 方位高度	frd uek gaod duk	261
 防伪公司	frf uej gugd sid	522
 方位关系	frd uek guwd xik	52
@@ -874146,7 +874225,7 @@ sort: by_weight
 伏秋大汛	fuf qud dak xunk	52
 浮丘丹井	fuf qud dwd jgj	117
 伏秋汛期	fuf qud xunk qid	52
-副区队长	fuk qyd duek chrf	297
+副区队长	fuk qyd duek zhrj	297
 覆去翻来	fuk qyk fwd laif	238
 负屈含冤	fuk qyd hwf ywd	162
 氟曲马唑	fuf qyj maj zok	117
@@ -882015,7 +882094,7 @@ sort: by_weight
 高三复课	gaod swd fuk kek	117
 高三复习	gaod swd fuk xif	621
 搞三搞四	gaoj swd gaoj sik	25
-高三家长	gaod swd jad chrf	540
+高三家长	gaod swd jad zhrj	540
 高三九班	gaod swd juj bwd	171
 高三考生	gaod swd kaoj shgd	608
 高三励志	gaod swd lik zhik	180
@@ -887791,7 +887870,7 @@ sort: by_weight
 更高效的	ggk gaod xok dev	1802
 更高效地	ggk gaod xok dev	612
 更高效率	ggk gaod xok lyk	675
-更高要求	ggk gaod iok quf	634
+更高要求	ggk gaod iod quf	634
 更高一层	ggk gaod ik cgf	652
 更高一筹	ggk gaod ik chouf	554
 更高一点	ggk gaod ik diwj	806
@@ -897943,7 +898022,7 @@ sort: by_weight
 管理党员	guwj lij drj ywf	374
 管理得好	guwj lij def haoj	28
 管理登录	guwj lij dgd luk	252
-管理发展	guwj lij fak zhwj	729
+管理发展	guwj lij fad zhwj	729
 管理范围	guwj lij fwk uef	770
 管理方案	guwj lij frd ank	232
 管理方法	guwj lij frd faj	644
@@ -900454,7 +900533,7 @@ sort: by_weight
 光遗传学	gurd if chuwf xuef	60
 逛一大圈	gurk if dak quwd	230
 广义导数	gurj ik daoj shuk	130
-广义地说	gurj ik dik shod	436
+广义地说	gurj ik dev shod	436
 广义动量	gurj ik dugk lirk	91
 广义赋值	gurj ik fuk zhif	45
 广义刚度	gurj ik grd duk	50
@@ -928638,6 +928717,7 @@ sort: by_weight
 会被遗忘	huek beik if urk	648
 会被抓吗	huek beik zhuad mav	274
 绘本故事	huek bnj guk shiv	765
+回本了吗	huef bnj lev mav	239
 回本时间	huef bnj shif jwd	418
 绘本推荐	huek bnj tued jwk	580
 绘本阅读	huek bnj yek duf	648
@@ -932655,6 +932735,8 @@ sort: by_weight
 活动育人	hof dugk yk rnf	225
 活动运营	hof dugk ynk igf	765
 活动召集	hof dugk zhaok jif	495
+活动支出	hof dugk zhid chud	77
+活动指出	hof dugk zhij chud	28
 活动致辞	hof dugk zhik cif	405
 活动指导	hof dugk zhij daoj	558
 活动支架	hof dugk zhid jak	220
@@ -932685,17 +932767,16 @@ sort: by_weight
 或多或少	hok dod hok shaoj	14563
 霍恩子句	hok end zij jyk	234
 活儿不好	hof erv buk haoj	364
-霍耳常数	hok erj chrf shuk	45
-霍耳电压	hok erj diwk iad	45
+霍尔常数	hok erj chrf shuk	45
+霍尔电压	hok erj diwk iad	45
 霍尔峰会	hok erj fgd huek	76
 霍尔盖特	hok erj gaik tek	220
 霍尔哥达	hok erj ged daf	90
 或二或三	hok erk hok swd	3
 活尔曼病	hof erj mwk bigk	90
 霍尔木兹	hok erj muk zid	13
-霍耳系数	hok erj xik shuk	45
+霍尔系数	hok erj xik shuk	45
 霍尔效应	hok erj xok igk	317
-霍耳效应	hok erj xok igk	153
 霍尔辛赫	hok erj xnd hek	99
 霍尔元件	hok erj ywf jwk	333
 活儿真多	hof erv zhnd dod	52
@@ -934234,7 +934315,7 @@ sort: by_weight
 或煮或蒸	hok zhuj hok zhgd	76
 货主企业	hok zhuj qij iek	364
 火烛小心	hoj zhuf xoj xnd	202
-货主要求	hok zhuj iok quf	117
+货主要求	hok zhuj iod quf	117
 火烛银花	hoj zhuf inf huad	117
 霍庄大桥	hok zhurd dak qof	4
 或庄或谐	hok zhurd hok xef	9
@@ -953836,7 +953917,7 @@ sort: by_weight
 交稿时间	jod gaoj shif jwd	338
 较高收益	jok gaod shoud ik	756
 较高水平	jok gaod shuej pigf	986
-较高要求	jok gaod iok quf	774
+较高要求	jok gaod iod quf	774
 交割标准	jod ged biod zhunj	284
 叫个不停	jok gek buk tigf	119
 交割仓库	jod ged crd kuk	486
@@ -958669,8 +958750,8 @@ sort: by_weight
 解锁手机	jej soj shouj jid	724
 解锁条件	jej soj tiof jwk	670
 解锁文件	jej soj unf jwk	234
+解锁钥匙	jej soj iok shiv	162
 解锁要素	jej soj iok suk	52
-解锁钥匙	jej soj yek shiv	162
 接他的班	jed tad dev bwd	52
 接他回家	jed tad huef jad	522
 捷太格特	jef taik gef tek	338
@@ -961047,7 +961128,7 @@ sort: by_weight
 金科股份	jnd ked guj fnk	706
 尽可拿去	jnk kej naf qyk	3
 尽可能大	jnj kej ngf dak	693
-尽可能地	jnk kej ngf dev	5508
+尽可能地	jnj kej ngf dev	5508
 尽可能的	jnj kej ngf dev	1310
 尽可能低	jnj kej ngf did	644
 尽可能短	jnj kej ngf duwj	621
@@ -971798,7 +971879,7 @@ sort: by_weight
 就你会算	juk nij huek suwk	99
 就你会玩	juk nij huek uwf	189
 救你姐姐	juk nij jej jev	48
-就你啰唆	juk nij lod sod	45
+就你啰唆	juk nij lod sov	45
 就你们啊	juk nij mnv av	4
 就你们呀	juk nij mnv iav	4
 就你那个	juk nij nak gek	25
@@ -975303,8 +975384,8 @@ sort: by_weight
 具体措施	jyk tij cok shid	499
 具体到人	jyk tij daok rnf	464
 具体的事	jyk tij dev shik	972
+具体地说	jyk tij dev shod	846
 具体地点	jyk tij dik diwj	242
-具体地说	jyk tij dik shod	846
 具体地址	jyk tij dik zhij	279
 具体点儿	jyk tij diwj erv	52
 具体点位	jyk tij diwj uek	738
@@ -982183,7 +982264,7 @@ sort: by_weight
 考尔菲德	kaoj erj feid def	13
 考风考纪	kaoj fgd kaoj jik	16
 考弗奈姆	kaoj fuf naik muj	162
-考纲要求	kaoj grd iok quf	436
+考纲要求	kaoj grd iod quf	436
 考工记图	kaoj gugd jik tuf	99
 考公考编	kaoj gugd kaoj biwd	625
 考公务员	kaoj gugd uk ywf	6129
@@ -987063,7 +987144,7 @@ sort: by_weight
 空腹血糖	kugd fuk xuek trf	896
 孔府宴酒	kugj fuj iwk juj	252
 空腹饮用	kugd fuk inj ygk	598
-控干水分	kugk gwd shuej fnd	720
+控干水分	kugk gwd shuej fnk	720
 恐高情绪	kugj gaod qgf xyk	405
 空格替换	kugk gef tik huwk	405
 控根容器	kugk gnd rugf qik	45
@@ -993568,6 +993649,7 @@ sort: by_weight
 狼垡西桥	lrf faf xid qof	324
 廊房二条	lrf frf erk tiof	28
 浪费成性	lrk feik chgf xgk	50
+浪费得很	lrk feik dev hnj	24
 浪费感情	lrk feik gwj qgf	616
 浪费工夫	lrk feik gugd fuv	189
 浪费机会	lrk feik jid huek	639
@@ -997266,7 +997348,7 @@ sort: by_weight
 粒钙长石	lik gaik chrf shif	45
 立改废释	lik gaij feik shik	387
 立竿见影	lik gwd jwk igj	2352
-沥干水分	lik gwd shuej fnd	1084
+沥干水分	lik gwd shuej fnk	1084
 离岗创业	lif grj churk iek	500
 离岗待退	lif grj daik tuek	99
 荔港南湾	lik grj nwf uwd	189
@@ -1013187,7 +1013269,7 @@ sort: by_weight
 落不得脚	lok buk def joj	76
 落不了地	lok buk lioj dik	119
 罗布林卡	lof buk linf kaj	35
-啰不啰唆	lod buk lod sod	90
+啰不啰唆	lod buk lod sov	90
 洛布模型	lok buk mof xgf	153
 落草为寇	lok caoj uef kouk	179
 罗刹鬼王	lof chak guej urf	76
@@ -1013485,9 +1013567,7 @@ sort: by_weight
 啰里八嗦	lod lij bad sov	657
 罗里吧嗦	lof lij bav sov	369
 瘰疬流注	loj lik liuf zhuk	99
-啰里啰嗦	lod lij lod sov	562
-啰哩啰嗦	lod lid lod sov	388
-啰里啰唆	lod lij lod sod	237
+啰里啰唆	lod lij lod sov	562
 洛丽塔裙	lok lik taj qunf	252
 萝莉一姐	lof lik id jej	45
 洛林皇朝	lok linf hurf chaof	238
@@ -1013506,8 +1013586,7 @@ sort: by_weight
 落落难合	lok lok nwf hef	292
 落落清欢	lok lok qgd huwd	333
 珞珞如石	lok lok ruf shif	6
-啰啰嗦嗦	lod lod sov sov	571
-啰啰唆唆	lod lod sod sod	297
+啰啰唆唆	lod lod sov sod	297
 罗缕纪存	lof lyj jik cunf	4
 骡马成群	lof maj chgf qunf	306
 罗马瓷砖	lof maj cif zhuwd	189
@@ -1013706,14 +1013785,14 @@ sort: by_weight
 螺丝起子	lof sid qij ziv	78
 螺丝松动	lof sid sugd dugk	468
 螺丝小姐	lof sid xoj jej	351
-啰唆几句	lod sod jij jyk	207
+啰唆几句	lod sov jij jyk	207
 洛索洛芬	lok soj lok fnd	53
-啰唆什么	lod sod shnf mev	130
-啰唆事儿	lod sod shik erv	45
-啰唆死啦	lod sod sij lav	45
-啰唆死了	lod sod sij lev	45
-啰嗦一遍	lod sov if biwk	297
-啰唆一句	lod sod if jyk	130
+啰唆什么	lod sov shnf mev	130
+啰唆事儿	lod sov shik erv	45
+啰唆死啦	lod sov sij lav	45
+啰唆死了	lod sov sij lev	45
+啰唆一遍	lod sov if biwk	297
+啰唆一句	lod sov if jyk	130
 落汤螃蟹	lok trd prf xek	50
 裸体女尸	loj tij nyj shid	288
 裸体上街	loj tij shrk jed	3
@@ -1014138,7 +1014217,7 @@ sort: by_weight
 屡改屡犯	lyj gaij lyj fwk	117
 绿钙闪石	lyk gaik shwj shif	45
 绿橄榄石	lyk gwj lwj shif	4
-滤干水分	lyk gwk shuej fnk	477
+滤干水分	lyk gwd shuej fnk	477
 绿高岭石	lyk gaod ligj shif	45
 铝铬铁矿	lyj gek tiej kurk	50
 绿格茵茵	lyk gef ind ind	117
@@ -1017866,7 +1017945,7 @@ sort: by_weight
 慢你一步	mwk nij if buk	50
 曼宁公式	mwk nigf gugd shik	194
 蛮牛冲撞	mwf niuf chugd zhurk	13
-慢牛行情	mwk niuf xgf qgf	598
+慢牛行情	mwk niuf hrf qgf	598
 曼努埃尔	mwk nuj aid erj	132
 曼努埃拉	mwk nuj aid lad	387
 慢拍摇滚	mwk paid iof gunj	230
@@ -1033317,7 +1033396,7 @@ sort: by_weight
 木乃伊身	muk naij id shnd	306
 木乃伊头	muk naij id touf	279
 木乃伊装	muk naij id zhurd	144
-母难之日	muj nwf zhid rik	117
+母难之日	muj nwk zhid rik	117
 拇囊炎足	muj nrf iwf zuf	50
 目瑙纵歌	muk naoj zugk ged	356
 木讷刚毅	muk nek grd ik	4
@@ -1033371,6 +1033450,7 @@ sort: by_weight
 目前股价	muk qwf guj jak	770
 目前国内	muk qwf gof neik	8626
 目前还没	muk qwf haif meif	1377
+目前行情	muk qwf hrf qgf	832
 目前航天	muk qwf hrf tiwd	392
 目前好像	muk qwf haoj xrk	301
 目前沪指	muk qwf huk zhij	558
@@ -1033402,7 +1033482,6 @@ sort: by_weight
 目前我们	muk qwf oj mnv	2415
 目前现状	muk qwf xwk zhurk	634
 目前小米	muk qwf xoj mij	666
-目前行情	muk qwf xgf qgf	832
 目前形势	muk qwf xgf shik	716
 目前行驶	muk qwf xgf shij	441
 目前已经	muk qwf ij jgd	8004
@@ -1051102,6 +1051181,7 @@ sort: by_weight
 判断方法	pwk duwk frd faj	788
 判断覆盖	pwk duwk fuk gaik	297
 判断过程	pwk duwk gok chgf	495
+判断行情	pwk duwk hrf qgf	662
 判断后市	pwk duwk houk shik	428
 判断基准	pwk duwk jid zhunj	369
 判断结果	pwk duwk jef goj	742
@@ -1051115,7 +1051195,6 @@ sort: by_weight
 判断思路	pwk duwk sid luk	292
 判断素数	pwk duwk suk shuk	153
 判断未来	pwk duwk uek laif	765
-判断行情	pwk duwk xgf qgf	662
 判断形势	pwk duwk xgf shik	504
 判断依据	pwk duwk id jyk	855
 判断一下	pwk duwk if xak	796
@@ -1058247,7 +1058326,6 @@ sort: by_weight
 朴素典雅	puj suk diwj iaj	9
 普速客车	puj suk kek ched	382
 普速列车	puj suk liek ched	720
-扑簌迷离	pud suk mif lif	225
 普速铁路	puj suk tiej luk	603
 朴素唯物	puj suk uef uk	490
 朴素无华	puj suk uf huaf	44
@@ -1058441,10 +1058519,10 @@ sort: by_weight
 普通鸡蛋	puj tugd jid dwk	644
 普通机件	puj tugd jid jwk	45
 普通机油	puj tugd jid iuf	374
-普通家长	puj tugd jad chrf	842
 普通家具	puj tugd jad jyk	405
 普通家居	puj tugd jad jyd	323
 普通家庭	puj tugd jad tigf	3906
+普通家长	puj tugd jad zhrj	842
 普通家装	puj tugd jad zhurd	333
 普通剪刀	puj tugd jwj daod	248
 普通键盘	puj tugd jwk pwf	522
@@ -1060048,6 +1060126,7 @@ sort: by_weight
 七分沉迷	qid fnd chnf mif	45
 七分打扮	qid fnd daj bwk	832
 气分大热	qik fnd dak rek	76
+气愤地说	qik fnk dev shod	122
 七分短裤	qid fnd duwj kuk	117
 七分讽刺	qid fnd fgj cik	4
 七分讽喻	qid fnd fgj yk	45
@@ -1073664,7 +1073743,7 @@ sort: by_weight
 情深缘浅	qgf shnd ywf qwj	38
 轻身重义	qgd shnd zhugk ik	45
 轻声安慰	qgd shgd and uek	729
-轻声的说	qgd shgd dev shod	590
+轻声地说	qgd shgd dev shod	590
 轻声低语	qgd shgd did yj	3
 轻声耳语	qgd shgd erj yj	364
 轻声歌唱	qgd shgd ged chrk	234
@@ -1076978,7 +1077057,7 @@ sort: by_weight
 去看医生	qyk kwk id shgd	1740
 去看一下	qyk kwk if xak	3175
 去看一眼	qyk kwk ik iwj	792
-去看中医	qyk kwk zhugk id	720
+去看中医	qyk kwk zhugd id	720
 去考一考	qyk kaoj id kaoj	288
 去壳鸡蛋	qyk kef jid dwk	171
 区科技局	qyd ked jik jyf	536
@@ -1083230,7 +1083309,6 @@ sort: by_weight
 人才资讯	rnf caif zid xunk	374
 人才资源	rnf caif zid ywf	163
 人长丑了	rnf chrf chouj lev	117
-人长得帅	rnf chrf def shuik	603
 仁昌酱园	rnf chrd jrk ywf	194
 人长树大	rnf chrf shuk dak	99
 忍唱挑战	rnj chrk tioj zhwk	45
@@ -1086853,6 +1086931,7 @@ sort: by_weight
 任寨北街	rnk zhaik beij jed	238
 仁斋直指	rnf zhaid zhif zhij	279
 人长得美	rnf zhrj dev meij	16
+人长得帅	rnf zhrj dev shuik	603
 人找不到	rnf zhaoj buf daok	864
 人找工作	rnf zhaoj gugd zok	662
 仁者爱人	rnf zhej aik rnf	72
@@ -1100106,7 +1100185,7 @@ sort: by_weight
 善自保重	shwk zik baoj zhugk	3
 擅自变更	shwk zik biwk ggd	576
 擅自拆除	shwk zik chaid chuf	468
-擅自处分	shwk zik chuj fnd	567
+擅自处分	shwk zik chuj fnk	567
 擅自处理	shwk zik chuj lij	38
 擅自处置	shwk zik chuj zhik	351
 擅自改变	shwk zik gaij biwk	78
@@ -1101470,7 +1101549,7 @@ sort: by_weight
 上睑下垂	shrk jwj xak chuef	540
 上简下繁	shrk jwj xak fwf	130
 商检验货	shrd jwj iwk hok	76
-上将军衔	shrk jrd jund xwf	765
+上将军衔	shrk jrk jund xwf	765
 上江考棚	shrk jrd kaoj pgf	76
 上将首级	shrk jrk shouj jif	495
 上交不谄	shrk jod buk chwj	117
@@ -1106981,7 +1107060,7 @@ sort: by_weight
 身高腿长	shnd gaod tuej chrf	116
 身高问题	shnd gaod unk tif	634
 深高新投	shnd gaod xnd touf	76
-身高要求	shnd gaod iok quf	626
+身高要求	shnd gaod iod quf	626
 审稿意见	shnj gaoj ik jwk	670
 身高一米	shnd gaod ik mij	868
 身高优势	shnd gaod iud shik	657
@@ -1107490,6 +1107569,8 @@ sort: by_weight
 肾精不足	shnk jgd buk zuf	572
 神经成像	shnf jgd chgf xrk	418
 神经冲动	shnf jgd chugd dugk	273
+神经传导	shnf jgd chuwf daoj	774
+神经传递	shnf jgd chuwf dik	644
 神经垂体	shnf jgd chuef tij	306
 神经磁图	shnf jgd cif tuf	45
 神经丛点	shnf jgd cugf diwj	45
@@ -1107608,8 +1107689,6 @@ sort: by_weight
 神经中枢	shnf jgd zhugd shud	502
 神经重症	shnf jgd zhugk zhgk	320
 深井注水	shnd jgj zhuk shuej	4
-神经传导	shnf jgd zhuwk daoj	774
-神经传递	shnf jgd zhuwk dik	644
 神经专题	shnf jgd zhuwd tif	45
 神经阻滞	shnf jgd zuj zhik	295
 神经组织	shnf jgd zuj zhid	266
@@ -1108621,7 +1108700,6 @@ sort: by_weight
 深情的吻	shnd qgf dev unj	468
 深情的眼	shnd qgf dev iwj	562
 申请登记	shnd qgj dgd jik	151
-申请调解	shnd qgj diok jej	486
 申请调走	shnd qgj diok zouj	144
 深情动人	shnd qgf dugk rnf	428
 深情对唱	shnd qgf duek chrk	464
@@ -1108763,6 +1108841,7 @@ sort: by_weight
 申请提取	shnd qgj tif qyj	670
 申请提现	shnd qgj tif xwk	504
 申请条件	shnd qgj tiof jwk	1476
+申请调解	shnd qgj tiof jej	486
 申请退出	shnd qgj tuek chud	490
 申请退费	shnd qgj tuek feik	423
 申请退款	shnd qgj tuek kuwj	999
@@ -1111890,9 +1111969,9 @@ sort: by_weight
 胜利东街	shgk lik dugd jed	310
 生理惰性	shgd lij dok xgk	261
 省立儿童	shgj lik erf tugf	324
-生理发生	shgd lij fak shgd	194
-生理发育	shgd lij fak yk	616
-生理发展	shgd lij fak zhwj	504
+生理发生	shgd lij fad shgd	194
+生理发育	shgd lij fad yk	616
+生理发展	shgd lij fad zhwj	504
 生理反射	shgd lij fwj shek	44
 生理反应	shgd lij fwj igk	907
 生理方面	shgd lij frd miwk	698
@@ -1112407,7 +1112486,7 @@ sort: by_weight
 生气不已	shgd qik buk ij	297
 生气得很	shgd qik dev hnj	238
 生气的猫	shgd qik dev maod	20
-生气地说	shgd qik dik shod	778
+生气地说	shgd qik dev shod	778
 升旗典礼	shgd qif diwj lij	436
 生气恶魔	shgd qik ek mof	20
 生气发火	shgd qik fad hoj	482
@@ -1117839,7 +1117918,6 @@ sort: by_weight
 世华财讯	shik huaf caif xunk	153
 石化产品	shif huak chwj pinj	53
 石化产业	shif huak chwj iek	639
-实话的说	shif huak dev shod	297
 世华地产	shik huaf dik chwj	378
 市话电缆	shik huak diwk lwj	153
 市话分局	shik huak fnd jyf	50
@@ -1118377,7 +1118455,8 @@ sort: by_weight
 十几岁的	shif jij suek dev	52
 十几岁时	shif jij suek shif	770
 实际损失	shif jik sunj shid	528
-史记索隐	shij jik soj inj	531
+实际索引	shif jik soj inj	531
+史记索隐	shij jik soj inj	311
 世纪太空	shik jik taik kugd	248
 世纪谭府	shik jik twf fuj	212
 实际体验	shif jik tij iwk	1008
@@ -1132879,7 +1132958,7 @@ sort: by_weight
 树立敌人	shuk lik dif rnf	31
 树立典范	shuk lik diwj fwk	468
 树立典型	shuk lik diwj xgf	31
-梳理发现	shud lij fak xwk	900
+梳理发现	shud lij fad xwk	900
 数理方法	shuk lij frd faj	522
 梳理分析	shud lij fnd xid	562
 数理分析	shuk lij fnd xid	410
@@ -1136692,6 +1136771,8 @@ sort: by_weight
 睡觉得了	shuek jok dev lev	207
 睡觉的人	shuek jok dev rnf	160
 税交得少	shuek jod def shaoj	4
+水浇多了	shuej jod dod lev	146
+睡觉多了	shuek jok dod lev	97
 水饺皇后	shuej joj hurf houk	288
 睡觉机器	shuek jok jid qik	76
 水饺加盟	shuej joj jad mgf	50
@@ -1139525,7 +1139606,7 @@ sort: by_weight
 说真格的	shod zhnd gef dev	6
 说真心话	shod zhnd xnd huak	680
 说正经的	shod zhgk jgv dev	814
-说中国话	shod zhugk gof huak	160
+说中国话	shod zhugd gof huak	160
 说自己是	shod zik jij shik	7417
 说走就走	shod zouj juk zouj	1055
 说嘴打嘴	shod zuej daj zuej	6
@@ -1145357,11 +1145438,11 @@ sort: by_weight
 苏启渔号	sud qij yf haok	130
 诉前保全	suk qwf baoj quwf	82
 诉前程序	suk qwf chgf xyk	400
-诉前调解	suk qwf diok jej	477
 诉前化解	suk qwf huak jej	225
 诉前鉴定	suk qwf jwk digk	50
 诉前禁令	suk qwf jnk ligk	270
 诉前扣船	suk qwf kouk chuwf	50
+诉前调解	suk qwf tiof jej	477
 苏秦刺股	sud qnf cik guj	76
 苏沁牧场	sud qnk muk chrj	4
 素琴听弦	suk qnf tigd xwf	45
@@ -1149392,7 +1149473,7 @@ sort: by_weight
 他又忘了	tad iuk urk lev	52
 她又忘了	tad iuk urk lev	52
 他有闲心	tad iuj xwf xnd	99
-他又要求	tad iuk iok quf	351
+他又要求	tad iuk iod quf	351
 他又涨了	tad iuk zhrj lev	117
 他与妻子	tad yj qid zij	747
 她与丈夫	tad yj zhrk fud	648
@@ -1150638,7 +1150719,7 @@ sort: by_weight
 泰伦科技	taik lunf ked jik	4
 台轮码头	taif lunf maj touf	99
 太落后了	taik lok houk lev	264
-太啰唆了	taik lod sod lev	13
+太啰唆了	taik lod sov lev	13
 太落伍了	taik lok uj lev	60
 钛铝合金	taik lyj hef jnd	378
 苔绿色的	taif lyk sek dev	76
@@ -1162127,10 +1162208,10 @@ sort: by_weight
 听其自便	tigd qif zik biwk	3
 听其自然	tigd qif zik rwf	25
 庭前柏树	tigf qwf baij shuk	153
-庭前调解	tigf qwf diok jej	356
 庭前花落	tigf qwf huad lok	153
 庭前会议	tigf qwf huek ik	806
 庭前落叶	tigf qwf lok iek	4
+庭前调解	tigf qwf tiof jej	356
 听墙根儿	tigd qrf gnd erv	266
 挺枪守备	tigj qrd shouj beik	117
 亭桥南路	tigf qof nwf luk	130
@@ -1162239,8 +1162320,8 @@ sort: by_weight
 挺痛苦的	tigj tugk kuj dev	301
 挺秃然的	tigj tud rwf dev	446
 挺突然的	tigj tud rwf dev	163
-庭外调解	tigf uik diok jej	310
 庭外和解	tigf uik hef jej	135
+庭外调解	tigf uik tiof jej	310
 挺外向的	tigj uik xrk dev	16
 挺晚的了	tigj uwj dev lev	28
 挺顽固的	tigj uwf guk dev	117
@@ -1170005,6 +1170086,7 @@ sort: by_weight
 脱水作业	tod shuej zok iek	45
 脱水作用	tod shuej zok ygk	374
 托斯卡纳	tod sid kaj nak	358
+托斯卡纳	tod sid kaj nak	358
 脱酸干馏	tod suwd gwd liuf	45
 脱酸作用	tod suwd zok ygk	45
 脱髓鞘病	tod suej qok bigk	9
@@ -1173903,6 +1173985,7 @@ sort: by_weight
 玩些什么	uwf xed shnf mev	25
 晚些时候	uwj xed shif houv	380
 玩心不退	uwf xnd buf tuek	99
+皖新传媒	uwj xnd chuwf meif	580
 玩心大发	uwf xnd dak fad	369
 玩心大起	uwf xnd dak qij	504
 玩心很重	uwf xnd hnj zhugk	35
@@ -1173910,7 +1173993,6 @@ sort: by_weight
 玩新模式	uwf xnd mof shik	45
 玩心太重	uwf xnd taik zhugk	9
 剜心摘胆	uwd xnd zhaid dwj	99
-皖新传媒	uwj xnd zhuwk meif	580
 万兴百货	uwk xgd baij hok	4
 完形崩溃	uwf xgf bgd kuek	230
 完形测验	uwf xgf cek iwk	45
@@ -1173981,6 +1174063,7 @@ sort: by_weight
 万一出事	uwk ik chud shik	558
 玩一次啊	uwf if cik av	171
 万亿大关	uwk ik dak guwd	603
+晚一点点	uwj ik diwj diwj	50
 晚一点去	uwj ik diwj qyk	508
 玩意儿啊	uwf ik erv av	66
 万亿法郎	uwk ik faj lrf	50
@@ -1179355,7 +1179438,7 @@ sort: by_weight
 微软边缘	ued ruwj biwd ywf	50
 微软标志	ued ruwj biod zhik	207
 微软产品	ued ruwj chwj pinj	648
-微软发布	ued ruwj fak buk	94
+微软发布	ued ruwj fad buk	94
 微软公司	ued ruwj gugd sid	524
 微软官方	ued ruwj guwd frd	311
 未软化水	uek ruwj huak shuej	4
@@ -1179390,6 +1179473,8 @@ sort: by_weight
 围三阙一	uef swd qued id	52
 为啥不接	uek shaf buk jed	292
 为啥没有	uek shaf meif iuj	484
+为啥又是	uek shaf iuk shik	261
+为啥有时	uek shaf iuj shif	32
 为啥子啊	uek shaf ziv av	50
 为啥子不	uek shaf ziv buk	346
 为啥子了	uek shaf ziv lev	76
@@ -1184270,7 +1184355,7 @@ sort: by_weight
 我不要脸	oj buf iok liwj	626
 我不要名	oj buf iok migf	306
 我不要你	oj buf iok nij	176
-我不要求	oj buf iod quf	644
+我不要求	oj buk iod quf	644
 我不要他	oj buf iok tad	44
 我不要她	oj buf iok tad	40
 我不要也	oj buf iok iej	302
@@ -1191073,7 +1191158,7 @@ sort: by_weight
 无法言喻	uf faj iwf yk	729
 无法言语	uf faj iwf yj	608
 无法验证	uf faj iwk zhgk	333
-无法要求	uf faj iok quf	558
+无法要求	uf faj iod quf	558
 无法移动	uf faj if dugk	267
 无法抑制	uf faj ik zhik	801
 无法医治	uf faj id zhik	479
@@ -1193335,8 +1193420,8 @@ sort: by_weight
 无论穷富	uf lunk qugf fuk	52
 无论如何	uf lunk ruf hef	14378
 五轮沙漏	uj lunf shad louk	162
+无论什么	uf lunk shnf mev	1282
 无论是从	uf lunk shik cugf	1125
-无论什么	uf lunk shif mev	1282
 无论是谁	uf lunk shik shuef	927
 无论魏晋	uf lunk uek jnk	57
 无论以后	uf lunk ij houk	580
@@ -1201828,6 +1201913,8 @@ sort: by_weight
 细针密缕	xik zhnd mik lyj	130
 细针密线	xik zhnd mik xwk	6
 吸震能力	xid zhnk ngf lik	230
+洗枕头套	xij zhnj touv taok	36
+洗枕头芯	xij zhnj touv xnd	36
 西政大学	xid zhgk dak xuef	76
 系争房屋	xik zhgd frf ud	22
 西证渝富	xid zhgk yf fuk	50
@@ -1203438,11 +1203525,11 @@ sort: by_weight
 下周大盘	xak zhoud dak pwf	670
 下周二晚	xak zhoud erk uwj	387
 下周股市	xak zhoud guj shik	504
+下周行情	xak zhoud hrf qgf	684
 瞎诌胡咧	xad zhoud huf liej	45
 下周就考	xak zhoud juk kaoj	194
 下周开始	xak zhoud kaid shij	82
 下粥小菜	xak zhoud xoj caik	52
-下周行情	xak zhoud xgf qgf	684
 下周走势	xak zhoud zouj shik	657
 下逐客令	xak zhuf kek ligk	31
 下侏罗统	xak zhud lof tugj	52
@@ -1207512,7 +1207599,7 @@ sort: by_weight
 想吃啥了	xrj chid shaf lev	202
 想吃啥呀	xrj chid shaf iav	117
 想吃啥子	xrj chid shaf ziv	288
-想吃什么	xrj chid shif mev	1260
+想吃什么	xrj chid shnf mev	1260
 香豉四合	xrd chij sik hef	45
 想吃甜食	xrj chid tiwf shif	549
 相持未决	xrd chif uek juef	153
@@ -1210352,7 +1210439,7 @@ sort: by_weight
 想说的是	xrj shod dev shik	1395
 想说明啥	xrj shod migf shaf	252
 想说啥子	xrj shod shaf ziv	117
-想说什么	xrj shod shif mev	1264
+想说什么	xrj shod shnf mev	1264
 想说一句	xrj shod if jyk	1008
 想说一下	xrj shod if xak	914
 想死啊你	xrj sij av nij	117
@@ -1211783,7 +1211870,7 @@ sort: by_weight
 小便短黄	xoj biwk duwj hurf	405
 小便短少	xoj biwk duwj shaoj	432
 小便发黄	xoj biwk fad hurf	441
-小编发现	xoj biwd fak xwk	792
+小编发现	xoj biwd fad xwk	792
 小便分叉	xoj biwk fnd chak	338
 小编感觉	xoj biwd gwj juef	6
 小编告诉	xoj biwd gaok suk	832
@@ -1215258,10 +1215345,10 @@ sort: by_weight
 小学同学	xoj xuef tugf xuef	826
 小学文化	xoj xuef unf huak	192
 小学习巷	xoj xuef xif xrk	292
-小学校长	xoj xuef xok chrf	994
 小学校服	xoj xuef xok fuf	19
 小学校徽	xoj xuef xok hued	171
 小学校友	xoj xuef xok iuj	400
+小学校长	xoj xuef xok zhrj	994
 小学学历	xoj xuef xuef lik	544
 小学学生	xoj xuef xuef shgd	819
 小雪养生	xoj xuej irj shgd	45
@@ -1216342,7 +1216429,6 @@ sort: by_weight
 协商不成	xef shrd buk chgf	774
 协商处理	xef shrd chuj lij	706
 写上答案	xej shrk daf ank	297
-协商调解	xef shrd diok jej	554
 协商分期	xef shrd fnd qid	279
 协商共治	xef shrd gugk zhik	153
 协商会议	xef shrd huek ik	1089
@@ -1216355,6 +1216441,7 @@ sort: by_weight
 写上名字	xej shrk migf zik	44
 协商确定	xef shrd quek digk	945
 协商谈判	xef shrd twf pwk	594
+协商调解	xef shrd tiof jej	554
 协商未果	xef shrd uek goj	626
 写上我们	xej shrk oj mnv	346
 协商无果	xef shrd uf goj	608
@@ -1217282,6 +1217369,7 @@ sort: by_weight
 新出台的	xnd chud taif dev	122
 信川康氏	xnk chuwd krd shik	194
 心传口授	xnd chuwf kouj shouk	117
+新传媒报	xnd chuwf meif baok	130
 新川日常	xnd chuwd rik chrf	4
 新川沙路	xnd chuwd shad luk	50
 信创产业	xnk churk chwj iek	274
@@ -1218854,8 +1218942,8 @@ sort: by_weight
 心里发毛	xnd lij fad maof	698
 心里发虚	xnd lij fad xyd	513
 心里发痒	xnd lij fad irj	374
-心理发育	xnd lij fak yk	693
-心理发展	xnd lij fak zhwj	855
+心理发育	xnd lij fad yk	693
+心理发展	xnd lij fad zhwj	855
 心里烦啊	xnd lij fwf av	153
 心里烦的	xnd lij fwf dev	288
 心里烦闷	xnd lij fwf mnk	459
@@ -1221920,7 +1222008,6 @@ sort: by_weight
 心著欲境	xnd zhuk yk jgk	76
 新专辑里	xnd zhuwd jif lij	567
 新专辑中	xnd zhuwd jif zhugd	657
-新传媒报	xnd zhuwk meif baok	130
 心转物移	xnd zhuwj uk if	50
 心状梨叶	xnd zhurk lif iek	76
 辛庄路口	xnd zhurd luk kouj	418
@@ -1223717,7 +1223804,7 @@ sort: by_weight
 形势研判	xgf shik iwf pwk	364
 形式演算	xgf shik iwj suwk	4
 形式要件	xgf shik iok jwk	122
-形势要求	xgf shik iok quf	459
+形势要求	xgf shik iod quf	459
 形式一致	xgf shik if zhik	60
 醒世姻缘	xgj shik ind ywf	400
 形式语言	xgf shik yj iwf	176
@@ -1229365,8 +1229452,8 @@ sort: by_weight
 学生德育	xuef shgd def yk	387
 学生登录	xuef shgd dgd luk	374
 学生动源	xuef shgd dugk ywf	405
-学生发型	xuef shgd fak xgf	392
-学生发展	xuef shgd fak zhwj	896
+学生发型	xuef shgd fad xgf	392
+学生发展	xuef shgd fad zhwj	896
 学生返乡	xuef shgd fwj xrd	495
 学生反映	xuef shgd fwj igk	711
 学生放假	xuef shgd frk jak	621
@@ -1232488,7 +1232575,7 @@ sort: by_weight
 鸭子上架	iad ziv shrk jak	778
 睚眦之隙	iaf zik zhid xik	45
 睚眦之嫌	iaf zik zhid xwf	45
-亚组分析	iak zuj fnk xid	418
+亚组分析	iak zuj fnd xid	418
 压阻效应	iad zuj xok igk	266
 鸭嘴火兽	iad zuej hoj shouk	144
 鸭嘴炎兽	iad zuej iwf shouk	76
@@ -1239292,6 +1239379,7 @@ sort: by_weight
 也被吓着	iej beik xak zhev	284
 也比较好	iej bij jok haoj	1184
 也比较杂	iej bij jok zaf	526
+也变一变	iej biwk if biwk	380
 夜别妻儿	iek bief qid erf	117
 也并不是	iej bigk buf shik	1278
 野病毒株	iej bigk duf zhud	189
@@ -1241493,7 +1241581,7 @@ sort: by_weight
 夜住晓行	iek zhuk xoj xgf	306
 业主信息	iek zhuj xnk xid	562
 野猪养殖	iej zhud irj zhif	220
-业主要求	iek zhuj iok quf	585
+业主要求	iek zhuj iod quf	585
 野猪咬伤	iej zhud ioj shrd	171
 也主要是	iej zhuj iok shik	842
 野猪一家	iej zhud ik jad	144
@@ -1242038,7 +1242126,6 @@ sort: by_weight
 一般的人	ik bwd dev rnf	52
 一般的是	ik bwd dev shik	612
 一般地说	ik bwd dev shod	107
-一般的说	ik bwd dev shod	57
 一般的小	ik bwd dev xoj	1071
 一半的心	if bwk dev xnd	513
 一般电机	ik bwd diwk jid	230
@@ -1244328,7 +1244415,7 @@ sort: by_weight
 一点点油	ik diwj diwj iuf	706
 仪电电子	if diwk diwk zij	459
 一点动静	ik diwj dugk jgk	837
-亿点东西	ik diwj dugd xiv	50
+一点东西	ik diwj dugd xiv	750
 一点都不	ik diwj doud buk	10167
 一点都没	ik diwj doud meif	967
 一点多时	ik diwj dod shif	266
@@ -1245250,7 +1245337,7 @@ sort: by_weight
 依法严处	id faj iwf chuj	306
 依法严打	id faj iwf daj	130
 依法养犬	id faj irj quwj	248
-依法要求	id faj iok quf	16
+依法要求	id faj iod quf	16
 一发一个	ik fad if gek	356
 依法依规	id faj id gued	1022
 依法依纪	id faj id jik	657
@@ -1253230,7 +1253317,7 @@ sort: by_weight
 医生都说	id shgd doud shod	314
 一声断喝	ik shgd duwk hek	490
 一省多卷	ik shgj dod juwj	4
-医生发现	id shgd fak xwk	864
+医生发现	id shgd fad xwk	864
 一生烦恼	ik shgd fwf naoj	99
 一生奋斗	ik shgd fnk douk	423
 一生风流	ik shgd fgd liuf	310
@@ -1262529,7 +1262616,11 @@ sort: by_weight
 隐形牙箍	inj xgf iaf gud	99
 隐形眼镜	inj xgf iwj jgk	3492
 银杏洋参	inf xgk irf shnd	45
+银杏叶黄	inf xgk iek hurf	378
+银杏叶片	inf xgk iek piwk	13
 银杏叶片	inf xgk iek piwk	10
+银杏叶丸	inf xgk iek uwf	117
+银杏叶子	inf xgk iek ziv	428
 隐形义齿	inj xgf ik chij	243
 隐性遗传	inj xgk if chuwf	88
 银杏芋泥	inf xgk yk nif	76
@@ -1268362,6 +1268453,8 @@ sort: by_weight
 优点介绍	iud diwj jek shaok	279
 有点紧张	iuj diwj jnj zhrd	1042
 有点纠结	iuj diwj jud jef	846
+有点旧了	iuj diwj juk lev	61
+有点久了	iuj diwj juj lev	28
 优点就是	iud diwj juk shik	1116
 有点距离	iuj diwj jyk lif	163
 有点看法	iuj diwj kwk faj	396
@@ -1274445,7 +1274538,7 @@ sort: by_weight
 游游荡荡	iuf iuf drk drk	25
 油油的灯	iuf iuf dev dgd	162
 悠悠的来	iud iud dev laif	472
-幽幽的说	iud iud dev shod	652
+幽幽地说	iud iud dev shod	652
 悠悠的云	iud iud dev ynf	194
 又有地狱	iuk iuj dik yk	99
 又有多大	iuk iuj dod dak	747
@@ -1286172,6 +1286265,7 @@ sort: by_weight
 再就业率	zaik juk iek lyk	162
 再就业者	zaik juk iek zhej	238
 在就遇到	zaik juk yk daok	248
+在就在吧	zaik juk zaik bav	61
 载具墓地	zaik jyk muk dik	4
 再聚上了	zaik jyk shrk lev	45
 再具体点	zaik jyk tij diwj	495
@@ -1294503,6 +1294597,7 @@ sort: by_weight
 这副场面	zhek fuk chrj miwk	414
 这副德行	zhek fuk def xgv	116
 这副德性	zhek fuk def xgv	104
+这副屌样	zhek fuk dioj irk	20
 这副对联	zhek fuk duek liwf	526
 蛰伏多年	zhef fuf dod niwf	446
 浙富股份	zhek fuk guj fnk	99
@@ -1294511,7 +1294606,6 @@ sort: by_weight
 这副模样	zhek fuk muf irk	327
 折伏摄受	zhef fuf shek shouk	4
 这副样子	zhek fuk irk ziv	229
-这幅样子	zhek fuf irk ziv	206
 蛰伏已久	zhef fuf ij juj	410
 这该不是	zhek gaid buf shik	6
 这该换了	zhek gaid huwk lev	4
@@ -1295065,7 +1295159,7 @@ sort: by_weight
 折旧系数	zhef juk xik shuk	117
 这就行了	zhek juk xgf lev	540
 这就需要	zhek juk xyd iok	5979
-这就要求	zhek juk iok quf	2813
+这就要求	zhek juk iod quf	2813
 这就已经	zhek juk ij jgd	465
 这就依然	zhek juk id rwf	76
 折旧政策	zhef juk zhgk cek	450
@@ -1295352,7 +1295446,7 @@ sort: by_weight
 这么理解	zhek mev lij jej	2154
 这么离谱	zhek mev lif puj	480
 这么凉快	zhek mev lirf kuik	356
-这么啰唆	zhek mev lod sod	130
+这么啰唆	zhek mev lod sov	130
 这么麻烦	zhek mev maf fwv	1159
 这么埋汰	zhek mev maif taik	387
 这么慢呢	zhek mev mwk nev	52
@@ -1301772,7 +1301866,7 @@ sort: by_weight
 郑铁六中	zhgk tiej liuk zhugd	4
 正铁氧体	zhgk tiej irj tij	180
 郑铁中院	zhgk tiej zhugd ywk	130
-正厅长级	zhgk tigd chrf jif	428
+正厅长级	zhgk tigd zhrj jif	428
 证通电子	zhgk tugd diwk zij	504
 整同调群	zhgj tugf diok qunf	4
 正通集团	zhgk tugd jif tuwf	202
@@ -1305157,6 +1305251,7 @@ sort: by_weight
 知瓜数据	zhid guad shuk jyk	45
 志怪者也	zhik guik zhej iej	248
 只怪自己	zhij guik zik jij	738
+直观得很	zhif guwd dev hnj	201
 智冠电子	zhik guwd diwk zij	144
 止观法门	zhij guwd faj mnf	292
 直观反映	zhif guwd fwj igk	536
@@ -1308931,6 +1309026,8 @@ sort: by_weight
 只是大二	zhij shik dak erk	338
 知识大全	zhid shiv dak quwf	742
 知识大赛	zhid shiv dak saik	410
+知识大赏	zhid shiv dak shrj	50
+只是打赏	zhij shik daj shrj	34
 只是打算	zhij shik daj suwk	634
 知识答题	zhid shiv daf tif	400
 枳实大者	zhij shif dak zhej	45
@@ -1309879,7 +1309976,7 @@ sort: by_weight
 只为等你	zhij uek dgj nij	410
 职位低下	zhif uek did xak	171
 置为顶层	zhik uef digj cgf	4
-职位分析	zhif uek fnk xid	562
+职位分析	zhif uek fnd xid	562
 只为更好	zhij uek ggk haoj	468
 至为关键	zhik uef guwd jwk	472
 职位回答	zhif uek huef daf	117
@@ -1311590,7 +1311687,6 @@ sort: by_weight
 支着帐篷	zhid zhev zhrk pgf	180
 智者之虑	zhik zhej zhid lyk	189
 致臻版款	zhik zhnd bwj kuwj	50
-智真长老	zhik zhnd chrf laoj	382
 指针常量	zhij zhnd chrf lirk	310
 指针函数	zhij zhnd hwf shuk	351
 致真酒家	zhik zhnd juj jad	248
@@ -1311601,6 +1311697,7 @@ sort: by_weight
 至臻商店	zhik zhnd shrd diwk	45
 至臻完美	zhik zhnd uwf meij	405
 至臻系列	zhik zhnd xik liek	4
+智真长老	zhik zhnd zhrj laoj	382
 至真至诚	zhik zhnd zhik chgf	19
 至真至纯	zhik zhnd zhik chunf	477
 至真至美	zhik zhnd zhik meij	333
@@ -1311700,6 +1311797,7 @@ sort: by_weight
 直至今天	zhif zhik jnd tiwd	702
 执之炬烛	zhif zhid jyk zhuf	76
 制止浪费	zhik zhij lrk feik	274
+枝枝蔓蔓	zhid zhid mwk mwk	35
 直至灭亡	zhif zhik miek urf	297
 直至目前	zhif zhik muk qwf	526
 植脂奶油	zhif zhid naij iuf	436
@@ -1311726,7 +1311824,6 @@ sort: by_weight
 吱吱歪歪	zhid zhid uid uid	270
 直至完成	zhif zhik uwf chgf	536
 纸制玩具	zhij zhik uwf jyk	117
-枝枝蔓蔓	zhid zhid uwk mwk	35
 直直望着	zhif zhif urk zhev	369
 制止违法	zhik zhij uef faj	464
 知之为知	zhid zhid uef zhid	616
@@ -1316259,7 +1316356,7 @@ sort: by_weight
 众圣点记	zhugk shgk diwj jik	180
 中生动物	zhugd shgd dugk uk	248
 众生度尽	zhugk shgd duk jnk	3
-终生发展	zhugd shgd fak zhwj	346
+终生发展	zhugd shgd fad zhwj	346
 终生服务	zhugd shgd fuf uk	256
 终生服药	zhugd shgd fuf iok	540
 中盛光电	zhugd shgk gurd diwk	130
@@ -1328053,7 +1328150,7 @@ sort: by_weight
 资金青睐	zid jnd qgd laik	662
 资金清算	zid jnd qgd suwk	724
 资金渠道	zid jnd qyf daok	100
-资金曲线	zid jnd qyj xwk	626
+资金曲线	zid jnd qyd xwk	626
 资金去向	zid jnd qyk xrk	639
 资金缺乏	zid jnd qued faf	626
 资金缺口	zid jnd qued kouj	878
@@ -1330804,9 +1330901,9 @@ sort: by_weight
 自制武器	zik zhik uj qik	392
 自制系统	zik zhik xik tugj	38
 自治系统	zik zhik xik tugj	34
-自治县长	zik zhik xwk chrf	356
 自制咸蛋	zik zhik xwf dwk	76
 自治县委	zik zhik xwk uej	486
+自治县长	zik zhik xwk zhrj	356
 自治小区	zik zhik xoj qyd	180
 自治小组	zik zhik xoj zuj	266
 资质许可	zid zhik xyj kej	549
@@ -1331371,6 +1331468,7 @@ sort: by_weight
 综合功能	zugd hef gugd ngf	616
 综合工区	zugd hef gugd qyd	99
 总和公式	zugj hef gugd shik	99
+综合公园	zugd hef gugd ywf	450
 综合管道	zugd hef guwj daok	130
 综合管理	zugd hef guwj lij	392
 综合管网	zugd hef guwj urj	297
@@ -1332709,6 +1332807,7 @@ sort: by_weight
 走向失控	zouj xrk shid kugk	324
 走向衰落	zouj xrk shuid lok	349
 走向死亡	zouj xrk sij urf	528
+走乡随乡	zouj xrd suef xrd	10
 走向统一	zouj xrk tugj id	495
 走向未来	zouj xrk uek laif	210
 走向未知	zouj xrk uek zhid	428
@@ -1332779,6 +1332878,7 @@ sort: by_weight
 足柄下郡	zuf bigj xak junk	428
 足病医生	zuf bigk id shgd	180
 足兵足食	zuf bigd zuf shif	16
+足不出村	zuf buk chud cund	10
 足不出户	zuf buk chud huk	1353
 足不出门	zuf buk chud mnf	13
 租不出去	zud buk chud qyk	116
@@ -1333824,6 +1333924,7 @@ sort: by_weight
 钻石之核	zuwk shif zhid hef	117
 钻石指环	zuwk shif zhij huwf	117
 钻石之王	zuwk shif zhid urf	279
+钻死胡同	zuwd sij huf tugk	238
 钻速录井	zuwd suk luk jgj	45
 钻燧改火	zuwd suek gaij hoj	99
 钻燧取火	zuwd suek qyj hoj	238
@@ -1334031,6 +1334132,7 @@ sort: by_weight
 最大的官	zuek dak dev guwd	590
 最大的雪	zuek dak dev xuej	410
 最大的鱼	zuek dak dev yf	616
+最大的镇	zuek dak dev zhnk	10
 最大等级	zuek dak dgj jif	382
 最大电流	zuek dak diwk liuf	50
 最大动力	zuek dak dugk lik	824
@@ -1335482,7 +1335584,7 @@ sort: by_weight
 最有用的	zuek iuj ygk dev	52
 最有勇气	zuek iuj ygj qik	432
 最有优势	zuek iuj iud shik	639
-最有缘分	zuek iuj ywf fnd	310
+最有缘分	zuek iuj ywf fnk	310
 最有远见	zuek iuj ywj jwk	382
 最有韵味	zuek iuj ynk uek	495
 最有争议	zuek iuj zhgd ik	621
@@ -1336255,7 +1336357,6 @@ sort: by_weight
 作风建设	zok fgd jwk shek	35
 做风控的	zok fgd kugk dev	88
 作风漂浮	zok fgd piod fuf	315
-作风飘浮	zok fgd piod fuf	160
 作风问题	zok fgd unk tif	170
 作风务实	zok fgd uk shif	342
 作风效能	zok fgd xok ngf	410
@@ -1339640,6 +1339741,7 @@ sort: by_weight
 斑点红血丝	bwd diwj hugf xuek sid	10
 斑点鸡笼鲳	bwd diwj jid lugf chrd	10
 斑点九棘鲈	bwd diwj juj jif luf	10
+办点其他事	bwk diwj qif tad shik	10
 搬掉绊脚石	bwd diok bwk joj shif	10
 坂东玉三郎	bwj dugd yk swd lrf	10
 班多布拉斯	bwd dod buk lad sid	10
@@ -1340558,6 +1340660,8 @@ sort: by_weight
 背后的人物	beik houk dev rnf uk	10
 背后的深意	beik houk dev shnd ik	10
 背后的势力	beik houk dev shik lik	10
+背后的辛酸	beik houk dev xnd suwd	12
+背后的心酸	beik houk dev xnd suwd	10
 背后的隐情	beik houk dev inj qgf	10
 背后的真实	beik houk dev zhnd shif	10
 北环城路站	beij huwf chgf luk zhwk	10
@@ -1341484,7 +1341588,7 @@ sort: by_weight
 必胜的决心	bik shgk dev juef xnd	10
 必胜的信念	bik shgk dev xnk niwk	10
 必胜的信心	bik shgk dev xnk xnd	10
-毕生发展观	bik shgd fak zhwj guwd	10
+毕生发展观	bik shgd fad zhwj guwd	10
 鄙视的眼神	bij shik dev iwj shnf	10
 避实而击虚	bik shif erf jid xyd	10
 笔试和面试	bij shik hef miwk shik	10
@@ -1350799,6 +1350903,7 @@ sort: by_weight
 蒂塔万提斯	dik taj uwk tif sid	10
 地坛体育场	dik twf tij yk chrj	10
 地坛体育馆	dik twf tij yk guwj	10
+底特律变人	dij tek lyk biwk rnf	10
 地特胰岛素	dik tek if daoj suk	10
 地铁长阳站	dik tiej chrf irf zhwk	10
 地铁大厦站	dik tiej dak shak zhwk	10
@@ -1357538,7 +1357643,7 @@ sort: by_weight
 浮则汗自出	fuf zef hwk zik chud	10
 富泽美智惠	fuk zef meij zhik huek	10
 负责任大国	fuk zef rnk dak gof	10
-负责任地说	fuk zef rnk dik shod	10
+负责任地说	fuk zef rnk dev shod	10
 负责任态度	fuk zef rnk taik duk	10
 伏则小便难	fuf zef xoj biwk nwf	10
 负债和权益	fuk zhaik hef quwf ik	10
@@ -1366767,7 +1366872,6 @@ sort: by_weight
 获得冠军后	hok def guwk jund houk	10
 活得还不错	hof dev haif buf cok	10
 活得好好的	hof dev haoj haod dev	10
-活的好好的	hof dev haoj haoj dev	10
 活得很好呀	hof dev hnj haoj iav	10
 活得很潇洒	hof dev hnj xod saj	10
 活得很辛苦	hof dev hnj xnd kuj	10
@@ -1366775,13 +1366879,13 @@ sort: by_weight
 活得很滋味	hof dev hnj zid uek	10
 活得开心点	hof dev kaid xnd diwj	10
 获得了回报	hok def lev huef baok	10
-活的明白些	hof dev migf baiv xed	10
+活得明白些	hof dev migf baiv xed	10
 获得名次的	hok def migf cik dev	10
 活得有意义	hof dev iuj ik ik	10
-活的有滋味	hof dev iuj zid uek	10
+活得有滋味	hof def iuj zid uek	10
 活得有尊严	hof dev iuj zund iwf	10
 火德真君庙	hoj def zhnd jund miok	10
-活的自在点	hof dev zik zaik diwj	10
+活得自在点	hof dev zik zaik diwj	10
 霍迪科夫岛	hok dif ked fud daoj	10
 或电子邮件	hok diwk zij iuf jwk	10
 活动标架法	hof dugk biod jak faj	10
@@ -1366794,9 +1366898,9 @@ sort: by_weight
 或多或少都	hok dod hok shaoj doud	10
 惑而不从师	hok erf buk cugf shid	10
 霍尔传感器	hok erj chuwf gwj qik	10
-霍耳发生器	hok erj fad shgd qik	10
+霍尔发生器	hok erj fad shgd qik	10
 霍尔木兹岛	hok erj muk zid daoj	10
-霍耳探测器	hok erj twk cek qik	10
+霍尔探测器	hok erj twk cek qik	10
 或费米分布	hok feik mij fnd buk	10
 或非型闪存	hok feid xgf shwj cunf	10
 祸港四人帮	hok grj sik rnf brd	10
@@ -1369065,7 +1369169,7 @@ sort: by_weight
 见变化之朕	jwk biwk huak zhid zhnk	10
 渐变灰滤镜	jwk biwk hued lyk jgk	10
 简并半导体	jwj bigk bwk daoj tij	10
-煎饼果子摊	jwd bigv goj ziv twd	10
+煎饼馃子摊	jwd bigv goj ziv twd	10
 简并态物质	jwj bigk taik uk zhik	10
 兼并与收购	jwd bigk yj shoud gouk	10
 箭步冲上前	jwk buk chugd shrk qwf	10
@@ -1370465,6 +1370569,7 @@ sort: by_weight
 交直流电源	jod zhif liuf diwk ywf	10
 交直流两用	jod zhif liuf lirj ygk	10
 角质煤素质	joj zhik meif suk zhik	10
+脚指头断了	joj zhij touv duwk lev	10
 胶质细胞瘤	jod zhik xik baod liuf	10
 矫治心理学	joj zhik xnd lij xuef	10
 交州刺史部	jod zhoud cik shij buk	10
@@ -1370828,7 +1370933,7 @@ sort: by_weight
 皆为劳得之	jed uef laof def zhid	10
 截尾平均数	jef uej pigf jund shuk	10
 借我一场秋	jek oj ik chrj qud	10
-姐无奈的说	jej uf naik dev shod	10
+姐无奈地说	jej uf naik dev shod	10
 洁西卡艾芭	jef xid kaj aik bad	10
 洁西卡琼斯	jef xid kaj qugf sid	10
 揭西客家话	jed xid kek jad huak	10
@@ -1376418,7 +1376523,7 @@ sort: by_weight
 冷空气杀到	lgj kugd qik shad daok	10
 冷冷的冰雨	lgj lgj dev bigd yj	10
 愣愣地看着	lgk lgk dev kwk zhev	10
-冷冷的说道	lgj lgj dev shod daok	10
+冷冷地说道	lgj lgj dev shod daok	10
 冷落清秋节	lgj lok qgd qud jef	10
 冷萌理工男	lgj mgf lij gugd nwf	10
 冷漠与温柔	lgj mok yj und rouf	10
@@ -1376544,7 +1376649,7 @@ sort: by_weight
 利福平胶囊	lik fuf pigf jod nrf	10
 利弗希茨点	lik fuf xid cif diwj	10
 丽芙与麦蒂	lik fuf yj maik dik	10
-沥干水分后	lik gwd shuej fnd houk	10
+沥干水分后	lik gwd shuej fnk houk	10
 离岗不离党	lif grj buk lif drj	10
 利戈夫斯基	lik ged fud sid jid	10
 离宫八幡宫	lif gugd bad fwd gugd	10
@@ -1382730,7 +1382835,7 @@ sort: by_weight
 楠米托克基	nwf mij tod kek jid	10
 难眠的夜晚	nwf miwf dev iek uwj	10
 难民和移民	nwk minf hef if minf	10
-喃喃的说道	nwf nwf dev shod daok	10
+喃喃地说道	nwf nwf dev shod daok	10
 男男女女们	nwf nwf nyj nyj mnv	10
 男男同性恋	nwf nwf tugf xgk liwk	10
 南宁局集团	nwf nigf jyf jif tuwf	10
@@ -1386006,7 +1386111,7 @@ sort: by_weight
 起飞的小鸟	qij feid dev xoj nioj	10
 起飞和降落	qij feid hef jrk lok	10
 气氛的烘托	qik fnd dev hugd tod	10
-气愤的说道	qik fnk dev shod daok	10
+气愤地说道	qik fnk dev shod daok	10
 气氛的渲染	qik fnd dev xuwk rwj	10
 气氛的营造	qik fnd dev igf zaok	10
 七分牛仔裤	qid fnd niuf zaij kuk	10
@@ -1386645,6 +1386750,8 @@ sort: by_weight
 其中的艰辛	qif zhugd dev jwd xnd	10
 其中的人物	qif zhugd dev rnf uk	10
 其中的深意	qif zhugd dev shnd ik	10
+其中的辛酸	qif zhugd dev xnd suwd	12
+其中的心酸	qif zhugd dev xnd suwd	10
 其中的一部	qif zhugd dev if buk	10
 其中的一位	qif zhugd dev if uek	10
 其中的一只	qif zhugd dev ik zhid	10
@@ -1391037,6 +1391144,9 @@ sort: by_weight
 三角函数线	swd joj hwf shuk xwk	10
 三教合归儒	swd jok hef gued ruf	10
 三角化引理	swd joj huak inj lij	10
+三角肌后束	swd joj jid houk shuk	10
+三角肌前束	swd joj jid qwf shuk	10
+三角肌中束	swd joj jid zhugd shuk	10
 三角视差法	swd joj shik chak faj	10
 三角图反常	swd joj tuf fwj chrf	10
 三焦无所御	swd jod uf soj yk	10
@@ -1393019,6 +1393129,7 @@ sort: by_weight
 深交所主板	shnd jod soj zhuj bwj	10
 伸筋丹胶囊	shnd jnd dwd jod nrf	10
 伸筋活络丸	shnd jnd hof lok uwf	10
+神经传递素	shnf jgd chuwf dik suk	10
 神经根性痛	shnf jgd gnd xgk tugk	10
 神经管畸形	shnf jgd guwj jid xgf	10
 神经和血管	shnf jgd hef xuek guwj	10
@@ -1393031,7 +1393142,6 @@ sort: by_weight
 神经性贪食	shnf jgd xgk twd shif	10
 神经性厌食	shnf jgd xgk iwk shif	10
 神经元变性	shnf jgd ywf biwk xgk	10
-神经传递素	shnf jgd zhuwk dik suk	10
 肾开窍于耳	shnk kaid qok yf erj	10
 深刻的变革	shnd kek dev biwk gef	10
 深刻地反思	shnd kek dev fwj sid	10
@@ -1397163,6 +1397273,7 @@ sort: by_weight
 收支不平衡	shoud zhid buk pigf hgf	10
 收支两条线	shoud zhid lirj tiof xwk	10
 收支平衡点	shoud zhid pigf hgf diwj	10
+手指头断了	shouj zhij touv duwk lev	10
 首支预告片	shouj zhid yk gaok piwk	10
 手中的长剑	shouj zhugd dev chrf jwk	10
 手中的筹码	shouj zhugd dev chouf maj	10
@@ -1399384,9 +1399495,7 @@ sort: by_weight
 所发生的事	soj fad shgd dev shik	10
 所犯的错误	soj fwk dev cok uk	10
 索菲罗城堡	soj feid lof chgf baoj	10
-索菲娅公主	soj feid iak gugd zhuj	10
 索菲亚公主	soj feid iak gugd zhuj	10
-嗦粉克不咯	sov fnj kek buk ged	10
 索佛克里斯	soj fof kek lij sid	10
 所负的债务	soj fuk dev zhaik uk	10
 索福克勒斯	soj fuf kek lek sid	10
@@ -1400047,7 +1400156,7 @@ sort: by_weight
 弹簧腿杰克	twf hurf tuej jef kek	10
 谈婚论嫁时	twf hund lunk jak shif	10
 谭家三展拳	twf jad swd zhwj quwf	10
-摊煎饼果子	twd jwd bigv goj ziv	10
+摊煎饼馃子	twd jwd bigv goj ziv	10
 坦克歼击营	twj kek jwd jid igf	10
 坦克手贝塔	twj kek shouj beik taj	10
 贪婪与恐惧	twd lwf yj kugj jyk	10
@@ -1408758,6 +1408867,7 @@ sort: by_weight
 象棋公开赛	xrk qif gugd kaid saik	10
 香气和味道	xrd qik hef uek daok	10
 象棋锦标赛	xrk qif jnj biod saik	10
+想起就心酸	xrj qij juk xnd suwd	10
 象棋俱乐部	xrk qif jyk lek buk	10
 象棋类游戏	xrk qif leik iuf xik	10
 相期邈云汉	xrd qid mioj ynf hwk	10
@@ -1409524,7 +1409634,6 @@ sort: by_weight
 小美牛肝菌	xoj meij niuf gwd jund	10
 小美洲黑雁	xoj meij zhoud heid iwk	10
 小门鲸鱼洞	xoj mnf jgd yf dugk	10
-小米虫虫翔	xoj mij chugf chugf xrf	10
 小咪大喇叭	xoj mid dak laj bav	10
 小米的产品	xoj mij dev chwj pinj	10
 小米的成功	xoj mij dev chgf gugd	10
@@ -1409535,7 +1409644,7 @@ sort: by_weight
 小米和红米	xoj mij hef hugf mij	10
 小米和苹果	xoj mij hef pigf goj	10
 小米加步枪	xoj mij jad buk qrd	10
-笑眯眯地说	xok mid mid dik shod	10
+笑眯眯地说	xok mid mid dev shod	10
 小密苏里河	xoj mik sud lij hef	10
 小米特尼克	xoj mij tek nif kek	10
 消弭于无形	xod mij yf uf xgf	10
@@ -1409593,7 +1409702,6 @@ sort: by_weight
 小朋友们玩	xoj pgf iuv mnv uwf	10
 笑贫不笑娼	xok pinf buf xok chrd	10
 小屏爱好者	xoj pigf aik haok zhej	10
-萧平实导师	xod pigf shif daoj shid	10
 小普济尔基	xoj puj jik erj jid	10
 肖普朗大学	xod puj lrj dak xuef	10
 小普里齐基	xoj puj lij qif jid	10
@@ -1409615,7 +1409723,6 @@ sort: by_weight
 小箐口水库	xoj qgk kouj shuej kuk	10
 小青龙合剂	xoj qgd lugf hef jik	10
 小青蛙呱呱	xoj qgd uad guad guad	10
-小鲭鱼薇薇	xoj qgd yf ued ued	10
 消球差透镜	xod quf chak touk jgk	12
 小球的动能	xoj quf dev dugk ngf	10
 小区的保安	xoj qyd dev baoj and	10
@@ -1409805,7 +1409912,6 @@ sort: by_weight
 潇湘在何处	xod xrd zaik hef chuk	10
 萧萧班马鸣	xod xod bwd maj migf	10
 笑笑不说话	xok xok buk shod huak	10
-笑笑的离开	xok xok dev lif kaid	10
 萧萧联络线	xod xod liwf lok xwk	10
 笑小说系列	xok xoj shod xik liek	10
 笑笑孙亚龙	xok xok sund iak lugf	10
@@ -1409815,11 +1409921,9 @@ sort: by_weight
 潇潇雨未歇	xod xod yj uek xed	10
 小谢尔巴基	xoj xek erj bad jid	10
 小谢与秋容	xoj xek yj qud rugf	10
-小新的蜡笔	xoj xnd dev lak bij	10
 小心谨慎地	xoj xnd jnj shnk dev	10
 小辛码头村	xoj xnd maj touf cund	10
 小心没大错	xoj xnd meif dak cok	10
-小新没蜡笔	xoj xnd meif lak bij	10
 小新萌萌哒	xoj xnd mgf mgf dad	10
 小新牌螺丝	xoj xnd paif lof sid	10
 小心无大错	xoj xnd uf dak cok	10
@@ -1409867,7 +1409971,6 @@ sort: by_weight
 消炎利胆片	xod iwf lik dwj piwk	10
 小眼鳗鳞鳕	xoj iwj mwf linf xuej	10
 小眼一眨巴	xoj iwj ik zhaj bad	10
-小燕子紫薇	xoj iwk ziv zij ued	10
 逍遥津之战	xod iof jnd zhid zhwk	10
 逍遥丸水丸	xod iof uwf shuej uwf	10
 逍遥无极扇	xod iof uf jif shwk	10
@@ -1409919,7 +1410022,6 @@ sort: by_weight
 小盂鼎铭文	xoj yf digj migf unf	10
 小于或等于	xoj yf hok dgj yf	10
 小鱼冒个泡	xoj yf maok gek paok	10
-小羽萌萌哒	xoj yj mgf mgf dad	10
 小鱼去德国	xoj yf qyk def gof	10
 小于胎龄儿	xoj yf taid ligf erf	10
 小鱼吐泡泡	xoj yf tuj paok paok	10
@@ -1410198,6 +1410300,7 @@ sort: by_weight
 薪酬和福利	xnd chouf hek fuf lik	10
 心传导系统	xnd chuwf daoj xik tugj	10
 新川科技园	xnd chuwd ked jik ywf	10
+新传媒艺人	xnd chuwf meif ik rnf	10
 信创工作组	xnk churk gugd zok zuj	10
 新春的祝福	xnd chund dev zhuk fuf	10
 新春团拜会	xnd chund tuwf baik huek	10
@@ -1410691,7 +1410794,12 @@ sort: by_weight
 新斯科舍省	xnd sid ked shej shgj	10
 心似双丝网	xnd sik shurd sid urj	10
 新死亡游戏	xnd sij urf iuf xik	10
+心酸的感觉	xnd suwd dev gwj juef	10
+心酸的句子	xnd suwd dev jyk ziv	10
+心酸的浪漫	xnd suwd dev lrk mwk	10
+心酸的遇见	xnd suwd dev yk jwk	10
 心算世界杯	xnd suwk shik jek beid	10
+心酸又无奈	xnd suwd iuk uf naik	10
 心碎的感觉	xnd suek dev gwj juef	10
 心碎的句子	xnd suek dev jyk ziv	10
 心碎的女人	xnd suek dev nyj rnf	10
@@ -1410926,7 +1411034,6 @@ sort: by_weight
 心中有方向	xnd zhugd iuj frd xrk	10
 心轴试验法	xnd zhouf shik iwk faj	10
 信主的见证	xnk zhuj dev jwk zhgk	10
-新传媒艺人	xnd zhuwk meif ik rnf	10
 莘庄地铁站	xnd zhurd dik tiej zhwk	10
 薪资和福利	xnd zid hef fuf lik	10
 心字已成灰	xnd zik ij chgf hued	10
@@ -1436487,7 +1436594,7 @@ sort: by_weight
 儿童权利公约	erf tugf quwf lik gugd yed	10
 儿童权利宣言	erf tugf quwf lik xuwd iwf	10
 儿童权利组织	erf tugf quwf lik zuj zhid	10
-儿童心理发展	erf tugf xnd lij fak zhwj	10
+儿童心理发展	erf tugf xnd lij fad zhwj	10
 儿童心理健康	erf tugf xnd lij jwk krd	10
 儿童心理学家	erf tugf xnd lij xuef jad	10
 儿童心理专家	erf tugf xnd lij zhuwd jad	10
@@ -1436742,7 +1436849,7 @@ sort: by_weight
 反不正当竞争	fwj buf zhgk drd jgk zhgd	10
 反常光电效应	fwj chrf gurd diwk xok igk	10
 反常辉光放电	fwj chrf hued gurd frk diwk	10
-反常霍耳效应	fwj chrf hok erj xok igk	10
+反常霍尔效应	fwj chrf hok erj xok igk	10
 反常晶粒生长	fwj chrf jgd lik shgd zhrj	10
 反常可积函数	fwj chrf kej jid hwf shuk	10
 反常塞曼效应	fwj chrf said mwk xok igk	10
@@ -1450447,7 +1450554,6 @@ sort: by_weight
 量子擦除效应	lirk zij cad chuf xok igk	10
 量子穿隧效应	lirk zij chuwd suek xok igk	10
 量子霍尔效应	lirk zij hok erj xok igk	10
-量子霍耳效应	lirk zij hok erj xok igk	10
 量子简谐振子	lirk zij jwj xef zhnk zij	10
 量子力学诠释	lirk zij lik xuef quwf shik	10
 量子力学史话	lirk zij lik xuef shij huak	10
@@ -1467912,7 +1468018,7 @@ sort: by_weight
 新力唱片公司	xnd lik chrk piwd gugd sid	10
 心理承受能力	xnd lij chgf shouk ngf lik	10
 心理定价策略	xnd lij digk jak cek luek	10
-心理发展学家	xnd lij fak zhwj xuef jad	10
+心理发展学家	xnd lij fad zhwj xuef jad	10
 心理反应时间	xnd lij fwj igk shif jwd	10
 心理防卫机制	xnd lij frf uek jid zhik	10
 心理防御机制	xnd lij frf yk jid zhik	10
@@ -1468057,6 +1468163,7 @@ sort: by_weight
 新斯大林主义	xnd sid dak linf zhuj ik	10
 新斯科舍半岛	xnd sid ked shej bwk daoj	10
 心似已灰之木	xnd sik ij hued zhid muk	10
+心酸就心酸在	xnd suwd juk xnd suwd zaik	10
 心态的重要性	xnd taik dev zhugk iok xgk	10
 新台高速公路	xnd taif gaod suk gugd luk	10
 欣特尔施米丁	xnd tek erj shid mij digd	10
@@ -1468784,7 +1468891,7 @@ sort: by_weight
 削肾客的九叔	xued shnk kek dev juj shud	10
 学生的主动性	xuef shgd dev zhuj dugk xgk	10
 学生顶岗实习	xuef shgd digj grj shif xif	10
-学生发展指导	xuef shgd fak zhwj zhij daoj	10
+学生发展指导	xuef shgd fad zhwj zhij daoj	10
 学生和家长们	xuef shgd hef jad zhrj mnv	10
 学生会的一存	xuef shgd huek dev id cunf	10
 学生及其家长	xuef shgd jif qif jad zhrj	10
@@ -1491641,7 +1491748,7 @@ sort: by_weight
 乙型康乃馨斑点	ij xgf krd naij xnd bwd diwj	10
 噫吁戏危乎高哉	id xyd xik ued hud gaod zaid	10
 医学理论与实践	id xuef lij lunk yj shif jwk	10
-以学生发展为本	ij xuef shgd fak zhwj uef bnj	10
+以学生发展为本	ij xuef shgd fad zhwj uef bnj	10
 医学细胞生物学	id xuef xik baod shgd uk xuef	10
 以学习者为中心	ij xuef xif zhej uef zhugd xnd	10
 以迅雷不及掩耳	ij xunk leif buk jif iwj erj	10

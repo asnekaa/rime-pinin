@@ -46,9 +46,6 @@ sort: by_weight
 阿不都	a bu du	100
 阿布都	a bu du	100
 阿不都海米提	a bu du hai mi ti	100
-阿不都拉	a bu du la	100
-阿卜杜拉	a bu du la	100
-阿布杜拉	a bu du la	100
 阿布杜拉曼	a bu du la mw	100
 阿卜杜勒	a bu du le	100
 阿卜杜勒-阿齐兹	a bu du le a qi zi	100
@@ -122,6 +119,7 @@ sort: by_weight
 阿尔罕布拉宫的回忆	a er hw bu la gug de hue i	100
 阿尔汉格尔斯克州	a er hw ge er si ke zhou	100
 阿尔及利亚人	a er ji li ia rn	100
+阿尔卡迪奥	a er ka di ao	100
 阿尔·卡彭	a er ka pg	100
 阿尔坎塔拉	a er kw ta la	100
 阿尔马达	a er ma da	100
@@ -723,6 +721,7 @@ sort: by_weight
 爱得太卑微	ai de tai bei ue	100
 爱得太满	ai de tai mw	100
 爱得太深	ai de tai shn	100
+埃德温	ai de un	100
 艾德温	ai de un	100
 爱的温度	ai de un du	100
 艾德温范克里夫	ai de un fw ke li fu	100
@@ -1295,6 +1294,7 @@ sort: by_weight
 艾丝琳	ai si lin	100
 艾丝美拉达	ai si mei la da	100
 爱死你啦	ai si ni la	100
+埃斯帕特	ai si pa te	100
 埃斯珀	ai si po	100
 爱死他了	ai si ta le	100
 埃斯特班	ai si te bw	100
@@ -1405,8 +1405,7 @@ sort: by_weight
 艾叶糍粑	ai ie ci ba	100
 爱意疯长	ai i fg zhr	100
 爱一个人的感觉	ai i ge rn de gw jue	100
-爱一个人是什么	ai i ge rn shi shn me	100
-艾依依	ai i i	100
+艾因霍恩	ai in ho en	100
 爱因斯坦赤道	ai in si tw chi dao	100
 爱用不用	ai yg bu yg	100
 爱用者	ai yg zhe	100
@@ -2893,6 +2892,7 @@ sort: by_weight
 奥杜尔的秘密	ao du er de mi mi	100
 奥多姆	ao do mu	100
 奥恩省	ao en shg	100
+奥恩斯坦	ao en si tw	100
 奥尔巴尼	ao er ba ni	100
 奥尔德林	ao er de lin	100
 奥尔德尼岛	ao er de ni dao	100
@@ -2975,6 +2975,7 @@ sort: by_weight
 澳乐维他	ao le ue ta	100
 熬了夜	ao le ie	100
 熬了一夜	ao le i ie	100
+奥雷利亚诺	ao lei li ia no	100
 奥利安	ao li an	100
 奥利奥	ao li ao	100
 奥利奥麦旋风	ao li ao mai xuw fg	100
@@ -3088,6 +3089,7 @@ sort: by_weight
 奥斯卡最佳女主角	ao si ka zue ja ny zhu jue	100
 奥斯陆市	ao si lu shi	100
 奥寺美纪	ao si mei ji	100
+奥斯特利茨	ao si te li ci	100
 奥斯瓦尔德	ao si ua er de	100
 奥斯威辛集中营	ao si ue xn ji zhug ig	100
 奥塔门迪	ao ta mn di	100
@@ -3279,6 +3281,7 @@ sort: by_weight
 八八九一	ba ba ju i	100
 八八九一年	ba ba ju i niw	100
 爸爸觉得	ba ba jue de	100
+巴巴拉	ba ba la	100
 芭芭拉史翠姗	ba ba la shi cue shw	100
 爸爸来了	ba ba lai le	100
 巴巴里	ba ba li	100
@@ -11163,7 +11166,6 @@ sort: by_weight
 倍率高	bei ly gao	100
 被绿了	bei ly le	100
 倍率色差	bei ly se cha	100
-北旅田园	bei ly tiw yw	100
 被旅行	bei ly xg	100
 倍率性能	bei ly xg ng	100
 被骂得很惨	bei ma de hn cw	100
@@ -18059,6 +18061,7 @@ sort: by_weight
 不恶口	bu e kou	100
 不恶心	bu e xn	100
 不恶心的	bu e xn de	100
+布恩迪亚	bu en di ia	100
 布尔巴基	bu er ba ji	100
 布尔巴基学派	bu er ba ji xue pai	100
 不二家	bu er ja	100
@@ -33034,6 +33037,7 @@ sort: by_weight
 沉冤莫白	chn yw mo bai	100
 陈苑淇	chn yw qi	100
 尘缘未了	chn yw ue lio	100
+尘缘已了	chn yw i lio	100
 陈院长	chn yw zhr	100
 陈云程	chn yn chg	100
 陈云林	chn yn lin	100
@@ -46708,10 +46712,9 @@ sort: by_weight
 大和西大寺	da he xi da si	100
 大和西大寺站	da he xi da si zhw	100
 大赫穴	da he xue	100
-大河宴	da he iw	100
 大喝一口	da he i kou	100
 大合照	da he zhao	100
-大河子	da he zi	100
+大盒子	da he zi	100
 大黑蛋子	da hei dw zi	100
 大黑松	da hei sug	100
 大黑塔	da hei ta	100
@@ -66909,6 +66912,7 @@ sort: by_weight
 多拿点东西	do na diw dug xi	100
 躲哪里	do na li	100
 躲那里	do na li	100
+多纳泰洛	do na tai lo	100
 多那太罗	do na tai lo	100
 多难得	do nw de	100
 多难多灾	do nw do zai	100
@@ -74562,7 +74566,6 @@ sort: by_weight
 放入调料	fr ru tio lio	100
 放入调味料	fr ru tio ue lio	100
 方枘圆凿	fr rue yw zao	100
-方三俊	fr sw jun	100
 放三天假	fr sw tiw ja	100
 防骚扰	fr sao rao	100
 纺纱车	fr sha che	100
@@ -75776,6 +75779,9 @@ sort: by_weight
 非得知道	fei dei zhi dao	100
 非地产	fei di chw	100
 飞地经济	fei di jg ji	100
+费迪南	fei di nw	100
+费迪南德	fei di nw de	100
+费迪南多	fei di nw do	100
 非地球	fei di qu	100
 非递推	fei di tue	100
 飞地园区	fei di yw qy	100
@@ -85148,7 +85154,9 @@ sort: by_weight
 个儿矮	ge er ai	100
 格尔宾	ge er bin	100
 格尔宾梅卡托克	ge er bin mei ka to ke	100
+格尔达	ge er da	100
 个儿低	ge er di	100
+戈尔丁	ge er dig	100
 格尔夫波特	ge er fu bo te	100
 个儿高	ge er gao	100
 戈耳工	ge er gug	100
@@ -85751,6 +85759,8 @@ sort: by_weight
 戈塔特	ge ta te	100
 歌台舞榭	ge tai u xe	100
 歌坛地位	ge tw di ue	100
+戈特弗里德	ge te fu li de	100
+格特弗里德	ge te fu li de	100
 哥特人	ge te rn	100
 哥特式教堂	ge te shi jo tr	100
 哥特王朝	ge te ur chao	100
@@ -98362,6 +98372,8 @@ sort: by_weight
 海珠湿地	hai zhu shi di	100
 海珠校区	hai zhu xo qy	100
 还装不装了	hai zhur bu zhur le	100
+还追得上	hai zhue de shr	100
+还追得上吗	hai zhue de shr ma	100
 孩子不行	hai zi bu xg	100
 孩子参加	hai zi cw ja	100
 孩子成长	hai zi chg zhr	100
@@ -102892,7 +102904,6 @@ sort: by_weight
 何时发布	he shi fa bu	100
 何师傅	he shi fu	100
 何时公布	he shi gug bu	100
-河是河	he shi he	100
 核实后	he shi hou	100
 核实后再	he shi hou zai	100
 何时还	he shi huw	100
@@ -108001,7 +108012,6 @@ sort: by_weight
 华纳音乐	hua na in ye	100
 华纳音乐集团	hua na in ye ji tuw	100
 华纳娱乐	hua na y le	100
-华纳娱乐平台	hua na y le pig tai	100
 华南基地	hua nw ji di	100
 华南前汛期	hua nw qw xun qi	100
 华南沿海地区	hua nw iw hai di qy	100
@@ -134956,6 +134966,7 @@ sort: by_weight
 卡了一下	ka le i xa	100
 卡利贝尔	ka li bei er	100
 卡利登	ka li dg	100
+卡利古拉	ka li gu la	100
 卡利卡特	ka li ka te	100
 卡里克	ka li ke	100
 卡里没钱	ka li mei qw	100
@@ -138846,11 +138857,9 @@ sort: by_weight
 克劳德·香农	ke lao de xr nug	100
 克劳狄二世	ke lao di er shi	100
 克劳狄一世	ke lao di i shi	100
-克劳佛	ke lao fo	100
-克劳福	ke lao fu	100
 克劳芙特	ke lao fu te	100
-克劳可	ke lao ke	100
 可老了	ke lao le	100
+克劳斯威茨	ke lao si ue ci	100
 克劳修斯	ke lao xu si	100
 可乐啊	ke le a	100
 渴了吧	ke le ba	100
@@ -138902,7 +138911,6 @@ sort: by_weight
 克雷色利亚	ke lei se li ia	100
 克雷斯	ke lei si	100
 克雷斯吉	ke lei si ji	100
-克雷文	ke lei un	100
 克雷因	ke lei in	100
 克里奥尔	ke li ao er	100
 克里奥尔人	ke li ao er rn	100
@@ -143975,6 +143983,7 @@ sort: by_weight
 莱茵兰-普法尔茨	lai in lw pu fa er ci	100
 莱茵兰-普法尔茨州	lai in lw pu fa er ci zhou	100
 来因去果	lai in qy go	100
+莱因斯	lai in si	100
 来硬的	lai ig de	100
 濑由衣	lai iu i	100
 赖宇恒	lai y hg	100
@@ -146446,6 +146455,7 @@ sort: by_weight
 里奥厂长	li ao chr zhr	100
 里奥格兰德	li ao ge lw de	100
 里奥梅西	li ao mei xi	100
+利巴菲乌斯	li ba fei u si	100
 篱笆卡	li ba ka	100
 黎巴嫩首都贝鲁特	li ba nn shou du bei lu te	100
 篱笆女人和狗	li ba ny rn he gou	100
@@ -148335,7 +148345,6 @@ sort: by_weight
 离子浓度计	li zi nug du ji	100
 李子柒	li zi qi	100
 立姿射击	li zi she ji	100
-李自威	li zi ue	100
 粒子物理	li zi u li	100
 粒子物理学	li zi u li xue	100
 李子璇	li zi xuw	100
@@ -156397,6 +156406,7 @@ sort: by_weight
 路阻且长	lu zu qe chr	100
 路尊小霸王	lu zun xo ba ur	100
 乱把白云揉碎	luw ba bai yn rou sue	100
+乱邦不居	luw br bu jy	100
 卵不敌石	luw bu di shi	100
 乱步轩	luw bu xuw	100
 乱猜的	luw cai de	100
@@ -158615,6 +158625,7 @@ sort: by_weight
 马圭省	ma gue shg	100
 马哈迪	ma ha di	100
 马哈拉施特拉邦	ma ha la shi te la br	100
+马哈茂德	ma ha mao de	100
 马海德	ma hai de	100
 马海生	ma hai shg	100
 马鹤琪	ma he qi	100
@@ -158676,7 +158687,7 @@ sort: by_weight
 马克·伊顿	ma ke i dun	100
 马科长	ma ke zhr	100
 马裤呢	ma ku ni	100
-马库色	ma ku se	100
+马库塞	ma ku se	100
 马困人乏	ma kun rn fa	100
 马拉地	ma la di	100
 马拉地语	ma la di y	100
@@ -159102,6 +159113,7 @@ sort: by_weight
 马戏节	ma xi je	100
 马西莫夫	ma xi mo fu	100
 马戏团表演	ma xi tuw bio iw	100
+马西亚斯	ma xi ia si	100
 玛夏多	ma xa do	100
 抹下来	ma xa lai	100
 抹下去	ma xa qy	100
@@ -162670,8 +162682,6 @@ sort: by_weight
 美国西部牛仔	mei go xi bu niu zai	100
 美国西部片	mei go xi bu piw	100
 美国西点军校	mei go xi diw jun xo	100
-没过膝盖	mei go xi gai	100
-没过线	mei go xw	100
 美国乡村音乐	mei go xr cun in ye	100
 美国小姐	mei go xo je	100
 美国校园	mei go xo yw	100
@@ -169945,9 +169955,19 @@ sort: by_weight
 魔鬼司令	mo gue si lig	100
 魔鬼邂逅	mo gue xe hou	100
 魔鬼在人间	mo gue zai rn jw	100
+没过脖子	mo go bo zi	100
 没过鸡爪	mo go ji zhao	100
 没过鸡爪	mo go ji zhua	100
 抹果酱	mo go jr	100
+没过脚踝	mo go jo hui	100
+没过了	mo go le	100
+没过膝盖	mo go xi gai	100
+没过胸部	mo go xug bu	100
+没过胸口	mo go xug kou	100
+没过胸膛	mo go xug tr	100
+没过腰部	mo go io bu	100
+没过腰际	mo go io ji	100
+没过腰身	mo go io shn	100
 莫哈韦沙漠	mo ha ue sha mo	100
 墨海马	mo hai ma	100
 磨耗症	mo hao zhg	100
@@ -173029,8 +173049,11 @@ sort: by_weight
 那他就是	na ta ju shi	100
 娜塔莉·安博莉亚	na ta li an bo li ia	100
 拿他没办法	na ta mei bw fa	100
+拿她没办法	na ta mei bw fa	100
 拿他没有办法	na ta mei iu bw fa	100
+拿她没有办法	na ta mei iu bw fa	100
 拿他没辙	na ta mei zhe	100
+拿她没辙	na ta mei zhe	100
 那他们还在	na ta mn hai zai	100
 拿他们没办法	na ta mn mei bw fa	100
 纳塔乃耳	na ta nai er	100
@@ -180505,6 +180528,7 @@ sort: by_weight
 牛波一	niu bo i	100
 牛叉闪闪	niu cha shw shw	100
 牛长熊短	niu chr xug duw	100
+扭秤实验	niu chg shi iw	100
 钮承泽	niu chg ze	100
 纽储行	niu chu hr	100
 扭出来	niu chu lai	100
@@ -194205,6 +194229,7 @@ sort: by_weight
 青春逆行	qg chun ni xg	100
 青春抛物线	qg chun pao u xw	100
 清纯如一	qg chun ru i	100
+青春少艾	qg chun shao ai	100
 青春诗会	qg chun shi hue	100
 青春失乐园	qg chun shi le yw	100
 青春是什么	qg chun shi shn me	100
@@ -215191,6 +215216,7 @@ sort: by_weight
 省安监局	shg an jw jy	100
 省安委办	shg an ue bw	100
 省安委会	shg an ue hue	100
+圣巴巴拉	shg ba ba la	100
 声霸卡	shg ba ka	100
 生八胎	shg ba tai	100
 省百大项目	shg bai da xr mu	100
@@ -216629,6 +216655,7 @@ sort: by_weight
 生命周期长	shg mig zhou qi chr	100
 绳墨规矩	shg mo gue jy	100
 圣莫里茨	shg mo li ci	100
+圣莫尼卡	shg mo ni ka	100
 绳墨之言	shg mo zhi iw	100
 盛某某	shg mou mou	100
 圣母婊	shg mu bio	100
@@ -217057,7 +217084,6 @@ sort: by_weight
 圣索菲亚大教堂	shg so fei ia da jo tr	100
 绳索套	shg so tao	100
 圣塔伦	shg ta lun	100
-圣塔蒙尼加	shg ta mg ni ja	100
 省台办	shg tai bw	100
 生态补偿制度	shg tai bu chr zhi du	100
 生态不好	shg tai bu hao	100
@@ -222010,7 +222036,6 @@ sort: by_weight
 石田将也	shi tiw jr ie	100
 十天课	shi tiw ke	100
 十天内	shi tiw nei	100
-施天诺	shi tiw no	100
 十天前	shi tiw qw	100
 誓天指日	shi tiw zhi ri	100
 十条要	shi tio io	100
@@ -223827,7 +223852,6 @@ sort: by_weight
 受传统观念影响	shou chuw tug guw niw ig xr	100
 首创人	shou chur rn	100
 首次参加	shou ci cw ja	100
-首次参加世界杯	shou ci cw ja shi je bei	100
 首次参赛	shou ci cw sai	100
 首次参展	shou ci cw zhw	100
 首次充值	shou ci chug zhi	100
@@ -225386,6 +225410,7 @@ sort: by_weight
 属猴的	shu hou de	100
 曙后星孤	shu hou xg gu	100
 蜀后主刘禅	shu hou zhu liu shw	100
+属虎的	shu hu de	100
 疏忽了	shu hu le	100
 疏忽职守	shu hu zhi shou	100
 书画会	shu hua hue	100
@@ -227415,8 +227440,6 @@ sort: by_weight
 水晶室女	shue jg shi ny	100
 水晶枢纽	shue jg shu niu	100
 水晶台历	shue jg tai li	100
-水精通	shue jg tug	100
-水晶网	shue jg ur	100
 水晶系列	shue jg xi lie	100
 水晶虾	shue jg xa	100
 水晶先锋	shue jg xw fg	100
@@ -227559,7 +227582,6 @@ sort: by_weight
 水满为患	shue mw ue huw	100
 谁没点	shue mei diw	100
 谁没点儿	shue mei diw er	100
-水没过	shue mei go	100
 谁没年轻过	shue mei niw qg go	100
 睡美容觉	shue mei rug jo	100
 谁没事	shue mei shi	100
@@ -227592,6 +227614,7 @@ sort: by_weight
 水墨丹青	shue mo dw qg	100
 水魔方	shue mo fr	100
 水磨工夫	shue mo gug fu	100
+水没过	shue mo go	100
 水魔神	shue mo shn	100
 水磨石地板	shue mo shi di bw	100
 水磨石地面	shue mo shi di miw	100
@@ -233276,6 +233299,7 @@ sort: by_weight
 素来都	su lai dou	100
 速来救人	su lai ju rn	100
 素来鲁莽	su lai lu mr	100
+苏莱曼尼	su lai mw ni	100
 素来如此	su lai ru ci	100
 速来速往	su lai su ur	100
 素来希望	su lai xi ur	100
@@ -235265,7 +235289,6 @@ sort: by_weight
 踏浪前行	ta lr qw xg	100
 她老公	ta lao gug	100
 他老婆	ta lao po	100
-他了吧	ta le ba	100
 塔勒布	ta le bu	100
 塔利东路	ta li dug lu	100
 他离开了	ta li kai le	100
@@ -238611,10 +238634,8 @@ sort: by_weight
 特兰克斯	te lw ke si	100
 特朗德尔	te lr de er	100
 特朗普	te lr pu	100
-特朗普签署行政令	te lr pu qw shu xg zhg lig	100
 特朗普弹劾案	te lr pu tw he an	100
 特朗普长子	te lr pu zhr zi	100
-特朗普支持率	te lr pu zhi chi ly	100
 特雷瑟	te lei se	100
 特蕾丝约海于格	te lei si ye hai y ge	100
 特雷西	te lei xi	100
@@ -243775,6 +243796,7 @@ sort: by_weight
 通关速度	tug guw su du	100
 通关文牒	tug guw un die	100
 通关效率	tug guw xo ly	100
+铜官窑	tug guw io	100
 通光纤	tug gur xw	100
 同光中兴	tug gur zhug xg	100
 同规模	tug gue mo	100
@@ -250603,7 +250625,7 @@ sort: by_weight
 为傲的是	ue ao de shi	100
 尾巴长	ue ba chr	100
 尾巴工程	ue ba gug chg	100
-微白城市	ue bai chg shi	100
+危邦不入	ue br bu ru	100
 未爆弹	ue bao dw	100
 微曝光	ue bao gur	100
 微曝光拖影	ue bao gur to ig	100
@@ -250930,6 +250952,7 @@ sort: by_weight
 维尔布鲁根	ue er bu lu gn	100
 威尔第	ue er di	100
 威而刚	ue er gr	100
+威尔科克斯	ue er ke ke si	100
 维尔梅	ue er mei	100
 维尔切克	ue er qe ke	100
 维尔容	ue er rug	100
@@ -251584,8 +251607,10 @@ sort: by_weight
 威廉·福克纳	ue liw fu ke na	100
 威廉·戈尔丁	ue liw ge er dig	100
 威廉古堡	ue liw gu bao	100
+威廉森	ue liw sn	100
 威廉·莎士比亚	ue liw sha shi bi ia	100
 威廉斯堡	ue liw si bao	100
+威廉松	ue liw sug	100
 威联通科技	ue liw tug ke ji	100
 未联系	ue liw xi	100
 威廉·亚历山大	ue liw ia li shw da	100
@@ -253906,6 +253931,8 @@ sort: by_weight
 闻着味	un zhe ue	100
 闻着味道	un zhe ue dao	100
 闻着味儿	un zhe ue er	100
+闻着味儿就来了	un zhe ue er ju lai le	100
+闻着味就来了	un zhe ue ju lai le	100
 闻着香	un zhe xr	100
 闻着香味	un zhe xr ue	100
 温折枝	un zhe zhi	100
@@ -269544,19 +269571,16 @@ sort: by_weight
 香港区旗	xr gr qy qi	100
 香港十大劲歌金曲	xr gr shi da jg ge jn qy	100
 香港湿地公园	xr gr shi di gug yw	100
-香港四大才子	xr gr si da cai zi	100
 香港特别行政区区旗	xr gr te bie xg zhg qy qy qi	100
 香港特区行政长官	xr gr te qy xg zhg zhr guw	100
 香港万得通讯社	xr gr uw de tug xun she	100
 香港湾仔	xr gr uw zai	100
-香港文化中心	xr gr un hua zhug xn	100
+香港文化	xr gr un hua	100
 香港行	xr gr xg	100
-香港醒狮团	xr gr xg shi tuw	100
 香港学校	xr gr xue xo	100
 香港译作	xr gr i zo	100
 香港银行	xr gr in hr	100
 香港银行公会	xr gr in hr gug hue	100
-香港银行开户	xr gr in hr kai hu	100
 香港银行账户	xr gr in hr zhr hu	100
 香港音乐	xr gr in ye	100
 香港邮报	xr gr iu bao	100
@@ -283008,7 +283032,6 @@ sort: by_weight
 巡视制度	xun shi zhi du	100
 寻事滋事	xun shi zi shi	100
 巡视组组长	xun shi zu zu zhr	100
-训兽术	xun shou shu	100
 旬输月送	xun shu ye sug	100
 徇私背公	xun si bei gug	100
 徇私枉法之人	xun si ur fa zhi rn	100
@@ -293390,6 +293413,7 @@ sort: by_weight
 一屏展码	i pig zhw ma	100
 一瓶子不满	i pig zi bu mw	100
 一抔之土	i pou zhi tu	100
+伊普斯威奇	i pu si ue qi	100
 伊普西隆	i pu xi lug	100
 一起按	i qi an	100
 一起按下	i qi an xa	100
@@ -304605,6 +304629,7 @@ sort: by_weight
 有扬沙	iu ir sha	100
 酉阳土家族苗族自治县	iu ir tu ja zu mio zu zi zhi xw	100
 有阳性	iu ir xg	100
+右腰侧	iu io ce	100
 又要出门	iu io chu mn	100
 又要来了	iu io lai le	100
 又要来了吗	iu io lai le ma	100
@@ -306102,12 +306127,9 @@ sort: by_weight
 玉貌花容	y mao hua rug	100
 羽毛球比赛	y mao qu bi sai	100
 羽毛球场地	y mao qu chr di	100
-羽毛球馆木地板	y mao qu guw mu di bw	100
 羽毛球俱乐部	y mao qu jy le bu	100
-羽毛球木地板	y mao qu mu di bw	100
 于美红	y mei hug	100
 郁美净	y mei jg	100
-于美人	y mei rn	100
 虞美人盛开的山坡	y mei rn shg kai de shw po	100
 愚眉肉眼	y mei rou iw	100
 与美同行	y mei tug xg	100
@@ -323982,7 +324004,6 @@ sort: by_weight
 只影全无	zhi ig quw u	100
 直营体系	zhi ig ti xi	100
 只应天上有	zhi ig tiw shr iu	100
-直营校	zhi ig xo	100
 直营校区	zhi ig xo qy	100
 织影者	zhi ig zhe	100
 只用到	zhi yg dao	100
@@ -332351,6 +332372,7 @@ sort: by_weight
 锥刀之利	zhue dao zhi li	100
 锥刀之末	zhue dao zhi mo	100
 追得上	zhue de shr	100
+追得上吗	zhue de shr ma	100
 锥度缩管机	zhue du so guw ji	100
 追分模式	zhue fn mo shi	100
 追风杯	zhue fg bei	100
@@ -338931,6 +338953,7 @@ sort: by_weight
 左眼皮	zo iw pi	100
 左眼皮跳	zo iw pi tio	100
 左眼皮跳跳	zo iw pi tio tio	100
+左腰侧	zo io ce	100
 佐野菜见	zo ie cai jw	100
 作业场地	zo ie chr di	100
 作业的效率	zo ie de xo ly	100
