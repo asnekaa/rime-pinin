@@ -1,4 +1,7 @@
+import argparse
 import re
+import shutil
+import sys
 from functools import lru_cache
 from pathlib import Path
 
@@ -45,6 +48,10 @@ TONE_MARKS = 'dfjkv'
 SCRIPT_DIR = Path(__file__).resolve().parent
 RIME_ROOT = SCRIPT_DIR.parent
 DICT_DIR = RIME_ROOT / 'dicts'
+DICT_SOURCES = (
+    RIME_ROOT / 'rime-ice' / 'cn_dicts',
+    RIME_ROOT / 'rime-wanxiang-data' / 'dicts',
+)
 
 
 def strip_tone(syl: str) -> tuple[str, int | None]:
@@ -104,12 +111,43 @@ def file_has_tone(content: str) -> bool:
     )
 
 
-def print_progress(
-    filename: str,
-    current: int,
-    total: int,
-    count: int,
-) -> None:
+def sync_dicts() -> int:
+    staged: dict[str, Path] = {}
+
+    for source in DICT_SOURCES:
+        if not source.is_dir():
+            print(f'  跳过（目录不存在）: {source}')
+            continue
+
+        found = sorted(p for p in source.glob('*.dict.yaml') if p.is_file())
+
+        for path in found:
+            staged[path.name] = path
+
+        print(f'  {source.name}: {len(found)} 个')
+
+    if not staged:
+        print('  没有找到来源词库，dicts 保持原样')
+        return 0
+
+    removed = 0
+
+    for path in sorted(DICT_DIR.glob('*.dict.yaml')):
+        if path.is_file():
+            path.unlink()
+            removed += 1
+
+    copied = 0
+
+    for name, source in sorted(staged.items()):
+        shutil.copyfile(source, DICT_DIR / name)
+        copied += 1
+
+    print(f'  删除 {removed} 个旧文件，复制 {copied} 个新文件')
+    return copied
+
+
+def print_progress(filename: str, current: int, total: int, count: int) -> None:
     percent = current / total * 100 if total else 100
 
     print(
@@ -122,7 +160,7 @@ def print_progress(
     )
 
 
-def convert_file(path: Path) -> int:
+def convert_file(path: Path, dry_run: bool) -> int:
     try:
         original = path.read_text(encoding='utf-8')
     except UnicodeDecodeError:
@@ -157,8 +195,8 @@ def convert_file(path: Path) -> int:
 
     print()
 
-    if count == 0:
-        return 0
+    if count == 0 or dry_run:
+        return count
 
     new_content = '\n'.join(out_lines)
 
@@ -173,9 +211,23 @@ def convert_file(path: Path) -> int:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description='把词库拼音列转成 Pinin 编码。')
+    parser.add_argument('--dry-run', action='store_true', help='只统计会改多少条，不写文件')
+    parser.add_argument('--no-sync', action='store_true', help='不删除/复制 dicts，直接在现有文件上改')
+    args = parser.parse_args()
+
     if not DICT_DIR.is_dir():
         print(f'目录不存在: {DICT_DIR}')
         return
+
+    if args.dry_run:
+        print('模式: 试运行（不写文件）')
+        print()
+
+    if not args.no_sync:
+        print('同步来源词库 → dicts')
+        sync_dicts()
+        print()
 
     files = sorted(p for p in DICT_DIR.iterdir() if p.is_file())
 
@@ -183,21 +235,21 @@ def main() -> None:
         print(f'目录为空: {DICT_DIR}')
         return
 
-    total = 0
-
-    print(f'开始处理，共 {len(files)} 个文件')
     print(f'目标目录: {DICT_DIR}')
+    print(f'开始处理，共 {len(files)} 个文件')
     print()
+
+    total = 0
 
     for index, path in enumerate(files, 1):
         print(f'[{index}/{len(files)}] {path.name}')
 
-        count = convert_file(path)
+        count = convert_file(path, args.dry_run)
 
         if count < 0:
             print(f'  跳过（非 UTF-8）: {path.name}')
         else:
-            print(f'  完成：{count} 条')
+            print(f'  完成：转换 {count} 条')
             total += count
 
         print()
@@ -207,4 +259,4 @@ def main() -> None:
 
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())

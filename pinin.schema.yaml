@@ -272,14 +272,15 @@ speller:
   initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA1234567890
   delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   algebra:
-    - erase/^o[dfjkv]?$/
     - erase/^m[dfjkv]?$/    
 
     - derive/^an([dfjkv]?)$/w$1/
     - derive/ao([dfjkv]?)$/au$1/
+    - derive/ou([dfjkv]?)$/eu$1/
     - derive/^([bpmf])g([dfjkv]?)$/$1ug$2/
     - derive/^([dtnlgkhjqxzcsr]|zh|ch|sh)g([dfjkv]?)$/$1n$2/
     - derive/ig([dfjkv]?)$/in$1/
 
     - abbrev/^([a-z]).+?([dfjkv]?)$/$1$2/
     - abbrev/^([zcs]h).+?([dfjkv]?)$/$1$2/
+    - derive/^([a-z]{2,})[dfjkv]$/$1/

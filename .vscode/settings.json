@@ -3,7 +3,12 @@
     "editor.insertSpaces": false,
     "editor.tabSize": 8
   },
+  "[tsv]": {
+    "editor.insertSpaces": false,
+    "editor.tabSize": 8
+  },
   "files.associations": {
+    "**/custom_phrase/pinin.txt": "tsv",
     "*.txt": "plaintext"
   }
 }
