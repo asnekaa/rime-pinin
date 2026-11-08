@@ -15,7 +15,6 @@
 # 此行之后不能写注释
 
 欸	ei
-哦	ou
 唔	u	1
 呜	u
 呜呜	uu
@@ -30,6 +29,12 @@
 的时候	dsh
 了	l
 咯	lv
+
+我	o
+他	t	1
+她	t
+它	ta
+它们	tam
 
 已经	ij
 意思	is
@@ -104,13 +109,9 @@
 都是	dous
 但是	ds
 但	dw
+等会	dnh
 对了	duel
 东西	dx
-
-他	t	1
-她	t
-它	ta
-它们	tam
 
 天天	tt
 听过	ting
