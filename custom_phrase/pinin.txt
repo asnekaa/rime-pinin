@@ -42,6 +42,7 @@
 有人	iur
 又	iuk
 又会	iukh
+音	in
 应该	ig
 
 无所谓	usu
@@ -58,6 +59,7 @@
 背景	beijn
 比如	bir
 别人	bier
+别的	bied
 变	biw
 
 不	bu
@@ -67,6 +69,7 @@
 不把	bba
 不能	bn
 不过	bg
+不改	bgaij
 不好	bhj
 不会	bh
 不会吧	bhb
@@ -122,6 +125,7 @@
 那样	nki
 那个	nkg
 那个	nkge
+那就	nkj
 那些	nkx
 那种	nkz
 怎	zn
@@ -158,6 +162,7 @@
 跟	gn
 根本	gb
 
+可以	ki
 可能	kn
 可是	ks
 看看	kk
@@ -172,6 +177,7 @@
 好玩	hjuw
 好吧	hjb
 好多	hjdo
+好的	hjd
 好了	hjl
 好久	hjj
 号	hao
@@ -187,6 +193,7 @@
 就能	jn
 就好	jhj
 就会	jh
+就像	jxk
 就行	jx
 就行了	jxl
 就算	jsk
@@ -229,6 +236,7 @@
 
 时	sf
 时候	sfh
+时间	sfj
 是	s
 是吧	sb
 是吗	sm
@@ -236,6 +244,7 @@
 试试	ssv
 视频	sp
 啥意思	shais
+删了	shwl
 什么	sm	1
 什么意思	smis
 什么用	smy

@@ -45,6 +45,11 @@ TONE_MAP = {
 
 TONE_MARKS = 'dfjkv'
 
+MANUAL_OVERRIDES = {
+    ('哦', 'o'): 'ou',
+    ('噢', 'o'): 'ao',
+}
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 RIME_ROOT = SCRIPT_DIR.parent
 DICT_DIR = RIME_ROOT / 'dicts'
@@ -74,8 +79,18 @@ def strip_tone(syl: str) -> tuple[str, int | None]:
     return ''.join(out), tone
 
 
+def split_syllable(syl: str, apply_tone: bool) -> tuple[str, int | None]:
+    if apply_tone:
+        return strip_tone(syl)
+
+    if len(syl) > 1 and syl[-1] in TONE_MARKS:
+        return syl[:-1], TONE_MARKS.index(syl[-1]) + 1
+
+    return syl, None
+
+
 @lru_cache(maxsize=65536)
-def process_syllable(syl: str, apply_tone: bool) -> str:
+def rules_convert(syl: str, apply_tone: bool) -> str:
     if apply_tone:
         base, tone = strip_tone(syl)
     else:
@@ -90,10 +105,42 @@ def process_syllable(syl: str, apply_tone: bool) -> str:
     return base
 
 
-def process_pinyin(pinyin: str, apply_tone: bool) -> str:
+@lru_cache(maxsize=65536)
+def process_syllable(syl: str, apply_tone: bool, word: str, char: str) -> str:
+    base, tone = split_syllable(syl, apply_tone)
+
+    target = None
+
+    if word:
+        target = MANUAL_OVERRIDES.get((word, base))
+
+    if target is None and char:
+        target = MANUAL_OVERRIDES.get((char, base))
+
+    if target is None:
+        return rules_convert(syl, apply_tone)
+
+    if tone is None and apply_tone:
+        tone = 5
+
+    if tone is not None:
+        target += TONE_MARKS[tone - 1]
+
+    return target
+
+
+def process_pinyin(pinyin: str, apply_tone: bool, text: str = '') -> str:
+    syllables = pinyin.split()
+
+    if not syllables:
+        return ''
+
+    word = text if len(syllables) == 1 else ''
+    chars = list(text) if len(text) == len(syllables) else [''] * len(syllables)
+
     return ' '.join(
-        process_syllable(syl, apply_tone)
-        for syl in pinyin.split()
+        process_syllable(syl, apply_tone, word, char)
+        for char, syl in zip(chars, syllables)
     )
 
 
@@ -182,7 +229,11 @@ def convert_file(path: Path, dry_run: bool) -> int:
             if len(parts) < 2 or not is_pinyin_col(parts[1]):
                 out_lines.append(line)
             else:
-                new_pinyin = process_pinyin(parts[1], apply_tone)
+                new_pinyin = process_pinyin(
+                    parts[1],
+                    apply_tone,
+                    parts[0],
+                )
 
                 if new_pinyin != parts[1]:
                     count += 1
