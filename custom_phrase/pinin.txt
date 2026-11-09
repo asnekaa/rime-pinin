@@ -30,12 +30,16 @@
 了	l
 咯	lv
 
-我	o
+零	0
+
 他	t	1
+他们	tm	1
 她	t
+她们	tm
 它	ta
 它们	tam
 
+一会	ih
 已经	ij
 意思	is
 要	io
@@ -150,6 +154,8 @@
 
 能	n
 
+来	lf
+来点	lfdiw
 里	li
 里面	lm
 
@@ -157,6 +163,7 @@
 过	g
 过多	gdo
 过了	gl
+过程	gchn
 搞	gau
 搞过	gaug
 感觉	gj
@@ -172,6 +179,7 @@
 还	hf
 还没	hfm
 还能	hfn
+还会	hfh
 还在	hfz
 还是	hfs
 好	hj
@@ -187,6 +195,8 @@
 会吧	hb
 
 加	ja
+加点	jadiw
+加个	jage
 加些	jax
 就	j
 就要	jio
@@ -210,7 +220,9 @@
 写在	xez
 想	xj
 想象	xjxk
+想在	xjz
 像	xk
+像是	xks
 行	x
 行吧	xb
 行了	xl

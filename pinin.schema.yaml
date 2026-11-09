@@ -67,6 +67,7 @@ engine:
     - lua_translator@*number_translator  # 数字、金额大写
     - lua_translator@*calc_translator    # 计算器
     - lua_translator@*force_gc           # 暴力 GC
+    - lua_translator@*pinin.numeric_candidate  # 纯数字原样候选
   filters:
     - lua_filter@*pinin.custom_phrase_marker
     - lua_filter@*corrector                         # 错音错字提示
