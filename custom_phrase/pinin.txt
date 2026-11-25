@@ -15,6 +15,7 @@
 # 此行之后不能写注释
 
 欸	ei
+呀	ia
 唔	u	1
 呜	u
 呜呜	uu
@@ -32,6 +33,8 @@
 
 零	0
 
+我	o
+我的	od
 他	t	1
 他们	tm	1
 她	t
@@ -40,17 +43,25 @@
 它们	tam
 
 一会	ih
+一模一样	imii
 已经	ij
 意思	is
 要	io
 要不要	ibi
 要不然	ibr
+也	ie
+也能	ien
+也可以	ieki
 有	iu
+有用	iuy
 有没有	imi
 有的	iud
+有些	iux
+有时候	ish
 有人	iur
 又	iuk
 又会	iukh
+又是	iuks
 音	in
 应该	ig
 
@@ -69,6 +80,7 @@
 比如	bir
 别人	bier
 别的	bied
+表示	bios
 变	biw
 
 不	bu
@@ -84,7 +96,11 @@
 不会吧	bhb
 不就	bj
 不就行了	bjxl
+不想	bxj
+不像	bxk
 不行	bx
+不信	bxn
+不需要	bxi
 不在	bz
 不只是	bzjs
 不是	bs
@@ -92,8 +108,10 @@
 
 旁边	pb
 评论	pl
+普通	pt
 
 没	mei
+没意义	mii
 没有	miu
 没用	my
 没问题	mut
@@ -114,6 +132,9 @@
 但是	ds
 但	dw
 等会	dnh
+对	due
+对吧	dueb
+对吗	duem
 对了	duel
 东西	dx
 
@@ -128,12 +149,14 @@
 哪些	njx
 那	nk
 那样	nki
+那么	nm
 那个	nkg
 那个	nkge
 那就	nkj
 那些	nkx
 那种	nkz
 怎	zn
+怎样	zi
 怎么	zm
 怎么写	zmxe
 这	zh
@@ -142,6 +165,7 @@
 这里	zhli
 这个	zhg
 这个	zhge
+这下	zhxa
 这些	zhx
 这是	zhs
 这时	zhsf
@@ -149,20 +173,23 @@
 这种	zhzh
 只	zj
 只能	zjn
+只会	zjh
 只在	zjz
 只是	zjs
 
 能	n
+能够	ng
 
 来	lf
 来点	lfdiw
 里	li
 里面	lm
 
-果然	grw
+果然	gr
 过	g
 过多	gdo
 过了	gl
+过来	glf
 过程	gchn
 搞	gau
 搞过	gaug
@@ -171,6 +198,7 @@
 根本	gb
 
 可以	ki
+可以的	kid
 可能	kn
 可是	ks
 看看	kk
@@ -187,10 +215,16 @@
 好吧	hjb
 好多	hjdo
 好的	hjd
+好听	hjt
 好了	hjl
 好久	hjj
 号	hao
 后	hk
+后面	hkm
+很	hn
+很想	hnxj
+回	hue
+回听	huet
 会	h
 会吧	hb
 
@@ -198,6 +232,7 @@
 加点	jadiw
 加个	jage
 加些	jax
+结果	jeg
 就	j
 就要	jio
 就用	jy
@@ -212,21 +247,29 @@
 就是	js
 就是说	jss
 就说	jsho
+经常	jc
 竟然	jr
 居然	jr
+觉得	jd
 
 写	xe
 写为	xeue
 写在	xez
+小写	xoxe
+显示	xs
+现在	xz
 想	xj
-想象	xjxk
+想像	xjxk
+想象	xjxr
 想在	xjz
 像	xk
 像是	xks
 行	x
 行吧	xb
+行吗	xm
 行了	xl
 
+作用	zoy
 在	z
 在哪	znj
 再	zk
@@ -239,6 +282,7 @@
 所以	si
 所以说	sis
 所有	siu
+虽然	sr
 算	sk
 算了	skl
 
@@ -250,9 +294,12 @@
 时	sf
 时候	sfh
 时间	sfj
+时钟	sfzhug
 是	s
 是吧	sb
+是不是	sbs
 是吗	sm
+是什么	ssm
 事	shi
 试试	ssv
 视频	sp
@@ -262,20 +309,23 @@
 什么意思	smis
 什么用	smy
 什么时候	smsh
-虽然	sr
+甚至	sz
 
 然后	rh
 人	r
 如果	rg
 
 Alice in Cradle	aic
-Discord	dc
-Geometry Dash	gd
-GitHub	gh
+Discord	DC
+Geometry Dash	GD
+GitHub	GH
 
 音色	inse
 Ableton Live	live
-FL Studio	fl
+FL Studio	FL
+
+立即数	ljs
+Turing Complete	TC
 
 夜羊社	iis
 拔作	bazo
@@ -293,19 +343,25 @@ bilibili	blbl
 思维驰	suc	1
 switch	suc
 
-又寸	iucun
 啊这	az
+又寸	iucun
+玩不玩	vbv	1
+van不van	vbv
 表情包	bqb
 绷不住了	bbzl
 イ尔女子	nihj
 离谱	lp
 裂开了	lkl
 怪怪的	ggd
+口牙	kouia
 康康	krkr
+何意味	hiu
 豪	hauf
 豪德	haud
 豪庭	haut
+好欸	hjei
 好怪哦	hgo
+好好	hjhj
 好好笑	hhx
 好家伙	hjh
 就离谱	jlp
