@@ -54,6 +54,7 @@ engine:
     # - reverse_lookup_translator@moran # for kagiroi # for moran revserse lookup
     - table_translator@custom_phrase
     - lua_translator@*kagiroi/kagiroi_translator
+    - lua_translator@*pinin/long_vowel
   filters:
     - simplifier@emoji
     - uniquifier
